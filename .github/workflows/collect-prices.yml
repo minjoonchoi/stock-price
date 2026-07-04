@@ -16,6 +16,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    environment: STOCK_PRICE
     env:
       STOCK_PRICE_START_DATE: ${{ vars.STOCK_PRICE_START_DATE }}
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
