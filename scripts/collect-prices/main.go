@@ -37,17 +37,27 @@ func run(ctx context.Context, args []string) error {
 		return err
 	}
 
-	startDate, err := collector.ParseDate(options.startDate)
-	if err != nil {
-		return fmt.Errorf("parse start date: %w", err)
+	var startDate time.Time
+	if options.startDate != "" {
+		parsedStartDate, err := collector.ParseDate(options.startDate)
+		if err != nil {
+			return fmt.Errorf("parse start date: %w", err)
+		}
+		startDate = parsedStartDate
 	}
 
 	httpClient := &http.Client{Timeout: options.timeout}
 	store := collector.NewFileStore(options.dataDir)
-	provider := collector.NewYahooProvider(collector.YahooProviderConfig{
-		UserAgent: options.userAgent,
-		Client:    httpClient,
-	})
+	provider := collector.NewFallbackProvider(
+		collector.NewYahooProvider(collector.YahooProviderConfig{
+			UserAgent: options.userAgent,
+			Client:    httpClient,
+		}),
+		collector.NewStooqProvider(collector.StooqProviderConfig{
+			UserAgent: options.userAgent,
+			Client:    httpClient,
+		}),
+	)
 
 	companies, err := companiesForRun(ctx, options, httpClient)
 	if err != nil {
@@ -77,7 +87,7 @@ func parseOptions(args []string) (options, error) {
 
 	flags := flag.NewFlagSet("collect-prices", flag.ContinueOnError)
 	flags.SetOutput(io.Discard)
-	flags.StringVar(&opts.startDate, "start-date", "1970-01-01", "initial collection date in YYYY-MM-DD format")
+	flags.StringVar(&opts.startDate, "start-date", os.Getenv("STOCK_PRICE_START_DATE"), "initial collection date in YYYY-MM-DD format; empty means provider max history for new tickers")
 	flags.StringVar(&opts.dataDir, "data-dir", "data/prices", "directory where per-ticker JSONL and meta files are stored")
 	flags.StringVar(&opts.userAgent, "user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
 	flags.IntVar(&opts.limit, "limit", 0, "maximum number of tickers to process; 0 means all")
@@ -94,8 +104,10 @@ func parseOptions(args []string) (options, error) {
 	if opts.userAgent == "" {
 		return options{}, errors.New("missing --user-agent or SEC_USER_AGENT")
 	}
-	if _, err := collector.ParseDate(opts.startDate); err != nil {
-		return options{}, fmt.Errorf("invalid --start-date %q: %w", opts.startDate, err)
+	if opts.startDate != "" {
+		if _, err := collector.ParseDate(opts.startDate); err != nil {
+			return options{}, fmt.Errorf("invalid --start-date %q: %w", opts.startDate, err)
+		}
 	}
 	if opts.limit < 0 {
 		return options{}, errors.New("--limit must be 0 or greater")

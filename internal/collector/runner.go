@@ -3,6 +3,9 @@ package collector
 import (
 	"context"
 	"fmt"
+	"io"
+	"log"
+	"os"
 	"sort"
 	"time"
 )
@@ -12,6 +15,7 @@ type RunnerConfig struct {
 	Provider  PriceProvider
 	StartDate time.Time
 	Clock     func() time.Time
+	LogWriter io.Writer
 }
 
 type Runner struct {
@@ -19,6 +23,7 @@ type Runner struct {
 	provider  PriceProvider
 	startDate time.Time
 	clock     func() time.Time
+	logger    *log.Logger
 }
 
 type Summary struct {
@@ -33,11 +38,16 @@ func NewRunner(config RunnerConfig) *Runner {
 	if clock == nil {
 		clock = time.Now
 	}
+	logWriter := config.LogWriter
+	if logWriter == nil {
+		logWriter = os.Stderr
+	}
 	return &Runner{
 		store:     config.Store,
 		provider:  config.Provider,
 		startDate: startOfUTCDate(config.StartDate),
 		clock:     clock,
+		logger:    log.New(logWriter, "", log.LstdFlags),
 	}
 }
 
@@ -74,10 +84,16 @@ func (r *Runner) CollectTickers(ctx context.Context, companies []Company) (Summa
 			history, err := r.provider.FetchHistory(ctx, ticker, start, end)
 			if err != nil {
 				summary.Failed++
-				return summary, fmt.Errorf("%s fetch history: %w", ticker, err)
+				r.logger.Printf("%s fetch history failed: %v", ticker, err)
+				continue
 			}
 
 			newRecords := filterNewRecords(history.Records, ticker, lastDate, start, end)
+			if len(newRecords) == 0 {
+				summary.Failed++
+				r.logger.Printf("%s fetch history returned no new records for %s..%s", ticker, FormatDate(start), FormatDate(end))
+				continue
+			}
 			if err := r.store.AppendPrices(ticker, newRecords, r.clock()); err != nil {
 				summary.Failed++
 				return summary, fmt.Errorf("%s append prices: %w", ticker, err)

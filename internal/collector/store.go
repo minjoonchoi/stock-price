@@ -116,12 +116,12 @@ func (s *FileStore) AppendPrices(ticker string, records []PriceRecord, updatedAt
 
 	lastRecord := records[len(records)-1]
 	if !ok {
-		meta.Source = SourceYahoo
+		meta.Source = lastRecord.Source
 	}
 	meta.LastDate = lastRecord.Date
 	meta.Records += encodedCount
 	meta.UpdatedAt = updatedAt.UTC().Format(time.RFC3339)
-	meta.Source = SourceYahoo
+	meta.Source = lastRecord.Source
 	return s.WriteMeta(normalizedTicker, meta)
 }
 

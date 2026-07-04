@@ -44,22 +44,64 @@ func NewYahooProvider(config YahooProviderConfig) *YahooProvider {
 
 func (p *YahooProvider) FetchHistory(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
 	symbol := YahooSymbol(ticker)
-	requestURL, err := url.Parse(p.baseURL + "/v8/finance/chart/" + url.PathEscape(symbol))
+	if start.IsZero() {
+		discovery, err := p.fetchChart(ctx, ticker, symbol, yahooQuery{
+			Range: "max",
+		})
+		if err != nil {
+			return PriceHistory{}, err
+		}
+		if len(discovery.Chart.Result) == 0 {
+			return PriceHistory{}, nil
+		}
+		firstTradeDate := discovery.Chart.Result[0].Meta.FirstTradeDate
+		if firstTradeDate == 0 {
+			return parseYahooResult(NormalizeTicker(ticker), discovery.Chart.Result[0]), nil
+		}
+		start = time.Unix(firstTradeDate, 0)
+	}
+
+	payload, err := p.fetchChart(ctx, ticker, symbol, yahooQuery{
+		Period1: startOfUTCDate(start).Unix(),
+		Period2: startOfUTCDate(end).AddDate(0, 0, 1).Unix(),
+	})
 	if err != nil {
 		return PriceHistory{}, err
+	}
+	if len(payload.Chart.Result) == 0 {
+		return PriceHistory{}, nil
+	}
+
+	return parseYahooResult(NormalizeTicker(ticker), payload.Chart.Result[0]), nil
+}
+
+type yahooQuery struct {
+	Range   string
+	Period1 int64
+	Period2 int64
+}
+
+func (p *YahooProvider) fetchChart(ctx context.Context, ticker string, symbol string, query yahooQuery) (yahooChartResponse, error) {
+	requestURL, err := url.Parse(p.baseURL + "/v8/finance/chart/" + url.PathEscape(symbol))
+	if err != nil {
+		return yahooChartResponse{}, err
 	}
 
 	params := requestURL.Query()
 	params.Set("interval", "1d")
-	params.Set("period1", strconv.FormatInt(startOfUTCDate(start).Unix(), 10))
-	params.Set("period2", strconv.FormatInt(startOfUTCDate(end).AddDate(0, 0, 1).Unix(), 10))
+	if query.Range != "" {
+		params.Set("range", query.Range)
+	} else {
+		params.Set("period1", strconv.FormatInt(query.Period1, 10))
+		params.Set("period2", strconv.FormatInt(query.Period2, 10))
+	}
 	params.Set("includeAdjustedClose", "true")
 	params.Set("events", "div,splits")
 	requestURL.RawQuery = params.Encode()
 
 	request, err := http.NewRequestWithContext(ctx, http.MethodGet, requestURL.String(), nil)
 	if err != nil {
-		return PriceHistory{}, err
+		return yahooChartResponse{}, err
 	}
 	if p.userAgent != "" {
 		request.Header.Set("User-Agent", p.userAgent)
@@ -67,26 +109,22 @@ func (p *YahooProvider) FetchHistory(ctx context.Context, ticker string, start t
 
 	response, err := p.client.Do(request)
 	if err != nil {
-		return PriceHistory{}, err
+		return yahooChartResponse{}, err
 	}
 	defer response.Body.Close()
 
 	if response.StatusCode < 200 || response.StatusCode >= 300 {
-		return PriceHistory{}, fmt.Errorf("Yahoo request for %s failed: %s", ticker, response.Status)
+		return yahooChartResponse{}, fmt.Errorf("Yahoo request for %s failed: %s", ticker, response.Status)
 	}
 
 	var payload yahooChartResponse
 	if err := json.NewDecoder(response.Body).Decode(&payload); err != nil {
-		return PriceHistory{}, err
+		return yahooChartResponse{}, err
 	}
 	if payload.Chart.Error != nil {
-		return PriceHistory{}, fmt.Errorf("Yahoo request for %s failed: %s", ticker, payload.Chart.Error.Description)
+		return yahooChartResponse{}, fmt.Errorf("Yahoo request for %s failed: %s", ticker, payload.Chart.Error.Description)
 	}
-	if len(payload.Chart.Result) == 0 {
-		return PriceHistory{}, nil
-	}
-
-	return parseYahooResult(NormalizeTicker(ticker), payload.Chart.Result[0]), nil
+	return payload, nil
 }
 
 func YahooSymbol(ticker string) string {
@@ -104,6 +142,9 @@ type yahooChartResponse struct {
 }
 
 type yahooResult struct {
+	Meta struct {
+		FirstTradeDate int64 `json:"firstTradeDate"`
+	} `json:"meta"`
 	Timestamps []int64 `json:"timestamp"`
 	Events     struct {
 		Dividends map[string]struct {

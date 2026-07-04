@@ -46,6 +46,8 @@ func (c *SECClient) FetchCompanies(ctx context.Context) ([]Company, error) {
 	if c.userAgent != "" {
 		request.Header.Set("User-Agent", c.userAgent)
 	}
+	request.Header.Set("Accept", "application/json,text/plain,*/*")
+	request.Header.Set("Accept-Encoding", "identity")
 
 	response, err := c.client.Do(request)
 	if err != nil {

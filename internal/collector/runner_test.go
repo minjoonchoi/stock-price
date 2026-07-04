@@ -1,7 +1,10 @@
 package collector
 
 import (
+	"bytes"
 	"context"
+	"errors"
+	"strings"
 	"testing"
 	"time"
 )
@@ -9,6 +12,7 @@ import (
 type fakeProvider struct {
 	calls   []providerCall
 	history PriceHistory
+	err     error
 }
 
 type providerCall struct {
@@ -20,10 +24,19 @@ type providerCall struct {
 func (p *fakeProvider) FetchHistory(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
 	p.calls = append(p.calls, providerCall{
 		ticker: ticker,
-		start:  FormatDate(start),
+		start:  formatCallDate(start),
 		end:    FormatDate(end),
 	})
+	if p.err != nil {
+		return PriceHistory{}, p.err
+	}
 	return p.history, nil
+}
+
+type fakeProviderFunc func(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error)
+
+func (f fakeProviderFunc) FetchHistory(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
+	return f(ctx, ticker, start, end)
 }
 
 func TestRunnerSkipsTickerWhenMetaAlreadyReachedYesterday(t *testing.T) {
@@ -114,6 +127,78 @@ func TestRunnerFetchesFromDayAfterLastDateAndAppendsOnlyNewRows(t *testing.T) {
 	}
 }
 
+func TestRunnerWithNoMetaAndNoStartDateRequestsProviderEarliestAvailable(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	provider := &fakeProvider{
+		history: PriceHistory{
+			Records: []PriceRecord{
+				price("2024-01-02", "AAPL"),
+				price("2026-07-03", "AAPL"),
+			},
+		},
+	}
+
+	runner := NewRunner(RunnerConfig{
+		Store:    store,
+		Provider: provider,
+		Clock:    fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if len(provider.calls) != 1 {
+		t.Fatalf("expected 1 provider call, got %+v", provider.calls)
+	}
+	if provider.calls[0] != (providerCall{ticker: "AAPL", start: "", end: "2026-07-03"}) {
+		t.Fatalf("unexpected provider call: %+v", provider.calls[0])
+	}
+	if summary.Appended != 2 || summary.Failed != 0 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+}
+
+func TestRunnerLogsProviderFailureAndContinuesWithNextTicker(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	var logBuffer bytes.Buffer
+	provider := fakeProviderFunc(func(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
+		if ticker == "AAC" {
+			return PriceHistory{}, errors.New("Yahoo request for AAC failed: 404 Not Found; Stooq request for AAC failed: no data")
+		}
+		return PriceHistory{Records: []PriceRecord{price("2026-07-03", ticker)}}, nil
+	})
+
+	runner := NewRunner(RunnerConfig{
+		Store:     store,
+		Provider:  provider,
+		StartDate: mustDate(t, "2026-07-03"),
+		Clock:     fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+		LogWriter: &logBuffer,
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAC"}, {Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if summary.Processed != 2 || summary.Failed != 1 || summary.Appended != 1 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+	if !strings.Contains(logBuffer.String(), "AAC fetch history failed") || !strings.Contains(logBuffer.String(), "404 Not Found") {
+		t.Fatalf("expected AAC provider failure in log, got %q", logBuffer.String())
+	}
+
+	meta, ok, err := store.LoadMeta("AAPL")
+	if err != nil {
+		t.Fatalf("LoadMeta(AAPL) error = %v", err)
+	}
+	if !ok || meta.LastDate != "2026-07-03" || meta.Records != 1 {
+		t.Fatalf("expected AAPL to continue and append, got ok=%v meta=%+v", ok, meta)
+	}
+}
+
 func price(date string, ticker string) PriceRecord {
 	return PriceRecord{
 		Date:     date,
@@ -132,6 +217,13 @@ func fixedClock(now time.Time) func() time.Time {
 	return func() time.Time {
 		return now
 	}
+}
+
+func formatCallDate(value time.Time) string {
+	if value.IsZero() {
+		return ""
+	}
+	return FormatDate(value)
 }
 
 func mustDate(t *testing.T, value string) time.Time {

@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"strings"
 	"testing"
+	"time"
 )
 
 func TestYahooProviderFetchHistoryParsesPricesAndCorporateActions(t *testing.T) {
@@ -82,6 +83,84 @@ func TestYahooProviderFetchHistoryParsesPricesAndCorporateActions(t *testing.T) 
 	if len(history.Splits) != 1 || history.Splits[0].Date != "2026-07-02" || history.Splits[0].Ratio != "4:1" {
 		t.Fatalf("unexpected splits: %+v", history.Splits)
 	}
+}
+
+func TestYahooProviderFetchHistoryWithZeroStartDiscoversFirstTradeDateThenFetchesDailyRange(t *testing.T) {
+	var gotQueries []string
+	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		gotQueries = append(gotQueries, r.URL.RawQuery)
+		if len(gotQueries) == 1 {
+			return &http.Response{
+				StatusCode: http.StatusOK,
+				Status:     "200 OK",
+				Header:     make(http.Header),
+				Body: io.NopCloser(bytes.NewBufferString(`{
+				"chart":{
+					"result":[{
+						"meta":{"firstTradeDate":1782864000},
+						"timestamp":[1782912600],
+						"indicators":{
+							"quote":[{
+								"open":[212.11],
+								"high":[214.52],
+								"low":[210.84],
+								"close":[213.71],
+								"volume":[52413300]
+							}],
+							"adjclose":[{"adjclose":[213.71]}]
+						}
+					}],
+					"error":null
+				}
+			}`)),
+				Request: r,
+			}, nil
+		}
+		return &http.Response{
+			StatusCode: http.StatusOK,
+			Status:     "200 OK",
+			Header:     make(http.Header),
+			Body: io.NopCloser(bytes.NewBufferString(`{
+			"chart":{
+				"result":[{
+					"timestamp":[1782912600],
+					"indicators":{
+						"quote":[{
+							"open":[212.11],
+							"high":[214.52],
+							"low":[210.84],
+							"close":[213.71],
+							"volume":[52413300]
+						}],
+						"adjclose":[{"adjclose":[213.71]}]
+					}
+				}],
+				"error":null
+			}
+		}`)),
+			Request: r,
+		}, nil
+	})}
+
+	provider := NewYahooProvider(YahooProviderConfig{
+		BaseURL: "https://query1.finance.yahoo.com",
+		Client:  httpClient,
+	})
+
+	_, err := provider.FetchHistory(context.Background(), "AAPL", time.Time{}, mustDate(t, "2026-07-02"))
+	if err != nil {
+		t.Fatalf("FetchHistory() error = %v", err)
+	}
+
+	if len(gotQueries) != 2 {
+		t.Fatalf("expected discovery and range requests, got %d queries: %+v", len(gotQueries), gotQueries)
+	}
+	assertQueryContains(t, gotQueries[0], "range=max")
+	if strings.Contains(gotQueries[0], "period1=") || strings.Contains(gotQueries[0], "period2=") {
+		t.Fatalf("discovery query should not include period params: %q", gotQueries[0])
+	}
+	assertQueryContains(t, gotQueries[1], "period1=1782864000")
+	assertQueryContains(t, gotQueries[1], "period2=1783036800")
 }
 
 func assertQueryContains(t *testing.T, query string, fragment string) {

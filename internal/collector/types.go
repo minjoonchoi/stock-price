@@ -5,7 +5,10 @@ import (
 	"time"
 )
 
-const SourceYahoo = "yahoo"
+const (
+	SourceYahoo = "yahoo"
+	SourceStooq = "stooq"
+)
 
 type Company struct {
 	CIK    int

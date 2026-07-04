@@ -2,6 +2,19 @@ name: Collect Daily Stock Prices
 
 on:
   workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Optional ticker or comma-separated tickers for a small manual run"
+        required: false
+        type: string
+      limit:
+        description: "Optional max number of SEC tickers to process"
+        required: false
+        type: string
+      start_date:
+        description: "Optional YYYY-MM-DD initial start date; empty uses provider max history"
+        required: false
+        type: string
   schedule:
     # 16:00 UTC = 01:00 KST
     - cron: "0 16 * * *"
@@ -20,6 +33,9 @@ jobs:
     env:
       STOCK_PRICE_START_DATE: ${{ vars.STOCK_PRICE_START_DATE }}
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+      INPUT_TICKER: ${{ inputs.ticker }}
+      INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_START_DATE: ${{ inputs.start_date }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -36,12 +52,22 @@ jobs:
 
       - name: Collect prices
         run: |
-          START_DATE="${STOCK_PRICE_START_DATE:-1970-01-01}"
+          set -euo pipefail
           USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
-          go run ./scripts/collect-prices \
-            --start-date "${START_DATE}" \
-            --user-agent "${USER_AGENT}" \
-            --data-dir data/prices
+          START_DATE="${INPUT_START_DATE:-${STOCK_PRICE_START_DATE:-}}"
+          ARGS=(--user-agent "${USER_AGENT}" --data-dir data/prices)
+
+          if [ -n "${START_DATE}" ]; then
+            ARGS+=(--start-date "${START_DATE}")
+          fi
+          if [ -n "${INPUT_TICKER}" ]; then
+            ARGS+=(--ticker "${INPUT_TICKER}")
+          fi
+          if [ -n "${INPUT_LIMIT}" ]; then
+            ARGS+=(--limit "${INPUT_LIMIT}")
+          fi
+
+          go run ./scripts/collect-prices "${ARGS[@]}"
 
       - name: Commit data updates
         run: |

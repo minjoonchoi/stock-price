@@ -41,3 +41,15 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 		t.Fatalf("tickers = %+v", options.tickers)
 	}
 }
+
+func TestParseOptionsDefaultsToDynamicStartDate(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+	if options.startDate != "" {
+		t.Fatalf("expected dynamic start date by default, got %q", options.startDate)
+	}
+}
