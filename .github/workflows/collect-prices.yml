@@ -3,7 +3,8 @@ name: Collect Daily Stock Prices
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 10 * * *"
+    # 16:00 UTC = 01:00 KST
+    - cron: "0 16 * * *"
 
 permissions:
   contents: write
