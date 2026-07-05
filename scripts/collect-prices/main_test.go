@@ -26,6 +26,9 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 		"--request-delay", "250ms",
 		"--force-backfill",
 		"--repair-meta",
+		"--force-validate-adjusted",
+		"--full-validation-days", "3",
+		"--disable-price-discontinuity-check",
 	})
 	if err != nil {
 		t.Fatalf("parseOptions() error = %v", err)
@@ -51,6 +54,15 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	}
 	if !options.repairMeta {
 		t.Fatal("expected repairMeta to be true")
+	}
+	if !options.forceValidateAdjusted {
+		t.Fatal("expected forceValidateAdjusted to be true")
+	}
+	if options.fullValidationDays != 3 {
+		t.Fatalf("fullValidationDays = %d", options.fullValidationDays)
+	}
+	if !options.disablePriceDiscontinuityCheck {
+		t.Fatal("expected disablePriceDiscontinuityCheck to be true")
 	}
 	if len(options.tickers) != 2 || options.tickers[0] != "AAPL" || options.tickers[1] != "MSFT" {
 		t.Fatalf("tickers = %+v", options.tickers)

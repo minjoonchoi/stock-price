@@ -193,23 +193,52 @@ func parseYahooRecords(ticker string, result yahooResult) []PriceRecord {
 		if !hasYahooRecordAt(i, quote.Open, quote.High, quote.Low, quote.Close, adjClose.AdjClose, quote.Volume) {
 			continue
 		}
-		records = append(records, PriceRecord{
-			Date:     FormatDate(time.Unix(timestamp, 0)),
-			Ticker:   ticker,
-			Open:     *quote.Open[i],
-			High:     *quote.High[i],
-			Low:      *quote.Low[i],
-			Close:    *quote.Close[i],
-			AdjClose: *adjClose.AdjClose[i],
-			Volume:   *quote.Volume[i],
-			Source:   SourceYahoo,
-		})
+		closePrice := *quote.Close[i]
+		if closePrice == 0 {
+			continue
+		}
+		adjustRatio := *adjClose.AdjClose[i] / closePrice
+		record := PriceRecord{
+			Date:              FormatDate(time.Unix(timestamp, 0)),
+			Ticker:            ticker,
+			Open:              *quote.Open[i],
+			High:              *quote.High[i],
+			Low:               *quote.Low[i],
+			Close:             closePrice,
+			AdjOpen:           *quote.Open[i] * adjustRatio,
+			AdjHigh:           *quote.High[i] * adjustRatio,
+			AdjLow:            *quote.Low[i] * adjustRatio,
+			AdjClose:          *adjClose.AdjClose[i],
+			Volume:            *quote.Volume[i],
+			Source:            SourceYahoo,
+			AdjustmentVersion: AdjustmentVersionYahooChartV1,
+		}
+		if !isValidAdjustedRecord(record) {
+			continue
+		}
+		records = append(records, record)
 	}
 
 	sort.SliceStable(records, func(i, j int) bool {
 		return records[i].Date < records[j].Date
 	})
 	return records
+}
+
+func isValidAdjustedRecord(record PriceRecord) bool {
+	if record.AdjOpen == 0 || record.AdjHigh == 0 || record.AdjLow == 0 || record.AdjClose == 0 {
+		return false
+	}
+	if record.AdjHigh < record.AdjLow {
+		return false
+	}
+	if record.AdjOpen < record.AdjLow || record.AdjOpen > record.AdjHigh {
+		return false
+	}
+	if record.AdjClose < record.AdjLow || record.AdjClose > record.AdjHigh {
+		return false
+	}
+	return true
 }
 
 func hasYahooRecordAt(index int, fields ...interface{}) bool {
@@ -249,11 +278,18 @@ func parseYahooSplits(result yahooResult) []Split {
 			Date:        FormatDate(time.Unix(item.Date, 0)),
 			Numerator:   item.Numerator,
 			Denominator: item.Denominator,
-			Ratio:       item.SplitRatio,
+			Ratio:       splitRatio(item.Numerator, item.Denominator),
 		})
 	}
 	sort.SliceStable(splits, func(i, j int) bool {
 		return splits[i].Date < splits[j].Date
 	})
 	return splits
+}
+
+func splitRatio(numerator float64, denominator float64) float64 {
+	if denominator == 0 {
+		return 0
+	}
+	return numerator / denominator
 }

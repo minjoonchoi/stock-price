@@ -16,15 +16,18 @@ import (
 )
 
 type options struct {
-	startDate     string
-	dataDir       string
-	userAgent     string
-	tickers       []string
-	limit         int
-	timeout       time.Duration
-	requestDelay  time.Duration
-	forceBackfill bool
-	repairMeta    bool
+	startDate                      string
+	dataDir                        string
+	userAgent                      string
+	tickers                        []string
+	limit                          int
+	timeout                        time.Duration
+	requestDelay                   time.Duration
+	forceBackfill                  bool
+	repairMeta                     bool
+	forceValidateAdjusted          bool
+	fullValidationDays             int
+	disablePriceDiscontinuityCheck bool
 }
 
 func main() {
@@ -76,11 +79,14 @@ func run(ctx context.Context, args []string) error {
 	}
 
 	runner := collector.NewRunner(collector.RunnerConfig{
-		Store:         store,
-		Provider:      provider,
-		StartDate:     startDate,
-		ForceBackfill: options.forceBackfill,
-		RepairMeta:    options.repairMeta,
+		Store:                          store,
+		Provider:                       provider,
+		StartDate:                      startDate,
+		ForceBackfill:                  options.forceBackfill,
+		RepairMeta:                     options.repairMeta,
+		ForceValidateAdjusted:          options.forceValidateAdjusted,
+		FullValidationDays:             options.fullValidationDays,
+		DisablePriceDiscontinuityCheck: options.disablePriceDiscontinuityCheck,
 	})
 	summary, err := runner.CollectTickers(ctx, companies)
 	if err != nil {
@@ -90,6 +96,13 @@ func run(ctx context.Context, args []string) error {
 	fmt.Printf("processed=%d skipped=%d appended=%d failed=%d\n", summary.Processed, summary.Skipped, summary.Appended, summary.Failed)
 	fmt.Printf("Tickers Backfilled: %d\n", summary.Backfilled)
 	fmt.Printf("Tickers Incremental Updated: %d\n", summary.IncrementalUpdated)
+	fmt.Printf("Tickers Full Rewritten: %d\n", summary.FullRewritten)
+	fmt.Printf("Tickers Split Detected: %d\n", summary.SplitDetected)
+	fmt.Printf("Tickers Corporate Actions Changed: %d\n", summary.CorporateActionsChanged)
+	fmt.Printf("Tickers Discontinuity Detected: %d\n", summary.DiscontinuityDetected)
+	fmt.Printf("Tickers Adjusted Validated: %d\n", summary.AdjustedValidated)
+	fmt.Printf("Rows Adjusted Recalculated: %d\n", summary.RowsAdjustedRecalculated)
+	fmt.Printf("Actions Written: %d\n", summary.ActionsWritten)
 	return nil
 }
 
@@ -107,6 +120,9 @@ func parseOptions(args []string) (options, error) {
 	flags.DurationVar(&opts.requestDelay, "request-delay", defaultRequestDelay(), "minimum delay between outbound HTTP requests")
 	flags.BoolVar(&opts.forceBackfill, "force-backfill", false, "force full-history merge for every ticker")
 	flags.BoolVar(&opts.repairMeta, "repair-meta", false, "rebuild per-ticker meta from local JSONL without fetching price history")
+	flags.BoolVar(&opts.forceValidateAdjusted, "force-validate-adjusted", false, "force full-history adjusted price validation and rewrite for every ticker")
+	flags.IntVar(&opts.fullValidationDays, "full-validation-days", 7, "days between full adjusted price validations")
+	flags.BoolVar(&opts.disablePriceDiscontinuityCheck, "disable-price-discontinuity-check", false, "disable split-like raw price discontinuity detection")
 	flags.Func("ticker", "ticker or comma-separated tickers to collect instead of fetching the SEC list; can be repeated", func(value string) error {
 		tickerValues = append(tickerValues, splitTickers(value)...)
 		return nil
@@ -129,6 +145,9 @@ func parseOptions(args []string) (options, error) {
 	}
 	if opts.requestDelay < 0 {
 		return options{}, errors.New("--request-delay must be 0 or greater")
+	}
+	if opts.fullValidationDays <= 0 {
+		return options{}, errors.New("--full-validation-days must be greater than 0")
 	}
 	opts.tickers = uniqueTickers(tickerValues)
 	return opts, nil

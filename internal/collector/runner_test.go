@@ -43,19 +43,13 @@ func (f fakeProviderFunc) FetchHistory(ctx context.Context, ticker string, start
 func TestRunnerSkipsTickerWhenMetaAlreadyReachedYesterday(t *testing.T) {
 	root := t.TempDir()
 	store := NewFileStore(root)
-	if err := store.AppendPrices("AAPL", []PriceRecord{price("2026-07-03", "AAPL")}, time.Date(2026, 7, 4, 0, 0, 0, 0, time.UTC)); err != nil {
-		t.Fatalf("AppendPrices() error = %v", err)
-	}
-	if err := store.WriteMeta("AAPL", Meta{
-		Ticker:            "AAPL",
-		FirstDate:         "2026-07-03",
-		LastDate:          "2026-07-03",
-		Records:           1,
-		BackfillCompleted: true,
-		UpdatedAt:         "2026-07-04T00:00:00Z",
-		Source:            SourceYahoo,
+	updatedAt := time.Date(2026, 7, 4, 0, 0, 0, 0, time.UTC)
+	if _, _, err := store.RewriteTickerData("AAPL", []PriceRecord{price("2026-07-03", "AAPL")}, nil, updatedAt, RewriteOptions{
+		BackfillCompleted:       true,
+		AdjustedSeriesValidated: true,
+		FullValidationAt:        updatedAt,
 	}); err != nil {
-		t.Fatalf("WriteMeta() error = %v", err)
+		t.Fatalf("RewriteTickerData() error = %v", err)
 	}
 	provider := &fakeProvider{}
 
@@ -82,22 +76,16 @@ func TestRunnerSkipsTickerWhenMetaAlreadyReachedYesterday(t *testing.T) {
 func TestRunnerWithCompletedBackfillFetchesFromDayAfterLastDateAndAppendsOnlyNewRows(t *testing.T) {
 	root := t.TempDir()
 	store := NewFileStore(root)
-	if err := store.AppendPrices("AAPL", []PriceRecord{
+	updatedAt := time.Date(2026, 7, 2, 0, 0, 0, 0, time.UTC)
+	if _, _, err := store.RewriteTickerData("AAPL", []PriceRecord{
 		price("2026-07-01", "AAPL"),
 		price("2026-07-02", "AAPL"),
-	}, time.Date(2026, 7, 2, 0, 0, 0, 0, time.UTC)); err != nil {
-		t.Fatalf("AppendPrices() error = %v", err)
-	}
-	if err := store.WriteMeta("AAPL", Meta{
-		Ticker:            "AAPL",
-		FirstDate:         "2026-07-01",
-		LastDate:          "2026-07-02",
-		Records:           2,
-		BackfillCompleted: true,
-		UpdatedAt:         "2026-07-02T00:00:00Z",
-		Source:            SourceYahoo,
+	}, nil, updatedAt, RewriteOptions{
+		BackfillCompleted:       true,
+		AdjustedSeriesValidated: true,
+		FullValidationAt:        updatedAt,
 	}); err != nil {
-		t.Fatalf("WriteMeta() error = %v", err)
+		t.Fatalf("RewriteTickerData() error = %v", err)
 	}
 	provider := &fakeProvider{
 		history: PriceHistory{
@@ -180,6 +168,38 @@ func TestRunnerWithNoMetaAndNoStartDateRequestsProviderEarliestAvailable(t *test
 	}
 	if !ok || meta.FirstDate != "2024-01-02" || meta.LastDate != "2026-07-03" || meta.Records != 2 || !meta.BackfillCompleted {
 		t.Fatalf("unexpected meta after full backfill: ok=%v meta=%+v", ok, meta)
+	}
+}
+
+func TestRunnerFullBackfillIgnoresConfiguredStartDate(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	provider := &fakeProvider{
+		history: PriceHistory{
+			Records: []PriceRecord{
+				price("1980-12-12", "AAPL"),
+				price("2026-07-03", "AAPL"),
+			},
+		},
+	}
+
+	runner := NewRunner(RunnerConfig{
+		Store:     store,
+		Provider:  provider,
+		StartDate: mustDate(t, "2026-06-30"),
+		Clock:     fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if summary.FullRewritten != 1 || summary.Appended != 2 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+	records := mustLoadPrices(t, store, "AAPL")
+	if len(records) != 2 || records[0].Date != "1980-12-12" || records[1].Date != "2026-07-03" {
+		t.Fatalf("full backfill was capped unexpectedly: %+v", records)
 	}
 }
 
@@ -329,6 +349,183 @@ func TestRunnerForceBackfillIgnoresCompletedMeta(t *testing.T) {
 	}
 }
 
+func TestRunnerNewTickerRewritesPricesAndActionsFromProviderTruth(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	provider := &fakeProvider{
+		history: PriceHistory{
+			Records: []PriceRecord{
+				priceWithAdjusted("2026-07-01", "AAPL", 100, 50),
+				priceWithAdjusted("2026-07-02", "AAPL", 25, 50),
+			},
+			Splits:    []Split{{Date: "2026-07-02", Numerator: 4, Denominator: 1, Ratio: 4}},
+			Dividends: []Dividend{{Date: "2026-06-15", Amount: 0.26}},
+		},
+	}
+
+	runner := NewRunner(RunnerConfig{
+		Store:    store,
+		Provider: provider,
+		Clock:    fixedClock(time.Date(2026, 7, 3, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if summary.FullRewritten != 1 || summary.AdjustedValidated != 1 || summary.RowsAdjustedRecalculated != 2 || summary.ActionsWritten != 2 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+	meta, ok, err := store.LoadMeta("AAPL")
+	if err != nil {
+		t.Fatalf("LoadMeta() error = %v", err)
+	}
+	if !ok || !meta.BackfillCompleted || !meta.AdjustedSeriesValidated || meta.LastSplitDate != "2026-07-02" || meta.LastCorporateActionDate != "2026-07-02" || meta.CorporateActionHash == "" || meta.PriceDataHash == "" {
+		t.Fatalf("unexpected meta: ok=%v meta=%+v", ok, meta)
+	}
+	actions := mustLoadActions(t, store, "AAPL")
+	if len(actions) != 2 || actions[0].Type != ActionTypeDividend || actions[1].Type != ActionTypeSplit {
+		t.Fatalf("unexpected actions: %+v", actions)
+	}
+}
+
+func TestRunnerDetectsNewSplitAndRewritesFullHistory(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	updatedAt := time.Date(2026, 7, 2, 0, 0, 0, 0, time.UTC)
+	if _, _, err := store.RewriteTickerData("AAPL", []PriceRecord{
+		priceWithAdjusted("2026-07-01", "AAPL", 100, 50),
+		priceWithAdjusted("2026-07-02", "AAPL", 100, 50),
+	}, nil, updatedAt, RewriteOptions{
+		BackfillCompleted:       true,
+		AdjustedSeriesValidated: true,
+		FullValidationAt:        updatedAt,
+	}); err != nil {
+		t.Fatalf("RewriteTickerData() error = %v", err)
+	}
+
+	var calls []providerCall
+	provider := fakeProviderFunc(func(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
+		calls = append(calls, providerCall{ticker: ticker, start: formatCallDate(start), end: FormatDate(end)})
+		if start.IsZero() {
+			return PriceHistory{
+				Records: []PriceRecord{
+					priceWithAdjusted("2026-07-01", "AAPL", 25, 50),
+					priceWithAdjusted("2026-07-02", "AAPL", 25, 50),
+					priceWithAdjusted("2026-07-03", "AAPL", 25, 50),
+				},
+				Splits: []Split{{Date: "2026-07-03", Numerator: 4, Denominator: 1, Ratio: 4}},
+			}, nil
+		}
+		return PriceHistory{
+			Records: []PriceRecord{priceWithAdjusted("2026-07-03", "AAPL", 25, 50)},
+			Splits:  []Split{{Date: "2026-07-03", Numerator: 4, Denominator: 1, Ratio: 4}},
+		}, nil
+	})
+
+	runner := NewRunner(RunnerConfig{
+		Store:    store,
+		Provider: provider,
+		Clock:    fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if len(calls) != 2 || calls[0].start != "2026-07-03" || calls[1].start != "" {
+		t.Fatalf("expected incremental then full calls, got %+v", calls)
+	}
+	if summary.SplitDetected != 1 || summary.FullRewritten != 1 || summary.IncrementalUpdated != 0 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+	meta, _, err := store.LoadMeta("AAPL")
+	if err != nil {
+		t.Fatalf("LoadMeta() error = %v", err)
+	}
+	if meta.LastSplitDate != "2026-07-03" || !meta.AdjustedSeriesValidated {
+		t.Fatalf("unexpected meta after split rewrite: %+v", meta)
+	}
+}
+
+func TestRunnerDetectsPriceDiscontinuityAndRewritesFullHistory(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	updatedAt := time.Date(2026, 7, 2, 0, 0, 0, 0, time.UTC)
+	if _, _, err := store.RewriteTickerData("AAPL", []PriceRecord{
+		priceWithAdjusted("2026-07-01", "AAPL", 100, 50),
+		priceWithAdjusted("2026-07-02", "AAPL", 100, 50),
+	}, nil, updatedAt, RewriteOptions{
+		BackfillCompleted:       true,
+		AdjustedSeriesValidated: true,
+		FullValidationAt:        updatedAt,
+	}); err != nil {
+		t.Fatalf("RewriteTickerData() error = %v", err)
+	}
+
+	var calls []providerCall
+	provider := fakeProviderFunc(func(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
+		calls = append(calls, providerCall{ticker: ticker, start: formatCallDate(start), end: FormatDate(end)})
+		if start.IsZero() {
+			return PriceHistory{Records: []PriceRecord{
+				priceWithAdjusted("2026-07-01", "AAPL", 25, 50),
+				priceWithAdjusted("2026-07-02", "AAPL", 25, 50),
+				priceWithAdjusted("2026-07-03", "AAPL", 25, 50),
+			}}, nil
+		}
+		return PriceHistory{Records: []PriceRecord{priceWithAdjusted("2026-07-03", "AAPL", 25, 50)}}, nil
+	})
+
+	runner := NewRunner(RunnerConfig{
+		Store:    store,
+		Provider: provider,
+		Clock:    fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if len(calls) != 2 || calls[0].start != "2026-07-03" || calls[1].start != "" {
+		t.Fatalf("expected incremental then full calls, got %+v", calls)
+	}
+	if summary.DiscontinuityDetected != 1 || summary.FullRewritten != 1 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+}
+
+func TestRunnerPeriodicValidationRewritesEvenWhenLatestDataIsCurrent(t *testing.T) {
+	root := t.TempDir()
+	store := NewFileStore(root)
+	oldValidation := time.Date(2026, 6, 26, 0, 0, 0, 0, time.UTC)
+	if _, _, err := store.RewriteTickerData("AAPL", []PriceRecord{price("2026-07-03", "AAPL")}, nil, oldValidation, RewriteOptions{
+		BackfillCompleted:       true,
+		AdjustedSeriesValidated: true,
+		FullValidationAt:        oldValidation,
+	}); err != nil {
+		t.Fatalf("RewriteTickerData() error = %v", err)
+	}
+	provider := &fakeProvider{history: PriceHistory{Records: []PriceRecord{price("2026-07-03", "AAPL")}}}
+
+	runner := NewRunner(RunnerConfig{
+		Store:              store,
+		Provider:           provider,
+		FullValidationDays: 7,
+		Clock:              fixedClock(time.Date(2026, 7, 4, 12, 0, 0, 0, time.UTC)),
+	})
+
+	summary, err := runner.CollectTickers(context.Background(), []Company{{Ticker: "AAPL"}})
+	if err != nil {
+		t.Fatalf("CollectTickers() error = %v", err)
+	}
+	if len(provider.calls) != 1 || provider.calls[0].start != "" {
+		t.Fatalf("expected full validation call, got %+v", provider.calls)
+	}
+	if summary.FullRewritten != 1 || summary.AdjustedValidated != 1 {
+		t.Fatalf("unexpected summary: %+v", summary)
+	}
+}
+
 func TestRunnerLogsProviderFailureAndContinuesWithNextTicker(t *testing.T) {
 	root := t.TempDir()
 	store := NewFileStore(root)
@@ -373,16 +570,28 @@ func price(date string, ticker string) PriceRecord {
 }
 
 func priceWithClose(date string, ticker string, close float64) PriceRecord {
+	return priceWithAdjusted(date, ticker, close, close)
+}
+
+func priceWithAdjusted(date string, ticker string, close float64, adjClose float64) PriceRecord {
+	ratio := 1.0
+	if close != 0 {
+		ratio = adjClose / close
+	}
 	return PriceRecord{
-		Date:     date,
-		Ticker:   ticker,
-		Open:     1,
-		High:     2,
-		Low:      1,
-		Close:    close,
-		AdjClose: close,
-		Volume:   100,
-		Source:   SourceYahoo,
+		Date:              date,
+		Ticker:            ticker,
+		Open:              close,
+		High:              close * 1.1,
+		Low:               close * 0.9,
+		Close:             close,
+		AdjOpen:           close * ratio,
+		AdjHigh:           close * 1.1 * ratio,
+		AdjLow:            close * 0.9 * ratio,
+		AdjClose:          adjClose,
+		Volume:            100,
+		Source:            SourceYahoo,
+		AdjustmentVersion: AdjustmentVersionYahooChartV1,
 	}
 }
 
@@ -396,6 +605,18 @@ func mustLoadPrices(t *testing.T, store *FileStore, ticker string) []PriceRecord
 		t.Fatalf("expected %s price file to exist", ticker)
 	}
 	return records
+}
+
+func mustLoadActions(t *testing.T, store *FileStore, ticker string) []CorporateAction {
+	t.Helper()
+	actions, ok, err := store.LoadActions(ticker)
+	if err != nil {
+		t.Fatalf("LoadActions(%s) error = %v", ticker, err)
+	}
+	if !ok {
+		t.Fatalf("expected %s actions file to exist", ticker)
+	}
+	return actions
 }
 
 func fixedClock(now time.Time) func() time.Time {

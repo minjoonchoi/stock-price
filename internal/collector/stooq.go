@@ -284,15 +284,19 @@ func parseStooqCSV(reader io.Reader, ticker string) ([]PriceRecord, error) {
 		}
 
 		records = append(records, PriceRecord{
-			Date:     FormatDate(date),
-			Ticker:   ticker,
-			Open:     open,
-			High:     high,
-			Low:      low,
-			Close:    closePrice,
-			AdjClose: closePrice,
-			Volume:   volume,
-			Source:   SourceStooq,
+			Date:              FormatDate(date),
+			Ticker:            ticker,
+			Open:              open,
+			High:              high,
+			Low:               low,
+			Close:             closePrice,
+			AdjOpen:           open,
+			AdjHigh:           high,
+			AdjLow:            low,
+			AdjClose:          closePrice,
+			Volume:            volume,
+			Source:            SourceStooq,
+			AdjustmentVersion: AdjustmentVersionStooqRawV1,
 		})
 	}
 

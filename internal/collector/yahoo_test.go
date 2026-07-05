@@ -74,14 +74,60 @@ func TestYahooProviderFetchHistoryParsesPricesAndCorporateActions(t *testing.T) 
 	if len(history.Records) != 2 {
 		t.Fatalf("expected 2 records, got %+v", history.Records)
 	}
-	if history.Records[0].Date != "2026-07-01" || history.Records[0].Ticker != "AAPL" || history.Records[0].AdjClose != 213.71 || history.Records[0].Source != SourceYahoo {
+	if history.Records[0].Date != "2026-07-01" || history.Records[0].Ticker != "AAPL" || history.Records[0].AdjClose != 213.71 || history.Records[0].AdjOpen != 212.11 || history.Records[0].AdjustmentVersion != AdjustmentVersionYahooChartV1 || history.Records[0].Source != SourceYahoo {
 		t.Fatalf("unexpected first record: %+v", history.Records[0])
 	}
 	if len(history.Dividends) != 1 || history.Dividends[0].Date != "2026-07-02" || history.Dividends[0].Amount != 0.25 {
 		t.Fatalf("unexpected dividends: %+v", history.Dividends)
 	}
-	if len(history.Splits) != 1 || history.Splits[0].Date != "2026-07-02" || history.Splits[0].Ratio != "4:1" {
+	if len(history.Splits) != 1 || history.Splits[0].Date != "2026-07-02" || history.Splits[0].Ratio != 4 {
 		t.Fatalf("unexpected splits: %+v", history.Splits)
+	}
+}
+
+func TestYahooProviderFetchHistorySkipsRowsWithInvalidAdjustedPrices(t *testing.T) {
+	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		return &http.Response{
+			StatusCode: http.StatusOK,
+			Status:     "200 OK",
+			Header:     make(http.Header),
+			Body: io.NopCloser(bytes.NewBufferString(`{
+			"chart":{
+				"result":[{
+					"timestamp":[1782912600,1782999000],
+					"indicators":{
+						"quote":[{
+							"open":[10,20],
+							"high":[15,24],
+							"low":[9,19],
+							"close":[0,22],
+							"volume":[100,200]
+						}],
+						"adjclose":[{"adjclose":[0,11]}]
+					}
+				}],
+				"error":null
+			}
+		}`)),
+			Request: r,
+		}, nil
+	})}
+
+	provider := NewYahooProvider(YahooProviderConfig{
+		BaseURL: "https://query1.finance.yahoo.com",
+		Client:  httpClient,
+	})
+
+	history, err := provider.FetchHistory(context.Background(), "AAPL", mustDate(t, "2026-07-01"), mustDate(t, "2026-07-02"))
+	if err != nil {
+		t.Fatalf("FetchHistory() error = %v", err)
+	}
+	if len(history.Records) != 1 {
+		t.Fatalf("expected one valid record, got %+v", history.Records)
+	}
+	record := history.Records[0]
+	if record.Date != "2026-07-02" || record.AdjOpen != 10 || record.AdjHigh != 12 || record.AdjLow != 9.5 || record.AdjClose != 11 {
+		t.Fatalf("unexpected adjusted record: %+v", record)
 	}
 }
 

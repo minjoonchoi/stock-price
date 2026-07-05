@@ -2,6 +2,7 @@ package collector
 
 import (
 	"bufio"
+	"crypto/sha256"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -13,11 +14,12 @@ import (
 )
 
 type FileStore struct {
-	root string
+	root        string
+	actionsRoot string
 }
 
 func NewFileStore(root string) *FileStore {
-	return &FileStore{root: root}
+	return &FileStore{root: root, actionsRoot: defaultActionsRoot(root)}
 }
 
 func (s *FileStore) LoadMeta(ticker string) (Meta, bool, error) {
@@ -72,6 +74,42 @@ func (s *FileStore) LoadPrices(ticker string) ([]PriceRecord, bool, error) {
 		return nil, true, err
 	}
 	return records, true, nil
+}
+
+func (s *FileStore) LoadActions(ticker string) ([]CorporateAction, bool, error) {
+	normalizedTicker := NormalizeTicker(ticker)
+	path := s.actionsPath(normalizedTicker)
+	file, err := os.Open(path)
+	if errors.Is(err, os.ErrNotExist) {
+		return nil, false, nil
+	}
+	if err != nil {
+		return nil, false, err
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	actions := make([]CorporateAction, 0)
+	lineNumber := 0
+	for scanner.Scan() {
+		lineNumber++
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" {
+			continue
+		}
+		var action CorporateAction
+		if err := json.Unmarshal([]byte(line), &action); err != nil {
+			return nil, true, fmt.Errorf("decode action %s:%d: %w", path, lineNumber, err)
+		}
+		if _, err := ParseDate(action.Date); err != nil {
+			return nil, true, fmt.Errorf("decode action %s:%d invalid date %q: %w", path, lineNumber, action.Date, err)
+		}
+		actions = append(actions, normalizeCorporateAction(action, normalizedTicker))
+	}
+	if err := scanner.Err(); err != nil {
+		return nil, true, err
+	}
+	return canonicalCorporateActions(actions, normalizedTicker), true, nil
 }
 
 func (s *FileStore) WriteMeta(ticker string, meta Meta) error {
@@ -164,26 +202,77 @@ func (s *FileStore) AppendPrices(ticker string, records []PriceRecord, updatedAt
 	meta.Records += encodedCount
 	meta.UpdatedAt = updatedAt.UTC().Format(time.RFC3339)
 	meta.Source = lastRecord.Source
+	if allPricesAdjusted(records) && meta.AdjustedSeriesValidated {
+		meta.PriceDataHash = hashPriceRecordsFromStore(s, normalizedTicker)
+	}
 	return s.WriteMeta(normalizedTicker, meta)
 }
 
 func (s *FileStore) RewritePrices(ticker string, records []PriceRecord, updatedAt time.Time, backfillCompleted bool) error {
+	_, _, err := s.RewriteTickerData(ticker, records, nil, updatedAt, RewriteOptions{
+		BackfillCompleted: backfillCompleted,
+	})
+	return err
+}
+
+type RewriteOptions struct {
+	BackfillCompleted       bool
+	AdjustedSeriesValidated bool
+	FullValidationAt        time.Time
+}
+
+func (s *FileStore) RewriteTickerData(ticker string, records []PriceRecord, actions []CorporateAction, updatedAt time.Time, options RewriteOptions) (Meta, int, error) {
 	normalizedTicker := NormalizeTicker(ticker)
 	records = canonicalPriceRecords(records, normalizedTicker)
+	actions = canonicalCorporateActions(actions, normalizedTicker)
+
 	path := s.jsonlPath(normalizedTicker)
 	dir := filepath.Dir(path)
 	if err := os.MkdirAll(dir, 0o755); err != nil {
-		return err
+		return Meta{}, 0, err
+	}
+	if err := writeJSONL(path, records); err != nil {
+		return Meta{}, 0, err
 	}
 
+	meta, actionsWritten, err := s.RewriteActionsAndMeta(normalizedTicker, records, actions, updatedAt, options)
+	if err != nil {
+		return Meta{}, 0, err
+	}
+
+	return meta, actionsWritten, nil
+}
+
+func (s *FileStore) RewriteActionsAndMeta(ticker string, records []PriceRecord, actions []CorporateAction, updatedAt time.Time, options RewriteOptions) (Meta, int, error) {
+	normalizedTicker := NormalizeTicker(ticker)
+	records = canonicalPriceRecords(records, normalizedTicker)
+	actions = canonicalCorporateActions(actions, normalizedTicker)
+
+	actionsPath := s.actionsPath(normalizedTicker)
+	if err := os.MkdirAll(filepath.Dir(actionsPath), 0o755); err != nil {
+		return Meta{}, 0, err
+	}
+	if err := writeJSONL(actionsPath, actions); err != nil {
+		return Meta{}, 0, err
+	}
+
+	meta := metaFromRecordsAndActions(normalizedTicker, records, actions, updatedAt, options)
+	if err := s.WriteMeta(normalizedTicker, meta); err != nil {
+		return Meta{}, 0, err
+	}
+
+	return meta, len(actions), nil
+}
+
+func writeJSONL[T any](path string, values []T) error {
 	tempPath := path + ".tmp"
 	file, err := os.OpenFile(tempPath, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0o644)
 	if err != nil {
 		return err
 	}
 	writer := bufio.NewWriter(file)
-	for _, record := range records {
-		line, err := json.Marshal(record)
+	for _, value := range values {
+		line, err := json.Marshal(value)
 		if err != nil {
 			_ = file.Close()
 			_ = os.Remove(tempPath)
@@ -213,8 +302,7 @@ func (s *FileStore) RewritePrices(ticker string, records []PriceRecord, updatedA
 		_ = os.Remove(tempPath)
 		return err
 	}
-
-	return s.WriteMeta(normalizedTicker, metaFromRecords(normalizedTicker, records, updatedAt, backfillCompleted))
+	return nil
 }
 
 func (s *FileStore) ListTickers() ([]string, error) {
@@ -261,6 +349,21 @@ func (s *FileStore) metaPath(ticker string) string {
 	return filepath.Join(s.root, tickerDirectory(ticker), ticker+".meta.json")
 }
 
+func (s *FileStore) actionsPath(ticker string) string {
+	ticker = NormalizeTicker(ticker)
+	if ticker == "" {
+		return filepath.Join(s.actionsRoot, "_", "_.actions.jsonl")
+	}
+	return filepath.Join(s.actionsRoot, ticker[:1], ticker+".actions.jsonl")
+}
+
+func defaultActionsRoot(root string) string {
+	if filepath.Base(filepath.Clean(root)) == "prices" {
+		return filepath.Join(filepath.Dir(filepath.Clean(root)), "actions")
+	}
+	return filepath.Join(root, "actions")
+}
+
 func tickerDirectory(ticker string) string {
 	ticker = NormalizeTicker(ticker)
 	if ticker == "" {
@@ -280,6 +383,25 @@ func normalizePriceRecord(record PriceRecord, fallbackTicker string) PriceRecord
 	}
 	if record.Source == "" {
 		record.Source = SourceYahoo
+	}
+	if record.AdjClose == 0 {
+		record.AdjClose = record.Close
+	}
+	if record.AdjOpen == 0 {
+		record.AdjOpen = record.Open
+	}
+	if record.AdjHigh == 0 {
+		record.AdjHigh = record.High
+	}
+	if record.AdjLow == 0 {
+		record.AdjLow = record.Low
+	}
+	if record.AdjustmentVersion == "" {
+		if record.Source == SourceStooq {
+			record.AdjustmentVersion = AdjustmentVersionStooqRawV1
+		} else {
+			record.AdjustmentVersion = AdjustmentVersionYahooChartV1
+		}
 	}
 	return record
 }
@@ -308,13 +430,25 @@ func canonicalPriceRecords(records []PriceRecord, ticker string) []PriceRecord {
 }
 
 func metaFromRecords(ticker string, records []PriceRecord, updatedAt time.Time, backfillCompleted bool) Meta {
+	return metaFromRecordsAndActions(ticker, records, nil, updatedAt, RewriteOptions{
+		BackfillCompleted: backfillCompleted,
+	})
+}
+
+func metaFromRecordsAndActions(ticker string, records []PriceRecord, actions []CorporateAction, updatedAt time.Time, options RewriteOptions) Meta {
 	normalizedTicker := NormalizeTicker(ticker)
 	meta := Meta{
-		Ticker:            normalizedTicker,
-		Source:            SourceYahoo,
-		Records:           len(records),
-		BackfillCompleted: backfillCompleted,
-		UpdatedAt:         updatedAt.UTC().Format(time.RFC3339),
+		Ticker:                  normalizedTicker,
+		Source:                  SourceYahoo,
+		Records:                 len(records),
+		BackfillCompleted:       options.BackfillCompleted,
+		AdjustedSeriesValidated: options.AdjustedSeriesValidated,
+		CorporateActionHash:     hashCorporateActions(actions),
+		PriceDataHash:           hashPriceRecords(records),
+		UpdatedAt:               updatedAt.UTC().Format(time.RFC3339),
+	}
+	if !options.FullValidationAt.IsZero() {
+		meta.LastFullValidationAt = options.FullValidationAt.UTC().Format(time.RFC3339)
 	}
 	if len(records) == 0 {
 		return meta
@@ -330,5 +464,117 @@ func metaFromRecords(ticker string, records []PriceRecord, updatedAt time.Time, 
 	if meta.Source == "" {
 		meta.Source = SourceYahoo
 	}
+	for _, action := range actions {
+		if action.Date > meta.LastCorporateActionDate {
+			meta.LastCorporateActionDate = action.Date
+		}
+		if action.Type == ActionTypeSplit && action.Date > meta.LastSplitDate {
+			meta.LastSplitDate = action.Date
+		}
+	}
 	return meta
+}
+
+func normalizeCorporateAction(action CorporateAction, ticker string) CorporateAction {
+	action.Ticker = NormalizeTicker(action.Ticker)
+	if action.Ticker == "" {
+		action.Ticker = NormalizeTicker(ticker)
+	}
+	if action.Source == "" {
+		action.Source = SourceYahoo
+	}
+	if action.Type == ActionTypeSplit && action.Ratio == 0 && action.Denominator != 0 {
+		action.Ratio = action.Numerator / action.Denominator
+	}
+	return action
+}
+
+func canonicalCorporateActions(actions []CorporateAction, ticker string) []CorporateAction {
+	byKey := make(map[string]CorporateAction, len(actions))
+	for _, action := range actions {
+		action = normalizeCorporateAction(action, ticker)
+		if _, err := ParseDate(action.Date); err != nil {
+			continue
+		}
+		if action.Type != ActionTypeSplit && action.Type != ActionTypeDividend {
+			continue
+		}
+		key := action.Date + "|" + action.Type
+		byKey[key] = action
+	}
+
+	keys := make([]string, 0, len(byKey))
+	for key := range byKey {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+
+	canonical := make([]CorporateAction, 0, len(keys))
+	for _, key := range keys {
+		canonical = append(canonical, byKey[key])
+	}
+	return canonical
+}
+
+func corporateActionsFromHistory(ticker string, history PriceHistory) []CorporateAction {
+	actions := make([]CorporateAction, 0, len(history.Splits)+len(history.Dividends))
+	for _, split := range history.Splits {
+		actions = append(actions, CorporateAction{
+			Date:        split.Date,
+			Ticker:      NormalizeTicker(ticker),
+			Type:        ActionTypeSplit,
+			Numerator:   split.Numerator,
+			Denominator: split.Denominator,
+			Ratio:       split.Ratio,
+			Source:      SourceYahoo,
+		})
+	}
+	for _, dividend := range history.Dividends {
+		actions = append(actions, CorporateAction{
+			Date:   dividend.Date,
+			Ticker: NormalizeTicker(ticker),
+			Type:   ActionTypeDividend,
+			Amount: dividend.Amount,
+			Source: SourceYahoo,
+		})
+	}
+	return canonicalCorporateActions(actions, ticker)
+}
+
+func hashPriceRecords(records []PriceRecord) string {
+	return hashJSONLines(canonicalPriceRecords(records, ""))
+}
+
+func hashCorporateActions(actions []CorporateAction) string {
+	return hashJSONLines(canonicalCorporateActions(actions, ""))
+}
+
+func hashJSONLines[T any](values []T) string {
+	hash := sha256.New()
+	for _, value := range values {
+		line, err := json.Marshal(value)
+		if err != nil {
+			continue
+		}
+		hash.Write(line)
+		hash.Write([]byte{'\n'})
+	}
+	return "sha256:" + fmt.Sprintf("%x", hash.Sum(nil))
+}
+
+func hashPriceRecordsFromStore(store *FileStore, ticker string) string {
+	records, ok, err := store.LoadPrices(ticker)
+	if err != nil || !ok {
+		return ""
+	}
+	return hashPriceRecords(records)
+}
+
+func allPricesAdjusted(records []PriceRecord) bool {
+	for _, record := range records {
+		if record.AdjOpen == 0 || record.AdjHigh == 0 || record.AdjLow == 0 || record.AdjClose == 0 || record.AdjustmentVersion == "" {
+			return false
+		}
+	}
+	return true
 }
