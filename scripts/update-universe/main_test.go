@@ -1,6 +1,11 @@
 package main
 
-import "testing"
+import (
+	"strings"
+	"testing"
+
+	"github.com/minjoon/stock-price/internal/collector"
+)
 
 func TestParseOptionsReadsUniverseFlags(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "")
@@ -43,5 +48,32 @@ func TestParseOptionsRequiresSECUserAgent(t *testing.T) {
 	_, err := parseOptions(nil)
 	if err == nil {
 		t.Fatal("expected missing sec user agent error")
+	}
+}
+
+func TestValidateUniverseUpdateResultRejectsEmptyFullUniverse(t *testing.T) {
+	err := validateUniverseUpdateResult(collector.UniverseUpdateResult{
+		Summary: collector.UniverseUpdateSummary{
+			SECTickersTotal:    9000,
+			CollectableTickers: 0,
+		},
+	}, options{maxTickers: 0})
+	if err == nil {
+		t.Fatal("expected empty full universe error")
+	}
+	if !strings.Contains(err.Error(), "zero collectable tickers") {
+		t.Fatalf("unexpected error: %v", err)
+	}
+}
+
+func TestValidateUniverseUpdateResultAllowsEmptyLimitedSmokeRun(t *testing.T) {
+	err := validateUniverseUpdateResult(collector.UniverseUpdateResult{
+		Summary: collector.UniverseUpdateSummary{
+			SECTickersTotal:    1,
+			CollectableTickers: 0,
+		},
+	}, options{maxTickers: 1})
+	if err != nil {
+		t.Fatalf("validateUniverseUpdateResult() error = %v", err)
 	}
 }

@@ -67,6 +67,9 @@ func run(ctx context.Context, args []string) error {
 		Workers:           options.workers,
 	})
 	result := updater.Build(ctx, companies)
+	if err := validateUniverseUpdateResult(result, options); err != nil {
+		return err
+	}
 
 	store := collector.NewUniverseStore(options.outputDir)
 	if err := store.Rewrite(result); err != nil {
@@ -121,4 +124,11 @@ func parseOptions(args []string) (options, error) {
 		return options{}, errors.New("--output-dir is required")
 	}
 	return opts, nil
+}
+
+func validateUniverseUpdateResult(result collector.UniverseUpdateResult, opts options) error {
+	if opts.maxTickers == 0 && result.Summary.SECTickersTotal > 0 && result.Summary.CollectableTickers == 0 {
+		return errors.New("universe update produced zero collectable tickers; refusing to rewrite full collectable universe")
+	}
+	return nil
 }
