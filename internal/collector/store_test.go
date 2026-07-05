@@ -117,7 +117,7 @@ func TestFileStoreRewritesPricesActionsAndValidationMeta(t *testing.T) {
 		t.Fatalf("unexpected first price: %+v", first)
 	}
 
-	actionRaw, err := os.ReadFile(filepath.Join(root, "actions", "A", "AAPL.actions.jsonl"))
+	actionRaw, err := os.ReadFile(filepath.Join(root, "actions", "AAPL", "AAPL.actions.jsonl"))
 	if err != nil {
 		t.Fatalf("read actions: %v", err)
 	}

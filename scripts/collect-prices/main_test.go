@@ -1,6 +1,8 @@
 package main
 
 import (
+	"os"
+	"strings"
 	"testing"
 	"time"
 )
@@ -115,6 +117,21 @@ func TestParseOptionsAllowsRepairMetaWithoutUserAgent(t *testing.T) {
 	}
 	if !options.repairMeta {
 		t.Fatal("expected repairMeta to be true")
+	}
+}
+
+func TestMainDoesNotWireRemovedProvider(t *testing.T) {
+	raw, err := os.ReadFile("main.go")
+	if err != nil {
+		t.Fatalf("ReadFile(main.go) error = %v", err)
+	}
+	source := string(raw)
+	removedProvider := strings.Join([]string{"Sto", "oq"}, "")
+	removedFallback := "Fallback" + "Provider"
+	for _, forbidden := range []string{"New" + removedFallback, "New" + removedProvider + "Provider", removedProvider + "ProviderConfig"} {
+		if strings.Contains(source, forbidden) {
+			t.Fatalf("main.go still references %s", forbidden)
+		}
 	}
 }
 

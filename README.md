@@ -23,7 +23,7 @@ data/
       AAPL.jsonl
       AAPL.meta.json
   actions/
-    A/
+    AAPL/
       AAPL.actions.jsonl
 scripts/
   update-universe/
@@ -61,7 +61,7 @@ Market cap is read from Yahoo `marketCap`. Missing, zero, below-threshold, symbo
 
 ## Collect Prices
 
-`collect-prices` downloads the SEC ticker list, reads `data/universe/collectable_tickers.jsonl`, computes the intersection, and collects prices only for the final target list.
+`collect-prices` downloads the SEC ticker list, reads `data/universe/collectable_tickers.jsonl`, computes the intersection, and collects prices only for the final target list. Daily price history and corporate actions are collected from Yahoo Finance Chart JSON only.
 
 ```bash
 go run ./scripts/collect-prices \
@@ -90,7 +90,7 @@ Each ticker is stored in its own directory:
 ```text
 data/prices/AAPL/AAPL.jsonl
 data/prices/AAPL/AAPL.meta.json
-data/actions/A/AAPL.actions.jsonl
+data/actions/AAPL/AAPL.actions.jsonl
 ```
 
 Price records store raw Yahoo OHLC and adjusted OHLC. Yahoo provides `adjClose`; `adjOpen`, `adjHigh`, and `adjLow` are calculated with `adjClose / close`. Rows with invalid adjusted prices are skipped.

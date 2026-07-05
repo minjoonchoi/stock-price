@@ -173,6 +173,43 @@ func TestUniverseUpdaterBuildsCollectableAndExcludedLists(t *testing.T) {
 	}
 }
 
+func TestUniverseUpdaterLogsEachTickerDecision(t *testing.T) {
+	var logBuffer bytes.Buffer
+	provider := fakeMarketCapProvider{
+		quotes: map[string]MarketCapQuote{
+			"AAPL": {Ticker: "AAPL", YahooSymbol: "AAPL", MarketCap: 3_500_000_000_000, HasMarketCap: true, Currency: "USD", QuoteType: "EQUITY", Source: SourceYahoo},
+			"TINY": {Ticker: "TINY", YahooSymbol: "TINY", MarketCap: 120_000_000, HasMarketCap: true, Currency: "USD", QuoteType: "EQUITY", Source: SourceYahoo},
+		},
+	}
+	updater := NewUniverseUpdater(UniverseUpdaterConfig{
+		MarketCapProvider: provider,
+		MinMarketCap:      300_000_000,
+		Workers:           1,
+		Clock:             fixedClock(time.Date(2026, 7, 5, 22, 0, 0, 0, time.UTC)),
+		LogWriter:         &logBuffer,
+	})
+
+	result := updater.Build(context.Background(), []Company{
+		{Ticker: "AAPL", CIK: 320193, Title: "Apple Inc."},
+		{Ticker: "TINY", CIK: 1, Title: "Tiny Corp"},
+	})
+
+	if result.Summary.CollectableTickers != 1 || result.Summary.ExcludedTickers != 1 {
+		t.Fatalf("unexpected summary: %+v", result.Summary)
+	}
+	logs := logBuffer.String()
+	for _, expected := range []string{
+		"AAPL universe collectable",
+		"marketCap=3500000000000",
+		"TINY universe excluded",
+		"reason=market_cap_below_threshold",
+	} {
+		if !strings.Contains(logs, expected) {
+			t.Fatalf("logs %q missing %q", logs, expected)
+		}
+	}
+}
+
 func TestUniverseStoreRewriteWritesSortedJSONLAndMeta(t *testing.T) {
 	root := t.TempDir()
 	store := NewUniverseStore(root)

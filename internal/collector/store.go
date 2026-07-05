@@ -354,7 +354,7 @@ func (s *FileStore) actionsPath(ticker string) string {
 	if ticker == "" {
 		return filepath.Join(s.actionsRoot, "_", "_.actions.jsonl")
 	}
-	return filepath.Join(s.actionsRoot, ticker[:1], ticker+".actions.jsonl")
+	return filepath.Join(s.actionsRoot, tickerDirectory(ticker), ticker+".actions.jsonl")
 }
 
 func defaultActionsRoot(root string) string {
@@ -397,11 +397,7 @@ func normalizePriceRecord(record PriceRecord, fallbackTicker string) PriceRecord
 		record.AdjLow = record.Low
 	}
 	if record.AdjustmentVersion == "" {
-		if record.Source == SourceStooq {
-			record.AdjustmentVersion = AdjustmentVersionStooqRawV1
-		} else {
-			record.AdjustmentVersion = AdjustmentVersionYahooChartV1
-		}
+		record.AdjustmentVersion = AdjustmentVersionYahooChartV1
 	}
 	return record
 }

@@ -7,18 +7,22 @@ on:
         description: "Minimum Yahoo market cap"
         required: false
         type: string
+        default: "300000000"
       max_tickers:
         description: "Optional max number of SEC tickers to evaluate"
         required: false
         type: string
+        default: "0"
       workers:
         description: "Market cap worker count"
         required: false
         type: string
+        default: "4"
       sleep_ms:
         description: "Delay between outbound HTTP requests in milliseconds"
         required: false
         type: string
+        default: "150"
   schedule:
     # 21:00 UTC Sunday = 06:00 KST Monday
     - cron: "0 21 * * 0"
@@ -63,7 +67,7 @@ jobs:
           SLEEP_MS="${INPUT_SLEEP_MS:-150}"
           ARGS=(--sec-user-agent "${USER_AGENT}" --output-dir data/universe --min-market-cap "${MIN_MARKET_CAP}" --workers "${WORKERS}" --sleep-ms "${SLEEP_MS}")
 
-          if [ -n "${INPUT_MAX_TICKERS}" ]; then
+          if [ -n "${INPUT_MAX_TICKERS}" ] && [ "${INPUT_MAX_TICKERS}" != "0" ]; then
             ARGS+=(--max-tickers "${INPUT_MAX_TICKERS}")
           fi
 

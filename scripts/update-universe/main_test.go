@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"strings"
 	"testing"
 
@@ -39,6 +40,46 @@ func TestParseOptionsReadsUniverseFlags(t *testing.T) {
 	}
 	if options.outputDir != "tmp/universe" {
 		t.Fatalf("outputDir = %q", options.outputDir)
+	}
+}
+
+func TestParseOptionsDefaultsUniverseRateLimit(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	if options.minMarketCap != collector.DefaultMinMarketCap {
+		t.Fatalf("minMarketCap = %d", options.minMarketCap)
+	}
+	if options.maxTickers != 0 {
+		t.Fatalf("maxTickers = %d", options.maxTickers)
+	}
+	if options.workers != 4 {
+		t.Fatalf("workers = %d", options.workers)
+	}
+	if options.sleepMS != 150 {
+		t.Fatalf("sleepMS = %d", options.sleepMS)
+	}
+}
+
+func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
+	raw, err := os.ReadFile("../../.github/workflows/update-universe.yml")
+	if err != nil {
+		t.Fatalf("ReadFile(update-universe.yml) error = %v", err)
+	}
+	workflow := string(raw)
+	for _, expected := range []string{
+		"default: \"300000000\"",
+		"default: \"0\"",
+		"default: \"4\"",
+		"default: \"150\"",
+	} {
+		if !strings.Contains(workflow, expected) {
+			t.Fatalf("workflow missing %s", expected)
+		}
 	}
 }
 

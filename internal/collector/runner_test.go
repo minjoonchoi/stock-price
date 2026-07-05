@@ -532,7 +532,7 @@ func TestRunnerLogsProviderFailureAndContinuesWithNextTicker(t *testing.T) {
 	var logBuffer bytes.Buffer
 	provider := fakeProviderFunc(func(ctx context.Context, ticker string, start time.Time, end time.Time) (PriceHistory, error) {
 		if ticker == "AAC" {
-			return PriceHistory{}, errors.New("Yahoo request for AAC failed: 404 Not Found; Stooq request for AAC failed: no data")
+			return PriceHistory{}, errors.New("Yahoo request for AAC failed: 404 Not Found")
 		}
 		return PriceHistory{Records: []PriceRecord{price("2026-07-03", ticker)}}, nil
 	})

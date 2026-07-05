@@ -6,6 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"os"
@@ -304,6 +306,7 @@ type UniverseUpdaterConfig struct {
 	MinMarketCap      int64
 	Workers           int
 	Clock             func() time.Time
+	LogWriter         io.Writer
 }
 
 type UniverseUpdater struct {
@@ -311,6 +314,7 @@ type UniverseUpdater struct {
 	minMarketCap int64
 	workers      int
 	clock        func() time.Time
+	logger       *log.Logger
 }
 
 type UniverseUpdateSummary struct {
@@ -343,11 +347,16 @@ func NewUniverseUpdater(config UniverseUpdaterConfig) *UniverseUpdater {
 	if clock == nil {
 		clock = time.Now
 	}
+	logWriter := config.LogWriter
+	if logWriter == nil {
+		logWriter = os.Stderr
+	}
 	return &UniverseUpdater{
 		provider:     config.MarketCapProvider,
 		minMarketCap: minMarketCap,
 		workers:      workers,
 		clock:        clock,
+		logger:       log.New(logWriter, "", log.LstdFlags),
 	}
 }
 
@@ -389,6 +398,7 @@ func (u *UniverseUpdater) Build(ctx context.Context, companies []Company) Univer
 		},
 	}
 	for decision := range results {
+		u.logDecision(decision)
 		if decision.requested {
 			result.Summary.YahooMarketCapRequests++
 		}
@@ -422,6 +432,21 @@ func (u *UniverseUpdater) Build(ctx context.Context, companies []Company) Univer
 		LastUpdatedAt:      checkedAt,
 	}
 	return result
+}
+
+func (u *UniverseUpdater) logDecision(decision universeDecision) {
+	if u.logger == nil {
+		return
+	}
+	if decision.collectable != nil {
+		item := decision.collectable
+		u.logger.Printf("%s universe collectable: marketCap=%d currency=%s source=%s", item.Ticker, item.MarketCap, item.Currency, item.Source)
+		return
+	}
+	if decision.excluded != nil {
+		item := decision.excluded
+		u.logger.Printf("%s universe excluded: reason=%s marketCap=%d source=%s", item.Ticker, item.Reason, item.MarketCap, item.Source)
+	}
 }
 
 type universeDecision struct {

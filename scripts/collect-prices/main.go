@@ -62,16 +62,10 @@ func run(ctx context.Context, args []string) error {
 		},
 	}
 	store := collector.NewFileStore(options.dataDir)
-	provider := collector.NewFallbackProvider(
-		collector.NewYahooProvider(collector.YahooProviderConfig{
-			UserAgent: options.userAgent,
-			Client:    httpClient,
-		}),
-		collector.NewStooqProvider(collector.StooqProviderConfig{
-			UserAgent: options.userAgent,
-			Client:    httpClient,
-		}),
-	)
+	provider := collector.NewYahooProvider(collector.YahooProviderConfig{
+		UserAgent: options.userAgent,
+		Client:    httpClient,
+	})
 
 	selection, err := companiesForRun(ctx, options, httpClient, store)
 	if err != nil {

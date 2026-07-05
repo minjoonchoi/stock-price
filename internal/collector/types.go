@@ -7,10 +7,8 @@ import (
 
 const (
 	SourceYahoo = "yahoo"
-	SourceStooq = "stooq"
 
 	AdjustmentVersionYahooChartV1 = "yahoo-chart-v1"
-	AdjustmentVersionStooqRawV1   = "stooq-raw-v1"
 
 	ActionTypeSplit    = "split"
 	ActionTypeDividend = "dividend"
