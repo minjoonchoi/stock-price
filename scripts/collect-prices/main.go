@@ -16,12 +16,13 @@ import (
 )
 
 type options struct {
-	startDate string
-	dataDir   string
-	userAgent string
-	tickers   []string
-	limit     int
-	timeout   time.Duration
+	startDate    string
+	dataDir      string
+	userAgent    string
+	tickers      []string
+	limit        int
+	timeout      time.Duration
+	requestDelay time.Duration
 }
 
 func main() {
@@ -46,7 +47,12 @@ func run(ctx context.Context, args []string) error {
 		startDate = parsedStartDate
 	}
 
-	httpClient := &http.Client{Timeout: options.timeout}
+	httpClient := &http.Client{
+		Timeout: options.timeout,
+		Transport: &collector.RateLimitedTransport{
+			Delay: options.requestDelay,
+		},
+	}
 	store := collector.NewFileStore(options.dataDir)
 	provider := collector.NewFallbackProvider(
 		collector.NewYahooProvider(collector.YahooProviderConfig{
@@ -92,6 +98,7 @@ func parseOptions(args []string) (options, error) {
 	flags.StringVar(&opts.userAgent, "user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
 	flags.IntVar(&opts.limit, "limit", 0, "maximum number of tickers to process; 0 means all")
 	flags.DurationVar(&opts.timeout, "timeout", 30*time.Second, "HTTP request timeout")
+	flags.DurationVar(&opts.requestDelay, "request-delay", defaultRequestDelay(), "minimum delay between outbound HTTP requests")
 	flags.Func("ticker", "ticker or comma-separated tickers to collect instead of fetching the SEC list; can be repeated", func(value string) error {
 		tickerValues = append(tickerValues, splitTickers(value)...)
 		return nil
@@ -112,8 +119,23 @@ func parseOptions(args []string) (options, error) {
 	if opts.limit < 0 {
 		return options{}, errors.New("--limit must be 0 or greater")
 	}
+	if opts.requestDelay < 0 {
+		return options{}, errors.New("--request-delay must be 0 or greater")
+	}
 	opts.tickers = uniqueTickers(tickerValues)
 	return opts, nil
+}
+
+func defaultRequestDelay() time.Duration {
+	value := strings.TrimSpace(os.Getenv("PRICE_REQUEST_DELAY"))
+	if value == "" {
+		return 2 * time.Second
+	}
+	duration, err := time.ParseDuration(value)
+	if err != nil || duration < 0 {
+		return 2 * time.Second
+	}
+	return duration
 }
 
 func companiesForRun(ctx context.Context, opts options, httpClient *http.Client) ([]collector.Company, error) {

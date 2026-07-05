@@ -43,7 +43,7 @@ func TestFileStoreAppendsJSONLAndUpdatesMeta(t *testing.T) {
 		t.Fatalf("AppendPrices() error = %v", err)
 	}
 
-	jsonlPath := filepath.Join(root, "A", "AAPL.jsonl")
+	jsonlPath := filepath.Join(root, "AAPL", "AAPL.jsonl")
 	raw, err := os.ReadFile(jsonlPath)
 	if err != nil {
 		t.Fatalf("read jsonl: %v", err)

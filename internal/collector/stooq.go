@@ -2,12 +2,16 @@ package collector
 
 import (
 	"context"
+	"crypto/sha256"
 	"encoding/csv"
+	"encoding/hex"
 	"errors"
 	"fmt"
 	"io"
 	"net/http"
+	"net/http/cookiejar"
 	"net/url"
+	"regexp"
 	"sort"
 	"strconv"
 	"strings"
@@ -36,6 +40,14 @@ func NewStooqProvider(config StooqProviderConfig) *StooqProvider {
 	client := config.Client
 	if client == nil {
 		client = http.DefaultClient
+	}
+	if client.Jar == nil {
+		jar, err := cookiejar.New(nil)
+		if err == nil {
+			copied := *client
+			copied.Jar = jar
+			client = &copied
+		}
 	}
 	return &StooqProvider{
 		baseURL:   baseURL,
@@ -71,13 +83,32 @@ func (p *StooqProvider) FetchHistory(ctx context.Context, ticker string, start t
 	if err != nil {
 		return PriceHistory{}, err
 	}
-	defer response.Body.Close()
+	body, err := readResponseBody(response)
+	if err != nil {
+		return PriceHistory{}, err
+	}
 
 	if response.StatusCode < 200 || response.StatusCode >= 300 {
 		return PriceHistory{}, fmt.Errorf("Stooq request for %s failed: %s", ticker, response.Status)
 	}
+	if challenge, ok := parseStooqVerificationChallenge(body); ok {
+		if err := p.solveVerificationChallenge(ctx, challenge); err != nil {
+			return PriceHistory{}, fmt.Errorf("Stooq request for %s failed: %w", ticker, err)
+		}
+		response, err = p.client.Do(request.Clone(ctx))
+		if err != nil {
+			return PriceHistory{}, err
+		}
+		body, err = readResponseBody(response)
+		if err != nil {
+			return PriceHistory{}, err
+		}
+		if response.StatusCode < 200 || response.StatusCode >= 300 {
+			return PriceHistory{}, fmt.Errorf("Stooq request for %s failed after verification: %s", ticker, response.Status)
+		}
+	}
 
-	records, err := parseStooqCSV(response.Body, NormalizeTicker(ticker))
+	records, err := parseStooqCSV(strings.NewReader(body), NormalizeTicker(ticker))
 	if err != nil {
 		return PriceHistory{}, fmt.Errorf("Stooq request for %s failed: %w", ticker, err)
 	}
@@ -85,6 +116,100 @@ func (p *StooqProvider) FetchHistory(ctx context.Context, ticker string, start t
 		return PriceHistory{}, fmt.Errorf("Stooq request for %s failed: no data", ticker)
 	}
 	return PriceHistory{Records: records}, nil
+}
+
+func readResponseBody(response *http.Response) (string, error) {
+	defer response.Body.Close()
+	data, err := io.ReadAll(response.Body)
+	if err != nil {
+		return "", err
+	}
+	return string(data), nil
+}
+
+type stooqVerificationChallenge struct {
+	Token  string
+	Digits int
+	Path   string
+}
+
+var (
+	stooqTokenPattern  = regexp.MustCompile(`const c="([^"]+)"`)
+	stooqDigitsPattern = regexp.MustCompile(`,d=([0-9]+),t=`)
+	stooqPathPattern   = regexp.MustCompile(`fetch\("([^"]+)"`)
+)
+
+func parseStooqVerificationChallenge(body string) (stooqVerificationChallenge, bool) {
+	if !strings.Contains(body, "crypto.subtle.digest") || !strings.Contains(body, "/__verify") {
+		return stooqVerificationChallenge{}, false
+	}
+
+	tokenMatch := stooqTokenPattern.FindStringSubmatch(body)
+	digitsMatch := stooqDigitsPattern.FindStringSubmatch(body)
+	pathMatch := stooqPathPattern.FindStringSubmatch(body)
+	if len(tokenMatch) != 2 || len(digitsMatch) != 2 || len(pathMatch) != 2 {
+		return stooqVerificationChallenge{}, false
+	}
+
+	digits, err := strconv.Atoi(digitsMatch[1])
+	if err != nil {
+		return stooqVerificationChallenge{}, false
+	}
+	return stooqVerificationChallenge{
+		Token:  tokenMatch[1],
+		Digits: digits,
+		Path:   pathMatch[1],
+	}, true
+}
+
+func (p *StooqProvider) solveVerificationChallenge(ctx context.Context, challenge stooqVerificationChallenge) error {
+	nonce, err := solveSHA256Prefix(challenge.Token, challenge.Digits)
+	if err != nil {
+		return err
+	}
+	verifyURL, err := url.Parse(p.baseURL + challenge.Path)
+	if err != nil {
+		return err
+	}
+
+	form := url.Values{}
+	form.Set("c", challenge.Token)
+	form.Set("n", strconv.Itoa(nonce))
+	request, err := http.NewRequestWithContext(ctx, http.MethodPost, verifyURL.String(), strings.NewReader(form.Encode()))
+	if err != nil {
+		return err
+	}
+	request.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+	if p.userAgent != "" {
+		request.Header.Set("User-Agent", p.userAgent)
+	}
+
+	response, err := p.client.Do(request)
+	if err != nil {
+		return err
+	}
+	_, err = readResponseBody(response)
+	if err != nil {
+		return err
+	}
+	if response.StatusCode < 200 || response.StatusCode >= 300 {
+		return fmt.Errorf("verification failed: %s", response.Status)
+	}
+	return nil
+}
+
+func solveSHA256Prefix(token string, digits int) (int, error) {
+	if digits < 0 || digits > 8 {
+		return 0, fmt.Errorf("unsupported verification difficulty %d", digits)
+	}
+	prefix := strings.Repeat("0", digits)
+	for nonce := 0; nonce < 10_000_000; nonce++ {
+		sum := sha256.Sum256([]byte(token + strconv.Itoa(nonce)))
+		if strings.HasPrefix(hex.EncodeToString(sum[:]), prefix) {
+			return nonce, nil
+		}
+	}
+	return 0, errors.New("verification nonce not found")
 }
 
 func StooqSymbol(ticker string) string {
@@ -102,6 +227,9 @@ func parseStooqCSV(reader io.Reader, ticker string) ([]PriceRecord, error) {
 	}
 	trimmed := strings.TrimSpace(string(data))
 	lower := strings.ToLower(trimmed)
+	if strings.Contains(lower, "access denied") {
+		return nil, errors.New("access denied")
+	}
 	if strings.HasPrefix(lower, "<!doctype") || strings.HasPrefix(lower, "<html") {
 		return nil, errors.New("unexpected non-csv response")
 	}

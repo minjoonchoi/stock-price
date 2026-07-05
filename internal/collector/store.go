@@ -127,24 +127,20 @@ func (s *FileStore) AppendPrices(ticker string, records []PriceRecord, updatedAt
 
 func (s *FileStore) jsonlPath(ticker string) string {
 	ticker = NormalizeTicker(ticker)
-	return filepath.Join(s.root, tickerShard(ticker), ticker+".jsonl")
+	return filepath.Join(s.root, tickerDirectory(ticker), ticker+".jsonl")
 }
 
 func (s *FileStore) metaPath(ticker string) string {
 	ticker = NormalizeTicker(ticker)
-	return filepath.Join(s.root, tickerShard(ticker), ticker+".meta.json")
+	return filepath.Join(s.root, tickerDirectory(ticker), ticker+".meta.json")
 }
 
-func tickerShard(ticker string) string {
+func tickerDirectory(ticker string) string {
 	ticker = NormalizeTicker(ticker)
 	if ticker == "" {
 		return "_"
 	}
-	first := ticker[:1]
-	if first < "A" || first > "Z" {
-		return "_"
-	}
-	return first
+	return strings.NewReplacer("/", "-", "\\", "-", ":", "-").Replace(ticker)
 }
 
 func NormalizeTicker(ticker string) string {

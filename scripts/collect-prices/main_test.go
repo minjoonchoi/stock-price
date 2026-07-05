@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"testing"
+	"time"
+)
 
 func TestParseOptionsRequiresUserAgent(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "")
@@ -20,6 +23,7 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 		"--user-agent", "github-stock-collector test@example.com",
 		"--ticker", "aapl, msft",
 		"--limit", "2",
+		"--request-delay", "250ms",
 	})
 	if err != nil {
 		t.Fatalf("parseOptions() error = %v", err)
@@ -37,8 +41,24 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	if options.limit != 2 {
 		t.Fatalf("limit = %d", options.limit)
 	}
+	if options.requestDelay != 250*time.Millisecond {
+		t.Fatalf("requestDelay = %s", options.requestDelay)
+	}
 	if len(options.tickers) != 2 || options.tickers[0] != "AAPL" || options.tickers[1] != "MSFT" {
 		t.Fatalf("tickers = %+v", options.tickers)
+	}
+}
+
+func TestParseOptionsDefaultsRequestDelayFromEnvironment(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+	t.Setenv("PRICE_REQUEST_DELAY", "1500ms")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+	if options.requestDelay != 1500*time.Millisecond {
+		t.Fatalf("requestDelay = %s", options.requestDelay)
 	}
 }
 

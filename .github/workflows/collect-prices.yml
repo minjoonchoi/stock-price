@@ -15,6 +15,10 @@ on:
         description: "Optional YYYY-MM-DD initial start date; empty uses provider max history"
         required: false
         type: string
+      request_delay:
+        description: "Optional delay between outbound HTTP requests, for example 2s or 500ms"
+        required: false
+        type: string
   schedule:
     # 16:00 UTC = 01:00 KST
     - cron: "0 16 * * *"
@@ -33,9 +37,11 @@ jobs:
     env:
       STOCK_PRICE_START_DATE: ${{ vars.STOCK_PRICE_START_DATE }}
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+      PRICE_REQUEST_DELAY: ${{ vars.PRICE_REQUEST_DELAY }}
       INPUT_TICKER: ${{ inputs.ticker }}
       INPUT_LIMIT: ${{ inputs.limit }}
       INPUT_START_DATE: ${{ inputs.start_date }}
+      INPUT_REQUEST_DELAY: ${{ inputs.request_delay }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -55,7 +61,8 @@ jobs:
           set -euo pipefail
           USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
           START_DATE="${INPUT_START_DATE:-${STOCK_PRICE_START_DATE:-}}"
-          ARGS=(--user-agent "${USER_AGENT}" --data-dir data/prices)
+          REQUEST_DELAY="${INPUT_REQUEST_DELAY:-${PRICE_REQUEST_DELAY:-2s}}"
+          ARGS=(--user-agent "${USER_AGENT}" --data-dir data/prices --request-delay "${REQUEST_DELAY}")
 
           if [ -n "${START_DATE}" ]; then
             ARGS+=(--start-date "${START_DATE}")
