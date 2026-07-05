@@ -1,6 +1,9 @@
 {
+  "ticker": "AAPL",
+  "source": "yahoo",
+  "firstDate": "2026-06-30",
   "lastDate": "2026-07-02",
-  "records": 2,
-  "updatedAt": "2026-07-04T15:55:23Z",
-  "source": "yahoo"
+  "records": 3,
+  "backfillCompleted": true,
+  "updatedAt": "2026-07-05T12:31:09Z"
 }
