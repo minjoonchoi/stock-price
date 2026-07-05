@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
 	"io"
 	"net/http"
 	"os"
@@ -256,6 +257,16 @@ func TestFilterCompaniesByUniverseUsesSECIntersection(t *testing.T) {
 	}
 	if len(result.Companies) != 2 || result.Companies[0].Ticker != "AAPL" || result.Companies[1].Ticker != "MSFT" {
 		t.Fatalf("unexpected final companies: %+v", result.Companies)
+	}
+}
+
+func TestLoadCollectableTickersMissingFileReturnsActionableError(t *testing.T) {
+	_, err := LoadCollectableTickers(filepath.Join(t.TempDir(), "collectable_tickers.jsonl"))
+	if !errors.Is(err, ErrCollectableUniverseNotFound) {
+		t.Fatalf("error = %v, want ErrCollectableUniverseNotFound", err)
+	}
+	if err.Error() != "collectable_tickers.jsonl not found. Run update-universe workflow first." {
+		t.Fatalf("message = %q", err.Error())
 	}
 }
 
