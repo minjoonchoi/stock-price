@@ -24,6 +24,8 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 		"--ticker", "aapl, msft",
 		"--limit", "2",
 		"--request-delay", "250ms",
+		"--force-backfill",
+		"--repair-meta",
 	})
 	if err != nil {
 		t.Fatalf("parseOptions() error = %v", err)
@@ -43,6 +45,12 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	}
 	if options.requestDelay != 250*time.Millisecond {
 		t.Fatalf("requestDelay = %s", options.requestDelay)
+	}
+	if !options.forceBackfill {
+		t.Fatal("expected forceBackfill to be true")
+	}
+	if !options.repairMeta {
+		t.Fatal("expected repairMeta to be true")
 	}
 	if len(options.tickers) != 2 || options.tickers[0] != "AAPL" || options.tickers[1] != "MSFT" {
 		t.Fatalf("tickers = %+v", options.tickers)
@@ -71,5 +79,17 @@ func TestParseOptionsDefaultsToDynamicStartDate(t *testing.T) {
 	}
 	if options.startDate != "" {
 		t.Fatalf("expected dynamic start date by default, got %q", options.startDate)
+	}
+}
+
+func TestParseOptionsAllowsRepairMetaWithoutUserAgent(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "")
+
+	options, err := parseOptions([]string{"--repair-meta", "--data-dir", "tmp/prices"})
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+	if !options.repairMeta {
+		t.Fatal("expected repairMeta to be true")
 	}
 }

@@ -51,8 +51,11 @@ type PriceProvider interface {
 }
 
 type Meta struct {
-	LastDate  string `json:"lastDate"`
-	Records   int    `json:"records"`
-	UpdatedAt string `json:"updatedAt"`
-	Source    string `json:"source"`
+	Ticker            string `json:"ticker"`
+	Source            string `json:"source"`
+	FirstDate         string `json:"firstDate"`
+	LastDate          string `json:"lastDate"`
+	Records           int    `json:"records"`
+	BackfillCompleted bool   `json:"backfillCompleted"`
+	UpdatedAt         string `json:"updatedAt"`
 }

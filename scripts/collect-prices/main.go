@@ -16,13 +16,15 @@ import (
 )
 
 type options struct {
-	startDate    string
-	dataDir      string
-	userAgent    string
-	tickers      []string
-	limit        int
-	timeout      time.Duration
-	requestDelay time.Duration
+	startDate     string
+	dataDir       string
+	userAgent     string
+	tickers       []string
+	limit         int
+	timeout       time.Duration
+	requestDelay  time.Duration
+	forceBackfill bool
+	repairMeta    bool
 }
 
 func main() {
@@ -65,7 +67,7 @@ func run(ctx context.Context, args []string) error {
 		}),
 	)
 
-	companies, err := companiesForRun(ctx, options, httpClient)
+	companies, err := companiesForRun(ctx, options, httpClient, store)
 	if err != nil {
 		return err
 	}
@@ -74,9 +76,11 @@ func run(ctx context.Context, args []string) error {
 	}
 
 	runner := collector.NewRunner(collector.RunnerConfig{
-		Store:     store,
-		Provider:  provider,
-		StartDate: startDate,
+		Store:         store,
+		Provider:      provider,
+		StartDate:     startDate,
+		ForceBackfill: options.forceBackfill,
+		RepairMeta:    options.repairMeta,
 	})
 	summary, err := runner.CollectTickers(ctx, companies)
 	if err != nil {
@@ -84,6 +88,8 @@ func run(ctx context.Context, args []string) error {
 	}
 
 	fmt.Printf("processed=%d skipped=%d appended=%d failed=%d\n", summary.Processed, summary.Skipped, summary.Appended, summary.Failed)
+	fmt.Printf("Tickers Backfilled: %d\n", summary.Backfilled)
+	fmt.Printf("Tickers Incremental Updated: %d\n", summary.IncrementalUpdated)
 	return nil
 }
 
@@ -99,6 +105,8 @@ func parseOptions(args []string) (options, error) {
 	flags.IntVar(&opts.limit, "limit", 0, "maximum number of tickers to process; 0 means all")
 	flags.DurationVar(&opts.timeout, "timeout", 30*time.Second, "HTTP request timeout")
 	flags.DurationVar(&opts.requestDelay, "request-delay", defaultRequestDelay(), "minimum delay between outbound HTTP requests")
+	flags.BoolVar(&opts.forceBackfill, "force-backfill", false, "force full-history merge for every ticker")
+	flags.BoolVar(&opts.repairMeta, "repair-meta", false, "rebuild per-ticker meta from local JSONL without fetching price history")
 	flags.Func("ticker", "ticker or comma-separated tickers to collect instead of fetching the SEC list; can be repeated", func(value string) error {
 		tickerValues = append(tickerValues, splitTickers(value)...)
 		return nil
@@ -108,7 +116,7 @@ func parseOptions(args []string) (options, error) {
 		return options{}, err
 	}
 	opts.userAgent = strings.TrimSpace(opts.userAgent)
-	if opts.userAgent == "" {
+	if opts.userAgent == "" && !opts.repairMeta {
 		return options{}, errors.New("missing --user-agent or SEC_USER_AGENT")
 	}
 	if opts.startDate != "" {
@@ -138,10 +146,21 @@ func defaultRequestDelay() time.Duration {
 	return duration
 }
 
-func companiesForRun(ctx context.Context, opts options, httpClient *http.Client) ([]collector.Company, error) {
+func companiesForRun(ctx context.Context, opts options, httpClient *http.Client, store *collector.FileStore) ([]collector.Company, error) {
 	if len(opts.tickers) > 0 {
 		companies := make([]collector.Company, 0, len(opts.tickers))
 		for _, ticker := range opts.tickers {
+			companies = append(companies, collector.Company{Ticker: ticker})
+		}
+		return companies, nil
+	}
+	if opts.repairMeta {
+		tickers, err := store.ListTickers()
+		if err != nil {
+			return nil, err
+		}
+		companies := make([]collector.Company, 0, len(tickers))
+		for _, ticker := range tickers {
 			companies = append(companies, collector.Company{Ticker: ticker})
 		}
 		return companies, nil

@@ -19,6 +19,16 @@ on:
         description: "Optional delay between outbound HTTP requests, for example 2s or 500ms"
         required: false
         type: string
+      force_backfill:
+        description: "Force full-history merge for selected/all tickers"
+        required: false
+        type: boolean
+        default: false
+      repair_meta:
+        description: "Repair local meta files from JSONL without fetching price history"
+        required: false
+        type: boolean
+        default: false
   schedule:
     # 16:00 UTC = 01:00 KST
     - cron: "0 16 * * *"
@@ -42,6 +52,8 @@ jobs:
       INPUT_LIMIT: ${{ inputs.limit }}
       INPUT_START_DATE: ${{ inputs.start_date }}
       INPUT_REQUEST_DELAY: ${{ inputs.request_delay }}
+      INPUT_FORCE_BACKFILL: ${{ inputs.force_backfill }}
+      INPUT_REPAIR_META: ${{ inputs.repair_meta }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -72,6 +84,12 @@ jobs:
           fi
           if [ -n "${INPUT_LIMIT}" ]; then
             ARGS+=(--limit "${INPUT_LIMIT}")
+          fi
+          if [ "${INPUT_FORCE_BACKFILL}" = "true" ]; then
+            ARGS+=(--force-backfill)
+          fi
+          if [ "${INPUT_REPAIR_META}" = "true" ]; then
+            ARGS+=(--repair-meta)
           fi
 
           go run ./scripts/collect-prices "${ARGS[@]}"
