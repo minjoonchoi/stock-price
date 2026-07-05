@@ -11,6 +11,27 @@ on:
         description: "Optional max number of SEC tickers to process"
         required: false
         type: string
+      max_tickers:
+        description: "Optional max number of final target tickers to process"
+        required: false
+        type: string
+      universe_file:
+        description: "Collectable ticker universe JSONL path"
+        required: false
+        type: string
+      allow_all_sec_tickers:
+        description: "Bypass the universe file and collect all SEC tickers"
+        required: false
+        type: boolean
+        default: false
+      workers:
+        description: "Ticker worker count"
+        required: false
+        type: string
+      sleep_ms:
+        description: "Delay between outbound HTTP requests in milliseconds"
+        required: false
+        type: string
       start_date:
         description: "Optional YYYY-MM-DD initial start date; empty uses provider max history"
         required: false
@@ -44,8 +65,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # 01:00 UTC
-    - cron: "0 1 * * *"
+    # 22:00 UTC = 07:00 KST
+    - cron: "0 22 * * *"
 
 permissions:
   contents: write
@@ -64,6 +85,11 @@ jobs:
       PRICE_REQUEST_DELAY: ${{ vars.PRICE_REQUEST_DELAY }}
       INPUT_TICKER: ${{ inputs.ticker }}
       INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_MAX_TICKERS: ${{ inputs.max_tickers }}
+      INPUT_UNIVERSE_FILE: ${{ inputs.universe_file }}
+      INPUT_ALLOW_ALL_SEC_TICKERS: ${{ inputs.allow_all_sec_tickers }}
+      INPUT_WORKERS: ${{ inputs.workers }}
+      INPUT_SLEEP_MS: ${{ inputs.sleep_ms }}
       INPUT_START_DATE: ${{ inputs.start_date }}
       INPUT_REQUEST_DELAY: ${{ inputs.request_delay }}
       INPUT_FORCE_BACKFILL: ${{ inputs.force_backfill }}
@@ -90,17 +116,28 @@ jobs:
           set -euo pipefail
           USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
           START_DATE="${INPUT_START_DATE:-${STOCK_PRICE_START_DATE:-}}"
+          UNIVERSE_FILE="${INPUT_UNIVERSE_FILE:-data/universe/collectable_tickers.jsonl}"
           REQUEST_DELAY="${INPUT_REQUEST_DELAY:-${PRICE_REQUEST_DELAY:-2s}}"
-          ARGS=(--user-agent "${USER_AGENT}" --data-dir data/prices --request-delay "${REQUEST_DELAY}")
+          WORKERS="${INPUT_WORKERS:-4}"
+          ARGS=(--sec-user-agent "${USER_AGENT}" --data-dir data/prices --universe-file "${UNIVERSE_FILE}" --workers "${WORKERS}")
 
           if [ -n "${START_DATE}" ]; then
             ARGS+=(--start-date "${START_DATE}")
           fi
+          if [ -n "${INPUT_SLEEP_MS}" ]; then
+            ARGS+=(--sleep-ms "${INPUT_SLEEP_MS}")
+          else
+            ARGS+=(--request-delay "${REQUEST_DELAY}")
+          fi
           if [ -n "${INPUT_TICKER}" ]; then
             ARGS+=(--ticker "${INPUT_TICKER}")
           fi
-          if [ -n "${INPUT_LIMIT}" ]; then
-            ARGS+=(--limit "${INPUT_LIMIT}")
+          MAX_TICKERS="${INPUT_MAX_TICKERS:-${INPUT_LIMIT:-}}"
+          if [ -n "${MAX_TICKERS}" ]; then
+            ARGS+=(--max-tickers "${MAX_TICKERS}")
+          fi
+          if [ "${INPUT_ALLOW_ALL_SEC_TICKERS}" = "true" ]; then
+            ARGS+=(--allow-all-sec-tickers)
           fi
           if [ "${INPUT_FORCE_BACKFILL}" = "true" ]; then
             ARGS+=(--force-backfill)
@@ -130,5 +167,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/prices data/actions
-          git commit -m "chore(data): update daily stock prices"
+          git commit -m "chore(data): append daily yahoo prices"
           git push

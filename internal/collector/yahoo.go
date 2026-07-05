@@ -128,7 +128,8 @@ func (p *YahooProvider) fetchChart(ctx context.Context, ticker string, symbol st
 }
 
 func YahooSymbol(ticker string) string {
-	return strings.ReplaceAll(NormalizeTicker(ticker), ".", "-")
+	normalized := strings.Join(strings.Fields(NormalizeTicker(ticker)), "")
+	return strings.ReplaceAll(normalized, ".", "-")
 }
 
 type yahooChartResponse struct {

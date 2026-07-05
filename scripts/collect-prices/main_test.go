@@ -20,10 +20,13 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	options, err := parseOptions([]string{
 		"--start-date", "2026-01-01",
 		"--data-dir", "tmp/prices",
-		"--user-agent", "github-stock-collector test@example.com",
+		"--sec-user-agent", "github-stock-collector test@example.com",
 		"--ticker", "aapl, msft",
-		"--limit", "2",
-		"--request-delay", "250ms",
+		"--max-tickers", "2",
+		"--workers", "4",
+		"--sleep-ms", "250",
+		"--universe-file", "tmp/universe/collectable_tickers.jsonl",
+		"--allow-all-sec-tickers",
 		"--force-backfill",
 		"--repair-meta",
 		"--force-validate-adjusted",
@@ -48,6 +51,15 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	}
 	if options.requestDelay != 250*time.Millisecond {
 		t.Fatalf("requestDelay = %s", options.requestDelay)
+	}
+	if options.workers != 4 {
+		t.Fatalf("workers = %d", options.workers)
+	}
+	if options.universeFile != "tmp/universe/collectable_tickers.jsonl" {
+		t.Fatalf("universeFile = %q", options.universeFile)
+	}
+	if !options.allowAllSECTickers {
+		t.Fatal("expected allowAllSECTickers to be true")
 	}
 	if !options.forceBackfill {
 		t.Fatal("expected forceBackfill to be true")
@@ -103,5 +115,23 @@ func TestParseOptionsAllowsRepairMetaWithoutUserAgent(t *testing.T) {
 	}
 	if !options.repairMeta {
 		t.Fatal("expected repairMeta to be true")
+	}
+}
+
+func TestParseOptionsDefaultsUniverseFilterToRequiredFile(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+	if options.universeFile != "data/universe/collectable_tickers.jsonl" {
+		t.Fatalf("universeFile = %q", options.universeFile)
+	}
+	if options.allowAllSECTickers {
+		t.Fatal("allowAllSECTickers should default false")
+	}
+	if options.workers != 4 {
+		t.Fatalf("workers = %d", options.workers)
 	}
 }

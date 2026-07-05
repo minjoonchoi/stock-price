@@ -1,0 +1,83 @@
+name: Update Collectable Ticker Universe
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_market_cap:
+        description: "Minimum Yahoo market cap"
+        required: false
+        type: string
+      max_tickers:
+        description: "Optional max number of SEC tickers to evaluate"
+        required: false
+        type: string
+      workers:
+        description: "Market cap worker count"
+        required: false
+        type: string
+      sleep_ms:
+        description: "Delay between outbound HTTP requests in milliseconds"
+        required: false
+        type: string
+  schedule:
+    # 21:00 UTC Sunday = 06:00 KST Monday
+    - cron: "0 21 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-universe
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment: STOCK_PRICE
+    env:
+      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+      INPUT_MIN_MARKET_CAP: ${{ inputs.min_market_cap }}
+      INPUT_MAX_TICKERS: ${{ inputs.max_tickers }}
+      INPUT_WORKERS: ${{ inputs.workers }}
+      INPUT_SLEEP_MS: ${{ inputs.sleep_ms }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test
+        run: go test ./...
+
+      - name: Update universe
+        run: |
+          set -euo pipefail
+          USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
+          MIN_MARKET_CAP="${INPUT_MIN_MARKET_CAP:-300000000}"
+          WORKERS="${INPUT_WORKERS:-4}"
+          SLEEP_MS="${INPUT_SLEEP_MS:-150}"
+          ARGS=(--sec-user-agent "${USER_AGENT}" --output-dir data/universe --min-market-cap "${MIN_MARKET_CAP}" --workers "${WORKERS}" --sleep-ms "${SLEEP_MS}")
+
+          if [ -n "${INPUT_MAX_TICKERS}" ]; then
+            ARGS+=(--max-tickers "${INPUT_MAX_TICKERS}")
+          fi
+
+          go run ./scripts/update-universe "${ARGS[@]}"
+
+      - name: Commit universe updates
+        run: |
+          if [ -z "$(git status --porcelain data/universe)" ]; then
+            echo "No universe updates to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/universe
+          git commit -m "chore(data): update collectable ticker universe"
+          git push

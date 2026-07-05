@@ -19,8 +19,11 @@ type options struct {
 	startDate                      string
 	dataDir                        string
 	userAgent                      string
+	universeFile                   string
+	allowAllSECTickers             bool
 	tickers                        []string
 	limit                          int
+	workers                        int
 	timeout                        time.Duration
 	requestDelay                   time.Duration
 	forceBackfill                  bool
@@ -70,12 +73,14 @@ func run(ctx context.Context, args []string) error {
 		}),
 	)
 
-	companies, err := companiesForRun(ctx, options, httpClient, store)
+	selection, err := companiesForRun(ctx, options, httpClient, store)
 	if err != nil {
 		return err
 	}
+	companies := selection.companies
 	if options.limit > 0 && len(companies) > options.limit {
 		companies = companies[:options.limit]
+		selection.filter.FinalTargetTickers = len(companies)
 	}
 
 	runner := collector.NewRunner(collector.RunnerConfig{
@@ -93,6 +98,10 @@ func run(ctx context.Context, args []string) error {
 		return err
 	}
 
+	fmt.Printf("SEC Tickers Total: %d\n", selection.filter.SECTickersTotal)
+	fmt.Printf("Universe Tickers Total: %d\n", selection.filter.UniverseTickersTotal)
+	fmt.Printf("Final Target Tickers: %d\n", selection.filter.FinalTargetTickers)
+	fmt.Printf("Excluded By Universe Filter: %d\n", selection.filter.ExcludedByUniverseFilter)
 	fmt.Printf("processed=%d skipped=%d appended=%d failed=%d\n", summary.Processed, summary.Skipped, summary.Appended, summary.Failed)
 	fmt.Printf("Tickers Backfilled: %d\n", summary.Backfilled)
 	fmt.Printf("Tickers Incremental Updated: %d\n", summary.IncrementalUpdated)
@@ -109,15 +118,22 @@ func run(ctx context.Context, args []string) error {
 func parseOptions(args []string) (options, error) {
 	var opts options
 	var tickerValues []string
+	sleepMS := -1
 
 	flags := flag.NewFlagSet("collect-prices", flag.ContinueOnError)
 	flags.SetOutput(io.Discard)
 	flags.StringVar(&opts.startDate, "start-date", os.Getenv("STOCK_PRICE_START_DATE"), "initial collection date in YYYY-MM-DD format; empty means provider max history for new tickers")
 	flags.StringVar(&opts.dataDir, "data-dir", "data/prices", "directory where per-ticker JSONL and meta files are stored")
 	flags.StringVar(&opts.userAgent, "user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
+	flags.StringVar(&opts.userAgent, "sec-user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
+	flags.StringVar(&opts.universeFile, "universe-file", "data/universe/collectable_tickers.jsonl", "JSONL file containing market-cap filtered collectable tickers")
+	flags.BoolVar(&opts.allowAllSECTickers, "allow-all-sec-tickers", false, "allow collecting all SEC tickers when the universe file is missing or intentionally bypassed")
 	flags.IntVar(&opts.limit, "limit", 0, "maximum number of tickers to process; 0 means all")
+	flags.IntVar(&opts.limit, "max-tickers", 0, "maximum number of tickers to process; 0 means all")
+	flags.IntVar(&opts.workers, "workers", 4, "number of ticker workers")
 	flags.DurationVar(&opts.timeout, "timeout", 30*time.Second, "HTTP request timeout")
 	flags.DurationVar(&opts.requestDelay, "request-delay", defaultRequestDelay(), "minimum delay between outbound HTTP requests")
+	flags.IntVar(&sleepMS, "sleep-ms", -1, "minimum delay between outbound HTTP requests in milliseconds")
 	flags.BoolVar(&opts.forceBackfill, "force-backfill", false, "force full-history merge for every ticker")
 	flags.BoolVar(&opts.repairMeta, "repair-meta", false, "rebuild per-ticker meta from local JSONL without fetching price history")
 	flags.BoolVar(&opts.forceValidateAdjusted, "force-validate-adjusted", false, "force full-history adjusted price validation and rewrite for every ticker")
@@ -143,6 +159,12 @@ func parseOptions(args []string) (options, error) {
 	if opts.limit < 0 {
 		return options{}, errors.New("--limit must be 0 or greater")
 	}
+	if opts.workers <= 0 {
+		return options{}, errors.New("--workers must be greater than 0")
+	}
+	if sleepMS >= 0 {
+		opts.requestDelay = time.Duration(sleepMS) * time.Millisecond
+	}
 	if opts.requestDelay < 0 {
 		return options{}, errors.New("--request-delay must be 0 or greater")
 	}
@@ -165,31 +187,61 @@ func defaultRequestDelay() time.Duration {
 	return duration
 }
 
-func companiesForRun(ctx context.Context, opts options, httpClient *http.Client, store *collector.FileStore) ([]collector.Company, error) {
-	if len(opts.tickers) > 0 {
-		companies := make([]collector.Company, 0, len(opts.tickers))
-		for _, ticker := range opts.tickers {
-			companies = append(companies, collector.Company{Ticker: ticker})
-		}
-		return companies, nil
-	}
+type companySelection struct {
+	companies []collector.Company
+	filter    collector.UniverseFilterResult
+}
+
+func companiesForRun(ctx context.Context, opts options, httpClient *http.Client, store *collector.FileStore) (companySelection, error) {
 	if opts.repairMeta {
 		tickers, err := store.ListTickers()
 		if err != nil {
-			return nil, err
+			return companySelection{}, err
 		}
 		companies := make([]collector.Company, 0, len(tickers))
 		for _, ticker := range tickers {
 			companies = append(companies, collector.Company{Ticker: ticker})
 		}
-		return companies, nil
+		return companySelection{
+			companies: companies,
+			filter: collector.UniverseFilterResult{
+				Companies:          companies,
+				SECTickersTotal:    len(companies),
+				FinalTargetTickers: len(companies),
+			},
+		}, nil
 	}
 
 	secClient := collector.NewSECClient(collector.SECClientConfig{
 		UserAgent: opts.userAgent,
 		Client:    httpClient,
 	})
-	return secClient.FetchCompanies(ctx)
+	secCompanies, err := secClient.FetchCompanies(ctx)
+	if err != nil {
+		return companySelection{}, err
+	}
+
+	filter := collector.UniverseFilterResult{
+		Companies:            secCompanies,
+		SECTickersTotal:      len(secCompanies),
+		UniverseTickersTotal: len(secCompanies),
+		FinalTargetTickers:   len(secCompanies),
+	}
+	if !opts.allowAllSECTickers {
+		universe, err := collector.LoadCollectableTickers(opts.universeFile)
+		if err != nil {
+			return companySelection{}, err
+		}
+		filter = collector.FilterCompaniesByUniverse(secCompanies, universe)
+	}
+
+	companies := filter.Companies
+	if len(opts.tickers) > 0 {
+		companies = subsetCompanies(companies, opts.tickers)
+		filter.Companies = companies
+		filter.FinalTargetTickers = len(companies)
+	}
+	return companySelection{companies: companies, filter: filter}, nil
 }
 
 func splitTickers(value string) []string {
@@ -220,4 +272,18 @@ func uniqueTickers(values []string) []string {
 		tickers = append(tickers, ticker)
 	}
 	return tickers
+}
+
+func subsetCompanies(companies []collector.Company, tickers []string) []collector.Company {
+	requested := make(map[string]struct{}, len(tickers))
+	for _, ticker := range tickers {
+		requested[collector.NormalizeTicker(ticker)] = struct{}{}
+	}
+	filtered := make([]collector.Company, 0, len(companies))
+	for _, company := range companies {
+		if _, ok := requested[collector.NormalizeTicker(company.Ticker)]; ok {
+			filtered = append(filtered, company)
+		}
+	}
+	return filtered
 }
