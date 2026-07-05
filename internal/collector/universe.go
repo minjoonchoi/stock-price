@@ -33,6 +33,8 @@ const (
 var (
 	ErrYahooSymbolNotFound         = errors.New("yahoo symbol not found")
 	ErrCollectableUniverseNotFound = errors.New("collectable_tickers.jsonl not found. Run update-universe workflow first.")
+	errYahooFinanceAuthRequired    = errors.New("yahoo finance authentication required")
+	errYahooFinanceRateLimited     = errors.New("yahoo finance rate limited")
 )
 
 type CollectableTicker struct {
@@ -87,10 +89,13 @@ type YahooMarketCapProviderConfig struct {
 }
 
 type YahooMarketCapProvider struct {
-	baseURL   string
-	userAgent string
-	client    *http.Client
-	sleep     func(time.Duration)
+	baseURL          string
+	userAgent        string
+	client           *http.Client
+	sleep            func(time.Duration)
+	mu               sync.Mutex
+	skipQuote        bool
+	skipQuoteSummary bool
 }
 
 func NewYahooMarketCapProvider(config YahooMarketCapProviderConfig) *YahooMarketCapProvider {
@@ -122,13 +127,32 @@ func (p *YahooMarketCapProvider) FetchMarketCap(ctx context.Context, ticker stri
 		return quote, ErrYahooSymbolNotFound
 	}
 
-	quoteResult, err := p.fetchQuote(ctx, ticker, symbol, quote)
-	if err == nil {
-		return quoteResult, nil
+	var err error
+	if !p.shouldSkipQuote() {
+		var quoteResult MarketCapQuote
+		quoteResult, err = p.fetchQuote(ctx, ticker, symbol, quote)
+		if err == nil {
+			return quoteResult, nil
+		}
+		if errors.Is(err, errYahooFinanceAuthRequired) || errors.Is(err, errYahooFinanceRateLimited) {
+			p.disableQuote()
+		}
+	} else {
+		err = errYahooFinanceAuthRequired
 	}
-	summaryResult, summaryErr := p.fetchQuoteSummary(ctx, ticker, symbol, quote)
-	if summaryErr == nil {
-		return summaryResult, nil
+
+	var summaryErr error
+	if !p.shouldSkipQuoteSummary() {
+		var summaryResult MarketCapQuote
+		summaryResult, summaryErr = p.fetchQuoteSummary(ctx, ticker, symbol, quote)
+		if summaryErr == nil {
+			return summaryResult, nil
+		}
+		if errors.Is(summaryErr, errYahooFinanceAuthRequired) || errors.Is(summaryErr, errYahooFinanceRateLimited) {
+			p.disableQuoteSummary()
+		}
+	} else {
+		summaryErr = errYahooFinanceAuthRequired
 	}
 	timeseriesResult, timeseriesErr := p.fetchFundamentalsMarketCap(ctx, ticker, symbol, quote)
 	if timeseriesErr == nil {
@@ -138,6 +162,30 @@ func (p *YahooMarketCapProvider) FetchMarketCap(ctx context.Context, ticker stri
 		return quote, ErrYahooSymbolNotFound
 	}
 	return quote, fmt.Errorf("%w; quoteSummary failed: %v; fundamentals timeseries failed: %v", err, summaryErr, timeseriesErr)
+}
+
+func (p *YahooMarketCapProvider) shouldSkipQuote() bool {
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	return p.skipQuote
+}
+
+func (p *YahooMarketCapProvider) disableQuote() {
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	p.skipQuote = true
+}
+
+func (p *YahooMarketCapProvider) shouldSkipQuoteSummary() bool {
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	return p.skipQuoteSummary
+}
+
+func (p *YahooMarketCapProvider) disableQuoteSummary() {
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	p.skipQuoteSummary = true
 }
 
 func (p *YahooMarketCapProvider) fetchQuote(ctx context.Context, ticker string, symbol string, quote MarketCapQuote) (MarketCapQuote, error) {
@@ -172,6 +220,9 @@ func (p *YahooMarketCapProvider) fetchQuote(ctx context.Context, ticker string, 
 				p.sleep(time.Duration(1<<attempt) * time.Second)
 				continue
 			}
+			if response.StatusCode == http.StatusTooManyRequests {
+				return quote, fmt.Errorf("Yahoo quote request for %s failed: %w: %s", ticker, errYahooFinanceRateLimited, lastStatus)
+			}
 			return quote, fmt.Errorf("Yahoo quote request for %s failed: %s", ticker, lastStatus)
 		}
 		defer response.Body.Close()
@@ -185,7 +236,7 @@ func (p *YahooMarketCapProvider) fetchQuote(ctx context.Context, ticker string, 
 			return quote, err
 		}
 		if payload.Finance.Error != nil {
-			return quote, fmt.Errorf("Yahoo quote request for %s failed: %s", ticker, yahooFinanceErrorMessage(payload.Finance.Error))
+			return quote, yahooFinanceRequestError("Yahoo quote request", ticker, payload.Finance.Error)
 		}
 		if payload.QuoteResponse.Error != nil {
 			return quote, fmt.Errorf("Yahoo quote request for %s failed: %s", ticker, payload.QuoteResponse.Error.Description)
@@ -242,6 +293,9 @@ func (p *YahooMarketCapProvider) fetchQuoteSummary(ctx context.Context, ticker s
 				p.sleep(time.Duration(1<<attempt) * time.Second)
 				continue
 			}
+			if response.StatusCode == http.StatusTooManyRequests {
+				return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %w: %s", ticker, errYahooFinanceRateLimited, lastStatus)
+			}
 			return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, lastStatus)
 		}
 		defer response.Body.Close()
@@ -255,7 +309,7 @@ func (p *YahooMarketCapProvider) fetchQuoteSummary(ctx context.Context, ticker s
 			return quote, err
 		}
 		if payload.Finance.Error != nil {
-			return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, yahooFinanceErrorMessage(payload.Finance.Error))
+			return quote, yahooFinanceRequestError("Yahoo quoteSummary request", ticker, payload.Finance.Error)
 		}
 		if payload.QuoteSummary.Error != nil {
 			return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, payload.QuoteSummary.Error.Description)
@@ -441,6 +495,23 @@ func yahooFinanceErrorMessage(financeError *yahooFinanceError) string {
 		return code
 	}
 	return code + ": " + description
+}
+
+func yahooFinanceRequestError(operation string, ticker string, financeError *yahooFinanceError) error {
+	message := yahooFinanceErrorMessage(financeError)
+	if yahooFinanceErrorRequiresAuth(financeError) {
+		return fmt.Errorf("%s for %s failed: %w: %s", operation, ticker, errYahooFinanceAuthRequired, message)
+	}
+	return fmt.Errorf("%s for %s failed: %s", operation, ticker, message)
+}
+
+func yahooFinanceErrorRequiresAuth(financeError *yahooFinanceError) bool {
+	if financeError == nil {
+		return false
+	}
+	code := strings.ToLower(strings.TrimSpace(financeError.Code))
+	description := strings.ToLower(strings.TrimSpace(financeError.Description))
+	return code == "unauthorized" || strings.Contains(description, "crumb") || strings.Contains(description, "unable to access")
 }
 
 type UniverseUpdaterConfig struct {

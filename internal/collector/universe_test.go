@@ -5,6 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"io"
 	"net/http"
 	"os"
@@ -117,6 +118,51 @@ func TestYahooMarketCapProviderFallsBackToQuoteSummaryWhenQuoteEndpointIsRateLim
 	}
 }
 
+func TestYahooMarketCapProviderSkipsRateLimitedQuoteAfterFallback(t *testing.T) {
+	var gotPaths []string
+	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		gotPaths = append(gotPaths, r.URL.Path)
+		switch r.URL.Path {
+		case "/v7/finance/quote":
+			return &http.Response{
+				StatusCode: http.StatusTooManyRequests,
+				Status:     "429 Too Many Requests",
+				Header:     make(http.Header),
+				Body:       io.NopCloser(bytes.NewBufferString(`Edge: Too Many Requests`)),
+				Request:    r,
+			}, nil
+		case "/v10/finance/quoteSummary/AAPL":
+			return quoteSummaryMarketCapResponse(r, "AAPL", 3_500_000_000_000), nil
+		case "/v10/finance/quoteSummary/MSFT":
+			return quoteSummaryMarketCapResponse(r, "MSFT", 2_900_000_000_000), nil
+		default:
+			t.Fatalf("unexpected path %s", r.URL.Path)
+		}
+		return nil, nil
+	})}
+
+	provider := NewYahooMarketCapProvider(YahooMarketCapProviderConfig{
+		BaseURL: "https://query1.finance.yahoo.com",
+		Client:  httpClient,
+	})
+	provider.sleep = func(time.Duration) {}
+
+	if _, err := provider.FetchMarketCap(context.Background(), "AAPL"); err != nil {
+		t.Fatalf("FetchMarketCap(AAPL) error = %v", err)
+	}
+	msft, err := provider.FetchMarketCap(context.Background(), "MSFT")
+	if err != nil {
+		t.Fatalf("FetchMarketCap(MSFT) error = %v", err)
+	}
+
+	if strings.Join(gotPaths, ",") != "/v7/finance/quote,/v7/finance/quote,/v7/finance/quote,/v10/finance/quoteSummary/AAPL,/v10/finance/quoteSummary/MSFT" {
+		t.Fatalf("unexpected request paths: %+v", gotPaths)
+	}
+	if msft.MarketCap != 2_900_000_000_000 || !msft.HasMarketCap {
+		t.Fatalf("unexpected MSFT quote: %+v", msft)
+	}
+}
+
 func TestYahooMarketCapProviderFallsBackToTimeseriesWhenQuoteAPIsRequireCrumb(t *testing.T) {
 	var gotPaths []string
 	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
@@ -185,6 +231,103 @@ func TestYahooMarketCapProviderFallsBackToTimeseriesWhenQuoteAPIsRequireCrumb(t 
 	}
 	if quote.Ticker != "AAPL" || quote.YahooSymbol != "AAPL" || quote.MarketCap != 3_722_512_537_520 || quote.Currency != "USD" || !quote.HasMarketCap || quote.Source != SourceYahoo {
 		t.Fatalf("unexpected timeseries quote: %+v", quote)
+	}
+}
+
+func TestYahooMarketCapProviderSkipsCrumbLockedQuoteAPIsAfterFirstFailure(t *testing.T) {
+	var gotPaths []string
+	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		gotPaths = append(gotPaths, r.URL.Path)
+		switch r.URL.Path {
+		case "/v7/finance/quote":
+			return &http.Response{
+				StatusCode: http.StatusOK,
+				Status:     "200 OK",
+				Header:     make(http.Header),
+				Body:       io.NopCloser(bytes.NewBufferString(`{"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature"}}}`)),
+				Request:    r,
+			}, nil
+		case "/v10/finance/quoteSummary/AAPL":
+			return &http.Response{
+				StatusCode: http.StatusOK,
+				Status:     "200 OK",
+				Header:     make(http.Header),
+				Body:       io.NopCloser(bytes.NewBufferString(`{"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}`)),
+				Request:    r,
+			}, nil
+		case "/ws/fundamentals-timeseries/v1/finance/timeseries/AAPL":
+			return marketCapTimeseriesResponse(r, 3_722_512_537_520), nil
+		case "/ws/fundamentals-timeseries/v1/finance/timeseries/MSFT":
+			return marketCapTimeseriesResponse(r, 2_900_000_000_000), nil
+		default:
+			t.Fatalf("unexpected path %s", r.URL.Path)
+		}
+		return nil, nil
+	})}
+
+	provider := NewYahooMarketCapProvider(YahooMarketCapProviderConfig{
+		BaseURL: "https://query1.finance.yahoo.com",
+		Client:  httpClient,
+	})
+	provider.sleep = func(time.Duration) {}
+
+	if _, err := provider.FetchMarketCap(context.Background(), "AAPL"); err != nil {
+		t.Fatalf("FetchMarketCap(AAPL) error = %v", err)
+	}
+	msft, err := provider.FetchMarketCap(context.Background(), "MSFT")
+	if err != nil {
+		t.Fatalf("FetchMarketCap(MSFT) error = %v", err)
+	}
+
+	if strings.Join(gotPaths, ",") != "/v7/finance/quote,/v10/finance/quoteSummary/AAPL,/ws/fundamentals-timeseries/v1/finance/timeseries/AAPL,/ws/fundamentals-timeseries/v1/finance/timeseries/MSFT" {
+		t.Fatalf("unexpected request paths: %+v", gotPaths)
+	}
+	if msft.MarketCap != 2_900_000_000_000 || !msft.HasMarketCap {
+		t.Fatalf("unexpected MSFT quote: %+v", msft)
+	}
+}
+
+func marketCapTimeseriesResponse(request *http.Request, marketCap int64) *http.Response {
+	return &http.Response{
+		StatusCode: http.StatusOK,
+		Status:     "200 OK",
+		Header:     make(http.Header),
+		Body: io.NopCloser(bytes.NewBufferString(`{
+			"timeseries":{
+				"result":[{
+					"meta":{"type":["quarterlyMarketCap"]},
+					"quarterlyMarketCap":[{
+						"asOfDate":"2026-03-31",
+						"currencyCode":"USD",
+						"reportedValue":{"raw":` + fmt.Sprintf("%d", marketCap) + `}
+					}]
+				}],
+				"error":null
+			}
+		}`)),
+		Request: request,
+	}
+}
+
+func quoteSummaryMarketCapResponse(request *http.Request, symbol string, marketCap int64) *http.Response {
+	return &http.Response{
+		StatusCode: http.StatusOK,
+		Status:     "200 OK",
+		Header:     make(http.Header),
+		Body: io.NopCloser(bytes.NewBufferString(`{
+			"quoteSummary":{
+				"result":[{
+					"price":{
+						"symbol":"` + symbol + `",
+						"marketCap":{"raw":` + fmt.Sprintf("%d", marketCap) + `},
+						"currency":"USD",
+						"quoteType":"EQUITY"
+					}
+				}],
+				"error":null
+			}
+		}`)),
+		Request: request,
 	}
 }
 
