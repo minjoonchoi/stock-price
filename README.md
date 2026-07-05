@@ -44,7 +44,7 @@ go run ./scripts/update-universe \
   --min-market-cap 300000000 \
   --max-tickers 0 \
   --workers 4 \
-  --sleep-ms 150 \
+  --sleep-ms 2000 \
   --sec-user-agent "github-stock-collector your@email.com" \
   --output-dir data/universe
 ```
@@ -57,7 +57,7 @@ data/universe/collectable_tickers.meta.json
 data/universe/excluded_tickers.jsonl
 ```
 
-Market cap is read from Yahoo `marketCap`. Missing, zero, below-threshold, symbol-not-found, request-failed, invalid, or non-equity-like tickers are written to `excluded_tickers.jsonl` with a reason.
+Market cap is read from Yahoo quote data, with Yahoo fundamentals timeseries as a fallback when quote endpoints require crumb authentication. Missing, zero, below-threshold, symbol-not-found, request-failed, invalid, or non-equity-like tickers are written to `excluded_tickers.jsonl` with a reason.
 
 ## Collect Prices
 
@@ -108,7 +108,7 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 
 `collect-prices.yml`:
 
-- Runs daily at 22:00 UTC, which is 07:00 KST.
+- Runs daily at 01:00 UTC, which is 10:00 KST.
 - Supports manual `workflow_dispatch`.
 - Reads `data/universe/collectable_tickers.jsonl` by default.
 - Commits `data/prices` and `data/actions` only when files change.

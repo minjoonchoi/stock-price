@@ -130,7 +130,14 @@ func (p *YahooMarketCapProvider) FetchMarketCap(ctx context.Context, ticker stri
 	if summaryErr == nil {
 		return summaryResult, nil
 	}
-	return quote, err
+	timeseriesResult, timeseriesErr := p.fetchFundamentalsMarketCap(ctx, ticker, symbol, quote)
+	if timeseriesErr == nil {
+		return timeseriesResult, nil
+	}
+	if errors.Is(err, ErrYahooSymbolNotFound) && errors.Is(summaryErr, ErrYahooSymbolNotFound) && errors.Is(timeseriesErr, ErrYahooSymbolNotFound) {
+		return quote, ErrYahooSymbolNotFound
+	}
+	return quote, fmt.Errorf("%w; quoteSummary failed: %v; fundamentals timeseries failed: %v", err, summaryErr, timeseriesErr)
 }
 
 func (p *YahooMarketCapProvider) fetchQuote(ctx context.Context, ticker string, symbol string, quote MarketCapQuote) (MarketCapQuote, error) {
@@ -176,6 +183,9 @@ func (p *YahooMarketCapProvider) fetchQuote(ctx context.Context, ticker string, 
 		var payload yahooQuoteResponse
 		if err := json.NewDecoder(response.Body).Decode(&payload); err != nil {
 			return quote, err
+		}
+		if payload.Finance.Error != nil {
+			return quote, fmt.Errorf("Yahoo quote request for %s failed: %s", ticker, yahooFinanceErrorMessage(payload.Finance.Error))
 		}
 		if payload.QuoteResponse.Error != nil {
 			return quote, fmt.Errorf("Yahoo quote request for %s failed: %s", ticker, payload.QuoteResponse.Error.Description)
@@ -244,6 +254,9 @@ func (p *YahooMarketCapProvider) fetchQuoteSummary(ctx context.Context, ticker s
 		if err := json.NewDecoder(response.Body).Decode(&payload); err != nil {
 			return quote, err
 		}
+		if payload.Finance.Error != nil {
+			return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, yahooFinanceErrorMessage(payload.Finance.Error))
+		}
 		if payload.QuoteSummary.Error != nil {
 			return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, payload.QuoteSummary.Error.Description)
 		}
@@ -267,6 +280,94 @@ func (p *YahooMarketCapProvider) fetchQuoteSummary(ctx context.Context, ticker s
 	return quote, fmt.Errorf("Yahoo quoteSummary request for %s failed: %s", ticker, lastStatus)
 }
 
+func (p *YahooMarketCapProvider) fetchFundamentalsMarketCap(ctx context.Context, ticker string, symbol string, quote MarketCapQuote) (MarketCapQuote, error) {
+	requestURL, err := url.Parse(p.baseURL + "/ws/fundamentals-timeseries/v1/finance/timeseries/" + url.PathEscape(symbol))
+	if err != nil {
+		return quote, err
+	}
+	now := time.Now().UTC()
+	params := requestURL.Query()
+	params.Set("type", "quarterlyMarketCap")
+	params.Set("period1", fmt.Sprintf("%d", now.AddDate(-3, 0, 0).Unix()))
+	params.Set("period2", fmt.Sprintf("%d", now.AddDate(1, 0, 0).Unix()))
+	requestURL.RawQuery = params.Encode()
+
+	var lastStatus string
+	for attempt := 0; attempt < 3; attempt++ {
+		request, err := http.NewRequestWithContext(ctx, http.MethodGet, requestURL.String(), nil)
+		if err != nil {
+			return quote, err
+		}
+		if p.userAgent != "" {
+			request.Header.Set("User-Agent", p.userAgent)
+		}
+		request.Header.Set("Accept", "application/json,text/plain,*/*")
+		request.Header.Set("Accept-Encoding", "identity")
+
+		response, err := p.client.Do(request)
+		if err != nil {
+			return quote, err
+		}
+		if response.StatusCode == http.StatusTooManyRequests || response.StatusCode >= 500 {
+			lastStatus = response.Status
+			_ = response.Body.Close()
+			if attempt < 2 {
+				p.sleep(time.Duration(1<<attempt) * time.Second)
+				continue
+			}
+			return quote, fmt.Errorf("Yahoo fundamentals timeseries request for %s failed: %s", ticker, lastStatus)
+		}
+		defer response.Body.Close()
+
+		if response.StatusCode < 200 || response.StatusCode >= 300 {
+			return quote, fmt.Errorf("Yahoo fundamentals timeseries request for %s failed: %s", ticker, response.Status)
+		}
+
+		var payload yahooFundamentalsTimeseriesResponse
+		if err := json.NewDecoder(response.Body).Decode(&payload); err != nil {
+			return quote, err
+		}
+		if payload.Timeseries.Error != nil {
+			return quote, fmt.Errorf("Yahoo fundamentals timeseries request for %s failed: %s", ticker, yahooFinanceErrorMessage(payload.Timeseries.Error))
+		}
+
+		bestMarketCap := int64(0)
+		bestAsOfDate := ""
+		bestCurrency := ""
+		for _, result := range payload.Timeseries.Result {
+			for _, item := range result.QuarterlyMarketCap {
+				rawMarketCap := item.ReportedValue.Raw
+				if rawMarketCap <= 0 {
+					continue
+				}
+				if bestMarketCap > 0 {
+					if item.AsOfDate == "" {
+						continue
+					}
+					if bestAsOfDate != "" && item.AsOfDate <= bestAsOfDate {
+						continue
+					}
+				}
+				bestMarketCap = int64(rawMarketCap)
+				bestAsOfDate = item.AsOfDate
+				if item.CurrencyCode != "" {
+					bestCurrency = item.CurrencyCode
+				}
+			}
+		}
+		if bestMarketCap <= 0 {
+			return quote, nil
+		}
+
+		quote.MarketCap = bestMarketCap
+		quote.HasMarketCap = true
+		quote.Currency = bestCurrency
+		return quote, nil
+	}
+
+	return quote, fmt.Errorf("Yahoo fundamentals timeseries request for %s failed: %s", ticker, lastStatus)
+}
+
 type yahooQuoteResponse struct {
 	QuoteResponse struct {
 		Result []struct {
@@ -280,6 +381,7 @@ type yahooQuoteResponse struct {
 			Description string `json:"description"`
 		} `json:"error"`
 	} `json:"quoteResponse"`
+	Finance yahooFinanceErrorEnvelope `json:"finance"`
 }
 
 type yahooQuoteSummaryResponse struct {
@@ -299,6 +401,46 @@ type yahooQuoteSummaryResponse struct {
 			Description string `json:"description"`
 		} `json:"error"`
 	} `json:"quoteSummary"`
+	Finance yahooFinanceErrorEnvelope `json:"finance"`
+}
+
+type yahooFundamentalsTimeseriesResponse struct {
+	Timeseries struct {
+		Result []struct {
+			QuarterlyMarketCap []struct {
+				AsOfDate      string `json:"asOfDate"`
+				CurrencyCode  string `json:"currencyCode"`
+				ReportedValue struct {
+					Raw float64 `json:"raw"`
+				} `json:"reportedValue"`
+			} `json:"quarterlyMarketCap"`
+		} `json:"result"`
+		Error *yahooFinanceError `json:"error"`
+	} `json:"timeseries"`
+}
+
+type yahooFinanceErrorEnvelope struct {
+	Error *yahooFinanceError `json:"error"`
+}
+
+type yahooFinanceError struct {
+	Code        string `json:"code"`
+	Description string `json:"description"`
+}
+
+func yahooFinanceErrorMessage(financeError *yahooFinanceError) string {
+	if financeError == nil {
+		return "unknown error"
+	}
+	code := strings.TrimSpace(financeError.Code)
+	description := strings.TrimSpace(financeError.Description)
+	if code == "" {
+		return description
+	}
+	if description == "" {
+		return code
+	}
+	return code + ": " + description
 }
 
 type UniverseUpdaterConfig struct {

@@ -96,7 +96,7 @@ func parseOptions(args []string) (options, error) {
 	flags.Int64Var(&opts.minMarketCap, "min-market-cap", collector.DefaultMinMarketCap, "minimum Yahoo market cap required for price collection")
 	flags.IntVar(&opts.maxTickers, "max-tickers", 0, "maximum number of SEC tickers to evaluate; 0 means all")
 	flags.IntVar(&opts.workers, "workers", 4, "number of market cap workers")
-	flags.IntVar(&opts.sleepMS, "sleep-ms", 150, "minimum delay between outbound HTTP requests in milliseconds")
+	flags.IntVar(&opts.sleepMS, "sleep-ms", 2000, "minimum delay between outbound HTTP requests in milliseconds")
 	flags.StringVar(&opts.secUserAgent, "sec-user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
 	flags.StringVar(&opts.outputDir, "output-dir", "data/universe", "directory where universe JSONL and meta files are stored")
 	flags.DurationVar(&opts.timeout, "timeout", 30*time.Second, "HTTP request timeout")
@@ -128,7 +128,15 @@ func parseOptions(args []string) (options, error) {
 
 func validateUniverseUpdateResult(result collector.UniverseUpdateResult, opts options) error {
 	if opts.maxTickers == 0 && result.Summary.SECTickersTotal > 0 && result.Summary.CollectableTickers == 0 {
-		return errors.New("universe update produced zero collectable tickers; refusing to rewrite full collectable universe")
+		return fmt.Errorf(
+			"universe update produced zero collectable tickers; refusing to rewrite full collectable universe (secTickers=%d yahooRequests=%d excluded=%d missingMarketCap=%d belowThreshold=%d yahooErrors=%d)",
+			result.Summary.SECTickersTotal,
+			result.Summary.YahooMarketCapRequests,
+			result.Summary.ExcludedTickers,
+			result.Summary.MissingMarketCap,
+			result.Summary.BelowThreshold,
+			result.Summary.YahooErrors,
+		)
 	}
 	return nil
 }

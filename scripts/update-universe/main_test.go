@@ -60,7 +60,7 @@ func TestParseOptionsDefaultsUniverseRateLimit(t *testing.T) {
 	if options.workers != 4 {
 		t.Fatalf("workers = %d", options.workers)
 	}
-	if options.sleepMS != 150 {
+	if options.sleepMS != 2000 {
 		t.Fatalf("sleepMS = %d", options.sleepMS)
 	}
 }
@@ -75,7 +75,7 @@ func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
 		"default: \"300000000\"",
 		"default: \"0\"",
 		"default: \"4\"",
-		"default: \"150\"",
+		"default: \"2000\"",
 	} {
 		if !strings.Contains(workflow, expected) {
 			t.Fatalf("workflow missing %s", expected)
@@ -95,15 +95,28 @@ func TestParseOptionsRequiresSECUserAgent(t *testing.T) {
 func TestValidateUniverseUpdateResultRejectsEmptyFullUniverse(t *testing.T) {
 	err := validateUniverseUpdateResult(collector.UniverseUpdateResult{
 		Summary: collector.UniverseUpdateSummary{
-			SECTickersTotal:    9000,
-			CollectableTickers: 0,
+			SECTickersTotal:        9000,
+			YahooMarketCapRequests: 9000,
+			CollectableTickers:     0,
+			ExcludedTickers:        9000,
+			MissingMarketCap:       0,
+			BelowThreshold:         0,
+			YahooErrors:            9000,
 		},
 	}, options{maxTickers: 0})
 	if err == nil {
 		t.Fatal("expected empty full universe error")
 	}
-	if !strings.Contains(err.Error(), "zero collectable tickers") {
-		t.Fatalf("unexpected error: %v", err)
+	for _, expected := range []string{
+		"zero collectable tickers",
+		"secTickers=9000",
+		"yahooRequests=9000",
+		"excluded=9000",
+		"yahooErrors=9000",
+	} {
+		if !strings.Contains(err.Error(), expected) {
+			t.Fatalf("error %q missing %q", err.Error(), expected)
+		}
 	}
 }
 

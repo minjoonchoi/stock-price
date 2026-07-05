@@ -22,7 +22,7 @@ on:
         description: "Delay between outbound HTTP requests in milliseconds"
         required: false
         type: string
-        default: "150"
+        default: "2000"
   schedule:
     # 21:00 UTC Sunday = 06:00 KST Monday
     - cron: "0 21 * * 0"
@@ -64,7 +64,7 @@ jobs:
           USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
           MIN_MARKET_CAP="${INPUT_MIN_MARKET_CAP:-300000000}"
           WORKERS="${INPUT_WORKERS:-4}"
-          SLEEP_MS="${INPUT_SLEEP_MS:-150}"
+          SLEEP_MS="${INPUT_SLEEP_MS:-2000}"
           ARGS=(--sec-user-agent "${USER_AGENT}" --output-dir data/universe --min-market-cap "${MIN_MARKET_CAP}" --workers "${WORKERS}" --sleep-ms "${SLEEP_MS}")
 
           if [ -n "${INPUT_MAX_TICKERS}" ] && [ "${INPUT_MAX_TICKERS}" != "0" ]; then

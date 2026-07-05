@@ -65,8 +65,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # 22:00 UTC = 07:00 KST
-    - cron: "0 22 * * *"
+    # 01:00 UTC = 10:00 KST
+    - cron: "0 1 * * *"
 
 permissions:
   contents: write

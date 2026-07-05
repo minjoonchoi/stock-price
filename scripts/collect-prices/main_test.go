@@ -135,6 +135,17 @@ func TestMainDoesNotWireRemovedProvider(t *testing.T) {
 	}
 }
 
+func TestCollectPricesWorkflowRunsAtUTCOne(t *testing.T) {
+	raw, err := os.ReadFile("../../.github/workflows/collect-prices.yml")
+	if err != nil {
+		t.Fatalf("ReadFile(collect-prices.yml) error = %v", err)
+	}
+	workflow := string(raw)
+	if !strings.Contains(workflow, `cron: "0 1 * * *"`) {
+		t.Fatalf("workflow missing UTC 01:00 schedule")
+	}
+}
+
 func TestParseOptionsDefaultsUniverseFilterToRequiredFile(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
 
