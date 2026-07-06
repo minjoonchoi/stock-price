@@ -18,6 +18,9 @@ data/
     collectable_tickers.jsonl
     collectable_tickers.meta.json
     excluded_tickers.jsonl
+  state/
+    update-universe.state.json
+    collect-prices.state.json
   prices/
     AAPL/
       AAPL.jsonl
@@ -45,6 +48,9 @@ go run ./scripts/update-universe \
   --max-tickers 0 \
   --workers 4 \
   --sleep-ms 2000 \
+  --batch-size 1000 \
+  --max-runtime-minutes 330 \
+  --graceful-stop-minutes 10 \
   --sec-user-agent "github-stock-collector your@email.com" \
   --output-dir data/universe
 ```
@@ -59,6 +65,8 @@ data/universe/excluded_tickers.jsonl
 
 Market cap is read from Yahoo quote data, with Yahoo fundamentals timeseries as a fallback when quote endpoints require crumb authentication. Missing, zero, below-threshold, symbol-not-found, request-failed, invalid, or non-equity-like tickers are written to `excluded_tickers.jsonl` with a reason.
 
+Long universe updates are resumable. Each run stores progress in `data/state/update-universe.state.json` and accumulates partial universe output under `data/state/update-universe/`. When the cursor reaches the end, the final universe is written to `data/universe`.
+
 ## Collect Prices
 
 `collect-prices` downloads the SEC ticker list, reads `data/universe/collectable_tickers.jsonl`, computes the intersection, and collects prices only for the final target list. Daily price history and corporate actions are collected from Yahoo Finance Chart JSON only.
@@ -72,6 +80,9 @@ go run ./scripts/collect-prices \
   --max-tickers 0 \
   --workers 4 \
   --sleep-ms 150 \
+  --batch-size 500 \
+  --max-runtime-minutes 330 \
+  --graceful-stop-minutes 10 \
   --sec-user-agent "github-stock-collector your@email.com"
 ```
 
@@ -82,6 +93,8 @@ collectable_tickers.jsonl not found. Run update-universe workflow first.
 ```
 
 Use `--allow-all-sec-tickers` only for emergency/manual runs that intentionally bypass the market-cap filter.
+
+Price collection is also resumable. Each run stores `data/state/collect-prices.state.json`, advances the cursor after each ticker, and exits successfully on partial completion when the batch size or runtime budget is reached.
 
 ## Price Storage
 
@@ -103,7 +116,8 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 
 - Runs weekly at Sunday 21:00 UTC, which is Monday 06:00 KST.
 - Supports manual `workflow_dispatch`.
-- Commits `data/universe/*` only when files change.
+- Uses `timeout-minutes: 350`.
+- Commits `data/universe/*` and `data/state/*` only when files change.
 - Commit message: `chore(data): update collectable ticker universe`.
 
 `collect-prices.yml`:
@@ -111,7 +125,8 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 - Runs daily at 01:00 UTC, which is 10:00 KST.
 - Supports manual `workflow_dispatch`.
 - Reads `data/universe/collectable_tickers.jsonl` by default.
-- Commits `data/prices` and `data/actions` only when files change.
+- Uses `timeout-minutes: 350`.
+- Commits `data/prices`, `data/actions`, and `data/state` only when files change.
 - Commit message: `chore(data): append daily yahoo prices`.
 
 Both workflows require `SEC_USER_AGENT` in the `STOCK_PRICE` GitHub environment. Example:

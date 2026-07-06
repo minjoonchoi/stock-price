@@ -4,6 +4,7 @@ import (
 	"os"
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/minjoon/stock-price/internal/collector"
 )
@@ -65,6 +66,60 @@ func TestParseOptionsDefaultsUniverseRateLimit(t *testing.T) {
 	}
 }
 
+func TestParseOptionsDefaultsLongRunningControls(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	if options.maxRuntime != 330*time.Minute {
+		t.Fatalf("maxRuntime = %s", options.maxRuntime)
+	}
+	if options.gracefulStop != 10*time.Minute {
+		t.Fatalf("gracefulStop = %s", options.gracefulStop)
+	}
+	if options.batchSize != 1000 {
+		t.Fatalf("batchSize = %d", options.batchSize)
+	}
+	if options.stateFile != "data/state/update-universe.state.json" {
+		t.Fatalf("stateFile = %q", options.stateFile)
+	}
+	if options.shardIndex != 0 || options.shardCount != 1 {
+		t.Fatalf("shard = %d/%d", options.shardIndex, options.shardCount)
+	}
+}
+
+func TestParseOptionsReadsLongRunningControls(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions([]string{
+		"--max-runtime-minutes", "120",
+		"--graceful-stop-minutes", "5",
+		"--batch-size", "25",
+		"--state-file", "tmp/update.state.json",
+		"--shard-index", "2",
+		"--shard-count", "10",
+	})
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	if options.maxRuntime != 120*time.Minute || options.gracefulStop != 5*time.Minute || options.batchSize != 25 || options.stateFile != "tmp/update.state.json" || options.shardIndex != 2 || options.shardCount != 10 {
+		t.Fatalf("unexpected options: %+v", options)
+	}
+}
+
+func TestParseOptionsRejectsInvalidShard(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	_, err := parseOptions([]string{"--shard-index", "2", "--shard-count", "2"})
+	if err == nil {
+		t.Fatal("expected invalid shard error")
+	}
+}
+
 func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
 	raw, err := os.ReadFile("../../.github/workflows/update-universe.yml")
 	if err != nil {
@@ -76,6 +131,17 @@ func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
 		"default: \"0\"",
 		"default: \"4\"",
 		"default: \"2000\"",
+		"timeout-minutes: 350",
+		"shard_count:",
+		"default: \"1\"",
+		"shard_index:",
+		"batch_size:",
+		"default: \"1000\"",
+		"max_runtime_minutes:",
+		"default: \"330\"",
+		"graceful_stop_minutes:",
+		"default: \"10\"",
+		"data/universe data/state",
 	} {
 		if !strings.Contains(workflow, expected) {
 			t.Fatalf("workflow missing %s", expected)

@@ -26,6 +26,12 @@ type options struct {
 	workers                        int
 	timeout                        time.Duration
 	requestDelay                   time.Duration
+	maxRuntime                     time.Duration
+	gracefulStop                   time.Duration
+	batchSize                      int
+	stateFile                      string
+	shardIndex                     int
+	shardCount                     int
 	forceBackfill                  bool
 	repairMeta                     bool
 	forceValidateAdjusted          bool
@@ -41,6 +47,7 @@ func main() {
 }
 
 func run(ctx context.Context, args []string) error {
+	startedAt := time.Now()
 	options, err := parseOptions(args)
 	if err != nil {
 		return err
@@ -76,6 +83,8 @@ func run(ctx context.Context, args []string) error {
 		companies = companies[:options.limit]
 		selection.filter.FinalTargetTickers = len(companies)
 	}
+	companies = collector.SelectCompanyShard(companies, options.shardIndex, options.shardCount)
+	selection.filter.FinalTargetTickers = len(companies)
 
 	runner := collector.NewRunner(collector.RunnerConfig{
 		Store:                          store,
@@ -87,8 +96,48 @@ func run(ctx context.Context, args []string) error {
 		FullValidationDays:             options.fullValidationDays,
 		DisablePriceDiscontinuityCheck: options.disablePriceDiscontinuityCheck,
 	})
-	summary, err := runner.CollectTickers(ctx, companies)
+	state, cursor, err := collectProgressState(options, selection, len(companies), startedAt)
 	if err != nil {
+		return err
+	}
+	budget := collector.RuntimeBudget{
+		StartedAt:    startedAt,
+		MaxRuntime:   options.maxRuntime,
+		GracefulStop: options.gracefulStop,
+	}
+	var summary collector.Summary
+	processedThisRun := 0
+	stopReason := ""
+	for cursor < len(companies) && processedThisRun < options.batchSize {
+		if budget.ShouldStopBeforeNext() {
+			stopReason = "max runtime reached"
+			break
+		}
+		ticker := companies[cursor].Ticker
+		tickerSummary, err := runner.CollectTickers(ctx, []collector.Company{companies[cursor]})
+		if err != nil {
+			return err
+		}
+		summary = mergeSummaries(summary, tickerSummary)
+		cursor++
+		processedThisRun++
+		state.CursorIndex = cursor
+		state.ProcessedTargets = cursor
+		state.LastProcessedTicker = ticker
+		state.Completed = cursor >= len(companies)
+		state.UpdatedAt = time.Now().UTC().Format(time.RFC3339)
+		if err := collector.WriteProgressState(options.stateFile, state); err != nil {
+			return err
+		}
+	}
+	if stopReason == "" && cursor < len(companies) && processedThisRun >= options.batchSize {
+		stopReason = "batch size reached"
+	}
+	state.CursorIndex = cursor
+	state.ProcessedTargets = cursor
+	state.Completed = cursor >= len(companies)
+	state.UpdatedAt = time.Now().UTC().Format(time.RFC3339)
+	if err := collector.WriteProgressState(options.stateFile, state); err != nil {
 		return err
 	}
 
@@ -106,6 +155,11 @@ func run(ctx context.Context, args []string) error {
 	fmt.Printf("Tickers Adjusted Validated: %d\n", summary.AdjustedValidated)
 	fmt.Printf("Rows Adjusted Recalculated: %d\n", summary.RowsAdjustedRecalculated)
 	fmt.Printf("Actions Written: %d\n", summary.ActionsWritten)
+	fmt.Printf("Partial completion: %t\n", !state.Completed)
+	if !state.Completed {
+		fmt.Printf("Reason: %s\n", stopReason)
+	}
+	fmt.Printf("Next cursor index: %d\n", state.CursorIndex)
 	return nil
 }
 
@@ -113,6 +167,8 @@ func parseOptions(args []string) (options, error) {
 	var opts options
 	var tickerValues []string
 	sleepMS := -1
+	maxRuntimeMinutes := 330
+	gracefulStopMinutes := 10
 
 	flags := flag.NewFlagSet("collect-prices", flag.ContinueOnError)
 	flags.SetOutput(io.Discard)
@@ -128,6 +184,12 @@ func parseOptions(args []string) (options, error) {
 	flags.DurationVar(&opts.timeout, "timeout", 30*time.Second, "HTTP request timeout")
 	flags.DurationVar(&opts.requestDelay, "request-delay", defaultRequestDelay(), "minimum delay between outbound HTTP requests")
 	flags.IntVar(&sleepMS, "sleep-ms", -1, "minimum delay between outbound HTTP requests in milliseconds")
+	flags.IntVar(&maxRuntimeMinutes, "max-runtime-minutes", 330, "maximum script runtime in minutes before graceful completion")
+	flags.IntVar(&gracefulStopMinutes, "graceful-stop-minutes", 10, "stop starting new tickers when this many runtime minutes remain")
+	flags.IntVar(&opts.batchSize, "batch-size", 500, "maximum number of tickers to process in this run")
+	flags.StringVar(&opts.stateFile, "state-file", "data/state/collect-prices.state.json", "progress state JSON file")
+	flags.IntVar(&opts.shardIndex, "shard-index", 0, "shard index to process")
+	flags.IntVar(&opts.shardCount, "shard-count", 1, "number of shards")
 	flags.BoolVar(&opts.forceBackfill, "force-backfill", false, "force full-history merge for every ticker")
 	flags.BoolVar(&opts.repairMeta, "repair-meta", false, "rebuild per-ticker meta from local JSONL without fetching price history")
 	flags.BoolVar(&opts.forceValidateAdjusted, "force-validate-adjusted", false, "force full-history adjusted price validation and rewrite for every ticker")
@@ -159,8 +221,31 @@ func parseOptions(args []string) (options, error) {
 	if sleepMS >= 0 {
 		opts.requestDelay = time.Duration(sleepMS) * time.Millisecond
 	}
+	opts.maxRuntime = time.Duration(maxRuntimeMinutes) * time.Minute
+	opts.gracefulStop = time.Duration(gracefulStopMinutes) * time.Minute
 	if opts.requestDelay < 0 {
 		return options{}, errors.New("--request-delay must be 0 or greater")
+	}
+	if opts.maxRuntime <= 0 {
+		return options{}, errors.New("--max-runtime-minutes must be greater than 0")
+	}
+	if opts.gracefulStop < 0 {
+		return options{}, errors.New("--graceful-stop-minutes must be 0 or greater")
+	}
+	if opts.gracefulStop >= opts.maxRuntime {
+		return options{}, errors.New("--graceful-stop-minutes must be less than --max-runtime-minutes")
+	}
+	if opts.batchSize <= 0 {
+		return options{}, errors.New("--batch-size must be greater than 0")
+	}
+	if strings.TrimSpace(opts.stateFile) == "" {
+		return options{}, errors.New("--state-file is required")
+	}
+	if opts.shardCount <= 0 {
+		return options{}, errors.New("--shard-count must be greater than 0")
+	}
+	if opts.shardIndex < 0 || opts.shardIndex >= opts.shardCount {
+		return options{}, errors.New("--shard-index must be between 0 and --shard-count - 1")
 	}
 	if opts.fullValidationDays <= 0 {
 		return options{}, errors.New("--full-validation-days must be greater than 0")
@@ -182,8 +267,10 @@ func defaultRequestDelay() time.Duration {
 }
 
 type companySelection struct {
-	companies []collector.Company
-	filter    collector.UniverseFilterResult
+	companies     []collector.Company
+	filter        collector.UniverseFilterResult
+	secTickerHash string
+	universeHash  string
 }
 
 func companiesForRun(ctx context.Context, opts options, httpClient *http.Client, store *collector.FileStore) (companySelection, error) {
@@ -196,8 +283,10 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 		for _, ticker := range tickers {
 			companies = append(companies, collector.Company{Ticker: ticker})
 		}
+		companies = collector.SortCompaniesByTicker(companies)
 		return companySelection{
-			companies: companies,
+			companies:     companies,
+			secTickerHash: collector.HashCompanies(companies),
 			filter: collector.UniverseFilterResult{
 				Companies:          companies,
 				SECTickersTotal:    len(companies),
@@ -214,6 +303,7 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 	if err != nil {
 		return companySelection{}, err
 	}
+	secTickerHash := collector.HashCompanies(secCompanies)
 
 	filter := collector.UniverseFilterResult{
 		Companies:            secCompanies,
@@ -221,11 +311,13 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 		UniverseTickersTotal: len(secCompanies),
 		FinalTargetTickers:   len(secCompanies),
 	}
+	universeHash := ""
 	if !opts.allowAllSECTickers {
 		universe, err := collector.LoadCollectableTickers(opts.universeFile)
 		if err != nil {
 			return companySelection{}, err
 		}
+		universeHash = collector.HashCollectableTickers(universe)
 		filter = collector.FilterCompaniesByUniverse(secCompanies, universe)
 	}
 
@@ -235,7 +327,7 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 		filter.Companies = companies
 		filter.FinalTargetTickers = len(companies)
 	}
-	return companySelection{companies: companies, filter: filter}, nil
+	return companySelection{companies: collector.SortCompaniesByTicker(companies), filter: filter, secTickerHash: secTickerHash, universeHash: universeHash}, nil
 }
 
 func splitTickers(value string) []string {
@@ -280,4 +372,59 @@ func subsetCompanies(companies []collector.Company, tickers []string) []collecto
 		}
 	}
 	return filtered
+}
+
+func collectProgressState(opts options, selection companySelection, totalTargets int, startedAt time.Time) (collector.ProgressState, int, error) {
+	now := startedAt.UTC().Format(time.RFC3339)
+	existing, ok, err := collector.LoadProgressState(opts.stateFile)
+	if err != nil {
+		return collector.ProgressState{}, 0, err
+	}
+	if ok && !existing.Completed &&
+		existing.JobName == "collect-prices" &&
+		existing.SECTickerHash == selection.secTickerHash &&
+		existing.UniverseHash == selection.universeHash &&
+		existing.ShardIndex == opts.shardIndex &&
+		existing.ShardCount == opts.shardCount {
+		if existing.CursorIndex < 0 {
+			existing.CursorIndex = 0
+		}
+		if existing.CursorIndex > totalTargets {
+			existing.CursorIndex = totalTargets
+		}
+		existing.TotalTargets = totalTargets
+		existing.UpdatedAt = now
+		return existing, existing.CursorIndex, nil
+	}
+	state := collector.ProgressState{
+		JobName:       "collect-prices",
+		RunID:         collector.UTCDateRunID(startedAt),
+		SECTickerHash: selection.secTickerHash,
+		UniverseHash:  selection.universeHash,
+		TotalTargets:  totalTargets,
+		CursorIndex:   0,
+		Completed:     totalTargets == 0,
+		ShardIndex:    opts.shardIndex,
+		ShardCount:    opts.shardCount,
+		StartedAt:     now,
+		UpdatedAt:     now,
+	}
+	return state, 0, nil
+}
+
+func mergeSummaries(left collector.Summary, right collector.Summary) collector.Summary {
+	left.Processed += right.Processed
+	left.Skipped += right.Skipped
+	left.Appended += right.Appended
+	left.Failed += right.Failed
+	left.Backfilled += right.Backfilled
+	left.IncrementalUpdated += right.IncrementalUpdated
+	left.FullRewritten += right.FullRewritten
+	left.SplitDetected += right.SplitDetected
+	left.CorporateActionsChanged += right.CorporateActionsChanged
+	left.DiscontinuityDetected += right.DiscontinuityDetected
+	left.AdjustedValidated += right.AdjustedValidated
+	left.RowsAdjustedRecalculated += right.RowsAdjustedRecalculated
+	left.ActionsWritten += right.ActionsWritten
+	return left
 }

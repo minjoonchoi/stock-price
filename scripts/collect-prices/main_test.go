@@ -146,6 +146,32 @@ func TestCollectPricesWorkflowRunsAtUTCOne(t *testing.T) {
 	}
 }
 
+func TestCollectPricesWorkflowDeclaresLongRunningControls(t *testing.T) {
+	raw, err := os.ReadFile("../../.github/workflows/collect-prices.yml")
+	if err != nil {
+		t.Fatalf("ReadFile(collect-prices.yml) error = %v", err)
+	}
+	workflow := string(raw)
+	for _, expected := range []string{
+		"timeout-minutes: 350",
+		"shard_count:",
+		"default: \"1\"",
+		"shard_index:",
+		"default: \"0\"",
+		"batch_size:",
+		"default: \"500\"",
+		"max_runtime_minutes:",
+		"default: \"330\"",
+		"graceful_stop_minutes:",
+		"default: \"10\"",
+		"data/prices data/actions data/state",
+	} {
+		if !strings.Contains(workflow, expected) {
+			t.Fatalf("workflow missing %s", expected)
+		}
+	}
+}
+
 func TestParseOptionsDefaultsUniverseFilterToRequiredFile(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
 
@@ -161,5 +187,59 @@ func TestParseOptionsDefaultsUniverseFilterToRequiredFile(t *testing.T) {
 	}
 	if options.workers != 4 {
 		t.Fatalf("workers = %d", options.workers)
+	}
+}
+
+func TestParseOptionsDefaultsLongRunningControls(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions(nil)
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	if options.maxRuntime != 330*time.Minute {
+		t.Fatalf("maxRuntime = %s", options.maxRuntime)
+	}
+	if options.gracefulStop != 10*time.Minute {
+		t.Fatalf("gracefulStop = %s", options.gracefulStop)
+	}
+	if options.batchSize != 500 {
+		t.Fatalf("batchSize = %d", options.batchSize)
+	}
+	if options.stateFile != "data/state/collect-prices.state.json" {
+		t.Fatalf("stateFile = %q", options.stateFile)
+	}
+	if options.shardIndex != 0 || options.shardCount != 1 {
+		t.Fatalf("shard = %d/%d", options.shardIndex, options.shardCount)
+	}
+}
+
+func TestParseOptionsReadsLongRunningControls(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	options, err := parseOptions([]string{
+		"--max-runtime-minutes", "120",
+		"--graceful-stop-minutes", "5",
+		"--batch-size", "25",
+		"--state-file", "tmp/collect.state.json",
+		"--shard-index", "2",
+		"--shard-count", "10",
+	})
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	if options.maxRuntime != 120*time.Minute || options.gracefulStop != 5*time.Minute || options.batchSize != 25 || options.stateFile != "tmp/collect.state.json" || options.shardIndex != 2 || options.shardCount != 10 {
+		t.Fatalf("unexpected options: %+v", options)
+	}
+}
+
+func TestParseOptionsRejectsInvalidShard(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	_, err := parseOptions([]string{"--shard-index", "2", "--shard-count", "2"})
+	if err == nil {
+		t.Fatal("expected invalid shard error")
 	}
 }

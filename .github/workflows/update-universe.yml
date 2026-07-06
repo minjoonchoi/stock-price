@@ -23,6 +23,31 @@ on:
         required: false
         type: string
         default: "2000"
+      shard_count:
+        description: "Number of shards"
+        required: false
+        type: string
+        default: "1"
+      shard_index:
+        description: "Shard index to run manually"
+        required: false
+        type: string
+        default: "0"
+      batch_size:
+        description: "Maximum tickers to process in this run"
+        required: false
+        type: string
+        default: "1000"
+      max_runtime_minutes:
+        description: "Maximum script runtime in minutes"
+        required: false
+        type: string
+        default: "330"
+      graceful_stop_minutes:
+        description: "Stop starting new tickers when this many minutes remain"
+        required: false
+        type: string
+        default: "10"
   schedule:
     # 21:00 UTC Sunday = 06:00 KST Monday
     - cron: "0 21 * * 0"
@@ -37,6 +62,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     environment: STOCK_PRICE
     env:
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
@@ -44,6 +70,11 @@ jobs:
       INPUT_MAX_TICKERS: ${{ inputs.max_tickers }}
       INPUT_WORKERS: ${{ inputs.workers }}
       INPUT_SLEEP_MS: ${{ inputs.sleep_ms }}
+      INPUT_SHARD_COUNT: ${{ inputs.shard_count }}
+      INPUT_SHARD_INDEX: ${{ inputs.shard_index }}
+      INPUT_BATCH_SIZE: ${{ inputs.batch_size }}
+      INPUT_MAX_RUNTIME_MINUTES: ${{ inputs.max_runtime_minutes }}
+      INPUT_GRACEFUL_STOP_MINUTES: ${{ inputs.graceful_stop_minutes }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -65,7 +96,12 @@ jobs:
           MIN_MARKET_CAP="${INPUT_MIN_MARKET_CAP:-300000000}"
           WORKERS="${INPUT_WORKERS:-4}"
           SLEEP_MS="${INPUT_SLEEP_MS:-2000}"
-          ARGS=(--sec-user-agent "${USER_AGENT}" --output-dir data/universe --min-market-cap "${MIN_MARKET_CAP}" --workers "${WORKERS}" --sleep-ms "${SLEEP_MS}")
+          SHARD_COUNT="${INPUT_SHARD_COUNT:-1}"
+          SHARD_INDEX="${INPUT_SHARD_INDEX:-0}"
+          BATCH_SIZE="${INPUT_BATCH_SIZE:-1000}"
+          MAX_RUNTIME_MINUTES="${INPUT_MAX_RUNTIME_MINUTES:-330}"
+          GRACEFUL_STOP_MINUTES="${INPUT_GRACEFUL_STOP_MINUTES:-10}"
+          ARGS=(--sec-user-agent "${USER_AGENT}" --output-dir data/universe --min-market-cap "${MIN_MARKET_CAP}" --workers "${WORKERS}" --sleep-ms "${SLEEP_MS}" --shard-count "${SHARD_COUNT}" --shard-index "${SHARD_INDEX}" --batch-size "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --graceful-stop-minutes "${GRACEFUL_STOP_MINUTES}")
 
           if [ -n "${INPUT_MAX_TICKERS}" ] && [ "${INPUT_MAX_TICKERS}" != "0" ]; then
             ARGS+=(--max-tickers "${INPUT_MAX_TICKERS}")
@@ -75,13 +111,13 @@ jobs:
 
       - name: Commit universe updates
         run: |
-          if [ -z "$(git status --porcelain data/universe)" ]; then
+          if [ -z "$(git status --porcelain data/universe data/state)" ]; then
             echo "No universe updates to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/universe
+          git add data/universe data/state
           git commit -m "chore(data): update collectable ticker universe"
           git push

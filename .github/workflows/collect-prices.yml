@@ -64,6 +64,31 @@ on:
         required: false
         type: boolean
         default: false
+      shard_count:
+        description: "Number of shards"
+        required: false
+        type: string
+        default: "1"
+      shard_index:
+        description: "Shard index to run manually"
+        required: false
+        type: string
+        default: "0"
+      batch_size:
+        description: "Maximum tickers to process in this run"
+        required: false
+        type: string
+        default: "500"
+      max_runtime_minutes:
+        description: "Maximum script runtime in minutes"
+        required: false
+        type: string
+        default: "330"
+      graceful_stop_minutes:
+        description: "Stop starting new tickers when this many minutes remain"
+        required: false
+        type: string
+        default: "10"
   schedule:
     # 01:00 UTC = 10:00 KST
     - cron: "0 1 * * *"
@@ -78,6 +103,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     environment: STOCK_PRICE
     env:
       STOCK_PRICE_START_DATE: ${{ vars.STOCK_PRICE_START_DATE }}
@@ -97,6 +123,11 @@ jobs:
       INPUT_FORCE_VALIDATE_ADJUSTED: ${{ inputs.force_validate_adjusted }}
       INPUT_FULL_VALIDATION_DAYS: ${{ inputs.full_validation_days }}
       INPUT_DISABLE_PRICE_DISCONTINUITY_CHECK: ${{ inputs.disable_price_discontinuity_check }}
+      INPUT_SHARD_COUNT: ${{ inputs.shard_count }}
+      INPUT_SHARD_INDEX: ${{ inputs.shard_index }}
+      INPUT_BATCH_SIZE: ${{ inputs.batch_size }}
+      INPUT_MAX_RUNTIME_MINUTES: ${{ inputs.max_runtime_minutes }}
+      INPUT_GRACEFUL_STOP_MINUTES: ${{ inputs.graceful_stop_minutes }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -119,7 +150,12 @@ jobs:
           UNIVERSE_FILE="${INPUT_UNIVERSE_FILE:-data/universe/collectable_tickers.jsonl}"
           REQUEST_DELAY="${INPUT_REQUEST_DELAY:-${PRICE_REQUEST_DELAY:-2s}}"
           WORKERS="${INPUT_WORKERS:-4}"
-          ARGS=(--sec-user-agent "${USER_AGENT}" --data-dir data/prices --universe-file "${UNIVERSE_FILE}" --workers "${WORKERS}")
+          SHARD_COUNT="${INPUT_SHARD_COUNT:-1}"
+          SHARD_INDEX="${INPUT_SHARD_INDEX:-0}"
+          BATCH_SIZE="${INPUT_BATCH_SIZE:-500}"
+          MAX_RUNTIME_MINUTES="${INPUT_MAX_RUNTIME_MINUTES:-330}"
+          GRACEFUL_STOP_MINUTES="${INPUT_GRACEFUL_STOP_MINUTES:-10}"
+          ARGS=(--sec-user-agent "${USER_AGENT}" --data-dir data/prices --universe-file "${UNIVERSE_FILE}" --workers "${WORKERS}" --shard-count "${SHARD_COUNT}" --shard-index "${SHARD_INDEX}" --batch-size "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --graceful-stop-minutes "${GRACEFUL_STOP_MINUTES}")
 
           if [ -n "${START_DATE}" ]; then
             ARGS+=(--start-date "${START_DATE}")
@@ -159,13 +195,13 @@ jobs:
 
       - name: Commit data updates
         run: |
-          if [ -z "$(git status --porcelain data/prices data/actions)" ]; then
+          if [ -z "$(git status --porcelain data/prices data/actions data/state)" ]; then
             echo "No price or action updates to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prices data/actions
+          git add data/prices data/actions data/state
           git commit -m "chore(data): append daily yahoo prices"
           git push
