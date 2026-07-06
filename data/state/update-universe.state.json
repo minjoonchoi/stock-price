@@ -1,0 +1,14 @@
+{
+  "jobName": "update-universe",
+  "runId": "2026-07-06",
+  "minMarketCap": 300000000,
+  "totalTickers": 10415,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAK",
+  "cursorIndex": 1000,
+  "completed": false,
+  "secTickerHash": "sha256:76c0de5823e1362eb29a6dc9c93aba1b4a2eaadff9b31e6e0c91d0734594ec90",
+  "shardCount": 1,
+  "startedAt": "2026-07-06T16:24:52Z",
+  "updatedAt": "2026-07-06T18:04:53Z"
+}
