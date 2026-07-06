@@ -48,7 +48,7 @@ func ParseSplits(raw []byte, collectedAt time.Time) ([]SplitRecord, error) {
 func ParseDividends(raw []byte, calendarDate string, collectedAt time.Time) ([]DividendRecord, error) {
 	rows, err := extractRows(raw, "data.calendar.rows", "data.rows")
 	if err != nil {
-		return nil, fmt.Errorf("nasdaq %s response missing rows: %w", APIDividends, err)
+		return []DividendRecord{}, nil
 	}
 	now := collectedAt.UTC()
 	normalizedCalendarDate := normalizeDate(calendarDate)

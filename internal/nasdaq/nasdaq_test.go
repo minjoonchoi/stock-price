@@ -87,6 +87,16 @@ func TestParseDividendsNormalizesDatesAndNumbers(t *testing.T) {
 	}
 }
 
+func TestParseDividendsTreatsMissingRowsAsEmptyCalendar(t *testing.T) {
+	records, err := ParseDividends([]byte(`{"data":null,"message":null,"status":{"rCode":200}}`), "2026-07-05", time.Date(2026, 7, 6, 0, 0, 0, 0, time.UTC))
+	if err != nil {
+		t.Fatalf("ParseDividends() error = %v", err)
+	}
+	if len(records) != 0 {
+		t.Fatalf("len(records) = %d, want 0", len(records))
+	}
+}
+
 func TestParseScreenerNormalizesNumbersAndSortsByMarketCap(t *testing.T) {
 	raw := []byte(`{
 		"data": {
