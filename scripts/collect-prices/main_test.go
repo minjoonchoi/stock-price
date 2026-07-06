@@ -135,14 +135,14 @@ func TestMainDoesNotWireRemovedProvider(t *testing.T) {
 	}
 }
 
-func TestCollectPricesWorkflowRunsAtUTCOne(t *testing.T) {
+func TestCollectPricesWorkflowRunsRepeatedDailyCursorWindow(t *testing.T) {
 	raw, err := os.ReadFile("../../.github/workflows/collect-prices.yml")
 	if err != nil {
 		t.Fatalf("ReadFile(collect-prices.yml) error = %v", err)
 	}
 	workflow := string(raw)
-	if !strings.Contains(workflow, `cron: "0 1 * * *"`) {
-		t.Fatalf("workflow missing UTC 01:00 schedule")
+	if !strings.Contains(workflow, `cron: "0 1-17/2 * * 2-6"`) {
+		t.Fatalf("workflow missing repeated daily cursor schedule")
 	}
 }
 

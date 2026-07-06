@@ -142,6 +142,8 @@ func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
 		"graceful_stop_minutes:",
 		"default: \"10\"",
 		"data/universe data/state",
+		`cron: "0 21,23 * * 0"`,
+		`cron: "0 1-15/2 * * 1"`,
 	} {
 		if !strings.Contains(workflow, expected) {
 			t.Fatalf("workflow missing %s", expected)

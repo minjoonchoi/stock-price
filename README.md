@@ -114,7 +114,8 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 
 `update-universe.yml`:
 
-- Runs weekly at Sunday 21:00 UTC, which is Monday 06:00 KST.
+- Runs a weekly cursor window at Sunday 21:00/23:00 UTC and Monday 01:00..15:00 UTC every 2 hours.
+- With the default `batch_size=1000`, the weekly window can advance about 10,000 tickers.
 - Supports manual `workflow_dispatch`.
 - Uses `timeout-minutes: 350`.
 - Commits `data/universe/*` and `data/state/*` only when files change.
@@ -122,7 +123,8 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 
 `collect-prices.yml`:
 
-- Runs daily at 01:00 UTC, which is 10:00 KST.
+- Runs Tue-Sat UTC 01:00..17:00 every 2 hours.
+- With the default `batch_size=500`, the daily cursor window can advance about 4,500 tickers.
 - Supports manual `workflow_dispatch`.
 - Reads `data/universe/collectable_tickers.jsonl` by default.
 - Uses `timeout-minutes: 350`.

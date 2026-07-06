@@ -49,8 +49,10 @@ on:
         type: string
         default: "10"
   schedule:
-    # 21:00 UTC Sunday = 06:00 KST Monday
-    - cron: "0 21 * * 0"
+    # Sunday UTC 21:00, 23:00 = Monday KST 06:00, 08:00
+    - cron: "0 21,23 * * 0"
+    # Monday UTC 01:00..15:00 every 2 hours = Monday KST 10:00..24:00
+    - cron: "0 1-15/2 * * 1"
 
 permissions:
   contents: write
