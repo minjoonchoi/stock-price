@@ -1,0 +1,88 @@
+name: Collect Nasdaq Screener
+
+on:
+  schedule:
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Nasdaq screener limit"
+        required: false
+        type: string
+        default: "1500"
+      marketcap:
+        description: "Market cap filter"
+        required: false
+        type: string
+        default: "mega|large|mid"
+      recommendation:
+        description: "Recommendation filter"
+        required: false
+        type: string
+        default: "strong_buy|buy"
+      country:
+        description: "Country filter"
+        required: false
+        type: string
+        default: "united_states"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-nasdaq-screener
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      INPUT_LIMIT: ${{ inputs.limit }}
+      INPUT_MARKETCAP: ${{ inputs.marketcap }}
+      INPUT_RECOMMENDATION: ${{ inputs.recommendation }}
+      INPUT_COUNTRY: ${{ inputs.country }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test
+        run: go test ./...
+
+      - name: Collect Nasdaq screener
+        run: |
+          LIMIT="${INPUT_LIMIT:-1500}"
+          MARKETCAP="${INPUT_MARKETCAP:-mega|large|mid}"
+          RECOMMENDATION="${INPUT_RECOMMENDATION:-strong_buy|buy}"
+          COUNTRY="${INPUT_COUNTRY:-united_states}"
+
+          go run ./scripts/collect-nasdaq-screener \
+            --output-dir data/nasdaq/screener \
+            --limit "${LIMIT}" \
+            --marketcap "${MARKETCAP}" \
+            --recommendation "${RECOMMENDATION}" \
+            --country "${COUNTRY}" \
+            --github-run-id "${{ github.run_id }}"
+
+      - name: Show data diff
+        run: git status --short data/nasdaq/screener
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain data/nasdaq/screener)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nasdaq/screener
+          git commit -m "chore(data): update nasdaq screener stocks"
+          git push

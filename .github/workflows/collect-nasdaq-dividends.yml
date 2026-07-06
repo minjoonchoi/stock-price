@@ -1,0 +1,80 @@
+name: Collect Nasdaq Dividends
+
+on:
+  schedule:
+    - cron: "20 21 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Single date to collect, YYYY-MM-DD. Empty means lookback/lookahead mode."
+        required: false
+        type: string
+        default: ""
+      lookback_days:
+        description: "Days to recollect in the past"
+        required: false
+        type: string
+        default: "7"
+      lookahead_days:
+        description: "Days to collect into the future"
+        required: false
+        type: string
+        default: "30"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-nasdaq-dividends
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      INPUT_DATE: ${{ inputs.date }}
+      INPUT_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
+      INPUT_LOOKAHEAD_DAYS: ${{ inputs.lookahead_days }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Test
+        run: go test ./...
+
+      - name: Collect Nasdaq dividends
+        run: |
+          DATE="${INPUT_DATE:-}"
+          LOOKBACK_DAYS="${INPUT_LOOKBACK_DAYS:-7}"
+          LOOKAHEAD_DAYS="${INPUT_LOOKAHEAD_DAYS:-30}"
+          ARGS=(--output-dir data/nasdaq/dividends --lookback-days "${LOOKBACK_DAYS}" --lookahead-days "${LOOKAHEAD_DAYS}" --github-run-id "${{ github.run_id }}")
+
+          if [ -n "${DATE}" ]; then
+            ARGS+=(--date "${DATE}")
+          fi
+
+          go run ./scripts/collect-nasdaq-dividends "${ARGS[@]}"
+
+      - name: Show data diff
+        run: git status --short data/nasdaq/dividends
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain data/nasdaq/dividends)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nasdaq/dividends
+          git commit -m "chore(data): update nasdaq dividend calendar"
+          git push

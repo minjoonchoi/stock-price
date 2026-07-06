@@ -36,6 +36,9 @@ scripts/
 .github/workflows/
   update-universe.yml
   collect-prices.yml
+  collect-nasdaq-splits.yml
+  collect-nasdaq-dividends.yml
+  collect-nasdaq-screener.yml
 ```
 
 ## Update Universe
@@ -135,4 +138,36 @@ Both workflows require `SEC_USER_AGENT` in the `STOCK_PRICE` GitHub environment.
 
 ```text
 github-stock-collector your@email.com
+```
+
+## Nasdaq JSONL Collectors
+
+This repository also collects additional Nasdaq datasets:
+
+- Split calendar
+- Dividend calendar
+- Screener stocks with mega/large/mid market cap and strong_buy/buy recommendations
+
+Workflows:
+
+- `collect-nasdaq-splits.yml`: runs daily at 21:10 UTC and writes `data/nasdaq/splits/splits.jsonl`.
+- `collect-nasdaq-dividends.yml`: runs daily at 21:20 UTC and writes `data/nasdaq/dividends/dividends.jsonl`.
+- `collect-nasdaq-screener.yml`: runs daily at 21:30 UTC and writes `data/nasdaq/screener/stocks.jsonl`.
+
+Each workflow supports `workflow_dispatch`. The dividend workflow accepts a single `date` or uses the default lookback/lookahead window. The screener workflow accepts `limit`, `marketcap`, `recommendation`, and `country` inputs.
+
+Nasdaq output:
+
+```text
+data/nasdaq/splits/splits.jsonl
+data/nasdaq/splits/splits.meta.json
+data/nasdaq/splits/snapshots/YYYY-MM-DD.jsonl
+
+data/nasdaq/dividends/dividends.jsonl
+data/nasdaq/dividends/dividends.meta.json
+data/nasdaq/dividends/by-date/YYYY/MM/YYYY-MM-DD.jsonl
+
+data/nasdaq/screener/stocks.jsonl
+data/nasdaq/screener/stocks.meta.json
+data/nasdaq/screener/snapshots/YYYY-MM-DD.jsonl
 ```
