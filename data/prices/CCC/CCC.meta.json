@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1442,
-  "updatedAt": "2026-07-04T17:06:14Z",
-  "source": "yahoo"
+  "ticker": "CCC",
+  "source": "yahoo",
+  "firstDate": "2020-10-05",
+  "lastDate": "2026-07-06",
+  "records": 1443,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b4f8fb5ebd402da16abb1065087517b38f9842fd93240e95d1be7563635d41f9",
+  "lastFullValidationAt": "2026-07-07T13:14:27Z",
+  "updatedAt": "2026-07-07T13:14:27Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11520,
-  "updatedAt": "2026-07-04T17:14:32Z",
-  "source": "yahoo"
+  "ticker": "HP",
+  "source": "yahoo",
+  "firstDate": "1980-10-15",
+  "lastDate": "2026-07-06",
+  "records": 11360,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "2006-07-10",
+  "corporateActionHash": "sha256:f14816e46ce930c6ee6573c83c2283794a734413968900c698f9ea35c9e2e512",
+  "priceDataHash": "sha256:b188c41dee1bc533987186accee4af9affd91876d77c39eb73b83e6820b86de5",
+  "lastFullValidationAt": "2026-07-07T13:40:43Z",
+  "updatedAt": "2026-07-07T13:40:43Z"
 }

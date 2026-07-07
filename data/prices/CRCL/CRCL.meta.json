@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 270,
-  "updatedAt": "2026-07-04T17:07:53Z",
-  "source": "yahoo"
+  "ticker": "CRCL",
+  "source": "yahoo",
+  "firstDate": "2025-06-05",
+  "lastDate": "2026-07-06",
+  "records": 271,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:00a9ea2c4160c75e306b106f1410dad0f44fbd24f4fc10f7f4a02f5894e7e2c1",
+  "lastFullValidationAt": "2026-07-07T13:19:55Z",
+  "updatedAt": "2026-07-07T13:19:55Z"
 }

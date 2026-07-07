@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7264,
-  "updatedAt": "2026-07-04T17:01:33Z",
-  "source": "yahoo"
+  "ticker": "AEHR",
+  "source": "yahoo",
+  "firstDate": "1997-08-15",
+  "lastDate": "2026-07-06",
+  "records": 7265,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:3bb35564c24a61ff2809c37ee1277e9568dcb65c364e14fcd34cb5dbbfe66d09",
+  "lastFullValidationAt": "2026-07-07T12:59:43Z",
+  "updatedAt": "2026-07-07T12:59:43Z"
 }

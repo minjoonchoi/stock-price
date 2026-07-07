@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "PRI",
+  "source": "yahoo",
+  "firstDate": "2010-04-01",
+  "lastDate": "2026-07-06",
   "records": 4088,
-  "updatedAt": "2026-07-04T17:23:52Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-21",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:cccbb75146867623f311c55fc184c976f582983677cb228130e0775a3dbca9e5",
+  "priceDataHash": "sha256:efee9b9ec16788c736997c4c37dfde4a91e647fe1f6b0795c2fe1a8b109de40b",
+  "lastFullValidationAt": "2026-07-07T14:09:59Z",
+  "updatedAt": "2026-07-07T14:09:59Z"
 }

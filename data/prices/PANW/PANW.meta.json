@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3507,
-  "updatedAt": "2026-07-04T17:22:35Z",
-  "source": "yahoo"
+  "ticker": "PANW",
+  "source": "yahoo",
+  "firstDate": "2012-07-20",
+  "lastDate": "2026-07-06",
+  "records": 3508,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2024-12-16",
+  "lastSplitDate": "2024-12-16",
+  "corporateActionHash": "sha256:c02e2dc5197a3ff7d5a24dfb2a1f9bc9d6b071fdfbcfc29313f369a8e95f117e",
+  "priceDataHash": "sha256:43253a021b6301160780c4db9b6f5ea8c98ae69b844078e16451d5f101f8d449",
+  "lastFullValidationAt": "2026-07-07T14:05:35Z",
+  "updatedAt": "2026-07-07T14:05:35Z"
 }

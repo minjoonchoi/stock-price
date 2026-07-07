@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1270,
-  "updatedAt": "2026-07-04T17:19:35Z",
-  "source": "yahoo"
+  "ticker": "MQ",
+  "source": "yahoo",
+  "firstDate": "2021-06-09",
+  "lastDate": "2026-07-06",
+  "records": 1273,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-01",
+  "lastSplitDate": "2026-07-01",
+  "corporateActionHash": "sha256:3595fd45c44177ac3a47ff530fccaf38eb08537b1d9d4d5a13e061ceff3316d7",
+  "priceDataHash": "sha256:fde63b3712804236c0b24e18101d3ff1f2481111510360a05cab84a8208b95a8",
+  "lastFullValidationAt": "2026-07-07T13:56:11Z",
+  "updatedAt": "2026-07-07T13:56:11Z"
 }

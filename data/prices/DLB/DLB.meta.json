@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5376,
-  "updatedAt": "2026-07-04T17:09:03Z",
-  "source": "yahoo"
+  "ticker": "DLB",
+  "source": "yahoo",
+  "firstDate": "2005-02-17",
+  "lastDate": "2026-07-06",
+  "records": 5374,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-12",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:9810fb174ce74e530aa3f98057d0d5dbdb6cbada61d036ba44cc8cad6a4bcc73",
+  "priceDataHash": "sha256:f5899e68e6a8c95b260934829e19b86e02411c51edaa608585f7d13408bc9a2a",
+  "lastFullValidationAt": "2026-07-07T13:24:31Z",
+  "updatedAt": "2026-07-07T13:24:31Z"
 }

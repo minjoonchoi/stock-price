@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2086,
-  "updatedAt": "2026-07-04T17:24:40Z",
-  "source": "yahoo"
+  "ticker": "RCUS",
+  "source": "yahoo",
+  "firstDate": "2018-03-15",
+  "lastDate": "2026-07-06",
+  "records": 2087,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a595db41d6821f11e1e6c5c3e8b351fae8a9033ac81ee80f4d8916048784cee7",
+  "lastFullValidationAt": "2026-07-07T14:12:23Z",
+  "updatedAt": "2026-07-07T14:12:23Z"
 }

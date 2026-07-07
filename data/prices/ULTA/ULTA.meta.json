@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4700,
-  "updatedAt": "2026-07-04T17:30:06Z",
-  "source": "yahoo"
+  "ticker": "ULTA",
+  "source": "yahoo",
+  "firstDate": "2007-10-25",
+  "lastDate": "2026-07-06",
+  "records": 4701,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2012-03-16",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:189271bc9a84338fe55cbbd0fb4ebab6c3853b4f5682eac3e519671ba88a3247",
+  "priceDataHash": "sha256:cd15a66b5e271ad334803a864564d6264789f40e9cc90d7287c6fbb686710b56",
+  "lastFullValidationAt": "2026-07-07T14:28:35Z",
+  "updatedAt": "2026-07-07T14:28:35Z"
 }

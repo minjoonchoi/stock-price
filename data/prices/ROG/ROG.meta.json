@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:25:19Z",
-  "source": "yahoo"
+  "ticker": "ROG",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11669,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-05-30",
+  "lastSplitDate": "2000-05-30",
+  "corporateActionHash": "sha256:ff5ffb120181ff565413ac9a46068e632765211c5325ee2fbc555d19ba845181",
+  "priceDataHash": "sha256:c1188bde05130149322ca80bcd768d2d45f5536780f691ed623fa81d59e1fa12",
+  "lastFullValidationAt": "2026-07-07T14:14:31Z",
+  "updatedAt": "2026-07-07T14:14:31Z"
 }

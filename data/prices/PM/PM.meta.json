@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4603,
-  "updatedAt": "2026-07-04T17:23:29Z",
-  "source": "yahoo"
+  "ticker": "PM",
+  "source": "yahoo",
+  "firstDate": "2008-03-17",
+  "lastDate": "2026-07-06",
+  "records": 4599,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:925d9ac61f0f32f26e8daa0d36648fc509a4e56d2f1983122a946d0bfb26bcd8",
+  "priceDataHash": "sha256:2b143abc02df28b28b79d0fd8bcb3bfb4e13f33a1b40120ce285dfe707057de7",
+  "lastFullValidationAt": "2026-07-07T14:08:55Z",
+  "updatedAt": "2026-07-07T14:08:55Z"
 }

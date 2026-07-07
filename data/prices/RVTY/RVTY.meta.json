@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:25:35Z",
-  "source": "yahoo"
+  "ticker": "RVTY",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13243,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-17",
+  "lastSplitDate": "2001-06-04",
+  "corporateActionHash": "sha256:d25f8f43f2e6ff543533b47bc1c0f405a18d0b88cb21636ff07ccac2025e4f2e",
+  "priceDataHash": "sha256:f8f10cfcd6c011290047656d7b2b01ef0d0a301411ccaae27622c7d7b1a119a2",
+  "lastFullValidationAt": "2026-07-07T14:15:55Z",
+  "updatedAt": "2026-07-07T14:15:55Z"
 }

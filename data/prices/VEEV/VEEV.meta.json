@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3196,
-  "updatedAt": "2026-07-04T17:30:35Z",
-  "source": "yahoo"
+  "ticker": "VEEV",
+  "source": "yahoo",
+  "firstDate": "2013-10-16",
+  "lastDate": "2026-07-06",
+  "records": 3197,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:1d3cf95c992e3ccc242f2b90de5407ea36e8ac8c2082c60024c1ae942d5ca142",
+  "lastFullValidationAt": "2026-07-07T14:30:19Z",
+  "updatedAt": "2026-07-07T14:30:19Z"
 }

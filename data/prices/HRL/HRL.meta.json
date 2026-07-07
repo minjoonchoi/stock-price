@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:14:38Z",
-  "source": "yahoo"
+  "ticker": "HRL",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11533,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-13",
+  "lastSplitDate": "2016-02-10",
+  "corporateActionHash": "sha256:2f030da6dcaf941d77b1df1a1a00be095058598bd5f21f79eb88698aa738a61a",
+  "priceDataHash": "sha256:ed7b853e07a682ab87e2605e476ab911d8448889a6264651459ec3a1df9bd9ff",
+  "lastFullValidationAt": "2026-07-07T13:41:07Z",
+  "updatedAt": "2026-07-07T13:41:07Z"
 }

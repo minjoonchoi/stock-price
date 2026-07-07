@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2934,
-  "updatedAt": "2026-07-04T17:05:12Z",
-  "source": "yahoo"
+  "ticker": "BOOT",
+  "source": "yahoo",
+  "firstDate": "2014-10-30",
+  "lastDate": "2026-07-06",
+  "records": 2935,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:05839b2db9b923d16248935fe48bb9eb50f93a7f9389c26bb0f92f10e60e7191",
+  "lastFullValidationAt": "2026-07-07T13:11:19Z",
+  "updatedAt": "2026-07-07T13:11:19Z"
 }

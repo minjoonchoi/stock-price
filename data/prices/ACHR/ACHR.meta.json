@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1389,
-  "updatedAt": "2026-07-04T17:01:13Z",
-  "source": "yahoo"
+  "ticker": "ACHR",
+  "source": "yahoo",
+  "firstDate": "2020-12-18",
+  "lastDate": "2026-07-06",
+  "records": 1390,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:1051fd61d75f3b845b7643d2d72d9340958992c9bd38d409bc7e01c82b8db4bd",
+  "lastFullValidationAt": "2026-07-07T12:58:31Z",
+  "updatedAt": "2026-07-07T12:58:31Z"
 }

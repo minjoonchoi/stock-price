@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1604,
-  "updatedAt": "2026-07-04T17:25:33Z",
-  "source": "yahoo"
+  "ticker": "RVMD",
+  "source": "yahoo",
+  "firstDate": "2020-02-13",
+  "lastDate": "2026-07-06",
+  "records": 1605,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:69a7f3ca2a7142c69cebcd82da057c0ddf861b4dfc75ef11d43e0b3b7723879e",
+  "lastFullValidationAt": "2026-07-07T14:15:51Z",
+  "updatedAt": "2026-07-07T14:15:51Z"
 }

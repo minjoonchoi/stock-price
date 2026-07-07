@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9723,
-  "updatedAt": "2026-07-04T17:07:02Z",
-  "source": "yahoo"
+  "ticker": "CLH",
+  "source": "yahoo",
+  "firstDate": "1987-11-24",
+  "lastDate": "2026-07-06",
+  "records": 9724,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2011-07-27",
+  "lastSplitDate": "2011-07-27",
+  "corporateActionHash": "sha256:07f9bfe40598c32bf30f653576459ad9026f827285894ca08fe4b4f5ce2e6c3d",
+  "priceDataHash": "sha256:1c3a033e1f792d455c8d219864c0d0bffab2dc5eb90f599722d8661fb024c7bb",
+  "lastFullValidationAt": "2026-07-07T13:17:03Z",
+  "updatedAt": "2026-07-07T13:17:03Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "AAL",
+  "source": "yahoo",
+  "firstDate": "2005-09-27",
+  "lastDate": "2026-07-06",
   "records": 5223,
-  "updatedAt": "2026-07-04T17:00:59Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-02-04",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:2ab0a387fcb65db599cfbae1ea0f7713f37979a3520e27ad84a4c496fbf87379",
+  "priceDataHash": "sha256:0c78895e1914b5fb34dc432790ffb6717a494e5bbdb51e290a74b559276b5873",
+  "lastFullValidationAt": "2026-07-07T12:57:29Z",
+  "updatedAt": "2026-07-07T12:57:29Z"
 }

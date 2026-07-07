@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5183,
-  "updatedAt": "2026-07-04T17:04:45Z",
-  "source": "yahoo"
+  "ticker": "BKD",
+  "source": "yahoo",
+  "firstDate": "2005-11-22",
+  "lastDate": "2026-07-06",
+  "records": 5184,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2008-10-08",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e464470f1f8a8499d6e2a6144c65f9f4dafa0c6358f43aedfa88b01b0248c8f7",
+  "priceDataHash": "sha256:8d533f66695ecd4f47e56e5e634e78d6af9aa0a44e2d5c01e14fbd68ed2523c6",
+  "lastFullValidationAt": "2026-07-07T13:10:03Z",
+  "updatedAt": "2026-07-07T13:10:03Z"
 }

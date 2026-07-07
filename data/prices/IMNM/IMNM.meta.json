@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1443,
-  "updatedAt": "2026-07-04T17:15:24Z",
-  "source": "yahoo"
+  "ticker": "IMNM",
+  "source": "yahoo",
+  "firstDate": "2020-10-02",
+  "lastDate": "2026-07-06",
+  "records": 1444,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:790e2446797d763a9cbdfdb16b8ebfe14532a492cc4ca349fe6b017d0e7b64d2",
+  "lastFullValidationAt": "2026-07-07T13:43:19Z",
+  "updatedAt": "2026-07-07T13:43:19Z"
 }

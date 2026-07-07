@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8820,
-  "updatedAt": "2026-07-04T17:08:25Z",
-  "source": "yahoo"
+  "ticker": "CVSA",
+  "source": "yahoo",
+  "firstDate": "1991-06-21",
+  "lastDate": "2026-07-06",
+  "records": 8821,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2016-11-30",
+  "lastSplitDate": "1998-06-22",
+  "corporateActionHash": "sha256:8d07ceff724fbbb58b22ef9903f98d732ba04bc60580cd356e024ca71cd891a5",
+  "priceDataHash": "sha256:428d4e8f237a55038c72b442c69d0ebcabc1b643c9d2b102ecb7ecd1dd608f13",
+  "lastFullValidationAt": "2026-07-07T13:21:55Z",
+  "updatedAt": "2026-07-07T13:21:55Z"
 }

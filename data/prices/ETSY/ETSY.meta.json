@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2820,
-  "updatedAt": "2026-07-04T17:10:42Z",
-  "source": "yahoo"
+  "ticker": "ETSY",
+  "source": "yahoo",
+  "firstDate": "2015-04-16",
+  "lastDate": "2026-07-06",
+  "records": 2821,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:1fdf0e4dfa8e5f9a3d86b032802992ce1f2950cf125d4da48a47c559cd2be5dc",
+  "lastFullValidationAt": "2026-07-07T13:29:39Z",
+  "updatedAt": "2026-07-07T13:29:39Z"
 }

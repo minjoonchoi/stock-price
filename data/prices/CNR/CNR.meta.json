@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2168,
-  "updatedAt": "2026-07-04T17:07:27Z",
-  "source": "yahoo"
+  "ticker": "CNR",
+  "source": "yahoo",
+  "firstDate": "2017-11-14",
+  "lastDate": "2026-07-06",
+  "records": 2169,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:d5b3230ad1f43e0aebdfb4e73b1ccf636155412c78b921da8df43ea88595db34",
+  "priceDataHash": "sha256:85e7554c848c6dc14ea2a73e5ea2b693d532632e620f08f06b2a9d8994181cd3",
+  "lastFullValidationAt": "2026-07-07T13:18:03Z",
+  "updatedAt": "2026-07-07T13:18:03Z"
 }

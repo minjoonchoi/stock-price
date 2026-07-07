@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1710,
-  "updatedAt": "2026-07-04T17:29:47Z",
-  "source": "yahoo"
+  "ticker": "TXG",
+  "source": "yahoo",
+  "firstDate": "2019-09-12",
+  "lastDate": "2026-07-06",
+  "records": 1711,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:174b7a10060d5ba3ccc698a7824f326d2e18ad49aae43599704c57e602009238",
+  "lastFullValidationAt": "2026-07-07T14:27:19Z",
+  "updatedAt": "2026-07-07T14:27:19Z"
 }

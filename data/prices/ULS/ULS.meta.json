@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 557,
-  "updatedAt": "2026-07-04T17:30:06Z",
-  "source": "yahoo"
+  "ticker": "ULS",
+  "source": "yahoo",
+  "firstDate": "2024-04-12",
+  "lastDate": "2026-07-06",
+  "records": 558,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:6e30887f4ffbc49566b6000decec44b925c5d69db357389339181fd9e4a31250",
+  "priceDataHash": "sha256:c87eb5f8e850c1e74a7e0feb3e1b3242b60c4a914ad787a8daa68b051d98c038",
+  "lastFullValidationAt": "2026-07-07T14:28:31Z",
+  "updatedAt": "2026-07-07T14:28:31Z"
 }

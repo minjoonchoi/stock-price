@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1680,
-  "updatedAt": "2026-07-04T17:05:44Z",
-  "source": "yahoo"
+  "ticker": "BWIN",
+  "source": "yahoo",
+  "firstDate": "2019-10-24",
+  "lastDate": "2026-07-06",
+  "records": 1681,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d508baef44296f9d8c77e92bae392c2686e2501a98cc74a5dfaa657b7f0a25b0",
+  "lastFullValidationAt": "2026-07-07T13:12:35Z",
+  "updatedAt": "2026-07-07T13:12:35Z"
 }

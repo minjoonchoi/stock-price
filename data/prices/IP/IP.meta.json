@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 16233,
-  "updatedAt": "2026-07-04T17:15:41Z",
-  "source": "yahoo"
+  "ticker": "IP",
+  "source": "yahoo",
+  "firstDate": "1962-01-02",
+  "lastDate": "2026-07-06",
+  "records": 16116,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "2021-10-01",
+  "corporateActionHash": "sha256:56a93128dd565fcc61c71229b6a8da531ac7a7fe410ea67cab1db00be4faf292",
+  "priceDataHash": "sha256:70e040dfd7fee2d4afcad319c19bf5a536fca1066ba6c4ed5801e189db108972",
+  "lastFullValidationAt": "2026-07-07T13:44:24Z",
+  "updatedAt": "2026-07-07T13:44:24Z"
 }

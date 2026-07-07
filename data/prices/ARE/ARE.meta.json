@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7320,
-  "updatedAt": "2026-07-04T17:02:56Z",
-  "source": "yahoo"
+  "ticker": "ARE",
+  "source": "yahoo",
+  "firstDate": "1997-05-28",
+  "lastDate": "2026-07-06",
+  "records": 7302,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:cdc529832d6ce697d0d36bcbb0239039cc4e6912b909f31f78ea10cbc59fd5a2",
+  "priceDataHash": "sha256:100cb8a2000ea256c1d20830ad87784edce7044a63a961e88982119e9db186c1",
+  "lastFullValidationAt": "2026-07-07T13:04:27Z",
+  "updatedAt": "2026-07-07T13:04:27Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2194,
-  "updatedAt": "2026-07-04T17:25:40Z",
-  "source": "yahoo"
+  "ticker": "RYTM",
+  "source": "yahoo",
+  "firstDate": "2017-10-09",
+  "lastDate": "2026-07-06",
+  "records": 2195,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:1af2c29bd73e1c99dd52d53630f22150b6bc6c2104be608e93e26d8811a02a4f",
+  "lastFullValidationAt": "2026-07-07T14:16:15Z",
+  "updatedAt": "2026-07-07T14:16:15Z"
 }

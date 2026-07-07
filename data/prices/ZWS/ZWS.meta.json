@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3585,
-  "updatedAt": "2026-07-04T17:32:39Z",
-  "source": "yahoo"
+  "ticker": "ZWS",
+  "source": "yahoo",
+  "firstDate": "2012-03-29",
+  "lastDate": "2026-07-06",
+  "records": 3586,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-20",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:aaab25423e832c95126dba385fb4cd39d903d05dbd9789c5f46a73351556b580",
+  "priceDataHash": "sha256:ad6a1a117b7786f1f043b9666f70ab73076c5d78eab9478b94a36222ab9bdcba",
+  "lastFullValidationAt": "2026-07-07T14:37:23Z",
+  "updatedAt": "2026-07-07T14:37:23Z"
 }

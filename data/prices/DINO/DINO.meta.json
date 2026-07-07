@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:08:59Z",
-  "source": "yahoo"
+  "ticker": "DINO",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11644,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-11",
+  "lastSplitDate": "2011-09-01",
+  "corporateActionHash": "sha256:f9d541618044290965fc0a6541663af90d91cf911b4ee14d8316dafb4821c63e",
+  "priceDataHash": "sha256:7ee556fa44a2091d3ceb5ed0e555b479634dfb5164d16530609ce8dfbc326754",
+  "lastFullValidationAt": "2026-07-07T13:24:07Z",
+  "updatedAt": "2026-07-07T13:24:07Z"
 }

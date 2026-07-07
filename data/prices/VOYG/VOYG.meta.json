@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 266,
-  "updatedAt": "2026-07-04T17:30:59Z",
-  "source": "yahoo"
+  "ticker": "VOYG",
+  "source": "yahoo",
+  "firstDate": "2025-06-11",
+  "lastDate": "2026-07-06",
+  "records": 267,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:9d47aa7013864b1640cd603beb296d5e26009d19f9fdc9b9a55feb4afea196ed",
+  "lastFullValidationAt": "2026-07-07T14:31:43Z",
+  "updatedAt": "2026-07-07T14:31:43Z"
 }

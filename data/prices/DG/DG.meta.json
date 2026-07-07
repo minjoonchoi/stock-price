@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4182,
-  "updatedAt": "2026-07-04T17:08:53Z",
-  "source": "yahoo"
+  "ticker": "DG",
+  "source": "yahoo",
+  "firstDate": "2009-11-13",
+  "lastDate": "2026-07-06",
+  "records": 4183,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-07",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:20492d230a8ebf8388a0541552b85e9836639465cdda43714eff10bf5a745825",
+  "priceDataHash": "sha256:fb7c0d0a046090374411ccc2e48f6ef7c7ce4fd2212619bdf9a9a23fddee5f8f",
+  "lastFullValidationAt": "2026-07-07T13:23:43Z",
+  "updatedAt": "2026-07-07T13:23:43Z"
 }

@@ -1,0 +1,15 @@
+{
+  "ticker": "MAIN",
+  "source": "yahoo",
+  "firstDate": "2007-10-09",
+  "lastDate": "2026-07-06",
+  "records": 4697,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:0dae0ca8e3d244e012c0c0ba7a9999cf100d740d56b09e7b41ccf70bbcfec1e8",
+  "priceDataHash": "sha256:200498990c51721179f30a04bce059fffcd9ebeaa4707067291cb0b78ae9fd37",
+  "lastFullValidationAt": "2026-07-07T13:52:15Z",
+  "updatedAt": "2026-07-07T13:52:15Z"
+}

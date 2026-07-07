@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5685,
-  "updatedAt": "2026-07-04T17:21:39Z",
-  "source": "yahoo"
+  "ticker": "NXST",
+  "source": "yahoo",
+  "firstDate": "2003-11-25",
+  "lastDate": "2026-07-06",
+  "records": 5674,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:44d5549887384aad669ce199d39f79e2f6f7442fb7f2b203efc94905b3cd4aff",
+  "priceDataHash": "sha256:24a03eb54ac3b709bc13087952c070e27cf0360e49e81e270e7fcdc977a58a0a",
+  "lastFullValidationAt": "2026-07-07T14:02:27Z",
+  "updatedAt": "2026-07-07T14:02:27Z"
 }

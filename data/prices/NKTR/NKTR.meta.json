@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8096,
-  "updatedAt": "2026-07-04T17:20:47Z",
-  "source": "yahoo"
+  "ticker": "NKTR",
+  "source": "yahoo",
+  "firstDate": "1994-05-03",
+  "lastDate": "2026-07-06",
+  "records": 8097,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2025-06-09",
+  "lastSplitDate": "2025-06-09",
+  "corporateActionHash": "sha256:71bfac38ffb63b6fc9e3c61c51f0b49603e56b58b0928f0af581d2f688652527",
+  "priceDataHash": "sha256:2aac38143e975e1820e3011d5350f12f986bf4e4556d758f42ff7d1e52a9d38e",
+  "lastFullValidationAt": "2026-07-07T14:00:03Z",
+  "updatedAt": "2026-07-07T14:00:03Z"
 }

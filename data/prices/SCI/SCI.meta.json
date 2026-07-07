@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:26:02Z",
-  "source": "yahoo"
+  "ticker": "SCI",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11510,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "1996-09-03",
+  "corporateActionHash": "sha256:16acaa0f007fff1ecdbbd30f801863a281495601b6995366cc361506bfc669c1",
+  "priceDataHash": "sha256:6b197819077e11f577329cd24c0b5eba8104c60f58fa5c5df55c362cdaf492df",
+  "lastFullValidationAt": "2026-07-07T14:17:07Z",
+  "updatedAt": "2026-07-07T14:17:07Z"
 }

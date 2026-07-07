@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2904,
-  "updatedAt": "2026-07-04T17:31:38Z",
-  "source": "yahoo"
+  "ticker": "WK",
+  "source": "yahoo",
+  "firstDate": "2014-12-12",
+  "lastDate": "2026-07-06",
+  "records": 2905,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:4b78bfa393e9a34cdd4d699703e4324b48316c2af29b3e0236b64771b94faae9",
+  "lastFullValidationAt": "2026-07-07T14:34:19Z",
+  "updatedAt": "2026-07-07T14:34:19Z"
 }

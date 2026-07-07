@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4504,
-  "updatedAt": "2026-07-04T17:23:53Z",
-  "source": "yahoo"
+  "ticker": "PRIM",
+  "source": "yahoo",
+  "firstDate": "2008-08-06",
+  "lastDate": "2026-07-06",
+  "records": 4505,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:ffefec736feac8f4899741fa4015ea046876bbbfcc38f766487b8c0cc2d04f59",
+  "priceDataHash": "sha256:80d4a02585139f5a97d1c79f868a7a6847b54efec8829d26e07ee238f9cbc6ed",
+  "lastFullValidationAt": "2026-07-07T14:10:03Z",
+  "updatedAt": "2026-07-07T14:10:03Z"
 }

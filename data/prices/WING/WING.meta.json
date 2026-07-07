@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2780,
-  "updatedAt": "2026-07-04T17:31:37Z",
-  "source": "yahoo"
+  "ticker": "WING",
+  "source": "yahoo",
+  "firstDate": "2015-06-12",
+  "lastDate": "2026-07-06",
+  "records": 2781,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:31526859fc54b1aa7c1a16b037603401fdf236496f922e71e503ec41336d3919",
+  "priceDataHash": "sha256:264b3375691ee5d3c626b306dbc043b0e70935bdb46d0906446b41d147aa88d2",
+  "lastFullValidationAt": "2026-07-07T14:34:15Z",
+  "updatedAt": "2026-07-07T14:34:15Z"
 }

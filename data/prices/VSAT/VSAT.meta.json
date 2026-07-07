@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7441,
-  "updatedAt": "2026-07-04T17:31:05Z",
-  "source": "yahoo"
+  "ticker": "VSAT",
+  "source": "yahoo",
+  "firstDate": "1996-12-03",
+  "lastDate": "2026-07-06",
+  "records": 7442,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-09-01",
+  "lastSplitDate": "2000-09-01",
+  "corporateActionHash": "sha256:dadc43411b9ea249d388f325145a0394bd3845b0d761c937673831acd492ea75",
+  "priceDataHash": "sha256:d92126b2c30aacd173cbf1efe6aa03797720ae71f3986856846e8dc0e3fb5ae9",
+  "lastFullValidationAt": "2026-07-07T14:32:07Z",
+  "updatedAt": "2026-07-07T14:32:07Z"
 }

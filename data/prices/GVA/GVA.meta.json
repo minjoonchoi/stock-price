@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9116,
-  "updatedAt": "2026-07-04T17:13:52Z",
-  "source": "yahoo"
+  "ticker": "GVA",
+  "source": "yahoo",
+  "firstDate": "1990-04-20",
+  "lastDate": "2026-07-06",
+  "records": 9017,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "2001-04-16",
+  "corporateActionHash": "sha256:722df54162a1c8be82b86482b14d39c99325936283955d1db68a6a60d61383d6",
+  "priceDataHash": "sha256:1684f248d7889554d4edf83605adb3a3f5650f517e35240a8f9eef6e0126769c",
+  "lastFullValidationAt": "2026-07-07T13:38:11Z",
+  "updatedAt": "2026-07-07T13:38:11Z"
 }

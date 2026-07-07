@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 724,
-  "updatedAt": "2026-07-04T17:08:41Z",
-  "source": "yahoo"
+  "ticker": "DBD",
+  "source": "yahoo",
+  "firstDate": "2023-08-14",
+  "lastDate": "2026-07-06",
+  "records": 725,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:215a7e13d935d94f89f776f3a882c572d8cba2c87a7ab7e0d8dd92121782db7e",
+  "lastFullValidationAt": "2026-07-07T13:23:03Z",
+  "updatedAt": "2026-07-07T13:23:03Z"
 }

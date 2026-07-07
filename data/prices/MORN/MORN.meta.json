@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5325,
-  "updatedAt": "2026-07-04T17:19:30Z",
-  "source": "yahoo"
+  "ticker": "MORN",
+  "source": "yahoo",
+  "firstDate": "2005-05-03",
+  "lastDate": "2026-07-06",
+  "records": 5324,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-02",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:cef48301ff7b565cef4d35070ac3ea9fa71f296aa902988d383747291df5620e",
+  "priceDataHash": "sha256:04b753f951af11dff39164109d0468b312396de43fc6d0a9f003d9dd6f3910c6",
+  "lastFullValidationAt": "2026-07-07T13:55:47Z",
+  "updatedAt": "2026-07-07T13:55:47Z"
 }

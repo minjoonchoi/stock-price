@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1380,
-  "updatedAt": "2026-07-04T17:15:39Z",
-  "source": "yahoo"
+  "ticker": "IONQ",
+  "source": "yahoo",
+  "firstDate": "2021-01-04",
+  "lastDate": "2026-07-06",
+  "records": 1381,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:78d29bfb760cbaf9039cd06e0628ff44bbd1e76b657f5abffadaef71cac94521",
+  "lastFullValidationAt": "2026-07-07T13:44:07Z",
+  "updatedAt": "2026-07-07T13:44:07Z"
 }

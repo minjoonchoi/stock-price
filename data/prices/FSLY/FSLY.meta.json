@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1791,
-  "updatedAt": "2026-07-04T17:12:07Z",
-  "source": "yahoo"
+  "ticker": "FSLY",
+  "source": "yahoo",
+  "firstDate": "2019-05-17",
+  "lastDate": "2026-07-06",
+  "records": 1792,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:7a816f3c7d02de45bde77c35ce86c7465bfccb318766e7b391bc86e6c28cfe9a",
+  "lastFullValidationAt": "2026-07-07T13:34:23Z",
+  "updatedAt": "2026-07-07T13:34:23Z"
 }

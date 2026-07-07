@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 26,
-  "updatedAt": "2026-07-04T17:11:13Z",
-  "source": "yahoo"
+  "ticker": "FDXF",
+  "source": "yahoo",
+  "firstDate": "2026-05-27",
+  "lastDate": "2026-07-06",
+  "records": 27,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:7123ab1b0586cdbe96142e8576c05437f669e7d320764ff782796c0ea768520a",
+  "lastFullValidationAt": "2026-07-07T13:31:47Z",
+  "updatedAt": "2026-07-07T13:31:47Z"
 }

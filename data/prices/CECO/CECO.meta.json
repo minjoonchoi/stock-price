@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11488,
-  "updatedAt": "2026-07-04T17:06:27Z",
-  "source": "yahoo"
+  "ticker": "CECO",
+  "source": "yahoo",
+  "firstDate": "1980-12-02",
+  "lastDate": "2026-07-06",
+  "records": 11392,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2017-09-14",
+  "lastSplitDate": "1992-09-29",
+  "corporateActionHash": "sha256:9e399f3468a28f3c4264935cdd902dfe3a89a840bdaf81fafd222ab78d01c268",
+  "priceDataHash": "sha256:965e484c1c1d115411839c439ab1faef2eb1e9ce145a25a2b71dec42426f08bb",
+  "lastFullValidationAt": "2026-07-07T13:15:11Z",
+  "updatedAt": "2026-07-07T13:15:11Z"
 }

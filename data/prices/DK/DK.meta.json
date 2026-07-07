@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5072,
-  "updatedAt": "2026-07-04T17:09:02Z",
-  "source": "yahoo"
+  "ticker": "DK",
+  "source": "yahoo",
+  "firstDate": "2006-05-04",
+  "lastDate": "2026-07-06",
+  "records": 5067,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-01",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:464da1332c8ffb06733c6c669389413dcbf16ee5a160de7058d44c97e4058f5a",
+  "priceDataHash": "sha256:1a6c9f4eb075e43a82854fece21fc7d6001e71f23b468b93c9cbc1e1aea827b5",
+  "lastFullValidationAt": "2026-07-07T13:24:19Z",
+  "updatedAt": "2026-07-07T13:24:19Z"
 }

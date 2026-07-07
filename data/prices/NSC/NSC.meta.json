@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11110,
-  "updatedAt": "2026-07-04T17:21:14Z",
-  "source": "yahoo"
+  "ticker": "NSC",
+  "source": "yahoo",
+  "firstDate": "1982-06-02",
+  "lastDate": "2026-07-06",
+  "records": 11054,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-08",
+  "lastSplitDate": "1997-10-10",
+  "corporateActionHash": "sha256:50115775325d3cda8d8bd0132dcf5b264b9832839d289e97679058cb0062b120",
+  "priceDataHash": "sha256:6b4178190d4fbe320858e22a7abaa81404b93cbb982b9a47854b88415a11d0c8",
+  "lastFullValidationAt": "2026-07-07T14:00:59Z",
+  "updatedAt": "2026-07-07T14:00:59Z"
 }

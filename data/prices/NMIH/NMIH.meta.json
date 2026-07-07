@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3179,
-  "updatedAt": "2026-07-04T17:20:52Z",
-  "source": "yahoo"
+  "ticker": "NMIH",
+  "source": "yahoo",
+  "firstDate": "2013-11-08",
+  "lastDate": "2026-07-06",
+  "records": 3180,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:17a56c8d9d7bae35fba6116947aed07e324a245f9a92310de5c8f8f134efea22",
+  "lastFullValidationAt": "2026-07-07T14:00:11Z",
+  "updatedAt": "2026-07-07T14:00:11Z"
 }

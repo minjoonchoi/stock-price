@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1333,
-  "updatedAt": "2026-07-04T17:13:59Z",
-  "source": "yahoo"
+  "ticker": "HAYW",
+  "source": "yahoo",
+  "firstDate": "2021-03-12",
+  "lastDate": "2026-07-06",
+  "records": 1334,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a47dcfe3a5248b9db222eb81683aec411c83c7e4cee5fa2a19a7f28dfff33a5c",
+  "lastFullValidationAt": "2026-07-07T13:38:55Z",
+  "updatedAt": "2026-07-07T13:38:55Z"
 }

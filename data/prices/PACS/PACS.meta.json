@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 558,
-  "updatedAt": "2026-07-04T17:22:32Z",
-  "source": "yahoo"
+  "ticker": "PACS",
+  "source": "yahoo",
+  "firstDate": "2024-04-11",
+  "lastDate": "2026-07-06",
+  "records": 559,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:5107401d98bbcbaadf75b139829c5087bf18580257756b9f2f9789fb3926b7f0",
+  "lastFullValidationAt": "2026-07-07T14:05:23Z",
+  "updatedAt": "2026-07-07T14:05:23Z"
 }

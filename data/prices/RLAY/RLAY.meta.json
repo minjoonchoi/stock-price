@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1498,
-  "updatedAt": "2026-07-04T17:25:08Z",
-  "source": "yahoo"
+  "ticker": "RLAY",
+  "source": "yahoo",
+  "firstDate": "2020-07-16",
+  "lastDate": "2026-07-06",
+  "records": 1499,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0c2615df2ea7bfe60b5d0bb992d32d658d6322382e917087853e03080f2ed658",
+  "lastFullValidationAt": "2026-07-07T14:14:03Z",
+  "updatedAt": "2026-07-07T14:14:03Z"
 }

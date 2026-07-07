@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2151,
-  "updatedAt": "2026-07-04T17:09:10Z",
-  "source": "yahoo"
+  "ticker": "DNLI",
+  "source": "yahoo",
+  "firstDate": "2017-12-08",
+  "lastDate": "2026-07-06",
+  "records": 2152,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:5d8b822d28adcea38407b8797d24e7f622a6b106a7a09ca1e7afb66b94c003eb",
+  "lastFullValidationAt": "2026-07-07T13:24:43Z",
+  "updatedAt": "2026-07-07T13:24:43Z"
 }

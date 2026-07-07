@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1454,
-  "updatedAt": "2026-07-04T17:09:35Z",
-  "source": "yahoo"
+  "ticker": "DYN",
+  "source": "yahoo",
+  "firstDate": "2020-09-17",
+  "lastDate": "2026-07-06",
+  "records": 1455,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b9e2c031d5e4b3ece56ca7ec02a29976679ce8f64267f7ae62254d0615aaee62",
+  "lastFullValidationAt": "2026-07-07T13:26:23Z",
+  "updatedAt": "2026-07-07T13:26:23Z"
 }

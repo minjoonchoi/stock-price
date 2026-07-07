@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:30:53Z",
-  "source": "yahoo"
+  "ticker": "VMI",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13250,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-26",
+  "lastSplitDate": "1997-06-02",
+  "corporateActionHash": "sha256:f14e365183a50c366320e00d2f46428749e4d0a3adc31c6db7e34a252f6b3c80",
+  "priceDataHash": "sha256:c88239ba7cb7591df53e6a5a8664a6a1cef935cfd7c0782ba8634247a6276584",
+  "lastFullValidationAt": "2026-07-07T14:31:24Z",
+  "updatedAt": "2026-07-07T14:31:24Z"
 }

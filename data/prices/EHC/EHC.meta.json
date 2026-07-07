@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10019,
-  "updatedAt": "2026-07-04T17:09:57Z",
-  "source": "yahoo"
+  "ticker": "EHC",
+  "source": "yahoo",
+  "firstDate": "1986-09-24",
+  "lastDate": "2026-07-06",
+  "records": 10006,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-01",
+  "lastSplitDate": "2022-07-01",
+  "corporateActionHash": "sha256:03f0f5456b754d1c8ebcf4ad4e490756167c0e7e725d7f43d96b6cc359bc8a79",
+  "priceDataHash": "sha256:d72865858c1905953c95bcb79ac334358a1c0469064cff1d6b87ce8a2a93ef7b",
+  "lastFullValidationAt": "2026-07-07T13:27:15Z",
+  "updatedAt": "2026-07-07T13:27:15Z"
 }

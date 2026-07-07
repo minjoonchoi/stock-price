@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1613,
-  "updatedAt": "2026-07-04T17:24:52Z",
-  "source": "yahoo"
+  "ticker": "REYN",
+  "source": "yahoo",
+  "firstDate": "2020-01-31",
+  "lastDate": "2026-07-06",
+  "records": 1614,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:ff627fc6ce00912ff102708031b8e52b5dd798a26335b30430c06563e6fd77da",
+  "priceDataHash": "sha256:17fcaf64df7b746e2f181bdb43e65e91855ed7f078d4c56b52bf6a53e58f0b54",
+  "lastFullValidationAt": "2026-07-07T14:12:59Z",
+  "updatedAt": "2026-07-07T14:12:59Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3700,
-  "updatedAt": "2026-07-04T17:32:18Z",
-  "source": "yahoo"
+  "ticker": "XYL",
+  "source": "yahoo",
+  "firstDate": "2011-10-13",
+  "lastDate": "2026-07-06",
+  "records": 3701,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-28",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:79ed4a9a73831ebbcaba34df83e851e526945262f9ecec0593f25861924fccdc",
+  "priceDataHash": "sha256:4dd15c19866e3759c094f06c5a1dc05407392b7b1e210709aee44f30c325a54f",
+  "lastFullValidationAt": "2026-07-07T14:36:23Z",
+  "updatedAt": "2026-07-07T14:36:23Z"
 }

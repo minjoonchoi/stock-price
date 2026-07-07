@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "PPLI",
+  "source": "yahoo",
+  "firstDate": "1993-01-19",
+  "lastDate": "2026-07-06",
   "records": 8421,
-  "updatedAt": "2026-07-04T17:23:46Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2025-04-01",
+  "lastSplitDate": "2025-04-01",
+  "corporateActionHash": "sha256:bfdc19599c3be3956b243f055e3cd58572b3d9bd1b0d98fec0d8b8d6a0393f1a",
+  "priceDataHash": "sha256:cacc191bbb1448eb089c3a2c289e7b355d014eaf211146fe2a4ade495a6bf521",
+  "lastFullValidationAt": "2026-07-07T14:09:43Z",
+  "updatedAt": "2026-07-07T14:09:43Z"
 }

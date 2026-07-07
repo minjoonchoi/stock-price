@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1242,
-  "updatedAt": "2026-07-04T17:13:54Z",
-  "source": "yahoo"
+  "ticker": "GXO",
+  "source": "yahoo",
+  "firstDate": "2021-07-22",
+  "lastDate": "2026-07-06",
+  "records": 1243,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d6669e958a3a1e1c6385214b389d39283e4b2943e50364ffe71ee9fa8c540420",
+  "lastFullValidationAt": "2026-07-07T13:38:23Z",
+  "updatedAt": "2026-07-07T13:38:23Z"
 }

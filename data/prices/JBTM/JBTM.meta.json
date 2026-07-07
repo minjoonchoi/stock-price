@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4515,
-  "updatedAt": "2026-07-04T17:16:06Z",
-  "source": "yahoo"
+  "ticker": "JBTM",
+  "source": "yahoo",
+  "firstDate": "2008-07-22",
+  "lastDate": "2026-07-06",
+  "records": 4514,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-26",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:cdf480c1e21d6cc681f1ec336d2ff2d96ee4204484e1d8d3a8f4473007ff786c",
+  "priceDataHash": "sha256:22abf7a63196e5477fd23165d4aef3ba6d267dd1082bc66049cfd7dc7442197d",
+  "lastFullValidationAt": "2026-07-07T13:45:43Z",
+  "updatedAt": "2026-07-07T13:45:43Z"
 }

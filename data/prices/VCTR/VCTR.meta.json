@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2110,
-  "updatedAt": "2026-07-04T17:30:33Z",
-  "source": "yahoo"
+  "ticker": "VCTR",
+  "source": "yahoo",
+  "firstDate": "2018-02-08",
+  "lastDate": "2026-07-06",
+  "records": 2109,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-10",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f48e55045f70e5c8a5329a8898087a233284989a71680c8dfd76595ebdf600a4",
+  "priceDataHash": "sha256:8042690080c72107c0fc22ba35f0f4b3baa49743ede07642aac0f987552a9079",
+  "lastFullValidationAt": "2026-07-07T14:30:07Z",
+  "updatedAt": "2026-07-07T14:30:07Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7839,
-  "updatedAt": "2026-07-04T17:09:18Z",
-  "source": "yahoo"
+  "ticker": "DRI",
+  "source": "yahoo",
+  "firstDate": "1995-05-09",
+  "lastDate": "2026-07-06",
+  "records": 7763,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-10",
+  "lastSplitDate": "2015-11-10",
+  "corporateActionHash": "sha256:24c6211a5e798e6439e0905abd8707e554ea9841b60f3a806b20b67ca45892c2",
+  "priceDataHash": "sha256:f811ab9595c041f29f6c2b9e7402bb1dece4e5e71d599cbe2f1f6c52deec320f",
+  "lastFullValidationAt": "2026-07-07T13:25:31Z",
+  "updatedAt": "2026-07-07T13:25:31Z"
 }

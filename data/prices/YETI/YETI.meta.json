@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1930,
-  "updatedAt": "2026-07-04T17:32:21Z",
-  "source": "yahoo"
+  "ticker": "YETI",
+  "source": "yahoo",
+  "firstDate": "2018-10-25",
+  "lastDate": "2026-07-06",
+  "records": 1931,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:4fb5f8be767fd4afc07f524676a24c1d6647936031c99b9af3e9c09a1cad5ff0",
+  "lastFullValidationAt": "2026-07-07T14:36:31Z",
+  "updatedAt": "2026-07-07T14:36:31Z"
 }

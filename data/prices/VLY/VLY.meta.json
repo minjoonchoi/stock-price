@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9135,
-  "updatedAt": "2026-07-04T17:30:51Z",
-  "source": "yahoo"
+  "ticker": "VLY",
+  "source": "yahoo",
+  "firstDate": "1990-03-23",
+  "lastDate": "2026-07-06",
+  "records": 9006,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "2012-05-09",
+  "corporateActionHash": "sha256:992bffc355a413c9f7d28d3c518a7dc1daa4a37634a7c36e84e72845b01cb2e3",
+  "priceDataHash": "sha256:e0e6f28b66c0837dd8d875b8878105bc6f0b963edb1497c6ad8b3532ba344933",
+  "lastFullValidationAt": "2026-07-07T14:31:15Z",
+  "updatedAt": "2026-07-07T14:31:15Z"
 }

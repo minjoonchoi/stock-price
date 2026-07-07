@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1944,
-  "updatedAt": "2026-07-04T17:10:37Z",
-  "source": "yahoo"
+  "ticker": "ESTC",
+  "source": "yahoo",
+  "firstDate": "2018-10-05",
+  "lastDate": "2026-07-06",
+  "records": 1945,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:22a14966145a7a4200d8df36173ecfb8309f668a43d7414b4152727332f0f1af",
+  "lastFullValidationAt": "2026-07-07T13:29:27Z",
+  "updatedAt": "2026-07-07T13:29:27Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1489,
-  "updatedAt": "2026-07-04T17:30:37Z",
-  "source": "yahoo"
+  "ticker": "VERX",
+  "source": "yahoo",
+  "firstDate": "2020-07-29",
+  "lastDate": "2026-07-06",
+  "records": 1490,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:45c94dba4255f405edced2c59c708e603d7c22d7a85028b6f8f04e9f1cbf7072",
+  "lastFullValidationAt": "2026-07-07T14:30:27Z",
+  "updatedAt": "2026-07-07T14:30:27Z"
 }

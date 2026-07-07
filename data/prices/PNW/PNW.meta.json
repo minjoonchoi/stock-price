@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:23:39Z",
-  "source": "yahoo"
+  "ticker": "PNW",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13257,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-04",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f0f34e9e0283d71a03bfeda09246074b229ba72f16cea080fd925b286b837b4b",
+  "priceDataHash": "sha256:b30b36e7ca292bb15c7139c48bf9efbd1d56beb22c1c0a742b976e7b410d9e6d",
+  "lastFullValidationAt": "2026-07-07T14:09:07Z",
+  "updatedAt": "2026-07-07T14:09:07Z"
 }

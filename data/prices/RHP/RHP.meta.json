@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8733,
-  "updatedAt": "2026-07-04T17:25:00Z",
-  "source": "yahoo"
+  "ticker": "RHP",
+  "source": "yahoo",
+  "firstDate": "1991-10-24",
+  "lastDate": "2026-07-06",
+  "records": 8723,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "1993-09-14",
+  "corporateActionHash": "sha256:599058e2215465e9346cab2f76259a7ab58715dffde1b8dec6c0b5b0c6bbd9d6",
+  "priceDataHash": "sha256:b17cd9868c109d2097ae35168bcebb35cd724fa7ef3f2c012f6ce02f5bce44bb",
+  "lastFullValidationAt": "2026-07-07T14:13:31Z",
+  "updatedAt": "2026-07-07T14:13:31Z"
 }

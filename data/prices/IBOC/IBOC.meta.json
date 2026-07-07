@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7760,
-  "updatedAt": "2026-07-04T17:15:03Z",
-  "source": "yahoo"
+  "ticker": "IBOC",
+  "source": "yahoo",
+  "firstDate": "1995-08-30",
+  "lastDate": "2026-07-06",
+  "records": 7572,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-02-13",
+  "lastSplitDate": "2007-05-17",
+  "corporateActionHash": "sha256:6f60bbbebafc54cd44331cadccf67bae3b6026705e1b1a5dda7f2ad612dc9d49",
+  "priceDataHash": "sha256:85616a870a62a044b2b0c9b4a627364f1ad8312a0027727048669e3deb95ccd8",
+  "lastFullValidationAt": "2026-07-07T13:42:27Z",
+  "updatedAt": "2026-07-07T13:42:27Z"
 }

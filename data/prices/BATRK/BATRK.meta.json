@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2567,
-  "updatedAt": "2026-07-04T17:03:57Z",
-  "source": "yahoo"
+  "ticker": "BATRK",
+  "source": "yahoo",
+  "firstDate": "2016-04-18",
+  "lastDate": "2026-07-06",
+  "records": 2568,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ad4c9d665fd5b66b6ea8b7c0f5cb002c020af91b1328f5c513d352c6e7ec21d2",
+  "lastFullValidationAt": "2026-07-07T13:08:03Z",
+  "updatedAt": "2026-07-07T13:08:03Z"
 }

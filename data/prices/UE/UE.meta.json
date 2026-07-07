@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2881,
-  "updatedAt": "2026-07-04T17:29:57Z",
-  "source": "yahoo"
+  "ticker": "UE",
+  "source": "yahoo",
+  "firstDate": "2015-01-16",
+  "lastDate": "2026-07-06",
+  "records": 2879,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f5ff63e21ed025098661c72eeb8a096f4e151f430d07ad7ef832581789f39fce",
+  "priceDataHash": "sha256:6ce5f90fbabe5342bf75538ea06f154ec18dbacaed8bf6d8e59f729d0d10ef77",
+  "lastFullValidationAt": "2026-07-07T14:28:11Z",
+  "updatedAt": "2026-07-07T14:28:11Z"
 }

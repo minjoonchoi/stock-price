@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2767,
-  "updatedAt": "2026-07-04T17:21:20Z",
-  "source": "yahoo"
+  "ticker": "NTRA",
+  "source": "yahoo",
+  "firstDate": "2015-07-01",
+  "lastDate": "2026-07-06",
+  "records": 2768,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d176abc378bec5fa2d09bf6c738c8e8b51d2e5d609d5902238ff125ec9e99614",
+  "lastFullValidationAt": "2026-07-07T14:01:23Z",
+  "updatedAt": "2026-07-07T14:01:23Z"
 }

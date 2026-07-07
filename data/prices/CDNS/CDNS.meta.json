@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9840,
-  "updatedAt": "2026-07-04T17:06:24Z",
-  "source": "yahoo"
+  "ticker": "CDNS",
+  "source": "yahoo",
+  "firstDate": "1987-06-10",
+  "lastDate": "2026-07-06",
+  "records": 9841,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "1997-11-17",
+  "lastSplitDate": "1997-11-17",
+  "corporateActionHash": "sha256:2f7b0ee3cc46ed07a3327e842c5ba6cbb29a35392bb1eb71c1f9cbd1adf8ef48",
+  "priceDataHash": "sha256:8088c8f83cc1a60bdc51dd4a150303669b85c0260adb9b8cca80661810e2dfa5",
+  "lastFullValidationAt": "2026-07-07T13:14:55Z",
+  "updatedAt": "2026-07-07T13:14:55Z"
 }

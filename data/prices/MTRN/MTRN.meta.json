@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:19:58Z",
-  "source": "yahoo"
+  "ticker": "MTRN",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11564,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-28",
+  "lastSplitDate": "1984-06-25",
+  "corporateActionHash": "sha256:d1467f4ebae87807d19edbd4d31fe2a454fc96afb8537cbb68a1355dacb2b0f2",
+  "priceDataHash": "sha256:3979c40f458f2cda8522cd474664f11302624f67d500ac1322594d244f12b8e8",
+  "lastFullValidationAt": "2026-07-07T13:57:35Z",
+  "updatedAt": "2026-07-07T13:57:35Z"
 }

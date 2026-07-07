@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1178,
-  "updatedAt": "2026-07-04T17:07:30Z",
-  "source": "yahoo"
+  "ticker": "COCO",
+  "source": "yahoo",
+  "firstDate": "2021-10-21",
+  "lastDate": "2026-07-06",
+  "records": 1179,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:8e992c38f4fe44b4ac02a04177621cb8c7b6ca106b9145f6a068baa76584e513",
+  "lastFullValidationAt": "2026-07-07T13:18:11Z",
+  "updatedAt": "2026-07-07T13:18:11Z"
 }

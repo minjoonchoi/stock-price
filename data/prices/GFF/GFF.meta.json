@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13404,
-  "updatedAt": "2026-07-04T17:12:48Z",
-  "source": "yahoo"
+  "ticker": "GFF",
+  "source": "yahoo",
+  "firstDate": "1973-05-03",
+  "lastDate": "2026-07-06",
+  "records": 13358,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "2001-08-16",
+  "corporateActionHash": "sha256:a6bcfaedaa116551ed319ca73ec3b897a8e4d5e70ecf3db9b6127f904aa714f6",
+  "priceDataHash": "sha256:65d88a84660af0fbffa03bfe1a69a93b3f1ee7e80877eb6d2e436f9e2a1e0ef2",
+  "lastFullValidationAt": "2026-07-07T13:36:07Z",
+  "updatedAt": "2026-07-07T13:36:07Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2456,
-  "updatedAt": "2026-07-04T17:31:11Z",
-  "source": "yahoo"
+  "ticker": "VVV",
+  "source": "yahoo",
+  "firstDate": "2016-09-23",
+  "lastDate": "2026-07-06",
+  "records": 2457,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2022-12-01",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:c3d1dae00697bccf6e5da0efb6a74908fb346f040077cbe39326956535bdbe50",
+  "priceDataHash": "sha256:be94c65b42af5937f67176bf11986ee81ee31a17055990334b00518f383fe167",
+  "lastFullValidationAt": "2026-07-07T14:32:39Z",
+  "updatedAt": "2026-07-07T14:32:39Z"
 }

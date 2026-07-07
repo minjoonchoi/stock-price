@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1763,
-  "updatedAt": "2026-07-04T17:01:27Z",
-  "source": "yahoo"
+  "ticker": "ADPT",
+  "source": "yahoo",
+  "firstDate": "2019-06-27",
+  "lastDate": "2026-07-06",
+  "records": 1764,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:894030fad54f4daffa0cc295c09e73351467f0c46ce26c8b842cf50a44d8da5c",
+  "lastFullValidationAt": "2026-07-07T12:59:27Z",
+  "updatedAt": "2026-07-07T12:59:27Z"
 }

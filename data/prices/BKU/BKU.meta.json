@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3879,
-  "updatedAt": "2026-07-04T17:04:50Z",
-  "source": "yahoo"
+  "ticker": "BKU",
+  "source": "yahoo",
+  "firstDate": "2011-01-28",
+  "lastDate": "2026-07-06",
+  "records": 3875,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-10",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:cdc1d17b7b8de091a02f503e1b4af2d806e6e58549c5151e264a93b38123c7b8",
+  "priceDataHash": "sha256:c9eee27243b486802ca04b426d4aeebff5778771e0d862fc99d610d6b2c5a799",
+  "lastFullValidationAt": "2026-07-07T13:10:19Z",
+  "updatedAt": "2026-07-07T13:10:19Z"
 }

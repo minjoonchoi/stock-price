@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1323,
-  "updatedAt": "2026-07-04T17:10:53Z",
-  "source": "yahoo"
+  "ticker": "EWTX",
+  "source": "yahoo",
+  "firstDate": "2021-03-26",
+  "lastDate": "2026-07-06",
+  "records": 1324,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:912bffc6100dcc044db6df377aae0c7ce781b8b144718210e37a8614676f3524",
+  "lastFullValidationAt": "2026-07-07T13:29:59Z",
+  "updatedAt": "2026-07-07T13:29:59Z"
 }

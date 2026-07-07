@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1515,
-  "updatedAt": "2026-07-04T17:19:32Z",
-  "source": "yahoo"
+  "ticker": "MP",
+  "source": "yahoo",
+  "firstDate": "2020-06-22",
+  "lastDate": "2026-07-06",
+  "records": 1516,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a1031b37a5ad07873c856ef8a7ca9a1b20de58e41b836e2b4ddb9c595d9e3797",
+  "lastFullValidationAt": "2026-07-07T13:55:55Z",
+  "updatedAt": "2026-07-07T13:55:55Z"
 }

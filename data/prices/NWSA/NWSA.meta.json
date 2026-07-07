@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3279,
-  "updatedAt": "2026-07-04T17:21:34Z",
-  "source": "yahoo"
+  "ticker": "NWSA",
+  "source": "yahoo",
+  "firstDate": "2013-06-19",
+  "lastDate": "2026-07-06",
+  "records": 3280,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-11",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:a80531ab5fcc55fe61bfe603b133d6de78275e27647b5b8786a7823d1f28989e",
+  "priceDataHash": "sha256:40c5240218de868dde9f5dfdaa435c71161ce1d670a33e5a8721a3b488d35616",
+  "lastFullValidationAt": "2026-07-07T14:02:23Z",
+  "updatedAt": "2026-07-07T14:02:23Z"
 }

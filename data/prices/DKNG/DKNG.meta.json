@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1744,
-  "updatedAt": "2026-07-04T17:09:02Z",
-  "source": "yahoo"
+  "ticker": "DKNG",
+  "source": "yahoo",
+  "firstDate": "2019-07-25",
+  "lastDate": "2026-07-06",
+  "records": 1745,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ae382f475cd9b7cb3e994ea0979d86cf213541d3e36805f6b6bb92894faf0e0b",
+  "lastFullValidationAt": "2026-07-07T13:24:23Z",
+  "updatedAt": "2026-07-07T13:24:23Z"
 }

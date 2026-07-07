@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10316,
-  "updatedAt": "2026-07-04T17:21:29Z",
-  "source": "yahoo"
+  "ticker": "NVR",
+  "source": "yahoo",
+  "firstDate": "1985-07-22",
+  "lastDate": "2026-07-06",
+  "records": 10314,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "1990-02-23",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1fe4d94fb34999828bc273b27f6d71f2a61042bfde49e9387e8ba71056d85992",
+  "priceDataHash": "sha256:8386a1b972b46cc652b97e404fc85bb3a17b8a9067bf34532f6b5bb3fb7ed435",
+  "lastFullValidationAt": "2026-07-07T14:01:51Z",
+  "updatedAt": "2026-07-07T14:01:51Z"
 }

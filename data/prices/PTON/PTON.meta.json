@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1700,
-  "updatedAt": "2026-07-04T17:24:10Z",
-  "source": "yahoo"
+  "ticker": "PTON",
+  "source": "yahoo",
+  "firstDate": "2019-09-26",
+  "lastDate": "2026-07-06",
+  "records": 1701,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:7e97c88884fbd20abb39d8cc65ff4f007952588f3a7e08044239826b809e5339",
+  "lastFullValidationAt": "2026-07-07T14:10:51Z",
+  "updatedAt": "2026-07-07T14:10:51Z"
 }

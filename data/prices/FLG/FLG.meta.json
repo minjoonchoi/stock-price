@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8206,
-  "updatedAt": "2026-07-04T17:11:32Z",
-  "source": "yahoo"
+  "ticker": "FLG",
+  "source": "yahoo",
+  "firstDate": "1993-11-23",
+  "lastDate": "2026-07-06",
+  "records": 8170,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-05",
+  "lastSplitDate": "2024-07-12",
+  "corporateActionHash": "sha256:376d2219770f0cb053371ce7d535065371e8d0769fcfba0df905a59b969b5222",
+  "priceDataHash": "sha256:de8d545f24d3bb78a8a239619f500a4e8696268b1ed81cdb6c471868dbc74c80",
+  "lastFullValidationAt": "2026-07-07T13:32:47Z",
+  "updatedAt": "2026-07-07T13:32:47Z"
 }

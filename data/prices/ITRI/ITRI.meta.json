@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8218,
-  "updatedAt": "2026-07-04T17:15:55Z",
-  "source": "yahoo"
+  "ticker": "ITRI",
+  "source": "yahoo",
+  "firstDate": "1993-11-05",
+  "lastDate": "2026-07-06",
+  "records": 8219,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ea3a6d95f655a964165bf8ed4fe6feae0ffaa00102bac288f5373cda700ba9ed",
+  "lastFullValidationAt": "2026-07-07T13:45:15Z",
+  "updatedAt": "2026-07-07T13:45:15Z"
 }

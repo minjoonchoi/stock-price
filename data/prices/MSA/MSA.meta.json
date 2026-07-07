@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13453,
-  "updatedAt": "2026-07-04T17:19:43Z",
-  "source": "yahoo"
+  "ticker": "MSA",
+  "source": "yahoo",
+  "firstDate": "1973-02-22",
+  "lastDate": "2026-07-06",
+  "records": 13245,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "2004-01-29",
+  "corporateActionHash": "sha256:9f7eff4e458dc3ce81dc65d13621db3000172c6312aa76fe106b9515b8d9754f",
+  "priceDataHash": "sha256:ddc8da066e3a90c0c2d080b830d35e4b3a656801bc272e5aa22783f88e09cea8",
+  "lastFullValidationAt": "2026-07-07T13:56:39Z",
+  "updatedAt": "2026-07-07T13:56:39Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3218,
-  "updatedAt": "2026-07-04T17:25:45Z",
-  "source": "yahoo"
+  "ticker": "SAIC",
+  "source": "yahoo",
+  "firstDate": "2013-09-16",
+  "lastDate": "2026-07-06",
+  "records": 3219,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-10",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f3cb7ed26910d4ddcd857c7872d21d5a086be8248d8f86ef48b0d4834093fd6d",
+  "priceDataHash": "sha256:0407fb1e795231415c6093f8bb13225331ce09d6413d337a624c3227b0c55f37",
+  "lastFullValidationAt": "2026-07-07T14:16:31Z",
+  "updatedAt": "2026-07-07T14:16:31Z"
 }

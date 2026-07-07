@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 140,
-  "updatedAt": "2026-07-04T17:06:24Z",
-  "source": "yahoo"
+  "ticker": "CDNL",
+  "source": "yahoo",
+  "firstDate": "2025-12-10",
+  "lastDate": "2026-07-06",
+  "records": 141,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0c7248b4619cb988efcb57fd51fe2af4ab29d0aa2293849e9c11e88bbab56c9e",
+  "lastFullValidationAt": "2026-07-07T13:14:51Z",
+  "updatedAt": "2026-07-07T13:14:51Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8798,
-  "updatedAt": "2026-07-04T17:31:04Z",
-  "source": "yahoo"
+  "ticker": "VRTX",
+  "source": "yahoo",
+  "firstDate": "1991-07-24",
+  "lastDate": "2026-07-06",
+  "records": 8799,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-08-24",
+  "lastSplitDate": "2000-08-24",
+  "corporateActionHash": "sha256:f228bb1e7262c0c822a3c35fcecc3bd92079a31057643365d2f0519a60157197",
+  "priceDataHash": "sha256:31e58398c504f811ee4a05de642cb8c9d90a64b7927660aa93539e0ae094ecee",
+  "lastFullValidationAt": "2026-07-07T14:32:03Z",
+  "updatedAt": "2026-07-07T14:32:03Z"
 }

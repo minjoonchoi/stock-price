@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1325,
-  "updatedAt": "2026-07-04T17:09:12Z",
-  "source": "yahoo"
+  "ticker": "DOCN",
+  "source": "yahoo",
+  "firstDate": "2021-03-24",
+  "lastDate": "2026-07-06",
+  "records": 1326,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:fb05096696576eb03c97b56c6d1c5223bdce5159a9bb66d245485d312a14a734",
+  "lastFullValidationAt": "2026-07-07T13:24:59Z",
+  "updatedAt": "2026-07-07T13:24:59Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "REXR",
+  "source": "yahoo",
+  "firstDate": "2013-07-19",
+  "lastDate": "2026-07-06",
   "records": 3258,
-  "updatedAt": "2026-07-04T17:24:52Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:90bbca51e5cb78952ccaa447ed264c9d84b1024c02d20caf9daa1730a1123e92",
+  "priceDataHash": "sha256:d69577757bdf31a73eff760ea14597b7ccadcd1d66518e2954068a2370efa3bb",
+  "lastFullValidationAt": "2026-07-07T14:12:55Z",
+  "updatedAt": "2026-07-07T14:12:55Z"
 }

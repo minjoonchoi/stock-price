@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1767,
-  "updatedAt": "2026-07-04T17:15:27Z",
-  "source": "yahoo"
+  "ticker": "IMVT",
+  "source": "yahoo",
+  "firstDate": "2019-06-21",
+  "lastDate": "2026-07-06",
+  "records": 1768,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d346d1f535790162c604fd0b9d6867b06c5684d292d939f6f31501dfe4be7d4a",
+  "lastFullValidationAt": "2026-07-07T13:43:23Z",
+  "updatedAt": "2026-07-07T13:43:23Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:21:33Z",
-  "source": "yahoo"
+  "ticker": "NWN",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13318,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-30",
+  "lastSplitDate": "1996-09-09",
+  "corporateActionHash": "sha256:4ec8a5dd9db1c832eef4f35a11762fd0ef39d971c72942ded7c6bb6013290afd",
+  "priceDataHash": "sha256:1809fcd620ffcc312efc2fd628a2856c4472202b98521558dc4b7f3d997f0d88",
+  "lastFullValidationAt": "2026-07-07T14:02:15Z",
+  "updatedAt": "2026-07-07T14:02:15Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 16170,
-  "updatedAt": "2026-07-04T17:25:31Z",
-  "source": "yahoo"
+  "ticker": "RTX",
+  "source": "yahoo",
+  "firstDate": "1962-04-02",
+  "lastDate": "2026-07-06",
+  "records": 16039,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "2020-04-03",
+  "corporateActionHash": "sha256:2a69f3c7f4e79b1bb76891ccf8b6c6a06ff5fb4573f5d937577ee83bdf16a70e",
+  "priceDataHash": "sha256:e45617863a7be8399557af6d6626014ed1408aa78ed9595c75271bd61816d068",
+  "lastFullValidationAt": "2026-07-07T14:15:32Z",
+  "updatedAt": "2026-07-07T14:15:32Z"
 }

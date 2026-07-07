@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9334,
-  "updatedAt": "2026-07-04T17:08:02Z",
-  "source": "yahoo"
+  "ticker": "CRUS",
+  "source": "yahoo",
+  "firstDate": "1989-06-09",
+  "lastDate": "2026-07-06",
+  "records": 9335,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "1995-07-18",
+  "lastSplitDate": "1995-07-18",
+  "corporateActionHash": "sha256:6f947e6535850db339a68ff7b4b9d1184dbf848f6fe1cf598e18ebac0720ef55",
+  "priceDataHash": "sha256:362e1fb4c65c08620d8c6ea10f4d9f06531942ef2062f625d8c707a0b1d2ec96",
+  "lastFullValidationAt": "2026-07-07T13:20:27Z",
+  "updatedAt": "2026-07-07T13:20:27Z"
 }

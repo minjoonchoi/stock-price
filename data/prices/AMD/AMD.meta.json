@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:02:26Z",
-  "source": "yahoo"
+  "ticker": "AMD",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11669,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-08-22",
+  "lastSplitDate": "2000-08-22",
+  "corporateActionHash": "sha256:de6e59a89f614cde425f067359ef74235812e7e653bd2f8ade26b2681616238d",
+  "priceDataHash": "sha256:d82626900e573814e0508e0546b413d68095e53b09c583777bdc3b322e7632f4",
+  "lastFullValidationAt": "2026-07-07T13:02:19Z",
+  "updatedAt": "2026-07-07T13:02:19Z"
 }

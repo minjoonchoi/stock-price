@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "AMH",
+  "source": "yahoo",
+  "firstDate": "2013-08-01",
+  "lastDate": "2026-07-06",
   "records": 3249,
-  "updatedAt": "2026-07-04T17:02:27Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:dc00775f93494b26ee063064a841dd646cb3feda38f1b6839a62937255964c2a",
+  "priceDataHash": "sha256:33d9357236ae0caf1d4134ede8f7fe70ec4cd0cac236561cdfbffbde920489d7",
+  "lastFullValidationAt": "2026-07-07T13:02:35Z",
+  "updatedAt": "2026-07-07T13:02:35Z"
 }

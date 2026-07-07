@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4814,
-  "updatedAt": "2026-07-04T17:23:40Z",
-  "source": "yahoo"
+  "ticker": "PODD",
+  "source": "yahoo",
+  "firstDate": "2007-05-15",
+  "lastDate": "2026-07-06",
+  "records": 4815,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:9481c26f727f1a28f82723731cf2c88412624339e8ea0e26c89a31414f31f0db",
+  "lastFullValidationAt": "2026-07-07T14:09:11Z",
+  "updatedAt": "2026-07-07T14:09:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10042,
-  "updatedAt": "2026-07-04T17:32:00Z",
-  "source": "yahoo"
+  "ticker": "WTS",
+  "source": "yahoo",
+  "firstDate": "1986-08-21",
+  "lastDate": "2026-07-06",
+  "records": 9929,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-02-27",
+  "lastSplitDate": "1994-03-16",
+  "corporateActionHash": "sha256:46a831dca555226f2d02fd617dbceebeae86eb85a5a220604fc971016d55805b",
+  "priceDataHash": "sha256:8aa19532b0ef455fe5a2dd2b75dee8d2e38a85e9e52903c26ecea66a72f4b183",
+  "lastFullValidationAt": "2026-07-07T14:35:39Z",
+  "updatedAt": "2026-07-07T14:35:39Z"
 }

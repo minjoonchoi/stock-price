@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7625,
-  "updatedAt": "2026-07-04T17:14:48Z",
-  "source": "yahoo"
+  "ticker": "HUBG",
+  "source": "yahoo",
+  "firstDate": "1996-03-13",
+  "lastDate": "2026-07-06",
+  "records": 7626,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-05",
+  "lastSplitDate": "2024-01-29",
+  "corporateActionHash": "sha256:ddecf86ea85c369e58f7dadafce8be0db71c0aa022d70e796a4b8e2552d8a8af",
+  "priceDataHash": "sha256:fa10b6f008e2fd67d0f650b76998ef9d0b065fc0658e34b15c8787b9201b6b74",
+  "lastFullValidationAt": "2026-07-07T13:41:47Z",
+  "updatedAt": "2026-07-07T13:41:47Z"
 }

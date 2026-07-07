@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4122,
-  "updatedAt": "2026-07-04T17:13:19Z",
-  "source": "yahoo"
+  "ticker": "GNRC",
+  "source": "yahoo",
+  "firstDate": "2010-02-11",
+  "lastDate": "2026-07-06",
+  "records": 4123,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2013-06-10",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:c644dccc5f030d21012999270475214454195be0f0820588e50eb4beda50a8d3",
+  "priceDataHash": "sha256:83c3540a8db7fb81343cfe2e21d5fca0ead28c653dc47318bcd80a714394de6b",
+  "lastFullValidationAt": "2026-07-07T13:36:59Z",
+  "updatedAt": "2026-07-07T13:36:59Z"
 }

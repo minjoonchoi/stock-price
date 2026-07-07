@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8110,
-  "updatedAt": "2026-07-04T17:10:55Z",
-  "source": "yahoo"
+  "ticker": "EXP",
+  "source": "yahoo",
+  "firstDate": "1994-04-12",
+  "lastDate": "2026-07-06",
+  "records": 8076,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "2006-02-27",
+  "corporateActionHash": "sha256:4fe92a6cdf2157a119dfb0743c253f5b9de4eb54cffa6c31e748604deba9d60e",
+  "priceDataHash": "sha256:e5ab77077cbe997fbde3cf7340243e0a8bf64af5f0fb8407b3c87bb12616208c",
+  "lastFullValidationAt": "2026-07-07T13:30:19Z",
+  "updatedAt": "2026-07-07T13:30:19Z"
 }

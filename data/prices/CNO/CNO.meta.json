@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5739,
-  "updatedAt": "2026-07-04T17:07:25Z",
-  "source": "yahoo"
+  "ticker": "CNO",
+  "source": "yahoo",
+  "firstDate": "2003-09-10",
+  "lastDate": "2026-07-06",
+  "records": 5733,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-10",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f3a7e07057f9201cf67c51a869e8a5b74569cb10177fabd6bdae454498788b59",
+  "priceDataHash": "sha256:fe567fd56261df17a77927d080c69aa72e068f1f931c7fd79bbd955a637568e1",
+  "lastFullValidationAt": "2026-07-07T13:17:55Z",
+  "updatedAt": "2026-07-07T13:17:55Z"
 }

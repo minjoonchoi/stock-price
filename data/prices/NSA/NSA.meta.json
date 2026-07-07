@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2816,
-  "updatedAt": "2026-07-04T17:21:13Z",
-  "source": "yahoo"
+  "ticker": "NSA",
+  "source": "yahoo",
+  "firstDate": "2015-04-23",
+  "lastDate": "2026-07-06",
+  "records": 2814,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:27ad70f0b79a5af6106ed364c55ae58292d7383279875a0b53bbf06e8d880d42",
+  "priceDataHash": "sha256:22f4c9cd244f9f431143991b315f09398daeb7bde662917c0c1f46d5160a6526",
+  "lastFullValidationAt": "2026-07-07T14:00:55Z",
+  "updatedAt": "2026-07-07T14:00:55Z"
 }

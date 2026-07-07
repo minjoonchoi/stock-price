@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6679,
-  "updatedAt": "2026-07-04T17:04:29Z",
-  "source": "yahoo"
+  "ticker": "BGC",
+  "source": "yahoo",
+  "firstDate": "1999-12-10",
+  "lastDate": "2026-07-06",
+  "records": 6667,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-27",
+  "lastSplitDate": "2018-12-03",
+  "corporateActionHash": "sha256:1bfd8b0ba6f3ee5a070895489fa9ec7e7de61072f4eb0098c641ac7106e7414c",
+  "priceDataHash": "sha256:2d76c09dde70904f5a39613632f03a816b96f36cb0466fce3c755273fa68b3b8",
+  "lastFullValidationAt": "2026-07-07T13:09:35Z",
+  "updatedAt": "2026-07-07T13:09:35Z"
 }

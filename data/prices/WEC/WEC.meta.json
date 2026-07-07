@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:31:25Z",
-  "source": "yahoo"
+  "ticker": "WEC",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11584,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-14",
+  "lastSplitDate": "2011-03-02",
+  "corporateActionHash": "sha256:826101081b4171d191ac23e0d1072b2f5aa0f6fd60a9af48fa25565a5bbe8a64",
+  "priceDataHash": "sha256:dddc4d246a8b3f451a4d8cdc067536ba077bbef0f107747dedd1142578c371d2",
+  "lastFullValidationAt": "2026-07-07T14:33:35Z",
+  "updatedAt": "2026-07-07T14:33:35Z"
 }

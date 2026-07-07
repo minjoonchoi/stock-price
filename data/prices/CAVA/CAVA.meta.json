@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 764,
-  "updatedAt": "2026-07-04T17:06:06Z",
-  "source": "yahoo"
+  "ticker": "CAVA",
+  "source": "yahoo",
+  "firstDate": "2023-06-15",
+  "lastDate": "2026-07-06",
+  "records": 765,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0f50476a31b3b440a9f2f1a7c33f2f79acdf0106d92966866bf737ee24172c31",
+  "lastFullValidationAt": "2026-07-07T13:13:59Z",
+  "updatedAt": "2026-07-07T13:13:59Z"
 }

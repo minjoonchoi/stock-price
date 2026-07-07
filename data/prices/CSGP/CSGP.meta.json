@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7044,
-  "updatedAt": "2026-07-04T17:08:06Z",
-  "source": "yahoo"
+  "ticker": "CSGP",
+  "source": "yahoo",
+  "firstDate": "1998-07-01",
+  "lastDate": "2026-07-06",
+  "records": 7045,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2021-06-28",
+  "lastSplitDate": "2021-06-28",
+  "corporateActionHash": "sha256:6ba550bb7419aa56d74983eff1996360323e7abb4d6e1679bf347d022ccc33fa",
+  "priceDataHash": "sha256:e049b73d90e4c581a7478b859d6066f02e923d427e32a63e8827f6d77b128998",
+  "lastFullValidationAt": "2026-07-07T13:20:43Z",
+  "updatedAt": "2026-07-07T13:20:43Z"
 }

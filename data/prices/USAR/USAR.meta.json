@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 744,
-  "updatedAt": "2026-07-04T17:30:17Z",
-  "source": "yahoo"
+  "ticker": "USAR",
+  "source": "yahoo",
+  "firstDate": "2023-07-17",
+  "lastDate": "2026-07-06",
+  "records": 745,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0f361c7da44e34bd8e8ed1a72a1bb206bd98d61bedd2443d2baf2340403fef78",
+  "lastFullValidationAt": "2026-07-07T14:29:23Z",
+  "updatedAt": "2026-07-07T14:29:23Z"
 }

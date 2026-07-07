@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:21:33Z",
-  "source": "yahoo"
+  "ticker": "NWL",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11583,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "1994-09-02",
+  "corporateActionHash": "sha256:dbf76ed6261dadb41b296403794616870af4d1c728010d3ea41d06786372d7d7",
+  "priceDataHash": "sha256:7a93cb615572c84daf7faddda9e81da73670c6b08f2042f6216f42152a92dabb",
+  "lastFullValidationAt": "2026-07-07T14:02:11Z",
+  "updatedAt": "2026-07-07T14:02:11Z"
 }

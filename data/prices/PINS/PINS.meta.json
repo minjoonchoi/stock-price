@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1811,
-  "updatedAt": "2026-07-04T17:23:19Z",
-  "source": "yahoo"
+  "ticker": "PINS",
+  "source": "yahoo",
+  "firstDate": "2019-04-18",
+  "lastDate": "2026-07-06",
+  "records": 1812,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:07eb18111a3c27cce946ee465e061071963c733d2a44e442f36885d44e3b6459",
+  "lastFullValidationAt": "2026-07-07T14:08:03Z",
+  "updatedAt": "2026-07-07T14:08:03Z"
 }

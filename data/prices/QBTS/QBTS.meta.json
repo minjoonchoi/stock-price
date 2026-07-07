@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1394,
-  "updatedAt": "2026-07-04T17:24:18Z",
-  "source": "yahoo"
+  "ticker": "QBTS",
+  "source": "yahoo",
+  "firstDate": "2020-12-11",
+  "lastDate": "2026-07-06",
+  "records": 1395,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:2036a96ebcfe712827f3e2a4551e080940aa4911a257f74f579d45b8457a3041",
+  "lastFullValidationAt": "2026-07-07T14:11:19Z",
+  "updatedAt": "2026-07-07T14:11:19Z"
 }

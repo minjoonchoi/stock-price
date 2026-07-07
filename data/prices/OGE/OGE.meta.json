@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:21:54Z",
-  "source": "yahoo"
+  "ticker": "OGE",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13222,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-06",
+  "lastSplitDate": "2013-07-02",
+  "corporateActionHash": "sha256:927799fb11c8cc33bb1beb813b3463f85b1de008a4a02aa115d22cb25feb72ae",
+  "priceDataHash": "sha256:e9d9d1c08de4581c79290da47300f9a2653c4c75e4d291d0c9d1bd3b53a16670",
+  "lastFullValidationAt": "2026-07-07T14:02:59Z",
+  "updatedAt": "2026-07-07T14:02:59Z"
 }

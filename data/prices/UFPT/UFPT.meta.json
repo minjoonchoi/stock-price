@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8189,
-  "updatedAt": "2026-07-04T17:30:01Z",
-  "source": "yahoo"
+  "ticker": "UFPT",
+  "source": "yahoo",
+  "firstDate": "1993-12-17",
+  "lastDate": "2026-07-06",
+  "records": 8190,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:de0e21414fa5d1968f84dade538b6431948a2a914378fd11df8e10e5927874bd",
+  "lastFullValidationAt": "2026-07-07T14:28:19Z",
+  "updatedAt": "2026-07-07T14:28:19Z"
 }

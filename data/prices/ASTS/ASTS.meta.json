@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1674,
-  "updatedAt": "2026-07-04T17:03:15Z",
-  "source": "yahoo"
+  "ticker": "ASTS",
+  "source": "yahoo",
+  "firstDate": "2019-11-01",
+  "lastDate": "2026-07-06",
+  "records": 1675,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d7a5dc983498b6047d7339e692b0d348a0aa1a19bc1c77ad02915a6a79ce3904",
+  "lastFullValidationAt": "2026-07-07T13:05:23Z",
+  "updatedAt": "2026-07-07T13:05:23Z"
 }

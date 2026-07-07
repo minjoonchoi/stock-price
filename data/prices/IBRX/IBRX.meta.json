@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2749,
-  "updatedAt": "2026-07-04T17:15:04Z",
-  "source": "yahoo"
+  "ticker": "IBRX",
+  "source": "yahoo",
+  "firstDate": "2015-07-28",
+  "lastDate": "2026-07-06",
+  "records": 2750,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:900e27857a274b0c49c19360c3775e8c8b535eabb0e62f54a85e50f6c0d44d87",
+  "lastFullValidationAt": "2026-07-07T13:42:31Z",
+  "updatedAt": "2026-07-07T13:42:31Z"
 }

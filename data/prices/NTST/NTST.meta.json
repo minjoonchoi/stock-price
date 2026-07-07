@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1478,
-  "updatedAt": "2026-07-04T17:21:21Z",
-  "source": "yahoo"
+  "ticker": "NTST",
+  "source": "yahoo",
+  "firstDate": "2020-08-13",
+  "lastDate": "2026-07-06",
+  "records": 1477,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-16",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1241a9212aaacdb0b2bec8f59e60e4b89c1e4846e7633cd36ab3441c3555fa09",
+  "priceDataHash": "sha256:99ad7ab242ca8cb0db8ba996fb4a8c36b43082ba951616a927d683b5e8e988cf",
+  "lastFullValidationAt": "2026-07-07T14:01:35Z",
+  "updatedAt": "2026-07-07T14:01:35Z"
 }

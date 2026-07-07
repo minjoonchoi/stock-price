@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1311,
-  "updatedAt": "2026-07-04T17:07:34Z",
-  "source": "yahoo"
+  "ticker": "COIN",
+  "source": "yahoo",
+  "firstDate": "2021-04-14",
+  "lastDate": "2026-07-06",
+  "records": 1312,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:3688d70f68bf0edef4955bf272497715a8c732a4690178f550d7551cf6219bca",
+  "lastFullValidationAt": "2026-07-07T13:18:31Z",
+  "updatedAt": "2026-07-07T13:18:31Z"
 }

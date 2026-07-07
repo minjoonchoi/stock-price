@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6802,
-  "updatedAt": "2026-07-04T17:30:24Z",
-  "source": "yahoo"
+  "ticker": "UTHR",
+  "source": "yahoo",
+  "firstDate": "1999-06-17",
+  "lastDate": "2026-07-06",
+  "records": 6803,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2009-09-23",
+  "lastSplitDate": "2009-09-23",
+  "corporateActionHash": "sha256:6b8c76e28526380103494b879a68e044153611bbab01747b7b3897d23a1446ea",
+  "priceDataHash": "sha256:9aa521083abdab7d584803caa3e4973bdacd0a343fea43d82e8937fd2c3291fb",
+  "lastFullValidationAt": "2026-07-07T14:29:39Z",
+  "updatedAt": "2026-07-07T14:29:39Z"
 }

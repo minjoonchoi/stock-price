@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "ZBH",
+  "source": "yahoo",
+  "firstDate": "2001-07-25",
+  "lastDate": "2026-07-06",
   "records": 6271,
-  "updatedAt": "2026-07-04T17:32:28Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "2022-03-01",
+  "corporateActionHash": "sha256:4913baf94c07cb87b131bc542eac20b64024520a8392c39e2a0e17f2a69504f1",
+  "priceDataHash": "sha256:e01d78025d1619e476fbab144d0ab30a2fad2503a79fe16857fb39a323b1ab5f",
+  "lastFullValidationAt": "2026-07-07T14:36:51Z",
+  "updatedAt": "2026-07-07T14:36:51Z"
 }

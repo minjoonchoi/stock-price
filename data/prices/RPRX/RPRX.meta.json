@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1519,
-  "updatedAt": "2026-07-04T17:25:23Z",
-  "source": "yahoo"
+  "ticker": "RPRX",
+  "source": "yahoo",
+  "firstDate": "2020-06-16",
+  "lastDate": "2026-07-06",
+  "records": 1520,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:a5fc6c2b807ae8c46c28230d0821b09604597cc936296b206d4ba4f8c5bc87c7",
+  "priceDataHash": "sha256:5cb25b12c3610fa353cfab9e98a7d2a195521fa5a83623cb3ffc0657e24ea25f",
+  "lastFullValidationAt": "2026-07-07T14:14:59Z",
+  "updatedAt": "2026-07-07T14:14:59Z"
 }

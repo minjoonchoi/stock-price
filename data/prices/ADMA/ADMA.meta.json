@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3195,
-  "updatedAt": "2026-07-04T17:01:25Z",
-  "source": "yahoo"
+  "ticker": "ADMA",
+  "source": "yahoo",
+  "firstDate": "2013-10-17",
+  "lastDate": "2026-07-06",
+  "records": 3196,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:8c5170f98e9a1c9cd2c55cd9cef23c7015bf4043badf0b052f8abc1a2dc3a8ce",
+  "lastFullValidationAt": "2026-07-07T12:59:19Z",
+  "updatedAt": "2026-07-07T12:59:19Z"
 }

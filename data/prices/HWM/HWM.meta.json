@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2429,
-  "updatedAt": "2026-07-04T17:14:54Z",
-  "source": "yahoo"
+  "ticker": "HWM",
+  "source": "yahoo",
+  "firstDate": "2016-11-01",
+  "lastDate": "2026-07-06",
+  "records": 2430,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-08",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:7b096f3f0aaaae51fcdb77133759efdefdcc6b74808e45e835d9571c1bde2f98",
+  "priceDataHash": "sha256:3ef1a6aa53ba7d065b14a6d26c6ebb6477218883fdb603c7f4f71cc3d58056a7",
+  "lastFullValidationAt": "2026-07-07T13:42:11Z",
+  "updatedAt": "2026-07-07T13:42:11Z"
 }

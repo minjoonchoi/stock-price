@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:08:44Z",
-  "source": "yahoo"
+  "ticker": "DCI",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11325,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "2012-03-26",
+  "corporateActionHash": "sha256:5c31c5e12f1ffc80eb710b5b12a105497fe1cfcd2f17ea1826ab05d8721b15d4",
+  "priceDataHash": "sha256:a32be4dba03190d19e16fd9a8a1b357e7e3e8bb699d4e493d6a92195ece5205b",
+  "lastFullValidationAt": "2026-07-07T13:23:07Z",
+  "updatedAt": "2026-07-07T13:23:07Z"
 }

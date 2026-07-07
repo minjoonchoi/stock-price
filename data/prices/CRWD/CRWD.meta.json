@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1774,
-  "updatedAt": "2026-07-04T17:08:03Z",
-  "source": "yahoo"
+  "ticker": "CRWD",
+  "source": "yahoo",
+  "firstDate": "2019-06-12",
+  "lastDate": "2026-07-06",
+  "records": 1775,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-02",
+  "lastSplitDate": "2026-07-02",
+  "corporateActionHash": "sha256:615c7ee1c5576081de48803dbc8bfdd77d058a4276c66b40e853190506d09726",
+  "priceDataHash": "sha256:b3b18813756e731a2fb667a344508feb48ad94e9286c55b57175880893ec9034",
+  "lastFullValidationAt": "2026-07-07T13:20:31Z",
+  "updatedAt": "2026-07-07T13:20:31Z"
 }

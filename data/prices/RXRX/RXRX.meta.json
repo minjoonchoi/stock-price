@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1309,
-  "updatedAt": "2026-07-04T17:25:37Z",
-  "source": "yahoo"
+  "ticker": "RXRX",
+  "source": "yahoo",
+  "firstDate": "2021-04-16",
+  "lastDate": "2026-07-06",
+  "records": 1310,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:29c7e6a8d21a9d14c424e7e09f3a7a884866537c26c1eecf5ac93ea04e0fb0e9",
+  "lastFullValidationAt": "2026-07-07T14:16:03Z",
+  "updatedAt": "2026-07-07T14:16:03Z"
 }

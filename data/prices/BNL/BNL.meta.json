@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "BNL",
+  "source": "yahoo",
+  "firstDate": "2020-09-17",
+  "lastDate": "2026-07-06",
   "records": 1454,
-  "updatedAt": "2026-07-04T17:05:07Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:67c0c1b34e5f227d58ff4884fcb9a6250a4fa2ae3d83b18e8a40616ffe9181e1",
+  "priceDataHash": "sha256:b25eb9e4ac79e5560f34164b72df062bab516d64397506acd06d66380aada10f",
+  "lastFullValidationAt": "2026-07-07T13:11:03Z",
+  "updatedAt": "2026-07-07T13:11:03Z"
 }

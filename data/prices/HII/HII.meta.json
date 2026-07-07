@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "HII",
+  "source": "yahoo",
+  "firstDate": "2011-03-22",
+  "lastDate": "2026-07-06",
   "records": 3843,
-  "updatedAt": "2026-07-04T17:14:16Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:9dd712f130816a3586fcd60dd4ff57d71a639a8e12e56c6f36fd7250925bbd1b",
+  "priceDataHash": "sha256:222c077f61f53ffd2a262ca1e844000e8db070bfcf05e0761de8ab5bfcb29fb7",
+  "lastFullValidationAt": "2026-07-07T13:39:39Z",
+  "updatedAt": "2026-07-07T13:39:39Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "ADSK",
+  "source": "yahoo",
+  "firstDate": "1985-06-28",
+  "lastDate": "2026-07-06",
   "records": 10331,
-  "updatedAt": "2026-07-04T17:01:28Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2005-03-22",
+  "lastSplitDate": "2004-12-21",
+  "corporateActionHash": "sha256:97cd74efecdd28ab97545681e428efce88c49556ba5e0b494357f21a69855244",
+  "priceDataHash": "sha256:3d33452b76bc7a2facd45e3fc9fdeaee4abf526065837fe2f123ac5547d757a2",
+  "lastFullValidationAt": "2026-07-07T12:59:31Z",
+  "updatedAt": "2026-07-07T12:59:31Z"
 }

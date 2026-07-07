@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8219,
-  "updatedAt": "2026-07-04T17:15:28Z",
-  "source": "yahoo"
+  "ticker": "INCY",
+  "source": "yahoo",
+  "firstDate": "1993-11-04",
+  "lastDate": "2026-07-06",
+  "records": 8220,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-09-01",
+  "lastSplitDate": "2000-09-01",
+  "corporateActionHash": "sha256:04a231fc935d691d171a299b936afcd55ca9f0ab25251dd06c1cf66c7ed3d03e",
+  "priceDataHash": "sha256:373786a7575d87385f428b5a32d63007beeb1d7f43ac55c5a96e7d0f3356ed52",
+  "lastFullValidationAt": "2026-07-07T13:43:27Z",
+  "updatedAt": "2026-07-07T13:43:27Z"
 }

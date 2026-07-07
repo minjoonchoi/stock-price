@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5395,
-  "updatedAt": "2026-07-04T17:06:27Z",
-  "source": "yahoo"
+  "ticker": "CE",
+  "source": "yahoo",
+  "firstDate": "2005-01-21",
+  "lastDate": "2026-07-06",
+  "records": 5393,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-27",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:527ab749ffe2bc00be033ea58e17479474a4b5907103e4b34e01ad162ff1f223",
+  "priceDataHash": "sha256:763e4884f7ceddba9dd842a8459168d9de17be9bc8bef0763619444d0a5773eb",
+  "lastFullValidationAt": "2026-07-07T13:15:07Z",
+  "updatedAt": "2026-07-07T13:15:07Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1306,
-  "updatedAt": "2026-07-04T17:22:36Z",
-  "source": "yahoo"
+  "ticker": "PATH",
+  "source": "yahoo",
+  "firstDate": "2021-04-21",
+  "lastDate": "2026-07-06",
+  "records": 1307,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b9f2bbb1c9b62e430fa6f2a3ccd1a9b4491f5d7b2a4ac42db8394d8ab68571a8",
+  "lastFullValidationAt": "2026-07-07T14:05:43Z",
+  "updatedAt": "2026-07-07T14:05:43Z"
 }

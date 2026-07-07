@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6861,
-  "updatedAt": "2026-07-04T17:21:03Z",
-  "source": "yahoo"
+  "ticker": "NOVT",
+  "source": "yahoo",
+  "firstDate": "1999-03-24",
+  "lastDate": "2026-07-06",
+  "records": 6862,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2010-12-29",
+  "lastSplitDate": "2010-12-29",
+  "corporateActionHash": "sha256:533bd3ba5bb571f5db9b7026edcbe53fbc8dc717dead35a3029ff2f67ab25e1c",
+  "priceDataHash": "sha256:f79701ee06f437aafa04e50b4b6cb1a500c4b82284c1305cb7ea9ac2f883ce20",
+  "lastFullValidationAt": "2026-07-07T14:00:35Z",
+  "updatedAt": "2026-07-07T14:00:35Z"
 }

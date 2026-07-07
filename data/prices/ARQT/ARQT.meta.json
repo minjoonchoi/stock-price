@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1613,
-  "updatedAt": "2026-07-04T17:03:01Z",
-  "source": "yahoo"
+  "ticker": "ARQT",
+  "source": "yahoo",
+  "firstDate": "2020-01-31",
+  "lastDate": "2026-07-06",
+  "records": 1614,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b201f8cb4899d36110ed6197e511fc8e0f395d83576e8f3c47a9b8a4b1b3984f",
+  "lastFullValidationAt": "2026-07-07T13:04:47Z",
+  "updatedAt": "2026-07-07T13:04:47Z"
 }

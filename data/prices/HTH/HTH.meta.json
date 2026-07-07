@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5628,
-  "updatedAt": "2026-07-04T17:14:44Z",
-  "source": "yahoo"
+  "ticker": "HTH",
+  "source": "yahoo",
+  "firstDate": "2004-02-19",
+  "lastDate": "2026-07-06",
+  "records": 5625,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-08",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:df82af5a481d3e6cfe11a2ac30674ae2c86d14eb9e8673ea2cfe1400f58c378c",
+  "priceDataHash": "sha256:55520fec5f844ef5ce8ac039aa63c5970f57fd3a47b3e69ee5d1acc5c64d9ad9",
+  "lastFullValidationAt": "2026-07-07T13:41:35Z",
+  "updatedAt": "2026-07-07T13:41:35Z"
 }

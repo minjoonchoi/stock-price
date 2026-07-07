@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10736,
-  "updatedAt": "2026-07-04T17:31:14Z",
-  "source": "yahoo"
+  "ticker": "VZ",
+  "source": "yahoo",
+  "firstDate": "1983-11-21",
+  "lastDate": "2026-07-06",
+  "records": 10691,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-10",
+  "lastSplitDate": "2010-07-02",
+  "corporateActionHash": "sha256:c813772a3c0d224c3d5e13d7de1844b802d998c96c22ff02709a435600b6fe82",
+  "priceDataHash": "sha256:3d1bb6413ce0f5916904ed6841909233eda4ba63dc308ed2cf950ac581ae7be4",
+  "lastFullValidationAt": "2026-07-07T14:32:47Z",
+  "updatedAt": "2026-07-07T14:32:47Z"
 }

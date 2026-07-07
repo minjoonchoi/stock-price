@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8698,
-  "updatedAt": "2026-07-04T17:24:18Z",
-  "source": "yahoo"
+  "ticker": "QCOM",
+  "source": "yahoo",
+  "firstDate": "1991-12-13",
+  "lastDate": "2026-07-06",
+  "records": 8668,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-05",
+  "lastSplitDate": "2004-08-16",
+  "corporateActionHash": "sha256:57c28814a590da64a04b8d11a7231062910e25ab467d275fea83218169df0e52",
+  "priceDataHash": "sha256:ac0fd438125e48a03f250a845736e7d56addb1a8a7ac881107a6935a7868ebd8",
+  "lastFullValidationAt": "2026-07-07T14:11:23Z",
+  "updatedAt": "2026-07-07T14:11:23Z"
 }

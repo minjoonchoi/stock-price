@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3909,
-  "updatedAt": "2026-07-04T17:07:42Z",
-  "source": "yahoo"
+  "ticker": "CPAY",
+  "source": "yahoo",
+  "firstDate": "2010-12-15",
+  "lastDate": "2026-07-06",
+  "records": 3910,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0e949979560239685a7f5969a53b7fa14a66b8e04219e0a031863824ee5742d2",
+  "lastFullValidationAt": "2026-07-07T13:19:19Z",
+  "updatedAt": "2026-07-07T13:19:19Z"
 }

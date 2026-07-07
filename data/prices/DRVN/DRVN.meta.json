@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1370,
-  "updatedAt": "2026-07-04T17:09:20Z",
-  "source": "yahoo"
+  "ticker": "DRVN",
+  "source": "yahoo",
+  "firstDate": "2021-01-19",
+  "lastDate": "2026-07-06",
+  "records": 1371,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:54854114283eb81df7b53d0dbb9f9f35afc700c0f5d7ee29badfb67f6604f94b",
+  "lastFullValidationAt": "2026-07-07T13:25:35Z",
+  "updatedAt": "2026-07-07T13:25:35Z"
 }

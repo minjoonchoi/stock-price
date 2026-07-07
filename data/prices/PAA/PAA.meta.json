@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6946,
-  "updatedAt": "2026-07-04T17:22:30Z",
-  "source": "yahoo"
+  "ticker": "PAA",
+  "source": "yahoo",
+  "firstDate": "1998-11-18",
+  "lastDate": "2026-07-06",
+  "records": 6922,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-01",
+  "lastSplitDate": "2012-10-02",
+  "corporateActionHash": "sha256:588ed3c9161abeb5fba70bba464aaf22f99db19edc3400a1dec0f2eba4e27f07",
+  "priceDataHash": "sha256:759991bf5f9c5aacb6c1336637da196ae87c490355be2c4358d10bd91eb190e0",
+  "lastFullValidationAt": "2026-07-07T14:05:19Z",
+  "updatedAt": "2026-07-07T14:05:19Z"
 }

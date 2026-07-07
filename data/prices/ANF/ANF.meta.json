@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7488,
-  "updatedAt": "2026-07-04T17:02:36Z",
-  "source": "yahoo"
+  "ticker": "ANF",
+  "source": "yahoo",
+  "firstDate": "1996-09-26",
+  "lastDate": "2026-07-06",
+  "records": 7473,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-03-05",
+  "lastSplitDate": "1999-06-16",
+  "corporateActionHash": "sha256:640927b5262e2372b166b07297629b339200d2d3244e0ed173b61dce17954be8",
+  "priceDataHash": "sha256:de8aa7dba2fd2fce10cf74bc3f54ae7c395ef5de278d7f7aca9943c640a25f7f",
+  "lastFullValidationAt": "2026-07-07T13:03:19Z",
+  "updatedAt": "2026-07-07T13:03:19Z"
 }

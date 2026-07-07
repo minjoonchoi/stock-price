@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2402,
-  "updatedAt": "2026-07-04T17:15:05Z",
-  "source": "yahoo"
+  "ticker": "ICHR",
+  "source": "yahoo",
+  "firstDate": "2016-12-09",
+  "lastDate": "2026-07-06",
+  "records": 2403,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b065e52d8e6a90a4f8847402590e7725567c8bfa96cb49186b29d400d70f7971",
+  "lastFullValidationAt": "2026-07-07T13:42:39Z",
+  "updatedAt": "2026-07-07T13:42:39Z"
 }

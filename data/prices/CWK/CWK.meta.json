@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1989,
-  "updatedAt": "2026-07-04T17:08:28Z",
-  "source": "yahoo"
+  "ticker": "CWK",
+  "source": "yahoo",
+  "firstDate": "2018-08-02",
+  "lastDate": "2026-07-06",
+  "records": 1990,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:fbcb168e49628b968ab34d0592630bfc598fcea021192297e70845ec02f8edec",
+  "lastFullValidationAt": "2026-07-07T13:22:11Z",
+  "updatedAt": "2026-07-07T13:22:11Z"
 }

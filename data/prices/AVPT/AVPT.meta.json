@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1672,
-  "updatedAt": "2026-07-04T17:03:34Z",
-  "source": "yahoo"
+  "ticker": "AVPT",
+  "source": "yahoo",
+  "firstDate": "2019-11-05",
+  "lastDate": "2026-07-06",
+  "records": 1673,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:da5112dc8a6a7304e02e2cbb1ff3bde5b182072479706d88cc09f096d8dedc55",
+  "lastFullValidationAt": "2026-07-07T13:06:31Z",
+  "updatedAt": "2026-07-07T13:06:31Z"
 }

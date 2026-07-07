@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2085,
-  "updatedAt": "2026-07-04T17:32:36Z",
-  "source": "yahoo"
+  "ticker": "ZS",
+  "source": "yahoo",
+  "firstDate": "2018-03-16",
+  "lastDate": "2026-07-06",
+  "records": 2086,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:f8688cb687d41a2825cd025c8a0ef2520b9ce9b79662929251547ea1dd7ba032",
+  "lastFullValidationAt": "2026-07-07T14:37:15Z",
+  "updatedAt": "2026-07-07T14:37:15Z"
 }

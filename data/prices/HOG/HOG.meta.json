@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10074,
-  "updatedAt": "2026-07-04T17:14:28Z",
-  "source": "yahoo"
+  "ticker": "HOG",
+  "source": "yahoo",
+  "firstDate": "1986-07-08",
+  "lastDate": "2026-07-06",
+  "records": 9975,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-08",
+  "lastSplitDate": "2000-04-10",
+  "corporateActionHash": "sha256:d783aad05b220f20e848dd54c7150f128fe59fa8cf5d01407b131d3a56a03245",
+  "priceDataHash": "sha256:e23eaa3e5bca00c041f5464cf232712c4ec81e330ce2ea89f74a3b89d05ece66",
+  "lastFullValidationAt": "2026-07-07T13:40:23Z",
+  "updatedAt": "2026-07-07T13:40:23Z"
 }

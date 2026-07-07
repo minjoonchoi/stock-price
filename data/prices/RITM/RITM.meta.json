@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3312,
-  "updatedAt": "2026-07-04T17:25:04Z",
-  "source": "yahoo"
+  "ticker": "RITM",
+  "source": "yahoo",
+  "firstDate": "2013-05-02",
+  "lastDate": "2026-07-06",
+  "records": 3299,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-02",
+  "lastSplitDate": "2014-10-20",
+  "corporateActionHash": "sha256:1e16b2686a6a9e98d6fade4f4359d8dd004ef2a51b98412808ecadef75836d48",
+  "priceDataHash": "sha256:8ee567c997d7193cccbacb6703fea41900cb31912275162d3ec11c8bed154cbf",
+  "lastFullValidationAt": "2026-07-07T14:13:39Z",
+  "updatedAt": "2026-07-07T14:13:39Z"
 }

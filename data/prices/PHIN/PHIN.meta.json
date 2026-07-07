@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 756,
-  "updatedAt": "2026-07-04T17:23:15Z",
-  "source": "yahoo"
+  "ticker": "PHIN",
+  "source": "yahoo",
+  "firstDate": "2023-06-28",
+  "lastDate": "2026-07-06",
+  "records": 757,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-09",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1cb0421af77aecd85b65aecc2c0a784def0f55c6c88064feb8df654c7782badd",
+  "priceDataHash": "sha256:407b18d0d5038f8d21016158140913cb2b4ac22c2edd35c320bde1d30486b85c",
+  "lastFullValidationAt": "2026-07-07T14:07:47Z",
+  "updatedAt": "2026-07-07T14:07:47Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7605,
-  "updatedAt": "2026-07-04T17:21:59Z",
-  "source": "yahoo"
+  "ticker": "OLED",
+  "source": "yahoo",
+  "firstDate": "1996-04-11",
+  "lastDate": "2026-07-06",
+  "records": 7606,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-16",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:93b05a13190759071e73013b3367906042616ea183a63144fffd87c038b6b2aa",
+  "priceDataHash": "sha256:e8e606a6df425e4e03d476200c217bd7dcb71f66a393eea75cce0ff8adce4b74",
+  "lastFullValidationAt": "2026-07-07T14:03:27Z",
+  "updatedAt": "2026-07-07T14:03:27Z"
 }

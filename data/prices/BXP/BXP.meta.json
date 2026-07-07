@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7305,
-  "updatedAt": "2026-07-04T17:05:47Z",
-  "source": "yahoo"
+  "ticker": "BXP",
+  "source": "yahoo",
+  "firstDate": "1997-06-18",
+  "lastDate": "2026-07-06",
+  "records": 7288,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:ca4a472706fc3ab62a0ed8c9479b8776825cee11745dfe1bf83843bd6764f968",
+  "priceDataHash": "sha256:95cfcbf4c89ffe7d9a7a042e12345b1f0e3999cbee5e30db84fb3b7152eeecf1",
+  "lastFullValidationAt": "2026-07-07T13:12:51Z",
+  "updatedAt": "2026-07-07T13:12:51Z"
 }

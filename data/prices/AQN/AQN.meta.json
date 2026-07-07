@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4152,
-  "updatedAt": "2026-07-04T17:02:52Z",
-  "source": "yahoo"
+  "ticker": "AQN",
+  "source": "yahoo",
+  "firstDate": "2009-12-29",
+  "lastDate": "2026-07-06",
+  "records": 4003,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:73f56f9daa2cc31c1446faa400e1014f86becafb59bc87a6453fec9aeae043d1",
+  "priceDataHash": "sha256:6339f4865c822358917bc847bbcd1c38ef8afae3fc2b025a84cd3ca1a3258c53",
+  "lastFullValidationAt": "2026-07-07T13:04:11Z",
+  "updatedAt": "2026-07-07T13:04:11Z"
 }

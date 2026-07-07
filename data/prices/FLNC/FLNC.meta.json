@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1173,
-  "updatedAt": "2026-07-04T17:11:34Z",
-  "source": "yahoo"
+  "ticker": "FLNC",
+  "source": "yahoo",
+  "firstDate": "2021-10-28",
+  "lastDate": "2026-07-06",
+  "records": 1174,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:26f02772e7daa565e27b20b7f53e5fbb01f524ee4befe566ee1d0a90a8778dd5",
+  "lastFullValidationAt": "2026-07-07T13:32:51Z",
+  "updatedAt": "2026-07-07T13:32:51Z"
 }

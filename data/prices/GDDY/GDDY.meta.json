@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2831,
-  "updatedAt": "2026-07-04T17:12:37Z",
-  "source": "yahoo"
+  "ticker": "GDDY",
+  "source": "yahoo",
+  "firstDate": "2015-03-31",
+  "lastDate": "2026-07-06",
+  "records": 2832,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:e3591e978ca8d2757833854481a1abb353b5559b3dcd83b5e61d73050cb39426",
+  "lastFullValidationAt": "2026-07-07T13:35:39Z",
+  "updatedAt": "2026-07-07T13:35:39Z"
 }

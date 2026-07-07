@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1406,
-  "updatedAt": "2026-07-04T17:25:06Z",
-  "source": "yahoo"
+  "ticker": "RKLB",
+  "source": "yahoo",
+  "firstDate": "2020-11-24",
+  "lastDate": "2026-07-06",
+  "records": 1407,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:c4909412e7598c5a395e800853372f593967db228382027c6c3bc54b6bbfa4bc",
+  "lastFullValidationAt": "2026-07-07T14:13:51Z",
+  "updatedAt": "2026-07-07T14:13:51Z"
 }

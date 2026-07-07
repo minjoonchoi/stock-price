@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3273,
-  "updatedAt": "2026-07-04T17:06:26Z",
-  "source": "yahoo"
+  "ticker": "CDW",
+  "source": "yahoo",
+  "firstDate": "2013-06-27",
+  "lastDate": "2026-07-06",
+  "records": 3274,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:720823490e6f25c1ce92ff7e5d72ab397cd8762200c3395dae44e5f1d4d258b9",
+  "priceDataHash": "sha256:9dcd48dac0af3afdfcbfbe44888b90710d2dd29dd2d93a7588750d74d753d691",
+  "lastFullValidationAt": "2026-07-07T13:15:03Z",
+  "updatedAt": "2026-07-07T13:15:03Z"
 }

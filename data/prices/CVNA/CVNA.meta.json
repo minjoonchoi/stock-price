@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2307,
-  "updatedAt": "2026-07-04T17:08:24Z",
-  "source": "yahoo"
+  "ticker": "CVNA",
+  "source": "yahoo",
+  "firstDate": "2017-04-28",
+  "lastDate": "2026-07-06",
+  "records": 2308,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-08",
+  "lastSplitDate": "2026-05-08",
+  "corporateActionHash": "sha256:fb2a7fd5835510ba547ccd6f4ac844c782bffab18811ef3d236d114b328670cf",
+  "priceDataHash": "sha256:5e1129ed8d705cb0807e9e7ec5f8783794761d2724b50dedc0092529f01c657b",
+  "lastFullValidationAt": "2026-07-07T13:21:47Z",
+  "updatedAt": "2026-07-07T13:21:47Z"
 }

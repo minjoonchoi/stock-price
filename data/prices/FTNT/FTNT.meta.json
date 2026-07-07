@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4179,
-  "updatedAt": "2026-07-04T17:12:12Z",
-  "source": "yahoo"
+  "ticker": "FTNT",
+  "source": "yahoo",
+  "firstDate": "2009-11-18",
+  "lastDate": "2026-07-06",
+  "records": 4180,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2022-06-23",
+  "lastSplitDate": "2022-06-23",
+  "corporateActionHash": "sha256:bc276f249dc0a7f013fce0904ccf38852ec0d8fedc089d1854e447937c951bb0",
+  "priceDataHash": "sha256:2aa00b4b5c4080f6a4bc3c3e2b57e518b81ed73e4f77768d90d8e91193ecf841",
+  "lastFullValidationAt": "2026-07-07T13:34:39Z",
+  "updatedAt": "2026-07-07T13:34:39Z"
 }

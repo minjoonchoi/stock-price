@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5437,
-  "updatedAt": "2026-07-04T17:19:35Z",
-  "source": "yahoo"
+  "ticker": "MPWR",
+  "source": "yahoo",
+  "firstDate": "2004-11-19",
+  "lastDate": "2026-07-06",
+  "records": 5438,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:59e1854a91c807f63156ff27e24e63720c147f9b405538c09c0a4fea6d8b3d92",
+  "priceDataHash": "sha256:93da14f85b3595e75967a2c6706f592acfdd4afe29e0afb2f4cfbfbe90a5b1f2",
+  "lastFullValidationAt": "2026-07-07T13:56:07Z",
+  "updatedAt": "2026-07-07T13:56:07Z"
 }

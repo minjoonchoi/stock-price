@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9128,
-  "updatedAt": "2026-07-04T17:30:43Z",
-  "source": "yahoo"
+  "ticker": "VICR",
+  "source": "yahoo",
+  "firstDate": "1990-04-03",
+  "lastDate": "2026-07-06",
+  "records": 9127,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2011-08-05",
+  "lastSplitDate": "1995-09-19",
+  "corporateActionHash": "sha256:e55089c472f4a5f1f6163fb106c14d00c5217aee5f94f2a723e5d1cea5d69798",
+  "priceDataHash": "sha256:150916abf72aaf2364010dd96baafc707e3cc788f0f7169db9a3c82e9225f4db",
+  "lastFullValidationAt": "2026-07-07T14:30:47Z",
+  "updatedAt": "2026-07-07T14:30:47Z"
 }

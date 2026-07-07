@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3620,
-  "updatedAt": "2026-07-04T17:10:23Z",
-  "source": "yahoo"
+  "ticker": "EPAM",
+  "source": "yahoo",
+  "firstDate": "2012-02-08",
+  "lastDate": "2026-07-06",
+  "records": 3621,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:c38a6655a26563b0596a89d3a5b32fa60f15d74364f0335e1d58a1c6ab22cea4",
+  "lastFullValidationAt": "2026-07-07T13:28:23Z",
+  "updatedAt": "2026-07-07T13:28:23Z"
 }

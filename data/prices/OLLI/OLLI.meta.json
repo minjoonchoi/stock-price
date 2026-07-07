@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2757,
-  "updatedAt": "2026-07-04T17:21:59Z",
-  "source": "yahoo"
+  "ticker": "OLLI",
+  "source": "yahoo",
+  "firstDate": "2015-07-16",
+  "lastDate": "2026-07-06",
+  "records": 2758,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:f203552c7ff7060bc26dea542ad502f0129b81b13d41c51d471e262766b68d11",
+  "lastFullValidationAt": "2026-07-07T14:03:31Z",
+  "updatedAt": "2026-07-07T14:03:31Z"
 }

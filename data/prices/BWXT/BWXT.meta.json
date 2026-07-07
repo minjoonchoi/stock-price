@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4004,
-  "updatedAt": "2026-07-04T17:05:45Z",
-  "source": "yahoo"
+  "ticker": "BWXT",
+  "source": "yahoo",
+  "firstDate": "2010-08-02",
+  "lastDate": "2026-07-06",
+  "records": 4005,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-19",
+  "lastSplitDate": "2015-07-01",
+  "corporateActionHash": "sha256:16fbbacc6f2401f851b80ee8ebc759eb24bb014d02648f9d7affeb7200a8627a",
+  "priceDataHash": "sha256:6f34f5316b83c3bb54417fc9da1bd5600080f2bc5fe93dffddac1fa59595f161",
+  "lastFullValidationAt": "2026-07-07T13:12:39Z",
+  "updatedAt": "2026-07-07T13:12:39Z"
 }

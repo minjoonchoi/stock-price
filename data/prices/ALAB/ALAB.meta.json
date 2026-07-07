@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 573,
-  "updatedAt": "2026-07-04T17:02:07Z",
-  "source": "yahoo"
+  "ticker": "ALAB",
+  "source": "yahoo",
+  "firstDate": "2024-03-20",
+  "lastDate": "2026-07-06",
+  "records": 574,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:010851f14a74a140be3c73ab77ff9b34a91104e3529b4f75e7fabf9d661d2db1",
+  "lastFullValidationAt": "2026-07-07T13:01:03Z",
+  "updatedAt": "2026-07-07T13:01:03Z"
 }

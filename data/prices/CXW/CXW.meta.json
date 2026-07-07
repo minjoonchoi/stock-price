@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7287,
-  "updatedAt": "2026-07-04T17:08:32Z",
-  "source": "yahoo"
+  "ticker": "CXW",
+  "source": "yahoo",
+  "firstDate": "1997-07-15",
+  "lastDate": "2026-07-06",
+  "records": 7268,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-03-31",
+  "lastSplitDate": "2007-07-09",
+  "corporateActionHash": "sha256:bb25db391e675c88e847f56e3f1d2fbaca36be736912c6fbf9715b5a29a935cc",
+  "priceDataHash": "sha256:062247913e8192280a3500f1a8b4f7a8f692807ff39dfb0aed58b8b66df54fbf",
+  "lastFullValidationAt": "2026-07-07T13:22:27Z",
+  "updatedAt": "2026-07-07T13:22:27Z"
 }

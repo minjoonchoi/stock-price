@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "INVH",
+  "source": "yahoo",
+  "firstDate": "2017-02-01",
+  "lastDate": "2026-07-06",
   "records": 2367,
-  "updatedAt": "2026-07-04T17:15:38Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:ee2c1135e20af68842dd9104cd551f3b82bf4a5f2c5464d81873d2f70838c996",
+  "priceDataHash": "sha256:2b73200fd6aace719e888edd7bd1b2444d2467e9ad13a7696676b64ed22b41ba",
+  "lastFullValidationAt": "2026-07-07T13:44:03Z",
+  "updatedAt": "2026-07-07T13:44:03Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5590,
-  "updatedAt": "2026-07-04T17:07:40Z",
-  "source": "yahoo"
+  "ticker": "CORT",
+  "source": "yahoo",
+  "firstDate": "2004-04-14",
+  "lastDate": "2026-07-06",
+  "records": 5591,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:25d118ceafa0e94e37f7f1cb74c4e73c245fa646c208f5325a5d9d22a11aa9bc",
+  "lastFullValidationAt": "2026-07-07T13:19:07Z",
+  "updatedAt": "2026-07-07T13:19:07Z"
 }

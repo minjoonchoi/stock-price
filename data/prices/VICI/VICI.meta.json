@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2136,
-  "updatedAt": "2026-07-04T17:30:43Z",
-  "source": "yahoo"
+  "ticker": "VICI",
+  "source": "yahoo",
+  "firstDate": "2018-01-02",
+  "lastDate": "2026-07-06",
+  "records": 2134,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:6bacb41a3c0205894da00b1fbc81054452202f984bfc6d474745d5436073d68f",
+  "priceDataHash": "sha256:d1a4109da03526f432943ae76bea0ba1553b4d27362e4d2fa34d07f0bff0782f",
+  "lastFullValidationAt": "2026-07-07T14:30:43Z",
+  "updatedAt": "2026-07-07T14:30:43Z"
 }

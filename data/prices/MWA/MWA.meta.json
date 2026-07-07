@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5056,
-  "updatedAt": "2026-07-04T17:20:05Z",
-  "source": "yahoo"
+  "ticker": "MWA",
+  "source": "yahoo",
+  "firstDate": "2006-05-26",
+  "lastDate": "2026-07-06",
+  "records": 5051,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-11",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:36479679b51fc3e2eea64049f156312c5901c3b394b662028c30a864c58f15c1",
+  "priceDataHash": "sha256:e9355529ab57ce0f0bba943d53db03973e7deadfa1eeafaa588ca689cf540f32",
+  "lastFullValidationAt": "2026-07-07T13:58:03Z",
+  "updatedAt": "2026-07-07T13:58:03Z"
 }

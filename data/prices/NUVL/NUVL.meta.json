@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1237,
-  "updatedAt": "2026-07-04T17:21:25Z",
-  "source": "yahoo"
+  "ticker": "NUVL",
+  "source": "yahoo",
+  "firstDate": "2021-07-29",
+  "lastDate": "2026-07-06",
+  "records": 1238,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d18dc0b050f8f91324e7df8f03237bac274778a4224e0e1d6682bc87ffc0e801",
+  "lastFullValidationAt": "2026-07-07T14:01:43Z",
+  "updatedAt": "2026-07-07T14:01:43Z"
 }

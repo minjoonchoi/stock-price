@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1483,
-  "updatedAt": "2026-07-04T17:25:07Z",
-  "source": "yahoo"
+  "ticker": "RKT",
+  "source": "yahoo",
+  "firstDate": "2020-08-06",
+  "lastDate": "2026-07-06",
+  "records": 1484,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2025-03-20",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1539ac0a57eb82120bf58e1d67f0865be946a8e7f06ed34a6c092e79660f6bc0",
+  "priceDataHash": "sha256:d3d6413ae44394dd43149457569e2866f3a14195d2062dc95e9d34fb49664001",
+  "lastFullValidationAt": "2026-07-07T14:13:55Z",
+  "updatedAt": "2026-07-07T14:13:55Z"
 }

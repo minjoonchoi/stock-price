@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:20:00Z",
-  "source": "yahoo"
+  "ticker": "MTZ",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13455,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2000-06-20",
+  "lastSplitDate": "2000-06-20",
+  "corporateActionHash": "sha256:bc92fb01e6d8abee4fb448533c1a97b8c775f0f138a51bbb6231949437fd8ee7",
+  "priceDataHash": "sha256:64c6756b5f507a5f11ef4ef4ef6766372487de9c0bd5d55efda14a9ab04c1642",
+  "lastFullValidationAt": "2026-07-07T13:57:47Z",
+  "updatedAt": "2026-07-07T13:57:47Z"
 }

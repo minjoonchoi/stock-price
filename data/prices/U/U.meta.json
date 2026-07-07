@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1453,
-  "updatedAt": "2026-07-04T17:29:51Z",
-  "source": "yahoo"
+  "ticker": "U",
+  "source": "yahoo",
+  "firstDate": "2020-09-18",
+  "lastDate": "2026-07-06",
+  "records": 1454,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0da451309d32c2e123ec5582ffe0427dd7fbf3449d24fae4c5000de715a6ad3c",
+  "lastFullValidationAt": "2026-07-07T14:27:43Z",
+  "updatedAt": "2026-07-07T14:27:43Z"
 }

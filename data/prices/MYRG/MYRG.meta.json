@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4499,
-  "updatedAt": "2026-07-04T17:20:10Z",
-  "source": "yahoo"
+  "ticker": "MYRG",
+  "source": "yahoo",
+  "firstDate": "2008-08-13",
+  "lastDate": "2026-07-06",
+  "records": 4500,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:292d2ab4649c512d4bee58ab0ec262a50b872b82827221417cdda9ce781f897f",
+  "lastFullValidationAt": "2026-07-07T13:58:15Z",
+  "updatedAt": "2026-07-07T13:58:15Z"
 }

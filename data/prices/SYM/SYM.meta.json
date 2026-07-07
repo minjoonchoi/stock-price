@@ -1,0 +1,15 @@
+{
+  "ticker": "SYM",
+  "source": "yahoo",
+  "firstDate": "2021-03-09",
+  "lastDate": "2026-07-06",
+  "records": 1337,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a689988bed5ccedc4dfe1c2a92eafed77f8f8ac4b4d6a2c63cb3584731cbde84",
+  "lastFullValidationAt": "2026-07-07T14:22:55Z",
+  "updatedAt": "2026-07-07T14:22:55Z"
+}

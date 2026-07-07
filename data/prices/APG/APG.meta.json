@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1552,
-  "updatedAt": "2026-07-04T17:02:46Z",
-  "source": "yahoo"
+  "ticker": "APG",
+  "source": "yahoo",
+  "firstDate": "2020-04-29",
+  "lastDate": "2026-07-06",
+  "records": 1553,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2025-07-01",
+  "lastSplitDate": "2025-07-01",
+  "corporateActionHash": "sha256:2fa679eeae64cf34ab1cd25f00a4ff6a80d8d7d4ec526c52e551e356669fb8a7",
+  "priceDataHash": "sha256:d439521f46cb693ecad7928fce7b9345eb75fc6a8fd2384d81b093525d53ced8",
+  "lastFullValidationAt": "2026-07-07T13:03:39Z",
+  "updatedAt": "2026-07-07T13:03:39Z"
 }

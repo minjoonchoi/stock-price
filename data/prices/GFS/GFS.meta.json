@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1173,
-  "updatedAt": "2026-07-04T17:12:50Z",
-  "source": "yahoo"
+  "ticker": "GFS",
+  "source": "yahoo",
+  "firstDate": "2021-10-28",
+  "lastDate": "2026-07-06",
+  "records": 1174,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-24",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:0b0839854ac63113def4277f098c828c44fe29400a2c1d3299a1824da8c2dec4",
+  "priceDataHash": "sha256:06ab9396233ef5a3ff32d3a4e72d8c77f8da202e89f7b3cbb8dfbe1aa216b36b",
+  "lastFullValidationAt": "2026-07-07T13:36:11Z",
+  "updatedAt": "2026-07-07T13:36:11Z"
 }

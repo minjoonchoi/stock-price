@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:23:15Z",
-  "source": "yahoo"
+  "ticker": "PHM",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11639,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-16",
+  "lastSplitDate": "2005-09-02",
+  "corporateActionHash": "sha256:93ce35d75e6ad602ea48ad145b4ab063547695af3c011991850951caa775b493",
+  "priceDataHash": "sha256:f893ac6919ec9adc5ddf8bfdfb353892279551198ff06ea34d52ee674a93150a",
+  "lastFullValidationAt": "2026-07-07T14:07:51Z",
+  "updatedAt": "2026-07-07T14:07:51Z"
 }

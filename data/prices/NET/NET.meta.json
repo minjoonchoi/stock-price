@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1709,
-  "updatedAt": "2026-07-04T17:20:31Z",
-  "source": "yahoo"
+  "ticker": "NET",
+  "source": "yahoo",
+  "firstDate": "2019-09-13",
+  "lastDate": "2026-07-06",
+  "records": 1710,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:5387862efa5706ed22f5c7d7ef5cb935f39dbaf80d3cf4bb777fee2b2630494f",
+  "lastFullValidationAt": "2026-07-07T13:59:11Z",
+  "updatedAt": "2026-07-07T13:59:11Z"
 }

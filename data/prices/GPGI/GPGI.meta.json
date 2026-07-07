@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1409,
-  "updatedAt": "2026-07-04T17:13:26Z",
-  "source": "yahoo"
+  "ticker": "GPGI",
+  "source": "yahoo",
+  "firstDate": "2020-11-19",
+  "lastDate": "2026-07-06",
+  "records": 1410,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "2025-02-28",
+  "corporateActionHash": "sha256:f19f1d9af9e8428a1ce0d732f4d6e452f3ff5d5ef1ec4d9a48dc3f1f83ca45fa",
+  "priceDataHash": "sha256:76a1a566b921e4d960d853161a027e3a830fbef773e88b13bf8eaf9845f9e978",
+  "lastFullValidationAt": "2026-07-07T13:37:27Z",
+  "updatedAt": "2026-07-07T13:37:27Z"
 }

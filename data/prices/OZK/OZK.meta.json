@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7285,
-  "updatedAt": "2026-07-04T17:22:29Z",
-  "source": "yahoo"
+  "ticker": "OZK",
+  "source": "yahoo",
+  "firstDate": "1997-07-17",
+  "lastDate": "2026-07-06",
+  "records": 7194,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-13",
+  "lastSplitDate": "2014-06-24",
+  "corporateActionHash": "sha256:3ddf57366c213572b2a67a9a54e7a4245f29332ea1f0330587ddefd43794dfe2",
+  "priceDataHash": "sha256:c3323e6d1e77c3e82c3e87a262fe8eaa18c60f391ee384bf7fc614614b1348ef",
+  "lastFullValidationAt": "2026-07-07T14:05:11Z",
+  "updatedAt": "2026-07-07T14:05:11Z"
 }

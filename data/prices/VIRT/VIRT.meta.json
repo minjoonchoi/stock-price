@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2820,
-  "updatedAt": "2026-07-04T17:30:45Z",
-  "source": "yahoo"
+  "ticker": "VIRT",
+  "source": "yahoo",
+  "firstDate": "2015-04-16",
+  "lastDate": "2026-07-06",
+  "records": 2821,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-02-27",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:0cfcde071dc807e69058c9a970dc02d47bb67974b048fc0c23fd91171f081036",
+  "priceDataHash": "sha256:71eec9a2dc451ff8d70fc0e5bc426fbad72f2d000585203ec04cd1e750fbc415",
+  "lastFullValidationAt": "2026-07-07T14:30:55Z",
+  "updatedAt": "2026-07-07T14:30:55Z"
 }

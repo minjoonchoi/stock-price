@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3156,
-  "updatedAt": "2026-07-04T17:03:00Z",
-  "source": "yahoo"
+  "ticker": "ARMK",
+  "source": "yahoo",
+  "firstDate": "2013-12-12",
+  "lastDate": "2026-07-06",
+  "records": 3157,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-20",
+  "lastSplitDate": "2023-10-02",
+  "corporateActionHash": "sha256:b8b047554d6007a7a4ffed48afeb4c23e6d90201d1e861feea386cc1ee04226a",
+  "priceDataHash": "sha256:b02dfb11c76efe44f9a0c2ae3a8be6c0b7e02c252439240fa60544d49b54cfe1",
+  "lastFullValidationAt": "2026-07-07T13:04:39Z",
+  "updatedAt": "2026-07-07T13:04:39Z"
 }

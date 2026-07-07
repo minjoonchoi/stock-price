@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:07:45Z",
-  "source": "yahoo"
+  "ticker": "CPK",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11396,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "2014-09-09",
+  "corporateActionHash": "sha256:2211942df3346de226a7701d7454dae9d1216d29cc99f249a0f3ab41e780cab9",
+  "priceDataHash": "sha256:0db6e680a3a3ae9bb6ed436eaf76074d3617e28e286770e93c29b1044df7e7b1",
+  "lastFullValidationAt": "2026-07-07T13:19:23Z",
+  "updatedAt": "2026-07-07T13:19:23Z"
 }

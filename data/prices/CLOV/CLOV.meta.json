@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1521,
-  "updatedAt": "2026-07-04T17:07:04Z",
-  "source": "yahoo"
+  "ticker": "CLOV",
+  "source": "yahoo",
+  "firstDate": "2020-06-12",
+  "lastDate": "2026-07-06",
+  "records": 1522,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:919ebd963ffcf73ef570fed1d3df605d6f625722e39dea9788e8e53c388c1941",
+  "lastFullValidationAt": "2026-07-07T13:17:11Z",
+  "updatedAt": "2026-07-07T13:17:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7398,
-  "updatedAt": "2026-07-04T17:19:56Z",
-  "source": "yahoo"
+  "ticker": "MTN",
+  "source": "yahoo",
+  "firstDate": "1997-02-04",
+  "lastDate": "2026-07-06",
+  "records": 7363,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:eac03c3653748afaa66444edc587afeeb5831ab369a427a3c716279b0e9ade0d",
+  "priceDataHash": "sha256:851e71cb68f2c442663169e4cfef291f804f5ffb19be638e94acbee7f715df42",
+  "lastFullValidationAt": "2026-07-07T13:57:31Z",
+  "updatedAt": "2026-07-07T13:57:31Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3435,
-  "updatedAt": "2026-07-04T17:24:59Z",
-  "source": "yahoo"
+  "ticker": "RH",
+  "source": "yahoo",
+  "firstDate": "2012-11-02",
+  "lastDate": "2026-07-06",
+  "records": 3436,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:614ba5f9c1bd9197a9f5d82ce0631ed43daa0974d3f52d79fcc38c55d2d48622",
+  "lastFullValidationAt": "2026-07-07T14:13:27Z",
+  "updatedAt": "2026-07-07T14:13:27Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1301,
-  "updatedAt": "2026-07-04T17:23:58Z",
-  "source": "yahoo"
+  "ticker": "PRVA",
+  "source": "yahoo",
+  "firstDate": "2021-04-28",
+  "lastDate": "2026-07-06",
+  "records": 1302,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:53c6d0402c322feb6e3f7872cbd6a21a687e2eae6a98ba108af5abd4e37413c6",
+  "lastFullValidationAt": "2026-07-07T14:10:15Z",
+  "updatedAt": "2026-07-07T14:10:15Z"
 }

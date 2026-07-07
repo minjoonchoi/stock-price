@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1445,
-  "updatedAt": "2026-07-04T17:23:27Z",
-  "source": "yahoo"
+  "ticker": "PLTR",
+  "source": "yahoo",
+  "firstDate": "2020-09-30",
+  "lastDate": "2026-07-06",
+  "records": 1446,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b4704f71ed86c42d3e1f3a85a8ee0765483cab69472b545328e2f36eaa179dff",
+  "lastFullValidationAt": "2026-07-07T14:08:43Z",
+  "updatedAt": "2026-07-07T14:08:43Z"
 }

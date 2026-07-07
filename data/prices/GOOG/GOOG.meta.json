@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5502,
-  "updatedAt": "2026-07-04T17:13:23Z",
-  "source": "yahoo"
+  "ticker": "GOOG",
+  "source": "yahoo",
+  "firstDate": "2004-08-19",
+  "lastDate": "2026-07-06",
+  "records": 5503,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-08",
+  "lastSplitDate": "2022-07-18",
+  "corporateActionHash": "sha256:eb4d98da9dc776c0555dcf4278b67c4f957f337e0e8ae0bdaa8fa772042cbaf2",
+  "priceDataHash": "sha256:730af1f2cf3ef8e38eb34744a49d5fe11a7d4609aca3c3966fdc546c01a1df88",
+  "lastFullValidationAt": "2026-07-07T13:37:11Z",
+  "updatedAt": "2026-07-07T13:37:11Z"
 }

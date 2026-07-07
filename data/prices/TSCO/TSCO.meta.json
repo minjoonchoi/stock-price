@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8146,
-  "updatedAt": "2026-07-04T17:29:32Z",
-  "source": "yahoo"
+  "ticker": "TSCO",
+  "source": "yahoo",
+  "firstDate": "1994-02-17",
+  "lastDate": "2026-07-06",
+  "records": 8097,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-27",
+  "lastSplitDate": "2024-12-20",
+  "corporateActionHash": "sha256:6377f9bd7c54894174ce41bb7b4565b2c905daa7e0be97f22272c6d7b433c064",
+  "priceDataHash": "sha256:4fa4f9d99280d3c27119bdae90932deab6589bddfc8dc06680232137488934f4",
+  "lastFullValidationAt": "2026-07-07T14:26:28Z",
+  "updatedAt": "2026-07-07T14:26:28Z"
 }

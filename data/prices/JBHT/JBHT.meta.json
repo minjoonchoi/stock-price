@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10735,
-  "updatedAt": "2026-07-04T17:16:04Z",
-  "source": "yahoo"
+  "ticker": "JBHT",
+  "source": "yahoo",
+  "firstDate": "1983-11-22",
+  "lastDate": "2026-07-06",
+  "records": 10682,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-08",
+  "lastSplitDate": "2005-05-24",
+  "corporateActionHash": "sha256:67164aef9571cfe2be374c254edf509a2b85b66b03d28670b4359333869f0a8d",
+  "priceDataHash": "sha256:974fda1e0b7a7688919728f49cbf8d475f30fea6ce95c682dea3e9f5639f307c",
+  "lastFullValidationAt": "2026-07-07T13:45:35Z",
+  "updatedAt": "2026-07-07T13:45:35Z"
 }

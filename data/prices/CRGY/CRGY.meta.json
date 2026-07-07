@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1145,
-  "updatedAt": "2026-07-04T17:07:56Z",
-  "source": "yahoo"
+  "ticker": "CRGY",
+  "source": "yahoo",
+  "firstDate": "2021-12-08",
+  "lastDate": "2026-07-06",
+  "records": 1146,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:d823955e70fcc444e949fab9249fcf8bf90a83240085512730b2985ff5760148",
+  "priceDataHash": "sha256:e5d4971302f897bd7d4913f9851435df1bcac79a57b4ae1a9879ebe2071adda5",
+  "lastFullValidationAt": "2026-07-07T13:20:03Z",
+  "updatedAt": "2026-07-07T13:20:03Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "BDC",
+  "source": "yahoo",
+  "firstDate": "1993-11-24",
+  "lastDate": "2026-07-06",
   "records": 8205,
-  "updatedAt": "2026-07-04T17:04:15Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-16",
+  "lastSplitDate": "2004-07-16",
+  "corporateActionHash": "sha256:dbd9a0b61217e912d7e9b7e264468eff86930bc3d3179618a15592582f18877a",
+  "priceDataHash": "sha256:19864017191475308c8a59f1e4a80efbc2cf1534010c4395cb2fca2b34ad572b",
+  "lastFullValidationAt": "2026-07-07T13:08:47Z",
+  "updatedAt": "2026-07-07T13:08:47Z"
 }

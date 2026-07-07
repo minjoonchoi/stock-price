@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4851,
-  "updatedAt": "2026-07-04T17:05:17Z",
-  "source": "yahoo"
+  "ticker": "BR",
+  "source": "yahoo",
+  "firstDate": "2007-03-22",
+  "lastDate": "2026-07-06",
+  "records": 4844,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-12",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:00e439f70021a679fca53093bfe8805105950f13ddedaa0402fd0a961eeb7cc2",
+  "priceDataHash": "sha256:2efda6ea1334587d6d1b32d03b58bdb4fb5a5ba77019bc9d967dc23ae101c79c",
+  "lastFullValidationAt": "2026-07-07T13:11:31Z",
+  "updatedAt": "2026-07-07T13:11:31Z"
 }

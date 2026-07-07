@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10286,
-  "updatedAt": "2026-07-04T17:12:16Z",
-  "source": "yahoo"
+  "ticker": "FULT",
+  "source": "yahoo",
+  "firstDate": "1985-09-03",
+  "lastDate": "2026-07-06",
+  "records": 9993,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-01",
+  "lastSplitDate": "2006-05-17",
+  "corporateActionHash": "sha256:4733035c5f69c32ccbed83c3e4083e3598faa1409a3f57d13ff6cd52338928a9",
+  "priceDataHash": "sha256:c0ca2f5adb549fe55cb10f1c8133962b6c1f0708446058e9341b653c46956a00",
+  "lastFullValidationAt": "2026-07-07T13:34:55Z",
+  "updatedAt": "2026-07-07T13:34:55Z"
 }

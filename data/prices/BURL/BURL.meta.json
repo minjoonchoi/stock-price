@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3206,
-  "updatedAt": "2026-07-04T17:05:39Z",
-  "source": "yahoo"
+  "ticker": "BURL",
+  "source": "yahoo",
+  "firstDate": "2013-10-02",
+  "lastDate": "2026-07-06",
+  "records": 3207,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b8312c2c04846824b756c5ba582b60145343778870030a34cc72a8b6c3c21d61",
+  "lastFullValidationAt": "2026-07-07T13:12:23Z",
+  "updatedAt": "2026-07-07T13:12:23Z"
 }

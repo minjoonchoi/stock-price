@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6776,
-  "updatedAt": "2026-07-04T17:05:03Z",
-  "source": "yahoo"
+  "ticker": "BMRN",
+  "source": "yahoo",
+  "firstDate": "1999-07-26",
+  "lastDate": "2026-07-06",
+  "records": 6777,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:9c51c8e4ee3324d55de3b34374023e991472ebe1fd0340168ff71a2c97975fa4",
+  "lastFullValidationAt": "2026-07-07T13:10:55Z",
+  "updatedAt": "2026-07-07T13:10:55Z"
 }

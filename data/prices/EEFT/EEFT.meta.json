@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7376,
-  "updatedAt": "2026-07-04T17:09:50Z",
-  "source": "yahoo"
+  "ticker": "EEFT",
+  "source": "yahoo",
+  "firstDate": "1997-03-07",
+  "lastDate": "2026-07-06",
+  "records": 7377,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:dc853b15d75159b8735c177b7dad7b1970b39eaba4ab39ffa2510e4d8b1c2829",
+  "lastFullValidationAt": "2026-07-07T13:26:59Z",
+  "updatedAt": "2026-07-07T13:26:59Z"
 }

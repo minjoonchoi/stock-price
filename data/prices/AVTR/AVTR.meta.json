@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1791,
-  "updatedAt": "2026-07-04T17:03:35Z",
-  "source": "yahoo"
+  "ticker": "AVTR",
+  "source": "yahoo",
+  "firstDate": "2019-05-17",
+  "lastDate": "2026-07-06",
+  "records": 1792,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:56c8878667e50feb8297950bfc4917f1c29d0e37cb758f5e9fd97dc5a3809722",
+  "lastFullValidationAt": "2026-07-07T13:06:39Z",
+  "updatedAt": "2026-07-07T13:06:39Z"
 }

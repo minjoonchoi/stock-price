@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:14:37Z",
-  "source": "yahoo"
+  "ticker": "HRB",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13208,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-04",
+  "lastSplitDate": "2005-08-23",
+  "corporateActionHash": "sha256:2e2f2d6fccb0fad012c7efc9e36d46617a508f2726a374102f9142e6290bd47f",
+  "priceDataHash": "sha256:e0c7b00a60f2ed5203715cd558128e7f69e87ebc0ab26fa851363956aa73ee85",
+  "lastFullValidationAt": "2026-07-07T13:40:59Z",
+  "updatedAt": "2026-07-07T13:40:59Z"
 }

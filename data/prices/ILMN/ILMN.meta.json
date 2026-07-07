@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6520,
-  "updatedAt": "2026-07-04T17:15:22Z",
-  "source": "yahoo"
+  "ticker": "ILMN",
+  "source": "yahoo",
+  "firstDate": "2000-07-28",
+  "lastDate": "2026-07-06",
+  "records": 6521,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2024-06-25",
+  "lastSplitDate": "2024-06-25",
+  "corporateActionHash": "sha256:305a19f61e72210e0fa7d2e9337d90a7b19f66094c39a1cc228a995b5d0c3dd0",
+  "priceDataHash": "sha256:8a108c263d15b0417d500e098700304945c2dca0bc5da2b0160d6d8e8efffc59",
+  "lastFullValidationAt": "2026-07-07T13:43:15Z",
+  "updatedAt": "2026-07-07T13:43:15Z"
 }

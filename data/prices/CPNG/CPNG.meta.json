@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1334,
-  "updatedAt": "2026-07-04T17:07:46Z",
-  "source": "yahoo"
+  "ticker": "CPNG",
+  "source": "yahoo",
+  "firstDate": "2021-03-11",
+  "lastDate": "2026-07-06",
+  "records": 1335,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:c183e5a1a1bc4e923e55a4e46f9d88c7eb2f19349dad98bf8159e1b98123cbb2",
+  "lastFullValidationAt": "2026-07-07T13:19:27Z",
+  "updatedAt": "2026-07-07T13:19:27Z"
 }

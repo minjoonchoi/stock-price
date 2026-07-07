@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3448,
-  "updatedAt": "2026-07-04T17:31:22Z",
-  "source": "yahoo"
+  "ticker": "WDAY",
+  "source": "yahoo",
+  "firstDate": "2012-10-12",
+  "lastDate": "2026-07-06",
+  "records": 3449,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:1786de3a8bf5cbedfb9722ce2afb6fc0835a5c41e2c24f6c3cda2323695c2bfb",
+  "lastFullValidationAt": "2026-07-07T14:33:23Z",
+  "updatedAt": "2026-07-07T14:33:23Z"
 }

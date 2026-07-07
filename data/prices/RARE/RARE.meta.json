@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3123,
-  "updatedAt": "2026-07-04T17:24:33Z",
-  "source": "yahoo"
+  "ticker": "RARE",
+  "source": "yahoo",
+  "firstDate": "2014-01-31",
+  "lastDate": "2026-07-06",
+  "records": 3124,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:687a7908bce2733a443b07f58554fcc229db483a9adcfbb87518b55f8af436d2",
+  "lastFullValidationAt": "2026-07-07T14:12:03Z",
+  "updatedAt": "2026-07-07T14:12:03Z"
 }

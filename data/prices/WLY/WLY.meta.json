@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13634,
-  "updatedAt": "2026-07-04T17:31:42Z",
-  "source": "yahoo"
+  "ticker": "WLY",
+  "source": "yahoo",
+  "firstDate": "1972-06-01",
+  "lastDate": "2026-07-06",
+  "records": 13278,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-07",
+  "lastSplitDate": "1999-06-01",
+  "corporateActionHash": "sha256:b9e7cd3669fd3ea912218ba29ef3ccdda5cfbc08c6691bccb65cb3536a5dca1b",
+  "priceDataHash": "sha256:ea5691f1550c38f17e2c09495ad094c3afe8376134e408f5cbad5a7d5936f7d1",
+  "lastFullValidationAt": "2026-07-07T14:34:28Z",
+  "updatedAt": "2026-07-07T14:34:28Z"
 }

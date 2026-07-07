@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6549,
-  "updatedAt": "2026-07-04T17:15:52Z",
-  "source": "yahoo"
+  "ticker": "ISRG",
+  "source": "yahoo",
+  "firstDate": "2000-06-16",
+  "lastDate": "2026-07-06",
+  "records": 6550,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2021-10-05",
+  "lastSplitDate": "2021-10-05",
+  "corporateActionHash": "sha256:4b9dade2744ca55c82630ad756d24ba490eec93f1e08b94ca2847726fb1804e7",
+  "priceDataHash": "sha256:dbc9dd59de63d3e62cfc23007211669a39de878c3eb0424eb149bd3693209eae",
+  "lastFullValidationAt": "2026-07-07T13:45:03Z",
+  "updatedAt": "2026-07-07T13:45:03Z"
 }

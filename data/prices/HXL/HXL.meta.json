@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:14:54Z",
-  "source": "yahoo"
+  "ticker": "HXL",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11642,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-04",
+  "lastSplitDate": "1988-05-23",
+  "corporateActionHash": "sha256:209e9207e4217648bfcd3b8d11334621f0abbe9750355a958fed50b4f3616be5",
+  "priceDataHash": "sha256:f0a442621b097f1c551582269647c14efdf9a7ab13c7741985de2830b46b82f2",
+  "lastFullValidationAt": "2026-07-07T13:42:15Z",
+  "updatedAt": "2026-07-07T13:42:15Z"
 }

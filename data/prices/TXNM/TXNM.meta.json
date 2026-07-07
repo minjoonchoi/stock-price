@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:29:48Z",
-  "source": "yahoo"
+  "ticker": "TXNM",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13396,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-27",
+  "lastSplitDate": "2004-06-14",
+  "corporateActionHash": "sha256:b3bcd3efacc2166c386f22a823a8005e02a644d4502a7829199b485534d6b859",
+  "priceDataHash": "sha256:bf882124a706111a3cbf3c5b50f5609f30d7f27c5e68a9e570d07e45c7551821",
+  "lastFullValidationAt": "2026-07-07T14:27:27Z",
+  "updatedAt": "2026-07-07T14:27:27Z"
 }

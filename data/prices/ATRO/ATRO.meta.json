@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:03:24Z",
-  "source": "yahoo"
+  "ticker": "ATRO",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11589,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "2026-06-15",
+  "corporateActionHash": "sha256:d9a978a26d260b4eaadac69bf1690aff70210d7c8f2e04bc9d1e519645068d20",
+  "priceDataHash": "sha256:070b244bd804ecfc8a4d88c87491c0d8b0f2981c7513ec5bb292bfc364827791",
+  "lastFullValidationAt": "2026-07-07T13:05:55Z",
+  "updatedAt": "2026-07-07T13:05:55Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 922,
-  "updatedAt": "2026-07-04T17:25:37Z",
-  "source": "yahoo"
+  "ticker": "RXO",
+  "source": "yahoo",
+  "firstDate": "2022-10-27",
+  "lastDate": "2026-07-06",
+  "records": 923,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:90f01b30fc43e9ec63cbee0d5895f596c41256100ec787328ec6431c3fd3d59d",
+  "lastFullValidationAt": "2026-07-07T14:15:59Z",
+  "updatedAt": "2026-07-07T14:15:59Z"
 }

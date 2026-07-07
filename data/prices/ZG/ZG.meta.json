@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3760,
-  "updatedAt": "2026-07-04T17:32:30Z",
-  "source": "yahoo"
+  "ticker": "ZG",
+  "source": "yahoo",
+  "firstDate": "2011-07-20",
+  "lastDate": "2026-07-06",
+  "records": 3761,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2015-08-17",
+  "lastSplitDate": "2015-08-17",
+  "corporateActionHash": "sha256:0e4d9a6990c6556e978df33b636125454d65ba2be9d23904b5c3086f0d0e4791",
+  "priceDataHash": "sha256:bc5409eb397d8b4ff33efa8cf76ce20fa94b750dfa9ccaa28c72e2df13263d60",
+  "lastFullValidationAt": "2026-07-07T14:37:03Z",
+  "updatedAt": "2026-07-07T14:37:03Z"
 }

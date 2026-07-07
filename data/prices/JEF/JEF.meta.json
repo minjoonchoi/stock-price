@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:16:08Z",
-  "source": "yahoo"
+  "ticker": "JEF",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11582,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "2023-01-17",
+  "corporateActionHash": "sha256:6c84eb0448b480aded77ea5c5dfb6057b13204c69310292127aa6f0d888257c6",
+  "priceDataHash": "sha256:708cdceafeefcde6b5760d43922a1d1b5e4c45489226da5133a70651e232153e",
+  "lastFullValidationAt": "2026-07-07T13:45:47Z",
+  "updatedAt": "2026-07-07T13:45:47Z"
 }

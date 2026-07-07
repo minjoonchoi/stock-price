@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1117,
-  "updatedAt": "2026-07-04T17:06:28Z",
-  "source": "yahoo"
+  "ticker": "CEG",
+  "source": "yahoo",
+  "firstDate": "2022-01-19",
+  "lastDate": "2026-07-06",
+  "records": 1118,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:466387a5afae71541f0d61ea259c1172af4c8de6e15a5d990ab1db84cb7d8f58",
+  "priceDataHash": "sha256:6f87508f0e14752bd9cf4b111118dac9af7e39221d0b79a196e1ead8d8453f33",
+  "lastFullValidationAt": "2026-07-07T13:15:15Z",
+  "updatedAt": "2026-07-07T13:15:15Z"
 }

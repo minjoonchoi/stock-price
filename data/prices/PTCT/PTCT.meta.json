@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3278,
-  "updatedAt": "2026-07-04T17:24:08Z",
-  "source": "yahoo"
+  "ticker": "PTCT",
+  "source": "yahoo",
+  "firstDate": "2013-06-20",
+  "lastDate": "2026-07-06",
+  "records": 3279,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b8aa36f3bf93e8633fd512f6bb4a8de45fd33a6ef9cbd5c343b2c8351ff766a9",
+  "lastFullValidationAt": "2026-07-07T14:10:39Z",
+  "updatedAt": "2026-07-07T14:10:39Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13634,
-  "updatedAt": "2026-07-04T17:14:46Z",
-  "source": "yahoo"
+  "ticker": "HTO",
+  "source": "yahoo",
+  "firstDate": "1972-06-01",
+  "lastDate": "2026-07-06",
+  "records": 12959,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-11",
+  "lastSplitDate": "2006-03-17",
+  "corporateActionHash": "sha256:33743cd08340179be4c83328db357194ab7a85c1ea0c4709f39336f9b26544a8",
+  "priceDataHash": "sha256:8f6c81c51f134bda9332a3fdfdf0684990b6880927e823a83cf762d012277ff3",
+  "lastFullValidationAt": "2026-07-07T13:41:39Z",
+  "updatedAt": "2026-07-07T13:41:39Z"
 }

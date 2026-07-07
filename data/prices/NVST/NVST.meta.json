@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1706,
-  "updatedAt": "2026-07-04T17:21:30Z",
-  "source": "yahoo"
+  "ticker": "NVST",
+  "source": "yahoo",
+  "firstDate": "2019-09-18",
+  "lastDate": "2026-07-06",
+  "records": 1707,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:140659abdcde2d493f96b60a2de76b8792b5168afb216dde70a9e19e74bf1fcd",
+  "lastFullValidationAt": "2026-07-07T14:01:55Z",
+  "updatedAt": "2026-07-07T14:01:55Z"
 }

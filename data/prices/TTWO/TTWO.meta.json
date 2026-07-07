@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7350,
-  "updatedAt": "2026-07-04T17:29:39Z",
-  "source": "yahoo"
+  "ticker": "TTWO",
+  "source": "yahoo",
+  "firstDate": "1997-04-15",
+  "lastDate": "2026-07-06",
+  "records": 7351,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2008-09-25",
+  "lastSplitDate": "2005-04-12",
+  "corporateActionHash": "sha256:8e2056ddf1ca2d56272345c462d0765dec4e5c988e8e462a55a7cdc2ea88c558",
+  "priceDataHash": "sha256:c9801211a2285974446cae8aa01705b94a24eea413845df064d987fa23e5c13d",
+  "lastFullValidationAt": "2026-07-07T14:26:59Z",
+  "updatedAt": "2026-07-07T14:26:59Z"
 }

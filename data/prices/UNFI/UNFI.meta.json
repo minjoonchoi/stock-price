@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7462,
-  "updatedAt": "2026-07-04T17:30:09Z",
-  "source": "yahoo"
+  "ticker": "UNFI",
+  "source": "yahoo",
+  "firstDate": "1996-11-01",
+  "lastDate": "2026-07-06",
+  "records": 7463,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2004-04-20",
+  "lastSplitDate": "2004-04-20",
+  "corporateActionHash": "sha256:295a1059b860d733e90ab91c0e424f657f5c638698a91404fc017111c90809ee",
+  "priceDataHash": "sha256:abb2dbe8a5949344644b329f547c8a1c9eeee3e36c28bfbb50005f28f0286a76",
+  "lastFullValidationAt": "2026-07-07T14:28:43Z",
+  "updatedAt": "2026-07-07T14:28:43Z"
 }

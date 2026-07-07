@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2812,
-  "updatedAt": "2026-07-04T17:30:49Z",
-  "source": "yahoo"
+  "ticker": "VKTX",
+  "source": "yahoo",
+  "firstDate": "2015-04-28",
+  "lastDate": "2026-07-06",
+  "records": 2813,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:929a9cf34b76264b3a9e79b72179cb737bab284efe249552c9170a5a4564e201",
+  "lastFullValidationAt": "2026-07-07T14:31:03Z",
+  "updatedAt": "2026-07-07T14:31:03Z"
 }

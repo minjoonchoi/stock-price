@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 279,
-  "updatedAt": "2026-07-04T17:14:25Z",
-  "source": "yahoo"
+  "ticker": "HNGE",
+  "source": "yahoo",
+  "firstDate": "2025-05-22",
+  "lastDate": "2026-07-06",
+  "records": 280,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:01dc82815ee554e5232ec94aacd4709b3c09ac1ecc6afdeb2f764228a3dc80fa",
+  "lastFullValidationAt": "2026-07-07T13:40:15Z",
+  "updatedAt": "2026-07-07T13:40:15Z"
 }

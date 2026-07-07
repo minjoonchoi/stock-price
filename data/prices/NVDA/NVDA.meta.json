@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6903,
-  "updatedAt": "2026-07-04T17:21:27Z",
-  "source": "yahoo"
+  "ticker": "NVDA",
+  "source": "yahoo",
+  "firstDate": "1999-01-22",
+  "lastDate": "2026-07-06",
+  "records": 6904,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-11",
+  "lastSplitDate": "2024-06-10",
+  "corporateActionHash": "sha256:0cf3c4f5ca0210fb3c0f94663c4fce50a17d045504218f3cd4426e332a164444",
+  "priceDataHash": "sha256:5615d423539a63d01bfd169b2232b756711c7ba2ff6846ace42b777b3e02fde5",
+  "lastFullValidationAt": "2026-07-07T14:01:47Z",
+  "updatedAt": "2026-07-07T14:01:47Z"
 }

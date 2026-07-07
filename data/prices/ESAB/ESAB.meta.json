@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1069,
-  "updatedAt": "2026-07-04T17:10:32Z",
-  "source": "yahoo"
+  "ticker": "ESAB",
+  "source": "yahoo",
+  "firstDate": "2022-03-29",
+  "lastDate": "2026-07-06",
+  "records": 1070,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-02",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:b829ebc37f41132b1887d29dc455dbff9ed47fe81c634c2415326a9f97436512",
+  "priceDataHash": "sha256:972c770c08d96f245e3117d644bec2d79ba410714af7b29ad8b05e2583de771e",
+  "lastFullValidationAt": "2026-07-07T13:29:11Z",
+  "updatedAt": "2026-07-07T13:29:11Z"
 }

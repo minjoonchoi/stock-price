@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8379,
-  "updatedAt": "2026-07-04T17:02:11Z",
-  "source": "yahoo"
+  "ticker": "ALG",
+  "source": "yahoo",
+  "firstDate": "1993-03-19",
+  "lastDate": "2026-07-06",
+  "records": 8334,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:afdeb088c6bc72b6e9a96681d3ab04dd1b77231a052ae2ed7e8ad05748ec46be",
+  "priceDataHash": "sha256:4f58198a71740a9136e8eb384fcc63a33186e0d300b44ab271c6c97d66b97215",
+  "lastFullValidationAt": "2026-07-07T13:01:11Z",
+  "updatedAt": "2026-07-07T13:01:11Z"
 }

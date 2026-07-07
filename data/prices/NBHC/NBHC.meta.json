@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "NBHC",
+  "source": "yahoo",
+  "firstDate": "2012-09-20",
+  "lastDate": "2026-07-06",
   "records": 3464,
-  "updatedAt": "2026-07-04T17:20:18Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1fde3e7c488be7190be7518c8c35757ff0e0c8d576857269de2640f32017578d",
+  "priceDataHash": "sha256:b00515d64e000e79ec8921be61ca7100a4cf3da7be4c5a55c54e84a6ca2e51cc",
+  "lastFullValidationAt": "2026-07-07T13:58:27Z",
+  "updatedAt": "2026-07-07T13:58:27Z"
 }

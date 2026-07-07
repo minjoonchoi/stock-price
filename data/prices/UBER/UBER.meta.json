@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1796,
-  "updatedAt": "2026-07-04T17:29:53Z",
-  "source": "yahoo"
+  "ticker": "UBER",
+  "source": "yahoo",
+  "firstDate": "2019-05-10",
+  "lastDate": "2026-07-06",
+  "records": 1797,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:005e0769ecb0c4c7a2a42edd9d1d6f72bca4bb227520247d0ec8d3908cfd2622",
+  "lastFullValidationAt": "2026-07-07T14:27:51Z",
+  "updatedAt": "2026-07-07T14:27:51Z"
 }

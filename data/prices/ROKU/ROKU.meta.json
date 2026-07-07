@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2201,
-  "updatedAt": "2026-07-04T17:25:20Z",
-  "source": "yahoo"
+  "ticker": "ROKU",
+  "source": "yahoo",
+  "firstDate": "2017-09-28",
+  "lastDate": "2026-07-06",
+  "records": 2202,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:45d8692cbe50c5833fbb39387944f29c6f95c2fe9106ac580278dac9e90a6ced",
+  "lastFullValidationAt": "2026-07-07T14:14:39Z",
+  "updatedAt": "2026-07-07T14:14:39Z"
 }

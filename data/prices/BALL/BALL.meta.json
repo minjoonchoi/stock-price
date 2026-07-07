@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:03:52Z",
-  "source": "yahoo"
+  "ticker": "BALL",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13398,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-02",
+  "lastSplitDate": "2017-05-17",
+  "corporateActionHash": "sha256:fa0b3064abd9fdaec43d1464d0b5e3877f742b97df56b38c48d2380a9cf8b346",
+  "priceDataHash": "sha256:51a7ff2440fc239a61f04a47ff4742b669c6f0ce160f052158bb62dfa2b46b4b",
+  "lastFullValidationAt": "2026-07-07T13:07:47Z",
+  "updatedAt": "2026-07-07T13:07:47Z"
 }

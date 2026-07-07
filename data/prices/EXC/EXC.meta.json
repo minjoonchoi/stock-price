@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13405,
-  "updatedAt": "2026-07-04T17:10:53Z",
-  "source": "yahoo"
+  "ticker": "EXC",
+  "source": "yahoo",
+  "firstDate": "1973-05-02",
+  "lastDate": "2026-07-06",
+  "records": 13244,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-02",
+  "lastSplitDate": "2022-02-02",
+  "corporateActionHash": "sha256:133485f461706bca42613b9552598e257a36685ddcb253261e84156c6da750f3",
+  "priceDataHash": "sha256:f99449944f2952c167e41edc62149d876193145cee7f2fa8df44924a7347f101",
+  "lastFullValidationAt": "2026-07-07T13:30:03Z",
+  "updatedAt": "2026-07-07T13:30:03Z"
 }

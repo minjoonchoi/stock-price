@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11497,
-  "updatedAt": "2026-07-04T17:23:59Z",
-  "source": "yahoo"
+  "ticker": "PSA",
+  "source": "yahoo",
+  "firstDate": "1980-11-18",
+  "lastDate": "2026-07-06",
+  "records": 11248,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:255b16aecec57f86aa2cc1e5efa440406540c651d341adf23366d852361961ed",
+  "priceDataHash": "sha256:86723cfa518b058ef01f71253e179a6d4d0c9b1e90cfd07c9b736ccb7011c23c",
+  "lastFullValidationAt": "2026-07-07T14:10:19Z",
+  "updatedAt": "2026-07-07T14:10:19Z"
 }

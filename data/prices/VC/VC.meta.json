@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "VC",
+  "source": "yahoo",
+  "firstDate": "2010-10-05",
+  "lastDate": "2026-07-06",
   "records": 3959,
-  "updatedAt": "2026-07-04T17:30:32Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-02",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:285291131d07c8389b334aabecf8c7186791d7015965f048ab8af62bdb82f247",
+  "priceDataHash": "sha256:2d724ce56610b9e9f0a54e03ff501054c5ce51305711dff9ea97bfdca7c802b8",
+  "lastFullValidationAt": "2026-07-07T14:29:59Z",
+  "updatedAt": "2026-07-07T14:29:59Z"
 }

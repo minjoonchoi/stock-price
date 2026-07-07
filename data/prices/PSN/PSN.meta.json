@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1798,
-  "updatedAt": "2026-07-04T17:24:04Z",
-  "source": "yahoo"
+  "ticker": "PSN",
+  "source": "yahoo",
+  "firstDate": "2019-05-08",
+  "lastDate": "2026-07-06",
+  "records": 1799,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:80ee6fb0a464c8b095d1d2a9c984c0338a75750f25a63e178bf21e655f7145bf",
+  "lastFullValidationAt": "2026-07-07T14:10:27Z",
+  "updatedAt": "2026-07-07T14:10:27Z"
 }

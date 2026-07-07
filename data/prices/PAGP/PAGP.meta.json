@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3196,
-  "updatedAt": "2026-07-04T17:22:33Z",
-  "source": "yahoo"
+  "ticker": "PAGP",
+  "source": "yahoo",
+  "firstDate": "2013-10-16",
+  "lastDate": "2026-07-06",
+  "records": 3194,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-01",
+  "lastSplitDate": "2016-11-16",
+  "corporateActionHash": "sha256:3e0126f3186019d69dc51602fa3040279a455398850936509cf5ad6cf76cf430",
+  "priceDataHash": "sha256:9e3e189fa4de1398a754349d5e2b171c5cc070866dc77d6a218d062a7c2c6087",
+  "lastFullValidationAt": "2026-07-07T14:05:31Z",
+  "updatedAt": "2026-07-07T14:05:31Z"
 }

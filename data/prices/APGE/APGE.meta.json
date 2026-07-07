@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 745,
-  "updatedAt": "2026-07-04T17:02:46Z",
-  "source": "yahoo"
+  "ticker": "APGE",
+  "source": "yahoo",
+  "firstDate": "2023-07-14",
+  "lastDate": "2026-07-06",
+  "records": 746,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:3e2f700e5bde83a599731227a746dad3fbed9113c1013f0d2e8b76259d6b2272",
+  "lastFullValidationAt": "2026-07-07T13:03:43Z",
+  "updatedAt": "2026-07-07T13:03:43Z"
 }

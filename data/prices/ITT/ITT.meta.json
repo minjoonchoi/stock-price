@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7685,
-  "updatedAt": "2026-07-04T17:15:56Z",
-  "source": "yahoo"
+  "ticker": "ITT",
+  "source": "yahoo",
+  "firstDate": "1995-12-15",
+  "lastDate": "2026-07-06",
+  "records": 7678,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-08",
+  "lastSplitDate": "2011-11-01",
+  "corporateActionHash": "sha256:7ccb5ca9935d61d449bfb6e4f67e5587518e49af8d222370dda61aa229203db0",
+  "priceDataHash": "sha256:5eb6bd53d59827b317c3a32ad3b098da0b8d501291c0d10d2049a96606d963a7",
+  "lastFullValidationAt": "2026-07-07T13:45:19Z",
+  "updatedAt": "2026-07-07T13:45:19Z"
 }

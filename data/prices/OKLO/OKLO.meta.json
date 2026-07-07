@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1252,
-  "updatedAt": "2026-07-04T17:21:58Z",
-  "source": "yahoo"
+  "ticker": "OKLO",
+  "source": "yahoo",
+  "firstDate": "2021-07-08",
+  "lastDate": "2026-07-06",
+  "records": 1253,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:2ad57f8432f720c00ace614219eb14f18aa47a5c5e570cb43ffc4a668c270b70",
+  "lastFullValidationAt": "2026-07-07T14:03:19Z",
+  "updatedAt": "2026-07-07T14:03:19Z"
 }

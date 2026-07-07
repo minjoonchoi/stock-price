@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6476,
-  "updatedAt": "2026-07-04T17:15:53Z",
-  "source": "yahoo"
+  "ticker": "ITGR",
+  "source": "yahoo",
+  "firstDate": "2000-09-29",
+  "lastDate": "2026-07-06",
+  "records": 6477,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:65eae5641fbf5c17da92a727213753a00279c91e4e4738de24f84b3b5f03f43d",
+  "lastFullValidationAt": "2026-07-07T13:45:11Z",
+  "updatedAt": "2026-07-07T13:45:11Z"
 }

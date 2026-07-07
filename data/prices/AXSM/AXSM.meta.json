@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2668,
-  "updatedAt": "2026-07-04T17:03:42Z",
-  "source": "yahoo"
+  "ticker": "AXSM",
+  "source": "yahoo",
+  "firstDate": "2015-11-19",
+  "lastDate": "2026-07-06",
+  "records": 2669,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b2fa0f4fc1b9ed95d12f76dd846ead30cf2489741426068886b9ca84aaed0739",
+  "lastFullValidationAt": "2026-07-07T13:07:11Z",
+  "updatedAt": "2026-07-07T13:07:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7685,
-  "updatedAt": "2026-07-04T17:19:48Z",
-  "source": "yahoo"
+  "ticker": "MSM",
+  "source": "yahoo",
+  "firstDate": "1995-12-15",
+  "lastDate": "2026-07-06",
+  "records": 7674,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-08",
+  "lastSplitDate": "1998-05-26",
+  "corporateActionHash": "sha256:b34587a3e668e3f06d210c6f6cdb8a321cf67013abd82aa7afad8c1904d763fa",
+  "priceDataHash": "sha256:3550fd06032bd5a2769dd3128acab5c67f96e63c4de6f6709af4ced6fe0c4d6e",
+  "lastFullValidationAt": "2026-07-07T13:57:03Z",
+  "updatedAt": "2026-07-07T13:57:03Z"
 }

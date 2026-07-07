@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8233,
-  "updatedAt": "2026-07-04T17:05:48Z",
-  "source": "yahoo"
+  "ticker": "BYD",
+  "source": "yahoo",
+  "firstDate": "1993-10-15",
+  "lastDate": "2026-07-06",
+  "records": 8234,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:a9314e7b7b79cadbd3041c726e2a43768a7642d4c7b001fd128e5c709bbf85bc",
+  "priceDataHash": "sha256:4779ae26c42544da829432cc098eaba2d910f1685a6e77f62725b8be290b4c14",
+  "lastFullValidationAt": "2026-07-07T13:12:55Z",
+  "updatedAt": "2026-07-07T13:12:55Z"
 }

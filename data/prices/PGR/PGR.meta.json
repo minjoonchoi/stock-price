@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:23:11Z",
-  "source": "yahoo"
+  "ticker": "PGR",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11597,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-02",
+  "lastSplitDate": "2006-05-19",
+  "corporateActionHash": "sha256:2ec1821881056a4195a88cfa4df1507423e7a08efde5051a4ecb91b54571867b",
+  "priceDataHash": "sha256:5973d679ace05e3bd6bfb2026557f531888ed4a34200731f8dd7bca83f67d09a",
+  "lastFullValidationAt": "2026-07-07T14:07:39Z",
+  "updatedAt": "2026-07-07T14:07:39Z"
 }

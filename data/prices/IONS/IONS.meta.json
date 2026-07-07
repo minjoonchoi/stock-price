@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8844,
-  "updatedAt": "2026-07-04T17:15:40Z",
-  "source": "yahoo"
+  "ticker": "IONS",
+  "source": "yahoo",
+  "firstDate": "1991-05-17",
+  "lastDate": "2026-07-06",
+  "records": 8845,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:4961d45c5d9c06ab89267b5a5f02d6de30b8df2af1be63c2f2518e59651b5837",
+  "lastFullValidationAt": "2026-07-07T13:44:11Z",
+  "updatedAt": "2026-07-07T13:44:11Z"
 }

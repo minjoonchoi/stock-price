@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 946,
-  "updatedAt": "2026-07-04T17:04:38Z",
-  "source": "yahoo"
+  "ticker": "BHVN",
+  "source": "yahoo",
+  "firstDate": "2022-09-23",
+  "lastDate": "2026-07-06",
+  "records": 947,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a7455d5c69ce218ccd7131b75dad088d78155a3ff74a160bb017d34b4df1c5aa",
+  "lastFullValidationAt": "2026-07-07T13:09:43Z",
+  "updatedAt": "2026-07-07T13:09:43Z"
 }

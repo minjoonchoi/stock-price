@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1278,
-  "updatedAt": "2026-07-04T17:14:14Z",
-  "source": "yahoo"
+  "ticker": "HGTY",
+  "source": "yahoo",
+  "firstDate": "2021-06-01",
+  "lastDate": "2026-07-06",
+  "records": 1279,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:2d7f8a6a7bcdd918de05914f4f3a0c6734891f45fd6183ac1623f0e2eb6311a4",
+  "lastFullValidationAt": "2026-07-07T13:39:23Z",
+  "updatedAt": "2026-07-07T13:39:23Z"
 }

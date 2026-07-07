@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11530,
-  "updatedAt": "2026-07-04T17:21:58Z",
-  "source": "yahoo"
+  "ticker": "OKE",
+  "source": "yahoo",
+  "firstDate": "1980-10-01",
+  "lastDate": "2026-07-06",
+  "records": 11317,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-04",
+  "lastSplitDate": "2014-02-03",
+  "corporateActionHash": "sha256:43d251ff1f93247b0ebd449bcc490bdbe39a6ece74eee3eb1ca9d7a1af72a3c3",
+  "priceDataHash": "sha256:dc548c62cac8f5cbbf38009682e465c8ca8d00a14cf03c2bb0ec5413fa6e89b3",
+  "lastFullValidationAt": "2026-07-07T14:03:15Z",
+  "updatedAt": "2026-07-07T14:03:15Z"
 }

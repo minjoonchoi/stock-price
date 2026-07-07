@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8665,
-  "updatedAt": "2026-07-04T17:26:55Z",
-  "source": "yahoo"
+  "ticker": "SMG",
+  "source": "yahoo",
+  "firstDate": "1992-01-31",
+  "lastDate": "2026-07-06",
+  "records": 8664,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "2005-11-10",
+  "corporateActionHash": "sha256:290dcdd9d94b9239e82ab7a89374602c071991446aeddcfee28bdc6060c703ad",
+  "priceDataHash": "sha256:d0e35bbbae5fc87eb643ec116ab1958f03ecf5e0e9bc599559aba67ada3984da",
+  "lastFullValidationAt": "2026-07-07T14:19:19Z",
+  "updatedAt": "2026-07-07T14:19:19Z"
 }

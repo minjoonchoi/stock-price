@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1787,
-  "updatedAt": "2026-07-04T17:15:11Z",
-  "source": "yahoo"
+  "ticker": "IDYA",
+  "source": "yahoo",
+  "firstDate": "2019-05-23",
+  "lastDate": "2026-07-06",
+  "records": 1788,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:34f1ffd49912af715ae1d0c5b8027d0ebb998dd9c15fa4eaff19099b7be8ea85",
+  "lastFullValidationAt": "2026-07-07T13:42:59Z",
+  "updatedAt": "2026-07-07T13:42:59Z"
 }

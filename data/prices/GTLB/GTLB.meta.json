@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1183,
-  "updatedAt": "2026-07-04T17:13:48Z",
-  "source": "yahoo"
+  "ticker": "GTLB",
+  "source": "yahoo",
+  "firstDate": "2021-10-14",
+  "lastDate": "2026-07-06",
+  "records": 1184,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:bcbe1ff3f7a743e09a5734713566a041fdebfd828312c6679a18d96ca88e5298",
+  "lastFullValidationAt": "2026-07-07T13:38:03Z",
+  "updatedAt": "2026-07-07T13:38:03Z"
 }

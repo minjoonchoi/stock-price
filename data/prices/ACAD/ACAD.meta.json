@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5559,
-  "updatedAt": "2026-07-04T17:01:10Z",
-  "source": "yahoo"
+  "ticker": "ACAD",
+  "source": "yahoo",
+  "firstDate": "2004-05-27",
+  "lastDate": "2026-07-06",
+  "records": 5560,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:00b327243a744d55b00697776e6c2f45381383b0143f3b5421da41363f4b0839",
+  "lastFullValidationAt": "2026-07-07T12:58:23Z",
+  "updatedAt": "2026-07-07T12:58:23Z"
 }

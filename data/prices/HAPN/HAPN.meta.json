@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2905,
-  "updatedAt": "2026-07-04T17:13:58Z",
-  "source": "yahoo"
+  "ticker": "HAPN",
+  "source": "yahoo",
+  "firstDate": "2014-12-11",
+  "lastDate": "2026-07-06",
+  "records": 2906,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2019-07-08",
+  "lastSplitDate": "2019-07-08",
+  "corporateActionHash": "sha256:e85fec172c9a438d8aec0fa0d517104bed0cd54e44101de8a23d3a98a2d25e31",
+  "priceDataHash": "sha256:f685e0819b70e47455edf3f8afa0e0e9259cf53968593912b206c63fdb173f85",
+  "lastFullValidationAt": "2026-07-07T13:38:43Z",
+  "updatedAt": "2026-07-07T13:38:43Z"
 }

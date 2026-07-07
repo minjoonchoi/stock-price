@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1811,
-  "updatedAt": "2026-07-04T17:32:34Z",
-  "source": "yahoo"
+  "ticker": "ZM",
+  "source": "yahoo",
+  "firstDate": "2019-04-18",
+  "lastDate": "2026-07-06",
+  "records": 1812,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:b83a8c24171d20652fd8936dbf756d3d8306c53437557aa0111d6d0e0135b92c",
+  "lastFullValidationAt": "2026-07-07T14:37:11Z",
+  "updatedAt": "2026-07-07T14:37:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3307,
-  "updatedAt": "2026-07-04T17:23:08Z",
-  "source": "yahoo"
+  "ticker": "PFSI",
+  "source": "yahoo",
+  "firstDate": "2013-05-09",
+  "lastDate": "2026-07-06",
+  "records": 3308,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:2bfbccff612b5fa3a0526317ea73ce504cee490f6c75005747b5a059090b29cf",
+  "priceDataHash": "sha256:b0696f0434507213d78b9c5165e31eb8a5fe5b222131a0849a7a96bfe98560a6",
+  "lastFullValidationAt": "2026-07-07T14:07:23Z",
+  "updatedAt": "2026-07-07T14:07:23Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2704,
-  "updatedAt": "2026-07-04T17:23:05Z",
-  "source": "yahoo"
+  "ticker": "PFGC",
+  "source": "yahoo",
+  "firstDate": "2015-09-30",
+  "lastDate": "2026-07-06",
+  "records": 2705,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:7a42a39735f0e1077158093c45dfdac8e5e4bfa00509a51798f9949e4f547419",
+  "lastFullValidationAt": "2026-07-07T14:07:15Z",
+  "updatedAt": "2026-07-07T14:07:15Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6265,
-  "updatedAt": "2026-07-04T17:04:28Z",
-  "source": "yahoo"
+  "ticker": "BG",
+  "source": "yahoo",
+  "firstDate": "2001-08-02",
+  "lastDate": "2026-07-06",
+  "records": 6259,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:8665e8e586d104f9afb76d646a60228eb86da2c72012138d048cfdd4a46f069b",
+  "priceDataHash": "sha256:4e7d5c34030b3abb23e6c93295b51b959c8bef23e3702ed0e556982c42a2deea",
+  "lastFullValidationAt": "2026-07-07T13:09:31Z",
+  "updatedAt": "2026-07-07T13:09:31Z"
 }

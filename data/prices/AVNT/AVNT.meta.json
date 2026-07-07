@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6742,
-  "updatedAt": "2026-07-04T17:03:33Z",
-  "source": "yahoo"
+  "ticker": "AVNT",
+  "source": "yahoo",
+  "firstDate": "1999-09-13",
+  "lastDate": "2026-07-06",
+  "records": 6727,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:20293e3da5ed90c96c638a8e46c73adbb4ea9ed0c07ea222aa8b51d857d961b0",
+  "priceDataHash": "sha256:b99bb793f40ed9a891c0b79de3f90c962b197ba338ac6c8d60d65fd8fb65182e",
+  "lastFullValidationAt": "2026-07-07T13:06:27Z",
+  "updatedAt": "2026-07-07T13:06:27Z"
 }

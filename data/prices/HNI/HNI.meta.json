@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:14:26Z",
-  "source": "yahoo"
+  "ticker": "HNI",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11596,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "1998-03-30",
+  "corporateActionHash": "sha256:4cf28630412f99984c72ce271f2d6ed4e4253594c6b39f918f6be0d511a796c5",
+  "priceDataHash": "sha256:cc3e86c127c63f964440d9c71bf627b17c863c0d8c4a2c43efc136449b41443b",
+  "lastFullValidationAt": "2026-07-07T13:40:19Z",
+  "updatedAt": "2026-07-07T13:40:19Z"
 }

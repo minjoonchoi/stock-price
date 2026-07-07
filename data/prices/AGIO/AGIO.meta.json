@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3255,
-  "updatedAt": "2026-07-04T17:01:43Z",
-  "source": "yahoo"
+  "ticker": "AGIO",
+  "source": "yahoo",
+  "firstDate": "2013-07-24",
+  "lastDate": "2026-07-06",
+  "records": 3256,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:bb410b33afddd7e64b12f1081b4d30ea02a2fe848d92c73b9e709f0d45fa11fd",
+  "lastFullValidationAt": "2026-07-07T13:00:11Z",
+  "updatedAt": "2026-07-07T13:00:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2448,
-  "updatedAt": "2026-07-04T17:31:07Z",
-  "source": "yahoo"
+  "ticker": "VST",
+  "source": "yahoo",
+  "firstDate": "2016-10-05",
+  "lastDate": "2026-07-06",
+  "records": 2449,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:b0d28ac7bcbb3e681f1ed1a5ee93f11872c017848ce9fd0fe3a6b3334d01d0d6",
+  "priceDataHash": "sha256:caed35bc738cb2079bb755e5569f0daaebf4fe6eec051bdf6bcc48d0069267bc",
+  "lastFullValidationAt": "2026-07-07T14:32:23Z",
+  "updatedAt": "2026-07-07T14:32:23Z"
 }

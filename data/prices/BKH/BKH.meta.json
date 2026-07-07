@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13453,
-  "updatedAt": "2026-07-04T17:04:46Z",
-  "source": "yahoo"
+  "ticker": "BKH",
+  "source": "yahoo",
+  "firstDate": "1973-02-22",
+  "lastDate": "2026-07-06",
+  "records": 13231,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "1998-03-11",
+  "corporateActionHash": "sha256:381ee18bec64414b9a4bc811f1ba33e729dff123aeabd26463658a33cc8f941e",
+  "priceDataHash": "sha256:382cdf9802cfb5b6f0d570a259b6f39d63293699a69a2d2db80b6600b8eeda33",
+  "lastFullValidationAt": "2026-07-07T13:10:07Z",
+  "updatedAt": "2026-07-07T13:10:07Z"
 }

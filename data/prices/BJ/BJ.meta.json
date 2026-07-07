@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2013,
-  "updatedAt": "2026-07-04T17:04:44Z",
-  "source": "yahoo"
+  "ticker": "BJ",
+  "source": "yahoo",
+  "firstDate": "2018-06-28",
+  "lastDate": "2026-07-06",
+  "records": 2014,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:d23aa6ca87574963d903a7dc7360039b5fbc62c76a7434b3ae963783002687ab",
+  "lastFullValidationAt": "2026-07-07T13:09:59Z",
+  "updatedAt": "2026-07-07T13:09:59Z"
 }

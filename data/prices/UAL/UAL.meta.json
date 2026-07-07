@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5133,
-  "updatedAt": "2026-07-04T17:29:52Z",
-  "source": "yahoo"
+  "ticker": "UAL",
+  "source": "yahoo",
+  "firstDate": "2006-02-06",
+  "lastDate": "2026-07-06",
+  "records": 5134,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2008-01-07",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:3b3bd685cec9dffc9a0d3105effb499057869b98c65525c10de1c45daddb9c48",
+  "priceDataHash": "sha256:bc4a55e20c22ea700a2bc94d4ae689e5f51c15f471210a3da4271ba9ff8b8f6a",
+  "lastFullValidationAt": "2026-07-07T14:27:47Z",
+  "updatedAt": "2026-07-07T14:27:47Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2056,
-  "updatedAt": "2026-07-04T17:09:12Z",
-  "source": "yahoo"
+  "ticker": "DOCU",
+  "source": "yahoo",
+  "firstDate": "2018-04-27",
+  "lastDate": "2026-07-06",
+  "records": 2057,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:7152108711c60ea3c649394ad73b1ed9dca91744887f1613fa94d0e74d63b9e3",
+  "lastFullValidationAt": "2026-07-07T13:25:07Z",
+  "updatedAt": "2026-07-07T13:25:07Z"
 }

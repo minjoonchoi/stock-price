@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3090,
-  "updatedAt": "2026-07-04T17:24:26Z",
-  "source": "yahoo"
+  "ticker": "QTWO",
+  "source": "yahoo",
+  "firstDate": "2014-03-20",
+  "lastDate": "2026-07-06",
+  "records": 3091,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:fbcd2521c1d77204269ca501ed9d01df0779776df8291de6ee87e64350cfaf70",
+  "lastFullValidationAt": "2026-07-07T14:11:39Z",
+  "updatedAt": "2026-07-07T14:11:39Z"
 }

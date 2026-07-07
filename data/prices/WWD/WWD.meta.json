@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 8116,
-  "updatedAt": "2026-07-04T17:32:02Z",
-  "source": "yahoo"
+  "ticker": "WWD",
+  "source": "yahoo",
+  "firstDate": "1994-04-04",
+  "lastDate": "2026-07-06",
+  "records": 8013,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-21",
+  "lastSplitDate": "2008-02-15",
+  "corporateActionHash": "sha256:3b95e83b9c7127c2d4a1d50f2d43ca70d1a3b1e3dcf37c451b421813e11050e5",
+  "priceDataHash": "sha256:a6e1fa36f5b67cf6268fd5cf5fb99152b5ad3d4d3bff50e3352194eef7029a6d",
+  "lastFullValidationAt": "2026-07-07T14:35:51Z",
+  "updatedAt": "2026-07-07T14:35:51Z"
 }

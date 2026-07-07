@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1159,
-  "updatedAt": "2026-07-04T17:05:26Z",
-  "source": "yahoo"
+  "ticker": "BRZE",
+  "source": "yahoo",
+  "firstDate": "2021-11-17",
+  "lastDate": "2026-07-06",
+  "records": 1160,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:8b3287f6d8078659a21f0a360f3c9dcfd7fea79034dae2e5ab8f762d3e74b5af",
+  "lastFullValidationAt": "2026-07-07T13:11:59Z",
+  "updatedAt": "2026-07-07T13:11:59Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7420,
-  "updatedAt": "2026-07-04T17:24:43Z",
-  "source": "yahoo"
+  "ticker": "RDNT",
+  "source": "yahoo",
+  "firstDate": "1997-01-03",
+  "lastDate": "2026-07-06",
+  "records": 7421,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2006-11-28",
+  "lastSplitDate": "2006-11-28",
+  "corporateActionHash": "sha256:609e4a099e6f94cdf49febf744d1c2c1b77c23b00409032edd5ec9967cb4c0c5",
+  "priceDataHash": "sha256:67820955eebd39a5fd2cd370a0ae4a278ef680df02ff2a85c5858afb3f6230b5",
+  "lastFullValidationAt": "2026-07-07T14:12:35Z",
+  "updatedAt": "2026-07-07T14:12:35Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1511,
-  "updatedAt": "2026-07-04T17:01:14Z",
-  "source": "yahoo"
+  "ticker": "ACI",
+  "source": "yahoo",
+  "firstDate": "2020-06-26",
+  "lastDate": "2026-07-06",
+  "records": 1512,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-24",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:d24de38b5f4dd41211ecc53ac55cd50f6a0221a7d6d3ba1fc88aa08ff28e5557",
+  "priceDataHash": "sha256:ef95fb710f6cb4f706c4fa344948aa56d20fdc51ee13b12fbc237993434eed78",
+  "lastFullValidationAt": "2026-07-07T12:58:35Z",
+  "updatedAt": "2026-07-07T12:58:35Z"
 }

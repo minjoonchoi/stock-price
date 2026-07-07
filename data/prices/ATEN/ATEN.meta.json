@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3089,
-  "updatedAt": "2026-07-04T17:03:18Z",
-  "source": "yahoo"
+  "ticker": "ATEN",
+  "source": "yahoo",
+  "firstDate": "2014-03-21",
+  "lastDate": "2026-07-06",
+  "records": 3090,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:4fb5a73561706d8c8d17c6c23343c6f795ecc65ef5cf5266e4aacf714b3fe5b7",
+  "priceDataHash": "sha256:de3acb168932f8353045fe86bc5e20779ee51ed4e04a7dd85a822b6f33d9b62d",
+  "lastFullValidationAt": "2026-07-07T13:05:27Z",
+  "updatedAt": "2026-07-07T13:05:27Z"
 }

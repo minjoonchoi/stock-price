@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 171,
-  "updatedAt": "2026-07-04T17:24:17Z",
-  "source": "yahoo"
+  "ticker": "Q",
+  "source": "yahoo",
+  "firstDate": "2025-10-27",
+  "lastDate": "2026-07-06",
+  "records": 172,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-29",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:8e6a31741807f63cf5dd3a4ba59faf2c88359f62736f0fac9fe3a375182d1060",
+  "priceDataHash": "sha256:f152bca97177fdf3c7a6b5a348f1a8e4b40b5cc5da9c83aa1193a723f570472f",
+  "lastFullValidationAt": "2026-07-07T14:11:15Z",
+  "updatedAt": "2026-07-07T14:11:15Z"
 }

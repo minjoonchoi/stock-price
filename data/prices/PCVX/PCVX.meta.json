@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1521,
-  "updatedAt": "2026-07-04T17:22:52Z",
-  "source": "yahoo"
+  "ticker": "PCVX",
+  "source": "yahoo",
+  "firstDate": "2020-06-12",
+  "lastDate": "2026-07-06",
+  "records": 1522,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:2fc41c3d6f32660ba86140f04a441257e568230aab7d6da0319bf088774c25fb",
+  "lastFullValidationAt": "2026-07-07T14:06:31Z",
+  "updatedAt": "2026-07-07T14:06:31Z"
 }

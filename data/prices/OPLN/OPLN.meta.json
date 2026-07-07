@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4163,
-  "updatedAt": "2026-07-04T17:22:09Z",
-  "source": "yahoo"
+  "ticker": "OPLN",
+  "source": "yahoo",
+  "firstDate": "2009-12-11",
+  "lastDate": "2026-07-06",
+  "records": 4162,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-03-19",
+  "lastSplitDate": "2019-06-28",
+  "corporateActionHash": "sha256:a4f7ddcc27f7f10bb8ce6bee95de04171b18fb86a1c7503d952e0a6ca2e1b38e",
+  "priceDataHash": "sha256:2cb7ff1f8b7f8a19a6c1418b1ea78341989992cf8ed90d2f967e6ad13c6b7648",
+  "lastFullValidationAt": "2026-07-07T14:04:11Z",
+  "updatedAt": "2026-07-07T14:04:11Z"
 }

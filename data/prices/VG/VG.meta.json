@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 361,
-  "updatedAt": "2026-07-04T17:30:39Z",
-  "source": "yahoo"
+  "ticker": "VG",
+  "source": "yahoo",
+  "firstDate": "2025-01-24",
+  "lastDate": "2026-07-06",
+  "records": 362,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:29ccaa96fc1077d7b30396813a28c04c8b1eb4931c89f6e66d91b29804bd0762",
+  "priceDataHash": "sha256:1ba4beb390381d14f49331ff5e991c12acfde2a872ddc199b6ea50e42fcbccee",
+  "lastFullValidationAt": "2026-07-07T14:30:35Z",
+  "updatedAt": "2026-07-07T14:30:35Z"
 }

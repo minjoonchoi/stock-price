@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1474,
-  "updatedAt": "2026-07-04T17:14:38Z",
-  "source": "yahoo"
+  "ticker": "HRMY",
+  "source": "yahoo",
+  "firstDate": "2020-08-19",
+  "lastDate": "2026-07-06",
+  "records": 1475,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:5c03796d433a266606a233f6e6c1e39ce6295f839d22cdd29edb58b549ad7227",
+  "lastFullValidationAt": "2026-07-07T13:41:11Z",
+  "updatedAt": "2026-07-07T13:41:11Z"
 }

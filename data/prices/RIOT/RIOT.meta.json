@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2579,
-  "updatedAt": "2026-07-04T17:25:03Z",
-  "source": "yahoo"
+  "ticker": "RIOT",
+  "source": "yahoo",
+  "firstDate": "2016-03-31",
+  "lastDate": "2026-07-06",
+  "records": 2580,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2017-10-12",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:3c8e2e48f9ebf7537803c66a325db2166db8b2992de8f9205bd30d0cc7e83fa9",
+  "priceDataHash": "sha256:a3c133159bca4ceafc1664bfd9c039aac0b0a335a256eef0dc64a79bf5a82065",
+  "lastFullValidationAt": "2026-07-07T14:13:35Z",
+  "updatedAt": "2026-07-07T14:13:35Z"
 }

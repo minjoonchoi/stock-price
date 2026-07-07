@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2124,
-  "updatedAt": "2026-07-04T17:07:36Z",
-  "source": "yahoo"
+  "ticker": "COLD",
+  "source": "yahoo",
+  "firstDate": "2018-01-19",
+  "lastDate": "2026-07-06",
+  "records": 2123,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:500186eb1a9608725fdfcaa7fe82fbb2ce081ce5ae782801a162140752b9ed09",
+  "priceDataHash": "sha256:fc8e210c7e1901e9cb009339f0948841609a9972c6073ece7a179b2e6a030848",
+  "lastFullValidationAt": "2026-07-07T13:18:39Z",
+  "updatedAt": "2026-07-07T13:18:39Z"
 }

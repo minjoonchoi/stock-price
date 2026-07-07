@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10111,
-  "updatedAt": "2026-07-04T17:15:29Z",
-  "source": "yahoo"
+  "ticker": "INDB",
+  "source": "yahoo",
+  "firstDate": "1986-05-14",
+  "lastDate": "2026-07-06",
+  "records": 10051,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-29",
+  "lastSplitDate": "1987-10-01",
+  "corporateActionHash": "sha256:9ff062a38728392938cd82adb5a06afd30572d9a90a14902f333b9dca99ff5d0",
+  "priceDataHash": "sha256:bff844161919e881678fa39209d557196fbbc7cba4b952dc47f8b11a3bb5d86e",
+  "lastFullValidationAt": "2026-07-07T13:43:31Z",
+  "updatedAt": "2026-07-07T13:43:31Z"
 }

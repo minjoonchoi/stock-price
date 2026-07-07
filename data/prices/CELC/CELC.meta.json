@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2207,
-  "updatedAt": "2026-07-04T17:06:28Z",
-  "source": "yahoo"
+  "ticker": "CELC",
+  "source": "yahoo",
+  "firstDate": "2017-09-20",
+  "lastDate": "2026-07-06",
+  "records": 2208,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:9b3bc1fb11b394051a4972efc1ca14380b4b88889b41d846f1a219e4a38b7794",
+  "lastFullValidationAt": "2026-07-07T13:15:19Z",
+  "updatedAt": "2026-07-07T13:15:19Z"
 }

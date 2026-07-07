@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4600,
-  "updatedAt": "2026-07-04T17:15:47Z",
-  "source": "yahoo"
+  "ticker": "IRDM",
+  "source": "yahoo",
+  "firstDate": "2008-03-20",
+  "lastDate": "2026-07-06",
+  "records": 4601,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1ed7d8b3a916aec2a2f3e8bcbc740ee682e85bdacd35a85c29f5721c9f5255ed",
+  "priceDataHash": "sha256:7357cd52b7587e298bbb4fd5a14c206eb2f798d16656c6853ee4c8de70d9d45f",
+  "lastFullValidationAt": "2026-07-07T13:44:43Z",
+  "updatedAt": "2026-07-07T13:44:43Z"
 }

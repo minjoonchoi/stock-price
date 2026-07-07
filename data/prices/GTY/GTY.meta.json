@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13404,
-  "updatedAt": "2026-07-04T17:13:50Z",
-  "source": "yahoo"
+  "ticker": "GTY",
+  "source": "yahoo",
+  "firstDate": "1973-05-03",
+  "lastDate": "2026-07-06",
+  "records": 12443,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "1997-04-01",
+  "corporateActionHash": "sha256:4576b9df1e7f7086ad30db0c9301509747e9f0ccd88cc37212a102201973f928",
+  "priceDataHash": "sha256:1f6f7c614d30402e84da2fa38542d0584954765997bab7bf145bd0df259b8f9f",
+  "lastFullValidationAt": "2026-07-07T13:38:07Z",
+  "updatedAt": "2026-07-07T13:38:07Z"
 }

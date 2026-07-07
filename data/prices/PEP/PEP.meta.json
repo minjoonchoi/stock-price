@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13634,
-  "updatedAt": "2026-07-04T17:23:01Z",
-  "source": "yahoo"
+  "ticker": "PEP",
+  "source": "yahoo",
+  "firstDate": "1972-06-01",
+  "lastDate": "2026-07-06",
+  "records": 13520,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-05",
+  "lastSplitDate": "1996-05-29",
+  "corporateActionHash": "sha256:0d127bb2c9da0bca9c3874fb9928f446871b20563c7319447b64d45a2957470b",
+  "priceDataHash": "sha256:f2750714d8044536fd2b7b4ab9f1cf3aba882fc1014a918031db9e99ba49c035",
+  "lastFullValidationAt": "2026-07-07T14:07:07Z",
+  "updatedAt": "2026-07-07T14:07:07Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1257,
-  "updatedAt": "2026-07-04T17:32:09Z",
-  "source": "yahoo"
+  "ticker": "XMTR",
+  "source": "yahoo",
+  "firstDate": "2021-06-30",
+  "lastDate": "2026-07-06",
+  "records": 1258,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:89069297fcadc1156066996bfd88e019477e38139332cd3e390c66e8cd0ba3bb",
+  "lastFullValidationAt": "2026-07-07T14:36:11Z",
+  "updatedAt": "2026-07-07T14:36:11Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4935,
-  "updatedAt": "2026-07-04T17:16:29Z",
-  "source": "yahoo"
+  "ticker": "KBR",
+  "source": "yahoo",
+  "firstDate": "2006-11-16",
+  "lastDate": "2026-07-06",
+  "records": 4933,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:0222b93e7534961bb91ec34e01eb159302ce4aaeb541a5deaa5f7e036423b66a",
+  "priceDataHash": "sha256:a7b39437ded88806a3dc95d8df6b289d8ae8477536e75f9d29cce1a9a6d4685a",
+  "lastFullValidationAt": "2026-07-07T13:46:15Z",
+  "updatedAt": "2026-07-07T13:46:15Z"
 }

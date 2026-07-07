@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1424,
-  "updatedAt": "2026-07-04T17:02:11Z",
-  "source": "yahoo"
+  "ticker": "ALGM",
+  "source": "yahoo",
+  "firstDate": "2020-10-29",
+  "lastDate": "2026-07-06",
+  "records": 1425,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:0988db69657c6d240f4d26b7fcb28f661196651ea918526aef20a8e0c32bb099",
+  "lastFullValidationAt": "2026-07-07T13:01:15Z",
+  "updatedAt": "2026-07-07T13:01:15Z"
 }

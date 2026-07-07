@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5308,
-  "updatedAt": "2026-07-04T17:09:18Z",
-  "source": "yahoo"
+  "ticker": "DRH",
+  "source": "yahoo",
+  "firstDate": "2005-05-26",
+  "lastDate": "2026-07-06",
+  "records": 5298,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:4571697c81f53afb508c1fcc6b1b30b58d0c35b8371d4bc86eba59d623de1d8f",
+  "priceDataHash": "sha256:e4db97359a94481ca6c745e3c0fb614f93456afde6ff9f67626d2d43c21a40b7",
+  "lastFullValidationAt": "2026-07-07T13:25:27Z",
+  "updatedAt": "2026-07-07T13:25:27Z"
 }

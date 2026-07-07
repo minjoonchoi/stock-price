@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7052,
-  "updatedAt": "2026-07-04T17:08:16Z",
-  "source": "yahoo"
+  "ticker": "CTSH",
+  "source": "yahoo",
+  "firstDate": "1998-06-19",
+  "lastDate": "2026-07-06",
+  "records": 7053,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "2014-03-10",
+  "corporateActionHash": "sha256:a4da7307099da2636a3ef13f580b4a7d1c02ac4a9bc3e9cad352092877b98351",
+  "priceDataHash": "sha256:5bc2d67e56809205a2377cb6a7546f237c0c34eef4bed4dd97d4556d92181175",
+  "lastFullValidationAt": "2026-07-07T13:21:11Z",
+  "updatedAt": "2026-07-07T13:21:11Z"
 }

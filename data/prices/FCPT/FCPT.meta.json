@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
+  "ticker": "FCPT",
+  "source": "yahoo",
+  "firstDate": "2015-11-10",
+  "lastDate": "2026-07-06",
   "records": 2675,
-  "updatedAt": "2026-07-04T17:11:10Z",
-  "source": "yahoo"
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:20c0e73fbd93d2d55e85e65e3ee0f699c8530b1e7c9d904472d4f2eb5e116dba",
+  "priceDataHash": "sha256:551c393895325dbf15711d81c53c848d5807e71dbe6208eed1421d936ddd544a",
+  "lastFullValidationAt": "2026-07-07T13:31:35Z",
+  "updatedAt": "2026-07-07T13:31:35Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5381,
-  "updatedAt": "2026-07-04T17:22:40Z",
-  "source": "yahoo"
+  "ticker": "PBH",
+  "source": "yahoo",
+  "firstDate": "2005-02-10",
+  "lastDate": "2026-07-06",
+  "records": 5382,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:c7b3da93f4f606f8b8a77adaa90f5542ef0807fd154742b941b977a9d32e14b3",
+  "lastFullValidationAt": "2026-07-07T14:06:07Z",
+  "updatedAt": "2026-07-07T14:06:07Z"
 }

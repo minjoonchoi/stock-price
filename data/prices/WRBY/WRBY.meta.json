@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1194,
-  "updatedAt": "2026-07-04T17:31:50Z",
-  "source": "yahoo"
+  "ticker": "WRBY",
+  "source": "yahoo",
+  "firstDate": "2021-09-29",
+  "lastDate": "2026-07-06",
+  "records": 1195,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ec4d2cd0c73e7cd500d39d082421f7ec1e88d0325800efb903d9156035744be2",
+  "lastFullValidationAt": "2026-07-07T14:34:59Z",
+  "updatedAt": "2026-07-07T14:34:59Z"
 }

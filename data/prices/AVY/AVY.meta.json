@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:03:36Z",
-  "source": "yahoo"
+  "ticker": "AVY",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-06",
+  "records": 13391,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-04",
+  "lastSplitDate": "1996-12-23",
+  "corporateActionHash": "sha256:270a810766c7ce61c60fdfce8ece62314641c2b00aabb90343cce09f2bf00767",
+  "priceDataHash": "sha256:9e80a1b2402b35f2b40753f1b16d55d4e5cec8080d2048b82b494fab7e95a6ae",
+  "lastFullValidationAt": "2026-07-07T13:06:44Z",
+  "updatedAt": "2026-07-07T13:06:44Z"
 }

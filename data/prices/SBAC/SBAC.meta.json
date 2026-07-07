@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6803,
-  "updatedAt": "2026-07-04T17:25:51Z",
-  "source": "yahoo"
+  "ticker": "SBAC",
+  "source": "yahoo",
+  "firstDate": "1999-06-16",
+  "lastDate": "2026-07-06",
+  "records": 6802,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:5197d6a8602ad46d7dfc5879b891c22497f514d3f6b97a233ad78b885a36d636",
+  "priceDataHash": "sha256:5a4316e561b64bd7e0fd44b52157bce3c198cab182c011e2f005817ac74858b0",
+  "lastFullValidationAt": "2026-07-07T14:16:47Z",
+  "updatedAt": "2026-07-07T14:16:47Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1372,
-  "updatedAt": "2026-07-04T17:24:44Z",
-  "source": "yahoo"
+  "ticker": "RDW",
+  "source": "yahoo",
+  "firstDate": "2021-01-14",
+  "lastDate": "2026-07-06",
+  "records": 1373,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ba1378eec7c77c5a8393f89da1dca88dab664cfcdb27854731d0ab555ae249c7",
+  "lastFullValidationAt": "2026-07-07T14:12:39Z",
+  "updatedAt": "2026-07-07T14:12:39Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3475,
-  "updatedAt": "2026-07-04T17:22:36Z",
-  "source": "yahoo"
+  "ticker": "PARR",
+  "source": "yahoo",
+  "firstDate": "2012-09-05",
+  "lastDate": "2026-07-06",
+  "records": 3476,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2014-01-29",
+  "lastSplitDate": "2014-01-29",
+  "corporateActionHash": "sha256:62b6c5405fb6069d8e6039df4dd2bb10b7f70bb51d5cc59aeb86e2a074451ebd",
+  "priceDataHash": "sha256:6557dfec846e6cc25084bc283cf707ff2929c9b662b7ebd7bf379f76ece155ca",
+  "lastFullValidationAt": "2026-07-07T14:05:39Z",
+  "updatedAt": "2026-07-07T14:05:39Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4656,
-  "updatedAt": "2026-07-04T17:21:32Z",
-  "source": "yahoo"
+  "ticker": "NWE",
+  "source": "yahoo",
+  "firstDate": "2007-12-28",
+  "lastDate": "2026-07-06",
+  "records": 4652,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:db49d6da15a4f689c3da1996172398a71b19c7b18619d4b2825f1efb56560966",
+  "priceDataHash": "sha256:54d60487afb96b40c008e3acbcb86111604d0ef0eabb72fd4deb95356714b69c",
+  "lastFullValidationAt": "2026-07-07T14:02:07Z",
+  "updatedAt": "2026-07-07T14:02:07Z"
 }

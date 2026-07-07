@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4654,
-  "updatedAt": "2026-07-04T17:09:43Z",
-  "source": "yahoo"
+  "ticker": "ECHO",
+  "source": "yahoo",
+  "firstDate": "2008-01-02",
+  "lastDate": "2026-07-06",
+  "records": 4655,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2019-09-11",
+  "lastSplitDate": "2019-09-11",
+  "corporateActionHash": "sha256:8a286ee2071936ab8999817abb3a244614b69052d45f9ad5c060cd593891945e",
+  "priceDataHash": "sha256:67e093ccdf76fc9351d6d416438d53446b5c7e5dfbf5d95cc71c428c2800c5f0",
+  "lastFullValidationAt": "2026-07-07T13:26:47Z",
+  "updatedAt": "2026-07-07T13:26:47Z"
 }

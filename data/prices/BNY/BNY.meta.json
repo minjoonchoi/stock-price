@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13404,
-  "updatedAt": "2026-07-04T17:05:08Z",
-  "source": "yahoo"
+  "ticker": "BNY",
+  "source": "yahoo",
+  "firstDate": "1973-05-03",
+  "lastDate": "2026-07-06",
+  "records": 13064,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-27",
+  "lastSplitDate": "2007-07-02",
+  "corporateActionHash": "sha256:0697ad1b8dc52b706b32a32808fa63b7c954ce1c32bfed5786e274d27c7b37cd",
+  "priceDataHash": "sha256:631318af60620325d70c6a71258b489f07cf192f3cc954f0effc31500832b7fa",
+  "lastFullValidationAt": "2026-07-07T13:11:07Z",
+  "updatedAt": "2026-07-07T13:11:07Z"
 }

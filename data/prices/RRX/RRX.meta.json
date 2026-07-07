@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:25:25Z",
-  "source": "yahoo"
+  "ticker": "RRX",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-06",
+  "records": 11453,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "1994-08-15",
+  "corporateActionHash": "sha256:b77c9ba2e72b78173d932a78e27d2bb03a29fa923ab61b6943c34b29ac35b5fe",
+  "priceDataHash": "sha256:0af4cf586fad604614aa54463aca23050337d2ef1888dc9acb0cae758edeeabe",
+  "lastFullValidationAt": "2026-07-07T14:15:11Z",
+  "updatedAt": "2026-07-07T14:15:11Z"
 }

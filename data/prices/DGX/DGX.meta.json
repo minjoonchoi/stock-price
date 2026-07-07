@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7431,
-  "updatedAt": "2026-07-04T17:08:55Z",
-  "source": "yahoo"
+  "ticker": "DGX",
+  "source": "yahoo",
+  "firstDate": "1996-12-17",
+  "lastDate": "2026-07-06",
+  "records": 7430,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-06",
+  "lastSplitDate": "2005-06-21",
+  "corporateActionHash": "sha256:496a400840fb456d7123ba02474a96a286bd9d003c912212a4ab7b0bf52383ac",
+  "priceDataHash": "sha256:2f4a612d45636b16354d92ce6ac252c457f6a0c8fb039f88a43ce691f1a19c7e",
+  "lastFullValidationAt": "2026-07-07T13:23:51Z",
+  "updatedAt": "2026-07-07T13:23:51Z"
 }

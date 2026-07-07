@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5561,
-  "updatedAt": "2026-07-04T17:13:21Z",
-  "source": "yahoo"
+  "ticker": "GNW",
+  "source": "yahoo",
+  "firstDate": "2004-05-25",
+  "lastDate": "2026-07-06",
+  "records": 5562,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2008-10-08",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:ce400fe62b3c64bc7819765e2f1c1530288dab42918fe7676078c7a2ebb0ee74",
+  "priceDataHash": "sha256:d363da9cb00a43abffcae72acf57801dff1a757f125f2619b16d2ed5e1fba07f",
+  "lastFullValidationAt": "2026-07-07T13:37:07Z",
+  "updatedAt": "2026-07-07T13:37:07Z"
 }

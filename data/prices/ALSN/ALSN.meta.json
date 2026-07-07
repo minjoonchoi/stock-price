@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3595,
-  "updatedAt": "2026-07-04T17:02:19Z",
-  "source": "yahoo"
+  "ticker": "ALSN",
+  "source": "yahoo",
+  "firstDate": "2012-03-15",
+  "lastDate": "2026-07-06",
+  "records": 3596,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:9cd14ebaf310f2a8141b9d01f9a6fea1bc8665a68cfcc36a24e338bebce6d517",
+  "priceDataHash": "sha256:cec3dc7df7a73c6e9ef3c62815243c3e5cd544176998e0222d82ead61745e06a",
+  "lastFullValidationAt": "2026-07-07T13:02:07Z",
+  "updatedAt": "2026-07-07T13:02:07Z"
 }

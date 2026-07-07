@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6629,
-  "updatedAt": "2026-07-04T17:08:55Z",
-  "source": "yahoo"
+  "ticker": "DHC",
+  "source": "yahoo",
+  "firstDate": "2000-02-23",
+  "lastDate": "2026-07-06",
+  "records": 6606,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-04-21",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:4f56b3fb2e8d38ba439dd5a27bfb73385f093733eb3a3a118a6b00f7856a3fee",
+  "priceDataHash": "sha256:8ee321ff6caa06a40bbba86a13ca71bced491d1721e058650e250d4794f5cdd2",
+  "lastFullValidationAt": "2026-07-07T13:23:55Z",
+  "updatedAt": "2026-07-07T13:23:55Z"
 }

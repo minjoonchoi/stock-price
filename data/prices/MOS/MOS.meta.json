@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9681,
-  "updatedAt": "2026-07-04T17:19:31Z",
-  "source": "yahoo"
+  "ticker": "MOS",
+  "source": "yahoo",
+  "firstDate": "1988-01-26",
+  "lastDate": "2026-07-06",
+  "records": 9612,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-21",
+  "lastSplitDate": "1995-12-01",
+  "corporateActionHash": "sha256:f0c59fbbe63fac068f1cd3d83cf2367c409698fa07d47165349bb0b268a94c52",
+  "priceDataHash": "sha256:d6519614b63597357ca19ff118accffc41174baa0a8a7dc682d487bdffc1a93c",
+  "lastFullValidationAt": "2026-07-07T13:55:51Z",
+  "updatedAt": "2026-07-07T13:55:51Z"
 }

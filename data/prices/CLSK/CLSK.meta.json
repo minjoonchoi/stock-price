@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2418,
-  "updatedAt": "2026-07-04T17:07:06Z",
-  "source": "yahoo"
+  "ticker": "CLSK",
+  "source": "yahoo",
+  "firstDate": "2016-11-16",
+  "lastDate": "2026-07-06",
+  "records": 2419,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2019-12-11",
+  "lastSplitDate": "2019-12-11",
+  "corporateActionHash": "sha256:23113fe065770514bec8570a6d35042f0d639b71711b155eb443402f25608e72",
+  "priceDataHash": "sha256:41f3d757d53d5e43b6541d2209729ea291d1bae4ab334583611b8a5678411122",
+  "lastFullValidationAt": "2026-07-07T13:17:15Z",
+  "updatedAt": "2026-07-07T13:17:15Z"
 }

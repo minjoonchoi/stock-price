@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2050,
-  "updatedAt": "2026-07-04T17:02:31Z",
-  "source": "yahoo"
+  "ticker": "AMRX",
+  "source": "yahoo",
+  "firstDate": "2018-05-07",
+  "lastDate": "2026-07-06",
+  "records": 2051,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:8233f954fdc2d7c107a904451dee44d6fb6ef755be52d646788aa52c0a4a8265",
+  "lastFullValidationAt": "2026-07-07T13:02:51Z",
+  "updatedAt": "2026-07-07T13:02:51Z"
 }

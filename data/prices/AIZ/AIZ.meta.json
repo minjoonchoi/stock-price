@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5637,
-  "updatedAt": "2026-07-04T17:02:03Z",
-  "source": "yahoo"
+  "ticker": "AIZ",
+  "source": "yahoo",
+  "firstDate": "2004-02-05",
+  "lastDate": "2026-07-06",
+  "records": 5633,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-08",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:93d2c2738c39bf0ff8ff8626b579c8d256d7a32ba6fa818b7d8f7b5989cf8a23",
+  "priceDataHash": "sha256:6eecdbcae9e007d6115cd2696bff2f11760c90fc75462a7527017007607a990d",
+  "lastFullValidationAt": "2026-07-07T13:00:47Z",
+  "updatedAt": "2026-07-07T13:00:47Z"
 }

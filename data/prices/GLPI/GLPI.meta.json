@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3198,
-  "updatedAt": "2026-07-04T17:13:12Z",
-  "source": "yahoo"
+  "ticker": "GLPI",
+  "source": "yahoo",
+  "firstDate": "2013-10-14",
+  "lastDate": "2026-07-06",
+  "records": 3199,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-12",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1c7950a8d14125592dbfb9b6d88353dab7019ffa001d208d03312372ca63cb67",
+  "priceDataHash": "sha256:ef0a9d0153e25517c3c948454d9d0dbf032017064d8ed6cf1dc51407d0ddd7fc",
+  "lastFullValidationAt": "2026-07-07T13:36:35Z",
+  "updatedAt": "2026-07-07T13:36:35Z"
 }

@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1111,
-  "updatedAt": "2026-07-04T17:07:54Z",
-  "source": "yahoo"
+  "ticker": "CRDO",
+  "source": "yahoo",
+  "firstDate": "2022-01-27",
+  "lastDate": "2026-07-06",
+  "records": 1112,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:8ba1ea751512c626d77de9f9787c744152dc939715419a24cf8cc8baa83afce4",
+  "lastFullValidationAt": "2026-07-07T13:19:59Z",
+  "updatedAt": "2026-07-07T13:19:59Z"
 }

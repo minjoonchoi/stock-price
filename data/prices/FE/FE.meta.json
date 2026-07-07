@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7204,
-  "updatedAt": "2026-07-04T17:11:13Z",
-  "source": "yahoo"
+  "ticker": "FE",
+  "source": "yahoo",
+  "firstDate": "1997-11-10",
+  "lastDate": "2026-07-06",
+  "records": 7188,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-07",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:9b1ff00a2005ad7905955bfd8dc2a698e8efdde3b6d2187df83d2b59bd55a76c",
+  "priceDataHash": "sha256:291379c1f6ea6b3fda3491ee348986cc9db137869cca6babc5a3440f31ffd018",
+  "lastFullValidationAt": "2026-07-07T13:31:51Z",
+  "updatedAt": "2026-07-07T13:31:51Z"
 }

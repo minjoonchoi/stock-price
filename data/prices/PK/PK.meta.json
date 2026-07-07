@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2386,
-  "updatedAt": "2026-07-04T17:23:20Z",
-  "source": "yahoo"
+  "ticker": "PK",
+  "source": "yahoo",
+  "firstDate": "2017-01-04",
+  "lastDate": "2026-07-06",
+  "records": 2383,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:1668785405851b334ea6ebca513ebe0c05a579ee4bbbd52b65ec967582700461",
+  "priceDataHash": "sha256:381cf8f435a5bc313af598783b670dcb7b8adea47237fcd7d711a95584893472",
+  "lastFullValidationAt": "2026-07-07T14:08:15Z",
+  "updatedAt": "2026-07-07T14:08:15Z"
 }

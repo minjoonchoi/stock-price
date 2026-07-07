@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5529,
-  "updatedAt": "2026-07-04T17:09:16Z",
-  "source": "yahoo"
+  "ticker": "DPZ",
+  "source": "yahoo",
+  "firstDate": "2004-07-13",
+  "lastDate": "2026-07-06",
+  "records": 5530,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:69c709d3f1f14e9c52762d221d0966ac3afdf7a65775fa6ac4401cdb9f8054f0",
+  "priceDataHash": "sha256:4e4771fd6330f662a5573b5e735a30fc42d159802ec5f66054d53d6a2db4c819",
+  "lastFullValidationAt": "2026-07-07T13:25:23Z",
+  "updatedAt": "2026-07-07T13:25:23Z"
 }
