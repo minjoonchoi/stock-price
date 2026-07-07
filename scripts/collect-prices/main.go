@@ -19,6 +19,8 @@ type options struct {
 	startDate                      string
 	dataDir                        string
 	userAgent                      string
+	targetSource                   string
+	screenerFile                   string
 	universeFile                   string
 	allowAllSECTickers             bool
 	tickers                        []string
@@ -142,9 +144,10 @@ func run(ctx context.Context, args []string) error {
 	}
 
 	fmt.Printf("SEC Tickers Total: %d\n", selection.filter.SECTickersTotal)
-	fmt.Printf("Universe Tickers Total: %d\n", selection.filter.UniverseTickersTotal)
+	fmt.Printf("Target Source: %s\n", selection.targetSource)
+	fmt.Printf("Target Tickers Total: %d\n", selection.filter.UniverseTickersTotal)
 	fmt.Printf("Final Target Tickers: %d\n", selection.filter.FinalTargetTickers)
-	fmt.Printf("Excluded By Universe Filter: %d\n", selection.filter.ExcludedByUniverseFilter)
+	fmt.Printf("Excluded By Target Filter: %d\n", selection.filter.ExcludedByUniverseFilter)
 	fmt.Printf("processed=%d skipped=%d appended=%d failed=%d\n", summary.Processed, summary.Skipped, summary.Appended, summary.Failed)
 	fmt.Printf("Tickers Backfilled: %d\n", summary.Backfilled)
 	fmt.Printf("Tickers Incremental Updated: %d\n", summary.IncrementalUpdated)
@@ -176,7 +179,9 @@ func parseOptions(args []string) (options, error) {
 	flags.StringVar(&opts.dataDir, "data-dir", "data/prices", "directory where per-ticker JSONL and meta files are stored")
 	flags.StringVar(&opts.userAgent, "user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
 	flags.StringVar(&opts.userAgent, "sec-user-agent", os.Getenv("SEC_USER_AGENT"), "User-Agent header for SEC and Yahoo requests")
-	flags.StringVar(&opts.universeFile, "universe-file", "data/universe/collectable_tickers.jsonl", "JSONL file containing market-cap filtered collectable tickers")
+	flags.StringVar(&opts.targetSource, "target-source", collector.TargetSourceNasdaqScreener, "price target source: nasdaq-screener or collectable-universe")
+	flags.StringVar(&opts.screenerFile, "screener-file", collector.DefaultNasdaqScreenerStocksFile, "Nasdaq screener canonical JSONL file used when --target-source=nasdaq-screener")
+	flags.StringVar(&opts.universeFile, "universe-file", "data/universe/collectable_tickers.jsonl", "legacy collectable ticker universe JSONL file used when --target-source=collectable-universe")
 	flags.BoolVar(&opts.allowAllSECTickers, "allow-all-sec-tickers", false, "allow collecting all SEC tickers when the universe file is missing or intentionally bypassed")
 	flags.IntVar(&opts.limit, "limit", 0, "maximum number of tickers to process; 0 means all")
 	flags.IntVar(&opts.limit, "max-tickers", 0, "maximum number of tickers to process; 0 means all")
@@ -211,6 +216,14 @@ func parseOptions(args []string) (options, error) {
 		if _, err := collector.ParseDate(opts.startDate); err != nil {
 			return options{}, fmt.Errorf("invalid --start-date %q: %w", opts.startDate, err)
 		}
+	}
+	opts.targetSource = strings.ToLower(strings.TrimSpace(opts.targetSource))
+	switch opts.targetSource {
+	case collector.TargetSourceNasdaqScreener, collector.TargetSourceCollectableUniverse:
+	case "":
+		opts.targetSource = collector.TargetSourceNasdaqScreener
+	default:
+		return options{}, fmt.Errorf("invalid --target-source %q: expected %q or %q", opts.targetSource, collector.TargetSourceNasdaqScreener, collector.TargetSourceCollectableUniverse)
 	}
 	if opts.limit < 0 {
 		return options{}, errors.New("--limit must be 0 or greater")
@@ -271,6 +284,7 @@ type companySelection struct {
 	filter        collector.UniverseFilterResult
 	secTickerHash string
 	universeHash  string
+	targetSource  string
 }
 
 func companiesForRun(ctx context.Context, opts options, httpClient *http.Client, store *collector.FileStore) (companySelection, error) {
@@ -287,6 +301,7 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 		return companySelection{
 			companies:     companies,
 			secTickerHash: collector.HashCompanies(companies),
+			targetSource:  opts.targetSource,
 			filter: collector.UniverseFilterResult{
 				Companies:          companies,
 				SECTickersTotal:    len(companies),
@@ -313,12 +328,24 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 	}
 	universeHash := ""
 	if !opts.allowAllSECTickers {
-		universe, err := collector.LoadCollectableTickers(opts.universeFile)
-		if err != nil {
-			return companySelection{}, err
+		switch opts.targetSource {
+		case collector.TargetSourceNasdaqScreener:
+			targets, targetFilter, err := collector.LoadNasdaqScreenerPriceTargets(opts.screenerFile, secCompanies)
+			if err != nil {
+				return companySelection{}, err
+			}
+			universeHash = collector.HashPriceTargets(targets)
+			filter = targetFilter
+		case collector.TargetSourceCollectableUniverse:
+			universe, err := collector.LoadCollectableTickers(opts.universeFile)
+			if err != nil {
+				return companySelection{}, err
+			}
+			universeHash = collector.HashCollectableTickers(universe)
+			filter = collector.FilterCompaniesByUniverse(secCompanies, universe)
+		default:
+			return companySelection{}, fmt.Errorf("invalid target source %q", opts.targetSource)
 		}
-		universeHash = collector.HashCollectableTickers(universe)
-		filter = collector.FilterCompaniesByUniverse(secCompanies, universe)
 	}
 
 	companies := filter.Companies
@@ -327,7 +354,7 @@ func companiesForRun(ctx context.Context, opts options, httpClient *http.Client,
 		filter.Companies = companies
 		filter.FinalTargetTickers = len(companies)
 	}
-	return companySelection{companies: collector.SortCompaniesByTicker(companies), filter: filter, secTickerHash: secTickerHash, universeHash: universeHash}, nil
+	return companySelection{companies: collector.SortCompaniesByTicker(companies), filter: filter, secTickerHash: secTickerHash, universeHash: universeHash, targetSource: opts.targetSource}, nil
 }
 
 func splitTickers(value string) []string {

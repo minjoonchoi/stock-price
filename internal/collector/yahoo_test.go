@@ -85,6 +85,19 @@ func TestYahooProviderFetchHistoryParsesPricesAndCorporateActions(t *testing.T) 
 	}
 }
 
+func TestYahooSymbolUsesDashForDotAndSlashShareClasses(t *testing.T) {
+	cases := map[string]string{
+		"BRK.B":   "BRK-B",
+		"BRK/B":   "BRK-B",
+		" brk/b ": "BRK-B",
+	}
+	for input, want := range cases {
+		if got := YahooSymbol(input); got != want {
+			t.Fatalf("YahooSymbol(%q) = %q, want %q", input, got, want)
+		}
+	}
+}
+
 func TestYahooProviderFetchHistorySkipsRowsWithInvalidAdjustedPrices(t *testing.T) {
 	httpClient := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
 		return &http.Response{

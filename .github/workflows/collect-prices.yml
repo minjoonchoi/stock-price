@@ -15,8 +15,16 @@ on:
         description: "Optional max number of final target tickers to process"
         required: false
         type: string
+      target_source:
+        description: "Price target source: nasdaq-screener or collectable-universe"
+        required: false
+        type: string
+      screener_file:
+        description: "Nasdaq screener JSONL path"
+        required: false
+        type: string
       universe_file:
-        description: "Collectable ticker universe JSONL path"
+        description: "Legacy collectable ticker universe JSONL path"
         required: false
         type: string
       allow_all_sec_tickers:
@@ -112,6 +120,8 @@ jobs:
       INPUT_TICKER: ${{ inputs.ticker }}
       INPUT_LIMIT: ${{ inputs.limit }}
       INPUT_MAX_TICKERS: ${{ inputs.max_tickers }}
+      INPUT_TARGET_SOURCE: ${{ inputs.target_source }}
+      INPUT_SCREENER_FILE: ${{ inputs.screener_file }}
       INPUT_UNIVERSE_FILE: ${{ inputs.universe_file }}
       INPUT_ALLOW_ALL_SEC_TICKERS: ${{ inputs.allow_all_sec_tickers }}
       INPUT_WORKERS: ${{ inputs.workers }}
@@ -147,6 +157,8 @@ jobs:
           set -euo pipefail
           USER_AGENT="${SEC_USER_AGENT:-github-stock-collector ${GITHUB_REPOSITORY}}"
           START_DATE="${INPUT_START_DATE:-${STOCK_PRICE_START_DATE:-}}"
+          TARGET_SOURCE="${INPUT_TARGET_SOURCE:-nasdaq-screener}"
+          SCREENER_FILE="${INPUT_SCREENER_FILE:-data/nasdaq/screener/stocks.jsonl}"
           UNIVERSE_FILE="${INPUT_UNIVERSE_FILE:-data/universe/collectable_tickers.jsonl}"
           REQUEST_DELAY="${INPUT_REQUEST_DELAY:-${PRICE_REQUEST_DELAY:-2s}}"
           WORKERS="${INPUT_WORKERS:-4}"
@@ -155,7 +167,7 @@ jobs:
           BATCH_SIZE="${INPUT_BATCH_SIZE:-500}"
           MAX_RUNTIME_MINUTES="${INPUT_MAX_RUNTIME_MINUTES:-330}"
           GRACEFUL_STOP_MINUTES="${INPUT_GRACEFUL_STOP_MINUTES:-10}"
-          ARGS=(--sec-user-agent "${USER_AGENT}" --data-dir data/prices --universe-file "${UNIVERSE_FILE}" --workers "${WORKERS}" --shard-count "${SHARD_COUNT}" --shard-index "${SHARD_INDEX}" --batch-size "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --graceful-stop-minutes "${GRACEFUL_STOP_MINUTES}")
+          ARGS=(--sec-user-agent "${USER_AGENT}" --data-dir data/prices --target-source "${TARGET_SOURCE}" --screener-file "${SCREENER_FILE}" --universe-file "${UNIVERSE_FILE}" --workers "${WORKERS}" --shard-count "${SHARD_COUNT}" --shard-index "${SHARD_INDEX}" --batch-size "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --graceful-stop-minutes "${GRACEFUL_STOP_MINUTES}")
 
           if [ -n "${START_DATE}" ]; then
             ARGS+=(--start-date "${START_DATE}")

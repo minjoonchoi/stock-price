@@ -1,11 +1,22 @@
 package main
 
 import (
+	"bytes"
+	"context"
+	"io"
+	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 	"time"
 )
+
+type roundTripFunc func(*http.Request) (*http.Response, error)
+
+func (f roundTripFunc) RoundTrip(request *http.Request) (*http.Response, error) {
+	return f(request)
+}
 
 func TestParseOptionsRequiresUserAgent(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "")
@@ -27,6 +38,8 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 		"--max-tickers", "2",
 		"--workers", "4",
 		"--sleep-ms", "250",
+		"--target-source", "collectable-universe",
+		"--screener-file", "tmp/nasdaq/stocks.jsonl",
 		"--universe-file", "tmp/universe/collectable_tickers.jsonl",
 		"--allow-all-sec-tickers",
 		"--force-backfill",
@@ -59,6 +72,12 @@ func TestParseOptionsReadsFlagsAndTickerList(t *testing.T) {
 	}
 	if options.universeFile != "tmp/universe/collectable_tickers.jsonl" {
 		t.Fatalf("universeFile = %q", options.universeFile)
+	}
+	if options.targetSource != "collectable-universe" {
+		t.Fatalf("targetSource = %q", options.targetSource)
+	}
+	if options.screenerFile != "tmp/nasdaq/stocks.jsonl" {
+		t.Fatalf("screenerFile = %q", options.screenerFile)
 	}
 	if !options.allowAllSECTickers {
 		t.Fatal("expected allowAllSECTickers to be true")
@@ -172,21 +191,105 @@ func TestCollectPricesWorkflowDeclaresLongRunningControls(t *testing.T) {
 	}
 }
 
-func TestParseOptionsDefaultsUniverseFilterToRequiredFile(t *testing.T) {
+func TestParseOptionsDefaultsTargetSourceToNasdaqScreener(t *testing.T) {
 	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
 
 	options, err := parseOptions(nil)
 	if err != nil {
 		t.Fatalf("parseOptions() error = %v", err)
 	}
-	if options.universeFile != "data/universe/collectable_tickers.jsonl" {
-		t.Fatalf("universeFile = %q", options.universeFile)
+	if options.targetSource != "nasdaq-screener" {
+		t.Fatalf("targetSource = %q", options.targetSource)
+	}
+	if options.screenerFile != "data/nasdaq/screener/stocks.jsonl" {
+		t.Fatalf("screenerFile = %q", options.screenerFile)
 	}
 	if options.allowAllSECTickers {
 		t.Fatal("allowAllSECTickers should default false")
 	}
 	if options.workers != 4 {
 		t.Fatalf("workers = %d", options.workers)
+	}
+}
+
+func TestParseOptionsRejectsUnknownTargetSource(t *testing.T) {
+	t.Setenv("SEC_USER_AGENT", "github-stock-collector test@example.com")
+
+	_, err := parseOptions([]string{"--target-source", "unknown"})
+	if err == nil {
+		t.Fatal("expected invalid target source error")
+	}
+}
+
+func TestCollectPricesWorkflowDefaultsToNasdaqScreenerTargets(t *testing.T) {
+	raw, err := os.ReadFile("../../.github/workflows/collect-prices.yml")
+	if err != nil {
+		t.Fatalf("ReadFile(collect-prices.yml) error = %v", err)
+	}
+	workflow := string(raw)
+	for _, expected := range []string{
+		"target_source:",
+		"INPUT_TARGET_SOURCE",
+		`TARGET_SOURCE="${INPUT_TARGET_SOURCE:-nasdaq-screener}"`,
+		`SCREENER_FILE="${INPUT_SCREENER_FILE:-data/nasdaq/screener/stocks.jsonl}"`,
+		`--target-source "${TARGET_SOURCE}"`,
+		`--screener-file "${SCREENER_FILE}"`,
+	} {
+		if !strings.Contains(workflow, expected) {
+			t.Fatalf("workflow missing %s", expected)
+		}
+	}
+}
+
+func TestCompaniesForRunDefaultsToNasdaqScreenerIntersection(t *testing.T) {
+	root := t.TempDir()
+	screenerFile := filepath.Join(root, "stocks.jsonl")
+	if err := os.WriteFile(screenerFile, []byte(`
+{"symbol":"AAPL","name":"Apple from Nasdaq","marketCap":3500000000000,"recommendationFilter":"strong_buy|buy","source":"nasdaq"}
+{"symbol":"BRK/B","name":"Berkshire from Nasdaq","marketCap":900000000000,"recommendationFilter":"buy","source":"nasdaq"}
+{"symbol":"NOTSEC","name":"Not in SEC","marketCap":1000000000,"recommendationFilter":"buy","source":"nasdaq"}
+`), 0o644); err != nil {
+		t.Fatalf("WriteFile() error = %v", err)
+	}
+
+	options, err := parseOptions([]string{
+		"--sec-user-agent", "github-stock-collector test@example.com",
+		"--screener-file", screenerFile,
+	})
+	if err != nil {
+		t.Fatalf("parseOptions() error = %v", err)
+	}
+
+	httpClient := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
+		return &http.Response{
+			StatusCode: http.StatusOK,
+			Status:     "200 OK",
+			Header:     make(http.Header),
+			Body: io.NopCloser(bytes.NewBufferString(`{
+				"1":{"cik_str":320193,"ticker":"AAPL","title":"Apple Inc."},
+				"2":{"cik_str":1067983,"ticker":"BRK.B","title":"Berkshire Hathaway Inc."},
+				"3":{"cik_str":1,"ticker":"SECONLY","title":"SEC Only Inc."}
+			}`)),
+			Request: request,
+		}, nil
+	})}
+
+	selection, err := companiesForRun(context.Background(), options, httpClient, nil)
+	if err != nil {
+		t.Fatalf("companiesForRun() error = %v", err)
+	}
+
+	if selection.targetSource != "nasdaq-screener" {
+		t.Fatalf("targetSource = %q", selection.targetSource)
+	}
+	if selection.filter.SECTickersTotal != 3 || selection.filter.UniverseTickersTotal != 3 || selection.filter.FinalTargetTickers != 2 || selection.filter.ExcludedByUniverseFilter != 1 {
+		t.Fatalf("filter = %+v", selection.filter)
+	}
+	if len(selection.companies) != 2 || selection.companies[0].Ticker != "AAPL" || selection.companies[1].Ticker != "BRK.B" {
+		t.Fatalf("companies = %+v", selection.companies)
+	}
+	if selection.universeHash == "" {
+		t.Fatal("expected target hash")
 	}
 }
 

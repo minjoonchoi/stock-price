@@ -2,13 +2,13 @@
 
 Go-based US stock price collection for GitHub Actions.
 
-The repository keeps a market-cap filtered ticker universe and then collects daily prices only for:
+The repository collects Nasdaq Screener stocks and then collects daily prices only for:
 
 ```text
-SEC company_tickers ∩ data/universe/collectable_tickers.jsonl
+SEC company_tickers ∩ data/nasdaq/screener/stocks.jsonl
 ```
 
-This avoids fetching prices for every SEC ticker on every run.
+The Nasdaq Screener workflow filters for United States mega/large/mid market cap stocks with strong_buy or buy recommendations before price collection runs.
 
 ## Structure
 
@@ -18,6 +18,10 @@ data/
     collectable_tickers.jsonl
     collectable_tickers.meta.json
     excluded_tickers.jsonl
+  nasdaq/
+    screener/
+      stocks.jsonl
+      stocks.meta.json
   state/
     update-universe.state.json
     collect-prices.state.json
@@ -41,9 +45,9 @@ scripts/
   collect-nasdaq-screener.yml
 ```
 
-## Update Universe
+## Update Legacy Market-Cap Universe
 
-`update-universe` downloads the SEC ticker list, queries Yahoo Finance market cap, writes collectable tickers sorted by market cap descending, writes excluded tickers sorted by ticker, and updates meta.
+`update-universe` downloads the SEC ticker list, queries Yahoo Finance market cap, writes collectable tickers sorted by market cap descending, writes excluded tickers sorted by ticker, and updates meta. This legacy universe is still available with `collect-prices --target-source collectable-universe`, but it is no longer the default price target source.
 
 ```bash
 go run ./scripts/update-universe \
@@ -72,12 +76,13 @@ Long universe updates are resumable. Each run stores progress in `data/state/upd
 
 ## Collect Prices
 
-`collect-prices` downloads the SEC ticker list, reads `data/universe/collectable_tickers.jsonl`, computes the intersection, and collects prices only for the final target list. Daily price history and corporate actions are collected from Yahoo Finance Chart JSON only.
+`collect-prices` downloads the SEC ticker list, reads `data/nasdaq/screener/stocks.jsonl`, computes the intersection by normalized ticker key, and collects prices only for the final target list. Screener-only symbols that are not present in SEC `company_tickers.json` are excluded, and SEC tickers that are not present in the screener file are excluded. Daily price history and corporate actions are collected from Yahoo Finance Chart JSON only.
 
 ```bash
 go run ./scripts/collect-prices \
   --data-dir data/prices \
-  --universe-file data/universe/collectable_tickers.jsonl \
+  --target-source nasdaq-screener \
+  --screener-file data/nasdaq/screener/stocks.jsonl \
   --allow-all-sec-tickers false \
   --start-date 2020-01-01 \
   --max-tickers 0 \
@@ -89,13 +94,13 @@ go run ./scripts/collect-prices \
   --sec-user-agent "github-stock-collector your@email.com"
 ```
 
-If the universe file is missing, the command fails with:
+If the Nasdaq screener file is missing, the command fails with:
 
 ```text
-collectable_tickers.jsonl not found. Run update-universe workflow first.
+nasdaq screener stocks.jsonl not found. Run collect-nasdaq-screener workflow first.
 ```
 
-Use `--allow-all-sec-tickers` only for emergency/manual runs that intentionally bypass the market-cap filter.
+Use `--target-source collectable-universe --universe-file data/universe/collectable_tickers.jsonl` to run against the legacy Yahoo market-cap universe. Use `--allow-all-sec-tickers` only for emergency/manual runs that intentionally bypass the target filter.
 
 Price collection is also resumable. Each run stores `data/state/collect-prices.state.json`, advances the cursor after each ticker, and exits successfully on partial completion when the batch size or runtime budget is reached.
 
@@ -129,7 +134,7 @@ When a ticker is new, incomplete, stale, missing hashes, missing actions, or due
 - Runs Tue-Sat UTC 01:00..17:00 every 2 hours.
 - With the default `batch_size=500`, the daily cursor window can advance about 4,500 tickers.
 - Supports manual `workflow_dispatch`.
-- Reads `data/universe/collectable_tickers.jsonl` by default.
+- Reads `data/nasdaq/screener/stocks.jsonl` by default.
 - Uses `timeout-minutes: 350`.
 - Commits `data/prices`, `data/actions`, and `data/state` only when files change.
 - Commit message: `chore(data): append daily yahoo prices`.
