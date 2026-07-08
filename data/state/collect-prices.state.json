@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-07-07",
-  "totalTargets": 1502,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "ONB",
-  "cursorIndex": 1000,
+  "runId": "2026-07-08",
+  "totalTargets": 1511,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EXR",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:76c0de5823e1362eb29a6dc9c93aba1b4a2eaadff9b31e6e0c91d0734594ec90",
-  "universeHash": "sha256:e5a734666cb49a7d2223eaa49d6f3b5a44ae90415dac8dab65f6e1694c7d2ed0",
+  "secTickerHash": "sha256:712f38a74aa1143fa9e94f12cb0abb0c1b18bfc3f37dd6e3b043942755c2c314",
+  "universeHash": "sha256:bc0b891300f97afa22d5eee16fe8f92db0f6aa80359d35ba6ab3cc71fca8a7c9",
   "shardCount": 1,
-  "startedAt": "2026-07-07T15:48:06Z",
-  "updatedAt": "2026-07-07T19:08:27Z"
+  "startedAt": "2026-07-08T04:19:01Z",
+  "updatedAt": "2026-07-08T04:35:43Z"
 }
