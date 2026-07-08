@@ -2,14 +2,14 @@
   "ticker": "MRP",
   "source": "yahoo",
   "firstDate": "2025-02-05",
-  "lastDate": "2026-07-06",
-  "records": 354,
+  "lastDate": "2026-07-07",
+  "records": 355,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1d6adc65a65a48241e18db46954e4c2cec9e2aac104b658d4e8aa460a9b7e615",
-  "priceDataHash": "sha256:ea816ea3cf252d6d57f70e2d477c8ffa0f92d55f3a8fd61e170a4222ae19cf22",
+  "priceDataHash": "sha256:ff03e6d207e6525a18a612e798c3cfd52a2f06d7706e532cbdab72bb328ac4fc",
   "lastFullValidationAt": "2026-07-07T13:56:23Z",
-  "updatedAt": "2026-07-07T13:56:23Z"
+  "updatedAt": "2026-07-08T07:48:40Z"
 }
