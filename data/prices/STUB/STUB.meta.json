@@ -2,14 +2,14 @@
   "ticker": "STUB",
   "source": "yahoo",
   "firstDate": "2025-09-17",
-  "lastDate": "2026-07-06",
-  "records": 200,
+  "lastDate": "2026-07-07",
+  "records": 201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2c0120921acd6b28e05045f01ea6075063db0b95931b54a7ac89ce5adbdc2761",
+  "priceDataHash": "sha256:fa88c2b808edfc8740703d84ebbb5b905d3819600b85057d205a520d1052bf62",
   "lastFullValidationAt": "2026-07-07T14:21:59Z",
-  "updatedAt": "2026-07-07T14:21:59Z"
+  "updatedAt": "2026-07-08T11:17:48Z"
 }

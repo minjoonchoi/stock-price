@@ -2,14 +2,14 @@
   "ticker": "RMBS",
   "source": "yahoo",
   "firstDate": "1997-05-14",
-  "lastDate": "2026-07-06",
-  "records": 7330,
+  "lastDate": "2026-07-07",
+  "records": 7331,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-06-15",
   "lastSplitDate": "2000-06-15",
   "corporateActionHash": "sha256:ce68bdf47e1482001ce2687d48c67a76fdef9a9e9e4d9f60810b52fcd8b08783",
-  "priceDataHash": "sha256:0b16c4e56cf9e310a413226fd54788848a47b4dbb5deb4e4ca4aeee48b6b43b2",
+  "priceDataHash": "sha256:63b72fb26149ea090176615057c8fa991af70213b96a0bafc6739ddae7847157",
   "lastFullValidationAt": "2026-07-07T14:14:11Z",
-  "updatedAt": "2026-07-07T14:14:11Z"
+  "updatedAt": "2026-07-08T11:13:42Z"
 }

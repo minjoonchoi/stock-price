@@ -2,14 +2,14 @@
   "ticker": "UFPI",
   "source": "yahoo",
   "firstDate": "1993-11-10",
-  "lastDate": "2026-07-06",
-  "records": 8189,
+  "lastDate": "2026-07-07",
+  "records": 8190,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-03-02",
   "lastSplitDate": "2017-11-15",
   "corporateActionHash": "sha256:5c8ce550dd9fccbb3b598387fe8f616de5fdfedf08aaaae9e093c9153baee2ac",
-  "priceDataHash": "sha256:55dd47f0b548b164f60c837188b74f99c9b812bff1736623fc50f507fefcd692",
+  "priceDataHash": "sha256:fee8f0c86d394ebd7b3980231210c84ecd68536cf00c978569b3aba60ba6dbc8",
   "lastFullValidationAt": "2026-07-07T14:28:15Z",
-  "updatedAt": "2026-07-07T14:28:15Z"
+  "updatedAt": "2026-07-08T11:21:00Z"
 }

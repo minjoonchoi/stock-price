@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-08",
   "totalTargets": 1511,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "OMF",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "YUM",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:712f38a74aa1143fa9e94f12cb0abb0c1b18bfc3f37dd6e3b043942755c2c314",
   "universeHash": "sha256:bc0b891300f97afa22d5eee16fe8f92db0f6aa80359d35ba6ab3cc71fca8a7c9",
   "shardCount": 1,
   "startedAt": "2026-07-08T04:19:01Z",
-  "updatedAt": "2026-07-08T07:52:22Z"
+  "updatedAt": "2026-07-08T11:25:20Z"
 }
