@@ -2,14 +2,14 @@
   "ticker": "BC",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-07-07",
-  "records": 11112,
+  "lastDate": "2026-07-08",
+  "records": 11113,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-18",
   "lastSplitDate": "1987-06-10",
   "corporateActionHash": "sha256:a9a86baf3328a2cf52574650b3282ff909091261bc3c1eea9d881d747553e694",
-  "priceDataHash": "sha256:f5f54253f170ead67ff4385caa5ef9061b4847e05f084b1f1c01972147109c88",
+  "priceDataHash": "sha256:e885b087ca8e8b6fcae767f7c12a7ee26f7639a0b7826cc991de150fe736914d",
   "lastFullValidationAt": "2026-07-07T13:08:27Z",
-  "updatedAt": "2026-07-08T04:24:41Z"
+  "updatedAt": "2026-07-09T05:05:05Z"
 }

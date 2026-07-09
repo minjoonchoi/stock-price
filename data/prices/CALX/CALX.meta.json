@@ -2,14 +2,14 @@
   "ticker": "CALX",
   "source": "yahoo",
   "firstDate": "2010-03-24",
-  "lastDate": "2026-07-07",
-  "records": 4096,
+  "lastDate": "2026-07-08",
+  "records": 4097,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:041397f5d3f84e64b1bf114aa9abe86e24b5b2bbe0c3b204a9f2602837655984",
+  "priceDataHash": "sha256:92df751adf6b0e36bdf15df908e0febc849f842106f1f189460d02e4287aff2e",
   "lastFullValidationAt": "2026-07-07T13:13:27Z",
-  "updatedAt": "2026-07-08T04:27:11Z"
+  "updatedAt": "2026-07-09T05:07:35Z"
 }

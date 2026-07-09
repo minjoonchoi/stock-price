@@ -2,14 +2,14 @@
   "ticker": "AEP",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-07-07",
-  "records": 16046,
+  "lastDate": "2026-07-08",
+  "records": 16047,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-08",
   "lastSplitDate": "1962-10-31",
   "corporateActionHash": "sha256:f2e006932b20a5b509b4b922f86cad3d6506c4a62663cd7c1389e29d152281bb",
-  "priceDataHash": "sha256:2ad6d3b91d396751e4744313956394ea6337da4dd06e45180acfd6bec1ab6615",
+  "priceDataHash": "sha256:cd9d9bc253c200dcab8c4b530de011aebd95fa7eff70876bc7f388bf853bc65c",
   "lastFullValidationAt": "2026-07-07T12:59:56Z",
-  "updatedAt": "2026-07-08T04:20:21Z"
+  "updatedAt": "2026-07-09T05:00:47Z"
 }

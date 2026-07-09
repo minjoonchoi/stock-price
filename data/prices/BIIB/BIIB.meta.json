@@ -2,14 +2,14 @@
   "ticker": "BIIB",
   "source": "yahoo",
   "firstDate": "1991-09-17",
-  "lastDate": "2026-07-07",
-  "records": 8762,
+  "lastDate": "2026-07-08",
+  "records": 8763,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2001-01-18",
   "lastSplitDate": "2001-01-18",
   "corporateActionHash": "sha256:238fc480668843fc6cf5c64d464d92a837ce57dcffc9ea262dadf0991eb5d317",
-  "priceDataHash": "sha256:5c86990babeae9cedaa4c7231a3ab5f8cc79800e00f9f1bfb93f488e14566a0c",
+  "priceDataHash": "sha256:7f8352fb2c4d0184ca752422a3ef8bd2588952de53d72a6a41729a96b3f93475",
   "lastFullValidationAt": "2026-07-07T13:09:47Z",
-  "updatedAt": "2026-07-08T04:25:21Z"
+  "updatedAt": "2026-07-09T05:05:45Z"
 }
