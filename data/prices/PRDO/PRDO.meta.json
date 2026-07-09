@@ -2,14 +2,14 @@
   "ticker": "PRDO",
   "source": "yahoo",
   "firstDate": "1998-01-29",
-  "lastDate": "2026-07-07",
-  "records": 7152,
+  "lastDate": "2026-07-08",
+  "records": 7153,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-03-02",
   "lastSplitDate": "2003-08-25",
   "corporateActionHash": "sha256:aa01bfeaa867c35731aae9d9012a151a4a682432fa20316eaa21ae026fd71ee8",
-  "priceDataHash": "sha256:82c2c0369de03d0398e39efa524c9fcf1b53af868d66e84aaadc9b9ecf47358d",
+  "priceDataHash": "sha256:c651e6467ea0e09e52f7c4df58e9cb88d04152582998714f196faa68b8c3e2df",
   "lastFullValidationAt": "2026-07-07T14:09:55Z",
-  "updatedAt": "2026-07-08T11:11:34Z"
+  "updatedAt": "2026-07-09T12:10:40Z"
 }

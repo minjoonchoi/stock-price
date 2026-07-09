@@ -2,14 +2,14 @@
   "ticker": "SAH",
   "source": "yahoo",
   "firstDate": "1997-11-12",
-  "lastDate": "2026-07-07",
-  "records": 7179,
+  "lastDate": "2026-07-08",
+  "records": 7180,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "1999-01-26",
   "corporateActionHash": "sha256:79bb40d6e2096941aefbf7220a884b69d0c4f0c3d2a2f971ad53b9de35484023",
-  "priceDataHash": "sha256:f8b8295b1583d181751e9f27f63f4301910d0162844552d9e0345944cb9d49ed",
+  "priceDataHash": "sha256:aff4401c698a7885c49d9780abb50921ae9ef0662abae96737ced3fa573dee9d",
   "lastFullValidationAt": "2026-07-07T14:16:23Z",
-  "updatedAt": "2026-07-08T11:14:48Z"
+  "updatedAt": "2026-07-09T12:13:58Z"
 }

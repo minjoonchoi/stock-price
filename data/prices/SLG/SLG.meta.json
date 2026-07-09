@@ -2,14 +2,14 @@
   "ticker": "SLG",
   "source": "yahoo",
   "firstDate": "1997-08-15",
-  "lastDate": "2026-07-07",
-  "records": 7200,
+  "lastDate": "2026-07-08",
+  "records": 7201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2022-01-24",
   "corporateActionHash": "sha256:341a11a43523f377955df1a08bf5671983b643fb0b3112d82fedd3bde6db6efc",
-  "priceDataHash": "sha256:e22bf59997a37c848a32dcce4e9b97e9b2de68c9a23a39a334cee361d8dfc2f4",
+  "priceDataHash": "sha256:db0e966faa037401853d68fe62ae82211cef39f4b935bc04c63aee74ac51efcc",
   "lastFullValidationAt": "2026-07-07T14:18:55Z",
-  "updatedAt": "2026-07-08T11:16:12Z"
+  "updatedAt": "2026-07-09T12:15:18Z"
 }

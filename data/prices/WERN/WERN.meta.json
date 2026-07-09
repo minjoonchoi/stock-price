@@ -2,14 +2,14 @@
   "ticker": "WERN",
   "source": "yahoo",
   "firstDate": "1986-06-20",
-  "lastDate": "2026-07-07",
-  "records": 10079,
+  "lastDate": "2026-07-08",
+  "records": 10080,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2003-10-01",
   "corporateActionHash": "sha256:db57478e71fe24e1d021989206890536c401cc728b7195506a9ab9b0b3eba5fd",
-  "priceDataHash": "sha256:c3c029a0c1296dd11cf85e6ec26c8677a425303da1bb89739f0cfc141ee17c00",
+  "priceDataHash": "sha256:4b3ce0c9251f9b16e482967a845a5e243a0695264db0a799d4f7c6351b450482",
   "lastFullValidationAt": "2026-07-07T14:33:43Z",
-  "updatedAt": "2026-07-08T11:23:48Z"
+  "updatedAt": "2026-07-09T12:22:48Z"
 }
