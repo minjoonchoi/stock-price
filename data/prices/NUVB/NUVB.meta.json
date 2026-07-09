@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1469,
-  "updatedAt": "2026-07-04T17:21:25Z",
-  "source": "yahoo"
+  "ticker": "NUVB",
+  "source": "yahoo",
+  "firstDate": "2020-08-26",
+  "lastDate": "2026-07-08",
+  "records": 1472,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:c97ab01e65facd9f0565640f1e48d7acd48c17b1828c4d747d1bd71cef7c03d0",
+  "lastFullValidationAt": "2026-07-09T08:47:21Z",
+  "updatedAt": "2026-07-09T08:47:21Z"
 }

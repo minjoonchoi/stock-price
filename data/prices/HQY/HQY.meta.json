@@ -2,14 +2,14 @@
   "ticker": "HQY",
   "source": "yahoo",
   "firstDate": "2014-07-31",
-  "lastDate": "2026-07-07",
-  "records": 3000,
+  "lastDate": "2026-07-08",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:0125502aeaa40d4f4347dcf3e1fbb9cc5cbb9a8e04e0f9bfdf393e8076cbf1ae",
+  "priceDataHash": "sha256:eec82efebd64ab8a0bf2a601e32be5d01f4dd41353fcbb3dfde4601692c7e059",
   "lastFullValidationAt": "2026-07-07T13:40:51Z",
-  "updatedAt": "2026-07-08T07:40:50Z"
+  "updatedAt": "2026-07-09T08:36:49Z"
 }

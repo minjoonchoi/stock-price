@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2056,
-  "updatedAt": "2026-07-04T17:13:41Z",
-  "source": "yahoo"
+  "ticker": "GSHD",
+  "source": "yahoo",
+  "firstDate": "2018-04-27",
+  "lastDate": "2026-07-08",
+  "records": 2059,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2025-01-21",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:82b34f4f59fde40fa66da7e658e28b43f77aa4227ba2b76a9859694b30ca7e32",
+  "priceDataHash": "sha256:5553997aa81b69ffd9a628631d5cb5f5f6a0a8e31123e662c736bd80f1699a4d",
+  "lastFullValidationAt": "2026-07-09T08:35:21Z",
+  "updatedAt": "2026-07-09T08:35:21Z"
 }
