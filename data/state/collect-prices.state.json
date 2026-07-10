@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-10",
   "totalTargets": 1516,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EXPO",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "OLLI",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:c5fe16b5bb477c9a8c0e57c3c1a3f81080d8e0133e67e3264b9fb0884d89097a",
   "universeHash": "sha256:0b3e9506c36ad860085c1cacffa943c5d738a011b0d8c25adde32713a4845269",
   "shardCount": 1,
   "startedAt": "2026-07-10T05:02:18Z",
-  "updatedAt": "2026-07-10T05:19:00Z"
+  "updatedAt": "2026-07-10T08:42:32Z"
 }
