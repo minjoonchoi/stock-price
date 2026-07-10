@@ -2,14 +2,14 @@
   "ticker": "CMCSA",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-08",
-  "records": 11479,
+  "lastDate": "2026-07-09",
+  "records": 11480,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2026-01-05",
   "corporateActionHash": "sha256:c83c8b0a7c5b77c1404f0143f105f8a10171b1c7401f750274985da8131a321a",
-  "priceDataHash": "sha256:347c47091e4889fbb81c98366add1a9133088938cbc653ffec1addb990353c2b",
+  "priceDataHash": "sha256:0fe00ed09baa546526b8afcb5d80e3d5a917127d6f9b109884e98739311be5c7",
   "lastFullValidationAt": "2026-07-07T13:17:23Z",
-  "updatedAt": "2026-07-09T05:09:33Z"
+  "updatedAt": "2026-07-10T05:12:28Z"
 }

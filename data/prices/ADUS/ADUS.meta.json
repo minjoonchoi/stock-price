@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 4194,
-  "updatedAt": "2026-07-04T17:01:29Z",
-  "source": "yahoo"
+  "ticker": "ADUS",
+  "source": "yahoo",
+  "firstDate": "2009-10-28",
+  "lastDate": "2026-07-09",
+  "records": 4198,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:a1e224dffe0fb416a90a0ba419f17a80a0438d37605083fb0a046929dab434aa",
+  "lastFullValidationAt": "2026-07-10T05:03:32Z",
+  "updatedAt": "2026-07-10T05:03:32Z"
 }
