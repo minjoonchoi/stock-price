@@ -2,14 +2,14 @@
   "ticker": "PNFP",
   "source": "yahoo",
   "firstDate": "2000-08-22",
-  "lastDate": "2026-07-08",
-  "records": 6500,
+  "lastDate": "2026-07-09",
+  "records": 6501,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-01",
   "lastSplitDate": "2004-05-11",
   "corporateActionHash": "sha256:463be3ff0b12c698049c7ad298e94427051d96c00d6e5870231029db3a196d55",
-  "priceDataHash": "sha256:15888222dbc3fbbccd903bf611d9d3a652c1a224f62e79d75fd000d7159e8752",
+  "priceDataHash": "sha256:e29e17cf0da76ea1c38841b1d092d07098c6be79826eab8cb6b628bf41ec529f",
   "lastFullValidationAt": "2026-07-07T14:09:03Z",
-  "updatedAt": "2026-07-09T12:10:14Z"
+  "updatedAt": "2026-07-10T12:01:53Z"
 }
