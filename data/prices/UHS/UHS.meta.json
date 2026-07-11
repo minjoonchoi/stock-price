@@ -2,14 +2,14 @@
   "ticker": "UHS",
   "source": "yahoo",
   "firstDate": "1981-07-09",
-  "lastDate": "2026-07-09",
-  "records": 11330,
+  "lastDate": "2026-07-10",
+  "records": 11331,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2009-12-16",
   "corporateActionHash": "sha256:0c36ccaf5bdda4ac2394cf0224eac60bb56138644e7cbc9ab8dd2da019365754",
-  "priceDataHash": "sha256:4b93215e5f61f9bee8380a8e109442977d10008ad0de2daec0fef14ef2e87e72",
+  "priceDataHash": "sha256:db796d0604af93aa7cc8ff2bf590509c1483b9a6b22da0a480b00f0e89ca28cc",
   "lastFullValidationAt": "2026-07-07T14:28:27Z",
-  "updatedAt": "2026-07-10T12:11:45Z"
+  "updatedAt": "2026-07-11T10:31:41Z"
 }
