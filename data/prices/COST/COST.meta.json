@@ -2,14 +2,14 @@
   "ticker": "COST",
   "source": "yahoo",
   "firstDate": "1986-07-09",
-  "lastDate": "2026-07-09",
-  "records": 10020,
+  "lastDate": "2026-07-10",
+  "records": 10021,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-01",
   "lastSplitDate": "2000-01-14",
   "corporateActionHash": "sha256:a5b89267cadf99e208e2fe71b7a5a4ed7b56e3f0abc88d68ea9d138aae30d21a",
-  "priceDataHash": "sha256:75cb8aa633ded67c012f696d686cb01291c59677913ac7e350a36abf908e0d0a",
+  "priceDataHash": "sha256:0cd56fe2803aa69d19f043e6eba09840141bae8ccbd649b95987ac60f579e1fe",
   "lastFullValidationAt": "2026-07-07T13:19:15Z",
-  "updatedAt": "2026-07-10T05:13:24Z"
+  "updatedAt": "2026-07-11T04:27:01Z"
 }

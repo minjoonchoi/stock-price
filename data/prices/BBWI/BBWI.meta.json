@@ -2,14 +2,14 @@
   "ticker": "BBWI",
   "source": "yahoo",
   "firstDate": "1982-04-01",
-  "lastDate": "2026-07-09",
-  "records": 11061,
+  "lastDate": "2026-07-10",
+  "records": 11062,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2021-08-03",
   "corporateActionHash": "sha256:2ec32baf9b208265974a01a6ddc346555d8f0779546a1357d5cbfc787e2f0532",
-  "priceDataHash": "sha256:89bf97d97c44c766536f06e88e824260c20967eb2e24b6dc78e7ad24f60b4f67",
+  "priceDataHash": "sha256:57e6121cee0f7b816c9bebd7f5762ac69713d9d374e214f64bf29379779dff37",
   "lastFullValidationAt": "2026-07-07T13:08:19Z",
-  "updatedAt": "2026-07-10T05:07:56Z"
+  "updatedAt": "2026-07-11T04:21:29Z"
 }

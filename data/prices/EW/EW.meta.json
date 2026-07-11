@@ -2,14 +2,14 @@
   "ticker": "EW",
   "source": "yahoo",
   "firstDate": "2000-03-27",
-  "lastDate": "2026-07-09",
-  "records": 6610,
+  "lastDate": "2026-07-10",
+  "records": 6611,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-06-01",
   "lastSplitDate": "2020-06-01",
   "corporateActionHash": "sha256:a28f561781aa17748dde7654b28ebd98244df021da3ece114ddba9c1b3e0efd6",
-  "priceDataHash": "sha256:5ca174206f1773b721424fd66f87f878fba9e9cfa4c00a44aa333bfae04e295e",
+  "priceDataHash": "sha256:e1bd884b1c6eeac6043f66f694612d3f692ca0519a1bceeedf8f021adeb5a52d",
   "lastFullValidationAt": "2026-07-07T13:29:51Z",
-  "updatedAt": "2026-07-10T05:18:42Z"
+  "updatedAt": "2026-07-11T04:32:19Z"
 }
