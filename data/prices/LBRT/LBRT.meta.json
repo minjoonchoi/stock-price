@@ -2,14 +2,14 @@
   "ticker": "LBRT",
   "source": "yahoo",
   "firstDate": "2018-01-11",
-  "lastDate": "2026-07-10",
-  "records": 2134,
+  "lastDate": "2026-07-13",
+  "records": 2135,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-04",
+  "lastCorporateActionDate": "2026-06-04",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:7dbfe58c963b7a23ab2dbde60b9942ad709195d95698c01eb3a63111fb71d559",
-  "priceDataHash": "sha256:3a037b750e5be6d515b1e7bb5f4609f3993e8e004829babeb8b84bfbfc85818f",
-  "lastFullValidationAt": "2026-07-07T13:48:43Z",
-  "updatedAt": "2026-07-11T07:26:14Z"
+  "corporateActionHash": "sha256:9e392db100d430a940f8f4185d3abcf3e882926188aaafd46b7f8cd9ddd8ea4d",
+  "priceDataHash": "sha256:be2f748aa764178541a7282e381cd44d7df51297bd00f5440005c4f17129a3dc",
+  "lastFullValidationAt": "2026-07-14T16:38:12Z",
+  "updatedAt": "2026-07-14T16:38:12Z"
 }

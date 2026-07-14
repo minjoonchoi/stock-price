@@ -2,14 +2,14 @@
   "ticker": "IEX",
   "source": "yahoo",
   "firstDate": "1989-06-02",
-  "lastDate": "2026-07-10",
-  "records": 9166,
+  "lastDate": "2026-07-13",
+  "records": 9164,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2007-05-22",
   "corporateActionHash": "sha256:8b5c2bc67c94aab4db4da8b0bbf2c262e9d76e082effdc7ab34a88a4c8fb4224",
-  "priceDataHash": "sha256:7d6fffe490d03d240daeb6a5e52a82e673d80483095ec202dfb238d3264a0b9c",
-  "lastFullValidationAt": "2026-07-07T13:43:07Z",
-  "updatedAt": "2026-07-11T07:23:26Z"
+  "priceDataHash": "sha256:0df46b03772eaad7f2b3b75e167753d6d58775af3d8c2714ea2c15561f3efdd9",
+  "lastFullValidationAt": "2026-07-14T16:32:36Z",
+  "updatedAt": "2026-07-14T16:32:36Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "NIC",
   "source": "yahoo",
   "firstDate": "2013-05-17",
-  "lastDate": "2026-07-10",
-  "records": 3306,
+  "lastDate": "2026-07-13",
+  "records": 3307,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:c2013d2f73a8cd5c628a1cf04d906ff64b2c5952bad1e7215fb5a888744667c6",
-  "priceDataHash": "sha256:af3c918959c14fa0662e20a03c834df510df0b2134660090f31cd17e64ddc070",
-  "lastFullValidationAt": "2026-07-07T13:59:43Z",
-  "updatedAt": "2026-07-11T07:31:44Z"
+  "corporateActionHash": "sha256:e9fb8e55ce9f1108c840500c486cc91c84f729a14be25bdbe49d3cc42ef163bf",
+  "priceDataHash": "sha256:3afa8972420b4f824b506a4a7189475a0d993de6512a392d44836cc840b9a1a1",
+  "lastFullValidationAt": "2026-07-14T16:49:10Z",
+  "updatedAt": "2026-07-14T16:49:10Z"
 }

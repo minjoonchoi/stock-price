@@ -2,14 +2,14 @@
   "ticker": "HD",
   "source": "yahoo",
   "firstDate": "1981-09-22",
-  "lastDate": "2026-07-10",
-  "records": 11066,
+  "lastDate": "2026-07-13",
+  "records": 11049,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-12",
+  "lastCorporateActionDate": "2026-06-04",
   "lastSplitDate": "1999-12-31",
-  "corporateActionHash": "sha256:9df805af4d02092a685c73b75c896b1fd31a03d3be66f741fba986cf3b5bbcd9",
-  "priceDataHash": "sha256:7d3017f35c5b06c8381283f06bf0438344957f4eaad4db694b312935e0271cb1",
-  "lastFullValidationAt": "2026-07-07T13:39:15Z",
-  "updatedAt": "2026-07-11T07:21:30Z"
+  "corporateActionHash": "sha256:820ecfb8d14142b66f858c6d7265db3b3e5a60509f632b6e69bb427904d478ab",
+  "priceDataHash": "sha256:d31a5f6d1951eb2b50f58ffbc9a8e7910a8b2d447d628372b3181492e849f166",
+  "lastFullValidationAt": "2026-07-14T16:28:40Z",
+  "updatedAt": "2026-07-14T16:28:40Z"
 }

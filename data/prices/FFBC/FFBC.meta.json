@@ -2,14 +2,14 @@
   "ticker": "FFBC",
   "source": "yahoo",
   "firstDate": "1983-12-21",
-  "lastDate": "2026-07-10",
-  "records": 10466,
+  "lastDate": "2026-07-13",
+  "records": 10514,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2001-03-07",
-  "corporateActionHash": "sha256:653ddc74bc2c976dc5257ea0b20136d657d9f8f72bde69a577f9ad1e9044d59c",
-  "priceDataHash": "sha256:7c0c0bde072df072336ea4e3f0aca096a554036909c998fecbe33c6f3196c82d",
-  "lastFullValidationAt": "2026-07-07T13:31:59Z",
-  "updatedAt": "2026-07-11T07:17:48Z"
+  "corporateActionHash": "sha256:6444253cfe37968bc6d490bd5c418deea517cf83715e2b80923682161b5070fb",
+  "priceDataHash": "sha256:f9e9628b0f7f53bd86a08392b398fe99332895f8faa81496e9df4c0c15c26a3c",
+  "lastFullValidationAt": "2026-07-14T16:21:20Z",
+  "updatedAt": "2026-07-14T16:21:20Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "FUL",
   "source": "yahoo",
-  "firstDate": "1973-02-21",
-  "lastDate": "2026-07-10",
-  "records": 13228,
+  "firstDate": "1973-02-22",
+  "lastDate": "2026-07-13",
+  "records": 13068,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-04-30",
   "lastSplitDate": "2006-08-07",
   "corporateActionHash": "sha256:f3348ab5ffa0e7af8b73faa671c963367c5fa46795328d413ddff69929bf1f8f",
-  "priceDataHash": "sha256:67a03eb5bd31e9aefca5b74dd4d9d4a58cc3d4c466fccc1c41c0693ec17cf1c0",
-  "lastFullValidationAt": "2026-07-07T13:34:51Z",
-  "updatedAt": "2026-07-11T07:19:14Z"
+  "priceDataHash": "sha256:38b96720f828f2c519a49141ad938a18443b95504dfcf89aaa236331ca92e955",
+  "lastFullValidationAt": "2026-07-14T16:24:12Z",
+  "updatedAt": "2026-07-14T16:24:12Z"
 }
