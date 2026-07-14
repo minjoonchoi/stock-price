@@ -2,14 +2,14 @@
   "ticker": "AGM",
   "source": "yahoo",
   "firstDate": "1994-02-10",
-  "lastDate": "2026-07-10",
-  "records": 7889,
+  "lastDate": "2026-07-13",
+  "records": 7890,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "1999-08-02",
   "corporateActionHash": "sha256:fa66954ad36e0ae2f123242cd0ab3ff99c91fb0dbc1830508cc3561c57b02732",
-  "priceDataHash": "sha256:e14ea29a5d477948615520df8e192ff74f59c9e7b0c6ca96063306d74642d8b3",
+  "priceDataHash": "sha256:20883aa3e57540a4f7f6b2ff67950333dfb39b826a2c27642d45d52ab625adf4",
   "lastFullValidationAt": "2026-07-07T13:00:15Z",
-  "updatedAt": "2026-07-11T04:17:25Z"
+  "updatedAt": "2026-07-14T04:01:43Z"
 }
