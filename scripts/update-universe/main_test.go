@@ -141,7 +141,10 @@ func TestUpdateUniverseWorkflowDeclaresManualInputDefaults(t *testing.T) {
 		"default: \"330\"",
 		"graceful_stop_minutes:",
 		"default: \"10\"",
-		"data/universe data/state",
+		"COMMIT_PATHS=()",
+		`[ -e data/universe ] && COMMIT_PATHS+=(data/universe)`,
+		`[ -e data/state ] && COMMIT_PATHS+=(data/state)`,
+		`git add "${COMMIT_PATHS[@]}"`,
 		`cron: "0 21,23 * * 0"`,
 		`cron: "0 1-15/2 * * 1"`,
 	} {
