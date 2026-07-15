@@ -1,15 +1,15 @@
 {
   "ticker": "PRMB",
   "source": "yahoo",
-  "firstDate": "1992-06-17",
-  "lastDate": "2026-07-10",
-  "records": 8553,
+  "firstDate": "1992-06-16",
+  "lastDate": "2026-07-14",
+  "records": 8555,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-06",
+  "lastCorporateActionDate": "2026-06-04",
   "lastSplitDate": "1993-07-26",
-  "corporateActionHash": "sha256:059b7f3ca94cdf550a1d0a3afc9ba0e3e1f58b5e6116d5411ac188bbf5776a07",
-  "priceDataHash": "sha256:adddcb61bfc5ea8a187cdea7a05350e98e1897af09f7ac3db96b275795294e70",
-  "lastFullValidationAt": "2026-07-07T14:10:11Z",
-  "updatedAt": "2026-07-11T10:22:23Z"
+  "corporateActionHash": "sha256:54162fc3e6d79b2ceb816ab5ef42c17781f237aa1cc3d1985706346c4b30c9fd",
+  "priceDataHash": "sha256:1add690d4819ffda1ce9e1cafd532c027d7e783bcc6a2779b91703fbc3bb7bbe",
+  "lastFullValidationAt": "2026-07-15T16:37:12Z",
+  "updatedAt": "2026-07-15T16:37:12Z"
 }

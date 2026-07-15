@@ -2,14 +2,14 @@
   "ticker": "SSNC",
   "source": "yahoo",
   "firstDate": "2010-03-31",
-  "lastDate": "2026-07-10",
-  "records": 4094,
+  "lastDate": "2026-07-14",
+  "records": 4096,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2016-06-27",
-  "corporateActionHash": "sha256:f9ba9460b12f41e10fc7696da5b47b6da065915abdaae3cfbbeb770742f15bf9",
-  "priceDataHash": "sha256:117271ae388d76dfe7c7aa3d9d2961c2d100fb898f83f739a19bc9858af3a20f",
-  "lastFullValidationAt": "2026-07-07T14:21:23Z",
-  "updatedAt": "2026-07-11T10:28:07Z"
+  "corporateActionHash": "sha256:a4c5a8e9bcc624c4e8d5ddb8b96e73e29ab75e8f64ee31b3c53d9c7f2d4535e0",
+  "priceDataHash": "sha256:aa6174e1fb8ed907ed98adb9384709dab4be82cd2eefcca04c3f150a53462df0",
+  "lastFullValidationAt": "2026-07-15T16:48:38Z",
+  "updatedAt": "2026-07-15T16:48:38Z"
 }

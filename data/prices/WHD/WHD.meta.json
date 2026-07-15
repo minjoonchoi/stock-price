@@ -2,14 +2,14 @@
   "ticker": "WHD",
   "source": "yahoo",
   "firstDate": "2018-02-08",
-  "lastDate": "2026-07-10",
-  "records": 2115,
+  "lastDate": "2026-07-14",
+  "records": 2117,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:fd72cb3f592b636a65cb2a2a8fe8a1ccf0636371498876d5aa660d9a7ce7ca50",
-  "priceDataHash": "sha256:945d4e67f2cfa92299ad76818ba4c98ba91102156c810c5db8ecd53d0ce643a3",
-  "lastFullValidationAt": "2026-07-07T14:34:11Z",
-  "updatedAt": "2026-07-11T10:34:35Z"
+  "corporateActionHash": "sha256:0669d6dca638a169244504dc303dc4326595cb5ed4d91379808ca7e370e6dca3",
+  "priceDataHash": "sha256:80a9d15a87e9c2b2212f7187a0977c44c848d9e23d5bb98aad07bfb955ae0333",
+  "lastFullValidationAt": "2026-07-15T17:01:32Z",
+  "updatedAt": "2026-07-15T17:01:32Z"
 }

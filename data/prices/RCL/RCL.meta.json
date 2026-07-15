@@ -2,14 +2,14 @@
   "ticker": "RCL",
   "source": "yahoo",
   "firstDate": "1993-04-28",
-  "lastDate": "2026-07-10",
-  "records": 8331,
+  "lastDate": "2026-07-14",
+  "records": 8330,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-06",
+  "lastCorporateActionDate": "2026-06-03",
   "lastSplitDate": "1998-08-03",
-  "corporateActionHash": "sha256:86200025ab9008f62d5c35f102cdbe2187d85b2840b008a9f8af53513a7de869",
-  "priceDataHash": "sha256:4f1311647a8de86ac438f626e4dbf7aa74a0a6c061c98029381852594842d4dc",
-  "lastFullValidationAt": "2026-07-07T14:12:19Z",
-  "updatedAt": "2026-07-11T10:23:29Z"
+  "corporateActionHash": "sha256:e9e024a3237df83b1e558ea0ddb968c2399ce721f3cf70ba010773f0e72a24f1",
+  "priceDataHash": "sha256:a7a8bb85c660f91112cdc14c829b2af2463dae8f524c559ef0049e8fe91a9cce",
+  "lastFullValidationAt": "2026-07-15T16:39:22Z",
+  "updatedAt": "2026-07-15T16:39:22Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SLGN",
   "source": "yahoo",
   "firstDate": "1997-02-14",
-  "lastDate": "2026-07-10",
-  "records": 7381,
+  "lastDate": "2026-07-14",
+  "records": 7368,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-17",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2017-05-30",
-  "corporateActionHash": "sha256:cca2f235a2b0c06818c8b6421acc96c9e4f4b8b9bc7b4b46e6fb37f034c80bf8",
-  "priceDataHash": "sha256:e904ea7743943107e2caf631ce7c623f8c9aa362fad996859c536065ee7907dc",
-  "lastFullValidationAt": "2026-07-07T14:18:59Z",
-  "updatedAt": "2026-07-11T10:26:53Z"
+  "corporateActionHash": "sha256:5770a65ae309436c064ba97d567dd4fb2a70d3b3f88f479b3017070691bf070c",
+  "priceDataHash": "sha256:208fafb79817a057d18d5cece9424e7d482462a8fac05b0fbf15a35d3b23e6ef",
+  "lastFullValidationAt": "2026-07-15T16:46:10Z",
+  "updatedAt": "2026-07-15T16:46:10Z"
 }

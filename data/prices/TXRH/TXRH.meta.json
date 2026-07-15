@@ -2,14 +2,14 @@
   "ticker": "TXRH",
   "source": "yahoo",
   "firstDate": "2004-10-05",
-  "lastDate": "2026-07-10",
-  "records": 5474,
+  "lastDate": "2026-07-14",
+  "records": 5475,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-17",
+  "lastCorporateActionDate": "2026-06-02",
   "lastSplitDate": "2005-09-26",
-  "corporateActionHash": "sha256:c17d06f7305241b1af8935a8ec462b9fdeb5dcf5586d7cd3f4ebae83e903e905",
-  "priceDataHash": "sha256:43f05d1f36be749a03cc5580c6353f0feb0e15b8bd96de87a89160550be74515",
-  "lastFullValidationAt": "2026-07-07T14:27:31Z",
-  "updatedAt": "2026-07-11T10:31:13Z"
+  "corporateActionHash": "sha256:39199829e7923f7d3ffd9923ffd9d78e5a7c718f1fc7ad6b2a51fd91889cec2f",
+  "priceDataHash": "sha256:4da33060b9e04e84e287d5230d7f950444347199c44466053c09c6332645cf7c",
+  "lastFullValidationAt": "2026-07-15T16:54:50Z",
+  "updatedAt": "2026-07-15T16:54:50Z"
 }

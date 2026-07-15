@@ -1,15 +1,15 @@
 {
   "ticker": "RLI",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-07-10",
-  "records": 11140,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-14",
+  "records": 11187,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2025-01-16",
   "corporateActionHash": "sha256:2a6a48bf28459bebb69b7cbacd783a098629498d004022c82db3e84d39bbf42e",
-  "priceDataHash": "sha256:9a5a8cce8175154c1e4352a00abb6cf61b90e85aa6c0bc1cc810e0ff2f8febb3",
-  "lastFullValidationAt": "2026-07-07T14:14:07Z",
-  "updatedAt": "2026-07-11T10:24:23Z"
+  "priceDataHash": "sha256:5db6def5920c68b0ea29f6e43b7594e26869e3d08758996f676a1955fb6adfec",
+  "lastFullValidationAt": "2026-07-15T16:41:10Z",
+  "updatedAt": "2026-07-15T16:41:10Z"
 }

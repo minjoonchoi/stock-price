@@ -2,14 +2,14 @@
   "ticker": "SEI",
   "source": "yahoo",
   "firstDate": "2017-05-12",
-  "lastDate": "2026-07-10",
-  "records": 2302,
+  "lastDate": "2026-07-14",
+  "records": 2304,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-10",
+  "lastCorporateActionDate": "2026-06-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:73fc32a420ff5bff3ed6b35869da5eec53258f690aa49e6e98beecd8f94be688",
-  "priceDataHash": "sha256:af3f87491e0bf85aa0bc6fa874d635f8dfc305f1c5291fe9fb072b3c26117e03",
-  "lastFullValidationAt": "2026-07-07T14:17:15Z",
-  "updatedAt": "2026-07-11T10:25:57Z"
+  "corporateActionHash": "sha256:57e74d4ad29d0321ee720d47326129affe560be31551399f52f3fb8723001984",
+  "priceDataHash": "sha256:a50d7d7e2df1ec3621197bffa6201e9cd52e9e412a52b45169b7e344de2c05eb",
+  "lastFullValidationAt": "2026-07-15T16:44:18Z",
+  "updatedAt": "2026-07-15T16:44:18Z"
 }

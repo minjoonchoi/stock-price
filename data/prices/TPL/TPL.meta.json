@@ -2,14 +2,14 @@
   "ticker": "TPL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-10",
-  "records": 11413,
+  "lastDate": "2026-07-14",
+  "records": 11402,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2025-12-23",
-  "corporateActionHash": "sha256:faa8f26184f26f946632890e3567ed2764805015e76e48c8eea1ad9581da163c",
-  "priceDataHash": "sha256:e9afbbb0f75ba20c98c0ce24f4e75d767f4b09b1fa298ceaaedc12c38f932796",
-  "lastFullValidationAt": "2026-07-07T14:25:43Z",
-  "updatedAt": "2026-07-11T10:30:19Z"
+  "corporateActionHash": "sha256:f1bc963359f5c315a4d43e24b779ef4e7935a4a080b3cd8097514716e7ea9cfa",
+  "priceDataHash": "sha256:f744ac605835811861a9c0359a60ace796a92a466a4eae79e505a0227d626458",
+  "lastFullValidationAt": "2026-07-15T16:53:02Z",
+  "updatedAt": "2026-07-15T16:53:02Z"
 }

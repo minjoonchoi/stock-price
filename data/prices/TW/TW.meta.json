@@ -2,14 +2,14 @@
   "ticker": "TW",
   "source": "yahoo",
   "firstDate": "2019-04-04",
-  "lastDate": "2026-07-10",
-  "records": 1826,
+  "lastDate": "2026-07-14",
+  "records": 1828,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:dab5593f068520031a3fc30358cc80959442628fcb33f1c5394f0a10e68e86a2",
-  "priceDataHash": "sha256:beb28a46014f74d258a08656d3b7b94a985efde0fa6dbbb06073189df32f89be",
-  "lastFullValidationAt": "2026-07-07T14:27:07Z",
-  "updatedAt": "2026-07-11T10:31:01Z"
+  "corporateActionHash": "sha256:2251659bb9d607e6c752e931ef8b213b4959b28c2fd990cdef6dc6c0b73c2682",
+  "priceDataHash": "sha256:b659c3ff611ab9e0836cb3a77749101a715827ff961ec862ea23ce4f147cbc99",
+  "lastFullValidationAt": "2026-07-15T16:54:26Z",
+  "updatedAt": "2026-07-15T16:54:26Z"
 }

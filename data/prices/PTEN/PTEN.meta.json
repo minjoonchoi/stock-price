@@ -2,14 +2,14 @@
   "ticker": "PTEN",
   "source": "yahoo",
   "firstDate": "1993-11-02",
-  "lastDate": "2026-07-10",
-  "records": 8204,
+  "lastDate": "2026-07-14",
+  "records": 8207,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-02",
+  "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2004-07-01",
-  "corporateActionHash": "sha256:3f6eacedff93b6ae31abc97af739cd8db7b463dd63d61c8a3bd908802c0c2304",
-  "priceDataHash": "sha256:2a2ba3e38e4baac5e6289a06071805745a9ca162b2366d2b41ce10572167fcaf",
-  "lastFullValidationAt": "2026-07-07T14:10:43Z",
-  "updatedAt": "2026-07-11T10:22:39Z"
+  "corporateActionHash": "sha256:afb84dbe0e6f9a2655aa540670259cc912f04998a3894304790a663565b97d75",
+  "priceDataHash": "sha256:2fa986e358ea45d12f191c66d156a5ac500a44b2fb898d64723bcebf7aeb90d3",
+  "lastFullValidationAt": "2026-07-15T16:37:44Z",
+  "updatedAt": "2026-07-15T16:37:44Z"
 }
