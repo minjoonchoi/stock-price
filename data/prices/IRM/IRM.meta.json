@@ -2,14 +2,14 @@
   "ticker": "IRM",
   "source": "yahoo",
   "firstDate": "1996-02-01",
-  "lastDate": "2026-07-13",
-  "records": 7650,
+  "lastDate": "2026-07-15",
+  "records": 7652,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2014-09-26",
   "corporateActionHash": "sha256:ad44d4561a0ee990200136e1ba353b32213b44315ecc6de57a542bf6bc733d48",
-  "priceDataHash": "sha256:8d9c9940ed36a23cbe2928863be2617d99c0203db132e9b9ae4c9e38be4a731a",
+  "priceDataHash": "sha256:6c88b0663bf0a751fa8101b06926bdd281d8c1a5e44abdb0c0e276dce30ff663",
   "lastFullValidationAt": "2026-07-14T16:34:16Z",
-  "updatedAt": "2026-07-14T16:34:16Z"
+  "updatedAt": "2026-07-16T07:36:03Z"
 }

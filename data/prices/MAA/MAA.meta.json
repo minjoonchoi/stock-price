@@ -2,14 +2,14 @@
   "ticker": "MAA",
   "source": "yahoo",
   "firstDate": "1994-01-28",
-  "lastDate": "2026-07-13",
-  "records": 8122,
+  "lastDate": "2026-07-15",
+  "records": 8124,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-15",
+  "lastCorporateActionDate": "2026-07-15",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:34679b7ac00c12cb7b29537cb9caf189646a224dbebe9da0bbc57a6a2b4c6c06",
-  "priceDataHash": "sha256:27b539d4850a75342d0113d1648f4545cb9061fee12fa543068b55e0c734adea",
+  "corporateActionHash": "sha256:eb6651b574fa3d86889c9b6a28cd4dba6abc040d2fd23d64348e68da1fb7b3ef",
+  "priceDataHash": "sha256:3732bb729401f52a14ace4029693bb73200d77af6501f34fdf674db8ce34e43d",
   "lastFullValidationAt": "2026-07-14T16:41:36Z",
-  "updatedAt": "2026-07-14T16:41:36Z"
+  "updatedAt": "2026-07-16T07:39:47Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "GPN",
   "source": "yahoo",
   "firstDate": "2001-01-16",
-  "lastDate": "2026-07-13",
-  "records": 6406,
+  "lastDate": "2026-07-15",
+  "records": 6408,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2015-11-03",
   "corporateActionHash": "sha256:86f6c888a325167f066e1358beed438b5bc0ad00bd440ebf23b93938e63e3740",
-  "priceDataHash": "sha256:5a321faf0e88e1b2f84a0246f73a319dba466a3f856aeaaf575cad9d4cb39881",
+  "priceDataHash": "sha256:4ff13962f2ca68ccdec2f2b761c0270d830acb31c1368bda353d44b370d41c40",
   "lastFullValidationAt": "2026-07-14T16:26:56Z",
-  "updatedAt": "2026-07-14T16:26:56Z"
+  "updatedAt": "2026-07-16T07:32:13Z"
 }

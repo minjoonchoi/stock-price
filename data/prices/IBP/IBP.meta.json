@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3114,
-  "updatedAt": "2026-07-04T17:15:04Z",
-  "source": "yahoo"
+  "ticker": "IBP",
+  "source": "yahoo",
+  "firstDate": "2014-02-13",
+  "lastDate": "2026-07-15",
+  "records": 3122,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:32701f5bb151a01152059ea72b2cdef6b5143d40ec869559ccbf6ef6ae21fc52",
+  "priceDataHash": "sha256:7b407d85826da5782bde4210961cf6b68b893189ea706e6accd889c86da6f138",
+  "lastFullValidationAt": "2026-07-16T07:34:49Z",
+  "updatedAt": "2026-07-16T07:34:49Z"
 }

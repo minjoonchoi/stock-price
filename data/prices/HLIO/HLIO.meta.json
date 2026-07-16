@@ -2,14 +2,14 @@
   "ticker": "HLIO",
   "source": "yahoo",
   "firstDate": "1997-01-09",
-  "lastDate": "2026-07-13",
-  "records": 7221,
+  "lastDate": "2026-07-15",
+  "records": 7223,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "2011-07-18",
   "corporateActionHash": "sha256:972200c16cdd28d15ed82c5d381deb7b98d68f83cad6bbc0dedc05924af8fac3",
-  "priceDataHash": "sha256:49180de068b2449fe3a31265201679322a7eee6df22cc3787bc21f13824a8e03",
+  "priceDataHash": "sha256:9d6295269de4f69441c5313641c84690e7922facfa18cd13827ec5dca05692a9",
   "lastFullValidationAt": "2026-07-14T16:29:24Z",
-  "updatedAt": "2026-07-14T16:29:24Z"
+  "updatedAt": "2026-07-16T07:33:29Z"
 }
