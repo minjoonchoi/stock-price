@@ -2,14 +2,14 @@
   "ticker": "SNEX",
   "source": "yahoo",
   "firstDate": "1995-03-06",
-  "lastDate": "2026-07-14",
-  "records": 7891,
+  "lastDate": "2026-07-15",
+  "records": 7892,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-03-23",
   "lastSplitDate": "2026-03-23",
   "corporateActionHash": "sha256:c12443b64811f7c4980a5ba3b55bffa33b8d4ded119cc67664704caeaf330d34",
-  "priceDataHash": "sha256:812ab732139719d1ba379e972e179f6e2c0ec26deb8b08f2cafc408a581a1195",
+  "priceDataHash": "sha256:e7fd6a5fcf21459b7b1b446f4c61ba2e7a25188ca55faa997abaa374d846736b",
   "lastFullValidationAt": "2026-07-15T16:47:10Z",
-  "updatedAt": "2026-07-15T16:47:10Z"
+  "updatedAt": "2026-07-16T11:13:25Z"
 }

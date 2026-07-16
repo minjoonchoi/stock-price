@@ -2,14 +2,14 @@
   "ticker": "WBS",
   "source": "yahoo",
   "firstDate": "1986-12-12",
-  "lastDate": "2026-07-14",
-  "records": 9911,
+  "lastDate": "2026-07-15",
+  "records": 9912,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-11",
   "lastSplitDate": "1998-04-15",
   "corporateActionHash": "sha256:acead16e6b09385f4825b1e7e61838f7b341b2cd3db870ebc3e22854e79321d9",
-  "priceDataHash": "sha256:7aff767245e46a9cad5c95e2264db2bb42b954d87ad6217095b17a358a669fe8",
+  "priceDataHash": "sha256:c289978dbcf87cd2345eefc81d916690488cd6ffefdcd85d2663b97db17fda5c",
   "lastFullValidationAt": "2026-07-15T17:00:36Z",
-  "updatedAt": "2026-07-15T17:00:36Z"
+  "updatedAt": "2026-07-16T11:20:25Z"
 }

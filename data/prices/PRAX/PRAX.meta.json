@@ -2,14 +2,14 @@
   "ticker": "PRAX",
   "source": "yahoo",
   "firstDate": "2020-10-16",
-  "lastDate": "2026-07-14",
-  "records": 1440,
+  "lastDate": "2026-07-15",
+  "records": 1441,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-11-29",
   "lastSplitDate": "2023-11-29",
   "corporateActionHash": "sha256:ecb63ee733984a85f110c7755d51f38b2f924024a74675cd490b64b68c02b52e",
-  "priceDataHash": "sha256:2c7bc9d19bba2826913ffeab0ac850ceb9f72fd7bd9c3ee19659024f50bcc93a",
+  "priceDataHash": "sha256:366c686e6fd62d49bed5e3a5d96e93e3e682e01cc36927a606bd45c60266bb3a",
   "lastFullValidationAt": "2026-07-15T16:36:52Z",
-  "updatedAt": "2026-07-15T16:36:52Z"
+  "updatedAt": "2026-07-16T11:08:13Z"
 }
