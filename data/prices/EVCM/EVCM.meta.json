@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1256,
-  "updatedAt": "2026-07-04T17:10:46Z",
-  "source": "yahoo"
+  "ticker": "EVCM",
+  "source": "yahoo",
+  "firstDate": "2021-07-01",
+  "lastDate": "2026-07-15",
+  "records": 1264,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:45e8d0424fc61cd7719dd7a4377e2525d483fcb2679e5c1e0cf856fbf1d049ed",
+  "lastFullValidationAt": "2026-07-16T04:29:02Z",
+  "updatedAt": "2026-07-16T04:29:02Z"
 }
