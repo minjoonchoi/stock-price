@@ -2,14 +2,14 @@
   "ticker": "CIEN",
   "source": "yahoo",
   "firstDate": "1997-02-07",
-  "lastDate": "2026-07-15",
-  "records": 7403,
+  "lastDate": "2026-07-16",
+  "records": 7404,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-09-25",
   "lastSplitDate": "2006-09-25",
   "corporateActionHash": "sha256:585e138d8905387acfbb1c6302a1385b4ce3361f6750fc06e369424eacc2ad0d",
-  "priceDataHash": "sha256:0a2d6b3c30d98fc2d7bf933f1e2895718e233ccffa6fb56408e528b130dae104",
+  "priceDataHash": "sha256:22a5b410e21d7d0143d8ce94e99623352bce980ebdadb429e41c348c775339ee",
   "lastFullValidationAt": "2026-07-14T15:18:13Z",
-  "updatedAt": "2026-07-16T04:22:26Z"
+  "updatedAt": "2026-07-17T04:20:53Z"
 }

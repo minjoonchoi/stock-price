@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-07-16",
-  "totalTargets": 1528,
+  "runId": "2026-07-17",
+  "totalTargets": 1537,
   "processedTargets": 500,
-  "lastProcessedTicker": "EXC",
+  "lastProcessedTicker": "EWTX",
   "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
-  "universeHash": "sha256:68a2ae516d7e22dc54834a3f9c920599dc520c5c9193f73a1ea5e3536298f31a",
+  "universeHash": "sha256:f0bf88068b39bb22603be2d3746b4ba651d39ab6e894eb6635fa5ef5b6f56e4d",
   "shardCount": 1,
-  "startedAt": "2026-07-16T18:10:52Z",
-  "updatedAt": "2026-07-16T18:11:20Z"
+  "startedAt": "2026-07-17T04:10:55Z",
+  "updatedAt": "2026-07-17T04:30:26Z"
 }

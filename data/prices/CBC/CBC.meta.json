@@ -2,14 +2,14 @@
   "ticker": "CBC",
   "source": "yahoo",
   "firstDate": "2025-11-21",
-  "lastDate": "2026-07-15",
-  "records": 160,
+  "lastDate": "2026-07-16",
+  "records": 161,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:05f0e78d1c2afa358324e17fd411bce5c0111bc6936bb824908cdfef2903ee0d",
-  "priceDataHash": "sha256:65868d50e656c78a3756e4f63cc13b765cebf56103b5efe79d1c023ccb845236",
+  "priceDataHash": "sha256:9d1a89ad85b3e54e47226027ce9e11c4c29949e491e9a1a6d20157fa7b436fb7",
   "lastFullValidationAt": "2026-07-14T15:15:33Z",
-  "updatedAt": "2026-07-16T04:21:04Z"
+  "updatedAt": "2026-07-17T04:19:27Z"
 }
