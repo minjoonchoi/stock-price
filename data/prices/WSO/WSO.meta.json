@@ -2,14 +2,14 @@
   "ticker": "WSO",
   "source": "yahoo",
   "firstDate": "1984-06-07",
-  "lastDate": "2026-07-15",
-  "records": 10580,
+  "lastDate": "2026-07-16",
+  "records": 10581,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-16",
+  "lastCorporateActionDate": "2026-07-16",
   "lastSplitDate": "1998-08-17",
-  "corporateActionHash": "sha256:6db3ba389f8f58684973e8245a2a2fbdacdbc9f4c270efb4b845bce47e81369b",
-  "priceDataHash": "sha256:cdb6950bc12df5406b030392c938ac05e01908a0cc963fe9ef961899b7b3b2dd",
+  "corporateActionHash": "sha256:0fbde9ba8af7e3863d895c54c53884550a031dd7993d590a71351958e8c4128d",
+  "priceDataHash": "sha256:eaf482d40633caac84b452ab94f04275cded72b03bcdc239db66984885068644",
   "lastFullValidationAt": "2026-07-15T17:02:40Z",
-  "updatedAt": "2026-07-16T11:21:29Z"
+  "updatedAt": "2026-07-17T12:16:45Z"
 }
