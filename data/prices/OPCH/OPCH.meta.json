@@ -2,14 +2,14 @@
   "ticker": "OPCH",
   "source": "yahoo",
   "firstDate": "1996-08-15",
-  "lastDate": "2026-07-15",
-  "records": 7525,
+  "lastDate": "2026-07-16",
+  "records": 7526,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-02-03",
   "lastSplitDate": "2020-02-03",
   "corporateActionHash": "sha256:3025fb293e722cfdff095346c7c59fb3eb689f3b0ce87e86a62c764584694f63",
-  "priceDataHash": "sha256:fb9cc88b4d1fafe9fa518a7e76f34b082f7e8326851985f8dd91a69e08a8319f",
+  "priceDataHash": "sha256:fb6b5dca857d1d36b47333251f13fb1b34f01a49260c16dec8394c9697d049c3",
   "lastFullValidationAt": "2026-07-15T16:31:03Z",
-  "updatedAt": "2026-07-16T11:05:15Z"
+  "updatedAt": "2026-07-17T10:52:18Z"
 }

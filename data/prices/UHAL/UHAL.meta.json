@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7966,
-  "updatedAt": "2026-07-04T17:30:03Z",
-  "source": "yahoo"
+  "ticker": "UHAL",
+  "source": "yahoo",
+  "firstDate": "1994-11-04",
+  "lastDate": "2026-07-16",
+  "records": 7974,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2022-11-10",
+  "lastSplitDate": "2022-11-10",
+  "corporateActionHash": "sha256:5d5e139871d7d51544e4bec6f6b505bbac8a7eeceaccf52923d706cce7847b01",
+  "priceDataHash": "sha256:09d211f44b67ba1afe2a1c528f019566df10c9a85aa1a0a601838663dada7101",
+  "lastFullValidationAt": "2026-07-17T11:04:50Z",
+  "updatedAt": "2026-07-17T11:04:50Z"
 }

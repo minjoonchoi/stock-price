@@ -2,14 +2,14 @@
   "ticker": "TTC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-15",
-  "records": 11508,
+  "lastDate": "2026-07-16",
+  "records": 11509,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "2016-09-19",
   "corporateActionHash": "sha256:5e3e6c4034271c10feb51b73e56a30e880871f6bffeeb2b5e5051a55b33410bf",
-  "priceDataHash": "sha256:4b2a229bfa65a263cb597bdfefa83916c66c5a2842dab594cf7ec3505fa53638",
+  "priceDataHash": "sha256:8bbe7392f83f0d0b8f6bf38792138601c6807ea5a9ee60d9fa9fd140904312f7",
   "lastFullValidationAt": "2026-07-15T16:54:02Z",
-  "updatedAt": "2026-07-16T11:17:01Z"
+  "updatedAt": "2026-07-17T11:03:56Z"
 }
