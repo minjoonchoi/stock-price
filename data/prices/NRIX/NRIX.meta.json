@@ -2,14 +2,14 @@
   "ticker": "NRIX",
   "source": "yahoo",
   "firstDate": "2020-07-24",
-  "lastDate": "2026-07-15",
-  "records": 1500,
+  "lastDate": "2026-07-16",
+  "records": 1501,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:017a92deefefc7fb621888e49a44f20363c5b9c4553e10d73520747be8027692",
+  "priceDataHash": "sha256:647ab7ac3338df8b15e6fa99efb1ef0020dd998a5d66a209506e502e7306d297",
   "lastFullValidationAt": "2026-07-14T16:50:20Z",
-  "updatedAt": "2026-07-16T07:44:11Z"
+  "updatedAt": "2026-07-17T07:40:10Z"
 }

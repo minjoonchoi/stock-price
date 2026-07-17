@@ -2,14 +2,14 @@
   "ticker": "HUT",
   "source": "yahoo",
   "firstDate": "2018-03-08",
-  "lastDate": "2026-07-15",
-  "records": 2099,
+  "lastDate": "2026-07-16",
+  "records": 2100,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-12-04",
   "lastSplitDate": "2023-12-04",
   "corporateActionHash": "sha256:38fdf395b735057eacdc34091a84bed6095284d2d037309d6fa8d58d31fddf0a",
-  "priceDataHash": "sha256:e0b73b682d8b4025fb9fd884f177608bc648fd61e81239e4ca7e77420d7a2e19",
+  "priceDataHash": "sha256:6d938c4b61abf62b44ef877c0f2f2c17eb5e9b74c650c4d792909cf398d6d601",
   "lastFullValidationAt": "2026-07-14T16:31:28Z",
-  "updatedAt": "2026-07-16T07:34:31Z"
+  "updatedAt": "2026-07-17T07:30:12Z"
 }

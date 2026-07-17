@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 2788,
-  "updatedAt": "2026-07-04T17:13:18Z",
-  "source": "yahoo"
+  "ticker": "GNL",
+  "source": "yahoo",
+  "firstDate": "2015-06-02",
+  "lastDate": "2026-07-16",
+  "records": 2790,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-13",
+  "lastSplitDate": "2017-03-01",
+  "corporateActionHash": "sha256:94c7ab7ef23f4db56f209c0b125aee1db67b8ae72b8b60988045a78a03f93e32",
+  "priceDataHash": "sha256:52245f30b041227c0638548926eb3f10a726bd82590c086636dd81cdba76a28e",
+  "lastFullValidationAt": "2026-07-17T07:27:32Z",
+  "updatedAt": "2026-07-17T07:27:32Z"
 }

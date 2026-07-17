@@ -2,14 +2,14 @@
   "ticker": "KR",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-07-15",
-  "records": 16017,
+  "lastDate": "2026-07-16",
+  "records": 16018,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "2015-07-14",
   "corporateActionHash": "sha256:3fe9de224b7dcb5690401636a1239a8047031cf496238ba13a9a9f93184ae0ad",
-  "priceDataHash": "sha256:2f41d58d73486e9cbbe3ff6e99d630841a5f4bbf004a7f8114df321493e8ba45",
+  "priceDataHash": "sha256:95e664f04dde0c731cd10cde469b43dec8bc0e25510f76da6022473e7c3d1b68",
   "lastFullValidationAt": "2026-07-14T16:37:04Z",
-  "updatedAt": "2026-07-16T07:37:27Z"
+  "updatedAt": "2026-07-17T07:33:08Z"
 }

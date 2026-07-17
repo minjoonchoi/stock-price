@@ -2,14 +2,14 @@
   "ticker": "LSTR",
   "source": "yahoo",
   "firstDate": "1993-03-05",
-  "lastDate": "2026-07-15",
-  "records": 8382,
+  "lastDate": "2026-07-16",
+  "records": 8383,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-19",
   "lastSplitDate": "2005-01-10",
   "corporateActionHash": "sha256:5a6c6a34bac851fcc10075c1bd970f89668493e5fba0ebf74196e79395a2b859",
-  "priceDataHash": "sha256:b3f620db44996fe7b79e4ae136c62936a86f1294a75491594a67bbcc965a9741",
+  "priceDataHash": "sha256:e5a361ad0d60236e8b65ac9b8f477f0cb4320641d40e4a57502a20e00466afb4",
   "lastFullValidationAt": "2026-07-14T16:40:48Z",
-  "updatedAt": "2026-07-16T07:39:23Z"
+  "updatedAt": "2026-07-17T07:35:08Z"
 }
