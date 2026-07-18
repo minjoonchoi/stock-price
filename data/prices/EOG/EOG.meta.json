@@ -2,14 +2,14 @@
   "ticker": "EOG",
   "source": "yahoo",
   "firstDate": "1989-10-04",
-  "lastDate": "2026-07-16",
-  "records": 9162,
+  "lastDate": "2026-07-17",
+  "records": 9163,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-16",
+  "lastCorporateActionDate": "2026-07-17",
   "lastSplitDate": "2014-04-01",
-  "corporateActionHash": "sha256:9f39de3c9aa4f7042831a2abfb501a5e5b8fcdee21a8ea59d9adb22349de873d",
-  "priceDataHash": "sha256:021d1e7568b2f2a7bd53686b6d0135af139c39a07c4e4c0af265720b2a92e4f1",
+  "corporateActionHash": "sha256:f94d3043c3727743bfe10bb5d6c4b3e9e22e5bccfc16db4d0d8d4693cdc37d3d",
+  "priceDataHash": "sha256:b7e7cd42367a1cdd8971476afa9526d5729d3fa8ec0c941854b4b7b0566532d6",
   "lastFullValidationAt": "2026-07-14T15:29:49Z",
-  "updatedAt": "2026-07-17T04:26:45Z"
+  "updatedAt": "2026-07-18T04:17:54Z"
 }
