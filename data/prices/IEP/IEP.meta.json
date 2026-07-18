@@ -2,14 +2,14 @@
   "ticker": "IEP",
   "source": "yahoo",
   "firstDate": "1987-07-23",
-  "lastDate": "2026-07-16",
-  "records": 9641,
+  "lastDate": "2026-07-17",
+  "records": 9642,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-18",
   "lastSplitDate": "2012-11-13",
   "corporateActionHash": "sha256:8ea262c71b0bd772f77275bc40739bd1bb6adac75f5b5d0f8756263a89855c31",
-  "priceDataHash": "sha256:a83d5e4d80707e5a05ef938eac750e5f27db453bed9dc961ce76987c89aabc82",
+  "priceDataHash": "sha256:40964d0c0e0b8b0e89dd053aba2c8312df63c79967c6c904513ace7480ea241b",
   "lastFullValidationAt": "2026-07-14T16:32:32Z",
-  "updatedAt": "2026-07-17T07:30:46Z"
+  "updatedAt": "2026-07-18T07:10:05Z"
 }

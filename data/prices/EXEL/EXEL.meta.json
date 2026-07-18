@@ -2,14 +2,14 @@
   "ticker": "EXEL",
   "source": "yahoo",
   "firstDate": "2000-04-17",
-  "lastDate": "2026-07-16",
-  "records": 6600,
+  "lastDate": "2026-07-17",
+  "records": 6601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3be75c7906ff35060c9665445169b76c73024dcc86a0cbf45064fee7130fdf98",
+  "priceDataHash": "sha256:fc56dbc8a766652e4e629333b1e135c34e87de68bac95decafc0f2120355eee5",
   "lastFullValidationAt": "2026-07-14T15:31:41Z",
-  "updatedAt": "2026-07-17T07:24:06Z"
+  "updatedAt": "2026-07-18T07:03:29Z"
 }
