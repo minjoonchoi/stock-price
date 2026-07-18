@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-18",
   "totalTargets": 1537,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NWS",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "WRBY",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
   "universeHash": "sha256:ba0a62186fae55eb8fa3cdf1139be3efd528f03a29b30f9823a60972b70e4854",
   "shardCount": 1,
   "startedAt": "2026-07-18T04:02:05Z",
-  "updatedAt": "2026-07-18T07:20:03Z"
+  "updatedAt": "2026-07-18T10:42:15Z"
 }

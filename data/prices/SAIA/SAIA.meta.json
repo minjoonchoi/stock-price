@@ -2,14 +2,14 @@
   "ticker": "SAIA",
   "source": "yahoo",
   "firstDate": "2002-09-11",
-  "lastDate": "2026-07-16",
-  "records": 5999,
+  "lastDate": "2026-07-17",
+  "records": 6000,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-06-14",
   "lastSplitDate": "2013-06-14",
   "corporateActionHash": "sha256:fdcd20cfdab9fdb893877665c8710e7d29b34bc072aedf11f43a523b240e66a1",
-  "priceDataHash": "sha256:3bfed57aef8107038e4ec3745e71b919f81800ddbfc9a2d51518da5781953a19",
+  "priceDataHash": "sha256:7489c173646acda0f9b6d49af3569609c20a91cec94ac70f7b5acb51e0ec555b",
   "lastFullValidationAt": "2026-07-15T16:43:30Z",
-  "updatedAt": "2026-07-17T10:58:34Z"
+  "updatedAt": "2026-07-18T10:32:43Z"
 }
