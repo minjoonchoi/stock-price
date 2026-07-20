@@ -1,0 +1,9 @@
+{
+  "source": "yahoo",
+  "secSource": "https://www.sec.gov/files/company_tickers.json",
+  "minMarketCap": 300000000,
+  "totalSecTickers": 10426,
+  "collectableTickers": 373,
+  "excludedTickers": 627,
+  "lastUpdatedAt": "2026-07-19T23:51:21Z"
+}
