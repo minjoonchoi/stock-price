@@ -2,14 +2,14 @@
   "ticker": "CRNX",
   "source": "yahoo",
   "firstDate": "2018-07-18",
-  "lastDate": "2026-07-17",
-  "records": 2010,
+  "lastDate": "2026-07-20",
+  "records": 2011,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:8963dfb632717de11d27b50db9b6a00bfdef550386eea3c2f68690a6b7fbb375",
+  "priceDataHash": "sha256:b2bc5cc13d8f3705d26184e2e20df50a6d0f3103a2478705bdcfe4d45169b24d",
   "lastFullValidationAt": "2026-07-14T15:21:45Z",
-  "updatedAt": "2026-07-18T04:13:52Z"
+  "updatedAt": "2026-07-21T04:31:30Z"
 }

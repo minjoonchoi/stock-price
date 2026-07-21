@@ -2,14 +2,14 @@
   "ticker": "ACMR",
   "source": "yahoo",
   "firstDate": "2017-11-02",
-  "lastDate": "2026-07-17",
-  "records": 2186,
+  "lastDate": "2026-07-20",
+  "records": 2187,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-03-24",
   "lastSplitDate": "2022-03-24",
   "corporateActionHash": "sha256:b870ee05b5d7d9013717e14e3c60707a59a504152de5f6902ae5752c7cfd6912",
-  "priceDataHash": "sha256:b0d24e456d411370af94125f09d740102f491f0de777a4848a1b56f903f9358d",
+  "priceDataHash": "sha256:0d9708a48300f792bae219af93006719bd484d5f7819b4c8fde3a5fde47f47db",
   "lastFullValidationAt": "2026-07-14T15:00:20Z",
-  "updatedAt": "2026-07-18T04:02:54Z"
+  "updatedAt": "2026-07-21T04:20:24Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CBRE",
   "source": "yahoo",
   "firstDate": "2004-06-10",
-  "lastDate": "2026-07-17",
-  "records": 5560,
+  "lastDate": "2026-07-20",
+  "records": 5561,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-06-02",
   "lastSplitDate": "2006-06-02",
   "corporateActionHash": "sha256:a7608d523f75bad3cd7fe5cf8a31fd6dae536f3074e6a536b88d20373bca599b",
-  "priceDataHash": "sha256:70ea4d707c3835521bd13adcd79e089cd5c69ea2de059f43d45cf0270dcc64bf",
+  "priceDataHash": "sha256:237adcc42de772681f33d35f65438f66cdd6b3c6cc93210cb7707c44a25a3d9f",
   "lastFullValidationAt": "2026-07-14T15:15:37Z",
-  "updatedAt": "2026-07-18T04:10:40Z"
+  "updatedAt": "2026-07-21T04:28:16Z"
 }

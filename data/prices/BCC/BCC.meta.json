@@ -2,14 +2,14 @@
   "ticker": "BCC",
   "source": "yahoo",
   "firstDate": "2013-02-06",
-  "lastDate": "2026-07-17",
-  "records": 3380,
+  "lastDate": "2026-07-20",
+  "records": 3381,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:50df36d802e4c28b637c047efe7e6395a98a6ef1a236f0d027c0d490528382bf",
-  "priceDataHash": "sha256:2383fc3f7051bd8775a2a21725094ce1d3f52c5e2d3a2a0d7db39942a38adb3c",
+  "priceDataHash": "sha256:83420f804d807f428e8d2f255b094bc78d4c7b0e581e831bd11026c5aac6dabe",
   "lastFullValidationAt": "2026-07-14T15:10:01Z",
-  "updatedAt": "2026-07-18T04:07:52Z"
+  "updatedAt": "2026-07-21T04:25:28Z"
 }
