@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3699,
-  "updatedAt": "2026-07-04T17:30:04Z",
-  "source": "yahoo"
+  "ticker": "UI",
+  "source": "yahoo",
+  "firstDate": "2011-10-14",
+  "lastDate": "2026-07-20",
+  "records": 3710,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:5ac475100c2d6a400cefc855566d669c460dc68c45c260ea4f46cf252d2bfa3e",
+  "priceDataHash": "sha256:e3a8ab613d4a3fe160b10e0cbdd0cdf090b6754cd80f65bbace6ceb7d1bbf81f",
+  "lastFullValidationAt": "2026-07-21T15:24:58Z",
+  "updatedAt": "2026-07-21T15:24:58Z"
 }
