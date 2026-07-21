@@ -2,14 +2,14 @@
   "ticker": "GBDC",
   "source": "yahoo",
   "firstDate": "2010-04-15",
-  "lastDate": "2026-07-17",
-  "records": 4083,
+  "lastDate": "2026-07-20",
+  "records": 4084,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2020-04-13",
   "corporateActionHash": "sha256:45387d15d0c10bad5107ba5a9f6b199d09d0f887ad9d1987e0a09a6409478a33",
-  "priceDataHash": "sha256:e791b8f0df31907076980a53588b81fc02ad0de85107c9766afa431473fdffce",
+  "priceDataHash": "sha256:cbf584988b08fd3bbe6e0a0faf47361ad886ca2cc766ea90cb3efe214cdca5b6",
   "lastFullValidationAt": "2026-07-14T16:24:44Z",
-  "updatedAt": "2026-07-18T07:06:05Z"
+  "updatedAt": "2026-07-21T11:16:23Z"
 }
