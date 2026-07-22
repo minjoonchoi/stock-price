@@ -2,14 +2,14 @@
   "ticker": "NFLX",
   "source": "yahoo",
   "firstDate": "2002-05-23",
-  "lastDate": "2026-07-20",
-  "records": 6077,
+  "lastDate": "2026-07-21",
+  "records": 6078,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-11-17",
   "lastSplitDate": "2025-11-17",
   "corporateActionHash": "sha256:9d65540e5cd2716f5d668c1fb7cae625ad419a2da0117d54611705713ef1e117",
-  "priceDataHash": "sha256:22400181e698302ec42f7505688a97ab7ef2017b344fe7f437ea6cfe8e09c875",
-  "lastFullValidationAt": "2026-07-14T16:48:50Z",
-  "updatedAt": "2026-07-21T11:28:49Z"
+  "priceDataHash": "sha256:9e5e3ef529df37a65c33cb487d44a3b2f126861d33633d900f7859a2633e0280",
+  "lastFullValidationAt": "2026-07-22T11:43:23Z",
+  "updatedAt": "2026-07-22T11:43:23Z"
 }

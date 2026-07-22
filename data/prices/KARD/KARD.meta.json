@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10,
-  "updatedAt": "2026-07-04T17:16:27Z",
-  "source": "yahoo"
+  "ticker": "KARD",
+  "source": "yahoo",
+  "firstDate": "2026-06-18",
+  "lastDate": "2026-07-21",
+  "records": 22,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:14617ea71bb3995b28d98c1001dec20253799a386774b5b02e8b3cddcb269f7e",
+  "lastFullValidationAt": "2026-07-22T11:30:03Z",
+  "updatedAt": "2026-07-22T11:30:03Z"
 }
