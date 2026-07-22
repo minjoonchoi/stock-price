@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-07-21",
-  "totalTargets": 1540,
-  "processedTargets": 1540,
-  "lastProcessedTicker": "ZWS",
-  "cursorIndex": 1540,
-  "completed": true,
-  "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
-  "universeHash": "sha256:9887f98b9072f5a2e4069a1fa6d160ce56ccc48d6ed52a5b5a6d4a71f9f2a2fa",
+  "runId": "2026-07-22",
+  "totalTargets": 1543,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EWBC",
+  "cursorIndex": 500,
+  "completed": false,
+  "secTickerHash": "sha256:14d9acc72332dca7e994d3ee74711d19d0efe1f0ec2e55cbc669e9b01fa2f143",
+  "universeHash": "sha256:10ef72025d5cebd845c2cdf7b200a41b391f19d448e33bfaf0b3d55db9df7b0c",
   "shardCount": 1,
-  "startedAt": "2026-07-21T07:37:01Z",
-  "updatedAt": "2026-07-21T18:21:25Z"
+  "startedAt": "2026-07-22T04:21:08Z",
+  "updatedAt": "2026-07-22T04:54:20Z"
 }

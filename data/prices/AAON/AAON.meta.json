@@ -1,15 +1,15 @@
 {
   "ticker": "AAON",
   "source": "yahoo",
-  "firstDate": "1992-12-17",
-  "lastDate": "2026-07-20",
-  "records": 8432,
+  "firstDate": "1992-12-16",
+  "lastDate": "2026-07-21",
+  "records": 8433,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2023-08-17",
   "corporateActionHash": "sha256:84da8284bf46e5e1a2354117eeb2056e13cc1e26fe5e18dac8978ac8a0ec3845",
-  "priceDataHash": "sha256:774e445cdbc78edfeef351a33761d05eb0231912d79a40ce4cdf4aed65314713",
-  "lastFullValidationAt": "2026-07-14T14:59:08Z",
-  "updatedAt": "2026-07-21T04:19:44Z"
+  "priceDataHash": "sha256:37ed446ba101340fe090e0cb6a457ba0489495c3886448fbdbc1a3089646d37e",
+  "lastFullValidationAt": "2026-07-22T04:21:28Z",
+  "updatedAt": "2026-07-22T04:21:28Z"
 }
