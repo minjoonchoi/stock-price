@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-22",
   "totalTargets": 1543,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NWL",
-  "cursorIndex": 1000,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EWBC",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
+  "secTickerHash": "sha256:68240e74726553bc6588ca88034859a76442a4d3690fd2162d1dd04437081cd4",
   "universeHash": "sha256:10ef72025d5cebd845c2cdf7b200a41b391f19d448e33bfaf0b3d55db9df7b0c",
   "shardCount": 1,
-  "startedAt": "2026-07-22T07:37:51Z",
-  "updatedAt": "2026-07-22T11:46:15Z"
+  "startedAt": "2026-07-22T15:11:13Z",
+  "updatedAt": "2026-07-22T15:11:41Z"
 }
