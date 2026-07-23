@@ -1,15 +1,15 @@
 {
   "ticker": "STC",
   "source": "yahoo",
-  "firstDate": "1973-02-21",
-  "lastDate": "2026-07-20",
-  "records": 12693,
+  "firstDate": "1973-02-27",
+  "lastDate": "2026-07-22",
+  "records": 12563,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "1999-05-24",
   "corporateActionHash": "sha256:be0e02ab4f6d55734824a37717266ee3875069093e96987b6212283bc790b8a4",
-  "priceDataHash": "sha256:54a8d7b544504ff9e7ca9592179e4e77f634c598003ac720116bae5a95c51690",
-  "lastFullValidationAt": "2026-07-15T16:48:46Z",
-  "updatedAt": "2026-07-21T15:21:22Z"
+  "priceDataHash": "sha256:93d5c36dff02edbda717220f835affb1f514a652cd251ac4f0bb60c91f2fe31c",
+  "lastFullValidationAt": "2026-07-23T15:33:27Z",
+  "updatedAt": "2026-07-23T15:33:27Z"
 }

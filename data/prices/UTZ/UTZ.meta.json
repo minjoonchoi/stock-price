@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1909,
-  "updatedAt": "2026-07-04T17:30:25Z",
-  "source": "yahoo"
+  "ticker": "UTZ",
+  "source": "yahoo",
+  "firstDate": "2018-11-26",
+  "lastDate": "2026-07-22",
+  "records": 1922,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-22",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:a0b8b34b1d00c4370f2541433fd54cfc3b1868c4c96bae37e1a89acfb8573605",
+  "priceDataHash": "sha256:081e0008202e1b6437bdf749acacb087a3769d4537bc8696f7b3cc074a65de75",
+  "lastFullValidationAt": "2026-07-23T15:41:51Z",
+  "updatedAt": "2026-07-23T15:41:51Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "WM",
   "source": "yahoo",
-  "firstDate": "1988-06-22",
-  "lastDate": "2026-07-20",
-  "records": 9392,
+  "firstDate": "1988-06-23",
+  "lastDate": "2026-07-22",
+  "records": 9487,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:a3879026ddac7f6590a1a28975a560661b7af5afb87f40513ee788aec8dd6dee",
-  "priceDataHash": "sha256:11f0b7343493151524457443f3a9f29af6210a7fd6c35c229c771cef0bcbf9f3",
-  "lastFullValidationAt": "2026-07-15T17:01:52Z",
-  "updatedAt": "2026-07-21T15:28:02Z"
+  "priceDataHash": "sha256:80ab310becff5fd189522085fcdc437adeb280330d1b6d09507875ea531f7fae",
+  "lastFullValidationAt": "2026-07-23T15:46:43Z",
+  "updatedAt": "2026-07-23T15:46:43Z"
 }
