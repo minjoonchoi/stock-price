@@ -2,14 +2,14 @@
   "ticker": "HSY",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-21",
-  "records": 11629,
+  "lastDate": "2026-07-22",
+  "records": 11630,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "2004-06-16",
   "corporateActionHash": "sha256:31ec46de4125cc8376cbb3a7018f75c56b74b2228b85de85956dd290f488097d",
-  "priceDataHash": "sha256:72bd524583bdf55b42b3a5a31ada5d667e070a9ba5ddc6473c26888ddf31554a",
+  "priceDataHash": "sha256:f75b2157f15d5e2244221fe1ef16ea922d7d78b5a5d96a522fec49a5a38b63a4",
   "lastFullValidationAt": "2026-07-22T11:25:03Z",
-  "updatedAt": "2026-07-22T11:25:03Z"
+  "updatedAt": "2026-07-23T11:20:22Z"
 }

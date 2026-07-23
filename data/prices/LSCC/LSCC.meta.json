@@ -2,14 +2,14 @@
   "ticker": "LSCC",
   "source": "yahoo",
   "firstDate": "1989-11-09",
-  "lastDate": "2026-07-21",
-  "records": 9239,
+  "lastDate": "2026-07-22",
+  "records": 9240,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-10-12",
   "lastSplitDate": "2000-10-12",
   "corporateActionHash": "sha256:b68544a6e93614b9bb5a8108ba131e50b1b368bc013a5b779441b20da54d67d5",
-  "priceDataHash": "sha256:8fc2557cc88d219240a039ca9ec41f711d41736cae2c44ca76fd29c4ab1a4f97",
+  "priceDataHash": "sha256:509937d31e7713dfa4ddbc53368bd2f5161cb048eed0e5eedc1e269c22daa544",
   "lastFullValidationAt": "2026-07-22T11:35:11Z",
-  "updatedAt": "2026-07-22T11:35:11Z"
+  "updatedAt": "2026-07-23T11:25:42Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "HUBB",
   "source": "yahoo",
   "firstDate": "1972-06-05",
-  "lastDate": "2026-07-21",
-  "records": 13161,
+  "lastDate": "2026-07-22",
+  "records": 13162,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "1996-08-12",
   "corporateActionHash": "sha256:ac37c55d18f201e612354a09c9309670e7e1f0205acba3d3e1169a5f8c209cdb",
-  "priceDataHash": "sha256:987ca0984e24f1dd23878380498b915a9dc4082b14c3d1571edeb892163d10ef",
+  "priceDataHash": "sha256:d15c38ddbf95378ba5829adebd03ed279d4e6434362b42ea2bba38a67db5f9e7",
   "lastFullValidationAt": "2026-07-22T11:25:23Z",
-  "updatedAt": "2026-07-22T11:25:23Z"
+  "updatedAt": "2026-07-23T11:20:32Z"
 }

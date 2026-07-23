@@ -2,14 +2,14 @@
   "ticker": "FBIN",
   "source": "yahoo",
   "firstDate": "2011-09-16",
-  "lastDate": "2026-07-21",
-  "records": 3731,
+  "lastDate": "2026-07-22",
+  "records": 3732,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "2022-12-15",
   "corporateActionHash": "sha256:85bd53bf163839a839b755327f548883bbdbc1a816f555d210e4272d9fc6a7ee",
-  "priceDataHash": "sha256:a63955dbdc3a426d627b3def42d74d3b562a335243ebb92e2b9c56c93e55e9dd",
+  "priceDataHash": "sha256:60a5f7cc4143bf53eb32c5524cdd652d35e070d979aa7e67480810352290f71c",
   "lastFullValidationAt": "2026-07-22T11:14:37Z",
-  "updatedAt": "2026-07-22T11:14:37Z"
+  "updatedAt": "2026-07-23T11:15:06Z"
 }

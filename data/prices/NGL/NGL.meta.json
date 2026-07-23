@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3805,
-  "updatedAt": "2026-07-04T17:20:38Z",
-  "source": "yahoo"
+  "ticker": "NGL",
+  "source": "yahoo",
+  "firstDate": "2011-05-16",
+  "lastDate": "2026-07-22",
+  "records": 3815,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-11-05",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:6bb3239c113bcb10085513b2eb3d2f59e1853fa3ed72d037501c660e7a3e5231",
+  "priceDataHash": "sha256:84de50738a7aa9fd262ef876df423a4dd215daff6aeb8934a4024c19559f154f",
+  "lastFullValidationAt": "2026-07-23T11:29:56Z",
+  "updatedAt": "2026-07-23T11:29:56Z"
 }
