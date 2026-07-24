@@ -2,14 +2,14 @@
   "ticker": "SO",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-07-22",
-  "records": 11118,
+  "lastDate": "2026-07-23",
+  "records": 11119,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-18",
   "lastSplitDate": "2001-04-03",
   "corporateActionHash": "sha256:49dbb94762956a299db4d9e8b9b98962d2a8ec8edf0d0e4e97360522b2467e4a",
-  "priceDataHash": "sha256:9f1e4cd8b289071ce225dc7b889eac84d11410695891231c77116ded538b8e0b",
+  "priceDataHash": "sha256:46e3f8884b68ba35831ed30447be8cde4971c50e8f56e41dd676c1c476180c51",
   "lastFullValidationAt": "2026-07-23T15:32:01Z",
-  "updatedAt": "2026-07-23T15:32:01Z"
+  "updatedAt": "2026-07-24T17:02:51Z"
 }

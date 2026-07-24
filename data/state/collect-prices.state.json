@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-24",
   "totalTargets": 1545,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NWBI",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "WMB",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:dcee3c08975d9f239b08d0c70944beabd369bca7946b50d855d17e16730284b3",
   "universeHash": "sha256:d2cbf12ad27ebd59f9af302b99517fa128ad1c3c50765e1394c4994b6a32ed33",
   "shardCount": 1,
   "startedAt": "2026-07-24T11:08:15Z",
-  "updatedAt": "2026-07-24T15:16:43Z"
+  "updatedAt": "2026-07-24T17:10:23Z"
 }
