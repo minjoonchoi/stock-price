@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-07-23",
+  "runId": "2026-07-24",
   "totalTargets": 1545,
   "processedTargets": 500,
   "lastProcessedTicker": "EWBC",
   "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:68240e74726553bc6588ca88034859a76442a4d3690fd2162d1dd04437081cd4",
-  "universeHash": "sha256:ab7bb1a9948b32bd628403556deb1d85ad8de9a3ae9d989c28e66dba7a09447f",
+  "secTickerHash": "sha256:dcee3c08975d9f239b08d0c70944beabd369bca7946b50d855d17e16730284b3",
+  "universeHash": "sha256:d2cbf12ad27ebd59f9af302b99517fa128ad1c3c50765e1394c4994b6a32ed33",
   "shardCount": 1,
-  "startedAt": "2026-07-23T18:19:46Z",
-  "updatedAt": "2026-07-23T18:20:14Z"
+  "startedAt": "2026-07-24T04:21:44Z",
+  "updatedAt": "2026-07-24T04:38:26Z"
 }
