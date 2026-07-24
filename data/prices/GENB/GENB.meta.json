@@ -2,14 +2,14 @@
   "ticker": "GENB",
   "source": "yahoo",
   "firstDate": "2026-02-27",
-  "lastDate": "2026-07-22",
-  "records": 100,
+  "lastDate": "2026-07-23",
+  "records": 101,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ba5ab9a52b8fee756c49aab8c838a594628ed888e694befd00ae9fd329c655f9",
+  "priceDataHash": "sha256:5ee8c89d8dc09f899545bf25da98b358be1601815ea836c9338efbfbf0b71ab2",
   "lastFullValidationAt": "2026-07-22T11:19:28Z",
-  "updatedAt": "2026-07-23T11:17:32Z"
+  "updatedAt": "2026-07-24T15:02:45Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "LNG",
   "source": "yahoo",
   "firstDate": "1994-04-04",
-  "lastDate": "2026-07-22",
-  "records": 8129,
+  "lastDate": "2026-07-23",
+  "records": 8130,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-11",
   "lastSplitDate": "2005-04-25",
   "corporateActionHash": "sha256:db32a33d439573f77753e57095d41aaf83f07aff5c7ff9a08d340dd9cee2e22a",
-  "priceDataHash": "sha256:78933f4eb444a1d46d1c5924095bf1f03f487a1b2945946fdfece88120fc744d",
+  "priceDataHash": "sha256:eb1b848765b09625b182facf9fa4a39b6f001cb133e013a30962f4c870651d44",
   "lastFullValidationAt": "2026-07-22T11:34:21Z",
-  "updatedAt": "2026-07-23T11:25:16Z"
+  "updatedAt": "2026-07-24T15:10:29Z"
 }

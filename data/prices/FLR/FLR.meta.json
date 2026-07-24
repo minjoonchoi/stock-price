@@ -2,14 +2,14 @@
   "ticker": "FLR",
   "source": "yahoo",
   "firstDate": "2000-12-01",
-  "lastDate": "2026-07-22",
-  "records": 6443,
+  "lastDate": "2026-07-23",
+  "records": 6444,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-02-28",
   "lastSplitDate": "2008-07-17",
   "corporateActionHash": "sha256:19e4d6bfd3f2ce998ee1d7956e19a76c48e265290d6f2087ff2abd731609f21d",
-  "priceDataHash": "sha256:062340e101a0096c5b407a676886658130e9dc4a069f1007aa6cdbada9fcfc89",
+  "priceDataHash": "sha256:6b23d58aa73dd4f8250959e23d99e072ba58eda1172361339fb4d759c2e6843a",
   "lastFullValidationAt": "2026-07-22T11:16:29Z",
-  "updatedAt": "2026-07-23T11:16:02Z"
+  "updatedAt": "2026-07-24T15:01:15Z"
 }
