@@ -2,13 +2,13 @@
   "jobName": "update-universe",
   "runId": "2026-07-27",
   "minMarketCap": 300000000,
-  "totalTickers": 10432,
+  "totalTickers": 10426,
   "processedTickers": 1000,
-  "lastProcessedTicker": "BAIDF",
+  "lastProcessedTicker": "BAH",
   "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:6d36c94a1dfc8789259ac29c21cd0d9df9e9decd8381d187a71fbac6f3df7124",
+  "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
   "shardCount": 1,
-  "startedAt": "2026-07-27T12:34:11Z",
-  "updatedAt": "2026-07-27T14:14:13Z"
+  "startedAt": "2026-07-27T15:53:36Z",
+  "updatedAt": "2026-07-27T17:33:36Z"
 }
