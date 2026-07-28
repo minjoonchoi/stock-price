@@ -2,14 +2,14 @@
   "ticker": "MBIN",
   "source": "yahoo",
   "firstDate": "2017-10-27",
-  "lastDate": "2026-07-23",
-  "records": 2194,
+  "lastDate": "2026-07-27",
+  "records": 2195,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2022-01-18",
   "corporateActionHash": "sha256:e01ccc1d3478e92b34b3326f29949146abbe7711050e4f3f1059129f3f98506d",
-  "priceDataHash": "sha256:4438669836403936dcc5604ba2a9c27138cf96a24913c3604fe0ebbe65a6d7c9",
+  "priceDataHash": "sha256:d55c34f3ffab78f8865bafea0f6a03576cfd0b6bd25381db68ffa23a77bff747",
   "lastFullValidationAt": "2026-07-22T11:36:43Z",
-  "updatedAt": "2026-07-24T15:11:49Z"
+  "updatedAt": "2026-07-28T07:56:18Z"
 }

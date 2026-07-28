@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-28",
   "totalTargets": 1550,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EVRG",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NVR",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:6d36c94a1dfc8789259ac29c21cd0d9df9e9decd8381d187a71fbac6f3df7124",
   "universeHash": "sha256:c3d0c7fbd722aab4ef092912cae008cfa29e04ede853ddaa33aa93123c0abb09",
   "shardCount": 1,
   "startedAt": "2026-07-28T04:18:21Z",
-  "updatedAt": "2026-07-28T04:35:05Z"
+  "updatedAt": "2026-07-28T08:01:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "HST",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-23",
-  "records": 11607,
+  "lastDate": "2026-07-27",
+  "records": 11608,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2009-11-04",
   "corporateActionHash": "sha256:b5ae9ced881d7ceb3c9f510e393e6ea31ba0f3662425b10b9d4b513f74e17c5f",
-  "priceDataHash": "sha256:037f156178681bcb87f221f33527a605c6750cc90f3005e8385a23c7691e5710",
+  "priceDataHash": "sha256:aa302a544d0293e9662c1960d78c4c61aa44990c90114e725500455aec0a3436",
   "lastFullValidationAt": "2026-07-22T11:24:59Z",
-  "updatedAt": "2026-07-24T15:05:37Z"
+  "updatedAt": "2026-07-28T07:50:15Z"
 }
