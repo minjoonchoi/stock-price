@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:07:01Z",
-  "source": "yahoo"
+  "ticker": "CLF",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-07-27",
+  "records": 13376,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2020-04-02",
+  "lastSplitDate": "2008-05-16",
+  "corporateActionHash": "sha256:0ba93e490862e7d6b2e1e7b608109dfefb5c6f73d11a47d8b4f883c751401f17",
+  "priceDataHash": "sha256:e4c5af9996e77469ecdd0a78531fa3150a8648bad46dc85bfa97f287bba084f0",
+  "lastFullValidationAt": "2026-07-28T04:28:31Z",
+  "updatedAt": "2026-07-28T04:28:31Z"
 }
