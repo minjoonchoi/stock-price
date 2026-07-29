@@ -2,14 +2,14 @@
   "ticker": "MCD",
   "source": "yahoo",
   "firstDate": "1966-07-05",
-  "lastDate": "2026-07-27",
-  "records": 15042,
+  "lastDate": "2026-07-28",
+  "records": 15043,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-02",
   "lastSplitDate": "1999-03-08",
   "corporateActionHash": "sha256:8ef1772f4eb6c43bb36269443c778de00901d68f85c7de893f807efa3c9f1fe9",
-  "priceDataHash": "sha256:42a0052fda1e40ebf3f9533989776707fa70228edfa2af7c3ed096ccc73a6464",
+  "priceDataHash": "sha256:a98000f5d81d230a2d242e120e23672978c6d0e3e53a2adfd1ff28babd930edb",
   "lastFullValidationAt": "2026-07-22T11:36:55Z",
-  "updatedAt": "2026-07-28T07:56:25Z"
+  "updatedAt": "2026-07-29T08:03:29Z"
 }

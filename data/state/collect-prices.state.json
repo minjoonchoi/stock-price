@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-29",
   "totalTargets": 1556,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EVR",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NUVB",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:6d36c94a1dfc8789259ac29c21cd0d9df9e9decd8381d187a71fbac6f3df7124",
   "universeHash": "sha256:bf5c0d476abcea605f23dea8e40c18f24507d48b17e85051552eb8e13b39e245",
   "shardCount": 1,
   "startedAt": "2026-07-29T04:17:11Z",
-  "updatedAt": "2026-07-29T04:33:53Z"
+  "updatedAt": "2026-07-29T08:08:03Z"
 }
