@@ -1,15 +1,15 @@
 {
   "ticker": "BPOP",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
+  "firstDate": "1980-04-17",
   "lastDate": "2026-07-28",
-  "records": 11366,
+  "records": 11304,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2012-05-30",
   "corporateActionHash": "sha256:cb02f6855bdc883ff22a572de4b612069fcf8a7747848fe02ba5c634769419ff",
-  "priceDataHash": "sha256:59be3c4bef13c77b4bb3480da4f71df22a1ff7eb1f179ebcb849574b992d498a",
-  "lastFullValidationAt": "2026-07-22T04:35:40Z",
-  "updatedAt": "2026-07-29T04:24:31Z"
+  "priceDataHash": "sha256:8338d6feca236c134c6492fc14c474a1ee6597b981970df025dda8bbb4b0ec47",
+  "lastFullValidationAt": "2026-07-29T15:46:36Z",
+  "updatedAt": "2026-07-29T15:46:36Z"
 }

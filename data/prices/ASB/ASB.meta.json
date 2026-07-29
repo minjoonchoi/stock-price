@@ -1,15 +1,15 @@
 {
   "ticker": "ASB",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
+  "firstDate": "1980-03-20",
   "lastDate": "2026-07-28",
-  "records": 11390,
+  "records": 11437,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2004-05-13",
   "corporateActionHash": "sha256:9f7dd8a9e3491bca88444bcc26f78e22a54fcc1859c792972c2e19520a451d7e",
-  "priceDataHash": "sha256:7b6f557fea61275308e4a661ea67500d84256d8735cc8f48c0126a833f5e38a5",
-  "lastFullValidationAt": "2026-07-22T04:29:18Z",
-  "updatedAt": "2026-07-29T04:21:15Z"
+  "priceDataHash": "sha256:18e60944eaa8d0126cd10a2dac73528dfc5ea77d96c102f335ecbeb23a4f4c65",
+  "lastFullValidationAt": "2026-07-29T15:40:12Z",
+  "updatedAt": "2026-07-29T15:40:12Z"
 }
