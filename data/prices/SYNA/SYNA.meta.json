@@ -2,14 +2,14 @@
   "ticker": "SYNA",
   "source": "yahoo",
   "firstDate": "2002-01-29",
-  "lastDate": "2026-07-23",
-  "records": 6160,
+  "lastDate": "2026-07-28",
+  "records": 6163,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-09-02",
   "lastSplitDate": "2008-09-02",
   "corporateActionHash": "sha256:5f00f4329aa0a7eb670a8cb1dcd52aad08ec372849ca7672ec77edcb5f5a9bbf",
-  "priceDataHash": "sha256:ff3ff634ca05313aaab9232a015a1dc3f0842599bff50845f71f88675da3f456",
+  "priceDataHash": "sha256:56bbef672d844b02fb073b95e384690ef241fa995708bee7da56e81bae6f8fc7",
   "lastFullValidationAt": "2026-07-23T15:34:59Z",
-  "updatedAt": "2026-07-24T17:04:23Z"
+  "updatedAt": "2026-07-29T11:42:32Z"
 }

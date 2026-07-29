@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 11668,
-  "updatedAt": "2026-07-04T17:24:59Z",
-  "source": "yahoo"
+  "ticker": "RHI",
+  "source": "yahoo",
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-28",
+  "records": 11351,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-05-22",
+  "lastSplitDate": "2000-06-13",
+  "corporateActionHash": "sha256:909d5eb930988de9c5da08f169771c2a5ba6ed76fe83d07ad591229ce0ca07d2",
+  "priceDataHash": "sha256:43aa3a6a69913765cd97f86150b747822651d4c5eb40fd748543f59a057cc37c",
+  "lastFullValidationAt": "2026-07-29T11:37:26Z",
+  "updatedAt": "2026-07-29T11:37:26Z"
 }

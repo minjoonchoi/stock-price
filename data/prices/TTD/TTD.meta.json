@@ -2,14 +2,14 @@
   "ticker": "TTD",
   "source": "yahoo",
   "firstDate": "2016-09-21",
-  "lastDate": "2026-07-23",
-  "records": 2472,
+  "lastDate": "2026-07-28",
+  "records": 2475,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2021-06-17",
   "lastSplitDate": "2021-06-17",
   "corporateActionHash": "sha256:fb0763addad1cc7c29852d8c9cfbbb09c21cb0ce2c8ec34d4c72f1b470daf32d",
-  "priceDataHash": "sha256:dfcc4310b31e146e32e41fdc4347990e1791caa5a9029c637bd5b8e949edbb81",
+  "priceDataHash": "sha256:b212ea60fa83579dfaba2a0fc94b4b6e2cb6fc0a990b3149d75ff30833658089",
   "lastFullValidationAt": "2026-07-23T15:38:47Z",
-  "updatedAt": "2026-07-24T17:06:19Z"
+  "updatedAt": "2026-07-29T11:44:26Z"
 }
