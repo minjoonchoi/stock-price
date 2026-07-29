@@ -2,14 +2,14 @@
   "ticker": "ECHO",
   "source": "yahoo",
   "firstDate": "2008-01-02",
-  "lastDate": "2026-07-27",
-  "records": 4670,
+  "lastDate": "2026-07-28",
+  "records": 4671,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-09-11",
   "lastSplitDate": "2019-09-11",
   "corporateActionHash": "sha256:8a286ee2071936ab8999817abb3a244614b69052d45f9ad5c060cd593891945e",
-  "priceDataHash": "sha256:b74918435b499665b2ee0ce9f8aa3c017c39fb7cd70821e1e6065809a6dd218e",
+  "priceDataHash": "sha256:98bf876a2d1d8fe1dbf01102ff30de4ff1ca92f1a0d3151f8d1db39b6edb7134",
   "lastFullValidationAt": "2026-07-22T04:51:10Z",
-  "updatedAt": "2026-07-28T04:33:29Z"
+  "updatedAt": "2026-07-29T04:32:21Z"
 }
