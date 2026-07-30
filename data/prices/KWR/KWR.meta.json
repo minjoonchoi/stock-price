@@ -1,15 +1,15 @@
 {
   "ticker": "KWR",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-07-28",
-  "records": 11474,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-07-29",
+  "records": 11568,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-17",
   "lastSplitDate": "1990-07-31",
   "corporateActionHash": "sha256:66df65b6810277acf6ec1593be85eb9e1460ede90d5d9bd4dd99df89483d9b26",
-  "priceDataHash": "sha256:68f88bc7687e8ca26c1c9bb9eaf54cc38cea26bb70f495cc204ecca6c6bb9cbf",
-  "lastFullValidationAt": "2026-07-22T11:32:03Z",
-  "updatedAt": "2026-07-29T08:00:57Z"
+  "priceDataHash": "sha256:9097c52e9c71cfac1e54189476405a022a6b804ad14a1f52b5093378e9913ee2",
+  "lastFullValidationAt": "2026-07-30T15:34:13Z",
+  "updatedAt": "2026-07-30T15:34:13Z"
 }

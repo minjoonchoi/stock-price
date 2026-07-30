@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-30",
   "totalTargets": 1558,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EVCM",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NTST",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
   "universeHash": "sha256:620608d61acb8baedcc2958900c367a10532788d1945f222171f369e5d70bc40",
   "shardCount": 1,
   "startedAt": "2026-07-30T11:12:23Z",
-  "updatedAt": "2026-07-30T11:12:46Z"
+  "updatedAt": "2026-07-30T15:48:01Z"
 }
