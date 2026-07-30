@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 9134,
-  "updatedAt": "2026-07-04T17:03:54Z",
-  "source": "yahoo"
+  "ticker": "BANF",
+  "source": "yahoo",
+  "firstDate": "1990-03-26",
+  "lastDate": "2026-07-29",
+  "records": 8823,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-30",
+  "lastSplitDate": "2017-08-01",
+  "corporateActionHash": "sha256:03a3fa851edd7f5e5e6d207d985e2a3ae88a0ef910901c4197525604ab35d208",
+  "priceDataHash": "sha256:1814f89653cbedaa95e6cb939b8dbab8d6cbf6b8bd705886554dd4cb2697e9c6",
+  "lastFullValidationAt": "2026-07-30T04:10:18Z",
+  "updatedAt": "2026-07-30T04:10:18Z"
 }
