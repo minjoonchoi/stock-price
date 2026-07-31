@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
   "runId": "2026-07-31",
-  "totalTargets": 1559,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NTSK",
-  "cursorIndex": 1000,
+  "totalTargets": 1557,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EVR",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:6d36c94a1dfc8789259ac29c21cd0d9df9e9decd8381d187a71fbac6f3df7124",
-  "universeHash": "sha256:a24439e4c23ec17260e855947a54da9cfeffa4623d5243425f15d327b091092b",
+  "secTickerHash": "sha256:e24fdde3f54f4dace46c0d2213cee2748cdd3bb46fdc811efed3eb8bfc53701d",
+  "universeHash": "sha256:76013a40f350dcaa3833a94af1e482bd83737643214ccb112f2ff05103269a48",
   "shardCount": 1,
-  "startedAt": "2026-07-31T04:32:09Z",
-  "updatedAt": "2026-07-31T08:18:32Z"
+  "startedAt": "2026-07-31T11:34:33Z",
+  "updatedAt": "2026-07-31T11:35:00Z"
 }
