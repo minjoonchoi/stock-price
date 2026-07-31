@@ -2,14 +2,14 @@
   "ticker": "KRMN",
   "source": "yahoo",
   "firstDate": "2025-02-13",
-  "lastDate": "2026-07-29",
-  "records": 365,
+  "lastDate": "2026-07-30",
+  "records": 366,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c0356a9d86cef2c9f122a170d8a55aaa347f239b3faf6f41cbbd880c6bc28358",
+  "priceDataHash": "sha256:cb0cece7811203b76a710bc00902429b8fad0e65dddcd931b79b32307ceaaaf8",
   "lastFullValidationAt": "2026-07-30T15:33:49Z",
-  "updatedAt": "2026-07-30T15:33:49Z"
+  "updatedAt": "2026-07-31T08:11:18Z"
 }

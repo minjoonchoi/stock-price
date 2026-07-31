@@ -2,14 +2,14 @@
   "ticker": "MET",
   "source": "yahoo",
   "firstDate": "2000-04-05",
-  "lastDate": "2026-07-29",
-  "records": 6596,
+  "lastDate": "2026-07-30",
+  "records": 6597,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-12",
   "lastSplitDate": "2017-08-07",
   "corporateActionHash": "sha256:88fb5438dd116540fb97d068b72e435fb5528c2c45b1d10f1f4f0c7244450941",
-  "priceDataHash": "sha256:4d1bc902e665c54f52a36010ccac266af9ca595b1ad019a5fbb4cc42da5421dd",
+  "priceDataHash": "sha256:0b3af89a4d912e8100d9094a7317626fe9288b633dda45dabc6a4523b2897a65",
   "lastFullValidationAt": "2026-07-30T15:40:11Z",
-  "updatedAt": "2026-07-30T15:40:11Z"
+  "updatedAt": "2026-07-31T08:14:32Z"
 }
