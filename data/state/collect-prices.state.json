@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-07-31",
   "totalTargets": 1557,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NTST",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "WFC",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:e24fdde3f54f4dace46c0d2213cee2748cdd3bb46fdc811efed3eb8bfc53701d",
   "universeHash": "sha256:76013a40f350dcaa3833a94af1e482bd83737643214ccb112f2ff05103269a48",
   "shardCount": 1,
   "startedAt": "2026-07-31T11:34:33Z",
-  "updatedAt": "2026-07-31T15:24:40Z"
+  "updatedAt": "2026-07-31T18:59:15Z"
 }

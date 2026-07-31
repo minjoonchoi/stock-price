@@ -1,15 +1,15 @@
 {
   "ticker": "RYN",
   "source": "yahoo",
-  "firstDate": "1994-02-17",
-  "lastDate": "2026-07-28",
-  "records": 8100,
+  "firstDate": "1994-02-18",
+  "lastDate": "2026-07-30",
+  "records": 8092,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "2014-06-30",
   "corporateActionHash": "sha256:cba8e2ee1c77d75b1ae5ad371602c00dd521bcd1efc2a9493b9fb4d8bcce1ebc",
-  "priceDataHash": "sha256:32c27a74d541e4c0de187dcbfc985202fdaa1fe412f5e383265ce8e6dadfb2d8",
-  "lastFullValidationAt": "2026-07-23T15:27:49Z",
-  "updatedAt": "2026-07-29T11:38:48Z"
+  "priceDataHash": "sha256:1a1cc127e57911cc8605766c963d539e69b12e9e02b988b516985c64ec980607",
+  "lastFullValidationAt": "2026-07-31T18:40:48Z",
+  "updatedAt": "2026-07-31T18:40:48Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "UWMC",
   "source": "yahoo",
-  "firstDate": "2020-05-01",
-  "lastDate": "2026-07-28",
-  "records": 1549,
+  "firstDate": "2020-05-04",
+  "lastDate": "2026-07-30",
+  "records": 1554,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-18",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7be82ab4812e2280dd8aa017dff6b7acb012d773727ff33ac8c780846c49e4a0",
-  "priceDataHash": "sha256:d671ebc521db8354017ac2093aaf50c9af454bcf21e385e2d5f9bfc9e71524b2",
-  "lastFullValidationAt": "2026-07-23T15:41:55Z",
-  "updatedAt": "2026-07-29T11:46:04Z"
+  "priceDataHash": "sha256:e47e8eb40b9225dd5fe876f3dac9a484eac2990460359e3bfeecfa929ae27c8f",
+  "lastFullValidationAt": "2026-07-31T18:55:02Z",
+  "updatedAt": "2026-07-31T18:55:02Z"
 }
