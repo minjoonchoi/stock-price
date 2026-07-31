@@ -2,14 +2,14 @@
   "ticker": "EPD",
   "source": "yahoo",
   "firstDate": "1998-07-28",
-  "lastDate": "2026-07-29",
-  "records": 7014,
+  "lastDate": "2026-07-30",
+  "records": 7015,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-04-30",
   "lastSplitDate": "2014-08-22",
   "corporateActionHash": "sha256:cbf565a01be2ffd043d78c2e810ac0c38aa67c6855d34bc459b264f41265010b",
-  "priceDataHash": "sha256:2c4e2084f9a9eea3a641352c6370b13aa83f96b88a60140a6c7e177aa9cbc8f5",
+  "priceDataHash": "sha256:43c6f7fbc42453ec2d398dfdb165a5be4519935ddc21ed283313ad177b8cb32a",
   "lastFullValidationAt": "2026-07-29T16:03:40Z",
-  "updatedAt": "2026-07-30T04:20:48Z"
+  "updatedAt": "2026-07-31T04:48:13Z"
 }

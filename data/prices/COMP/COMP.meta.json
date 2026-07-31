@@ -2,14 +2,14 @@
   "ticker": "COMP",
   "source": "yahoo",
   "firstDate": "2021-04-01",
-  "lastDate": "2026-07-29",
-  "records": 1337,
+  "lastDate": "2026-07-30",
+  "records": 1338,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:b835ca64d9fef2a3bfb77b27ccb0def0345575e9353315768c44cc85d70f6088",
+  "priceDataHash": "sha256:6208ee030b44edec9b5b7f57f3dffddb6c7ec740797595f0c63529f76b2f161e",
   "lastFullValidationAt": "2026-07-29T15:54:00Z",
-  "updatedAt": "2026-07-30T04:15:54Z"
+  "updatedAt": "2026-07-31T04:43:19Z"
 }

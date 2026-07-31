@@ -2,14 +2,14 @@
   "ticker": "DIOD",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-29",
-  "records": 13472,
+  "lastDate": "2026-07-30",
+  "records": 13473,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2007-07-31",
   "lastSplitDate": "2007-07-31",
   "corporateActionHash": "sha256:b8240fdf94d36a0a4df69a4b4959b3ecba87d08bcd41f0eafecee64c371c233c",
-  "priceDataHash": "sha256:4680531a8f988722f727bd382d6c59910b598d976005627dc376096a6b203ff2",
+  "priceDataHash": "sha256:c6ebb91d6b2ed0ff39e8ec5ef379f4d0d1610efd0118ac69b451fe054373d587",
   "lastFullValidationAt": "2026-07-29T15:59:24Z",
-  "updatedAt": "2026-07-30T04:18:38Z"
+  "updatedAt": "2026-07-31T04:46:03Z"
 }
