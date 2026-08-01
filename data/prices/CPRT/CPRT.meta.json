@@ -2,14 +2,14 @@
   "ticker": "CPRT",
   "source": "yahoo",
   "firstDate": "1994-03-17",
-  "lastDate": "2026-07-30",
-  "records": 8146,
+  "lastDate": "2026-07-31",
+  "records": 8147,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-08-22",
   "lastSplitDate": "2023-08-22",
   "corporateActionHash": "sha256:d0a9755f38df3a13a8a25272d647be2ff197c93acc541399ffbd0f4cc3bd53d7",
-  "priceDataHash": "sha256:55a442eb6aab5556e0332e6f261559a00cb0b0544d5a8d9efbaa92e055ab37e7",
+  "priceDataHash": "sha256:053b026214ee1d6cb17fc747db29287cf3c6b2786226821e1312e7e9d554050c",
   "lastFullValidationAt": "2026-07-29T15:54:44Z",
-  "updatedAt": "2026-07-31T04:43:41Z"
+  "updatedAt": "2026-08-01T04:41:58Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CHE",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-07-30",
-  "records": 13312,
+  "lastDate": "2026-07-31",
+  "records": 13313,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-28",
   "lastSplitDate": "2005-05-12",
   "corporateActionHash": "sha256:1735cee3b13e6894f5eb25e419326ea6514afbdf138f1111e06a4ff3e01ff18d",
-  "priceDataHash": "sha256:21d3b4ffded96e1470de62ffd362911586c722abbf54904c26d2662d53dd3c4a",
+  "priceDataHash": "sha256:d46c7b8e975031fad0dcaa1429a72c9fbc4362512566898d0167937de71f058e",
   "lastFullValidationAt": "2026-07-29T15:51:20Z",
-  "updatedAt": "2026-07-31T04:41:57Z"
+  "updatedAt": "2026-08-01T04:40:14Z"
 }

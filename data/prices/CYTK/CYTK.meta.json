@@ -2,14 +2,14 @@
   "ticker": "CYTK",
   "source": "yahoo",
   "firstDate": "2004-04-30",
-  "lastDate": "2026-07-30",
-  "records": 5597,
+  "lastDate": "2026-07-31",
+  "records": 5598,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-06-25",
   "lastSplitDate": "2013-06-25",
   "corporateActionHash": "sha256:3baf7468405f0c6704f2738c9cc002bad3c4d1205a2f0f1421df5a9cc58955b0",
-  "priceDataHash": "sha256:20b240ed24bbfa2b72246da5d600ce408fefc4bbbbdb3bbf3d82b3d999898f19",
+  "priceDataHash": "sha256:d1a39397fde23ab39a50bcd5d0c95da86828547a005e8a68de31249520c65054",
   "lastFullValidationAt": "2026-07-29T15:57:44Z",
-  "updatedAt": "2026-07-31T04:45:13Z"
+  "updatedAt": "2026-08-01T04:43:30Z"
 }

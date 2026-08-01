@@ -2,14 +2,14 @@
   "ticker": "AMT",
   "source": "yahoo",
   "firstDate": "1998-02-27",
-  "lastDate": "2026-07-30",
-  "records": 7143,
+  "lastDate": "2026-07-31",
+  "records": 7144,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:730cb1a04b1ab7edc5308ddc47bc90743a0f7c0190e840fad410984c9804488c",
-  "priceDataHash": "sha256:6df2240cdb5a163ae78ca539f433c19c2c21567116ac1f65c5582b3174204543",
+  "priceDataHash": "sha256:53e406955b06df4d6541d5c30552307d6fd34c1bfe7d28768c1bce1ea6b098cd",
   "lastFullValidationAt": "2026-07-29T15:38:00Z",
-  "updatedAt": "2026-07-31T04:35:05Z"
+  "updatedAt": "2026-08-01T04:33:24Z"
 }

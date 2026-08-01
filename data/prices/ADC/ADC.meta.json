@@ -2,14 +2,14 @@
   "ticker": "ADC",
   "source": "yahoo",
   "firstDate": "1994-04-15",
-  "lastDate": "2026-07-30",
-  "records": 8062,
+  "lastDate": "2026-07-31",
+  "records": 8063,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3c798b0809dc003c41ee495b6ef4a8ee69b7c06fc865b22c630d25dd9f97dcbd",
-  "priceDataHash": "sha256:1d477156912fdd2317ade46e524a8289265b2d08ee1173ce212937e9d3dccf35",
+  "corporateActionHash": "sha256:bedc9c4abe1c4877c93869a7d5f47f56484bbce5a7c1e14098ef77eadbe09c5b",
+  "priceDataHash": "sha256:28b671f87dc7408b5bb1d0bfe4e97b68457b600bc4da1822f3da10b2815b0835",
   "lastFullValidationAt": "2026-07-29T15:34:12Z",
-  "updatedAt": "2026-07-31T04:33:05Z"
+  "updatedAt": "2026-08-01T04:31:22Z"
 }

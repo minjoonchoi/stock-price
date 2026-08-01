@@ -2,14 +2,14 @@
   "ticker": "CWT",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-30",
-  "records": 13344,
+  "lastDate": "2026-07-31",
+  "records": 13345,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-11",
   "lastSplitDate": "2011-06-13",
   "corporateActionHash": "sha256:f93c9cfe41c23cc2318f01e922a71683e517a4220f4414d0f976e2ec0b5e8021",
-  "priceDataHash": "sha256:764cb17b311380326311ecef73fa86eb87d6643f9cad4083b1ce121b7c11e924",
+  "priceDataHash": "sha256:14aa60c6f94f80f60e5592b601a8877b6e555350bad4b9d1543f7ff735456dd5",
   "lastFullValidationAt": "2026-07-29T15:57:32Z",
-  "updatedAt": "2026-07-31T04:45:07Z"
+  "updatedAt": "2026-08-01T04:43:24Z"
 }

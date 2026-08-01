@@ -2,14 +2,14 @@
   "ticker": "EL",
   "source": "yahoo",
   "firstDate": "1995-11-17",
-  "lastDate": "2026-07-30",
-  "records": 7709,
+  "lastDate": "2026-07-31",
+  "records": 7710,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2012-01-23",
   "corporateActionHash": "sha256:c758e15e85f643e8fcb1d65a0355be9c6b17d072284de5a35ade405cbc70e969",
-  "priceDataHash": "sha256:6434a248a196c9ef626315ea5de8a1d12c14d9b342686fec102067f9ca301d7f",
+  "priceDataHash": "sha256:c207ce04cd7fea1bc06ca71374beee1a7d465bd0f77f565c832beb55c40f343e",
   "lastFullValidationAt": "2026-07-29T16:02:36Z",
-  "updatedAt": "2026-07-31T04:47:41Z"
+  "updatedAt": "2026-08-01T04:45:58Z"
 }

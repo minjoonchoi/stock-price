@@ -2,14 +2,14 @@
   "ticker": "CBZ",
   "source": "yahoo",
   "firstDate": "1995-04-27",
-  "lastDate": "2026-07-30",
-  "records": 7866,
+  "lastDate": "2026-07-31",
+  "records": 7867,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1996-07-01",
   "lastSplitDate": "1996-07-01",
   "corporateActionHash": "sha256:221ae33779bad73183941bf8e580311db458509d7cafb0f1f767b11d7c26f562",
-  "priceDataHash": "sha256:2ce874b0e128d86aaaf3b58f5b767838c202b3eb7376d3eb30f672b597e22c25",
+  "priceDataHash": "sha256:212b6c3460b7ec01c2d1ded001028a27993c2b20b48b66f8da6f8109fb15eb32",
   "lastFullValidationAt": "2026-07-25T14:45:51Z",
-  "updatedAt": "2026-07-31T04:40:57Z"
+  "updatedAt": "2026-08-01T04:39:16Z"
 }

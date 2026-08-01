@@ -2,14 +2,14 @@
   "ticker": "BILL",
   "source": "yahoo",
   "firstDate": "2019-12-12",
-  "lastDate": "2026-07-30",
-  "records": 1665,
+  "lastDate": "2026-07-31",
+  "records": 1666,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:df714e541c504654e28a44d5beb82c329d9813c57584d6dec7f1e6ca324c013d",
+  "priceDataHash": "sha256:bee6dfab688b438a84d6a4cf89cd2121ea683248399dff3157afd9f55b9ace66",
   "lastFullValidationAt": "2026-07-29T15:45:00Z",
-  "updatedAt": "2026-07-31T04:38:41Z"
+  "updatedAt": "2026-08-01T04:37:00Z"
 }

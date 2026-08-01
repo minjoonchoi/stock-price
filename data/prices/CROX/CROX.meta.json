@@ -2,14 +2,14 @@
   "ticker": "CROX",
   "source": "yahoo",
   "firstDate": "2006-02-08",
-  "lastDate": "2026-07-30",
-  "records": 5150,
+  "lastDate": "2026-07-31",
+  "records": 5151,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2007-06-15",
   "lastSplitDate": "2007-06-15",
   "corporateActionHash": "sha256:65b670177678e4058144b408ae241be78013a578609a953c1ad52fb876b4794c",
-  "priceDataHash": "sha256:a175caca12f43aa98a516dad860f1415a2ea277c028d5747b5b17208e25246d3",
+  "priceDataHash": "sha256:9c35f8ec78493d5a7893a6e55ea8315c1df95fc9e851abecf917bcb9f244a946",
   "lastFullValidationAt": "2026-07-29T15:55:32Z",
-  "updatedAt": "2026-07-31T04:44:07Z"
+  "updatedAt": "2026-08-01T04:42:24Z"
 }

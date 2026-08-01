@@ -2,14 +2,14 @@
   "ticker": "DTM",
   "source": "yahoo",
   "firstDate": "2021-07-01",
-  "lastDate": "2026-07-30",
-  "records": 1275,
+  "lastDate": "2026-07-31",
+  "records": 1276,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:4ec52bec6be266276267957105f2aa4bdb761defe937e2fd41b7ff436dde35a1",
-  "priceDataHash": "sha256:522fe54563a169e16ef16f43b02402ed39598f2bc1c1fa9648819523601362d1",
+  "priceDataHash": "sha256:1ee59feb5b28f34d2955b9159c9df01215798149197873a50b5a5be01e1a3d4a",
   "lastFullValidationAt": "2026-07-29T16:01:00Z",
-  "updatedAt": "2026-07-31T04:46:51Z"
+  "updatedAt": "2026-08-01T04:45:08Z"
 }

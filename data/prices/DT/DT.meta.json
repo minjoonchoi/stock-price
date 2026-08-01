@@ -2,14 +2,14 @@
   "ticker": "DT",
   "source": "yahoo",
   "firstDate": "2019-08-01",
-  "lastDate": "2026-07-30",
-  "records": 1758,
+  "lastDate": "2026-07-31",
+  "records": 1759,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:591273b6a59c4a009ead52d33609abb4487d08a9ab5c7f6ca613957c5e9f51a2",
+  "priceDataHash": "sha256:f517b64befcd3118346bf4a524ff1a33a1f43234f3f518eb49221c52d1702f59",
   "lastFullValidationAt": "2026-07-29T16:00:52Z",
-  "updatedAt": "2026-07-31T04:46:47Z"
+  "updatedAt": "2026-08-01T04:45:04Z"
 }

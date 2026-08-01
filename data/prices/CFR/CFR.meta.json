@@ -2,14 +2,14 @@
   "ticker": "CFR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-30",
-  "records": 11613,
+  "lastDate": "2026-07-31",
+  "records": 11614,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "1999-06-23",
   "corporateActionHash": "sha256:4b7687f25a8dfc4b31c298d70d6bed80ff76f43e3c4226a9d62396d610899e6c",
-  "priceDataHash": "sha256:8e3a113f2ce922332ec27eb805b0004f9dcbf244258b5691b95a843443ca179b",
+  "priceDataHash": "sha256:085a596231aa51ce0650a57bb5976f93b01babe75905e63730440d13d847ffff",
   "lastFullValidationAt": "2026-07-29T15:50:56Z",
-  "updatedAt": "2026-07-31T04:41:45Z"
+  "updatedAt": "2026-08-01T04:40:02Z"
 }

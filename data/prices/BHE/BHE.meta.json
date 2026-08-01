@@ -2,14 +2,14 @@
   "ticker": "BHE",
   "source": "yahoo",
   "firstDate": "1990-06-27",
-  "lastDate": "2026-07-30",
-  "records": 9059,
+  "lastDate": "2026-07-31",
+  "records": 9060,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2006-04-04",
   "corporateActionHash": "sha256:de5e4a0ba57ac028cce2830b0b4d0d7b342dc7b1c94f8f585472fe6401f3ce75",
-  "priceDataHash": "sha256:8c1e66786fa1c077949ab8d65ab872508ca2693f1db68720c46a1fade22ba03d",
+  "priceDataHash": "sha256:538ddf003a095c32392c528aa470d970fdab294fca16db6e67588419930fb28d",
   "lastFullValidationAt": "2026-07-29T15:44:48Z",
-  "updatedAt": "2026-07-31T04:38:35Z"
+  "updatedAt": "2026-08-01T04:36:54Z"
 }

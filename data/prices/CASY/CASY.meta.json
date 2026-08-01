@@ -2,14 +2,14 @@
   "ticker": "CASY",
   "source": "yahoo",
   "firstDate": "1983-10-20",
-  "lastDate": "2026-07-30",
-  "records": 10741,
+  "lastDate": "2026-07-31",
+  "records": 10742,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-01",
+  "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "1998-02-17",
-  "corporateActionHash": "sha256:67ca73f274b6a0b8f2896c6280fb9392ac885f80494fb36ef8e3580a641af430",
-  "priceDataHash": "sha256:d5a0884a65237e59223dd58f42fff8700b389c70302f4ec1ea07b025b8f68568",
+  "corporateActionHash": "sha256:08d37fb808563be8ff5f1b218f04f72433ec0552661fe6698a0834f0136c7232",
+  "priceDataHash": "sha256:8233b3212b492965f710d073296c91be1bc143e482908ffdbbc16ed5da1d827d",
   "lastFullValidationAt": "2026-07-29T15:48:56Z",
-  "updatedAt": "2026-07-31T04:40:39Z"
+  "updatedAt": "2026-08-01T04:38:58Z"
 }

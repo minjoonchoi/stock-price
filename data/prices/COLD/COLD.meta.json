@@ -2,14 +2,14 @@
   "ticker": "COLD",
   "source": "yahoo",
   "firstDate": "2018-01-19",
-  "lastDate": "2026-07-30",
-  "records": 2143,
+  "lastDate": "2026-07-31",
+  "records": 2144,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:500186eb1a9608725fdfcaa7fe82fbb2ce081ce5ae782801a162140752b9ed09",
-  "priceDataHash": "sha256:f24eee536b14d7f26ca3983091095e1fd770b54955252c57484961b544ecd7ac",
+  "priceDataHash": "sha256:cb008aa66469311ea041d5d76665d8cc211b2473f70c7fb6490f3709fc0d9863",
   "lastFullValidationAt": "2026-07-29T15:53:52Z",
-  "updatedAt": "2026-07-31T04:43:15Z"
+  "updatedAt": "2026-08-01T04:41:32Z"
 }

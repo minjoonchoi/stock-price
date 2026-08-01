@@ -2,14 +2,14 @@
   "ticker": "CSW",
   "source": "yahoo",
   "firstDate": "2015-09-30",
-  "lastDate": "2026-07-30",
-  "records": 2723,
+  "lastDate": "2026-07-31",
+  "records": 2724,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-24",
+  "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3b4d9d9a268049c15db8b7b8476bd47ca0a192854d06589dc481482583458eb5",
-  "priceDataHash": "sha256:17cdddeae1b8bdaec509a2c12fc585802baf0500a0c575c026f55fd4a3632256",
+  "corporateActionHash": "sha256:16219f4e938de07326f79d8ecd00cced83f9dc83abd4b63aa0e4dd025ffd4a60",
+  "priceDataHash": "sha256:0998d33cd25c161d67f488b1c4d8241fc5fd936d3db92030ffedb34704f180cd",
   "lastFullValidationAt": "2026-07-29T15:56:04Z",
-  "updatedAt": "2026-07-31T04:44:23Z"
+  "updatedAt": "2026-08-01T04:42:40Z"
 }

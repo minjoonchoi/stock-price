@@ -2,14 +2,14 @@
   "ticker": "DIS",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-07-30",
-  "records": 16136,
+  "lastDate": "2026-07-31",
+  "records": 16137,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2007-06-13",
   "corporateActionHash": "sha256:f57459e608d28f26ae808de81736dc19cf92f6a610dde5a4b1c8c4327298a620",
-  "priceDataHash": "sha256:2439f2043da7ec11ff482f7ca913f110d24ab6cc29675cc87cdf8bffedfd1ebc",
+  "priceDataHash": "sha256:12d9a1c19103d7b389414feebda243ea4353d91e380df1bc5ce6a2c4b86828d2",
   "lastFullValidationAt": "2026-07-29T15:59:28Z",
-  "updatedAt": "2026-07-31T04:46:05Z"
+  "updatedAt": "2026-08-01T04:44:22Z"
 }
