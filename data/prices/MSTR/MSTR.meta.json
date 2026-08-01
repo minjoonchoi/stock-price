@@ -2,14 +2,14 @@
   "ticker": "MSTR",
   "source": "yahoo",
   "firstDate": "1998-06-11",
-  "lastDate": "2026-07-30",
-  "records": 7077,
+  "lastDate": "2026-07-31",
+  "records": 7078,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-08-08",
   "lastSplitDate": "2024-08-08",
   "corporateActionHash": "sha256:fbe5e7be2a142c6485a058a65fbfff70fa81710a9cdde32ffd1b72d4c9940845",
-  "priceDataHash": "sha256:353e19cfa510aaf6b9a6b3f346f6bbfc8cc420390181d577606323fdd997b0e4",
+  "priceDataHash": "sha256:c24d3492fb73c2dc60742a0d0f7c8cfefe540b0515f25213cd6520d677152341",
   "lastFullValidationAt": "2026-07-30T15:43:25Z",
-  "updatedAt": "2026-07-31T08:16:10Z"
+  "updatedAt": "2026-08-01T11:00:53Z"
 }

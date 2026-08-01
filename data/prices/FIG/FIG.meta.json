@@ -2,14 +2,14 @@
   "ticker": "FIG",
   "source": "yahoo",
   "firstDate": "2025-07-31",
-  "lastDate": "2026-07-30",
-  "records": 251,
+  "lastDate": "2026-07-31",
+  "records": 252,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:cabcb99e769b1c04c696773c8f24fbe135177ad3b23322f17c2af5505ee6de2c",
+  "priceDataHash": "sha256:34dd7b04b37f2cf4784a65485d4d090a651d8624667bdd553c309bb86eabc8f9",
   "lastFullValidationAt": "2026-07-30T15:17:49Z",
-  "updatedAt": "2026-07-31T08:03:14Z"
+  "updatedAt": "2026-08-01T10:47:53Z"
 }

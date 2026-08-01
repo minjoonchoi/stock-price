@@ -2,14 +2,14 @@
   "ticker": "HAL",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-07-30",
-  "records": 13564,
+  "lastDate": "2026-07-31",
+  "records": 13565,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-03",
   "lastSplitDate": "2006-07-17",
   "corporateActionHash": "sha256:3ac4b6d611f92f160bb007ea40d2117aa40397f05ca06199827cc97ed94d7440",
-  "priceDataHash": "sha256:11e62a3655f32cf786347f2d1d239bac9f8f66c8a92c5d418ad67d53c468667c",
+  "priceDataHash": "sha256:e2abf440e5171cc2c4f7944584862f0321c0149369cc418e07d10c49470f98b6",
   "lastFullValidationAt": "2026-07-30T15:24:12Z",
-  "updatedAt": "2026-07-31T08:06:28Z"
+  "updatedAt": "2026-08-01T10:51:07Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "NOV",
   "source": "yahoo",
   "firstDate": "1996-10-29",
-  "lastDate": "2026-07-30",
-  "records": 7476,
+  "lastDate": "2026-07-31",
+  "records": 7477,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2014-06-02",
   "corporateActionHash": "sha256:724783a8804ca2ef8a0e57b974a530d4bf5b9c66f40a83ab9c5fccf855be01c7",
-  "priceDataHash": "sha256:28ff8d648919d30117e7f93be629df6127ca620f2a9ba912717aa6c7038534f2",
+  "priceDataHash": "sha256:4e1eeb906ea39916488d8db553a65d0d5c2538aa76ae8141ecd5f660bea072fd",
   "lastFullValidationAt": "2026-07-30T15:46:57Z",
-  "updatedAt": "2026-07-31T08:18:02Z"
+  "updatedAt": "2026-08-01T11:02:43Z"
 }

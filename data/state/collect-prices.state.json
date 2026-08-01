@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-01",
   "totalTargets": 1558,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EVR",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NTSK",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:e24fdde3f54f4dace46c0d2213cee2748cdd3bb46fdc811efed3eb8bfc53701d",
   "universeHash": "sha256:225a461580147b81163abf579b6090b4397ff756f3a6fad80473cd61987d353f",
   "shardCount": 1,
   "startedAt": "2026-08-01T07:32:46Z",
-  "updatedAt": "2026-08-01T07:33:14Z"
+  "updatedAt": "2026-08-01T11:03:13Z"
 }

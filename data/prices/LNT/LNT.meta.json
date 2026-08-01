@@ -2,14 +2,14 @@
   "ticker": "LNT",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-30",
-  "records": 13181,
+  "lastDate": "2026-07-31",
+  "records": 13182,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-30",
+  "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2016-05-20",
-  "corporateActionHash": "sha256:d4238e9a279cbe6195566f67b848d5f7d53fb417792749bf100fd786b39c2bfe",
-  "priceDataHash": "sha256:5da420784d01063a8ad346f31044fccda87945d29b0e6bcbde2db7c8b0f4284e",
+  "corporateActionHash": "sha256:a7798967f1797faba0a4813f200b7d772de54580ab9b7becf8c65d5b709aebc7",
+  "priceDataHash": "sha256:944a2eecfddad1f9bbf2d377dc7a086b65658606cd3136817298776d01a67b8b",
   "lastFullValidationAt": "2026-07-30T15:36:41Z",
-  "updatedAt": "2026-07-31T08:12:44Z"
+  "updatedAt": "2026-08-01T10:57:23Z"
 }

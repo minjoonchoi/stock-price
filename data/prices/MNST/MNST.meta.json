@@ -2,14 +2,14 @@
   "ticker": "MNST",
   "source": "yahoo",
   "firstDate": "1985-12-09",
-  "lastDate": "2026-07-30",
-  "records": 10238,
+  "lastDate": "2026-07-31",
+  "records": 10239,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-03-28",
   "lastSplitDate": "2023-03-28",
   "corporateActionHash": "sha256:5b4b2e00b064755dc3c8700ae77dcf28b8bb3e3391b6485472662229596976b1",
-  "priceDataHash": "sha256:770d5e4f52b9b7154881e6924187593b2524712c6eedc7d073cd317c13680a03",
+  "priceDataHash": "sha256:1a855dec566745e0b44a0dc28a4d047a701f653f9c8153fc69a1e2cdff14236a",
   "lastFullValidationAt": "2026-07-30T15:41:49Z",
-  "updatedAt": "2026-07-31T08:15:22Z"
+  "updatedAt": "2026-08-01T11:00:05Z"
 }

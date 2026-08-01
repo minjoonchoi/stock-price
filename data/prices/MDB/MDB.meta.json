@@ -2,14 +2,14 @@
   "ticker": "MDB",
   "source": "yahoo",
   "firstDate": "2017-10-19",
-  "lastDate": "2026-07-30",
-  "records": 2205,
+  "lastDate": "2026-07-31",
+  "records": 2206,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:5d74e26f432218f91b84a18561220e9b6e119415b17bd0720b7ac64a0745638a",
+  "priceDataHash": "sha256:345114ffd1f3ea9d61f3125ebacbfa51da50427572c0974f1ec25909796735fc",
   "lastFullValidationAt": "2026-07-30T15:39:43Z",
-  "updatedAt": "2026-07-31T08:14:18Z"
+  "updatedAt": "2026-08-01T10:59:01Z"
 }
