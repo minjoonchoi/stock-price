@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
   "runId": "2026-08-01",
-  "totalTargets": 1560,
+  "totalTargets": 1558,
   "processedTargets": 500,
-  "lastProcessedTicker": "EVCM",
+  "lastProcessedTicker": "EVR",
   "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:6d36c94a1dfc8789259ac29c21cd0d9df9e9decd8381d187a71fbac6f3df7124",
-  "universeHash": "sha256:d763a6dc0ad7841b18ac35408492112063eff085363aea1d2716b7edd2d677c8",
+  "secTickerHash": "sha256:e24fdde3f54f4dace46c0d2213cee2748cdd3bb46fdc811efed3eb8bfc53701d",
+  "universeHash": "sha256:225a461580147b81163abf579b6090b4397ff756f3a6fad80473cd61987d353f",
   "shardCount": 1,
-  "startedAt": "2026-08-01T04:30:26Z",
-  "updatedAt": "2026-08-01T04:47:08Z"
+  "startedAt": "2026-08-01T07:32:46Z",
+  "updatedAt": "2026-08-01T07:33:14Z"
 }
