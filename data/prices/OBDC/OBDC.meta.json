@@ -2,14 +2,14 @@
   "ticker": "OBDC",
   "source": "yahoo",
   "firstDate": "2019-07-18",
-  "lastDate": "2026-07-30",
-  "records": 1767,
+  "lastDate": "2026-07-31",
+  "records": 1768,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:eb6e255674c8c2138feb95529c254d32f20c827824ed2c6280369ab8e7eeb286",
-  "priceDataHash": "sha256:478dfef47bb846d125f19d1cf90def9ac7a68f585015ae34ab43c6e9d3d5e5e0",
+  "priceDataHash": "sha256:aacdc3ddc4a956253ae4e9314fa0cad058e80d1e0c764cf1692887ff96ca30a6",
   "lastFullValidationAt": "2026-07-31T18:27:10Z",
-  "updatedAt": "2026-07-31T18:27:10Z"
+  "updatedAt": "2026-08-01T12:10:57Z"
 }

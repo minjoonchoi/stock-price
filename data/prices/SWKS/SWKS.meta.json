@@ -2,14 +2,14 @@
   "ticker": "SWKS",
   "source": "yahoo",
   "firstDate": "1984-09-07",
-  "lastDate": "2026-07-30",
-  "records": 10529,
+  "lastDate": "2026-07-31",
+  "records": 10530,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-26",
   "lastSplitDate": "2000-04-20",
   "corporateActionHash": "sha256:4bf705a057cbededd43474c3ca33bbc00fc95b51b7834951fb0a69d33731e3ae",
-  "priceDataHash": "sha256:616e59593778eef4bf64e2eceed52b1cbaee188da39ee920ce45e534312de29d",
+  "priceDataHash": "sha256:7e5b0e7a3bae3e58844b45472ac8c2a7b04bb2abd89f22bde3546d89c127049a",
   "lastFullValidationAt": "2026-07-31T18:47:32Z",
-  "updatedAt": "2026-07-31T18:47:32Z"
+  "updatedAt": "2026-08-01T12:21:11Z"
 }

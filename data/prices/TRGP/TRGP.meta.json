@@ -2,14 +2,14 @@
   "ticker": "TRGP",
   "source": "yahoo",
   "firstDate": "2010-12-07",
-  "lastDate": "2026-07-30",
-  "records": 3933,
+  "lastDate": "2026-07-31",
+  "records": 3934,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-30",
+  "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:5d362e27d1d2ba46f25310ecd88d986ed2740e2610e58f1fa7418ad91c6e19dd",
-  "priceDataHash": "sha256:d62d5f98c1a6eb94ec792bb7c1f1f8cd519b9ee19e9e5d2b159fab22aacb90bc",
+  "corporateActionHash": "sha256:43e5c3f533708fbd767101f446ecd2bae85591b65fbf6d18e80eb6e273976cdf",
+  "priceDataHash": "sha256:a7b134ea5b9154f83625b3959f34eff6f1dbe767c9d3372856ddc7dbaea4ca11",
   "lastFullValidationAt": "2026-07-31T18:51:00Z",
-  "updatedAt": "2026-07-31T18:51:00Z"
+  "updatedAt": "2026-08-01T12:22:55Z"
 }

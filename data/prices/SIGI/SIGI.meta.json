@@ -2,14 +2,14 @@
   "ticker": "SIGI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-30",
-  "records": 11587,
+  "lastDate": "2026-07-31",
+  "records": 11588,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "2007-02-21",
   "corporateActionHash": "sha256:0001b8a9bafbb992de99883116157003c32614c353bf1ccbc1b4bf02ef7b6d2c",
-  "priceDataHash": "sha256:87f490f524ba37008db2ef0963664040f262a14ddafcf1c7da1f499888df9e16",
+  "priceDataHash": "sha256:854c1a9d84de6f1d500e6aea94f0d9f0ac990ffdb091c854acb418a0411e6e25",
   "lastFullValidationAt": "2026-07-31T18:42:57Z",
-  "updatedAt": "2026-07-31T18:42:57Z"
+  "updatedAt": "2026-08-01T12:18:51Z"
 }

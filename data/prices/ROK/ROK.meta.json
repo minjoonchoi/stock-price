@@ -2,14 +2,14 @@
   "ticker": "ROK",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-07-30",
-  "records": 11172,
+  "lastDate": "2026-07-31",
+  "records": 11173,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-18",
   "lastSplitDate": "1987-04-14",
   "corporateActionHash": "sha256:8e7438a191a7da22325dc6784ef2fb4787d91cf2c16bf721ffb5e451398a695f",
-  "priceDataHash": "sha256:7e0d992a362298ba20f97357433782a9c5ca8d99a52fe9ff7f67e32f0ef58c54",
+  "priceDataHash": "sha256:5422f09130f2d0e1519a24568ef5bc6e91cc639340cfa267a5d5ec4cd2f14a30",
   "lastFullValidationAt": "2026-07-31T18:39:13Z",
-  "updatedAt": "2026-07-31T18:39:13Z"
+  "updatedAt": "2026-08-01T12:16:59Z"
 }

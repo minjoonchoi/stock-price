@@ -2,14 +2,14 @@
   "ticker": "SPB",
   "source": "yahoo",
   "firstDate": "1979-01-02",
-  "lastDate": "2026-07-30",
-  "records": 11934,
+  "lastDate": "2026-07-31",
+  "records": 11935,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-26",
   "lastSplitDate": "2018-07-16",
   "corporateActionHash": "sha256:96f56afd7818e134e5c6b49ceaaf91049f988e2cd217c3b55cc3e73952110789",
-  "priceDataHash": "sha256:39365625db8dd52bba33fecf5d16bf8be9073d7810443986193ee9ee50508744",
+  "priceDataHash": "sha256:6c8eec3b4eef3bfc7624a457ea7bb6c642feeeb8fca7b379c341020ed375da1a",
   "lastFullValidationAt": "2026-07-31T18:45:29Z",
-  "updatedAt": "2026-07-31T18:45:29Z"
+  "updatedAt": "2026-08-01T12:20:09Z"
 }

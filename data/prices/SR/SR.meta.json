@@ -2,14 +2,14 @@
   "ticker": "SR",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-30",
-  "records": 13119,
+  "lastDate": "2026-07-31",
+  "records": 13120,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-11",
   "lastSplitDate": "1994-03-08",
   "corporateActionHash": "sha256:6230fb8d5200a718924447fc8db6bb1f55ef5daed59959b2b41dc51169b1601b",
-  "priceDataHash": "sha256:06c78fe46e9555b14a5a1f2653caf9ef2316be8165112184b830ee1dc409234a",
+  "priceDataHash": "sha256:fd20bb054d47d73e7cd37bdd1501f2344f1dbf725e8279d6b883d8de9e36d543",
   "lastFullValidationAt": "2026-07-31T18:45:57Z",
-  "updatedAt": "2026-07-31T18:45:57Z"
+  "updatedAt": "2026-08-01T12:20:23Z"
 }

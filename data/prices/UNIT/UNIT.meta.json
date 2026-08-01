@@ -2,14 +2,14 @@
   "ticker": "UNIT",
   "source": "yahoo",
   "firstDate": "2015-04-20",
-  "lastDate": "2026-07-30",
-  "records": 2835,
+  "lastDate": "2026-07-31",
+  "records": 2836,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-08-04",
   "lastSplitDate": "2025-08-04",
   "corporateActionHash": "sha256:51b157fcc816531c1bbee80d2eb9e700e6fdb96c1105c52d8163d4a71b6548fb",
-  "priceDataHash": "sha256:52243207a49a572cc9b2cadfd5aeb04676e4fa09e1c9f5cd7f0cfce590204cd5",
+  "priceDataHash": "sha256:cf8a905b871118b05978bae3ef5ab8af1d3cc5518fcb0247875b0832236604fa",
   "lastFullValidationAt": "2026-07-31T18:54:02Z",
-  "updatedAt": "2026-07-31T18:54:02Z"
+  "updatedAt": "2026-08-01T12:24:27Z"
 }

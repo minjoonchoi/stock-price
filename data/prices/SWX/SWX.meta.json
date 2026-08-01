@@ -2,14 +2,14 @@
   "ticker": "SWX",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-30",
-  "records": 13344,
+  "lastDate": "2026-07-31",
+  "records": 13345,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:732968de2a696315c87e19dec1957d98e3e1c48a70a6583fd32211f7181e968a",
-  "priceDataHash": "sha256:f2dc0b4bd2d4566b47f0c46f1d27a55ce0fc100da757fd2e2acdbbb35a738323",
+  "priceDataHash": "sha256:5c08ad16c2549680b45c0118fb6bff67db07e4759fe31c6369a90280c2947199",
   "lastFullValidationAt": "2026-07-31T18:47:37Z",
-  "updatedAt": "2026-07-31T18:47:37Z"
+  "updatedAt": "2026-08-01T12:21:13Z"
 }

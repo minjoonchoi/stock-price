@@ -2,14 +2,14 @@
   "ticker": "SANM",
   "source": "yahoo",
   "firstDate": "1993-04-14",
-  "lastDate": "2026-07-30",
-  "records": 8381,
+  "lastDate": "2026-07-31",
+  "records": 8382,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2009-08-17",
   "lastSplitDate": "2009-08-17",
   "corporateActionHash": "sha256:736ed48c399b0605e90924b61a78faca2bef389b12375679686af745e82b7eec",
-  "priceDataHash": "sha256:11eb4bee3305860995387a313013113bbb43a619e646d2c870e6f05a7e887d91",
+  "priceDataHash": "sha256:cf7b71aedacee90614ddf878d18147c5653c31f493faf55869bbb0cd3f12f26f",
   "lastFullValidationAt": "2026-07-31T18:41:17Z",
-  "updatedAt": "2026-07-31T18:41:17Z"
+  "updatedAt": "2026-08-01T12:18:01Z"
 }
