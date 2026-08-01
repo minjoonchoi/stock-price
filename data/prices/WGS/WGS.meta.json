@@ -2,14 +2,14 @@
   "ticker": "WGS",
   "source": "yahoo",
   "firstDate": "2020-11-04",
-  "lastDate": "2026-07-23",
-  "records": 1434,
+  "lastDate": "2026-07-31",
+  "records": 1440,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-05-04",
   "lastSplitDate": "2023-05-04",
   "corporateActionHash": "sha256:3ccdab19c4304e3f789fd83fcb08c1cb7051eee7b5d2955821a7d227c6793bf2",
-  "priceDataHash": "sha256:15f22f24d7ed234f11f0975b39336fe7b70d1a6583029f451b1014621caf1a13",
-  "lastFullValidationAt": "2026-07-23T15:46:15Z",
-  "updatedAt": "2026-07-24T17:10:07Z"
+  "priceDataHash": "sha256:b9db3c03bc1e4d837671ca2986cd4b117f8cfa56611edde23015108256fed745",
+  "lastFullValidationAt": "2026-08-01T14:32:07Z",
+  "updatedAt": "2026-08-01T14:32:07Z"
 }
