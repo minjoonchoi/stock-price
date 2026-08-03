@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-07-27",
+  "runId": "2026-08-02",
   "minMarketCap": 300000000,
-  "totalTickers": 10426,
+  "totalTickers": 10414,
   "processedTickers": 1000,
-  "lastProcessedTicker": "BAH",
+  "lastProcessedTicker": "BALL",
   "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:82992116b6be485b788dfbd6058c29ab2768ae39145ab639c730b5f643abafbd",
+  "secTickerHash": "sha256:1bd4f2064172f2c530fcd8f3cbc4756c86f3286006cd54d29c55c215123ae48f",
   "shardCount": 1,
-  "startedAt": "2026-07-27T15:53:36Z",
-  "updatedAt": "2026-07-27T17:33:36Z"
+  "startedAt": "2026-08-02T23:52:41Z",
+  "updatedAt": "2026-08-03T01:32:41Z"
 }
