@@ -2,14 +2,14 @@
   "ticker": "PENN",
   "source": "yahoo",
   "firstDate": "1994-05-26",
-  "lastDate": "2026-07-31",
-  "records": 8099,
+  "lastDate": "2026-08-03",
+  "records": 8100,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-11-04",
   "lastSplitDate": "2013-11-04",
   "corporateActionHash": "sha256:f62e670f3a4c13460049a9eceea57568782385f9ee1eeb772e074b817fb814fc",
-  "priceDataHash": "sha256:bdfbc911abbb161f01388ffb2547037934ad43378af6bd630ccb2c1d18dd47c1",
+  "priceDataHash": "sha256:8354c70cb10a831c7c1255ceff9f56492c30524c4ad152031ca33604d4eda0c5",
   "lastFullValidationAt": "2026-07-31T18:31:34Z",
-  "updatedAt": "2026-08-01T12:13:09Z"
+  "updatedAt": "2026-08-04T11:30:34Z"
 }

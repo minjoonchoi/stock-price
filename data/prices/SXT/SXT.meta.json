@@ -2,14 +2,14 @@
   "ticker": "SXT",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-31",
-  "records": 11581,
+  "lastDate": "2026-08-03",
+  "records": 11582,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-11",
+  "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "1998-05-26",
-  "corporateActionHash": "sha256:859cb8bcd70ac68da11c3501f1784812ebe95053e6e7cd7852d6ca7aa04ef4c4",
-  "priceDataHash": "sha256:be23aba7c7628a7aea902bc95e084f57888a9cf7c83e59d4eaa6c711fd1f7cc9",
+  "corporateActionHash": "sha256:a33bcf39e993c72815e472e3e772c1ea5cf3f7bcda4ca73d11848305ce58aaed",
+  "priceDataHash": "sha256:88ca71046219f4d5192d86cf93a4af1d1106a1ff0d78a837ca9f8fcaabc2e2c4",
   "lastFullValidationAt": "2026-07-31T18:47:45Z",
-  "updatedAt": "2026-08-01T12:21:17Z"
+  "updatedAt": "2026-08-04T11:38:46Z"
 }

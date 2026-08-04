@@ -2,14 +2,14 @@
   "ticker": "SNA",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-31",
-  "records": 13322,
+  "lastDate": "2026-08-03",
+  "records": 13323,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-20",
   "lastSplitDate": "1996-09-11",
   "corporateActionHash": "sha256:2ca7d1b8eccd9ce7b09ab6a62930a22c2a861c5e58fe673a2792023fb1b9691e",
-  "priceDataHash": "sha256:66e4942b8e6dfd9b74a04284aec71a13ae9ce5138d85d819830133acc0c91b94",
+  "priceDataHash": "sha256:04e15851b03d9d1301b9b759de65985880fbaf4717791255b892d70520f3a077",
   "lastFullValidationAt": "2026-07-31T18:44:25Z",
-  "updatedAt": "2026-08-01T12:19:35Z"
+  "updatedAt": "2026-08-04T11:37:04Z"
 }

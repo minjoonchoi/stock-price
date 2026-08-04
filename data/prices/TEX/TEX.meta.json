@@ -2,14 +2,14 @@
   "ticker": "TEX",
   "source": "yahoo",
   "firstDate": "1980-03-19",
-  "lastDate": "2026-07-31",
-  "records": 11673,
+  "lastDate": "2026-08-03",
+  "records": 11674,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2006-07-17",
   "corporateActionHash": "sha256:00b3ce70ba3a2192fc2c9cc5c8d61db7dcd47cb2251695cb4eb02966ceb2cbab",
-  "priceDataHash": "sha256:5ffc7898a63c105bf265aa50f830a04dd1cd484aad66a951e8b200a17fa417c8",
+  "priceDataHash": "sha256:146622b09cbf84d5efbe49d81e5c7987f265d7b9469bdf858aae510e3db42009",
   "lastFullValidationAt": "2026-07-31T18:49:12Z",
-  "updatedAt": "2026-08-01T12:22:01Z"
+  "updatedAt": "2026-08-04T11:39:30Z"
 }

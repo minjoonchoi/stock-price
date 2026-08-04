@@ -2,14 +2,14 @@
   "ticker": "TXN",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-07-31",
-  "records": 13587,
+  "lastDate": "2026-08-03",
+  "records": 13588,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2000-05-23",
   "corporateActionHash": "sha256:22814156f27ee25a3ddaeb7850738e52d49355157ee5488e1829b6c9989b8164",
-  "priceDataHash": "sha256:ee53531976adf2838e503ba0738f9e9161e1106a8c324be0695682eb1c35b7e3",
+  "priceDataHash": "sha256:e4a5d2a3f51cff1afc488d719a34d31f3d238dd08737448dea5c6c84a05ca096",
   "lastFullValidationAt": "2026-07-31T18:52:29Z",
-  "updatedAt": "2026-08-01T12:23:39Z"
+  "updatedAt": "2026-08-04T11:41:08Z"
 }

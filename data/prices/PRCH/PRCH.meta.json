@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1626,
-  "updatedAt": "2026-07-04T17:23:49Z",
-  "source": "yahoo"
+  "ticker": "PRCH",
+  "source": "yahoo",
+  "firstDate": "2020-01-13",
+  "lastDate": "2026-07-31",
+  "records": 1646,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:6fff69e5df06558bda23fd1bc22ee5552321214bc9f2b9214adb9bbf82de1011",
+  "lastFullValidationAt": "2026-08-04T11:32:02Z",
+  "updatedAt": "2026-08-04T11:32:02Z"
 }

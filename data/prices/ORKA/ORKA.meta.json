@@ -2,14 +2,14 @@
   "ticker": "ORKA",
   "source": "yahoo",
   "firstDate": "1997-08-08",
-  "lastDate": "2026-07-31",
-  "records": 7124,
+  "lastDate": "2026-08-03",
+  "records": 7125,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-09-03",
   "lastSplitDate": "2024-09-03",
   "corporateActionHash": "sha256:592db6d7e77396645fee8bfd9e479b497d8ca7d83e4fe2f93dcba8810402f1ac",
-  "priceDataHash": "sha256:904faccc95b67fd9976be3d2373f0ecef707682c38ddc0a79055c88b467acebb",
+  "priceDataHash": "sha256:0a4015b9d0c6c3a741504c05fda3a800e85b3314d22c6782f6553fedfeee3bba",
   "lastFullValidationAt": "2026-07-31T18:28:54Z",
-  "updatedAt": "2026-08-01T12:11:49Z"
+  "updatedAt": "2026-08-04T11:29:14Z"
 }
