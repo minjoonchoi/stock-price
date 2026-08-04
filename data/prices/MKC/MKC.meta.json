@@ -2,14 +2,14 @@
   "ticker": "MKC",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-07-31",
-  "records": 13333,
+  "lastDate": "2026-08-03",
+  "records": 13334,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2020-12-01",
   "corporateActionHash": "sha256:591cd331145a1a9ff1d81ae867264796f5c58d59910adaa3fd14b91a85738032",
-  "priceDataHash": "sha256:7d48e4d8afde0a274c090bc6a4342da63c85f4fc71de33ab450946364f3e6e54",
+  "priceDataHash": "sha256:2653033d1403cac2a75b035fc84c877500b0fcea85c4b9f9afe3999c5db3181e",
   "lastFullValidationAt": "2026-07-30T15:41:05Z",
-  "updatedAt": "2026-08-01T10:59:43Z"
+  "updatedAt": "2026-08-04T08:01:18Z"
 }

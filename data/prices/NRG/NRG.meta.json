@@ -2,14 +2,14 @@
   "ticker": "NRG",
   "source": "yahoo",
   "firstDate": "2003-12-02",
-  "lastDate": "2026-07-31",
-  "records": 5693,
+  "lastDate": "2026-08-03",
+  "records": 5694,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-01",
+  "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "2007-06-01",
-  "corporateActionHash": "sha256:87b5a7b1e4967da70a5a222312d5eb12d581ba96d6d63de2496af23992febad2",
-  "priceDataHash": "sha256:95f4ef940b8a8375ec4426b15dfa974374fcbca280795a57a88ecf7d2f9d11a5",
+  "corporateActionHash": "sha256:37d5be1d6a5d132cb9f8fbdae70e31717a3d6d90f6b640448c01b9e1a79f90ad",
+  "priceDataHash": "sha256:f4d9b4f9080a6e7937a5f42c26f14f897a2e5a0067ecb1647752b39aeca0eb66",
   "lastFullValidationAt": "2026-07-30T15:47:13Z",
-  "updatedAt": "2026-08-01T11:02:51Z"
+  "updatedAt": "2026-08-04T08:04:26Z"
 }

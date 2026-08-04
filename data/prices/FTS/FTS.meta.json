@@ -2,14 +2,14 @@
   "ticker": "FTS",
   "source": "yahoo",
   "firstDate": "2010-01-05",
-  "lastDate": "2026-07-31",
-  "records": 4139,
+  "lastDate": "2026-08-03",
+  "records": 4140,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:2f162f6e937d8ee68c5c5c3332cc1f9ac2955571fc000b217ea748d80ebbf830",
-  "priceDataHash": "sha256:612c394c5c66b22e4a2c577f629eb54b6914d7cfffb340807538ba110f4a1c1d",
+  "priceDataHash": "sha256:b4f995c9d6d40235e82d474a4cbbda442a85339519157e5a293480f52f88caaf",
   "lastFullValidationAt": "2026-07-30T15:20:11Z",
-  "updatedAt": "2026-08-01T10:49:05Z"
+  "updatedAt": "2026-08-04T07:50:38Z"
 }

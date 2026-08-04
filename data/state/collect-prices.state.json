@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-04",
   "totalTargets": 1562,
-  "processedTargets": 500,
-  "lastProcessedTicker": "ETSY",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NTNX",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:e24fdde3f54f4dace46c0d2213cee2748cdd3bb46fdc811efed3eb8bfc53701d",
   "universeHash": "sha256:39c905d37675514f40fbfa95934ad818ce822689cb2af33123295f89b6ddc4a2",
   "shardCount": 1,
   "startedAt": "2026-08-04T04:19:46Z",
-  "updatedAt": "2026-08-04T04:36:34Z"
+  "updatedAt": "2026-08-04T08:04:42Z"
 }

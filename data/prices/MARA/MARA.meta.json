@@ -2,14 +2,14 @@
   "ticker": "MARA",
   "source": "yahoo",
   "firstDate": "2012-05-04",
-  "lastDate": "2026-07-31",
-  "records": 3580,
+  "lastDate": "2026-08-03",
+  "records": 3581,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-04-08",
   "lastSplitDate": "2019-04-08",
   "corporateActionHash": "sha256:0f0e89ff15e2e088a4647426006575ccdb369eccd4a2f5814d492818b34eba4e",
-  "priceDataHash": "sha256:e2ab8e10fc667d9eb812d4cbdb5242cde20b756b647206ca0c12c0fd33b08f82",
+  "priceDataHash": "sha256:d07dcd243e1aca3b75511200aeeef9a58df7f38ee2b05667a11179a73297d6fb",
   "lastFullValidationAt": "2026-07-30T15:38:41Z",
-  "updatedAt": "2026-08-01T10:58:29Z"
+  "updatedAt": "2026-08-04T08:00:04Z"
 }

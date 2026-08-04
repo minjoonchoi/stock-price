@@ -2,14 +2,14 @@
   "ticker": "EXLS",
   "source": "yahoo",
   "firstDate": "2006-10-20",
-  "lastDate": "2026-07-31",
-  "records": 4974,
+  "lastDate": "2026-08-03",
+  "records": 4975,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-08-02",
   "lastSplitDate": "2023-08-02",
   "corporateActionHash": "sha256:6a23c56a386b80158d04a6992717fb2f229d6684915d3f47bccd260bbae4ac8e",
-  "priceDataHash": "sha256:df067bc505c60d47a106a8884cc24769cfd04e35ff0ba31cdf2cae6bac84c02b",
+  "priceDataHash": "sha256:6933e80644ebc36dc1caa2aa214f4c7413857959f333c267f3ca0fd221c468ad",
   "lastFullValidationAt": "2026-07-30T15:15:39Z",
-  "updatedAt": "2026-08-01T10:46:47Z"
+  "updatedAt": "2026-08-04T07:48:18Z"
 }

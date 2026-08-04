@@ -2,14 +2,14 @@
   "ticker": "KDP",
   "source": "yahoo",
   "firstDate": "2008-05-07",
-  "lastDate": "2026-07-31",
-  "records": 4585,
+  "lastDate": "2026-08-03",
+  "records": 4586,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:08eaac17bd73a266724d1f1d7f400db6fc57d4b9ed812a083449b59f16e40d9d",
-  "priceDataHash": "sha256:e181d5f429bbf9f3a3c96db7f26d675a5dacd7976c32a1924cb96f7de18dac7b",
+  "priceDataHash": "sha256:551f068f5c2fc46827c0f748608d98a7efba6b1a8b5fc58324426f88cd94a708",
   "lastFullValidationAt": "2026-07-30T15:32:17Z",
-  "updatedAt": "2026-08-01T10:55:11Z"
+  "updatedAt": "2026-08-04T07:56:44Z"
 }
