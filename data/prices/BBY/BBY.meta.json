@@ -2,14 +2,14 @@
   "ticker": "BBY",
   "source": "yahoo",
   "firstDate": "1985-04-18",
-  "lastDate": "2026-07-31",
-  "records": 10284,
+  "lastDate": "2026-08-03",
+  "records": 10285,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-18",
   "lastSplitDate": "2005-08-04",
   "corporateActionHash": "sha256:fc7d078d4bc472af26356507ea8927cf3da992d0390347cd9d5e693ee75f0a65",
-  "priceDataHash": "sha256:f7506f7ecba1e8d49b1d8edb80940655d610b33a1ee54ba93eb2f47bf184dbcb",
+  "priceDataHash": "sha256:faf88c1c5cac80da476b5b506c202418cceb02babbbd3904ec8b4112219f729c",
   "lastFullValidationAt": "2026-07-29T15:43:32Z",
-  "updatedAt": "2026-08-01T04:36:16Z"
+  "updatedAt": "2026-08-04T04:25:34Z"
 }

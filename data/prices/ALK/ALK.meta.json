@@ -2,14 +2,14 @@
   "ticker": "ALK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-31",
-  "records": 11677,
+  "lastDate": "2026-08-03",
+  "records": 11678,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-02-14",
   "lastSplitDate": "2014-07-10",
   "corporateActionHash": "sha256:401ca460364cfd17151feb3b9bdeacae5e9c7d998d38033c45d23ff2ab18eb77",
-  "priceDataHash": "sha256:a781942f9dfcc6f8656043eed9cdcb86af8135dbaeeb40d213d5530790f45890",
+  "priceDataHash": "sha256:256a74d92eacc62def383a3b6eb5844a83a7d47723fc8e7432535b70488af883",
   "lastFullValidationAt": "2026-07-29T15:36:40Z",
-  "updatedAt": "2026-08-01T04:32:42Z"
+  "updatedAt": "2026-08-04T04:22:00Z"
 }

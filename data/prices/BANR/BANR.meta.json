@@ -2,14 +2,14 @@
   "ticker": "BANR",
   "source": "yahoo",
   "firstDate": "1995-11-01",
-  "lastDate": "2026-07-31",
-  "records": 7671,
+  "lastDate": "2026-08-03",
+  "records": 7672,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-05",
   "lastSplitDate": "2011-06-01",
   "corporateActionHash": "sha256:55c0b2d965591e9a3810ff3c95cfff79411ec73818da5c758455dba90a552806",
-  "priceDataHash": "sha256:ae6f151811023006d581274464ef7899520a3f4184f7315d50e8d11ec9d0ef34",
+  "priceDataHash": "sha256:9341cd30b8f904852a76804c96b213c311e96e6719ce1b7b1e99115c0a732fba",
   "lastFullValidationAt": "2026-07-29T15:43:04Z",
-  "updatedAt": "2026-08-01T04:36:02Z"
+  "updatedAt": "2026-08-04T04:25:20Z"
 }

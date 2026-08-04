@@ -2,14 +2,14 @@
   "ticker": "CBU",
   "source": "yahoo",
   "firstDate": "1985-11-26",
-  "lastDate": "2026-07-31",
-  "records": 10064,
+  "lastDate": "2026-08-03",
+  "records": 10065,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2004-04-13",
   "corporateActionHash": "sha256:392d0412110c082b939e3d05bb3c139286e01ba3105a461c5b18f00225f617d8",
-  "priceDataHash": "sha256:b985ffb45ccb34e5bc6aff484a172a57dee6c26b257448e8c178e95236ed3c69",
+  "priceDataHash": "sha256:1a8c467e47c05357a9f54b99fa6fc1338a77a3bd3b83522ceb801fc5488a59b3",
   "lastFullValidationAt": "2026-07-29T15:49:28Z",
-  "updatedAt": "2026-08-01T04:39:14Z"
+  "updatedAt": "2026-08-04T04:28:36Z"
 }

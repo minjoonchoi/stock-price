@@ -2,14 +2,14 @@
   "ticker": "ACIW",
   "source": "yahoo",
   "firstDate": "1995-02-24",
-  "lastDate": "2026-07-31",
-  "records": 7910,
+  "lastDate": "2026-08-03",
+  "records": 7911,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2014-07-11",
   "lastSplitDate": "2014-07-11",
   "corporateActionHash": "sha256:84c278926d6e1a87f3c33303a17570e19327fde99911218a814c470e080556e9",
-  "priceDataHash": "sha256:d40f2ded82279cd5bec925e870434f1101854af85521b5f3ff4ce45a723775a3",
+  "priceDataHash": "sha256:4f4bb1b7a3f8d44a40d55b6604eeea12d956a8f6bc7ddce1eb26391865403611",
   "lastFullValidationAt": "2026-07-29T15:33:44Z",
-  "updatedAt": "2026-08-01T04:31:08Z"
+  "updatedAt": "2026-08-04T04:20:28Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CACI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-31",
-  "records": 11688,
+  "lastDate": "2026-08-03",
+  "records": 11689,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2001-12-07",
   "lastSplitDate": "2001-12-07",
   "corporateActionHash": "sha256:9722f32557bd5dbf2449c9ebc46f340252955a1d14cb6e452b367474e62b7f28",
-  "priceDataHash": "sha256:ae26b69a028b06fbbf60c7ac81196e78791e3aad2777fd232e378b8ec59f1a46",
+  "priceDataHash": "sha256:1fd20969041b5da1e6666d1d3354ff6b5cf7780070e1c0246efde4dfbb9ad220",
   "lastFullValidationAt": "2026-07-29T15:48:16Z",
-  "updatedAt": "2026-08-01T04:38:38Z"
+  "updatedAt": "2026-08-04T04:28:00Z"
 }

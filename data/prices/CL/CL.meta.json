@@ -2,14 +2,14 @@
   "ticker": "CL",
   "source": "yahoo",
   "firstDate": "1973-05-02",
-  "lastDate": "2026-07-31",
-  "records": 13359,
+  "lastDate": "2026-08-03",
+  "records": 13360,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-20",
   "lastSplitDate": "2013-05-16",
   "corporateActionHash": "sha256:5817ee8801094a468264a96c11f39d3dc990593bdf6300a92822cc2bfcfdd404",
-  "priceDataHash": "sha256:95e8d937b1b076145fff69458e605baabb26e59695764050ddc0ec8c03a27fc6",
+  "priceDataHash": "sha256:fd8b0b0160ec47b47a2313176a96b6f4ce25f24b3cc806f572d25a09f465c7fd",
   "lastFullValidationAt": "2026-07-29T15:52:04Z",
-  "updatedAt": "2026-08-01T04:40:36Z"
+  "updatedAt": "2026-08-04T04:29:58Z"
 }

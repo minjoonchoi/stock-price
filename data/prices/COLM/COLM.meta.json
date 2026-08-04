@@ -2,14 +2,14 @@
   "ticker": "COLM",
   "source": "yahoo",
   "firstDate": "1998-03-27",
-  "lastDate": "2026-07-31",
-  "records": 7123,
+  "lastDate": "2026-08-03",
+  "records": 7124,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-21",
   "lastSplitDate": "2014-09-29",
   "corporateActionHash": "sha256:e51a864e44a6847426f1c85d5a136717655adcad0603c8abcaf660e08e2a34ff",
-  "priceDataHash": "sha256:d90a39a934689aec260d4d52cc3c8ec1ca4a0261de4d397dd2de3621bf808138",
+  "priceDataHash": "sha256:9d321e6c973e5084c0cb3bf211c1096d3dc0eef9f53ef206ff0ed773041156e0",
   "lastFullValidationAt": "2026-07-29T15:53:56Z",
-  "updatedAt": "2026-08-01T04:41:34Z"
+  "updatedAt": "2026-08-04T04:31:02Z"
 }
