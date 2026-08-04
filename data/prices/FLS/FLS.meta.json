@@ -2,14 +2,14 @@
   "ticker": "FLS",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-07-31",
-  "records": 11372,
+  "lastDate": "2026-08-03",
+  "records": 11373,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "2013-06-24",
   "corporateActionHash": "sha256:a9865cba7a9c3c9ec3259c9c7340e7140932c185114081130acd85f34a5d046d",
-  "priceDataHash": "sha256:56db596d1d31426109b8d8c3ca6cee47604840db3693aa09c2c75e7c0fe533ad",
+  "priceDataHash": "sha256:e337e9df32011e475ef5bf8a2fde5673442585b8851408dfa2400a985a93988f",
   "lastFullValidationAt": "2026-07-30T15:18:27Z",
-  "updatedAt": "2026-08-01T10:48:13Z"
+  "updatedAt": "2026-08-04T18:55:34Z"
 }
