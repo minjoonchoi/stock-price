@@ -2,14 +2,14 @@
   "ticker": "OMF",
   "source": "yahoo",
   "firstDate": "2013-10-16",
-  "lastDate": "2026-07-31",
-  "records": 3216,
+  "lastDate": "2026-08-04",
+  "records": 3218,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-11",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:78f9eca71666f018e96ba82c5ccb6cde76508743b504b4360c0a78065b3853cd",
-  "priceDataHash": "sha256:a5430f343dc53ea37c2bb9f04b9feb8247f3b37822d92d0d3a52e3bb302e9592",
+  "priceDataHash": "sha256:3da8a7c65eeb77700a37f0e617686fa01d4dec3160f04739fdb23d31d0d0d091",
   "lastFullValidationAt": "2026-07-31T18:28:14Z",
-  "updatedAt": "2026-08-01T12:11:29Z"
+  "updatedAt": "2026-08-05T04:17:22Z"
 }

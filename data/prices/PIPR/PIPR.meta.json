@@ -2,14 +2,14 @@
   "ticker": "PIPR",
   "source": "yahoo",
   "firstDate": "2004-01-02",
-  "lastDate": "2026-08-03",
-  "records": 5678,
+  "lastDate": "2026-08-04",
+  "records": 5679,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2026-03-24",
   "corporateActionHash": "sha256:db088831c584aa6369b85ff771d9b7b1cb6e35a2df1c7690ce5ff0a598050f4d",
-  "priceDataHash": "sha256:f002914e9bb51e35785cee87808b86eae7265174fd5936b08dac8a651c77ac77",
+  "priceDataHash": "sha256:a319ce4ee6aa94386ff7d3a139f65ea156367b50c5af70f1775d8573abab3139",
   "lastFullValidationAt": "2026-07-31T18:32:38Z",
-  "updatedAt": "2026-08-04T11:31:06Z"
+  "updatedAt": "2026-08-05T04:19:34Z"
 }

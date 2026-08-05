@@ -2,14 +2,14 @@
   "ticker": "NUE",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-03",
-  "records": 11673,
+  "lastDate": "2026-08-04",
+  "records": 11674,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2006-06-01",
   "corporateActionHash": "sha256:0a1d10f1dd613bf4d88eba9fc90d490a12f1667a73102039e0d00a1d3813bcf1",
-  "priceDataHash": "sha256:2ad7713ab71e5c6516091fac8f27594dbd1c848f7034f894d76d91af4d9650d6",
+  "priceDataHash": "sha256:2c0ad797a525ade588476b91b3efc60a669cfa08025880af38daebb9731163fd",
   "lastFullValidationAt": "2026-07-31T18:26:07Z",
-  "updatedAt": "2026-08-04T11:27:50Z"
+  "updatedAt": "2026-08-05T04:16:19Z"
 }

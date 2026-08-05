@@ -2,14 +2,14 @@
   "ticker": "REZI",
   "source": "yahoo",
   "firstDate": "2018-10-29",
-  "lastDate": "2026-08-03",
-  "records": 1949,
+  "lastDate": "2026-08-04",
+  "records": 1950,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "",
-  "lastSplitDate": "",
-  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:800a56c9729997ac7e9533a3d7126f7ab62b2d18734f3e0becbb8d1efa896a9e",
-  "lastFullValidationAt": "2026-07-31T18:37:38Z",
-  "updatedAt": "2026-08-04T11:33:40Z"
+  "lastCorporateActionDate": "2026-08-04",
+  "lastSplitDate": "2026-08-04",
+  "corporateActionHash": "sha256:668007dd93518aea0e5efe1644268547339acab0cb7f36a2146d4ba6a9c58879",
+  "priceDataHash": "sha256:d80c6ba56eff4b0d201dc6d433631e64a2f9633b84630509466903dd141500a3",
+  "lastFullValidationAt": "2026-08-05T04:22:10Z",
+  "updatedAt": "2026-08-05T04:22:10Z"
 }

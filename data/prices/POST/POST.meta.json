@@ -2,14 +2,14 @@
   "ticker": "POST",
   "source": "yahoo",
   "firstDate": "2012-01-27",
-  "lastDate": "2026-08-03",
-  "records": 3649,
+  "lastDate": "2026-08-04",
+  "records": 3650,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-03-11",
   "lastSplitDate": "2022-03-11",
   "corporateActionHash": "sha256:ab73861aaed9ea4269f653ad3a35ff9666298d6d632450d0ed2c6f217d944a72",
-  "priceDataHash": "sha256:1ac0d029fa59320c515c0a0f2133d8aa25bace8edbcc7c777f72b1fee854ab64",
+  "priceDataHash": "sha256:f385011a0fe9f8ce80616fb2f62f70aea5b2c7c3de6bfaf97a16b10de4936d37",
   "lastFullValidationAt": "2026-07-31T18:33:50Z",
-  "updatedAt": "2026-08-04T11:31:42Z"
+  "updatedAt": "2026-08-05T04:20:10Z"
 }
