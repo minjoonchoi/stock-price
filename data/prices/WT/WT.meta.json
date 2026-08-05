@@ -2,14 +2,14 @@
   "ticker": "WT",
   "source": "yahoo",
   "firstDate": "1993-03-04",
-  "lastDate": "2026-07-31",
-  "records": 8368,
+  "lastDate": "2026-08-04",
+  "records": 8370,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:a5a4c4e41616e4ec7ddc4200ef0cc8271faffedfed7f67b3621157853c72e400",
-  "priceDataHash": "sha256:35ab57509f7a65e39d3f7cff5c4e6b6e9270b4a673d926cc6afc9b6af4cf94ca",
+  "priceDataHash": "sha256:782042f5b4bcfade4883ee4d268ba0c9bcc93469aa95d37ddcd1cb1232e3692c",
   "lastFullValidationAt": "2026-08-01T14:33:35Z",
-  "updatedAt": "2026-08-01T14:33:35Z"
+  "updatedAt": "2026-08-05T07:48:49Z"
 }

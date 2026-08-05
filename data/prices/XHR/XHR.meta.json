@@ -2,14 +2,14 @@
   "ticker": "XHR",
   "source": "yahoo",
   "firstDate": "2015-02-04",
-  "lastDate": "2026-07-31",
-  "records": 2886,
+  "lastDate": "2026-08-04",
+  "records": 2888,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:36cef18bc244023aecb054677fa8295a98e0d2eaf0802cb6e92bf840cb034f70",
-  "priceDataHash": "sha256:96429aec8dddce2f4b08498099e5316f7b741aec191e88d3da6d744351b7bfc8",
+  "priceDataHash": "sha256:96ea977b89ab26dcd03b1f064455fe468c5c7146399575355f4035fa0314de04",
   "lastFullValidationAt": "2026-08-01T14:34:19Z",
-  "updatedAt": "2026-08-01T14:34:19Z"
+  "updatedAt": "2026-08-05T07:49:11Z"
 }
