@@ -2,14 +2,14 @@
   "ticker": "INGM",
   "source": "yahoo",
   "firstDate": "2024-10-24",
-  "lastDate": "2026-08-03",
-  "records": 443,
+  "lastDate": "2026-08-04",
+  "records": 444,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-12",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:98aa9e454f23b1163f13ddf9ac2e546722fb64bc7d33d14d46bafa250c356947",
-  "priceDataHash": "sha256:abf5e7c40943cb654b2c1dc6cc6e69e84b7d62deffc3ae8bb5f73b1caf89d20c",
+  "priceDataHash": "sha256:1d1ddab2da618b9aae0456f72d9bf76a1f7dc78ff4314b93363d72a01728f1e1",
   "lastFullValidationAt": "2026-07-30T15:29:23Z",
-  "updatedAt": "2026-08-04T07:55:16Z"
+  "updatedAt": "2026-08-05T16:37:15Z"
 }

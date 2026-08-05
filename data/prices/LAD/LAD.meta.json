@@ -2,14 +2,14 @@
   "ticker": "LAD",
   "source": "yahoo",
   "firstDate": "1996-12-18",
-  "lastDate": "2026-08-03",
-  "records": 7435,
+  "lastDate": "2026-08-04",
+  "records": 7436,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-08",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f3a790cf811cb02d1dedb7a2b0ef2b224a4c5f32444bca03a0dbc84c147b1bbd",
-  "priceDataHash": "sha256:7ff4793ae77dc69c25a29824ce0e3c5877fb32e330336f3cdae083d2764345e9",
+  "priceDataHash": "sha256:0cd85a3b4cdb4e2d43ee0d735de2fee093e0cbe82896c27c29159b8a6387e20b",
   "lastFullValidationAt": "2026-07-30T15:34:21Z",
-  "updatedAt": "2026-08-04T07:57:46Z"
+  "updatedAt": "2026-08-05T16:39:45Z"
 }

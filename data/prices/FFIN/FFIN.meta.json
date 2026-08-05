@@ -2,14 +2,14 @@
   "ticker": "FFIN",
   "source": "yahoo",
   "firstDate": "1993-11-01",
-  "lastDate": "2026-08-03",
-  "records": 8171,
+  "lastDate": "2026-08-04",
+  "records": 8172,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2019-06-04",
   "corporateActionHash": "sha256:a9b9259db3604cb0fdb4a1f26a0cb49b0637815b1d6366a603da448752e62aeb",
-  "priceDataHash": "sha256:7ca47afcded8f77276fb10166cbee593cbe4149bad62086da55e07f373f62c11",
+  "priceDataHash": "sha256:98a58a6fdb702e46004dc7f802bc4edc6b1e6469bac37f7087ae8270d210ffae",
   "lastFullValidationAt": "2026-07-30T15:17:29Z",
-  "updatedAt": "2026-08-04T07:49:16Z"
+  "updatedAt": "2026-08-05T16:31:13Z"
 }
