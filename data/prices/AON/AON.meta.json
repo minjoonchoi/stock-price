@@ -2,14 +2,14 @@
   "ticker": "AON",
   "source": "yahoo",
   "firstDate": "1980-06-02",
-  "lastDate": "2026-08-03",
-  "records": 11562,
+  "lastDate": "2026-08-04",
+  "records": 11563,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-01",
+  "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "1999-05-18",
-  "corporateActionHash": "sha256:c5ed9b70d82cacbbdd9ba0a333492135be48d609b1a1c876388bb67f5e87a959",
-  "priceDataHash": "sha256:155836291517077acc4807981670dff2596f954297919d04d4384a343573df14",
+  "corporateActionHash": "sha256:88bfd0f2944dbaf075c00b15af797299c1d06bc6b4ee1e8990b3cb221ea0d57b",
+  "priceDataHash": "sha256:14ac1116d11859bc7de2c36593c8580750928bf31d50b3066a2605a3b9edf04b",
   "lastFullValidationAt": "2026-07-29T15:38:28Z",
-  "updatedAt": "2026-08-04T04:22:58Z"
+  "updatedAt": "2026-08-05T11:33:06Z"
 }

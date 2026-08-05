@@ -2,14 +2,14 @@
   "ticker": "BX",
   "source": "yahoo",
   "firstDate": "2007-06-22",
-  "lastDate": "2026-08-03",
-  "records": 4801,
+  "lastDate": "2026-08-04",
+  "records": 4802,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-04",
+  "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1a4c5c23809337be081ccc02c819dc5bef59e93d5c9eb198a00b34f019e70699",
-  "priceDataHash": "sha256:f590f3291b79d6b11e51ce11e8e8d5be32f30d802b29f0d65c855d8fdc9d0da7",
+  "corporateActionHash": "sha256:ff4f99498a1fe473b7f0d66409d37913dd13448f9909aac52bc4e37d3acf598c",
+  "priceDataHash": "sha256:409481d422ac95485f63f94cb78c68bb4a76b0406528da3f16a502ab3f57fbf6",
   "lastFullValidationAt": "2026-07-29T15:47:52Z",
-  "updatedAt": "2026-08-04T04:27:48Z"
+  "updatedAt": "2026-08-05T11:37:56Z"
 }

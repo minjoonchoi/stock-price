@@ -2,14 +2,14 @@
   "ticker": "DK",
   "source": "yahoo",
   "firstDate": "2006-05-04",
-  "lastDate": "2026-08-03",
-  "records": 5087,
+  "lastDate": "2026-08-04",
+  "records": 5088,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-01",
+  "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:464da1332c8ffb06733c6c669389413dcbf16ee5a160de7058d44c97e4058f5a",
-  "priceDataHash": "sha256:d958e141c48a8291e814db73c60334220da83cc8f83508733484d33bee947ebf",
+  "corporateActionHash": "sha256:d2989ab51df496484fee531134cf931890087747dd9d51fe37f30e4431c4c99c",
+  "priceDataHash": "sha256:e0c7b6ef81b22b32e41fcf789f48443d4ff40552dbeb76b416c5f1b30d4c6366",
   "lastFullValidationAt": "2026-07-29T15:59:32Z",
-  "updatedAt": "2026-08-04T04:33:50Z"
+  "updatedAt": "2026-08-05T11:43:54Z"
 }
