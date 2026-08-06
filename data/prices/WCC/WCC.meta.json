@@ -2,14 +2,14 @@
   "ticker": "WCC",
   "source": "yahoo",
   "firstDate": "1999-05-12",
-  "lastDate": "2026-08-04",
-  "records": 6849,
+  "lastDate": "2026-08-05",
+  "records": 6850,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5e63a5d24c0b7860b81a9db8713833e4a3632e7456b70b88ffbe2d14b199a4e8",
-  "priceDataHash": "sha256:db58da57bbe50896e75c0a57d71d4ae47842454500fa13719b6f77e7a1987ad4",
+  "priceDataHash": "sha256:8323d9ab265d641469e5d6ed1a1d52e074710b5801aa04661a3767b22bd511f6",
   "lastFullValidationAt": "2026-07-31T18:58:38Z",
-  "updatedAt": "2026-08-05T04:32:44Z"
+  "updatedAt": "2026-08-06T15:48:41Z"
 }
