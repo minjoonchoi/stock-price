@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 120,
-  "updatedAt": "2026-07-04T17:02:06Z",
-  "source": "yahoo"
+  "ticker": "AKTS",
+  "source": "yahoo",
+  "firstDate": "2026-01-09",
+  "lastDate": "2026-08-05",
+  "records": 143,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:6e900267fbbe816ff165382f515e860fd218f1d3960783f7d2342a9ed9d4e996",
+  "lastFullValidationAt": "2026-08-06T04:24:47Z",
+  "updatedAt": "2026-08-06T04:24:47Z"
 }

@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-08-05",
-  "totalTargets": 1560,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "WERN",
-  "cursorIndex": 1500,
+  "runId": "2026-08-06",
+  "totalTargets": 1568,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ET",
+  "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:ea05b009db3152259031f55d5ff0d2b8fb09206a70af69b18eaa997481fe70e8",
-  "universeHash": "sha256:8159ed087bfe2a45f03225ffafe430b956ed805b94532739cf7b9da00fbd7f90",
+  "universeHash": "sha256:977c97ba582759bac2d650c9f615be141e04b8b03fde3244218bb28925930b4d",
   "shardCount": 1,
-  "startedAt": "2026-08-05T11:29:56Z",
-  "updatedAt": "2026-08-05T18:34:54Z"
+  "startedAt": "2026-08-06T04:21:01Z",
+  "updatedAt": "2026-08-06T04:53:56Z"
 }

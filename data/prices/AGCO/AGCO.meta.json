@@ -1,15 +1,15 @@
 {
   "ticker": "AGCO",
   "source": "yahoo",
-  "firstDate": "1992-04-16",
-  "lastDate": "2026-08-04",
-  "records": 8616,
+  "firstDate": "1992-04-20",
+  "lastDate": "2026-08-05",
+  "records": 8608,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-15",
   "lastSplitDate": "1996-02-01",
   "corporateActionHash": "sha256:878c6409a45abd4afd04ee188efb3ce764a86feb6c50c718f47a21fb89bec0aa",
-  "priceDataHash": "sha256:9fbb6a1d7483a0824f199b64a3f9a78723a0b94ed42967b55aebd2dfc909d19d",
-  "lastFullValidationAt": "2026-07-29T15:35:08Z",
-  "updatedAt": "2026-08-05T11:31:22Z"
+  "priceDataHash": "sha256:645da1a24c943c143ce91d324c1321aa298b115d2c2b38a5c91f8470ffeb68f8",
+  "lastFullValidationAt": "2026-08-06T04:23:48Z",
+  "updatedAt": "2026-08-06T04:23:48Z"
 }
