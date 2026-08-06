@@ -2,14 +2,14 @@
   "ticker": "PEG",
   "source": "yahoo",
   "firstDate": "1980-01-02",
-  "lastDate": "2026-08-04",
-  "records": 11588,
+  "lastDate": "2026-08-05",
+  "records": 11589,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-09",
   "lastSplitDate": "2008-02-05",
   "corporateActionHash": "sha256:c6f70ac5709120c9d9f7516516b35eb47386d7d2096084ba0fc2def8d9890a72",
-  "priceDataHash": "sha256:a0c436f355a1bd9a28dfdf5f3d311a169819bd95974f32c0e0dd4daaf892b251",
+  "priceDataHash": "sha256:7e504321c932a3b2169cee89e81157dfe0ce5810275c63982b1596c14283b2f0",
   "lastFullValidationAt": "2026-07-31T18:31:19Z",
-  "updatedAt": "2026-08-05T04:18:55Z"
+  "updatedAt": "2026-08-06T11:34:27Z"
 }

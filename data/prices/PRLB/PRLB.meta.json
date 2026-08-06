@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3609,
-  "updatedAt": "2026-07-04T17:23:54Z",
-  "source": "yahoo"
+  "ticker": "PRLB",
+  "source": "yahoo",
+  "firstDate": "2012-02-24",
+  "lastDate": "2026-08-05",
+  "records": 3632,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:2106c6ba8b7b4e303fce9b24bca79d02e29d94b5ca91f0bcecd9eb0d7e0c69e3",
+  "lastFullValidationAt": "2026-08-06T11:36:17Z",
+  "updatedAt": "2026-08-06T11:36:17Z"
 }
