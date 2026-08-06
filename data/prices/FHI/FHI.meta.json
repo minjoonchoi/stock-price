@@ -2,14 +2,14 @@
   "ticker": "FHI",
   "source": "yahoo",
   "firstDate": "1998-05-14",
-  "lastDate": "2026-08-04",
-  "records": 7085,
+  "lastDate": "2026-08-05",
+  "records": 7086,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-08",
   "lastSplitDate": "2000-07-18",
   "corporateActionHash": "sha256:b249b1e2a9bfa89e366600ccf6f310b8bcb2df041b40a7ac0b1a6904871a55ac",
-  "priceDataHash": "sha256:260967151b25c3c123b59182976e2764d02a824577192519da87b2a3a357a9be",
+  "priceDataHash": "sha256:639f57eda75bc70183a3e0f26d222593f3533e51bc23d6af07df8e6ed2095089",
   "lastFullValidationAt": "2026-07-30T15:17:37Z",
-  "updatedAt": "2026-08-05T16:31:17Z"
+  "updatedAt": "2026-08-06T07:53:08Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "IDA",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-04",
-  "records": 13279,
+  "lastDate": "2026-08-05",
+  "records": 13280,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-05",
+  "lastCorporateActionDate": "2026-08-05",
   "lastSplitDate": "1985-06-07",
-  "corporateActionHash": "sha256:a2b7008bd5005279a3ecc8665ebc19252adab6dc0f2da0623a4b9b3046aaada8",
-  "priceDataHash": "sha256:611cb6f1c726b6438d7a94f7abf9546d0e92a769278cd6b27b67dc0187709ec0",
+  "corporateActionHash": "sha256:53a2c03f3f2e8f259cc267b6195d32bec03dfe307471a5296653745b1c860b2a",
+  "priceDataHash": "sha256:29a32ca9e0e527dc1ef1c00c535f73195e2758113baccd4fc695ceadc9903d9f",
   "lastFullValidationAt": "2026-07-30T15:28:35Z",
-  "updatedAt": "2026-08-05T16:36:51Z"
+  "updatedAt": "2026-08-06T07:58:44Z"
 }

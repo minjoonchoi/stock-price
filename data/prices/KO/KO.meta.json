@@ -2,14 +2,14 @@
   "ticker": "KO",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-04",
-  "records": 16148,
+  "lastDate": "2026-08-05",
+  "records": 16149,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2012-08-13",
   "corporateActionHash": "sha256:6eb0d956b0cb561943887dbd73ebe2cbaf5420ada836a26b5f8b429af1c6e9ef",
-  "priceDataHash": "sha256:e83756179aa787f7daf4ddc035e948f53626fda7c75df1439432dbfb58e6ffaa",
+  "priceDataHash": "sha256:2ffe54e8fed392dfc8a5a003b17a98b6c3eef5b16d37915d38868b1581986f05",
   "lastFullValidationAt": "2026-07-30T15:33:30Z",
-  "updatedAt": "2026-08-05T16:39:19Z"
+  "updatedAt": "2026-08-06T08:01:16Z"
 }

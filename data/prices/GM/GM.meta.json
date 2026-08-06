@@ -2,14 +2,14 @@
   "ticker": "GM",
   "source": "yahoo",
   "firstDate": "2010-11-18",
-  "lastDate": "2026-08-04",
-  "records": 3946,
+  "lastDate": "2026-08-05",
+  "records": 3947,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:4cea0d68bbc4b0dd285eb4dc34fea7007ca4f43f45b806766a86b1fed3da4b0f",
-  "priceDataHash": "sha256:ad83f3c67569a51c75ba9d3b41170888b678b32449b1f512d2ca1f9eebf97ee4",
+  "priceDataHash": "sha256:fc50d1d3eee5eaa5041f1e5e09a492421f56a5c5f575d604e36ef84df285cf02",
   "lastFullValidationAt": "2026-07-30T15:22:19Z",
-  "updatedAt": "2026-08-05T16:33:41Z"
+  "updatedAt": "2026-08-06T07:55:30Z"
 }
