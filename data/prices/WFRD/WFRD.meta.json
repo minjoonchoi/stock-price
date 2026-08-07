@@ -2,14 +2,14 @@
   "ticker": "WFRD",
   "source": "yahoo",
   "firstDate": "2021-01-04",
-  "lastDate": "2026-08-05",
-  "records": 1403,
+  "lastDate": "2026-08-06",
+  "records": 1404,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-06",
+  "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:2bf27fb9fe3d4d228e91fc4e5c5d46257bb51e97c4dfeb82edbd251903753f12",
-  "priceDataHash": "sha256:eddd33541b26e5629e8ebabd80f2b8bdb4cd58d3bd1538b4d34ef14cb1ac471c",
+  "corporateActionHash": "sha256:a609acdc023d2dcb70f80fca64007e396c1aa4da1fa91e2ad654ba29c48385cb",
+  "priceDataHash": "sha256:ad4fa34acee10b67a021f14c15c469f5bd9183197835fb08d92c750e6b278359",
   "lastFullValidationAt": "2026-08-01T14:32:03Z",
-  "updatedAt": "2026-08-06T15:49:01Z"
+  "updatedAt": "2026-08-07T10:09:43Z"
 }
