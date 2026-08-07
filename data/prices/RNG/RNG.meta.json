@@ -2,14 +2,14 @@
   "ticker": "RNG",
   "source": "yahoo",
   "firstDate": "2013-09-27",
-  "lastDate": "2026-08-05",
-  "records": 3232,
+  "lastDate": "2026-08-06",
+  "records": 3233,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-02",
+  "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:b4e3132a87dc42ba9395b7c682f2fb5cc7809069ef22b3fe6684034498e7c51c",
-  "priceDataHash": "sha256:d52fa15ab1940877440aee0672c46c70e24afb4acfa93fe65a5bf84333c05177",
+  "corporateActionHash": "sha256:0fbbb842027d62bd58263f4fb55b4eaf306b33fa9bb5894e214920fb6807a1ad",
+  "priceDataHash": "sha256:46de245602e2fed7b9c740b525053f195a8f5dc700a57a3034d712f08aa1f95c",
   "lastFullValidationAt": "2026-07-31T18:38:56Z",
-  "updatedAt": "2026-08-06T11:38:27Z"
+  "updatedAt": "2026-08-07T08:28:01Z"
 }

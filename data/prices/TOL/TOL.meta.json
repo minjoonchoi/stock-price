@@ -2,14 +2,14 @@
   "ticker": "TOL",
   "source": "yahoo",
   "firstDate": "1986-07-08",
-  "lastDate": "2026-08-05",
-  "records": 10091,
+  "lastDate": "2026-08-06",
+  "records": 10092,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "2005-07-11",
   "corporateActionHash": "sha256:a913cdc37dde04e4b251e27ea34c28d2f859912d99198fe80de87ef4eef6ad6c",
-  "priceDataHash": "sha256:033cacd055799808b768a4696eb8df61012ad1f0a104fee5d120ad71ab32b3b7",
+  "priceDataHash": "sha256:fcf8334b65437cf15c70c62f8cb6e2b73ada6aadac6ad25ddd4b47f83f52dd6a",
   "lastFullValidationAt": "2026-07-31T18:50:32Z",
-  "updatedAt": "2026-08-06T11:44:17Z"
+  "updatedAt": "2026-08-07T08:33:51Z"
 }

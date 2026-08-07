@@ -2,14 +2,14 @@
   "ticker": "PECO",
   "source": "yahoo",
   "firstDate": "2021-02-25",
-  "lastDate": "2026-08-05",
-  "records": 1366,
+  "lastDate": "2026-08-06",
+  "records": 1367,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:bd103218f881bddcf68893de7b3d25298bc83be851477c400de319cbfb64d6d7",
-  "priceDataHash": "sha256:00494d829cb8e3a57787a006f15c6f316fc00dbcb2be26d0fcc95e88100cfab5",
+  "priceDataHash": "sha256:1eb135adcb1e774b2a42c8b50504439b9f77cfb7e0ac20f4467697c407ed460f",
   "lastFullValidationAt": "2026-07-31T18:31:14Z",
-  "updatedAt": "2026-08-06T11:34:25Z"
+  "updatedAt": "2026-08-07T08:24:03Z"
 }
