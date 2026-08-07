@@ -1,15 +1,15 @@
 {
   "ticker": "MRSH",
   "source": "yahoo",
-  "firstDate": "1973-02-21",
-  "lastDate": "2026-08-05",
-  "records": 13256,
+  "firstDate": "1973-02-27",
+  "lastDate": "2026-08-06",
+  "records": 13262,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-23",
   "lastSplitDate": "2002-07-01",
   "corporateActionHash": "sha256:ede40147cec132e642f291b034242183dbd56aaef0cb9d2f10ddf1f01300ca3b",
-  "priceDataHash": "sha256:48ed44c89de988bd84770a419d1b2c63456d27e5b7a2aa7c4939577158ca8e9b",
-  "lastFullValidationAt": "2026-07-30T15:42:46Z",
-  "updatedAt": "2026-08-06T08:06:06Z"
+  "priceDataHash": "sha256:3fc6bcf9a869e2e9a18bb269df7a36468d87b7619dbffa17b41c4796f846f50f",
+  "lastFullValidationAt": "2026-08-07T06:43:08Z",
+  "updatedAt": "2026-08-07T06:43:08Z"
 }
