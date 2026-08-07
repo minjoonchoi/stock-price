@@ -2,14 +2,14 @@
   "ticker": "CHDN",
   "source": "yahoo",
   "firstDate": "1993-03-29",
-  "lastDate": "2026-08-05",
-  "records": 8381,
+  "lastDate": "2026-08-06",
+  "records": 8382,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-05",
   "lastSplitDate": "2023-05-22",
   "corporateActionHash": "sha256:6cfb861251d5ed421fd0654ae6050cb53ea5106a44a3a4d684e808ef65c8b1bc",
-  "priceDataHash": "sha256:bc59ec2e1daac370db8338c39a6699f264faeaa96355d16d156cec637d8c2e03",
+  "priceDataHash": "sha256:dd3670e991a05156558dabb9ef9e797e5742a37f4b4dcfbe5916128df3d24c6b",
   "lastFullValidationAt": "2026-08-06T04:40:24Z",
-  "updatedAt": "2026-08-06T04:40:24Z"
+  "updatedAt": "2026-08-07T04:05:08Z"
 }

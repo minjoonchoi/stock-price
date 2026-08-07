@@ -2,14 +2,14 @@
   "ticker": "CNP",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-05",
-  "records": 16046,
+  "lastDate": "2026-08-06",
+  "records": 16047,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-21",
   "lastSplitDate": "2002-10-01",
   "corporateActionHash": "sha256:e03a75d75e0164828f72ea99e2874d7a3a4b421360956010e34f6ba4b0be5882",
-  "priceDataHash": "sha256:5a1dc530153cc7f0c9df5349c861c0066bd4a23472c036a2cab1f6b204fc78ee",
+  "priceDataHash": "sha256:a2445aedca985e06c2396b5756958b1dc9fb654f329fe697576e0262c3c91fa6",
   "lastFullValidationAt": "2026-08-06T04:42:18Z",
-  "updatedAt": "2026-08-06T04:42:18Z"
+  "updatedAt": "2026-08-07T04:06:06Z"
 }

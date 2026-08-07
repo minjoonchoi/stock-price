@@ -2,14 +2,14 @@
   "ticker": "BCPC",
   "source": "yahoo",
   "firstDate": "1986-06-03",
-  "lastDate": "2026-08-05",
-  "records": 10094,
+  "lastDate": "2026-08-06",
+  "records": 10095,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-23",
   "lastSplitDate": "2010-01-21",
   "corporateActionHash": "sha256:6371889b92615979152c039a62c200b60dea0624014da7cba756b7a8cef851d8",
-  "priceDataHash": "sha256:d85675033fa2e8be62ed5d6901a6ba54bf8f9ef9e6fa531a60453a44073bfa5b",
+  "priceDataHash": "sha256:a7b032a3b6bc24e9d673dea7bd26ec5611d6058459d31c50264910c99611ba6b",
   "lastFullValidationAt": "2026-08-06T04:32:46Z",
-  "updatedAt": "2026-08-06T04:32:46Z"
+  "updatedAt": "2026-08-07T04:01:16Z"
 }
