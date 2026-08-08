@@ -2,14 +2,14 @@
   "ticker": "BIO",
   "source": "yahoo",
   "firstDate": "1980-02-27",
-  "lastDate": "2026-08-06",
-  "records": 11705,
+  "lastDate": "2026-08-07",
+  "records": 11706,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2002-03-08",
   "lastSplitDate": "2002-03-08",
   "corporateActionHash": "sha256:c2acd60cdcc14aa8d6f7158e2fa090558f75de34aabb9f09ce7daf90d0f55059",
-  "priceDataHash": "sha256:54f831415a983150e1abb86874220898a5f891f8a6afa00f94950f576eed2029",
+  "priceDataHash": "sha256:0aafe2d3b9ce367decb910dca7ba12c74bd07d6e81f6e74f47ba23332e2b2640",
   "lastFullValidationAt": "2026-08-06T04:34:02Z",
-  "updatedAt": "2026-08-07T04:01:54Z"
+  "updatedAt": "2026-08-08T04:17:01Z"
 }
