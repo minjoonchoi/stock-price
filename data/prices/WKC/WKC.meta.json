@@ -2,14 +2,14 @@
   "ticker": "WKC",
   "source": "yahoo",
   "firstDate": "1986-08-28",
-  "lastDate": "2026-08-06",
-  "records": 10000,
+  "lastDate": "2026-08-07",
+  "records": 9982,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2009-12-08",
   "corporateActionHash": "sha256:90e8cea4fe667ce60ba4a290e43a14f28cfd54eff97f98fc1eff8d0dc1816af8",
-  "priceDataHash": "sha256:751161c3f0e99ab64055730ac3db8dc52bbd63a2c1aea9bee611d2cd8884f6d7",
-  "lastFullValidationAt": "2026-08-01T14:32:27Z",
-  "updatedAt": "2026-08-07T10:09:55Z"
+  "priceDataHash": "sha256:a43c8d461a2c55b170b4655ecdf16f594e0bb4c02c4192e87183fbbf5c716caf",
+  "lastFullValidationAt": "2026-08-08T15:40:31Z",
+  "updatedAt": "2026-08-08T15:40:31Z"
 }
