@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1280,
-  "updatedAt": "2026-07-04T17:11:25Z",
-  "source": "yahoo"
+  "ticker": "FIGS",
+  "source": "yahoo",
+  "firstDate": "2021-05-27",
+  "lastDate": "2026-08-07",
+  "records": 1305,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:074a0f5d4acf693c9a0a55b00790a738770a9d602b8f32d3aec9b389fa301fda",
+  "lastFullValidationAt": "2026-08-08T11:35:43Z",
+  "updatedAt": "2026-08-08T11:35:43Z"
 }

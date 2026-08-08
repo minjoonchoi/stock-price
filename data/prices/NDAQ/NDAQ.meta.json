@@ -2,14 +2,14 @@
   "ticker": "NDAQ",
   "source": "yahoo",
   "firstDate": "2002-07-01",
-  "lastDate": "2026-08-06",
-  "records": 6064,
+  "lastDate": "2026-08-07",
+  "records": 6065,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2022-08-29",
   "corporateActionHash": "sha256:4b5ed80aed681efb3366d36fbdc0f926d1fd9ab3dcbbb8809530bafc117438ff",
-  "priceDataHash": "sha256:f08ad7e3cd1d4c949ff03ebe5d5849086384bd2b56c627e8171f5ea0df735813",
+  "priceDataHash": "sha256:f0cce09d5ecdf91507a72d04b34d3bf89c9ba9e7e2baebcd2e08a3efe9f2184b",
   "lastFullValidationAt": "2026-08-07T06:45:26Z",
-  "updatedAt": "2026-08-07T06:45:26Z"
+  "updatedAt": "2026-08-08T11:49:55Z"
 }
