@@ -2,14 +2,14 @@
   "ticker": "DTE",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-06",
-  "records": 15947,
+  "lastDate": "2026-08-07",
+  "records": 15948,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-22",
   "lastSplitDate": "2021-07-01",
   "corporateActionHash": "sha256:e7c52247906a88e4140375ea39d98789378b9b4a534fe7deea7a55312a4266a9",
-  "priceDataHash": "sha256:a2b57c5d232a960382702b63249f762bc0280f38f7921ae85a7a7c0a6aa0f11d",
+  "priceDataHash": "sha256:16a21d0d53b381515508531fb99784bf8a361373f200dc2f1ed25a3817f6f60f",
   "lastFullValidationAt": "2026-08-06T04:50:06Z",
-  "updatedAt": "2026-08-07T04:10:02Z"
+  "updatedAt": "2026-08-08T03:16:51Z"
 }

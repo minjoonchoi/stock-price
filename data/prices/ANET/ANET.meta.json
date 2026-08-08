@@ -2,14 +2,14 @@
   "ticker": "ANET",
   "source": "yahoo",
   "firstDate": "2014-06-06",
-  "lastDate": "2026-08-06",
-  "records": 3060,
+  "lastDate": "2026-08-07",
+  "records": 3061,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-12-04",
   "lastSplitDate": "2024-12-04",
   "corporateActionHash": "sha256:73e36c2f8564b232698786566457bd42687e2c2a6f34c6b198c05a1f77e1c318",
-  "priceDataHash": "sha256:e13c7141d2de78d38244a219aa3c1d646713a1032936e60f174821145a695d3c",
+  "priceDataHash": "sha256:e24ada7ab1a62c930e40339f32c2dce446ea25370cbb2c2f3c15631b19752d64",
   "lastFullValidationAt": "2026-08-06T04:27:08Z",
-  "updatedAt": "2026-08-07T03:58:26Z"
+  "updatedAt": "2026-08-08T03:05:15Z"
 }

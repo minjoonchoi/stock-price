@@ -2,14 +2,14 @@
   "ticker": "DORM",
   "source": "yahoo",
   "firstDate": "1991-03-12",
-  "lastDate": "2026-08-06",
-  "records": 8915,
+  "lastDate": "2026-08-07",
+  "records": 8916,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2012-12-13",
   "lastSplitDate": "2012-06-18",
   "corporateActionHash": "sha256:c309478429a3e801d8806b089a8bba3cba31ac817a1b076f5ac4cd93bcc04877",
-  "priceDataHash": "sha256:033480c81c2cb0eb1e1c7a43c7993e07eb0ac71460d0992224dcb43a35389d50",
+  "priceDataHash": "sha256:f68b36ff3d70515fd7ea21241d682ed6b3c43a7b10e93bb9018276ce4940b4db",
   "lastFullValidationAt": "2026-08-06T04:49:34Z",
-  "updatedAt": "2026-08-07T04:09:46Z"
+  "updatedAt": "2026-08-08T03:16:35Z"
 }

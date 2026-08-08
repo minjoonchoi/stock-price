@@ -2,14 +2,14 @@
   "ticker": "BAC",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-06",
-  "records": 13163,
+  "lastDate": "2026-08-07",
+  "records": 13164,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2004-08-30",
   "corporateActionHash": "sha256:d22d9e586afdcc14f2f155441e01e65076184c8410c96e5ae43494da7c37984e",
-  "priceDataHash": "sha256:f3d4f196bb5937f41cf612b796449902a0d2098a69f59d6d5c7b82930c8faeb7",
+  "priceDataHash": "sha256:61bdd9b4381590a87bdd070a24a5f620cec88963258a96de439d6cb393b7a611",
   "lastFullValidationAt": "2026-08-06T04:31:38Z",
-  "updatedAt": "2026-08-07T04:00:42Z"
+  "updatedAt": "2026-08-08T03:07:31Z"
 }
