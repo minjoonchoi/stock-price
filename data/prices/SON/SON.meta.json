@@ -1,15 +1,15 @@
 {
   "ticker": "SON",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
-  "lastDate": "2026-08-06",
-  "records": 11585,
+  "firstDate": "1980-03-24",
+  "lastDate": "2026-08-07",
+  "records": 11420,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-08",
   "lastSplitDate": "1998-05-13",
   "corporateActionHash": "sha256:28a144da4493466e083ed744af44ecf8cdf7dc9a7e85b26d3a2d1d904512cdef",
-  "priceDataHash": "sha256:9c5262ad6eab8c6fb7c5e39fb157ecf90e22963d3a0c80a73deb2cb3a106dbd2",
-  "lastFullValidationAt": "2026-07-31T18:45:19Z",
-  "updatedAt": "2026-08-07T08:31:13Z"
+  "priceDataHash": "sha256:9e9cd334058a1e26387002f079b7a55691dce38e6900239f4a9297e340654b53",
+  "lastFullValidationAt": "2026-08-08T14:17:07Z",
+  "updatedAt": "2026-08-08T14:17:07Z"
 }

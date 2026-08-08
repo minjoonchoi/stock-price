@@ -1,15 +1,15 @@
 {
   "ticker": "TDW",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-08-06",
-  "records": 11525,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-08-07",
+  "records": 11558,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-12-30",
   "lastSplitDate": "2017-08-01",
   "corporateActionHash": "sha256:4ef522a9f07c45747d3ce6d1dc99a58b632b02268c4b7b474970c0c4dbf9f957",
-  "priceDataHash": "sha256:b5942ebc7ab10f36d1b237a23f9281ab83c941cc56765a8494b37fee88998834",
-  "lastFullValidationAt": "2026-07-31T18:48:48Z",
-  "updatedAt": "2026-08-07T08:32:59Z"
+  "priceDataHash": "sha256:fb30fff488629d2cae72eaf95a1a12a1317c14d4eac7554bc4b71b8cf17c2373",
+  "lastFullValidationAt": "2026-08-08T14:20:37Z",
+  "updatedAt": "2026-08-08T14:20:37Z"
 }

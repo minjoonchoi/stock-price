@@ -2,14 +2,14 @@
   "ticker": "SSB",
   "source": "yahoo",
   "firstDate": "1997-01-28",
-  "lastDate": "2026-08-06",
-  "records": 7221,
+  "lastDate": "2026-08-07",
+  "records": 7245,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-08",
+  "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "2007-03-07",
-  "corporateActionHash": "sha256:96a9912cc5e7c388400703291025dc2799e87d59b5474518af68920baec49d50",
-  "priceDataHash": "sha256:cebb79fa4f0e8894b26a49a3312cf29459ceb9c26b6b3ab1c0372a1e45a10a95",
-  "lastFullValidationAt": "2026-07-31T18:46:16Z",
-  "updatedAt": "2026-08-07T08:31:43Z"
+  "corporateActionHash": "sha256:32e5d78df90f09996659b9b3e7b48cde9d404540ddee3ed823cea2c99bd1c7b6",
+  "priceDataHash": "sha256:c58d1ea5ebc4504b38c49d167379ff8275972dab500e9096349989e23f5a51d7",
+  "lastFullValidationAt": "2026-08-08T14:18:05Z",
+  "updatedAt": "2026-08-08T14:18:05Z"
 }

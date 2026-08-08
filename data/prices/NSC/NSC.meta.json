@@ -2,14 +2,14 @@
   "ticker": "NSC",
   "source": "yahoo",
   "firstDate": "1982-06-02",
-  "lastDate": "2026-08-06",
-  "records": 11078,
+  "lastDate": "2026-08-07",
+  "records": 11079,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-08",
+  "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "1997-10-10",
-  "corporateActionHash": "sha256:50115775325d3cda8d8bd0132dcf5b264b9832839d289e97679058cb0062b120",
-  "priceDataHash": "sha256:a6f29bc35ac7d83eda109d0a680f029c1e46fcfb424bce1b374cf88070b9fea3",
+  "corporateActionHash": "sha256:ed4b2e9b493dc598981900c5f7f83a5c51e4e5fc0b3391faaf36f9318a8b4739",
+  "priceDataHash": "sha256:10e48cf172e8bfd5cc6fcdb0d40448453fcb863829eafd1b807696650fc3b63c",
   "lastFullValidationAt": "2026-08-07T06:47:46Z",
-  "updatedAt": "2026-08-07T06:47:46Z"
+  "updatedAt": "2026-08-08T13:57:25Z"
 }
