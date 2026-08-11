@@ -2,14 +2,14 @@
   "ticker": "POWL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-07",
-  "records": 11542,
+  "lastDate": "2026-08-10",
+  "records": 11543,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-20",
   "lastSplitDate": "2026-04-06",
   "corporateActionHash": "sha256:beb4d2f7b1df1380fe35c3fc37802846faa6fb26684e5cee6f87a7923199e8c1",
-  "priceDataHash": "sha256:c0c8cd30fb32ce00d9286570f877142f8f52482833e77072dbb643d9d84db665",
+  "priceDataHash": "sha256:fc30e7371b84fd87095202a2ce860a48e601af8e3c9c42a80298f728628b0d85",
   "lastFullValidationAt": "2026-08-08T14:05:45Z",
-  "updatedAt": "2026-08-08T14:05:45Z"
+  "updatedAt": "2026-08-11T08:22:46Z"
 }

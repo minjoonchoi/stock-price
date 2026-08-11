@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-11",
   "totalTargets": 1575,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NPO",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VVX",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:cdf03f190871c46e13138c819e9659db58d57b0e35f78ecf6aa8a08ad9332c11",
   "universeHash": "sha256:9474966bbd5b0962c8ca0d18b8dbdbab463f9dd88b759b5590c8704d9a9f6e45",
   "shardCount": 1,
   "startedAt": "2026-08-11T03:12:52Z",
-  "updatedAt": "2026-08-11T06:16:02Z"
+  "updatedAt": "2026-08-11T08:34:58Z"
 }

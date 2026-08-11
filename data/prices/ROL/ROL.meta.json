@@ -2,14 +2,14 @@
   "ticker": "ROL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-07",
-  "records": 11363,
+  "lastDate": "2026-08-10",
+  "records": 11364,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-11",
+  "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "2020-12-11",
-  "corporateActionHash": "sha256:41f61477ccd871732e685b0bcef22123432e6e007862b7bbe4f463a0199c9ff5",
-  "priceDataHash": "sha256:1377e43fabc4ba3248b19a3017d8da70ebba2cf86d091baff50a0f7b9a9d9bc0",
+  "corporateActionHash": "sha256:d242e6ec5af094b71b907cd8728aacc31c023407dd517355a5eec8c461a01235",
+  "priceDataHash": "sha256:eec3d12d519a44f991502612adabbd593cc76a506802c2dd083e4520b575375c",
   "lastFullValidationAt": "2026-08-08T14:11:09Z",
-  "updatedAt": "2026-08-08T14:11:09Z"
+  "updatedAt": "2026-08-11T08:25:32Z"
 }

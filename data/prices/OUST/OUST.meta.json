@@ -2,14 +2,14 @@
   "ticker": "OUST",
   "source": "yahoo",
   "firstDate": "2020-10-09",
-  "lastDate": "2026-08-07",
-  "records": 1463,
+  "lastDate": "2026-08-10",
+  "records": 1464,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-04-21",
   "lastSplitDate": "2023-04-21",
   "corporateActionHash": "sha256:cf1c89b48da845faf3cf9875b561c57bae4bc788129babf41dc84ef897ea805c",
-  "priceDataHash": "sha256:90816bda7802d764d86c804a5be19d1e9ad3dc5e5a328f40a405613daa81b275",
+  "priceDataHash": "sha256:e455802664ca47fc5e03b4e714d6a2084d5b0ba894b941a3272891193f902aa7",
   "lastFullValidationAt": "2026-08-08T14:01:02Z",
-  "updatedAt": "2026-08-08T14:01:02Z"
+  "updatedAt": "2026-08-11T08:20:24Z"
 }

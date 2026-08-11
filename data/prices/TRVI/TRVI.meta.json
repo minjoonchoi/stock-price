@@ -2,14 +2,14 @@
   "ticker": "TRVI",
   "source": "yahoo",
   "firstDate": "2019-05-07",
-  "lastDate": "2026-08-07",
-  "records": 1824,
+  "lastDate": "2026-08-10",
+  "records": 1825,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:baefc549319f91001e358a754747e463213a8b500da299e008dc577ee2418a33",
+  "priceDataHash": "sha256:e5c555784a6a25934758fda5e5e5aae6b32ff3c12b20d427d168a7caa8787239",
   "lastFullValidationAt": "2026-08-08T14:23:20Z",
-  "updatedAt": "2026-08-08T14:23:20Z"
+  "updatedAt": "2026-08-11T08:31:40Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TGTX",
   "source": "yahoo",
   "firstDate": "2010-05-03",
-  "lastDate": "2026-08-07",
-  "records": 4092,
+  "lastDate": "2026-08-10",
+  "records": 4093,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2012-04-30",
   "lastSplitDate": "2012-04-30",
   "corporateActionHash": "sha256:35624b9da9f9b1795b263ac5e1dbb382ea0b3621ae373cbefe1135bab223f569",
-  "priceDataHash": "sha256:071361394423052b5a485c4eac16a1f2ce473f96eedf7c0f72471152291c4918",
+  "priceDataHash": "sha256:3c86ea10b60950a16a21b738b43299d6c807fccc7727fc7d22d20a3fe5b1991b",
   "lastFullValidationAt": "2026-08-08T14:21:16Z",
-  "updatedAt": "2026-08-08T14:21:16Z"
+  "updatedAt": "2026-08-11T08:30:38Z"
 }
