@@ -2,14 +2,14 @@
   "ticker": "LNC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-07",
-  "records": 11550,
+  "lastDate": "2026-08-10",
+  "records": 11551,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "1999-06-22",
   "corporateActionHash": "sha256:c7e75aea4ff741cb3c6196fd481b1b19cbe39e4ba058a3a99fdd60c30a682535",
-  "priceDataHash": "sha256:e186ca1c1bbd5ba77d4faa347a0e3479037825b68468651ae0dfa5ae42fc271f",
+  "priceDataHash": "sha256:685b62505ca6cfcaa47fd21ed352a41949065ceb5d6dfe924b9c30f7f31c505d",
   "lastFullValidationAt": "2026-08-07T06:36:54Z",
-  "updatedAt": "2026-08-08T11:45:23Z"
+  "updatedAt": "2026-08-11T06:10:34Z"
 }

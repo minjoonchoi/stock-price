@@ -2,14 +2,14 @@
   "ticker": "HEI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-07",
-  "records": 11661,
+  "lastDate": "2026-08-10",
+  "records": 11662,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2018-06-28",
   "corporateActionHash": "sha256:0546906290c041f3d61975beb9c72898c91945547bfeb43324d1184e24d7b676",
-  "priceDataHash": "sha256:e40f94b4a8159bd7180f45ff4168d84ac20a24aa03a21e332dd2587393315f3a",
+  "priceDataHash": "sha256:b2c3d8b2d331e32b58cd640f13bf573669491ea560a9bc75136522f78ef68a0c",
   "lastFullValidationAt": "2026-08-07T06:25:08Z",
-  "updatedAt": "2026-08-08T11:39:23Z"
+  "updatedAt": "2026-08-11T06:04:32Z"
 }

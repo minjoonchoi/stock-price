@@ -2,14 +2,14 @@
   "ticker": "NEE",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-07",
-  "records": 13319,
+  "lastDate": "2026-08-10",
+  "records": 13320,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2020-10-27",
   "corporateActionHash": "sha256:ef47ea0c278a7170576fcd25ed9647cbb31cc4924f31ac283bd439cedc63472f",
-  "priceDataHash": "sha256:8eba086cc1a63be9b3d59e49b08aa74ebddaad9272a7d29a38624126fa44ab8d",
+  "priceDataHash": "sha256:2d1c29ced2a3ee81c63b17d5e71aeac6519b1e16ab0e4200028ea9242ad8409f",
   "lastFullValidationAt": "2026-08-07T06:45:38Z",
-  "updatedAt": "2026-08-08T11:50:01Z"
+  "updatedAt": "2026-08-11T06:15:02Z"
 }

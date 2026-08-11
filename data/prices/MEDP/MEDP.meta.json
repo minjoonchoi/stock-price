@@ -2,14 +2,14 @@
   "ticker": "MEDP",
   "source": "yahoo",
   "firstDate": "2016-08-11",
-  "lastDate": "2026-08-07",
-  "records": 2511,
+  "lastDate": "2026-08-10",
+  "records": 2512,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:b65defa299632926501b81c4a68bd53875637f720c6140ce85f1ce851693310e",
+  "priceDataHash": "sha256:dc8047cba0822ab660ac13dabc1d109256d15e5598c66fc22d971a08ae22d7a4",
   "lastFullValidationAt": "2026-08-07T06:40:29Z",
-  "updatedAt": "2026-08-08T11:47:23Z"
+  "updatedAt": "2026-08-11T06:12:26Z"
 }

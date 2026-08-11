@@ -2,14 +2,14 @@
   "ticker": "MWH",
   "source": "yahoo",
   "firstDate": "2026-02-12",
-  "lastDate": "2026-08-07",
-  "records": 122,
+  "lastDate": "2026-08-10",
+  "records": 123,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:1321c1efc521fc9d3d5075e12dc100ef92b3cb160b2abfa7d6fd471fe3ac1e6a",
+  "priceDataHash": "sha256:43cd274f4c8f8c758e93806264863b23722447ceea98010adc83f42742338661",
   "lastFullValidationAt": "2026-08-07T06:44:47Z",
-  "updatedAt": "2026-08-08T11:49:35Z"
+  "updatedAt": "2026-08-11T06:14:36Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FRVO",
   "source": "yahoo",
   "firstDate": "2026-05-13",
-  "lastDate": "2026-08-07",
-  "records": 60,
+  "lastDate": "2026-08-10",
+  "records": 61,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c10df48400f4b76ba6eee991533e43e3df0748bd3cad0ccfa70ab3df69c8b9a4",
+  "priceDataHash": "sha256:89cffa153d68a8466c718a0eee965c496c17b1fc99fd064f1dba53589f016a62",
   "lastFullValidationAt": "2026-08-07T06:19:51Z",
-  "updatedAt": "2026-08-08T11:36:39Z"
+  "updatedAt": "2026-08-11T06:01:51Z"
 }
