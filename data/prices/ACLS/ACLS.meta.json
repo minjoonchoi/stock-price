@@ -2,14 +2,14 @@
   "ticker": "ACLS",
   "source": "yahoo",
   "firstDate": "2000-07-11",
-  "lastDate": "2026-08-07",
-  "records": 6558,
+  "lastDate": "2026-08-10",
+  "records": 6559,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2016-07-01",
   "lastSplitDate": "2016-07-01",
   "corporateActionHash": "sha256:38b70e6bd905f2ac35023b65b05a82da3f00c88fa1a73496968b05c7638c0b39",
-  "priceDataHash": "sha256:11855243f51ff69de8e17128b20f33c1ed18f43a832170e03e1cd5bdc1543829",
+  "priceDataHash": "sha256:f2c856f5053c0ea31ad49dda686ec96317673736f1e8f729b2371a4389ed031b",
   "lastFullValidationAt": "2026-08-06T04:22:28Z",
-  "updatedAt": "2026-08-08T03:02:51Z"
+  "updatedAt": "2026-08-11T03:13:37Z"
 }

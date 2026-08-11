@@ -2,14 +2,14 @@
   "ticker": "CNS",
   "source": "yahoo",
   "firstDate": "2004-08-16",
-  "lastDate": "2026-08-07",
-  "records": 5526,
+  "lastDate": "2026-08-10",
+  "records": 5527,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-11",
+  "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:5ac98154b08ca722bffcdba40678cec97d38e292bd3bf97c96bd9cd5372137a9",
-  "priceDataHash": "sha256:3467db4a3c687f8c44e79a785ec8fb0fce510b528aeb4f69619d400281271da9",
+  "corporateActionHash": "sha256:a2c4ba6684c3d1add8c4b6ee95f746efecf2102af4348291943c70680bde0734",
+  "priceDataHash": "sha256:b9b3b33183181c4c054e69be8fffeea66c69823f6cd771fb321c432ee2916920",
   "lastFullValidationAt": "2026-08-06T04:42:26Z",
-  "updatedAt": "2026-08-08T03:12:59Z"
+  "updatedAt": "2026-08-11T03:23:49Z"
 }
