@@ -2,14 +2,14 @@
   "ticker": "WAB",
   "source": "yahoo",
   "firstDate": "1995-06-16",
-  "lastDate": "2026-08-10",
-  "records": 7837,
+  "lastDate": "2026-08-11",
+  "records": 7838,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "2013-06-12",
   "corporateActionHash": "sha256:33e714a89e05e9e28710c1fab838d417b29e2fcb8692f90c5a3a8bad6a05fb11",
-  "priceDataHash": "sha256:60a8ef377df3e0c25b23cacdc3913841372467d12d8b2dc016418565020c459b",
+  "priceDataHash": "sha256:f25934134bb8aed592f5f42027d57de99c519ca07ffa8324b5f52dba6a3d5e3b",
   "lastFullValidationAt": "2026-08-08T14:30:07Z",
-  "updatedAt": "2026-08-11T10:06:49Z"
+  "updatedAt": "2026-08-12T10:12:29Z"
 }

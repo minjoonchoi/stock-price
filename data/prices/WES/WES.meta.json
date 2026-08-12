@@ -2,14 +2,14 @@
   "ticker": "WES",
   "source": "yahoo",
   "firstDate": "2012-12-10",
-  "lastDate": "2026-08-10",
-  "records": 3430,
+  "lastDate": "2026-08-11",
+  "records": 3431,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5eaa0a597cd7d2bbbcc9d80868fe74f32c12ef284dabc3b4e5cc3dfec258a833",
-  "priceDataHash": "sha256:a064007de91b6db3c3ffa81577caa08e3e51ddc92961f8ca5b8bfc121ea59a0b",
+  "priceDataHash": "sha256:85d8e5b344ef6b676e4973d090a604e1784a3ff4f14c8468ed52a7b0d7830c5b",
   "lastFullValidationAt": "2026-08-08T15:39:55Z",
-  "updatedAt": "2026-08-11T10:07:15Z"
+  "updatedAt": "2026-08-12T10:12:55Z"
 }
