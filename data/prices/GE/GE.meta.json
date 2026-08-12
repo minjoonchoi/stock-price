@@ -2,14 +2,14 @@
   "ticker": "GE",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-10",
-  "records": 16165,
+  "lastDate": "2026-08-11",
+  "records": 16166,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2024-04-02",
   "corporateActionHash": "sha256:3b1a4ff18ea76704eb1bd6da766ab730a015b53e0b68dd0c57057d9c9bd320dd",
-  "priceDataHash": "sha256:7110a46c6d89c2642d30128d4ffef5ae61e77c82e42dac4af24606f423c2e653",
+  "priceDataHash": "sha256:05d625f913fdc08b78cbf2132990a6cfae29cc88afa1a0fe4220cea58313a79b",
   "lastFullValidationAt": "2026-08-07T06:21:24Z",
-  "updatedAt": "2026-08-11T06:02:38Z"
+  "updatedAt": "2026-08-12T06:25:52Z"
 }

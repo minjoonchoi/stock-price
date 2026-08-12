@@ -2,14 +2,14 @@
   "ticker": "MAC",
   "source": "yahoo",
   "firstDate": "1994-03-10",
-  "lastDate": "2026-08-10",
-  "records": 8085,
+  "lastDate": "2026-08-11",
+  "records": 8086,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2010-02-11",
   "corporateActionHash": "sha256:f2cca095a97102ee1835d98de37c6aef9a5e77efde8d286a5ddc50387d913382",
-  "priceDataHash": "sha256:27512a045418da0c88ee6067433b3414a28a40f2e963df50c4ff320118ad3a6f",
+  "priceDataHash": "sha256:3148f78e89362a01d9129151e81388527b01c289f2f9c2e511e31fa0d1623edc",
   "lastFullValidationAt": "2026-08-07T06:38:46Z",
-  "updatedAt": "2026-08-11T06:11:32Z"
+  "updatedAt": "2026-08-12T06:34:44Z"
 }

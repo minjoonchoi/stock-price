@@ -2,14 +2,14 @@
   "ticker": "FBK",
   "source": "yahoo",
   "firstDate": "2016-09-16",
-  "lastDate": "2026-08-10",
-  "records": 2487,
+  "lastDate": "2026-08-11",
+  "records": 2488,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-12",
+  "lastCorporateActionDate": "2026-08-11",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:deb1c1166aa0fc8ddb5b35e7b8421170c9c9d9b7525d75a9263dfbf436352fe7",
-  "priceDataHash": "sha256:f1872bf14b200326bee911cae3498ad777a01c62381e0e2280db79f0b0729b00",
+  "corporateActionHash": "sha256:d7b8f8ef9beb649b32cbf41c17ac9212d13c496a5c2e398a1c5d5f790f05c56a",
+  "priceDataHash": "sha256:42acbd3eadc800032a7c9096fe9d691f44bd3c8180562646eefed02cb4a36b02",
   "lastFullValidationAt": "2026-08-07T06:16:43Z",
-  "updatedAt": "2026-08-11T06:00:14Z"
+  "updatedAt": "2026-08-12T06:23:24Z"
 }

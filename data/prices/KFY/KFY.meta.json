@@ -2,14 +2,14 @@
   "ticker": "KFY",
   "source": "yahoo",
   "firstDate": "1999-02-11",
-  "lastDate": "2026-08-10",
-  "records": 6909,
+  "lastDate": "2026-08-11",
+  "records": 6910,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:99d47efe9cc326ee6f5707c0efcee8b45e9092a714da98a429feb64c89e5c9ff",
-  "priceDataHash": "sha256:879664895c7dc8f24abb50cf1ac7296f3acf1c33c5035d328f12e8a25d32a2f0",
+  "priceDataHash": "sha256:c7c3e30eace55a2e232a585fe7ff8df2315d5742f40b8dcabe90d3141f0492c6",
   "lastFullValidationAt": "2026-08-07T06:32:49Z",
-  "updatedAt": "2026-08-11T06:08:26Z"
+  "updatedAt": "2026-08-12T06:31:40Z"
 }
