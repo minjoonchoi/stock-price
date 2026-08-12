@@ -2,14 +2,14 @@
   "ticker": "ECL",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-10",
-  "records": 13045,
+  "lastDate": "2026-08-11",
+  "records": 13046,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "2003-06-09",
   "corporateActionHash": "sha256:88c75ca5592f3ea50fba61862e9ff667df77d46d60adf6ae8b8ed123e07685a2",
-  "priceDataHash": "sha256:445db124594fec9238ba98fde0d8e04f86008fe01a9bc536f8ac94f9f21e4e98",
+  "priceDataHash": "sha256:32f5765694ff6c64e4236e9903c044840c5c23489b3e505a30624781146bb7ed",
   "lastFullValidationAt": "2026-08-06T04:51:14Z",
-  "updatedAt": "2026-08-11T03:28:15Z"
+  "updatedAt": "2026-08-12T03:44:46Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "EQR",
   "source": "yahoo",
   "firstDate": "1993-08-12",
-  "lastDate": "2026-08-10",
-  "records": 8275,
+  "lastDate": "2026-08-11",
+  "records": 8276,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-29",
   "lastSplitDate": "2001-10-12",
   "corporateActionHash": "sha256:d2257d005ed5bff7c2daaca8c80a3695fc54c99164f3e5f4b9e46b1099d0e983",
-  "priceDataHash": "sha256:9a5d369ad795dcce34049359baeae3905b95cd66b880978639b8ccabcb53353d",
+  "priceDataHash": "sha256:d9695f38d92802090d03a361ea7a5ebeaa38d017e732fe98bb35671ccf3c479e",
   "lastFullValidationAt": "2026-08-06T04:53:16Z",
-  "updatedAt": "2026-08-11T03:29:17Z"
+  "updatedAt": "2026-08-12T03:45:48Z"
 }

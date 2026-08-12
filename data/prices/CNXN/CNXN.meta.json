@@ -2,14 +2,14 @@
   "ticker": "CNXN",
   "source": "yahoo",
   "firstDate": "1998-03-03",
-  "lastDate": "2026-08-10",
-  "records": 7144,
+  "lastDate": "2026-08-11",
+  "records": 7145,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-12",
+  "lastCorporateActionDate": "2026-08-11",
   "lastSplitDate": "2000-05-24",
-  "corporateActionHash": "sha256:d837b25ed69a2db3f0fc564e126c0b79abd8f4e03b7eff0f278e067625a41b19",
-  "priceDataHash": "sha256:38327caa02b5a2b05e5c0959607f1bfb3c54c9738986598b137f5ca59c4dff56",
+  "corporateActionHash": "sha256:0b0af270eb328c698608eac5cb7c052f4fb8bac81feb8223f99be5d7652d16e2",
+  "priceDataHash": "sha256:7dfdc92e7cd3f619cc84e6727a789b3a756b532003e4a70b23cbebd95aa201c5",
   "lastFullValidationAt": "2026-08-11T11:51:09Z",
-  "updatedAt": "2026-08-11T11:51:09Z"
+  "updatedAt": "2026-08-12T03:40:12Z"
 }

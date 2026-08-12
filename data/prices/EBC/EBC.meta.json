@@ -2,14 +2,14 @@
   "ticker": "EBC",
   "source": "yahoo",
   "firstDate": "2020-10-15",
-  "lastDate": "2026-08-10",
-  "records": 1460,
+  "lastDate": "2026-08-11",
+  "records": 1461,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:4aa1f6e415718e5302bfb92601375a48f3506052446ea9789721ab08dd17e275",
-  "priceDataHash": "sha256:dc9dd84a7876d3c034a17e44f9c632163b68ebc1b3982487d3f77bef9ab4aa9e",
+  "priceDataHash": "sha256:ac79ead130c0d3a920f34b4125ecdf1959f2c411ba02dafe5f5078b36030831b",
   "lastFullValidationAt": "2026-08-06T04:51:02Z",
-  "updatedAt": "2026-08-11T03:28:09Z"
+  "updatedAt": "2026-08-12T03:44:40Z"
 }
