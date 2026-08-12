@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 421,
-  "updatedAt": "2026-07-04T17:26:14Z",
-  "source": "yahoo"
+  "ticker": "SEPN",
+  "source": "yahoo",
+  "firstDate": "2024-10-25",
+  "lastDate": "2026-08-10",
+  "records": 447,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:62c4fab6b1e3cfcdee139d81ef7a9298300d4d4a43752db7ec4d4a76486a8581",
+  "lastFullValidationAt": "2026-08-12T08:33:20Z",
+  "updatedAt": "2026-08-12T08:33:20Z"
 }

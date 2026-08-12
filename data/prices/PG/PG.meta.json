@@ -2,14 +2,14 @@
   "ticker": "PG",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-10",
-  "records": 16161,
+  "lastDate": "2026-08-11",
+  "records": 16162,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-24",
   "lastSplitDate": "2004-06-21",
   "corporateActionHash": "sha256:c64326e55e2eb724fd08b7719bab78a1d93fc084f36b85cc74954d4c2ce1e3e5",
-  "priceDataHash": "sha256:adcc7502e8262f04dd56b04485753a823d2b143840646c6dc4c692581226e02f",
+  "priceDataHash": "sha256:392832f36ef3c2b8b5726b1fc3c5b48095bfa4a13bba29e587dbe37866765e59",
   "lastFullValidationAt": "2026-08-08T14:03:39Z",
-  "updatedAt": "2026-08-11T08:21:42Z"
+  "updatedAt": "2026-08-12T08:28:06Z"
 }

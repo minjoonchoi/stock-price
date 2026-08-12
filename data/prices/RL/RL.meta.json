@@ -2,14 +2,14 @@
   "ticker": "RL",
   "source": "yahoo",
   "firstDate": "1997-06-12",
-  "lastDate": "2026-08-10",
-  "records": 7329,
+  "lastDate": "2026-08-11",
+  "records": 7330,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:03252385a6c32e319eb02201c685f18425ee20a46dedbb3b3ef3a1334f797c8a",
-  "priceDataHash": "sha256:0d0aaefcdf6f6a4183675f4b3b442d04a04d33d8180b9bdfe123fbb4d5807769",
+  "priceDataHash": "sha256:79c1912eafcf4ae8be7eef1b9ca89a15216ca2ed41ddfa1b7f4c871a8d877d1f",
   "lastFullValidationAt": "2026-08-08T14:10:25Z",
-  "updatedAt": "2026-08-11T08:25:10Z"
+  "updatedAt": "2026-08-12T08:31:36Z"
 }
