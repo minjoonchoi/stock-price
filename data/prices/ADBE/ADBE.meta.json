@@ -2,14 +2,14 @@
   "ticker": "ADBE",
   "source": "yahoo",
   "firstDate": "1986-08-13",
-  "lastDate": "2026-08-11",
-  "records": 10075,
+  "lastDate": "2026-08-12",
+  "records": 10076,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2005-05-24",
   "lastSplitDate": "2005-05-24",
   "corporateActionHash": "sha256:fe2714f620900705d494619563e990a22ba9dc55f94459b164f57bdbf085d61f",
-  "priceDataHash": "sha256:1ba3c4dccc9a6cbe6ca42cb88a83280d4e7fde001bb7d59fef103ffa8aeecb83",
+  "priceDataHash": "sha256:87dde1b38d715e7a8cf2b2ae807ea56e0817a99bbcd938295d46cb168991ee39",
   "lastFullValidationAt": "2026-08-06T04:22:48Z",
-  "updatedAt": "2026-08-12T03:29:58Z"
+  "updatedAt": "2026-08-13T03:33:46Z"
 }

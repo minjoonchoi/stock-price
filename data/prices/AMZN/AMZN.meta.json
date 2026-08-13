@@ -2,14 +2,14 @@
   "ticker": "AMZN",
   "source": "yahoo",
   "firstDate": "1997-05-15",
-  "lastDate": "2026-08-11",
-  "records": 7355,
+  "lastDate": "2026-08-12",
+  "records": 7356,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-06-06",
   "lastSplitDate": "2022-06-06",
   "corporateActionHash": "sha256:2353760571ab0989da925f5bb512c3a68cfb5c7485efd82293499394699e6e20",
-  "priceDataHash": "sha256:df05795f1485fcf62a4e1d2e1ef884024b83997cc04399109938e519fb8cf538",
+  "priceDataHash": "sha256:3d19edb37bc47843b85fac8def0964c2249dfd403859431a4ee8c3284561c8cc",
   "lastFullValidationAt": "2026-08-06T04:26:54Z",
-  "updatedAt": "2026-08-12T03:32:12Z"
+  "updatedAt": "2026-08-13T03:35:56Z"
 }

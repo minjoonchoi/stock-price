@@ -2,14 +2,14 @@
   "ticker": "DY",
   "source": "yahoo",
   "firstDate": "1984-06-04",
-  "lastDate": "2026-08-11",
-  "records": 10629,
+  "lastDate": "2026-08-12",
+  "records": 10630,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-02-17",
   "lastSplitDate": "2000-02-17",
   "corporateActionHash": "sha256:3adfc42d863bb73dffbc3d4f0125ef8da315c2c141671d69725d4047f9660f58",
-  "priceDataHash": "sha256:8e194e6a90c79c2827d226f729b5329461e23a63b1de1b3bb934b265a8112018",
+  "priceDataHash": "sha256:fd7a018c9e2ae8acaa38da80890a107606b95016923f6d5a1aa16fcf3ad0c424",
   "lastFullValidationAt": "2026-08-06T04:50:42Z",
-  "updatedAt": "2026-08-12T03:44:30Z"
+  "updatedAt": "2026-08-13T03:48:04Z"
 }

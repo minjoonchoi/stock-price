@@ -2,14 +2,14 @@
   "ticker": "CCI",
   "source": "yahoo",
   "firstDate": "1998-08-18",
-  "lastDate": "2026-08-11",
-  "records": 7021,
+  "lastDate": "2026-08-12",
+  "records": 7022,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1fdae1452669911d52b8620c5f0be33c42f479e7d4c4f6a175f3e232d6541405",
-  "priceDataHash": "sha256:9ffd9855556dc16e4c28b2d676785b46e8373a65d4cf9857710f197e248b9d99",
+  "priceDataHash": "sha256:cc0c1446058e607e811fc6997d8f88d646867c7711df2d47eb85b19c3430be0f",
   "lastFullValidationAt": "2026-08-06T04:38:46Z",
-  "updatedAt": "2026-08-12T03:38:18Z"
+  "updatedAt": "2026-08-13T03:41:58Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "DLTR",
   "source": "yahoo",
   "firstDate": "1995-03-07",
-  "lastDate": "2026-08-11",
-  "records": 7910,
+  "lastDate": "2026-08-12",
+  "records": 7911,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2012-06-27",
   "lastSplitDate": "2012-06-27",
   "corporateActionHash": "sha256:ed9278294bd45184f71dd445a91559fb867626016be3137dd0016349b0b5f3b5",
-  "priceDataHash": "sha256:00ea27b36ee97c96a8d160ec8425580994ae6bfbef1ebf309ff5a58a1422a032",
+  "priceDataHash": "sha256:d1ad9fdd3d032ae3e3b0cee59453d47a9baf5f3a44ba3ca9277becd95beb52c0",
   "lastFullValidationAt": "2026-08-06T04:49:02Z",
-  "updatedAt": "2026-08-12T03:43:36Z"
+  "updatedAt": "2026-08-13T03:47:12Z"
 }

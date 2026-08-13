@@ -2,14 +2,14 @@
   "ticker": "ALLY",
   "source": "yahoo",
   "firstDate": "2014-01-28",
-  "lastDate": "2026-08-11",
-  "records": 3153,
+  "lastDate": "2026-08-12",
+  "records": 3154,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2014-04-10",
   "corporateActionHash": "sha256:cd195f938e174a85376fb2c2cd23977deb9bcd11aed0ba3f807959e6c11ed445",
-  "priceDataHash": "sha256:05e70d33c67d20c6d1d8896183a105ec7859bb5b4b44cb21a4751b4bf7d829fa",
+  "priceDataHash": "sha256:249d5838cc8f86a06ec752165dbe59518ba57be0b4e2ba549e9699264928b9a2",
   "lastFullValidationAt": "2026-08-06T04:25:40Z",
-  "updatedAt": "2026-08-12T03:31:28Z"
+  "updatedAt": "2026-08-13T03:35:16Z"
 }
