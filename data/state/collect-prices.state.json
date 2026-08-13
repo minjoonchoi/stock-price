@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-13",
   "totalTargets": 1581,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VSNT",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1581,
+  "lastProcessedTicker": "ZWS",
+  "cursorIndex": 1581,
+  "completed": true,
   "secTickerHash": "sha256:cdf03f190871c46e13138c819e9659db58d57b0e35f78ecf6aa8a08ad9332c11",
   "universeHash": "sha256:f1ade663e1035e8d58c21ad969a63226b040b6e569afd589952ab2a27b8a5d66",
   "shardCount": 1,
   "startedAt": "2026-08-13T08:27:24Z",
-  "updatedAt": "2026-08-13T12:12:42Z"
+  "updatedAt": "2026-08-13T14:33:52Z"
 }
