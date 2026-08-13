@@ -2,14 +2,14 @@
   "ticker": "KVUE",
   "source": "yahoo",
   "firstDate": "2023-05-04",
-  "lastDate": "2026-08-11",
-  "records": 820,
+  "lastDate": "2026-08-12",
+  "records": 821,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-13",
+  "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:5678667f3db9ebb8e1bdf2a40787ba925fbd459071b44b890a70ac7955f78747",
-  "priceDataHash": "sha256:4693d93f285c40befe82815ae0c348eb86fdc2f99cef1013809ee7e2b25733e2",
+  "corporateActionHash": "sha256:28776b0e35d9e2237eaea954442367fae853e49f8f8510aabea72aff816f8edb",
+  "priceDataHash": "sha256:7463d32f0ff39e326ec1f1da1ade463d1704484bd1f12df3ecab1201d5788fdb",
   "lastFullValidationAt": "2026-08-07T06:34:21Z",
-  "updatedAt": "2026-08-12T06:32:26Z"
+  "updatedAt": "2026-08-13T10:23:04Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "HOMB",
   "source": "yahoo",
   "firstDate": "2006-06-23",
-  "lastDate": "2026-08-11",
-  "records": 5062,
+  "lastDate": "2026-08-12",
+  "records": 5063,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-13",
+  "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "2016-06-09",
-  "corporateActionHash": "sha256:74fe7edd8d44409acb6f83956915552a414625606e5e82fa143a42e8591abee4",
-  "priceDataHash": "sha256:180de89e488126a21c829d040c4ca1e0cb401a0c3897413c103ce0ac51911b56",
+  "corporateActionHash": "sha256:2133bc5d492ea93d270cacb5aa7073a20d9b9246497fd97bc862eedcb4046268",
+  "priceDataHash": "sha256:ccfe64c51c65f2cd160d8026352c1829c05ac98d0b11601efeec9eabf7189061",
   "lastFullValidationAt": "2026-08-07T06:26:16Z",
-  "updatedAt": "2026-08-12T06:28:20Z"
+  "updatedAt": "2026-08-13T10:18:54Z"
 }

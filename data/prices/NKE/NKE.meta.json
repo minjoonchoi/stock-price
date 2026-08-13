@@ -2,14 +2,14 @@
   "ticker": "NKE",
   "source": "yahoo",
   "firstDate": "1980-12-02",
-  "lastDate": "2026-08-11",
-  "records": 11450,
+  "lastDate": "2026-08-12",
+  "records": 11451,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2015-12-24",
   "corporateActionHash": "sha256:8b9919046e6d679a943ffa87b3f8071ea0d10eb8925c364e90e389212190d131",
-  "priceDataHash": "sha256:a7c3ded12a89584334bcb89226fefde186d32aac2a38aea0459f036f0d5c4043",
+  "priceDataHash": "sha256:7a0d689b0bb7ee89189c40b4090ed11ccc71054164f71e33ba211e0ef95e4a83",
   "lastFullValidationAt": "2026-08-07T06:46:48Z",
-  "updatedAt": "2026-08-12T06:38:54Z"
+  "updatedAt": "2026-08-13T10:29:32Z"
 }

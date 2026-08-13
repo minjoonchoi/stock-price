@@ -2,14 +2,14 @@
   "ticker": "KLAC",
   "source": "yahoo",
   "firstDate": "1980-10-08",
-  "lastDate": "2026-08-11",
-  "records": 11255,
+  "lastDate": "2026-08-12",
+  "records": 11256,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2026-06-12",
   "corporateActionHash": "sha256:5c9430ee94089bde83a5656b6a662c4e4467b7228fa71e11971a72bbfe1745c1",
-  "priceDataHash": "sha256:2a37791f34aa665bc33d1b4534547099e72bd95d121c9dad7188e9d282527ad0",
+  "priceDataHash": "sha256:855792d9ffd1497f48ce6ca84fc81e87ebe129c871b01a72299bca88e3513242",
   "lastFullValidationAt": "2026-08-07T06:33:05Z",
-  "updatedAt": "2026-08-12T06:31:48Z"
+  "updatedAt": "2026-08-13T10:22:26Z"
 }
