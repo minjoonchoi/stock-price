@@ -2,14 +2,14 @@
   "ticker": "RAMP",
   "source": "yahoo",
   "firstDate": "1983-12-14",
-  "lastDate": "2026-08-11",
-  "records": 10747,
+  "lastDate": "2026-08-12",
+  "records": 10748,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-08-19",
   "lastSplitDate": "1996-11-12",
   "corporateActionHash": "sha256:dd448b74504afd08e942df83bcc2ff18faa28cf36c6c9dc979bcba787d6f168a",
-  "priceDataHash": "sha256:b397ff537045bc91bb9a4e82c43fd2374c2bd3b5b033d7b58b403ccdf859adb0",
+  "priceDataHash": "sha256:ef048e209f2ffcfe5ee5d783b0884453aeae6f7884e94dc8d86e6d387f089649",
   "lastFullValidationAt": "2026-08-08T14:08:21Z",
-  "updatedAt": "2026-08-12T08:30:30Z"
+  "updatedAt": "2026-08-13T12:01:52Z"
 }

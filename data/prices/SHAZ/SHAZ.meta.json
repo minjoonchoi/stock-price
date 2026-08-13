@@ -2,14 +2,14 @@
   "ticker": "SHAZ",
   "source": "yahoo",
   "firstDate": "2026-02-18",
-  "lastDate": "2026-08-11",
-  "records": 121,
+  "lastDate": "2026-08-12",
+  "records": 122,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3fd321d2ea09e2c9ce7fdbc2aed8f495980406de07ba5ccc28178f939e0bf962",
+  "priceDataHash": "sha256:e4ced9ae22a80a46920717b56b6fbd9aa2ce54aba764d25442197e467937d024",
   "lastFullValidationAt": "2026-08-08T14:14:24Z",
-  "updatedAt": "2026-08-12T08:33:40Z"
+  "updatedAt": "2026-08-13T12:05:00Z"
 }

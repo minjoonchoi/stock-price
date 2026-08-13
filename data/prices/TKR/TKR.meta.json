@@ -2,14 +2,14 @@
   "ticker": "TKR",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-11",
-  "records": 13324,
+  "lastDate": "2026-08-12",
+  "records": 13325,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-19",
   "lastSplitDate": "2014-07-01",
   "corporateActionHash": "sha256:bc94ead925efb3aacc786618350de4939205945c63fd5adb721915ad83de3b85",
-  "priceDataHash": "sha256:df6401b5f2aeb56d3698aa82430eacd73e1f2a2b38be9e4638c3b1cdc936a36b",
+  "priceDataHash": "sha256:eea03d0e019dc0edacdba26bc78daeca2088276f31d2d90f016c25626f840259",
   "lastFullValidationAt": "2026-08-08T14:21:49Z",
-  "updatedAt": "2026-08-12T08:37:24Z"
+  "updatedAt": "2026-08-13T12:08:48Z"
 }

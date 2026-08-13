@@ -2,14 +2,14 @@
   "ticker": "NVDA",
   "source": "yahoo",
   "firstDate": "1999-01-22",
-  "lastDate": "2026-08-11",
-  "records": 6930,
+  "lastDate": "2026-08-12",
+  "records": 6931,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-04",
   "lastSplitDate": "2024-06-10",
   "corporateActionHash": "sha256:ebaaebb8ff2629e8929a96391ef73f00cfb6c1c417605ddd8ecc7d626f547c6f",
-  "priceDataHash": "sha256:580c5f7f41b44cde18b961c901d0d1e722f99634033d0e5360c4af80e2316466",
+  "priceDataHash": "sha256:29c16b28090050b70ba262fc76e7854a3bea9f48318df24cd396a113b13543ce",
   "lastFullValidationAt": "2026-08-08T13:57:55Z",
-  "updatedAt": "2026-08-12T08:25:12Z"
+  "updatedAt": "2026-08-13T11:56:30Z"
 }
