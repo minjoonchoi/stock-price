@@ -1,15 +1,15 @@
 {
   "ticker": "FELE",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-08-12",
-  "records": 11490,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-08-13",
+  "records": 11508,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "2013-03-19",
   "corporateActionHash": "sha256:508b88d29d2d6584892a1a78d62ea0a9e2d4dfadfd994786f9ea5412ad89fe38",
-  "priceDataHash": "sha256:50d3746eea5b7bf0284e2bbce20a64ac2249084a1b2cec849594974a5035cc0b",
-  "lastFullValidationAt": "2026-08-07T06:17:32Z",
-  "updatedAt": "2026-08-13T10:14:22Z"
+  "priceDataHash": "sha256:63b0737465e91551954c5b0c8becbb058e52c64697962d11fa38d7086ee687ef",
+  "lastFullValidationAt": "2026-08-14T06:22:52Z",
+  "updatedAt": "2026-08-14T06:22:52Z"
 }
