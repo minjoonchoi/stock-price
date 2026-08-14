@@ -2,14 +2,14 @@
   "ticker": "RSI",
   "source": "yahoo",
   "firstDate": "2020-04-27",
-  "lastDate": "2026-08-12",
-  "records": 1582,
+  "lastDate": "2026-08-13",
+  "records": 1583,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:9ff64cf5cf705243ce0fcaf40db2bc09a4468a9056b2b852252ec06297517205",
+  "priceDataHash": "sha256:b7b49d41b7817ab091dd8fc3178612d451da620b9638de7c64983592a407ef90",
   "lastFullValidationAt": "2026-08-08T14:11:48Z",
-  "updatedAt": "2026-08-13T12:03:40Z"
+  "updatedAt": "2026-08-14T12:02:41Z"
 }

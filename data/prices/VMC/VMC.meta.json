@@ -2,14 +2,14 @@
   "ticker": "VMC",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-12",
-  "records": 13328,
+  "lastDate": "2026-08-13",
+  "records": 13329,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-22",
+  "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "1999-03-11",
-  "corporateActionHash": "sha256:7754232f699c6ac81b805ffa10d7c6f2cdde85c08023f510dce2f9cc028147c4",
-  "priceDataHash": "sha256:e2e6e6e30b8a0904d51ec6feecbcfdb5270b7dccfeef111de831629d81870fae",
+  "corporateActionHash": "sha256:accffcfe9304f180575328f0f1a989c117e7ada9e5fcc9b5959021b9e3b9e45c",
+  "priceDataHash": "sha256:f1538e98e91a4689a2b2c82c8e7da274af73cfdcfb8ea307affeeff54e2dbf0e",
   "lastFullValidationAt": "2026-08-08T14:28:27Z",
-  "updatedAt": "2026-08-13T12:12:10Z"
+  "updatedAt": "2026-08-14T12:11:09Z"
 }

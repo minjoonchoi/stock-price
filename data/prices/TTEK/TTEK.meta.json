@@ -2,14 +2,14 @@
   "ticker": "TTEK",
   "source": "yahoo",
   "firstDate": "1991-12-17",
-  "lastDate": "2026-08-12",
-  "records": 8723,
+  "lastDate": "2026-08-13",
+  "records": 8724,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-14",
+  "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "2024-09-09",
-  "corporateActionHash": "sha256:8ea9b8e91c8a844430f66e7690cf1d1a116a524d3bd014becf3dcc1b284249d2",
-  "priceDataHash": "sha256:fc033d1041694f7abf05350845e24110396ddc0a4e9fba6092851e37d231a111",
+  "corporateActionHash": "sha256:28233fe73d65b31edeac943061ebce83a42b23d91bc854e292ad3a266ee1da58",
+  "priceDataHash": "sha256:81f660b3a1f84ce5c876f89415fa20d45779de71be08a4c860088cee4ccd6b0a",
   "lastFullValidationAt": "2026-08-08T14:23:49Z",
-  "updatedAt": "2026-08-13T12:09:48Z"
+  "updatedAt": "2026-08-14T12:08:45Z"
 }

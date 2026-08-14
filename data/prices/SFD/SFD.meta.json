@@ -2,14 +2,14 @@
   "ticker": "SFD",
   "source": "yahoo",
   "firstDate": "2025-01-28",
-  "lastDate": "2026-08-12",
-  "records": 387,
+  "lastDate": "2026-08-13",
+  "records": 388,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-14",
+  "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:784b89b5801b2f5f2179fe12f71fd43f11849f9c96b0a84ab67b77cc754151f0",
-  "priceDataHash": "sha256:a27e64cfc54e0209865e72e1ae96dd655d27defb654476910963498a362f2028",
+  "corporateActionHash": "sha256:c0ad60b5f0beb004526aa1587bc096a2a26a58cac33c1ccda6501435534e1413",
+  "priceDataHash": "sha256:330bc2906a2df52c5de7a5d7ba26271c0931b968ef6b8f9d7a85d4f0f0f9e997",
   "lastFullValidationAt": "2026-08-08T14:14:00Z",
-  "updatedAt": "2026-08-13T12:04:48Z"
+  "updatedAt": "2026-08-14T12:03:49Z"
 }

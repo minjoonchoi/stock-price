@@ -2,14 +2,14 @@
   "ticker": "TJX",
   "source": "yahoo",
   "firstDate": "1987-06-26",
-  "lastDate": "2026-08-12",
-  "records": 9797,
+  "lastDate": "2026-08-13",
+  "records": 9798,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-14",
+  "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "2018-11-07",
-  "corporateActionHash": "sha256:0a146c88b184de14d7b962dc15ff90d4a35646f90502e4514a54f90d6ca39add",
-  "priceDataHash": "sha256:3ee7112d7f4664c50da232349f9a7675920b9e7d719549954d44005af40f6608",
+  "corporateActionHash": "sha256:1283147eadf1448fb132200c86d7308716ac359fd30b30db8eb477c5e3e4b5c4",
+  "priceDataHash": "sha256:a19f7a9a73c4f640bad973d98ee089e6a535c29119ccf6d6e0bc6ced648e4253",
   "lastFullValidationAt": "2026-08-08T14:21:41Z",
-  "updatedAt": "2026-08-13T12:08:44Z"
+  "updatedAt": "2026-08-14T12:07:41Z"
 }

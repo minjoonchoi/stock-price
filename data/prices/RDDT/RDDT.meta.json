@@ -2,14 +2,14 @@
   "ticker": "RDDT",
   "source": "yahoo",
   "firstDate": "2024-03-21",
-  "lastDate": "2026-08-12",
-  "records": 600,
+  "lastDate": "2026-08-13",
+  "records": 601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:87f660e5a917d223f51afc0747d64ac7fa75a94781f7a2c0de0f38cfa3ce8c92",
+  "priceDataHash": "sha256:b0d73b0c7f54016b9ef403537b855a5e0db08b05290c43e530a869120cbec7e0",
   "lastFullValidationAt": "2026-08-08T14:08:52Z",
-  "updatedAt": "2026-08-13T12:02:08Z"
+  "updatedAt": "2026-08-14T12:01:11Z"
 }

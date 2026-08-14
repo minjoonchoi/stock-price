@@ -2,14 +2,14 @@
   "ticker": "SPSC",
   "source": "yahoo",
   "firstDate": "2010-04-22",
-  "lastDate": "2026-08-12",
-  "records": 4102,
+  "lastDate": "2026-08-13",
+  "records": 4103,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-08-23",
   "lastSplitDate": "2019-08-23",
   "corporateActionHash": "sha256:c0e757db61e4284d3d06f27e892182a9bf02620af9151e70f3ef7228ee1acb6c",
-  "priceDataHash": "sha256:85067a8b972e00f6b57ed45a5377144f18ff52435f69e348d44ad5ae0b2b74af",
+  "priceDataHash": "sha256:87a6ed8d993f59dc7dfa426dccaa3db42aff5e706189a52469920c9f83125288",
   "lastFullValidationAt": "2026-08-08T14:17:37Z",
-  "updatedAt": "2026-08-13T12:06:42Z"
+  "updatedAt": "2026-08-14T12:05:39Z"
 }
