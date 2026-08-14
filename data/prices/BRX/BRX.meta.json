@@ -2,14 +2,14 @@
   "ticker": "BRX",
   "source": "yahoo",
   "firstDate": "2013-10-30",
-  "lastDate": "2026-08-12",
-  "records": 3200,
+  "lastDate": "2026-08-13",
+  "records": 3201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:bc9c9353474e0083080b490320829e181365c4216b8982cc08dd436549b967cd",
-  "priceDataHash": "sha256:65132dd5630cc13abe68cc16eecdde3e9959428ab1cc124bb31d2dac05b7fe6d",
+  "priceDataHash": "sha256:f45cde1851cf9e053d52311d4d55c2739ca6a65156a21a304a16d7b810be6f8c",
   "lastFullValidationAt": "2026-08-13T06:42:20Z",
-  "updatedAt": "2026-08-13T06:42:20Z"
+  "updatedAt": "2026-08-14T03:40:23Z"
 }

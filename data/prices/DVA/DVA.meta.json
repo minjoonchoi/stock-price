@@ -2,14 +2,14 @@
   "ticker": "DVA",
   "source": "yahoo",
   "firstDate": "1995-10-31",
-  "lastDate": "2026-08-12",
-  "records": 7742,
+  "lastDate": "2026-08-13",
+  "records": 7743,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-09-09",
   "lastSplitDate": "2013-09-09",
   "corporateActionHash": "sha256:2ef1cd5d5dd0eb611e270540bed6ca401bce7feff90af8d24b5383532936a6a1",
-  "priceDataHash": "sha256:c7bde2584dad720d5dbae4dbd85abcb4248050cc4c7711b57efe781ce41fa9e8",
+  "priceDataHash": "sha256:0ac279f97a5680d0a96e1411fdc4ee36b18bd956eb6ef25cf919ecf10610923a",
   "lastFullValidationAt": "2026-08-13T06:56:30Z",
-  "updatedAt": "2026-08-13T06:56:30Z"
+  "updatedAt": "2026-08-14T03:47:41Z"
 }
