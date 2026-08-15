@@ -2,14 +2,14 @@
   "ticker": "WTFC",
   "source": "yahoo",
   "firstDate": "1998-04-16",
-  "lastDate": "2026-08-12",
-  "records": 7105,
+  "lastDate": "2026-08-14",
+  "records": 7107,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "2002-03-15",
   "corporateActionHash": "sha256:f49613355efc858aaf8a666c8c56355d26a9809b05e6f562e318a393a5a89484",
-  "priceDataHash": "sha256:666e1ea2fc7a68049553513c48008ffc874a6a15a8432f588c3812947a735dca",
+  "priceDataHash": "sha256:cfc5d351b1d8b220abbccb06ba0ad3d08a8850ad129a52f84f171eac2718e6d2",
   "lastFullValidationAt": "2026-08-08T15:41:43Z",
-  "updatedAt": "2026-08-13T14:32:48Z"
+  "updatedAt": "2026-08-15T07:40:02Z"
 }
