@@ -2,14 +2,14 @@
   "ticker": "SLDE",
   "source": "yahoo",
   "firstDate": "2025-06-18",
-  "lastDate": "2026-08-13",
-  "records": 290,
+  "lastDate": "2026-08-14",
+  "records": 291,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "",
+  "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2736e834761290523fe38f67c274fff20788ecd349a5e59c296fa54d8aa3509f",
+  "corporateActionHash": "sha256:f804694c08d6413d1569c9015021f97e2760c1602d9defe3e1078c2d776cf20e",
+  "priceDataHash": "sha256:a539c5677198d7bb68531cb0e907dc8997129a050155c62f6b40cf355f4d3140",
   "lastFullValidationAt": "2026-08-08T14:15:24Z",
-  "updatedAt": "2026-08-14T12:04:31Z"
+  "updatedAt": "2026-08-15T05:44:04Z"
 }

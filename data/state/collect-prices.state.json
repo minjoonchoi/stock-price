@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-15",
   "totalTargets": 1583,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NOC",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VSEC",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:52fc7bd0d9f6e0d82c81642f620de394594d826c02b7e0c72807cfbd29fba604",
   "universeHash": "sha256:00f6e574ad4604e6daaaa09b3c8973c47d20caf579839a483465c06246b3d98f",
   "shardCount": 1,
   "startedAt": "2026-08-15T02:19:34Z",
-  "updatedAt": "2026-08-15T04:02:45Z"
+  "updatedAt": "2026-08-15T05:51:08Z"
 }

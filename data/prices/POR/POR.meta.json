@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5095,
-  "updatedAt": "2026-07-04T17:23:42Z",
-  "source": "yahoo"
+  "ticker": "POR",
+  "source": "yahoo",
+  "firstDate": "2006-03-31",
+  "lastDate": "2026-08-14",
+  "records": 5116,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-25",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:75b1f5ffeee003d1111d291e65b6c33c19050b95c69d913bf9cbd8b6a60a1785",
+  "priceDataHash": "sha256:90ea22cdf944f5c65de8277dbd9d2322a3b578dc746db31c9fca596752adc2cd",
+  "lastFullValidationAt": "2026-08-15T05:39:02Z",
+  "updatedAt": "2026-08-15T05:39:02Z"
 }
