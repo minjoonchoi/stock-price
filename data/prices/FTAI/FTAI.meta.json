@@ -2,14 +2,14 @@
   "ticker": "FTAI",
   "source": "yahoo",
   "firstDate": "2015-05-15",
-  "lastDate": "2026-08-13",
-  "records": 2825,
+  "lastDate": "2026-08-14",
+  "records": 2826,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "2022-08-02",
   "corporateActionHash": "sha256:f7c75900a0fbbb476f11084dc72f0e46bca7574873678d87241adff72f544085",
-  "priceDataHash": "sha256:983d6262b9c0cd18f83c6c5814cd46d61cde6e4af56a35697ce994c9aed26458",
+  "priceDataHash": "sha256:ab6580cc4de8dbc6c03cc289ad6c3df58857facdc6cff545572a4cf6ae7645e0",
   "lastFullValidationAt": "2026-08-14T06:25:36Z",
-  "updatedAt": "2026-08-14T06:25:36Z"
+  "updatedAt": "2026-08-15T03:48:57Z"
 }

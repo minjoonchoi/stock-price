@@ -2,14 +2,14 @@
   "ticker": "FLOC",
   "source": "yahoo",
   "firstDate": "2025-01-16",
-  "lastDate": "2026-08-13",
-  "records": 395,
+  "lastDate": "2026-08-14",
+  "records": 396,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-15",
+  "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1b288d025e4c26b2c9dad0ac7acc0f032142bd1ba54d16faced57fdb488e532f",
-  "priceDataHash": "sha256:dd098625b2ce6d3502137e89d7a66e1212345984a2374afc7921519d52b32aef",
+  "corporateActionHash": "sha256:a897ed3751c91e1f77c3948e0e55fc11f1b44979780f7240ab6d8e1fc948cdb0",
+  "priceDataHash": "sha256:94527d3182cbf9da7f8ba5b414ce578aa79122cd7beb203049c8b75c2ccb27ef",
   "lastFullValidationAt": "2026-08-12T06:24:26Z",
-  "updatedAt": "2026-08-14T06:23:56Z"
+  "updatedAt": "2026-08-15T03:48:07Z"
 }
