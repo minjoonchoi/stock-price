@@ -2,14 +2,14 @@
   "ticker": "COR",
   "source": "yahoo",
   "firstDate": "1995-04-04",
-  "lastDate": "2026-08-13",
-  "records": 7859,
+  "lastDate": "2026-08-14",
+  "records": 7860,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-15",
+  "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2009-06-16",
-  "corporateActionHash": "sha256:58717be3b5d7d8eb26f950920a6fa96f8c69e7b713c1ff75c4d8346d6f43d775",
-  "priceDataHash": "sha256:64cbe97221e3db869053fbe4f8e901d3718efd2a574fe688a094a6ab8870780d",
+  "corporateActionHash": "sha256:2208b98598273f4bae5943dd837f6f7aec744a4808b0dde9d267d2696f729f77",
+  "priceDataHash": "sha256:5f46071e1751dbdcaef4a24085b31633e7ce335eee51c7a048b2b4ebb3a09df0",
   "lastFullValidationAt": "2026-08-13T06:49:36Z",
-  "updatedAt": "2026-08-14T03:44:09Z"
+  "updatedAt": "2026-08-15T02:31:04Z"
 }

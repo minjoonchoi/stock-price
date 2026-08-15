@@ -2,14 +2,14 @@
   "ticker": "CTAS",
   "source": "yahoo",
   "firstDate": "1983-08-19",
-  "lastDate": "2026-08-13",
-  "records": 10693,
+  "lastDate": "2026-08-14",
+  "records": 10694,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-15",
+  "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2024-09-12",
-  "corporateActionHash": "sha256:d8f493da4ac6c2d0764114758222e306bc05a53d5df448e5c6fa5bccd250ea5c",
-  "priceDataHash": "sha256:4cf8bbf8b44bcae0e7e8d425078eddcfbc51dca4e3372b6605ef829ecd84ffbb",
+  "corporateActionHash": "sha256:cf9ea3fd5792ff2835d18f8afcabd7f0484b5355d05305d972d9f5f1bc8c49ae",
+  "priceDataHash": "sha256:d48787455c009c4fc694551374e77d01f4a7bbacba91c60cd080d24d323c8c9d",
   "lastFullValidationAt": "2026-08-13T06:51:30Z",
-  "updatedAt": "2026-08-14T03:45:07Z"
+  "updatedAt": "2026-08-15T02:32:02Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "DUK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-13",
-  "records": 11578,
+  "lastDate": "2026-08-14",
+  "records": 11579,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-15",
+  "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2012-07-03",
-  "corporateActionHash": "sha256:d8f7548b32613872714cd0eb9d01ebb484d0f69528fff2c893e611b0e4b2f6a8",
-  "priceDataHash": "sha256:8f50e7ac81c4397ff55de2dccabbdb0367d3b10348009a685183d32153a4ba61",
+  "corporateActionHash": "sha256:0c135c00ab25a421c296533bbf5e0fd94648b13e4f83fba97cf7a199f5922ca8",
+  "priceDataHash": "sha256:e8c87a3d07d2ec63a9bf440129b780681707043033fb13d5684b7bb76ae5a139",
   "lastFullValidationAt": "2026-08-13T06:56:22Z",
-  "updatedAt": "2026-08-14T03:47:35Z"
+  "updatedAt": "2026-08-15T02:34:30Z"
 }

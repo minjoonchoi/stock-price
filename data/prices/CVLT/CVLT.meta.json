@@ -2,14 +2,14 @@
   "ticker": "CVLT",
   "source": "yahoo",
   "firstDate": "2006-09-22",
-  "lastDate": "2026-08-13",
-  "records": 5000,
+  "lastDate": "2026-08-14",
+  "records": 5001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:279d8ab852237bc7ad83e9dcddaed26abd880671efca3a72689aa05605b68204",
+  "priceDataHash": "sha256:130d751dedbf3731c1fb6aebbddec07236ce661b12f6de7c34e193b7d2603590",
   "lastFullValidationAt": "2026-08-13T06:52:14Z",
-  "updatedAt": "2026-08-14T03:45:29Z"
+  "updatedAt": "2026-08-15T02:32:24Z"
 }

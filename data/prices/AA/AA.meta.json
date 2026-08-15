@@ -2,14 +2,14 @@
   "ticker": "AA",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-13",
-  "records": 16061,
+  "lastDate": "2026-08-14",
+  "records": 16062,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-11",
   "lastSplitDate": "2016-11-01",
   "corporateActionHash": "sha256:fca922b60fb1122a0388a9d3b38bde5569e4be64d9da96b1f086cef9e557d207",
-  "priceDataHash": "sha256:d1079169b61bf3f1402fa39c1eddb82896f5dc07d34030da482442d7af315fd8",
+  "priceDataHash": "sha256:8f4432c7830be49a2ce3e683d452909773f8b6d7fab0d65ab36fa3c5dad75c49",
   "lastFullValidationAt": "2026-08-13T06:27:40Z",
-  "updatedAt": "2026-08-14T03:32:43Z"
+  "updatedAt": "2026-08-15T02:19:38Z"
 }

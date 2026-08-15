@@ -2,14 +2,14 @@
   "ticker": "CMC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-13",
-  "records": 11546,
+  "lastDate": "2026-08-14",
+  "records": 11547,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2006-05-23",
   "corporateActionHash": "sha256:7589ad47e5fd0998ec47f761d4950a5f5261b19e906604c698c5898cb90bf158",
-  "priceDataHash": "sha256:9717bc007c591d0a24f27c059ca2e74faf0e142a203999a717c9358ca260e8db",
+  "priceDataHash": "sha256:e72710743d0cdf2eeae496a38ce7562c55e7199f7ca10a063d895345cc57c418",
   "lastFullValidationAt": "2026-08-13T06:47:48Z",
-  "updatedAt": "2026-08-14T03:43:13Z"
+  "updatedAt": "2026-08-15T02:30:08Z"
 }
