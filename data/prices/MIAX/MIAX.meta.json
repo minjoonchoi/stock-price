@@ -2,14 +2,14 @@
   "ticker": "MIAX",
   "source": "yahoo",
   "firstDate": "2025-08-14",
-  "lastDate": "2026-08-14",
-  "records": 249,
+  "lastDate": "2026-08-17",
+  "records": 250,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:846003b00a6c1fd628a51b88c47d0403af2f3f4e6ee627ea293781febdf6a3f7",
+  "priceDataHash": "sha256:c622bb5984db9ab7842e7ec061baadd4f83fca958ba54bcaceec0badedd876d1",
   "lastFullValidationAt": "2026-08-14T06:46:38Z",
-  "updatedAt": "2026-08-15T11:28:23Z"
+  "updatedAt": "2026-08-18T11:48:50Z"
 }

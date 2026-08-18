@@ -2,14 +2,14 @@
   "ticker": "ETR",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-08-14",
-  "records": 13572,
+  "lastDate": "2026-08-17",
+  "records": 13573,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "2024-12-13",
   "corporateActionHash": "sha256:24fdcae016aa6e6526ca9102d71362784094e1baba0c1eacb375cb0d2ecbf31d",
-  "priceDataHash": "sha256:ecb2765774d7338b24cbd0baa7e93b1e55768037932332055c598884349109d3",
+  "priceDataHash": "sha256:6d81b96d38cd2288536a22eda48492148c0b83189b1dddde0c4e9a42ffb8cada",
   "lastFullValidationAt": "2026-08-13T10:12:57Z",
-  "updatedAt": "2026-08-15T03:46:17Z"
+  "updatedAt": "2026-08-18T11:35:03Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "IT",
   "source": "yahoo",
   "firstDate": "1993-10-05",
-  "lastDate": "2026-08-14",
-  "records": 8267,
+  "lastDate": "2026-08-17",
+  "records": 8268,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1999-07-19",
   "lastSplitDate": "1996-04-01",
   "corporateActionHash": "sha256:22ff8eb0c38b3ac802a3b2d0a1844dd2e1c1572797e374c67c35e0542f4271f0",
-  "priceDataHash": "sha256:39a07b093f691a51cfad56348b07edbd84e4b190dcecae22bb2b1ca5a47643a1",
+  "priceDataHash": "sha256:1a3cab60520b59b9407749badd2fdb7e07483d4307eb78c453334ee04865371c",
   "lastFullValidationAt": "2026-08-14T06:36:42Z",
-  "updatedAt": "2026-08-15T03:54:35Z"
+  "updatedAt": "2026-08-18T11:43:32Z"
 }
