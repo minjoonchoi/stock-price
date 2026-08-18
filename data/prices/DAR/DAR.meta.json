@@ -2,14 +2,14 @@
   "ticker": "DAR",
   "source": "yahoo",
   "firstDate": "1994-09-09",
-  "lastDate": "2026-08-14",
-  "records": 8033,
+  "lastDate": "2026-08-17",
+  "records": 8034,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1997-11-10",
   "lastSplitDate": "1997-11-10",
   "corporateActionHash": "sha256:c5d648de6aef48a26699de8f16756e3e8422a86e5d0d0ae66b197596e3417d10",
-  "priceDataHash": "sha256:e60062471f651c9f16b7b5f18d6219c03d3cfd5a759a08e866658284191ca541",
+  "priceDataHash": "sha256:b85e2acde362696417d6a715250f124237b0a477ec53a2b6ede35eee996bd542",
   "lastFullValidationAt": "2026-08-13T06:53:22Z",
-  "updatedAt": "2026-08-15T02:32:58Z"
+  "updatedAt": "2026-08-18T02:35:16Z"
 }
