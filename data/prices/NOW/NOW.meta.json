@@ -2,14 +2,14 @@
   "ticker": "NOW",
   "source": "yahoo",
   "firstDate": "2012-06-29",
-  "lastDate": "2026-08-14",
-  "records": 3551,
+  "lastDate": "2026-08-18",
+  "records": 3553,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-18",
   "lastSplitDate": "2025-12-18",
   "corporateActionHash": "sha256:a5afdb8dca9020fa9f4dae53cb17ca59b0e712b38b791327e8b2b6f81dc4e2a2",
-  "priceDataHash": "sha256:ed623a9604f27f3cf962e81459c3b777047280dfa535af3ca5e2f5edb56744e6",
+  "priceDataHash": "sha256:4258bb29fbf431fbbe98746280568373b3217e9d2374a897fa8cde4df643b744",
   "lastFullValidationAt": "2026-08-14T11:54:39Z",
-  "updatedAt": "2026-08-15T05:34:34Z"
+  "updatedAt": "2026-08-19T03:57:18Z"
 }

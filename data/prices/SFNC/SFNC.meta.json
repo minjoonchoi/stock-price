@@ -1,15 +1,15 @@
 {
   "ticker": "SFNC",
   "source": "yahoo",
-  "firstDate": "1985-03-25",
-  "lastDate": "2026-08-14",
-  "records": 10202,
+  "firstDate": "1985-03-14",
+  "lastDate": "2026-08-17",
+  "records": 10254,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2018-02-09",
   "corporateActionHash": "sha256:4e501fe8dd1aca7071b553dcd140d210f25a7eb406950f0874a9fb7a0e1f8852",
-  "priceDataHash": "sha256:255d4b4395091d8b955fd20d064880ca6b78c0e547402f8ef7c916883ec9284d",
-  "lastFullValidationAt": "2026-08-08T14:14:09Z",
-  "updatedAt": "2026-08-15T05:43:26Z"
+  "priceDataHash": "sha256:a8ab5b851f6ca5c585f69f4c2a29e98a875e5c671aedfcfb2c85722ecebe5982",
+  "lastFullValidationAt": "2026-08-19T04:14:21Z",
+  "updatedAt": "2026-08-19T04:14:21Z"
 }

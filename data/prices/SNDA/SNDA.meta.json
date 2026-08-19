@@ -2,14 +2,14 @@
   "ticker": "SNDA",
   "source": "yahoo",
   "firstDate": "1997-10-31",
-  "lastDate": "2026-08-14",
-  "records": 7240,
+  "lastDate": "2026-08-17",
+  "records": 7241,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-12-14",
   "lastSplitDate": "2020-12-14",
   "corporateActionHash": "sha256:90cfa13180906fb8d1a766b91930f4ad0542fcaec90cdf15b172b4cd7d3d2b82",
-  "priceDataHash": "sha256:7698433b765d7919c16dbce8cb4b6cb9ba22cd1879ec72805e63d74c83db49bd",
+  "priceDataHash": "sha256:728e8964d0d4f06fcb9abff0a37772c200786a8dbdbe69d390663fa544a0f767",
   "lastFullValidationAt": "2026-08-13T12:06:00Z",
-  "updatedAt": "2026-08-15T05:44:32Z"
+  "updatedAt": "2026-08-19T04:16:30Z"
 }

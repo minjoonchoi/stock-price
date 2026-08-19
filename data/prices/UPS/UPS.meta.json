@@ -2,14 +2,14 @@
   "ticker": "UPS",
   "source": "yahoo",
   "firstDate": "1999-11-10",
-  "lastDate": "2026-08-14",
-  "records": 6726,
+  "lastDate": "2026-08-17",
+  "records": 6727,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-18",
+  "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1798c08a74f123ffc46d99f69342c67cdc02233af5872563943097acc1f042f6",
-  "priceDataHash": "sha256:95ae4fac144bc9d425535ffa8ff4390cb063b0471bb0a72aec9cd016b03a677c",
-  "lastFullValidationAt": "2026-08-08T14:26:07Z",
-  "updatedAt": "2026-08-15T05:49:28Z"
+  "corporateActionHash": "sha256:beaeda4ae8f69fe7604a542c21b4182ac965e79d780946f09351de27f69734df",
+  "priceDataHash": "sha256:6683ffa43e29cb43d3920ca57c4072083fc82d2e31e7162270402d9d5debc787",
+  "lastFullValidationAt": "2026-08-19T04:26:19Z",
+  "updatedAt": "2026-08-19T04:26:19Z"
 }

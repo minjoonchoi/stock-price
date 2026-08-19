@@ -1,15 +1,15 @@
 {
   "ticker": "PEB",
   "source": "yahoo",
-  "firstDate": "2009-12-09",
-  "lastDate": "2026-08-14",
+  "firstDate": "2009-12-10",
+  "lastDate": "2026-08-17",
   "records": 4190,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8dc77634b245d64449ce31ebd78d0d5438940ac13be3532fad48e44e48e355ff",
-  "priceDataHash": "sha256:bcb0ea0f5fbcc0121f44c38c25155baf94a3a3f7085c8d8429f047435d2d6d0f",
-  "lastFullValidationAt": "2026-08-08T14:02:51Z",
-  "updatedAt": "2026-08-15T05:37:36Z"
+  "priceDataHash": "sha256:82fe1133c18dad2dbeac7ef3296c29bf6ba3cc9f7d820c2d425f05a1113224a9",
+  "lastFullValidationAt": "2026-08-19T04:02:57Z",
+  "updatedAt": "2026-08-19T04:02:57Z"
 }

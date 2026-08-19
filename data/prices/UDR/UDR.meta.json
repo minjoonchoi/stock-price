@@ -2,14 +2,14 @@
   "ticker": "UDR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-14",
-  "records": 11606,
+  "lastDate": "2026-08-17",
+  "records": 11615,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-17",
+  "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "1993-05-06",
-  "corporateActionHash": "sha256:8ab8a70f69e37b4a44751846ade830dee56acc799c8889f63e07655c2d5b1a1a",
-  "priceDataHash": "sha256:15af02c2f86824e58a14a0557ffc3f456d06c7361eafb66b054b785f6a098799",
-  "lastFullValidationAt": "2026-08-08T14:25:05Z",
-  "updatedAt": "2026-08-15T05:48:56Z"
+  "corporateActionHash": "sha256:12cf4c78b6086ea0630a71f9f8f3fe07f488acd8ed3b2e5848c215ba6c04ed1f",
+  "priceDataHash": "sha256:00ec2ae3c2581e9d2b5f6efac57342e84b4c0100119118e54223f53c2b94050c",
+  "lastFullValidationAt": "2026-08-19T04:25:17Z",
+  "updatedAt": "2026-08-19T04:25:17Z"
 }

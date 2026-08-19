@@ -2,14 +2,14 @@
   "ticker": "PAY",
   "source": "yahoo",
   "firstDate": "2021-05-26",
-  "lastDate": "2026-08-14",
-  "records": 1311,
+  "lastDate": "2026-08-17",
+  "records": 1309,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:31423117180bc5654d03925fa84ce139556a5540299473d4d08ee8c571c76199",
-  "lastFullValidationAt": "2026-08-08T14:01:58Z",
-  "updatedAt": "2026-08-15T05:37:10Z"
+  "priceDataHash": "sha256:59886f512ed57a795a6d73a577428fc78aef050bd9387304108d325544d4cc1d",
+  "lastFullValidationAt": "2026-08-19T04:02:04Z",
+  "updatedAt": "2026-08-19T04:02:04Z"
 }
