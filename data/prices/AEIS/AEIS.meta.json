@@ -2,14 +2,14 @@
   "ticker": "AEIS",
   "source": "yahoo",
   "firstDate": "1995-11-17",
-  "lastDate": "2026-08-17",
-  "records": 7732,
+  "lastDate": "2026-08-18",
+  "records": 7733,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:71b7635c3c7eea6238fdc8e60d5612c03120a12f8e8d2f372a5e71848391a1dd",
-  "priceDataHash": "sha256:15ab5a9df60949d97290c149f7557bb60e7d8b36aa45973aba3d0ad059285b2d",
+  "priceDataHash": "sha256:2b8d712abd88c8c97a8cc2ce1e1402d90b1c5a786b846db4017c035cd82ebf71",
   "lastFullValidationAt": "2026-08-13T06:29:56Z",
-  "updatedAt": "2026-08-18T02:23:10Z"
+  "updatedAt": "2026-08-19T07:58:42Z"
 }
