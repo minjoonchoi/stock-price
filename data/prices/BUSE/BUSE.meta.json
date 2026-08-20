@@ -1,15 +1,15 @@
 {
   "ticker": "BUSE",
   "source": "yahoo",
-  "firstDate": "1998-10-09",
-  "lastDate": "2026-08-18",
-  "records": 6947,
+  "firstDate": "1998-10-06",
+  "lastDate": "2026-08-19",
+  "records": 6959,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-24",
   "lastSplitDate": "2015-09-08",
   "corporateActionHash": "sha256:3234646b7d11905a48a40d998fab7c2cbfe5de6fd1c035fddd0e1ac0884101e7",
-  "priceDataHash": "sha256:bdb6762f61b45f84d9feb444e7ccb0e9a76f5da780a738f79ef051e50f8464bf",
-  "lastFullValidationAt": "2026-08-13T06:42:56Z",
-  "updatedAt": "2026-08-19T08:05:32Z"
+  "priceDataHash": "sha256:a183785259b0a696786fa95f6d69fa2d781c4e1831ebaec59308c7abc4b73022",
+  "lastFullValidationAt": "2026-08-20T08:06:32Z",
+  "updatedAt": "2026-08-20T08:06:32Z"
 }

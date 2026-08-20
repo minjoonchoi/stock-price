@@ -1,15 +1,15 @@
 {
   "ticker": "CSX",
   "source": "yahoo",
-  "firstDate": "1980-11-03",
-  "lastDate": "2026-08-18",
-  "records": 11469,
+  "firstDate": "1980-11-05",
+  "lastDate": "2026-08-19",
+  "records": 11479,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2021-06-29",
   "corporateActionHash": "sha256:2c6d96b448b8f2806e00ab3cb0ccea52df38863ba81eab6b627a759b308d873e",
-  "priceDataHash": "sha256:3242de5d75b7c8161c16eb19255ca030d8a09dd17d795023335e2a58a4dc60f6",
-  "lastFullValidationAt": "2026-08-13T06:51:26Z",
-  "updatedAt": "2026-08-19T08:09:58Z"
+  "priceDataHash": "sha256:7dc163e24999761330af42e77694287136c5b1d00c8c3309213dfb4058289745",
+  "lastFullValidationAt": "2026-08-20T08:15:10Z",
+  "updatedAt": "2026-08-20T08:15:10Z"
 }

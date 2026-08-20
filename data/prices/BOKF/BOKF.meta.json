@@ -2,14 +2,14 @@
   "ticker": "BOKF",
   "source": "yahoo",
   "firstDate": "1991-09-05",
-  "lastDate": "2026-08-18",
-  "records": 8681,
+  "lastDate": "2026-08-19",
+  "records": 8624,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-13",
+  "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2004-05-06",
-  "corporateActionHash": "sha256:60c6b8870e22af3b439d4fc512c5e8fc2a76f26aa4ee3ad0974cd7b694315493",
-  "priceDataHash": "sha256:6257b026be1621317082157cfccc7cce236bdf68e3f106da99c10a6e6fe7b298",
-  "lastFullValidationAt": "2026-08-13T06:41:40Z",
-  "updatedAt": "2026-08-19T08:04:54Z"
+  "corporateActionHash": "sha256:b8706538cb228819edbb5f2a80e815d047d377c8ec658f3b6917942eaed0630a",
+  "priceDataHash": "sha256:615291a200f616d24ec6ad280b045a8fb77993a56b7d0333fc25d6fedf9850c3",
+  "lastFullValidationAt": "2026-08-20T08:05:16Z",
+  "updatedAt": "2026-08-20T08:05:16Z"
 }
