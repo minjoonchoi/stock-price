@@ -2,14 +2,14 @@
   "ticker": "FIS",
   "source": "yahoo",
   "firstDate": "2001-06-20",
-  "lastDate": "2026-08-18",
-  "records": 6322,
+  "lastDate": "2026-08-19",
+  "records": 6323,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-11",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:cb5bc68dd2c1c30a3de142000430de201161045aff56dc3677cfc4e32abdbe42",
-  "priceDataHash": "sha256:cda2ef794ad941ab995fde6af848fff3815169ab76685d32f4fe7b8fa5d6a10b",
+  "priceDataHash": "sha256:5a4b880e98e8671bd08850ae99e1cdfff1a5b594ddfdcac73832bdeeacdb9bbe",
   "lastFullValidationAt": "2026-08-14T06:23:28Z",
-  "updatedAt": "2026-08-19T02:29:13Z"
+  "updatedAt": "2026-08-20T02:32:23Z"
 }

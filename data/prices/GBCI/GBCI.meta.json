@@ -2,14 +2,14 @@
   "ticker": "GBCI",
   "source": "yahoo",
   "firstDate": "1984-03-22",
-  "lastDate": "2026-08-18",
-  "records": 10493,
+  "lastDate": "2026-08-19",
+  "records": 10494,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-07",
   "lastSplitDate": "2006-12-15",
   "corporateActionHash": "sha256:6db340442bbfb15ff4abd10507abcf5afe5533a45e30415f8e4074de098b3077",
-  "priceDataHash": "sha256:91136638ef195b98a5d18e5a717b366b9b484b19380291a703af92c0ce7b1120",
+  "priceDataHash": "sha256:d367a5f800843a51b93fe39c74f2a41d70e60b8e29e6133d139d9fca240a25d3",
   "lastFullValidationAt": "2026-08-14T06:26:24Z",
-  "updatedAt": "2026-08-19T02:30:43Z"
+  "updatedAt": "2026-08-20T02:33:53Z"
 }

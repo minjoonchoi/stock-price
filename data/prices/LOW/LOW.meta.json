@@ -2,14 +2,14 @@
   "ticker": "LOW",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-18",
-  "records": 11564,
+  "lastDate": "2026-08-19",
+  "records": 11565,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-22",
   "lastSplitDate": "2006-07-03",
   "corporateActionHash": "sha256:a2cd7dfdb657bb635ba0be9bb3f29048d3962c19b20aa36d64145aa282479592",
-  "priceDataHash": "sha256:81524accc8a6fb2e7c549c13b70e1a67d4d835564166d5daef336f822649a756",
+  "priceDataHash": "sha256:5a9e8f445f23c8fd3f8b6b6761a8b652e48564e631290cbec1962e61d7ab67cd",
   "lastFullValidationAt": "2026-08-14T06:42:50Z",
-  "updatedAt": "2026-08-19T02:39:05Z"
+  "updatedAt": "2026-08-20T02:42:15Z"
 }

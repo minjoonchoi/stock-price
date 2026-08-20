@@ -2,14 +2,14 @@
   "ticker": "MMM",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-18",
-  "records": 16175,
+  "lastDate": "2026-08-19",
+  "records": 16176,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "2024-04-01",
   "corporateActionHash": "sha256:854d88a3bcd7fff91326eefa83020cffd280314120ecc769d2bde2317b1175ef",
-  "priceDataHash": "sha256:5dbc8cbf993dc0ff613d240a73390f62c6b98cce12830fafdb03872494f37fcb",
+  "priceDataHash": "sha256:47c0149ba2f138edfc79f599d6451af03236f9b0e41046eebdb6746f07d6875c",
   "lastFullValidationAt": "2026-08-14T06:47:22Z",
-  "updatedAt": "2026-08-19T02:41:25Z"
+  "updatedAt": "2026-08-20T02:44:35Z"
 }
