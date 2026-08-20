@@ -2,14 +2,14 @@
   "ticker": "WTTR",
   "source": "yahoo",
   "firstDate": "2017-06-26",
-  "lastDate": "2026-08-18",
-  "records": 2297,
+  "lastDate": "2026-08-19",
+  "records": 2298,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:630ba6dc8a7e172755d190098ec25ec1691f05c168dabdb5e2679f6ad2295045",
-  "priceDataHash": "sha256:8093ce66b4e3b1be13d2664cfd6caeec6f05bcde19a9def312e3b2f6ce09f7a0",
+  "priceDataHash": "sha256:46958a817c1d39fefaae2e78228c04b9299cc818e066646c7bd89c8b2a6d7b35",
   "lastFullValidationAt": "2026-08-19T05:46:38Z",
-  "updatedAt": "2026-08-19T16:10:35Z"
+  "updatedAt": "2026-08-20T05:42:04Z"
 }
