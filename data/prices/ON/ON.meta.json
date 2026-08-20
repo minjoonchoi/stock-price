@@ -2,14 +2,14 @@
   "ticker": "ON",
   "source": "yahoo",
   "firstDate": "2000-05-02",
-  "lastDate": "2026-08-18",
-  "records": 6613,
+  "lastDate": "2026-08-19",
+  "records": 6614,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:fc2872d890b5698c0f791aec8938a815a4ed00421816ec40c2a4348138776fe5",
+  "priceDataHash": "sha256:53522f0d541072ac264f3725de7f175de9021f33e209827152e25a223afaf059",
   "lastFullValidationAt": "2026-08-19T04:00:05Z",
-  "updatedAt": "2026-08-19T11:50:48Z"
+  "updatedAt": "2026-08-20T03:55:42Z"
 }

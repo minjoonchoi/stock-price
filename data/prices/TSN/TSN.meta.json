@@ -2,14 +2,14 @@
   "ticker": "TSN",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-18",
-  "records": 11533,
+  "lastDate": "2026-08-19",
+  "records": 11534,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "1997-02-18",
   "corporateActionHash": "sha256:bd0c57d04fb7e270078e106f484a0c3b3764c8fbc15e35522901f2301ff81c4d",
-  "priceDataHash": "sha256:c4d1947287e3080399cb2d359a6884cdfcc1cfc8ab724ad4661ca2d2c5f34583",
+  "priceDataHash": "sha256:bc7288fefccd13dd3a8682f337ce25ea5b59571bf0bb498dab327378191aa2cc",
   "lastFullValidationAt": "2026-08-19T04:23:45Z",
-  "updatedAt": "2026-08-19T12:02:51Z"
+  "updatedAt": "2026-08-20T04:07:40Z"
 }

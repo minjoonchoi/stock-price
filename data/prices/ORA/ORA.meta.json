@@ -2,14 +2,14 @@
   "ticker": "ORA",
   "source": "yahoo",
   "firstDate": "2004-11-11",
-  "lastDate": "2026-08-18",
-  "records": 5471,
+  "lastDate": "2026-08-19",
+  "records": 5472,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-20",
+  "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:cc3b813ce8876ab367de594631b72fc5a2a292e61bcb159b1532148dc952fb04",
-  "priceDataHash": "sha256:c5df4a09eb35b31a4ec1bdd9df9ef0a8a8295699815832fd2850770b0a63bb39",
+  "corporateActionHash": "sha256:66d67488579927e25bdb3637a96f0d753c2cd9163e2c9358c82f9df2c9f5b308",
+  "priceDataHash": "sha256:c64bb81c6d6a4da221062bc65debb3e0a1792e376cd4f3617b7ddd1fea5a1634",
   "lastFullValidationAt": "2026-08-19T04:00:29Z",
-  "updatedAt": "2026-08-19T11:51:01Z"
+  "updatedAt": "2026-08-20T03:55:54Z"
 }

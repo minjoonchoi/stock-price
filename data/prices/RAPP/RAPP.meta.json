@@ -2,14 +2,14 @@
   "ticker": "RAPP",
   "source": "yahoo",
   "firstDate": "2024-06-07",
-  "lastDate": "2026-08-18",
-  "records": 547,
+  "lastDate": "2026-08-19",
+  "records": 548,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a791755bee4c224f1557e067502608184254ae47aa24e5669870adb770d1fd12",
+  "priceDataHash": "sha256:a25b3ea7df37973dfc09751def579fbaac488b52e8c9ef8213b4ca8f9358998a",
   "lastFullValidationAt": "2026-08-19T04:08:34Z",
-  "updatedAt": "2026-08-19T11:55:06Z"
+  "updatedAt": "2026-08-20T04:00:00Z"
 }

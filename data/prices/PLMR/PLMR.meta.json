@@ -2,14 +2,14 @@
   "ticker": "PLMR",
   "source": "yahoo",
   "firstDate": "2019-04-17",
-  "lastDate": "2026-08-18",
-  "records": 1841,
+  "lastDate": "2026-08-19",
+  "records": 1842,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "",
+  "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:cef2fb29920f16042945c8d10f1af44389faf8a519f5957cc97adb6f6047a5f1",
+  "corporateActionHash": "sha256:55cc3461802937e79bc5c16c017b401913e7b89c42faf1cfb8c9751df5300129",
+  "priceDataHash": "sha256:b9eb114578f84eac8539ce413edea1a783078a3286cc60db6505e4f8ba2126b3",
   "lastFullValidationAt": "2026-08-19T04:04:49Z",
-  "updatedAt": "2026-08-19T11:53:10Z"
+  "updatedAt": "2026-08-20T03:58:04Z"
 }
