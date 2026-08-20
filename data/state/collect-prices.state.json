@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-20",
   "totalTargets": 1582,
-  "processedTargets": 500,
-  "lastProcessedTicker": "ESE",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NOG",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:784990dcc1d2ec4e86531870173c30e1dcbf22d936cff35cec59a4b8da7605dc",
   "universeHash": "sha256:692e2420ed7f6a8e98877a63117a2bcc4335d42a6d51e0c1607fc81dd3fccfb4",
   "shardCount": 1,
   "startedAt": "2026-08-20T07:50:48Z",
-  "updatedAt": "2026-08-20T08:23:30Z"
+  "updatedAt": "2026-08-20T09:43:01Z"
 }
