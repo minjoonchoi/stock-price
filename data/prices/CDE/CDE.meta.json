@@ -2,14 +2,14 @@
   "ticker": "CDE",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-19",
-  "records": 11699,
+  "lastDate": "2026-08-20",
+  "records": 11700,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-22",
   "lastSplitDate": "2009-05-27",
   "corporateActionHash": "sha256:f1f4bc8a5bb45721821eff601d5202c4555e0c2093da367c897795e37aa5671c",
-  "priceDataHash": "sha256:f6e6431dbe1fed01e9d7d3618ccbe4189296f2ce0f1216ebf15f303f3f43e863",
+  "priceDataHash": "sha256:fe16839d7aef69187955d24888748e0f5dd661521a0e230e552e8a3a19389bc1",
   "lastFullValidationAt": "2026-08-20T08:08:54Z",
-  "updatedAt": "2026-08-20T08:08:54Z"
+  "updatedAt": "2026-08-21T02:38:29Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "AMAT",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-19",
-  "records": 11666,
+  "lastDate": "2026-08-20",
+  "records": 11667,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-21",
+  "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "2002-04-17",
-  "corporateActionHash": "sha256:bac8f607271ef29d2617eedf631a1801b28d121b36bea8b22c6b1bfb1db102f8",
-  "priceDataHash": "sha256:0b1812c084ddd61bfc192bc5a83b325d70d432102977386d0e52112061cd70c2",
+  "corporateActionHash": "sha256:faa8f215bf9e2e192a8ddf11a9bb7e49ab443402573ddc93baa0755633a61ef8",
+  "priceDataHash": "sha256:a3248d701da3a3138e64c9204dcacdd0aa4cf3edc791dbd6042c10c7f3044c80",
   "lastFullValidationAt": "2026-08-20T07:55:50Z",
-  "updatedAt": "2026-08-20T07:55:50Z"
+  "updatedAt": "2026-08-21T02:31:51Z"
 }
