@@ -2,14 +2,14 @@
   "ticker": "WMT",
   "source": "yahoo",
   "firstDate": "1972-08-25",
-  "lastDate": "2026-08-19",
-  "records": 13380,
+  "lastDate": "2026-08-20",
+  "records": 13381,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-08",
   "lastSplitDate": "2024-02-26",
   "corporateActionHash": "sha256:a58ae0c1c93caf6529c3010ea4e5076426672859cb3a331467f4c1796065e8eb",
-  "priceDataHash": "sha256:3c8d5b3088b00ed5899b60de030bb5873cb7fadafb1c2485fa72028cee62f110",
+  "priceDataHash": "sha256:1777b0936c047f2e9e049810c7707c2700403482f94827acb4e65f3476daf1f0",
   "lastFullValidationAt": "2026-08-19T05:45:42Z",
-  "updatedAt": "2026-08-20T05:41:36Z"
+  "updatedAt": "2026-08-21T07:50:45Z"
 }

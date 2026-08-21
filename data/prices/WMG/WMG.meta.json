@@ -2,14 +2,14 @@
   "ticker": "WMG",
   "source": "yahoo",
   "firstDate": "2020-06-03",
-  "lastDate": "2026-08-19",
-  "records": 1558,
+  "lastDate": "2026-08-20",
+  "records": 1559,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-26",
+  "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:46310c6aa796fcc04346679d00863e70358cd0202ee6445e0119f52e3b19b775",
-  "priceDataHash": "sha256:e5a3f860915a99aa4690c6e77e16e25d07e1753fa2c90914beefde9ed1bf01dd",
+  "corporateActionHash": "sha256:fea347984f9140484b16dec09f92ca0ffb7399dd1e5064a3397ed9afaea28071",
+  "priceDataHash": "sha256:6afbccfe95114089b9fa12c75ccc521471902c0f3efdbd3f41d78342126b6b83",
   "lastFullValidationAt": "2026-08-19T05:45:34Z",
-  "updatedAt": "2026-08-20T05:41:32Z"
+  "updatedAt": "2026-08-21T07:50:41Z"
 }

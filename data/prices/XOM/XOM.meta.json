@@ -2,14 +2,14 @@
   "ticker": "XOM",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-08-19",
-  "records": 16139,
+  "lastDate": "2026-08-20",
+  "records": 16140,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "2001-07-19",
   "corporateActionHash": "sha256:3bf08ca3bdaf182d7e3da402c8bed209dc35ddfd2a1ae0831855534f5eda437e",
-  "priceDataHash": "sha256:0f3ebd72652c508c235ea61400a98236d578cecfb761c6568a741bacd362aa0f",
+  "priceDataHash": "sha256:94ed09006c2d0a897f6c7acad0e3cc60f60fe16375e58de0a6e03b6a76a3aabb",
   "lastFullValidationAt": "2026-08-19T05:47:14Z",
-  "updatedAt": "2026-08-20T05:42:22Z"
+  "updatedAt": "2026-08-21T07:51:31Z"
 }
