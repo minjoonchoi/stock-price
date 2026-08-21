@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 351,
-  "updatedAt": "2026-07-04T17:29:36Z",
-  "source": "yahoo"
+  "ticker": "TTAM",
+  "source": "yahoo",
+  "firstDate": "2025-02-07",
+  "lastDate": "2026-08-20",
+  "records": 384,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-06-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:f9fca428c7f211b447cd63e23400e64daef198395dc9f4c8040606d74dd60dd5",
+  "priceDataHash": "sha256:d6a8d75c85dd74bc98b6d15c887307f3333811d18639f382aa3c746b6bfe8365",
+  "lastFullValidationAt": "2026-08-21T05:56:32Z",
+  "updatedAt": "2026-08-21T05:56:32Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ORI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-19",
-  "records": 11548,
+  "lastDate": "2026-08-20",
+  "records": 11549,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2006-01-03",
   "corporateActionHash": "sha256:f2118e34fb95f68dedcae54d2274bb6fdc2edda6588db5c428682e35fc8d45dc",
-  "priceDataHash": "sha256:a82a85b2aa28b8e92022cdf04c63569904a288869f41a1b76f4f83e5f9fe97a5",
+  "priceDataHash": "sha256:5ec41c83588cbb986beea45aaa3359bf716c44296ed55b326174a16ce3b5e1e0",
   "lastFullValidationAt": "2026-08-19T04:00:37Z",
-  "updatedAt": "2026-08-20T03:55:58Z"
+  "updatedAt": "2026-08-21T05:44:37Z"
 }

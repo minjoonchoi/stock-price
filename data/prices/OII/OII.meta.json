@@ -2,14 +2,14 @@
   "ticker": "OII",
   "source": "yahoo",
   "firstDate": "1975-10-31",
-  "lastDate": "2026-08-19",
-  "records": 12798,
+  "lastDate": "2026-08-20",
+  "records": 12799,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2017-08-23",
   "lastSplitDate": "2011-06-13",
   "corporateActionHash": "sha256:65a6b63c307c00737678d930ca66e48582924d0d2a58ff0bcdd0af9516f9416b",
-  "priceDataHash": "sha256:1f3b2132d5c8d4f2ebfc22f17984059e14d26fb72001a682289f75393ef15202",
+  "priceDataHash": "sha256:ca837b4ca3f5310fbeb74d55554f2c836c06637e2213cfaea97d417bfb988216",
   "lastFullValidationAt": "2026-08-19T03:59:25Z",
-  "updatedAt": "2026-08-20T03:55:22Z"
+  "updatedAt": "2026-08-21T05:44:00Z"
 }

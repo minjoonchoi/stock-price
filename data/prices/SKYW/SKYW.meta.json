@@ -2,14 +2,14 @@
   "ticker": "SKYW",
   "source": "yahoo",
   "firstDate": "1986-06-26",
-  "lastDate": "2026-08-19",
-  "records": 10090,
+  "lastDate": "2026-08-20",
+  "records": 10091,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-03-30",
   "lastSplitDate": "2000-12-18",
   "corporateActionHash": "sha256:40e6e6a6b48b850e478f1839559bbb26735b32e786c07420662276b40399bafc",
-  "priceDataHash": "sha256:ec5b804210a69d5e61dc98849cd3e4dc7fb001bef233e537748fd04df2a16e1c",
+  "priceDataHash": "sha256:0edd2eb38d4c46238a7b6149cd8e1f20e3b41bd9da26b98ac81aad1e545cf691",
   "lastFullValidationAt": "2026-08-19T04:15:33Z",
-  "updatedAt": "2026-08-20T04:03:32Z"
+  "updatedAt": "2026-08-21T05:52:16Z"
 }

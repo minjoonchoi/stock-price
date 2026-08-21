@@ -2,14 +2,14 @@
   "ticker": "PPG",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-19",
-  "records": 11643,
+  "lastDate": "2026-08-20",
+  "records": 11644,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "2015-06-15",
   "corporateActionHash": "sha256:7db3d5648ae0c9e422fbd0228d0b1e942685068520710ded14972c6b02839efb",
-  "priceDataHash": "sha256:0716e82a653ae3a659357c13b20cfea4b7fdfb4d029c4205ecbbd4fbdd66a2f2",
+  "priceDataHash": "sha256:3fffa67e5560908fd24071661935e70dcd6e5fa6b55ed5b4fcd95383e202026a",
   "lastFullValidationAt": "2026-08-19T04:06:01Z",
-  "updatedAt": "2026-08-20T03:58:42Z"
+  "updatedAt": "2026-08-21T05:47:23Z"
 }
