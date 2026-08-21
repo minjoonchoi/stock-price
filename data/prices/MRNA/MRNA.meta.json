@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1901,
-  "updatedAt": "2026-07-04T17:19:38Z",
-  "source": "yahoo"
+  "ticker": "MRNA",
+  "source": "yahoo",
+  "firstDate": "2018-12-07",
+  "lastDate": "2026-08-20",
+  "records": 1935,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:ff1144ea294286f15b07f92d1a25206c1dc2e12132ffc2ba5b0b486bbe771f2b",
+  "lastFullValidationAt": "2026-08-21T04:10:32Z",
+  "updatedAt": "2026-08-21T04:10:32Z"
 }

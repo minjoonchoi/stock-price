@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1408,
-  "updatedAt": "2026-07-04T17:19:40Z",
-  "source": "yahoo"
+  "ticker": "MRVI",
+  "source": "yahoo",
+  "firstDate": "2020-11-20",
+  "lastDate": "2026-08-20",
+  "records": 1439,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:93f1113634a4c2e4b50b751eab6001ce6733b6fa6a5b352c9ddda7bb00a25c98",
+  "lastFullValidationAt": "2026-08-21T04:10:40Z",
+  "updatedAt": "2026-08-21T04:10:40Z"
 }
