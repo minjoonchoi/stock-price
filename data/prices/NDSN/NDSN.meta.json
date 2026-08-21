@@ -1,15 +1,15 @@
 {
   "ticker": "NDSN",
   "source": "yahoo",
-  "firstDate": "1980-03-19",
+  "firstDate": "1980-03-18",
   "lastDate": "2026-08-20",
-  "records": 11275,
+  "records": 11402,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-18",
   "lastSplitDate": "2011-04-13",
   "corporateActionHash": "sha256:a21d1c28cd1681c4f96222ad365b163eca188d6f1c14a021fc24c2e0abb2ea4d",
-  "priceDataHash": "sha256:3f3b779a13b0c6ed629ea1cafaabc67e41ac53964cd5ed05457993bee1926aeb",
-  "lastFullValidationAt": "2026-08-14T06:50:54Z",
-  "updatedAt": "2026-08-21T04:11:52Z"
+  "priceDataHash": "sha256:9509e741be5c4e2df0eee0168b45f0d7f3e3f3f7456d7748af90e1743cee0b2b",
+  "lastFullValidationAt": "2026-08-21T12:11:28Z",
+  "updatedAt": "2026-08-21T12:11:28Z"
 }

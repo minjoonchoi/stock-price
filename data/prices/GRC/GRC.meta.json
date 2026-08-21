@@ -1,15 +1,15 @@
 {
   "ticker": "GRC",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
+  "firstDate": "1980-03-18",
   "lastDate": "2026-08-20",
-  "records": 11390,
+  "records": 11400,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2013-12-11",
   "corporateActionHash": "sha256:64e24d141dd1765381862521a84d4385c503faa851d47bc3b1194d9a8d8b6e70",
-  "priceDataHash": "sha256:d57a10d4adf1566ce8df61e99a55cc94c4f62c8290f5187be2be75688feb5a63",
-  "lastFullValidationAt": "2026-08-14T06:28:54Z",
-  "updatedAt": "2026-08-21T04:00:19Z"
+  "priceDataHash": "sha256:69849f916cafd683df46fbc5b763ef318930112a23381fc6c62a1e8f3b1b2223",
+  "lastFullValidationAt": "2026-08-21T11:49:56Z",
+  "updatedAt": "2026-08-21T11:49:56Z"
 }
