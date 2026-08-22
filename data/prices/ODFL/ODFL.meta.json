@@ -2,14 +2,14 @@
   "ticker": "ODFL",
   "source": "yahoo",
   "firstDate": "1991-10-24",
-  "lastDate": "2026-08-20",
-  "records": 8764,
+  "lastDate": "2026-08-21",
+  "records": 8765,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-03",
   "lastSplitDate": "2024-03-28",
   "corporateActionHash": "sha256:dd791ac0132a103826fb7f00cb40e1da3933105f3a8c0ae62c367508d72c404d",
-  "priceDataHash": "sha256:ef9cfc1f06ee1dfa8b85e906babd8102ac328cfc639410f5e897d4c891fb7c19",
+  "priceDataHash": "sha256:ca818979c2b91f6e650dcb39900989a41ef70e0c21e5d1fd2ec71b00a575d043",
   "lastFullValidationAt": "2026-08-19T03:59:09Z",
-  "updatedAt": "2026-08-21T05:43:52Z"
+  "updatedAt": "2026-08-22T05:38:47Z"
 }

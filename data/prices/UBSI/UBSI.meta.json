@@ -2,14 +2,14 @@
   "ticker": "UBSI",
   "source": "yahoo",
   "firstDate": "1987-06-04",
-  "lastDate": "2026-08-20",
-  "records": 9626,
+  "lastDate": "2026-08-21",
+  "records": 9627,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "1998-03-30",
   "corporateActionHash": "sha256:9b7ce67dfcf19ffc2136db85f8128768aa9ee624357f64133e25e4feb49fbdca",
-  "priceDataHash": "sha256:4de91a7bd835f6d1190e79dcf8875ec0b2ef5d5da5b1dae0762a084d0cc7d732",
+  "priceDataHash": "sha256:ff4d23c969899eb505f992cad5c1ff0442db2178a6ebd311739a70bf8098edda",
   "lastFullValidationAt": "2026-08-19T04:25:05Z",
-  "updatedAt": "2026-08-21T05:57:12Z"
+  "updatedAt": "2026-08-22T05:52:01Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SF",
   "source": "yahoo",
   "firstDate": "1983-07-19",
-  "lastDate": "2026-08-20",
-  "records": 10685,
+  "lastDate": "2026-08-21",
+  "records": 10686,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2026-02-27",
   "corporateActionHash": "sha256:9b087e26726ab61dca30c620604ec0b2a3c7106a0ff639b535c61be073961ab8",
-  "priceDataHash": "sha256:96da3e10680878bbda8fd29ee8d8c124c4cdd46438312c7ad55f086baf84a0f6",
+  "priceDataHash": "sha256:a6a7dafa4fcedaca1c97ff73c915596a8e8c5fbadceb3d5f4fc19324a67fe96d",
   "lastFullValidationAt": "2026-08-19T04:14:05Z",
-  "updatedAt": "2026-08-21T05:51:32Z"
+  "updatedAt": "2026-08-22T05:46:23Z"
 }

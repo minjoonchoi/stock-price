@@ -2,14 +2,14 @@
   "ticker": "PII",
   "source": "yahoo",
   "firstDate": "1987-09-16",
-  "lastDate": "2026-08-20",
-  "records": 9754,
+  "lastDate": "2026-08-21",
+  "records": 9755,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2011-09-13",
   "corporateActionHash": "sha256:fb9db3fe9e963c5575ed6c8e41aec1382f6353b3c5ef1e985b67922f1984fcf5",
-  "priceDataHash": "sha256:c6dce299405b4aa4298298649d796b265b67a383e04224c417da09ac7e72cf89",
+  "priceDataHash": "sha256:f03b027cfe4ef68bd70242b1f78f57088d15519147e9ca31713dc7aa0ed9fc6a",
   "lastFullValidationAt": "2026-08-19T04:04:17Z",
-  "updatedAt": "2026-08-21T05:46:26Z"
+  "updatedAt": "2026-08-22T05:41:21Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PATH",
   "source": "yahoo",
   "firstDate": "2021-04-21",
-  "lastDate": "2026-08-20",
-  "records": 1340,
+  "lastDate": "2026-08-21",
+  "records": 1341,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d3b8d5b9e380addde0ebd00c130189c464ac2dbc8dc9359f625f1b50a34ad684",
+  "priceDataHash": "sha256:3bfa7ecdf1bf0362cf625c4cdf9f1894457a062404eb33332656544b2e0671fe",
   "lastFullValidationAt": "2026-08-19T04:01:56Z",
-  "updatedAt": "2026-08-21T05:45:16Z"
+  "updatedAt": "2026-08-22T05:40:11Z"
 }
