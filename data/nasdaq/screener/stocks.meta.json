@@ -1,15 +1,15 @@
 {
   "api": "screener/stocks",
-  "canonicalRows": 1593,
+  "canonicalRows": 1595,
   "country": "united_states",
-  "githubRunId": "32421415972",
-  "lastCollectedAt": "2026-08-20T21:56:52Z",
+  "githubRunId": "32600376575",
+  "lastCollectedAt": "2026-08-22T21:50:01Z",
   "lastError": null,
   "lastStatus": "success",
   "limit": 1500,
   "marketcap": "mega|large|mid",
   "recommendation": "strong_buy|buy",
   "rowsFetched": 1500,
-  "snapshotFile": "data/nasdaq/screener/snapshots/2026-08-20.jsonl",
+  "snapshotFile": "data/nasdaq/screener/snapshots/2026-08-22.jsonl",
   "source": "nasdaq"
 }
