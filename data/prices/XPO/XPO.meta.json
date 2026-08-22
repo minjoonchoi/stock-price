@@ -2,14 +2,14 @@
   "ticker": "XPO",
   "source": "yahoo",
   "firstDate": "2003-10-07",
-  "lastDate": "2026-08-20",
-  "records": 5751,
+  "lastDate": "2026-08-21",
+  "records": 5752,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-11-01",
   "lastSplitDate": "2022-11-01",
   "corporateActionHash": "sha256:4a15a5620096d635bf2663c970e488f788c592e34b917d0d304a3fc1986e6be6",
-  "priceDataHash": "sha256:6313263c87e996a7a809ba9fa409d752c9359753c667ecae1567657b5adf509d",
+  "priceDataHash": "sha256:f987a8a5f00301189ca3a0a039ae16e61994ba05b9ea8c7fc5357f47ceb87fc1",
   "lastFullValidationAt": "2026-08-19T05:47:18Z",
-  "updatedAt": "2026-08-21T07:51:33Z"
+  "updatedAt": "2026-08-22T07:40:31Z"
 }

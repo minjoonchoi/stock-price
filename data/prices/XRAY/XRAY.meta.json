@@ -2,14 +2,14 @@
   "ticker": "XRAY",
   "source": "yahoo",
   "firstDate": "1987-08-12",
-  "lastDate": "2026-08-20",
-  "records": 9818,
+  "lastDate": "2026-08-21",
+  "records": 9819,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-26",
   "lastSplitDate": "2006-07-18",
   "corporateActionHash": "sha256:29010f9627699b218763eba7f7d8497a6726c9d7289a97fad481fa090265ef16",
-  "priceDataHash": "sha256:894dc376cb020be6dfc819046d3d254c249ade122daf66e186428cc23da46fc2",
+  "priceDataHash": "sha256:4b4fc154196d6b4d047232a120e971f1e220579490903af4b976fd540676e15b",
   "lastFullValidationAt": "2026-08-19T05:47:22Z",
-  "updatedAt": "2026-08-21T07:51:35Z"
+  "updatedAt": "2026-08-22T07:40:34Z"
 }

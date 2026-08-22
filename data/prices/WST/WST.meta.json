@@ -2,14 +2,14 @@
   "ticker": "WST",
   "source": "yahoo",
   "firstDate": "1980-03-18",
-  "lastDate": "2026-08-20",
-  "records": 11428,
+  "lastDate": "2026-08-21",
+  "records": 11429,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-29",
   "lastSplitDate": "2013-09-27",
   "corporateActionHash": "sha256:c3e0f5243ecde7c47fbdadce202c85451d1b11a8fe2399e454616d687a831ae4",
-  "priceDataHash": "sha256:b7bf8eef5b190326279bdfaac4f4f3d29643a59d27d43eae48e79d810aad4304",
+  "priceDataHash": "sha256:47f05dc2648bc60b6fa1f3590c568ee09422b5145749a31cd8961a348ac57b56",
   "lastFullValidationAt": "2026-08-19T05:46:18Z",
-  "updatedAt": "2026-08-21T07:51:03Z"
+  "updatedAt": "2026-08-22T07:40:02Z"
 }

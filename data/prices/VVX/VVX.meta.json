@@ -2,14 +2,14 @@
   "ticker": "VVX",
   "source": "yahoo",
   "firstDate": "2014-09-16",
-  "lastDate": "2026-08-20",
-  "records": 3000,
+  "lastDate": "2026-08-21",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:85142b86e304aac8164f0936dd5aa034486d0943ca457143091509df96760120",
+  "priceDataHash": "sha256:e916526eed674566e8c40ca43dd1c5b43ec28e9e9c50a45a6da09dd3636d850c",
   "lastFullValidationAt": "2026-08-19T05:43:34Z",
-  "updatedAt": "2026-08-21T07:49:41Z"
+  "updatedAt": "2026-08-22T07:38:39Z"
 }
