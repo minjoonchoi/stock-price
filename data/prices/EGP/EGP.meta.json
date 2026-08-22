@@ -2,14 +2,14 @@
   "ticker": "EGP",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-20",
-  "records": 13239,
+  "lastDate": "2026-08-21",
+  "records": 13240,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "1997-04-08",
   "corporateActionHash": "sha256:4905066f1c45d69b2e576a8c338b5c6c5e8db0301100ea5daebd7d3923d3f841",
-  "priceDataHash": "sha256:3d7bf5db054c1e89459322df46939cf66ab60136726fdeda9d2b38ca3db7ece2",
+  "priceDataHash": "sha256:3eb53022afbfc0c4dbbb24328ccb4253778fd902ec636435484eb6db12318f08",
   "lastFullValidationAt": "2026-08-20T08:21:28Z",
-  "updatedAt": "2026-08-21T02:44:53Z"
+  "updatedAt": "2026-08-22T02:40:56Z"
 }

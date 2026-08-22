@@ -2,14 +2,14 @@
   "ticker": "AWK",
   "source": "yahoo",
   "firstDate": "2008-04-23",
-  "lastDate": "2026-08-20",
-  "records": 4600,
+  "lastDate": "2026-08-21",
+  "records": 4601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-11",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e67e6f6f3cfb0d0a46ce2294654bcdbbfa6de25a57352a827a6f9b155562360f",
-  "priceDataHash": "sha256:2c6f24a92b7209677428b8bdaf77567046a5913e5259466b91d1dd127b2ef44a",
+  "priceDataHash": "sha256:1b41053c84bd2f0e9649ebb3aa107487a5cde4da05c7750a2582ac9c4c1d88a5",
   "lastFullValidationAt": "2026-08-20T08:00:42Z",
-  "updatedAt": "2026-08-21T02:34:21Z"
+  "updatedAt": "2026-08-22T02:30:24Z"
 }

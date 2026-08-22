@@ -2,14 +2,14 @@
   "ticker": "ACT",
   "source": "yahoo",
   "firstDate": "2021-09-16",
-  "lastDate": "2026-08-20",
-  "records": 1234,
+  "lastDate": "2026-08-21",
+  "records": 1235,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:0a4bb2b35507d2cbb2e49cd08efb4e68d2064dc51fb9e635bb99c84ac8cdd853",
-  "priceDataHash": "sha256:1a6c88081fc488876f3d6d2b2702c6cb7b910112480ddf10e9c3277cd0932e80",
+  "priceDataHash": "sha256:232461f67414d7eb11dd0effa5a5576cb9f712b41efd4f83dc765887f306cb9f",
   "lastFullValidationAt": "2026-08-20T07:52:26Z",
-  "updatedAt": "2026-08-21T02:30:05Z"
+  "updatedAt": "2026-08-22T02:26:04Z"
 }

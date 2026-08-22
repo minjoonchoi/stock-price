@@ -2,14 +2,14 @@
   "ticker": "ERAS",
   "source": "yahoo",
   "firstDate": "2021-07-16",
-  "lastDate": "2026-08-20",
-  "records": 1280,
+  "lastDate": "2026-08-21",
+  "records": 1281,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c8d6b938a408898425f1ba6d8e047765c7705fa74b5c8c109127ea358efc4fe0",
+  "priceDataHash": "sha256:55c0c97b2e5249cbbfb2e238d81616637786c66d6c25152e3692d37dd8f42d40",
   "lastFullValidationAt": "2026-08-20T08:23:16Z",
-  "updatedAt": "2026-08-21T02:45:47Z"
+  "updatedAt": "2026-08-22T02:41:50Z"
 }

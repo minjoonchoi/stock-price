@@ -2,14 +2,14 @@
   "ticker": "BBT",
   "source": "yahoo",
   "firstDate": "2000-06-28",
-  "lastDate": "2026-08-20",
-  "records": 6482,
+  "lastDate": "2026-08-21",
+  "records": 6483,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:dd65edcc517f4d7e35d3e34f3272bb0a4161f46a81ea67b795ff08ce2d06f669",
-  "priceDataHash": "sha256:d50ca3d7d844c5364dc1e1375bf00bbaf216185bc6b0654d3497ce636df6d54c",
+  "priceDataHash": "sha256:c25cab18ae15d105b669ae4612ec20c569e02cf81b2fe44761b72295d3cf3c35",
   "lastFullValidationAt": "2026-08-20T08:02:14Z",
-  "updatedAt": "2026-08-21T02:35:07Z"
+  "updatedAt": "2026-08-22T02:31:10Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "EMR",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-08-20",
-  "records": 13584,
+  "lastDate": "2026-08-21",
+  "records": 13585,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2006-12-12",
   "corporateActionHash": "sha256:3ce3b67a3ef0d9685e8c786c4ae002f33131905ed20953d6319a115c62f23ca4",
-  "priceDataHash": "sha256:c9cd362595d16b7540506d82eb63687ac8caa5bced95158e45696ccdded7afae",
+  "priceDataHash": "sha256:c2ce3c0a4fd60d8f9abec391ca116f808ab20f8534eb895e24cd59924d0851b6",
   "lastFullValidationAt": "2026-08-20T08:22:12Z",
-  "updatedAt": "2026-08-21T02:45:15Z"
+  "updatedAt": "2026-08-22T02:41:18Z"
 }

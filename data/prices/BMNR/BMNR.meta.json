@@ -2,14 +2,14 @@
   "ticker": "BMNR",
   "source": "yahoo",
   "firstDate": "2025-06-05",
-  "lastDate": "2026-08-20",
-  "records": 304,
+  "lastDate": "2026-08-21",
+  "records": 305,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-08",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:afb5a798658248e6b61280a6f05fce22f4a73df9b0ee44babf85fea380d34518",
-  "priceDataHash": "sha256:63fc9260a45652c38c2bd5f8066cc5a1c8b3675dc6bff42ae19d96d50610461e",
+  "priceDataHash": "sha256:ed0dc036a3e7bde09e999c9cbad6fb460cba40bd744310946d4f67c5f029f3ef",
   "lastFullValidationAt": "2026-08-20T08:04:52Z",
-  "updatedAt": "2026-08-21T02:36:27Z"
+  "updatedAt": "2026-08-22T02:32:30Z"
 }

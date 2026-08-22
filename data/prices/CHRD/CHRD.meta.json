@@ -2,14 +2,14 @@
   "ticker": "CHRD",
   "source": "yahoo",
   "firstDate": "2010-06-17",
-  "lastDate": "2026-08-20",
-  "records": 4062,
+  "lastDate": "2026-08-21",
+  "records": 4063,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9526e75f289b913e3497d03314a3924e18cf188fe659bf261c0f509dbbebe7f9",
-  "priceDataHash": "sha256:23f6d24e6efe574832f17b14324ec4e307870715e4b3c1618d00995a9c1f1410",
+  "priceDataHash": "sha256:777625ec5661580de4744599f3da3bce0df3a8262e0b01991ec29a7947529810",
   "lastFullValidationAt": "2026-08-20T08:10:28Z",
-  "updatedAt": "2026-08-21T02:39:17Z"
+  "updatedAt": "2026-08-22T02:35:20Z"
 }
