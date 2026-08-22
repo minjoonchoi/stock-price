@@ -2,14 +2,14 @@
   "ticker": "LCII",
   "source": "yahoo",
   "firstDate": "1985-05-29",
-  "lastDate": "2026-08-20",
-  "records": 9926,
+  "lastDate": "2026-08-21",
+  "records": 9927,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-29",
+  "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2005-09-08",
-  "corporateActionHash": "sha256:ee72a5ddf8cb2471e8907c330342945fc0f4861617e00a757c8c57e52fb7323f",
-  "priceDataHash": "sha256:3f90f7670a801d4ec79afb52a731da491b103a662dad263ef981a4a44c8ae9d5",
+  "corporateActionHash": "sha256:8d3c07ee51080632b8f6d6399e3039e48b9df788c4b1bbcc463a79cb4c984189",
+  "priceDataHash": "sha256:d59aded52de0140f0175e2875ebc21701fb70b7b511361148a9554cb6f0c9168",
   "lastFullValidationAt": "2026-08-21T12:01:24Z",
-  "updatedAt": "2026-08-21T12:01:24Z"
+  "updatedAt": "2026-08-22T03:58:56Z"
 }

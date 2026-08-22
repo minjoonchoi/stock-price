@@ -2,14 +2,14 @@
   "ticker": "NHC",
   "source": "yahoo",
   "firstDate": "1987-01-02",
-  "lastDate": "2026-08-20",
-  "records": 9732,
+  "lastDate": "2026-08-21",
+  "records": 9733,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c4f08aa7ed10fadb03d06bbc8273ef1a3e3b7bc337b281c5fbbb2568d66deafd",
-  "priceDataHash": "sha256:3f001dbb7aa7a966c82c9a867909ea2c9a19b6e193b79693c0318c8ee5d953a9",
+  "priceDataHash": "sha256:fcb67b72cc969b1030409b90f44607945f93b609e22cca6387bc35aec72f4b95",
   "lastFullValidationAt": "2026-08-21T12:12:16Z",
-  "updatedAt": "2026-08-21T12:12:16Z"
+  "updatedAt": "2026-08-22T04:04:50Z"
 }

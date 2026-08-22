@@ -2,14 +2,14 @@
   "ticker": "INVX",
   "source": "yahoo",
   "firstDate": "1997-10-23",
-  "lastDate": "2026-08-20",
-  "records": 7247,
+  "lastDate": "2026-08-21",
+  "records": 7248,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-10-06",
   "lastSplitDate": "2006-10-06",
   "corporateActionHash": "sha256:54f9215916325322c4f459c3114d44960746087e94b76aa6b7879baeb8f47034",
-  "priceDataHash": "sha256:85124ed956f4d94d04b196ba478b20ae8c3181aed1ead3f4890e79cf4f7cbe65",
+  "priceDataHash": "sha256:b98689b737819b62e36eb0475510aecc81a53fd245924fbddcd0e8b0d5dfcc1c",
   "lastFullValidationAt": "2026-08-20T17:37:18Z",
-  "updatedAt": "2026-08-21T04:03:54Z"
+  "updatedAt": "2026-08-22T03:56:28Z"
 }
