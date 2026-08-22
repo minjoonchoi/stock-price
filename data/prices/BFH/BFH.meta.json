@@ -2,14 +2,14 @@
   "ticker": "BFH",
   "source": "yahoo",
   "firstDate": "2001-06-15",
-  "lastDate": "2026-08-20",
-  "records": 6323,
+  "lastDate": "2026-08-21",
+  "records": 6324,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2021-11-08",
   "corporateActionHash": "sha256:f2bed9d4c2ac01a82643695057493b3768ce2d0092ce78560faed63dadbbd0a2",
-  "priceDataHash": "sha256:db7dc570a8eab9cf2ad3e9fd85522514e297cc6ead649bec34f77de266680215",
+  "priceDataHash": "sha256:0a6a93e91373b6a2d1cef84f288a960b2548d9c211dd537a75e97ac746ef36a4",
   "lastFullValidationAt": "2026-08-20T08:03:22Z",
-  "updatedAt": "2026-08-21T09:44:02Z"
+  "updatedAt": "2026-08-22T09:34:55Z"
 }
