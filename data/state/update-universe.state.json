@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-08-17",
+  "runId": "2026-08-23",
   "minMarketCap": 300000000,
-  "totalTickers": 10398,
+  "totalTickers": 10403,
   "processedTickers": 1000,
-  "lastProcessedTicker": "BAM",
+  "lastProcessedTicker": "BAMKF",
   "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:9b863cbb1f4796af82275cd24e55ba68d1c228472fc1ad28c727dd591e1c0213",
+  "secTickerHash": "sha256:a56f72f95e5b05cff3e0601037833cb050f7f4011c940b72afdcbc28d6649c00",
   "shardCount": 1,
-  "startedAt": "2026-08-17T13:47:20Z",
-  "updatedAt": "2026-08-17T15:27:22Z"
+  "startedAt": "2026-08-23T23:16:07Z",
+  "updatedAt": "2026-08-24T00:56:07Z"
 }
