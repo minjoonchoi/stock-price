@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
   "runId": "2026-08-25",
-  "totalTargets": 1591,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VRDN",
-  "cursorIndex": 1500,
+  "totalTargets": 1590,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ESAB",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:a56f72f95e5b05cff3e0601037833cb050f7f4011c940b72afdcbc28d6649c00",
-  "universeHash": "sha256:340ef0a7b73536b0ee76377ff950000f4409f11560bb51fea463fe2c5e687f78",
+  "secTickerHash": "sha256:47487430d4efee618d1b1519483d7b7460c71c616dc46f8032474006a351ae0a",
+  "universeHash": "sha256:59f87351a63f6df3d495ce8bb8f34f2bbb02e21e052e1a2b104675c60aefaf06",
   "shardCount": 1,
-  "startedAt": "2026-08-25T09:42:58Z",
-  "updatedAt": "2026-08-25T14:01:19Z"
+  "startedAt": "2026-08-25T16:06:37Z",
+  "updatedAt": "2026-08-25T16:07:12Z"
 }
