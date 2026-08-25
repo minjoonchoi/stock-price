@@ -2,14 +2,14 @@
   "ticker": "PSX",
   "source": "yahoo",
   "firstDate": "2012-04-12",
-  "lastDate": "2026-08-21",
-  "records": 3610,
+  "lastDate": "2026-08-24",
+  "records": 3611,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-18",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:730a8f93956ce497e701c711f6c57ec0850e99918c5f2a085441bb9139218023",
-  "priceDataHash": "sha256:8512fad4c29815f1a34959b9fbe1e4c6aa18cb3dea3d9cf061374cb571c397d0",
+  "priceDataHash": "sha256:ee1dc42c00d1190da347e921cfe6c9c0b09b1eb9ab216c65a351b6639a9e54dc",
   "lastFullValidationAt": "2026-08-19T04:07:03Z",
-  "updatedAt": "2026-08-22T05:42:49Z"
+  "updatedAt": "2026-08-25T05:47:31Z"
 }

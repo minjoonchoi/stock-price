@@ -2,14 +2,14 @@
   "ticker": "RDN",
   "source": "yahoo",
   "firstDate": "1992-10-30",
-  "lastDate": "2026-08-21",
-  "records": 8498,
+  "lastDate": "2026-08-24",
+  "records": 8499,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-02",
+  "lastCorporateActionDate": "2026-08-24",
   "lastSplitDate": "2001-06-21",
-  "corporateActionHash": "sha256:3e5c2ea0277bb314779024ebd6a2f2ae5e2c6c825a07cec12c51d3f7795efcaa",
-  "priceDataHash": "sha256:6d78e69e4b3707b69b3a24a006e92f432997ab5e7089afa8b7dd8b43a3e30a11",
+  "corporateActionHash": "sha256:e3202b45932f0be1db8b43fd3ae64b588dc3211fd2cc6c741bff9202466783ec",
+  "priceDataHash": "sha256:0c5025387555e175e2b2d9f0c4f377bc5b826ed937a90946df88836db620960a",
   "lastFullValidationAt": "2026-08-19T04:09:07Z",
-  "updatedAt": "2026-08-22T05:43:51Z"
+  "updatedAt": "2026-08-25T05:48:37Z"
 }

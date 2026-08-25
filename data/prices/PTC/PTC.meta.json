@@ -2,14 +2,14 @@
   "ticker": "PTC",
   "source": "yahoo",
   "firstDate": "1989-12-08",
-  "lastDate": "2026-08-21",
-  "records": 9239,
+  "lastDate": "2026-08-24",
+  "records": 9240,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-02-28",
   "lastSplitDate": "2006-02-28",
   "corporateActionHash": "sha256:18bf8ccf615cc834acd3d7d140394778a200f02ed775c85fbc43fe2c32f1c8b6",
-  "priceDataHash": "sha256:67c8bc92981a9862f25ea92f84813ba7ef267caa2af26b8a0a5477504c7b339a",
+  "priceDataHash": "sha256:bdcf266645380a8a69df3bd2cc21b9b9342244d71e3f3c6129da433d74cbee89",
   "lastFullValidationAt": "2026-08-19T04:07:07Z",
-  "updatedAt": "2026-08-22T05:42:51Z"
+  "updatedAt": "2026-08-25T05:47:33Z"
 }

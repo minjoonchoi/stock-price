@@ -2,14 +2,14 @@
   "ticker": "SRCE",
   "source": "yahoo",
   "firstDate": "1983-08-12",
-  "lastDate": "2026-08-21",
-  "records": 10600,
+  "lastDate": "2026-08-24",
+  "records": 10601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-04",
   "lastSplitDate": "2006-08-03",
   "corporateActionHash": "sha256:376cf35d49a2530eed0292e00013db9d8165037b6781efffa2db7906021ba8f8",
-  "priceDataHash": "sha256:f2f326bff183b1468d221151e9e6b83fcdab0ec453bcc898937a2acfc272f3ce",
+  "priceDataHash": "sha256:549ca267d12ed67f17be8af0fa9faaef4f55860ebf8547c0efda2d9149b68710",
   "lastFullValidationAt": "2026-08-19T04:18:01Z",
-  "updatedAt": "2026-08-22T05:48:27Z"
+  "updatedAt": "2026-08-25T05:53:09Z"
 }

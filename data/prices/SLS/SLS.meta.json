@@ -2,14 +2,14 @@
   "ticker": "SLS",
   "source": "yahoo",
   "firstDate": "2008-03-12",
-  "lastDate": "2026-08-21",
-  "records": 4641,
+  "lastDate": "2026-08-24",
+  "records": 4642,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-11-08",
   "lastSplitDate": "2019-11-08",
   "corporateActionHash": "sha256:71097ccc643c12a5c61d38fef77da8623cf8327a13b87666e3c060a90fa24779",
-  "priceDataHash": "sha256:7bf99cebc3883e6c85bbf5ca279c0108280ba09460c06c143a6dc9da9865a922",
+  "priceDataHash": "sha256:e63d5cfd3e5d1135901f23fe2c3ea4af167676d60b0a5c928e919b1ecdc16f61",
   "lastFullValidationAt": "2026-08-19T04:15:53Z",
-  "updatedAt": "2026-08-22T05:47:21Z"
+  "updatedAt": "2026-08-25T05:52:03Z"
 }

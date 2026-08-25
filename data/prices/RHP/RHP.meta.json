@@ -2,14 +2,14 @@
   "ticker": "RHP",
   "source": "yahoo",
   "firstDate": "1991-10-24",
-  "lastDate": "2026-08-21",
-  "records": 8748,
+  "lastDate": "2026-08-24",
+  "records": 8749,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "1993-09-14",
   "corporateActionHash": "sha256:599058e2215465e9346cab2f76259a7ab58715dffde1b8dec6c0b5b0c6bbd9d6",
-  "priceDataHash": "sha256:b949e2a9eb8535d5346fc7fe4f5d9ac1a26517a058998718df528caf90e896d4",
+  "priceDataHash": "sha256:b5c27f375736ab0640eb4379c2c4f427f2f72b1411975e22948bfde049927690",
   "lastFullValidationAt": "2026-08-19T04:10:07Z",
-  "updatedAt": "2026-08-22T05:44:23Z"
+  "updatedAt": "2026-08-25T05:49:09Z"
 }

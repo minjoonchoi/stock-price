@@ -2,14 +2,14 @@
   "ticker": "TGT",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-21",
-  "records": 13424,
+  "lastDate": "2026-08-24",
+  "records": 13425,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "2000-07-20",
   "corporateActionHash": "sha256:212ab2f4d1bcce32a1b4e531ec0678fea1505441d73d7478f59fea0d10403ddb",
-  "priceDataHash": "sha256:0f84a14ff511c8ea7b76a2fbf777239976a88dcf346e67368470d518439832f4",
+  "priceDataHash": "sha256:36cc683a0e344aa4e192f969e73a6ac5441ea276b342ccf05e2e2d592e47bfa7",
   "lastFullValidationAt": "2026-08-19T04:21:25Z",
-  "updatedAt": "2026-08-22T05:50:09Z"
+  "updatedAt": "2026-08-25T05:54:51Z"
 }
