@@ -2,14 +2,14 @@
   "ticker": "GATX",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-21",
-  "records": 13375,
+  "lastDate": "2026-08-24",
+  "records": 13376,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "1998-06-02",
   "corporateActionHash": "sha256:2db9de897f0a97648320f58c89977fd03234c3bb71d62225f3cd4a8be06b02b2",
-  "priceDataHash": "sha256:35bbcd0433454cb60d9f3e709860ca37e6ac5313f4e510ef1ed813ab58d417f8",
+  "priceDataHash": "sha256:38b2c17d29602792ae83d0f6014dd14082f53732096a33ea53d7a5c5f45bc66d",
   "lastFullValidationAt": "2026-08-21T11:47:24Z",
-  "updatedAt": "2026-08-22T11:26:55Z"
+  "updatedAt": "2026-08-25T03:59:19Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "KTOS",
   "source": "yahoo",
   "firstDate": "1999-11-05",
-  "lastDate": "2026-08-21",
-  "records": 6738,
+  "lastDate": "2026-08-24",
+  "records": 6739,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2009-09-11",
   "lastSplitDate": "2009-09-11",
   "corporateActionHash": "sha256:8cd2b9b6da32367863ad022c90b4ea0e81a368a4f3591b868aa1249519f64c3d",
-  "priceDataHash": "sha256:96399801f70c7afccf223d511d396a6a592695179cbaab787601850cac61fc55",
+  "priceDataHash": "sha256:96f7277f0b0a2e708de27a99a259f5cb7c44e22f089160d5bae5f4f5476508b8",
   "lastFullValidationAt": "2026-08-21T12:00:36Z",
-  "updatedAt": "2026-08-22T03:58:32Z"
+  "updatedAt": "2026-08-25T04:06:07Z"
 }

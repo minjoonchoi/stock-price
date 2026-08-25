@@ -2,14 +2,14 @@
   "ticker": "FANG",
   "source": "yahoo",
   "firstDate": "2012-10-12",
-  "lastDate": "2026-08-21",
-  "records": 3483,
+  "lastDate": "2026-08-24",
+  "records": 3484,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:83782150bb71890cdc250dd75124d1ce41debc8ebd54845fe1da4b638cf9c4fb",
-  "priceDataHash": "sha256:4b18e0bddb318a91827167200195e05179b24509fc23885d747c5d758b367127",
+  "priceDataHash": "sha256:0ce2253f0bd6054ae66f7b47712e377349e775d4b1de64b783b4e84cd714ff52",
   "lastFullValidationAt": "2026-08-21T11:43:04Z",
-  "updatedAt": "2026-08-22T03:49:26Z"
+  "updatedAt": "2026-08-25T03:57:01Z"
 }

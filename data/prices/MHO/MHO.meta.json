@@ -2,14 +2,14 @@
   "ticker": "MHO",
   "source": "yahoo",
   "firstDate": "1993-11-03",
-  "lastDate": "2026-08-21",
-  "records": 8255,
+  "lastDate": "2026-08-24",
+  "records": 8256,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-06-27",
   "lastSplitDate": "2002-06-20",
   "corporateActionHash": "sha256:569aa130d4646e0e7e24ba2a5c1358125d1098e03e0b522f6c45ba681820b4cd",
-  "priceDataHash": "sha256:156dbf87652ceccc6aec7f3f69d649b627ebc28eeb31bdb8bb5e092ad18d7617",
+  "priceDataHash": "sha256:9096bb3b69976bddd5740f0af99d5b65e8240c06ed32b6e99ee689cd30abd266",
   "lastFullValidationAt": "2026-08-21T12:07:12Z",
-  "updatedAt": "2026-08-22T04:02:06Z"
+  "updatedAt": "2026-08-25T04:09:41Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "EVR",
   "source": "yahoo",
   "firstDate": "2006-08-14",
-  "lastDate": "2026-08-21",
-  "records": 5030,
+  "lastDate": "2026-08-24",
+  "records": 5031,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:0ce554f4e3427bf0456547847a9c5e6f2c7a499da913f82b7f1120db7afff23c",
-  "priceDataHash": "sha256:4b8a45b37860b4014fa1c4aab1c258fefbffaf866365e9b2f30ee5b6eac70bd6",
+  "priceDataHash": "sha256:b2cbd6db53db6fffe6296747d48f214210fb8397e0f2a9a9c319a3859c7eddd2",
   "lastFullValidationAt": "2026-08-20T17:36:48Z",
-  "updatedAt": "2026-08-22T03:48:48Z"
+  "updatedAt": "2026-08-25T03:56:23Z"
 }
