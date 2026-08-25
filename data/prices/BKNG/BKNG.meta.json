@@ -2,14 +2,14 @@
   "ticker": "BKNG",
   "source": "yahoo",
   "firstDate": "1999-03-31",
-  "lastDate": "2026-08-21",
-  "records": 6890,
+  "lastDate": "2026-08-24",
+  "records": 6891,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2026-04-06",
   "corporateActionHash": "sha256:c1aabba7e9ec0c6fd79402f0ec02f2087ba237f3473a83841e678c81116d10c5",
-  "priceDataHash": "sha256:25fe579cfe12d530df36cf1faeb05c095426462fe82d558cb5530116a2337df4",
+  "priceDataHash": "sha256:bef50b30561d9cbd425e11660186f1eb7fd2a44d6b7e1e567f1b323ce87b49ed",
   "lastFullValidationAt": "2026-08-20T08:04:10Z",
-  "updatedAt": "2026-08-22T02:32:08Z"
+  "updatedAt": "2026-08-25T02:31:50Z"
 }

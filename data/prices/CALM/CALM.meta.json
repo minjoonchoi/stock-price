@@ -2,14 +2,14 @@
   "ticker": "CALM",
   "source": "yahoo",
   "firstDate": "1996-12-12",
-  "lastDate": "2026-08-21",
-  "records": 7287,
+  "lastDate": "2026-08-24",
+  "records": 7288,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-04-29",
   "lastSplitDate": "2014-11-03",
   "corporateActionHash": "sha256:4857e593252f64bf5987cd73eef4d96a088bd0716ca2a9401f41730f6fb00be7",
-  "priceDataHash": "sha256:ac8ddf7821c01bfeaf1695cea6df9bc6803ccbb0e303e7da7c94e281f380a007",
+  "priceDataHash": "sha256:ab0bb8b3cfe64abdb3d1d3eb5643d71927227f6d4302af38547a120b3d66e2ee",
   "lastFullValidationAt": "2026-08-20T08:07:28Z",
-  "updatedAt": "2026-08-22T02:33:48Z"
+  "updatedAt": "2026-08-25T02:33:34Z"
 }

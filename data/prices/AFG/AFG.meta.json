@@ -2,14 +2,14 @@
   "ticker": "AFG",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-21",
-  "records": 11605,
+  "lastDate": "2026-08-24",
+  "records": 11606,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-15",
   "lastSplitDate": "2006-12-18",
   "corporateActionHash": "sha256:552f01f99b5476a44b1272af1c5b513ac5d761c94606fc007d16b1de99380374",
-  "priceDataHash": "sha256:624568455c4fc8401fe9f26ab209bbfef59ed5415df7d764ff2d7d2cdaed3d33",
+  "priceDataHash": "sha256:f43860c05eafe57cbb18ff2d7d3c3a8505cf9a2a062f32ff73c22f74f5db2684",
   "lastFullValidationAt": "2026-08-20T07:53:28Z",
-  "updatedAt": "2026-08-22T02:26:42Z"
+  "updatedAt": "2026-08-25T02:26:24Z"
 }

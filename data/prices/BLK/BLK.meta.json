@@ -2,14 +2,14 @@
   "ticker": "BLK",
   "source": "yahoo",
   "firstDate": "1999-10-01",
-  "lastDate": "2026-08-21",
-  "records": 6730,
+  "lastDate": "2026-08-24",
+  "records": 6731,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7fd67a3cfbc61c69ecb3ae1b202612f3e26fd7d0b6d6e95784093c68291fcb1a",
-  "priceDataHash": "sha256:6b581c7f5528180d1eb0c4cd5177850e9b3c164bc7e2c4c30efc395c1dce9cf1",
+  "priceDataHash": "sha256:4323b38d522919c06f2242315ae325bd0866a99720fb844e4c1861bc6a33a4f7",
   "lastFullValidationAt": "2026-08-20T08:04:34Z",
-  "updatedAt": "2026-08-22T02:32:20Z"
+  "updatedAt": "2026-08-25T02:32:02Z"
 }

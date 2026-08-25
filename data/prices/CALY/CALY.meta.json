@@ -2,14 +2,14 @@
   "ticker": "CALY",
   "source": "yahoo",
   "firstDate": "1992-02-28",
-  "lastDate": "2026-08-21",
-  "records": 8676,
+  "lastDate": "2026-08-24",
+  "records": 8677,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-05-26",
   "lastSplitDate": "1995-03-13",
   "corporateActionHash": "sha256:ec56d1fa5deaebf9162431315ea813fb337e26e7fb5528124db3fd38cf2348f7",
-  "priceDataHash": "sha256:420e36a6283b03175c7c06fb06c404db99d6af0536c87ba08e352fb95446bce3",
+  "priceDataHash": "sha256:02785dfe4e79a2cd0a503f35e9f036c91dbf142c14f9080f25bb3da457c73a3c",
   "lastFullValidationAt": "2026-08-20T08:07:36Z",
-  "updatedAt": "2026-08-22T02:33:52Z"
+  "updatedAt": "2026-08-25T02:33:38Z"
 }

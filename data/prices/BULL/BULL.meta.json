@@ -2,14 +2,14 @@
   "ticker": "BULL",
   "source": "yahoo",
   "firstDate": "2022-08-22",
-  "lastDate": "2026-08-21",
-  "records": 1004,
+  "lastDate": "2026-08-24",
+  "records": 1005,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:70ae5a1cb6ad52dd4caae46795ccd91ac29f5c6e26a6f90b3d26a3043cfa50d2",
+  "priceDataHash": "sha256:2c8b362b09b2a282924189c40f57631654da14b229eafa2865bb2076c3d38e94",
   "lastFullValidationAt": "2026-08-20T08:06:24Z",
-  "updatedAt": "2026-08-22T02:33:16Z"
+  "updatedAt": "2026-08-25T02:33:02Z"
 }
