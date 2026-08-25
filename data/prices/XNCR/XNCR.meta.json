@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3163,
-  "updatedAt": "2026-07-04T17:32:09Z",
-  "source": "yahoo"
+  "ticker": "XNCR",
+  "source": "yahoo",
+  "firstDate": "2013-12-03",
+  "lastDate": "2026-08-24",
+  "records": 3199,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:79ba96a87a26b784e1574c03ffde35ab7da3620c0978896e31b4688e0c139d92",
+  "lastFullValidationAt": "2026-08-25T07:52:30Z",
+  "updatedAt": "2026-08-25T07:52:30Z"
 }

@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-08-25",
   "totalTargets": 1591,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VRDN",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1591,
+  "lastProcessedTicker": "ZWS",
+  "cursorIndex": 1591,
+  "completed": true,
   "secTickerHash": "sha256:a56f72f95e5b05cff3e0601037833cb050f7f4011c940b72afdcbc28d6649c00",
   "universeHash": "sha256:340ef0a7b73536b0ee76377ff950000f4409f11560bb51fea463fe2c5e687f78",
   "shardCount": 1,
   "startedAt": "2026-08-25T02:24:58Z",
-  "updatedAt": "2026-08-25T05:58:49Z"
+  "updatedAt": "2026-08-25T07:53:12Z"
 }
