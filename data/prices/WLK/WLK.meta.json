@@ -2,14 +2,14 @@
   "ticker": "WLK",
   "source": "yahoo",
   "firstDate": "2004-08-12",
-  "lastDate": "2026-08-24",
-  "records": 5540,
+  "lastDate": "2026-08-25",
+  "records": 5541,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-27",
+  "lastCorporateActionDate": "2026-08-25",
   "lastSplitDate": "2014-03-19",
-  "corporateActionHash": "sha256:056a7374c0aefc39259e11e5221c2ae66242f00b56c8ff894a9b7717fd1e077c",
-  "priceDataHash": "sha256:04e772ead684c7329035b60ea0aa7e70609dacf1fd12e8caff9504c4af12e810",
+  "corporateActionHash": "sha256:c0c89430521ae4dc043a740d22d2f64ed413af5e2bcd2d4618edbb8c9e79a9bf",
+  "priceDataHash": "sha256:2bf416ac0da2a4bcfe5722de0006550a7910f5d5ddb77ada9667029ca3e60088",
   "lastFullValidationAt": "2026-08-19T05:45:18Z",
-  "updatedAt": "2026-08-25T07:51:30Z"
+  "updatedAt": "2026-08-26T04:02:03Z"
 }
