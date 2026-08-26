@@ -2,14 +2,14 @@
   "ticker": "MKSI",
   "source": "yahoo",
   "firstDate": "1999-03-30",
-  "lastDate": "2026-08-24",
-  "records": 6890,
+  "lastDate": "2026-08-25",
+  "records": 6891,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-08-25",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:60ddc91495317edc96d7d4120995cce295f94fe961da8cec54ee21ec47bb5274",
-  "priceDataHash": "sha256:eb0839f1e90495317e8b452c042e8a8b48485177f64b8d9b0a7290bfd422a517",
+  "corporateActionHash": "sha256:874134568b676b3ce58d3ae64adfbe7d7ee721d032f77edd33d0115ea7f9a64d",
+  "priceDataHash": "sha256:3cb6da5622fdb55449a34720fc30eb414a7d138e57c38a1dc5a366bad585c7dc",
   "lastFullValidationAt": "2026-08-21T12:07:36Z",
-  "updatedAt": "2026-08-25T04:09:53Z"
+  "updatedAt": "2026-08-26T08:11:21Z"
 }

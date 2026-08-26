@@ -2,14 +2,14 @@
   "ticker": "INOD",
   "source": "yahoo",
   "firstDate": "1993-08-10",
-  "lastDate": "2026-08-24",
-  "records": 8316,
+  "lastDate": "2026-08-25",
+  "records": 8317,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2001-03-26",
   "lastSplitDate": "2001-03-26",
   "corporateActionHash": "sha256:9a8b5cb9e90b856ad13f646760ff8b860b7810e6d82a24f1c983c384dd2d75db",
-  "priceDataHash": "sha256:648d9839377cf37b421bdb7a82e6d884afd92e037915e2b0cf25b45aaae7b339",
+  "priceDataHash": "sha256:542aeca504a9aa02605f023fa47d035091b536f6f1371cedc2bedd7fcd24eb5a",
   "lastFullValidationAt": "2026-08-21T11:56:04Z",
-  "updatedAt": "2026-08-25T04:03:49Z"
+  "updatedAt": "2026-08-26T08:05:17Z"
 }
