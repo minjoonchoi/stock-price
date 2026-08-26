@@ -1,15 +1,15 @@
 {
   "ticker": "SBRA",
   "source": "yahoo",
-  "firstDate": "2002-04-04",
+  "firstDate": "2002-04-02",
   "lastDate": "2026-08-25",
-  "records": 6056,
+  "records": 6065,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2010-11-16",
   "corporateActionHash": "sha256:4751e896ca70d0e80d088923f64e5d608e832e266150ba90d74e719b6541b4d3",
-  "priceDataHash": "sha256:7bc70fe584ce9f052058751a6226dd63fa4d42866cc702418f66cab61c9a6dbe",
-  "lastFullValidationAt": "2026-08-19T04:13:31Z",
-  "updatedAt": "2026-08-26T02:40:35Z"
+  "priceDataHash": "sha256:678d99f0eb2b26eea8329705544b30fadcb2666451b3e2268e28cd2feb1e54de",
+  "lastFullValidationAt": "2026-08-26T10:05:09Z",
+  "updatedAt": "2026-08-26T10:05:09Z"
 }
