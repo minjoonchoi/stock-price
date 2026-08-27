@@ -1,15 +1,15 @@
 {
   "ticker": "AVB",
   "source": "yahoo",
-  "firstDate": "1994-03-11",
+  "firstDate": "2026-07-17",
   "lastDate": "2026-08-24",
-  "records": 8071,
+  "records": 27,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
-  "lastSplitDate": "",
-  "corporateActionHash": "sha256:f06dee83190bd15d66b818cd9e110905b981d2e1465b1e14a802ee853f02b4d8",
-  "priceDataHash": "sha256:2dcffadd6fc2a1a60c53ceae96f5eb9b20089ca9efcd2e3e3093e84ead09dd66",
-  "lastFullValidationAt": "2026-08-20T08:00:10Z",
-  "updatedAt": "2026-08-25T02:29:50Z"
+  "lastCorporateActionDate": "2026-08-17",
+  "lastSplitDate": "2026-08-17",
+  "corporateActionHash": "sha256:0c0a32556c9d971a3afb0f81caf0692df26118bb2071c8fd676b32dc8116ca12",
+  "priceDataHash": "sha256:a26e37ace450129b7633eec84dc33c2025d177a3281b246ee9722406f7aebdf4",
+  "lastFullValidationAt": "2026-08-27T11:15:41Z",
+  "updatedAt": "2026-08-27T11:15:41Z"
 }

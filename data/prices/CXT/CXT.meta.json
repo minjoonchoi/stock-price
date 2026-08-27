@@ -1,15 +1,15 @@
 {
   "ticker": "CXT",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-08-25",
-  "records": 11575,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-08-26",
+  "records": 11610,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-05-29",
   "lastSplitDate": "2023-04-04",
   "corporateActionHash": "sha256:24184d3cb9664f325ea265ab0cbeb716bfb532d0080f1738f927eb472f668edd",
-  "priceDataHash": "sha256:cdc62b672a9ee7f455a50907bae60f96113b3fdbdf4c570ee0fe75c788829e78",
-  "lastFullValidationAt": "2026-08-20T08:16:38Z",
-  "updatedAt": "2026-08-26T05:53:45Z"
+  "priceDataHash": "sha256:4399f2500bda664fe07c3b14836d8bdf304136c8cffe6238fe4238c7d16fcc6d",
+  "lastFullValidationAt": "2026-08-27T11:32:11Z",
+  "updatedAt": "2026-08-27T11:32:11Z"
 }
