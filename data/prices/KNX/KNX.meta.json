@@ -2,14 +2,14 @@
   "ticker": "KNX",
   "source": "yahoo",
   "firstDate": "1994-10-25",
-  "lastDate": "2026-08-25",
-  "records": 8000,
+  "lastDate": "2026-08-26",
+  "records": 8001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2005-12-27",
   "corporateActionHash": "sha256:f35d5e5c9e2116a154246b73bb537f01d88b995748a5483ea4f2c95ef97c22be",
-  "priceDataHash": "sha256:4e01949577343a888187dfc1fb4e281dc0a8faae8f7eaa337ecc8786b55a3fd4",
+  "priceDataHash": "sha256:13ac616f6347e21f8673be97b8e7bb8be25392a5351b3628fe0cb072e2491d2e",
   "lastFullValidationAt": "2026-08-21T12:00:00Z",
-  "updatedAt": "2026-08-26T08:07:17Z"
+  "updatedAt": "2026-08-27T21:13:57Z"
 }
