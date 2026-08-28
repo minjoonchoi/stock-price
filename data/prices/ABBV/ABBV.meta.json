@@ -2,14 +2,14 @@
   "ticker": "ABBV",
   "source": "yahoo",
   "firstDate": "2013-01-02",
-  "lastDate": "2026-08-26",
-  "records": 3432,
+  "lastDate": "2026-08-27",
+  "records": 3433,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:d2fe48dcaca5aa91999cb378d4d2bd776ef7b58621b69167ec9dcec61008f61d",
-  "priceDataHash": "sha256:5d50a7ba36d8d231096d5bdabd4914f4ffe6dd40511ef3ae2966f01336b4c97b",
+  "priceDataHash": "sha256:fe9b0fc358457fca27f6878761acf51f2f77b74f9659649e6b33ec9018d09ee9",
   "lastFullValidationAt": "2026-08-27T11:06:49Z",
-  "updatedAt": "2026-08-27T11:06:49Z"
+  "updatedAt": "2026-08-28T12:39:46Z"
 }

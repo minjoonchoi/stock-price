@@ -2,14 +2,14 @@
   "ticker": "CZR",
   "source": "yahoo",
   "firstDate": "2014-09-22",
-  "lastDate": "2026-08-26",
-  "records": 3000,
+  "lastDate": "2026-08-27",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:087d808cd8477d31f2befca408ba0fcb1566e8f4235dcdec8486ab72a4b0279f",
+  "priceDataHash": "sha256:f206f1dbbc894cadf197385d451d2f4abc4a90511c49ffb007d5f733bda8981a",
   "lastFullValidationAt": "2026-08-27T11:32:23Z",
-  "updatedAt": "2026-08-27T11:32:23Z"
+  "updatedAt": "2026-08-28T12:52:50Z"
 }
