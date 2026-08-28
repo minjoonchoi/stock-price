@@ -1,15 +1,15 @@
 {
   "ticker": "LBRDK",
   "source": "yahoo",
-  "firstDate": "2014-11-05",
+  "firstDate": "2014-11-04",
   "lastDate": "2026-08-21",
-  "records": 2965,
+  "records": 2941,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2025-07-15",
-  "lastSplitDate": "2025-07-15",
-  "corporateActionHash": "sha256:7fb62469bffe1ed8d02a1aaca2005bac4da8793dc0b14e59b6f8cba8f31ca2cf",
-  "priceDataHash": "sha256:6c5f376e97b0c86331d98b4f88ad7144f6e0fd2bd35fc2a2f6e619d9e920a20a",
-  "lastFullValidationAt": "2026-08-21T12:01:16Z",
-  "updatedAt": "2026-08-25T04:06:27Z"
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:6c6487ecc11b591d023cf07510c70a841f2278c356f742d4a179c2875ed27682",
+  "lastFullValidationAt": "2026-08-28T23:24:26Z",
+  "updatedAt": "2026-08-28T23:24:26Z"
 }
