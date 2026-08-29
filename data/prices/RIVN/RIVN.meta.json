@@ -2,14 +2,14 @@
   "ticker": "RIVN",
   "source": "yahoo",
   "firstDate": "2021-11-10",
-  "lastDate": "2026-08-25",
-  "records": 1201,
+  "lastDate": "2026-08-27",
+  "records": 1203,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f62a234cdb71b96dae0c410c10d97973da4ef35069007a0925a3fc0001873747",
+  "priceDataHash": "sha256:220d964bcf95e7c76394282ad2ed2d1dafa216bd06ea4d1a9ed177663aeaf78d",
   "lastFullValidationAt": "2026-08-26T10:01:57Z",
-  "updatedAt": "2026-08-26T10:01:57Z"
+  "updatedAt": "2026-08-29T07:56:20Z"
 }

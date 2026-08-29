@@ -2,14 +2,14 @@
   "ticker": "SSD",
   "source": "yahoo",
   "firstDate": "1994-05-26",
-  "lastDate": "2026-08-25",
-  "records": 8063,
+  "lastDate": "2026-08-27",
+  "records": 8065,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "2004-11-19",
   "corporateActionHash": "sha256:1152d177a4682a163993ea850d262af52558d2b901a9588086949c43a7257b25",
-  "priceDataHash": "sha256:b554ccde9c3e340a1ca5e1432c6f5a019f1dd9d88b7d384b296a8888cbae59f5",
+  "priceDataHash": "sha256:eb0d754710e60c0cd3d7d309f3e417880baf92579f643e1d0b530270f374881d",
   "lastFullValidationAt": "2026-08-26T10:09:49Z",
-  "updatedAt": "2026-08-26T10:09:49Z"
+  "updatedAt": "2026-08-29T08:00:30Z"
 }

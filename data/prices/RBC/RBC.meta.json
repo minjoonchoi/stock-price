@@ -2,14 +2,14 @@
   "ticker": "RBC",
   "source": "yahoo",
   "firstDate": "2005-08-10",
-  "lastDate": "2026-08-25",
-  "records": 5293,
+  "lastDate": "2026-08-27",
+  "records": 5295,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-09-29",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:309bb07313dc747b1b3b1dd81392cab9cda34c958c00b6ee94fd7be938d5e6d2",
-  "priceDataHash": "sha256:643bf55537384f5bf68d35222c1f308d51a13f3aa6d57222c850adc26fccbbf1",
+  "priceDataHash": "sha256:b42960e54b09c76ca0d0150012c7aa907383b977ebca959f6adad5ba731216fb",
   "lastFullValidationAt": "2026-08-26T10:00:25Z",
-  "updatedAt": "2026-08-26T10:00:25Z"
+  "updatedAt": "2026-08-29T07:55:28Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SNAP",
   "source": "yahoo",
   "firstDate": "2017-03-02",
-  "lastDate": "2026-08-25",
-  "records": 2384,
+  "lastDate": "2026-08-27",
+  "records": 2386,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:35a7e05dd2e207e882ff3a2cff4beb24c6f1f5c1e641cda6fd5840d4fbcf9651",
+  "priceDataHash": "sha256:14ed3cc2d4aa613054e2be1f9e66a5aa66b0ea58b88a00ca1d0225700ae1e319",
   "lastFullValidationAt": "2026-08-26T10:08:01Z",
-  "updatedAt": "2026-08-26T10:08:01Z"
+  "updatedAt": "2026-08-29T07:59:28Z"
 }

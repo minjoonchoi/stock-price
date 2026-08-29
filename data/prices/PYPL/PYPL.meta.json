@@ -2,14 +2,14 @@
   "ticker": "PYPL",
   "source": "yahoo",
   "firstDate": "2015-07-06",
-  "lastDate": "2026-08-25",
-  "records": 2802,
+  "lastDate": "2026-08-27",
+  "records": 2804,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-04",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:ea3e3308bc827c5c21c84490029675ceac6b214e17cffa3111a363f08bdd3405",
-  "priceDataHash": "sha256:7ea9b9a4624bf317b6ab5d0ea9c1c120e3518730b5efb41537a33884e3c4e4e5",
+  "priceDataHash": "sha256:2a0cf9d0a45be71aa3d86ac5805cabb3cd88f3d63ef0294cf2509b95a7749d8d",
   "lastFullValidationAt": "2026-08-26T09:59:25Z",
-  "updatedAt": "2026-08-26T09:59:25Z"
+  "updatedAt": "2026-08-29T07:54:58Z"
 }

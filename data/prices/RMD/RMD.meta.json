@@ -2,14 +2,14 @@
   "ticker": "RMD",
   "source": "yahoo",
   "firstDate": "1995-06-02",
-  "lastDate": "2026-08-25",
-  "records": 7856,
+  "lastDate": "2026-08-27",
+  "records": 7858,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "2010-08-31",
   "corporateActionHash": "sha256:2df29dbaa3baf2ea91c742fce171c0553a55ba06deac934b18cc850def47cb08",
-  "priceDataHash": "sha256:f63fa213056cc9121c40ad4c3c0a7357c36fc4b5449b25639030f325e07968fe",
+  "priceDataHash": "sha256:01d1c711bb83d6e50fc7a2a68dd30881ceb80ab37c27bac110631857f164d35f",
   "lastFullValidationAt": "2026-08-26T10:02:29Z",
-  "updatedAt": "2026-08-26T10:02:29Z"
+  "updatedAt": "2026-08-29T07:56:36Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "VOYA",
   "source": "yahoo",
   "firstDate": "2013-05-02",
-  "lastDate": "2026-08-25",
-  "records": 3349,
+  "lastDate": "2026-08-27",
+  "records": 3351,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-26",
+  "lastCorporateActionDate": "2026-08-26",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:657e589b182d5873b74a4bc99a1917123567d7b744be782cd550c98d8ce53f40",
-  "priceDataHash": "sha256:7a18a82930346fe5f145c5800ddc635e96d4f38b768d5f26101fbbb7dbd4e87c",
+  "corporateActionHash": "sha256:ecbc3aabb885fa822f2c63cd157a39249c775cbd7d87b1543c9f3a41d18ce896",
+  "priceDataHash": "sha256:7463fc693fc3b67fd62b7634ae02d04c89699e115358685007381d5657be52cd",
   "lastFullValidationAt": "2026-08-26T10:20:25Z",
-  "updatedAt": "2026-08-26T10:20:25Z"
+  "updatedAt": "2026-08-29T08:06:04Z"
 }
