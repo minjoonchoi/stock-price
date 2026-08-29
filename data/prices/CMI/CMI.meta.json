@@ -2,14 +2,14 @@
   "ticker": "CMI",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-27",
-  "records": 13404,
+  "lastDate": "2026-08-28",
+  "records": 13405,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2008-01-03",
   "corporateActionHash": "sha256:5ea4b6cb583b59c7d5992459ce7d58741ff72272c41152119b82a6fbf9ad2e2c",
-  "priceDataHash": "sha256:6920ca139f1adf7119927e7df1772121be1c7297ee14403ceaa19e760fc2ece2",
+  "priceDataHash": "sha256:5c15020063911b3bbb887a1256af4e8c47b223d54caf44cfbc0efd68e6cbbd74",
   "lastFullValidationAt": "2026-08-27T11:27:19Z",
-  "updatedAt": "2026-08-28T12:50:16Z"
+  "updatedAt": "2026-08-29T18:33:14Z"
 }
