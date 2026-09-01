@@ -2,14 +2,14 @@
   "ticker": "AXGN",
   "source": "yahoo",
   "firstDate": "1986-12-17",
-  "lastDate": "2026-08-28",
-  "records": 9887,
+  "lastDate": "2026-08-31",
+  "records": 9888,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2010-01-27",
   "lastSplitDate": "1994-07-11",
   "corporateActionHash": "sha256:50b8b643841b44fdb9143a3a1ebcdfb5737614103301da85de84b8e45e7f638c",
-  "priceDataHash": "sha256:3847360b6558e793563856ee8cc55e31db47e0c2d276b1b178143d0c22d6f25c",
+  "priceDataHash": "sha256:480181711bc84d2c360d0a80745dbcb3101323667b6a87b8eb43160ddb71478b",
   "lastFullValidationAt": "2026-08-27T11:16:21Z",
-  "updatedAt": "2026-08-29T18:27:38Z"
+  "updatedAt": "2026-09-01T06:16:22Z"
 }

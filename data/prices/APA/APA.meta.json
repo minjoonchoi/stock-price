@@ -2,14 +2,14 @@
   "ticker": "APA",
   "source": "yahoo",
   "firstDate": "1979-05-15",
-  "lastDate": "2026-08-28",
-  "records": 11767,
+  "lastDate": "2026-08-31",
+  "records": 11768,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-22",
   "lastSplitDate": "2004-01-15",
   "corporateActionHash": "sha256:20501062f62b260a2356a814a3e2c1557445cd1b07cdfd4be88f6c548efaea23",
-  "priceDataHash": "sha256:9e5131a808f1fb2f59f30af90938a3cb76a52c70d45ba4ce5b6878347e1470a5",
+  "priceDataHash": "sha256:44524cac2aad05cb2404c79c6d99dcc92eff5b429e5d27091c958113cf99181d",
   "lastFullValidationAt": "2026-08-27T11:12:43Z",
-  "updatedAt": "2026-08-29T18:25:48Z"
+  "updatedAt": "2026-09-01T06:14:28Z"
 }

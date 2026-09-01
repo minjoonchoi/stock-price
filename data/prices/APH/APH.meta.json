@@ -2,14 +2,14 @@
   "ticker": "APH",
   "source": "yahoo",
   "firstDate": "1991-11-08",
-  "lastDate": "2026-08-28",
-  "records": 8760,
+  "lastDate": "2026-08-31",
+  "records": 8761,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-23",
   "lastSplitDate": "2024-06-12",
   "corporateActionHash": "sha256:8de97a076b59853316c688972f8de4ded518725a931749040035adadb90330b4",
-  "priceDataHash": "sha256:2fc58c30f3a50d397fb18c32a8668a5e8ae8834362fb2f304c4fb738a3934a9b",
+  "priceDataHash": "sha256:ca071f20395ce9a457a561ba416d1fd67866cd9f85b9182f11e3aa1e6e7ab4d0",
   "lastFullValidationAt": "2026-08-27T11:12:59Z",
-  "updatedAt": "2026-08-29T18:25:56Z"
+  "updatedAt": "2026-09-01T06:14:36Z"
 }

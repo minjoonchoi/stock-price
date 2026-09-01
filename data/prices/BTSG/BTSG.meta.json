@@ -2,14 +2,14 @@
   "ticker": "BTSG",
   "source": "yahoo",
   "firstDate": "2024-01-26",
-  "lastDate": "2026-08-28",
-  "records": 650,
+  "lastDate": "2026-08-31",
+  "records": 651,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:9583a8d7954bdde326918ad1448fb7b58f4e9f14cd426f635faeefd8bbf61cb2",
+  "priceDataHash": "sha256:23cf80c7946916734d88ae00ae10b87b2fb8b1a776fb38f15a55e17b1c06962c",
   "lastFullValidationAt": "2026-08-27T11:21:49Z",
-  "updatedAt": "2026-08-29T18:30:24Z"
+  "updatedAt": "2026-09-01T06:19:10Z"
 }

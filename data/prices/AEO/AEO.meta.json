@@ -2,14 +2,14 @@
   "ticker": "AEO",
   "source": "yahoo",
   "firstDate": "1994-04-14",
-  "lastDate": "2026-08-28",
-  "records": 8075,
+  "lastDate": "2026-08-31",
+  "records": 8076,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "2006-12-19",
   "corporateActionHash": "sha256:8f27a8fce225eb2ded4fd27ccc19748d1fbea1476dc0df3d10a0e1aab6086551",
-  "priceDataHash": "sha256:937e8145ab9bdc453544d84f54d1e053385327812d8c6ba86a7843e3d8aec978",
+  "priceDataHash": "sha256:5e73b85655274fd10fde865d6bfd74913b52540e0c84689f8fefc62fa497cc6d",
   "lastFullValidationAt": "2026-08-27T11:08:51Z",
-  "updatedAt": "2026-08-29T18:23:46Z"
+  "updatedAt": "2026-09-01T06:12:28Z"
 }

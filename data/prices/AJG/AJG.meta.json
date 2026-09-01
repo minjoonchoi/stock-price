@@ -2,14 +2,14 @@
   "ticker": "AJG",
   "source": "yahoo",
   "firstDate": "1984-06-20",
-  "lastDate": "2026-08-27",
-  "records": 10490,
+  "lastDate": "2026-08-31",
+  "records": 10491,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2001-01-19",
   "corporateActionHash": "sha256:cf5b088563608d7222504343b1751b164dad6a5b48e14306112f123acb8f0389",
-  "priceDataHash": "sha256:739ccf9ba6dc7215ebb170467dc5f962c7b0c9fac6774bf691be595bc6c16d38",
+  "priceDataHash": "sha256:c28d7abd0c2ca8ad8f82a4ca82829e96970f67ef5c9ebbd976b1186968ade0d3",
   "lastFullValidationAt": "2026-08-27T11:09:53Z",
-  "updatedAt": "2026-08-28T12:41:24Z"
+  "updatedAt": "2026-09-01T06:13:00Z"
 }

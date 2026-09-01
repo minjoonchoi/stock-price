@@ -2,14 +2,14 @@
   "ticker": "AMH",
   "source": "yahoo",
   "firstDate": "2013-08-01",
-  "lastDate": "2026-08-28",
-  "records": 3287,
+  "lastDate": "2026-08-31",
+  "records": 3288,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:dc00775f93494b26ee063064a841dd646cb3feda38f1b6839a62937255964c2a",
-  "priceDataHash": "sha256:99cb65fd6b0e092149666e0a4f4de846af146b0f7c0e16ec4f46ef82dfaf556b",
+  "priceDataHash": "sha256:542de35ab31bbeca19a6e3d1bd3626dd1b0e354231717ded3f7357ba803f1d27",
   "lastFullValidationAt": "2026-08-27T11:11:45Z",
-  "updatedAt": "2026-08-29T18:25:18Z"
+  "updatedAt": "2026-09-01T06:13:58Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "AD",
   "source": "yahoo",
   "firstDate": "1988-05-04",
-  "lastDate": "2026-08-27",
-  "records": 9609,
+  "lastDate": "2026-08-31",
+  "records": 9611,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-11",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:36f56369db5fd85e622801e2673951849c5fde54b1538e708ecb667ffc00f2e1",
-  "priceDataHash": "sha256:5d7afc4d17a31cca17c69c3a8c2584eda83a7dddf5cdcbbcd180fb6f96639726",
+  "priceDataHash": "sha256:799e0c1c9ec7d8aea76feb8886fe98180a1570c7ba1038230695c3c63e99e49c",
   "lastFullValidationAt": "2026-08-27T11:07:57Z",
-  "updatedAt": "2026-08-28T12:40:20Z"
+  "updatedAt": "2026-09-01T06:11:58Z"
 }

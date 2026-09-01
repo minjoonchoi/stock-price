@@ -2,14 +2,14 @@
   "ticker": "BTU",
   "source": "yahoo",
   "firstDate": "2017-04-03",
-  "lastDate": "2026-08-27",
-  "records": 2364,
+  "lastDate": "2026-08-31",
+  "records": 2366,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:04ac3610c1d0530db2f1c8355b9f0a240d222306ce58ddcd4bdd296df11f1965",
-  "priceDataHash": "sha256:c754d00dafe08c29d5ccb1472f42ffb4312a03da1074e1cc034804f2ce6dc365",
+  "priceDataHash": "sha256:055e5afb4bd1c97c7bef480e01f7d1984df5a482ef1fb1ba29124fd05e9b1b41",
   "lastFullValidationAt": "2026-08-27T11:21:53Z",
-  "updatedAt": "2026-08-28T12:47:30Z"
+  "updatedAt": "2026-09-01T06:19:12Z"
 }

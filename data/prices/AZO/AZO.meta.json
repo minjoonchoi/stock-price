@@ -2,14 +2,14 @@
   "ticker": "AZO",
   "source": "yahoo",
   "firstDate": "1991-04-02",
-  "lastDate": "2026-08-28",
-  "records": 8917,
+  "lastDate": "2026-08-31",
+  "records": 8918,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1994-04-21",
   "lastSplitDate": "1994-04-21",
   "corporateActionHash": "sha256:02cbe32b04817fdfe1e615f6811bbbd46101bebd557eab7f82c77783cd9642cc",
-  "priceDataHash": "sha256:9a9795cc09dff807245b6ed97a32b9dec30e6ca27bc89e3058d989048eb8c2da",
+  "priceDataHash": "sha256:0bb077c5d97e3db1ae5acf6aceaf0c6811328bba119a519d8d97167f9b0b4dca",
   "lastFullValidationAt": "2026-08-27T11:16:49Z",
-  "updatedAt": "2026-08-29T18:27:52Z"
+  "updatedAt": "2026-09-01T06:16:36Z"
 }

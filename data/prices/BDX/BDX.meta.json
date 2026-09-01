@@ -2,14 +2,14 @@
   "ticker": "BDX",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-28",
-  "records": 13368,
+  "lastDate": "2026-08-31",
+  "records": 13369,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-09",
   "lastSplitDate": "2026-02-10",
   "corporateActionHash": "sha256:81f331eac775ab6ffc8dd285031567100fcf6de9bf26815c9e4b8af9aa3b50a0",
-  "priceDataHash": "sha256:878cd28515100a79363f07627d150646fde4396882667927620503a14911bcef",
+  "priceDataHash": "sha256:04f8ab28f46fe05b1381b92fc2dd83d39dab9e36bf49ffc02e475cf329cffc13",
   "lastFullValidationAt": "2026-08-27T11:18:21Z",
-  "updatedAt": "2026-08-29T18:28:38Z"
+  "updatedAt": "2026-09-01T06:17:22Z"
 }

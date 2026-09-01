@@ -2,14 +2,14 @@
   "ticker": "BEPC",
   "source": "yahoo",
   "firstDate": "2020-07-24",
-  "lastDate": "2026-08-28",
-  "records": 1532,
+  "lastDate": "2026-08-31",
+  "records": 1533,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-29",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2020-12-14",
-  "corporateActionHash": "sha256:afb92c2a04e2edeef57e426d60ca12735cabde5eebe9cb62c7cd7242d8827b65",
-  "priceDataHash": "sha256:29e1a432a8badb95d56cfa1d1d732016c7ac6a4cb97f9b09480d7b82dec4f6d5",
+  "corporateActionHash": "sha256:e797956a5f4595c007326b9aa318003ea906cf4a7b6de50ba42740ce35f4e416",
+  "priceDataHash": "sha256:e15ac971f8c0aced79556a2142cf4d4b9473cc3db63838aa5620282e24570623",
   "lastFullValidationAt": "2026-08-27T11:18:41Z",
-  "updatedAt": "2026-08-29T18:28:48Z"
+  "updatedAt": "2026-09-01T06:17:32Z"
 }

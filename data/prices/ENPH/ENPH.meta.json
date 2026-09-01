@@ -2,14 +2,14 @@
   "ticker": "ENPH",
   "source": "yahoo",
   "firstDate": "2012-03-30",
-  "lastDate": "2026-08-28",
-  "records": 3624,
+  "lastDate": "2026-08-31",
+  "records": 3625,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ca995b0f9ef8f471e01ecc101a205262924a1afea60ef71e7922d38bc1c34522",
+  "priceDataHash": "sha256:ae1c61da541fc126d218e189607384a55432997405f1c0e3fcd07e27583aa966",
   "lastFullValidationAt": "2026-08-27T11:37:49Z",
-  "updatedAt": "2026-08-29T18:38:34Z"
+  "updatedAt": "2026-09-01T06:27:20Z"
 }

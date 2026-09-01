@@ -2,14 +2,14 @@
   "ticker": "EBAY",
   "source": "yahoo",
   "firstDate": "1998-09-24",
-  "lastDate": "2026-08-28",
-  "records": 7025,
+  "lastDate": "2026-08-31",
+  "records": 7026,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-29",
+  "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2015-07-20",
-  "corporateActionHash": "sha256:92295938e8c1617acfaeb0e85cd6cec723e2d8a3a4b321cd093bd4bf58d22476",
-  "priceDataHash": "sha256:d0e5f354ef2d750c713562519200a21d09f1da551bf6998a902bef246c91a8cd",
+  "corporateActionHash": "sha256:8416115bd17e6fbc08b4037102310c652c9d092fd0acb7566f231d69ee63a97b",
+  "priceDataHash": "sha256:4dfb2f621823629c18dbe09c987520586c7a13e029bfd28901cf57ad052c0c3c",
   "lastFullValidationAt": "2026-08-27T11:36:23Z",
-  "updatedAt": "2026-08-29T18:37:50Z"
+  "updatedAt": "2026-09-01T06:26:36Z"
 }

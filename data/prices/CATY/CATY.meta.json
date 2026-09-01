@@ -2,14 +2,14 @@
   "ticker": "CATY",
   "source": "yahoo",
   "firstDate": "1990-12-14",
-  "lastDate": "2026-08-28",
-  "records": 8779,
+  "lastDate": "2026-08-31",
+  "records": 8780,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-28",
+  "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2004-09-29",
-  "corporateActionHash": "sha256:27fa4df35bd87e0c175fa4c6b7197a00d6cf0af66501ed4692bbf97570ab3adc",
-  "priceDataHash": "sha256:b16991e8053a9d8009f06ede2a10059f281680fc39f42f93ffded873c69a68fa",
+  "corporateActionHash": "sha256:01c0b8d02774f100e46d457cbe7ed3ee3f47479d4aa206d5a29031f25603da69",
+  "priceDataHash": "sha256:323ec476b7abf2da6a56ce7676cc11c005e1bbd467f989854fb8f990040b70a0",
   "lastFullValidationAt": "2026-08-27T11:23:33Z",
-  "updatedAt": "2026-08-29T18:31:16Z"
+  "updatedAt": "2026-09-01T06:20:02Z"
 }

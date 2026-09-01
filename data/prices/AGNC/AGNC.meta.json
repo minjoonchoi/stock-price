@@ -2,14 +2,14 @@
   "ticker": "AGNC",
   "source": "yahoo",
   "firstDate": "2008-05-15",
-  "lastDate": "2026-08-28",
-  "records": 4587,
+  "lastDate": "2026-08-31",
+  "records": 4588,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-31",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:f105f37be4e199451354ddb37e271e4b1b592931e9eacc38b47273b3676022a5",
-  "priceDataHash": "sha256:1dd1ea67d239f317e4625c5bb58ac0c46c5f2120236db18c8a4fb3c63aaf1901",
+  "corporateActionHash": "sha256:9795b1bd97e47bfc3ff35a3290e8dc788ad9361dcd49b345477c20c2b6523b40",
+  "priceDataHash": "sha256:db9d7084577e8fcb99b8cd336b8edcf27779301875117555b63dea0a3037fde8",
   "lastFullValidationAt": "2026-08-27T11:09:21Z",
-  "updatedAt": "2026-08-29T18:24:04Z"
+  "updatedAt": "2026-09-01T06:12:44Z"
 }

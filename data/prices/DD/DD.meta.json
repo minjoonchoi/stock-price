@@ -2,14 +2,14 @@
   "ticker": "DD",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-08-28",
-  "records": 13567,
+  "lastDate": "2026-08-31",
+  "records": 13568,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-24",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2026-06-24",
-  "corporateActionHash": "sha256:0ff620226c27077b6a1e8280e98256b1a77a78ba00f3697bcdc555a3a2f7d07f",
-  "priceDataHash": "sha256:bc596d06508937c76b73fdd49dfee4246b107f841e465ee22836737e5cd7dc53",
+  "corporateActionHash": "sha256:f862808809726f6f93010734ec6154cbd2c255e1c2e6ea93aab0f5b2c45c32ad",
+  "priceDataHash": "sha256:c0caf05ca0d212669957fe86b529fa313bb6ed57857ef26b64023b2d7c205650",
   "lastFullValidationAt": "2026-08-27T11:33:03Z",
-  "updatedAt": "2026-08-29T18:36:08Z"
+  "updatedAt": "2026-09-01T06:24:54Z"
 }

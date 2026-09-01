@@ -2,14 +2,14 @@
   "ticker": "CSL",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-28",
-  "records": 13350,
+  "lastDate": "2026-08-31",
+  "records": 13351,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2007-03-20",
   "corporateActionHash": "sha256:7c29c11206983e314ab723999d83c3af8d1f5b1df0ed714aa946c9118a4091ec",
-  "priceDataHash": "sha256:964d474b6b6fc2cf0c0a779eb263309f642663cadf03efc3f342b2dbbecf9865",
+  "priceDataHash": "sha256:f639dd01b0d3ae2e19febf684dedf11efdb2940df5c6d8e7b7c4366ff96894fc",
   "lastFullValidationAt": "2026-08-27T11:30:35Z",
-  "updatedAt": "2026-08-29T18:34:54Z"
+  "updatedAt": "2026-09-01T06:23:40Z"
 }

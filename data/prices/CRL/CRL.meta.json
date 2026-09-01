@@ -2,14 +2,14 @@
   "ticker": "CRL",
   "source": "yahoo",
   "firstDate": "2000-06-23",
-  "lastDate": "2026-08-28",
-  "records": 6584,
+  "lastDate": "2026-08-31",
+  "records": 6585,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:20ded143db6d176e339614ffdc1795577a2e476c6662df49cdf14e1937bd56b1",
+  "priceDataHash": "sha256:fcd1581522c516dc33ef0cdfd491089a05d410669ee573aae9b3430f39211fb1",
   "lastFullValidationAt": "2026-08-27T11:29:55Z",
-  "updatedAt": "2026-08-29T18:34:34Z"
+  "updatedAt": "2026-09-01T06:23:20Z"
 }

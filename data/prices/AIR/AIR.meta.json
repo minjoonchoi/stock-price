@@ -2,14 +2,14 @@
   "ticker": "AIR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-28",
-  "records": 11551,
+  "lastDate": "2026-08-31",
+  "records": 11552,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-03-27",
   "lastSplitDate": "1998-02-24",
   "corporateActionHash": "sha256:a1300ebcdeb25da6d0f02e2b8a1803e2a845c883255730d21d780804df0e31ab",
-  "priceDataHash": "sha256:74491ada23b09bceb5a17d1108c469adde9fd60a30def046b5af07bd8ca15ed8",
+  "priceDataHash": "sha256:2ed38066ef7fbd51f2a3e3ced8c661778cdd2edc5abbf55c9f51a351c4df537a",
   "lastFullValidationAt": "2026-08-27T11:09:41Z",
-  "updatedAt": "2026-08-29T18:24:14Z"
+  "updatedAt": "2026-09-01T06:12:54Z"
 }

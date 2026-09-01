@@ -2,14 +2,14 @@
   "ticker": "BMI",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-08-27",
-  "records": 13175,
+  "lastDate": "2026-08-31",
+  "records": 13177,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-22",
+  "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2016-09-16",
-  "corporateActionHash": "sha256:0ad9e6bf8695d03a88c442480184e0b59260e4cff79589d76e02de97049b1a5b",
-  "priceDataHash": "sha256:11b24f71245e9ed5f75b4160aa85eb19615de5cb480e5844e14783335651cd3b",
+  "corporateActionHash": "sha256:1c575abfb07264d3f90864c48da2058904449656e70aee671d00d8d9eabe8214",
+  "priceDataHash": "sha256:f8b87e603255f85beb5183340c919da758dbf5fea72a5a766b82910cf3c59865",
   "lastFullValidationAt": "2026-08-27T11:20:19Z",
-  "updatedAt": "2026-08-28T12:46:42Z"
+  "updatedAt": "2026-09-01T06:18:22Z"
 }
