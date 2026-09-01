@@ -2,14 +2,14 @@
   "ticker": "LFTO",
   "source": "yahoo",
   "firstDate": "2026-06-04",
-  "lastDate": "2026-08-27",
-  "records": 59,
+  "lastDate": "2026-08-31",
+  "records": 60,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:13dcea790987590617b40e8668e2a02af8ce0fe5058ece31eac2a74c3488817e",
+  "priceDataHash": "sha256:881f91ba3e149d3b1664a86b958968dd0507c2872ba55b9a65cec0aca07b7ce4",
   "lastFullValidationAt": "2026-08-28T23:25:06Z",
-  "updatedAt": "2026-08-28T23:25:06Z"
+  "updatedAt": "2026-09-01T12:43:34Z"
 }

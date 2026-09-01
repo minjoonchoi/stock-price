@@ -2,14 +2,14 @@
   "ticker": "GEV",
   "source": "yahoo",
   "firstDate": "2024-03-27",
-  "lastDate": "2026-08-27",
-  "records": 607,
+  "lastDate": "2026-08-31",
+  "records": 608,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7b769b14d94418b49475e2301e08cb5a876262ee2b9eb4feae1ad17dc3dccd16",
-  "priceDataHash": "sha256:2d91c0ab351c3955758d7c5098d97b515f04e5bed1d146c45c42aa16a9ac89e4",
+  "priceDataHash": "sha256:ada022dc64b63c96111c00259a4f0a808a4c8a7770b141a7e02d47f4b18eb49b",
   "lastFullValidationAt": "2026-08-28T23:11:06Z",
-  "updatedAt": "2026-08-28T23:11:06Z"
+  "updatedAt": "2026-09-01T12:36:28Z"
 }

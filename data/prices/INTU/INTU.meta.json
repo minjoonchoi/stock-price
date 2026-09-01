@@ -2,14 +2,14 @@
   "ticker": "INTU",
   "source": "yahoo",
   "firstDate": "1993-03-12",
-  "lastDate": "2026-08-27",
-  "records": 8422,
+  "lastDate": "2026-08-31",
+  "records": 8423,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-09",
   "lastSplitDate": "2006-07-07",
   "corporateActionHash": "sha256:d05e2424043419d90c6eb426aa4f8b5c3f3c43dd0d4ccc148cbea8e157c1de90",
-  "priceDataHash": "sha256:231c959ea821012131528effbc5b8589d5cb987f28fccf4f1094935e778a5348",
+  "priceDataHash": "sha256:6edda8a6620c41e4cda6f3468fed9a24f516864a3abb3049ef1b166933aec097",
   "lastFullValidationAt": "2026-08-28T23:19:30Z",
-  "updatedAt": "2026-08-28T23:19:30Z"
+  "updatedAt": "2026-09-01T12:40:44Z"
 }

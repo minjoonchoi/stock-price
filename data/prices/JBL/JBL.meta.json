@@ -2,14 +2,14 @@
   "ticker": "JBL",
   "source": "yahoo",
   "firstDate": "1993-05-03",
-  "lastDate": "2026-08-27",
-  "records": 8384,
+  "lastDate": "2026-08-31",
+  "records": 8385,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2000-03-31",
   "corporateActionHash": "sha256:8821af24a9037f7d51122a44adc5765f4efc73b74ebb9a352508037f0a417064",
-  "priceDataHash": "sha256:126989fff967dc60f45156b812a6a1cfe753e94d47acf797f152e6e6ba55bdd2",
+  "priceDataHash": "sha256:8821ebf6b0c98e05d9f9eecd401955d2234a27dffe91bc6b020712efd765fb5f",
   "lastFullValidationAt": "2026-08-28T23:21:18Z",
-  "updatedAt": "2026-08-28T23:21:18Z"
+  "updatedAt": "2026-09-01T12:41:40Z"
 }

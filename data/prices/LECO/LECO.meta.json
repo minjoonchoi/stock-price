@@ -2,14 +2,14 @@
   "ticker": "LECO",
   "source": "yahoo",
   "firstDate": "1994-04-07",
-  "lastDate": "2026-08-27",
-  "records": 8045,
+  "lastDate": "2026-08-31",
+  "records": 8046,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2011-06-01",
   "corporateActionHash": "sha256:9f1b10e786e51bafde1737ea1e3cbe3a292710299fbb3a14009419dc4d715883",
-  "priceDataHash": "sha256:cce55cded91a73df11c8321640e9e869c9bc9b579c8ffdffec741126aa8383e7",
+  "priceDataHash": "sha256:924370a0eba3cac1fa8554dcc22be218b89762fb5790b4d52bace9d30e9906e4",
   "lastFullValidationAt": "2026-08-28T23:24:46Z",
-  "updatedAt": "2026-08-28T23:24:46Z"
+  "updatedAt": "2026-09-01T12:43:24Z"
 }

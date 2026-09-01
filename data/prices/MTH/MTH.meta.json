@@ -2,14 +2,14 @@
   "ticker": "MTH",
   "source": "yahoo",
   "firstDate": "1988-07-26",
-  "lastDate": "2026-08-27",
-  "records": 9522,
+  "lastDate": "2026-08-31",
+  "records": 9523,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "2025-01-03",
   "corporateActionHash": "sha256:772b966b6c45151b4e52090a3fe3e29506b20eaf86b04ce16f1d66a920782967",
-  "priceDataHash": "sha256:d070397e03ed1d5ee99a4b9a0f4e70570697161a7d196de8baf02a1a2863c387",
+  "priceDataHash": "sha256:f4b0bbc2337f811a5fd20aba99a08590788b362ac165290faffcee388523da82",
   "lastFullValidationAt": "2026-08-28T23:33:44Z",
-  "updatedAt": "2026-08-28T23:33:44Z"
+  "updatedAt": "2026-09-01T12:48:02Z"
 }

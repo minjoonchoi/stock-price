@@ -2,14 +2,14 @@
   "ticker": "HSIC",
   "source": "yahoo",
   "firstDate": "1995-11-03",
-  "lastDate": "2026-08-27",
-  "records": 7753,
+  "lastDate": "2026-08-31",
+  "records": 7754,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-02-08",
   "lastSplitDate": "2019-02-08",
   "corporateActionHash": "sha256:f1d208e6f2034eacc8fe9dcf183bb8ac7e0d8071f25d6602287cffb1771ff58a",
-  "priceDataHash": "sha256:e4442db74d9d52e5001c24bf4d3bed8f35ca99ded2bd02d2222c17823df61ac8",
+  "priceDataHash": "sha256:93615f89223fc657b1b947612413e07522eb1018637dc4fefbd6717e12122650",
   "lastFullValidationAt": "2026-08-28T23:16:30Z",
-  "updatedAt": "2026-08-28T23:16:30Z"
+  "updatedAt": "2026-09-01T12:39:12Z"
 }

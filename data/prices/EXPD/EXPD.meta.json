@@ -2,14 +2,14 @@
   "ticker": "EXPD",
   "source": "yahoo",
   "firstDate": "1984-09-26",
-  "lastDate": "2026-08-27",
-  "records": 10500,
+  "lastDate": "2026-08-31",
+  "records": 10501,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "2006-06-26",
   "corporateActionHash": "sha256:3fa628a1bd2dd2ac90a8bca323b2bc82f89b81260d5d33fb70ab4b1c71d71e46",
-  "priceDataHash": "sha256:4fb75e71c61fbf12098e36ee348a253596a5b54182826f16d2f07ceb7bb51fe9",
+  "priceDataHash": "sha256:a76c2a6d86caabf90e9a5f5183e2e741b1693928a97616b3471c2d7acbc39881",
   "lastFullValidationAt": "2026-08-25T17:40:03Z",
-  "updatedAt": "2026-08-28T23:05:14Z"
+  "updatedAt": "2026-09-01T12:33:28Z"
 }

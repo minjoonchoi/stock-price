@@ -2,14 +2,14 @@
   "ticker": "KRG",
   "source": "yahoo",
   "firstDate": "2004-08-12",
-  "lastDate": "2026-08-27",
-  "records": 5528,
+  "lastDate": "2026-08-31",
+  "records": 5529,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-09",
   "lastSplitDate": "2014-08-12",
   "corporateActionHash": "sha256:4f90bd821f6c9fdf88140f87e1c6a6a1422fcafb471f29dc47881e95f3e57c6e",
-  "priceDataHash": "sha256:d824874ea4fc38788b97a36240c60dceceeb6849407d2c01feec271428382fab",
+  "priceDataHash": "sha256:c0b30aa04faedfda251562cdaec2554b10dacc83dcb8c135773ccce049f716db",
   "lastFullValidationAt": "2026-08-28T23:23:30Z",
-  "updatedAt": "2026-08-28T23:23:30Z"
+  "updatedAt": "2026-09-01T12:42:46Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "MDT",
   "source": "yahoo",
   "firstDate": "1973-05-02",
-  "lastDate": "2026-08-27",
-  "records": 13076,
+  "lastDate": "2026-08-31",
+  "records": 13077,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "1999-09-27",
   "corporateActionHash": "sha256:71450b5b4b252025934dc39262e1bfaf6f14b7dc9b754ce9b4697f25fa55f650",
-  "priceDataHash": "sha256:087c594afa739f7f912ad24f5508dfb9d91bf981b6e390b2c0a137c4f311c32a",
+  "priceDataHash": "sha256:5a0b2f051c0dfae1b1e5ca57d255822423f792d867171863b16b50eebe62c811",
   "lastFullValidationAt": "2026-08-28T23:29:52Z",
-  "updatedAt": "2026-08-28T23:29:52Z"
+  "updatedAt": "2026-09-01T12:46:04Z"
 }

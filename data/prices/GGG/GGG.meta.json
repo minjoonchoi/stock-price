@@ -2,14 +2,14 @@
   "ticker": "GGG",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-27",
-  "records": 11536,
+  "lastDate": "2026-08-31",
+  "records": 11537,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-20",
   "lastSplitDate": "2017-12-28",
   "corporateActionHash": "sha256:14cc5c94833a00e1c5f05f630ba624ebb6d69f41c1e22417c5c1c7e1f9ce177f",
-  "priceDataHash": "sha256:381c934c077e5bc47dfe95c52967e621d73b1f820840043f4e83bf6dba3c7827",
+  "priceDataHash": "sha256:63a6bbdc730a3256351186dc0035405d7cbe3346602a02471795de50759c4159",
   "lastFullValidationAt": "2026-08-28T23:11:18Z",
-  "updatedAt": "2026-08-28T23:11:18Z"
+  "updatedAt": "2026-09-01T12:36:34Z"
 }

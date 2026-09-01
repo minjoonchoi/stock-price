@@ -2,14 +2,14 @@
   "ticker": "LDOS",
   "source": "yahoo",
   "firstDate": "2006-10-17",
-  "lastDate": "2026-08-27",
-  "records": 4973,
+  "lastDate": "2026-08-31",
+  "records": 4974,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2013-09-30",
   "corporateActionHash": "sha256:d8f621e388d09280528e9e1f2e5c4214743815f39bb704ab90340c0da942a06a",
-  "priceDataHash": "sha256:f9686c9d87e8f75b0f809ccb64bfceb8e8736f789905fa4934a2f95147fb208e",
+  "priceDataHash": "sha256:e2ed77816a1277e505561d1b09cb55695d91dd108f144970f3e88aea22899a5f",
   "lastFullValidationAt": "2026-08-28T23:24:38Z",
-  "updatedAt": "2026-08-28T23:24:38Z"
+  "updatedAt": "2026-09-01T12:43:20Z"
 }

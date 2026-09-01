@@ -2,14 +2,14 @@
   "ticker": "NIO",
   "source": "yahoo",
   "firstDate": "2018-09-12",
-  "lastDate": "2026-08-27",
-  "records": 2000,
+  "lastDate": "2026-08-31",
+  "records": 2002,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:886ab5b7e83c2a53df7b2e93b1f4ef06089f128b099a82625d2b1a66ffbda839",
+  "priceDataHash": "sha256:b5cf074fecd5f7e96671c7e111d73227fc19e3b14b76f9fe8b5bd10638ca86d5",
   "lastFullValidationAt": "2026-08-28T23:36:12Z",
-  "updatedAt": "2026-08-28T23:36:12Z"
+  "updatedAt": "2026-09-01T12:49:20Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FIVN",
   "source": "yahoo",
   "firstDate": "2014-04-04",
-  "lastDate": "2026-08-27",
-  "records": 3118,
+  "lastDate": "2026-08-31",
+  "records": 3120,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e3c159893ff5b44122cf51ffd307fd7888979127152102f886d39b0d3efa0880",
+  "priceDataHash": "sha256:a7980913bc2cdb4ad3120674d2ac252dd85a2ad94dcaedd93e60ba5d66c380ca",
   "lastFullValidationAt": "2026-08-27T21:05:59Z",
-  "updatedAt": "2026-08-28T23:07:40Z"
+  "updatedAt": "2026-09-01T12:34:44Z"
 }

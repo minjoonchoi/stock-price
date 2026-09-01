@@ -2,14 +2,14 @@
   "ticker": "M",
   "source": "yahoo",
   "firstDate": "1992-02-05",
-  "lastDate": "2026-08-27",
-  "records": 8617,
+  "lastDate": "2026-08-31",
+  "records": 8619,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2006-06-12",
   "corporateActionHash": "sha256:1771f711ab5408648253c67f3823f874201b2a9c61901c7286eac7051539222c",
-  "priceDataHash": "sha256:a54e8114891716663f4315fddd6e38af9a9607ac27c6a274fea383f87e3e3077",
+  "priceDataHash": "sha256:702d775979bb6f485d83ad9d96baa76aca3a7cd8b37018e6c1d48a842de9bdd9",
   "lastFullValidationAt": "2026-08-28T23:28:04Z",
-  "updatedAt": "2026-08-28T23:28:04Z"
+  "updatedAt": "2026-09-01T12:45:08Z"
 }

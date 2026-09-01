@@ -2,14 +2,14 @@
   "ticker": "ESS",
   "source": "yahoo",
   "firstDate": "1994-06-07",
-  "lastDate": "2026-08-27",
-  "records": 8082,
+  "lastDate": "2026-08-31",
+  "records": 8083,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f5fb248323a2e5a264879d23529b60649644570bc3b4eb5ba4e5270b16e70442",
-  "priceDataHash": "sha256:cbb299e0eb5517212c3948f6ed8c2db26d3b7349d3c8b2436db27c08fd820a1b",
+  "priceDataHash": "sha256:5556c03c5dd1f01d28bdcf0737962dc3e3acc359d81ae0c0652f02c170af238a",
   "lastFullValidationAt": "2026-08-27T21:03:51Z",
-  "updatedAt": "2026-08-28T23:04:30Z"
+  "updatedAt": "2026-09-01T12:32:56Z"
 }

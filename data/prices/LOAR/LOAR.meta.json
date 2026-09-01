@@ -2,14 +2,14 @@
   "ticker": "LOAR",
   "source": "yahoo",
   "firstDate": "2024-04-25",
-  "lastDate": "2026-08-27",
-  "records": 587,
+  "lastDate": "2026-08-31",
+  "records": 588,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:71ac0a559ac32bf1c035915800ad4823bec03c6d5ff409f1c3e68ae62e8f7215",
+  "priceDataHash": "sha256:75a15cd73010cf352dd1cf9cb7ec3cc37fc0e47d117b8b4f79734d03edc61493",
   "lastFullValidationAt": "2026-08-28T23:26:40Z",
-  "updatedAt": "2026-08-28T23:26:40Z"
+  "updatedAt": "2026-09-01T12:44:24Z"
 }

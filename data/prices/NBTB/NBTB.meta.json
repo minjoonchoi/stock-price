@@ -2,14 +2,14 @@
   "ticker": "NBTB",
   "source": "yahoo",
   "firstDate": "1992-03-17",
-  "lastDate": "2026-08-27",
-  "records": 8516,
+  "lastDate": "2026-08-31",
+  "records": 8517,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "1999-11-29",
   "corporateActionHash": "sha256:c3124fa8d31004665c75816b3b7acf262d6845a666bd499395cf8e56d718f308",
-  "priceDataHash": "sha256:bb8d81ecb8e913336dbcc5540858854a0485ddba9ac9fdc0edf756e7cf1c7fef",
+  "priceDataHash": "sha256:c2d25a6ba341a866e2c6e32f8ce185ba05e63882cb17685001cf75f1fe86bfa3",
   "lastFullValidationAt": "2026-08-28T23:34:52Z",
-  "updatedAt": "2026-08-28T23:34:52Z"
+  "updatedAt": "2026-09-01T12:48:36Z"
 }

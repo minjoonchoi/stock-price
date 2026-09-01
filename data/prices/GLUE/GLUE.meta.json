@@ -2,14 +2,14 @@
   "ticker": "GLUE",
   "source": "yahoo",
   "firstDate": "2021-06-24",
-  "lastDate": "2026-08-27",
-  "records": 1300,
+  "lastDate": "2026-08-31",
+  "records": 1301,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ac24f8c6316015cd117d3c0cc8254f7f3680588ad12eb4d8c91097cb0f775144",
+  "priceDataHash": "sha256:38e8c312b5b83ab75ce07d255ca6033247e75b403923ebe8adbd62ba01d7acde",
   "lastFullValidationAt": "2026-08-28T23:11:42Z",
-  "updatedAt": "2026-08-28T23:11:42Z"
+  "updatedAt": "2026-09-01T12:36:46Z"
 }

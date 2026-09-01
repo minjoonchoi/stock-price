@@ -2,14 +2,14 @@
   "ticker": "LII",
   "source": "yahoo",
   "firstDate": "1999-07-29",
-  "lastDate": "2026-08-27",
-  "records": 6798,
+  "lastDate": "2026-08-31",
+  "records": 6799,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:a84b176cfd024c4d2b9e9f663f0f4519d61a25a9d92354b1989ef352c4e65ccb",
-  "priceDataHash": "sha256:7a3dc04374ff628c512b24388b4ea3b68fa0c3e3eeb8279089aa38eac7077ff3",
+  "priceDataHash": "sha256:9d7e862e73029dcdb55e4de6b38358f1108b806865e7a40c0cf5e845bda8be0f",
   "lastFullValidationAt": "2026-08-28T23:25:36Z",
-  "updatedAt": "2026-08-28T23:25:36Z"
+  "updatedAt": "2026-09-01T12:43:50Z"
 }

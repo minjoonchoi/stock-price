@@ -2,14 +2,14 @@
   "ticker": "FHN",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-27",
-  "records": 11519,
+  "lastDate": "2026-08-31",
+  "records": 11520,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "2009-09-09",
   "corporateActionHash": "sha256:1357814a49a013baff1a15b518d736cf20e35fb9e4a6d1e5f642e083a8b42f20",
-  "priceDataHash": "sha256:35f8414e00f74398fac2e540592f046a0820c983347130853edd3044210164ac",
+  "priceDataHash": "sha256:80f8e12684b374ec7947f8620e2aa967875f0f1ebddcefb40b0c5f7f3bf447d4",
   "lastFullValidationAt": "2026-08-28T23:07:12Z",
-  "updatedAt": "2026-08-28T23:07:12Z"
+  "updatedAt": "2026-09-01T12:34:28Z"
 }

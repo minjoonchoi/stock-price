@@ -2,14 +2,14 @@
   "ticker": "FSS",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-27",
-  "records": 11550,
+  "lastDate": "2026-08-31",
+  "records": 11551,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "1994-03-02",
   "corporateActionHash": "sha256:9d2ab9b865d87a895f1ff726345e87fe431f3ead185df15b9dba307b31d4ad8c",
-  "priceDataHash": "sha256:664b688bf3dab200fd0c19b3ec2837393daae92aa230a846a32aeb6508070ebb",
+  "priceDataHash": "sha256:935b6492417717d64ab58ef673ba0406723a94971e778f382d832571adf77fc0",
   "lastFullValidationAt": "2026-08-28T23:09:30Z",
-  "updatedAt": "2026-08-28T23:09:30Z"
+  "updatedAt": "2026-09-01T12:35:40Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "HUN",
   "source": "yahoo",
   "firstDate": "2005-02-14",
-  "lastDate": "2026-08-27",
-  "records": 5406,
+  "lastDate": "2026-08-31",
+  "records": 5407,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8e44a623eb35128517a734354251a7624f374b61cd9e5057cd3c0b6897e489e6",
-  "priceDataHash": "sha256:a4c7fa1151c4a3f823ca6fe42e0091c90e5d90519b8a29403359b4946b6effaf",
+  "priceDataHash": "sha256:f25bb3f05a0006e22961a03d4b8ec5bbc36a29f3b85b9b0b9142956f677111e3",
   "lastFullValidationAt": "2026-08-28T23:17:14Z",
-  "updatedAt": "2026-08-28T23:17:14Z"
+  "updatedAt": "2026-09-01T12:39:34Z"
 }

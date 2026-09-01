@@ -2,14 +2,14 @@
   "ticker": "MTCH",
   "source": "yahoo",
   "firstDate": "1993-01-19",
-  "lastDate": "2026-08-27",
-  "records": 8460,
+  "lastDate": "2026-08-31",
+  "records": 8461,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-07",
   "lastSplitDate": "2020-07-01",
   "corporateActionHash": "sha256:375c12431316501903fb05bdcbdf3b2ca00831957a8bf06ca8ced9e78c4af29f",
-  "priceDataHash": "sha256:dcf7b934f091f77bed58aa87b7205643207fa66bbda53dd7faa162380a4fad89",
+  "priceDataHash": "sha256:1307b780bc1939b4529844635a522582e550b62a6d90b2810df9d69fadceb140",
   "lastFullValidationAt": "2026-08-28T23:33:32Z",
-  "updatedAt": "2026-08-28T23:33:32Z"
+  "updatedAt": "2026-09-01T12:47:56Z"
 }

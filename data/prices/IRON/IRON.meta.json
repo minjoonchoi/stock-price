@@ -2,14 +2,14 @@
   "ticker": "IRON",
   "source": "yahoo",
   "firstDate": "2020-08-12",
-  "lastDate": "2026-08-27",
-  "records": 1518,
+  "lastDate": "2026-08-31",
+  "records": 1519,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-12-30",
   "lastSplitDate": "2022-12-30",
   "corporateActionHash": "sha256:57a480d687bf6c2158d4590943c02a02d0a5727a5e9be4274b539ec95548e751",
-  "priceDataHash": "sha256:9129981382d6dae1119c1847a824e511d8b69b7409ad5937c154a0ef11530a7d",
+  "priceDataHash": "sha256:683bd197b945091ffd8d9e439a35eee5b4b867c1d85f0890defa53355a26f41d",
   "lastFullValidationAt": "2026-08-28T23:20:30Z",
-  "updatedAt": "2026-08-28T23:20:30Z"
+  "updatedAt": "2026-09-01T12:41:16Z"
 }

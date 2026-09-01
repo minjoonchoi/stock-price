@@ -2,14 +2,14 @@
   "ticker": "FTDR",
   "source": "yahoo",
   "firstDate": "2018-09-13",
-  "lastDate": "2026-08-27",
-  "records": 1999,
+  "lastDate": "2026-08-31",
+  "records": 2000,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d4b872d0bc75b81386c0696db48592d499439802de525769684b2c7715a57f92",
+  "priceDataHash": "sha256:37f013fe10f92afb124ee069b6e55a820d81b0630d97e9434b63693cba6b271e",
   "lastFullValidationAt": "2026-08-28T23:09:38Z",
-  "updatedAt": "2026-08-28T23:09:38Z"
+  "updatedAt": "2026-09-01T12:35:44Z"
 }

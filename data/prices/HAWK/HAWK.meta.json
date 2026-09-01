@@ -2,14 +2,14 @@
   "ticker": "HAWK",
   "source": "yahoo",
   "firstDate": "2026-05-07",
-  "lastDate": "2026-08-27",
-  "records": 78,
+  "lastDate": "2026-08-31",
+  "records": 79,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f3d7654c3de09426567af98db1695d5e6b1c61f8f759bdb9705a48453444c3ea",
+  "priceDataHash": "sha256:25db21a12bc1125e6acb3ec9c236dad489fa3a832bda6c93be2665632905fd78",
   "lastFullValidationAt": "2026-08-28T23:14:06Z",
-  "updatedAt": "2026-08-28T23:14:06Z"
+  "updatedAt": "2026-09-01T12:38:00Z"
 }
