@@ -2,14 +2,14 @@
   "ticker": "ULS",
   "source": "yahoo",
   "firstDate": "2024-04-12",
-  "lastDate": "2026-08-27",
-  "records": 596,
+  "lastDate": "2026-09-01",
+  "records": 599,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-29",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:6e30887f4ffbc49566b6000decec44b925c5d69db357389339181fd9e4a31250",
-  "priceDataHash": "sha256:264ba9ffdd9dac8cf3e4d46586c1363e557f1c3bd8afd8dd6a8ffa64409aa7e2",
-  "lastFullValidationAt": "2026-08-26T10:17:13Z",
-  "updatedAt": "2026-08-29T08:04:20Z"
+  "corporateActionHash": "sha256:edabc84005c635cbfbd390b50cf8ceb59916ac00015f4f3166bee73ae73ae39e",
+  "priceDataHash": "sha256:51db8adbc258f31f15617eb8f1b940e5da70f5984d95bff1887236620301ba25",
+  "lastFullValidationAt": "2026-09-02T17:41:47Z",
+  "updatedAt": "2026-09-02T17:41:47Z"
 }

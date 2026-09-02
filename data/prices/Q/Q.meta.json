@@ -2,14 +2,14 @@
   "ticker": "Q",
   "source": "yahoo",
   "firstDate": "2025-10-27",
-  "lastDate": "2026-08-27",
-  "records": 210,
+  "lastDate": "2026-09-01",
+  "records": 213,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-29",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:8e6a31741807f63cf5dd3a4ba59faf2c88359f62736f0fac9fe3a375182d1060",
-  "priceDataHash": "sha256:8702ae129a50767741cd93dfd024f055dba7d706c135a6198edd356384e416e0",
-  "lastFullValidationAt": "2026-08-26T09:59:29Z",
-  "updatedAt": "2026-08-29T07:55:00Z"
+  "corporateActionHash": "sha256:18ff8ae0f00732783be52173edbd21b6522d779399ae9ccf9af76473b5071d19",
+  "priceDataHash": "sha256:1e84acdc84fd3095d314b4f70532d20af7087a4b19a813b285a67d000a44f2c6",
+  "lastFullValidationAt": "2026-09-02T17:23:47Z",
+  "updatedAt": "2026-09-02T17:23:47Z"
 }

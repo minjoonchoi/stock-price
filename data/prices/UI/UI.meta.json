@@ -2,14 +2,14 @@
   "ticker": "UI",
   "source": "yahoo",
   "firstDate": "2011-10-14",
-  "lastDate": "2026-08-27",
-  "records": 3738,
+  "lastDate": "2026-09-01",
+  "records": 3741,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-18",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:5ac475100c2d6a400cefc855566d669c460dc68c45c260ea4f46cf252d2bfa3e",
-  "priceDataHash": "sha256:4ddf79c4159e801eaac56f7a3c808982b544b05170418c353e557c95aab074a4",
+  "corporateActionHash": "sha256:946ace58b96acb161772c8e3146e8d877b431a447cdbecd2b639c795cd639804",
+  "priceDataHash": "sha256:cee54856608cf545474c5cfa04ab4e85b384e549e7d98b0b52a167df35b53d9f",
   "lastFullValidationAt": "2026-08-29T08:04:18Z",
-  "updatedAt": "2026-08-29T08:04:18Z"
+  "updatedAt": "2026-09-02T17:41:43Z"
 }

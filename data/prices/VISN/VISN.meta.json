@@ -2,14 +2,14 @@
   "ticker": "VISN",
   "source": "yahoo",
   "firstDate": "2013-10-25",
-  "lastDate": "2026-08-27",
-  "records": 3228,
+  "lastDate": "2026-09-01",
+  "records": 3224,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-04-28",
+  "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:2d44a54613221396580a67f9bfa3c568e5320b909d0cfde4acd8fccf51ee039e",
-  "priceDataHash": "sha256:b0dbe336085801aae15e00faaa83d6d649ffb23445f88e1bee521d10410064a0",
-  "lastFullValidationAt": "2026-08-26T10:19:45Z",
-  "updatedAt": "2026-08-29T08:05:40Z"
+  "corporateActionHash": "sha256:20755ac27265b245ba57af69be744094db64d7fc2a771c95cbc9cb67debf6377",
+  "priceDataHash": "sha256:ad25eba9ee60982481f295d54022ae2a726a9eafc0aad2b65cf663ad0971022c",
+  "lastFullValidationAt": "2026-09-02T17:44:21Z",
+  "updatedAt": "2026-09-02T17:44:21Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "NYT",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-08-27",
-  "records": 13130,
+  "lastDate": "2026-09-01",
+  "records": 13110,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-08",
   "lastSplitDate": "1998-07-02",
   "corporateActionHash": "sha256:8b9c1624d8a825390ff02fbaec0e445e16260d1390ff28a558935cf2d3eee6b1",
-  "priceDataHash": "sha256:52d2d0ff8591f63b10db844e136e932b6f2b70dffe3b0b1a1b44482a982e9e71",
-  "lastFullValidationAt": "2026-08-26T09:50:31Z",
-  "updatedAt": "2026-08-29T07:50:18Z"
+  "priceDataHash": "sha256:1d26ab5d9211c49bac5fe07331623be52d0a85a0568306a8d9572fddec1fd897",
+  "lastFullValidationAt": "2026-09-02T17:14:37Z",
+  "updatedAt": "2026-09-02T17:14:37Z"
 }

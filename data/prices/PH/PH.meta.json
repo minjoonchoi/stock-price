@@ -2,14 +2,14 @@
   "ticker": "PH",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-27",
-  "records": 11634,
+  "lastDate": "2026-09-01",
+  "records": 11629,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-08",
+  "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2007-10-02",
-  "corporateActionHash": "sha256:1df16048f53f2a9fd7a8636239ed461545aa8af4b43a4eb6792f3e39b2e43a5d",
-  "priceDataHash": "sha256:3d648606c10e3e4eddd10cb632a639c1f2007de868f95b055a882e9e12417c1a",
-  "lastFullValidationAt": "2026-08-26T09:55:47Z",
-  "updatedAt": "2026-08-29T07:52:56Z"
+  "corporateActionHash": "sha256:787bd9984726442c0c57b4220ba9c568bcee0ef2097a4d11c12010ba8c913933",
+  "priceDataHash": "sha256:36a5baff4757c94a055148c48bb11fd5a32e19724e5abcf1e4feac141d570a80",
+  "lastFullValidationAt": "2026-09-02T17:19:53Z",
+  "updatedAt": "2026-09-02T17:19:53Z"
 }

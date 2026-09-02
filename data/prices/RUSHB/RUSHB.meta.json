@@ -2,14 +2,14 @@
   "ticker": "RUSHB",
   "source": "yahoo",
   "firstDate": "1996-06-07",
-  "lastDate": "2026-08-27",
-  "records": 7587,
+  "lastDate": "2026-09-01",
+  "records": 7603,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-05-12",
-  "lastSplitDate": "2023-08-29",
-  "corporateActionHash": "sha256:271815f697c805cdee6f3bcd7dd5e837a738820afacb11d9a5c815bb4fb7a5cb",
-  "priceDataHash": "sha256:695837833d846c720337e1cb3781fb5b7d9ad5cc5851356f4c33233975ebdb28",
-  "lastFullValidationAt": "2026-08-26T10:04:01Z",
-  "updatedAt": "2026-08-29T07:57:22Z"
+  "lastCorporateActionDate": "2026-09-01",
+  "lastSplitDate": "2026-09-01",
+  "corporateActionHash": "sha256:e443834e685e8188f2185ebf25eff60008e19fcc7a3d27c1fef203d1953505e5",
+  "priceDataHash": "sha256:1954f36b5049f888c9cfc73730d2892dffa2ba1f1df77897fad9c44b2d03a1a1",
+  "lastFullValidationAt": "2026-09-02T17:28:23Z",
+  "updatedAt": "2026-09-02T17:28:23Z"
 }
