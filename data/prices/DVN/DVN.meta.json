@@ -2,14 +2,14 @@
   "ticker": "DVN",
   "source": "yahoo",
   "firstDate": "1985-07-22",
-  "lastDate": "2026-08-31",
-  "records": 10065,
+  "lastDate": "2026-09-01",
+  "records": 10066,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2004-11-16",
   "corporateActionHash": "sha256:4848d0c6da529428249accd72cb92717de4c9b074172e4d6f182c5efc6e29284",
-  "priceDataHash": "sha256:c7bf6df42cb376977a51b67d5f2d7674fc932050d289a93fa7daeeb1d6edf2ae",
+  "priceDataHash": "sha256:e7ae079e6c259e58d397e6422b0d20b31e96ab89830d89f68dec42bd8b04ab49",
   "lastFullValidationAt": "2026-08-27T11:35:55Z",
-  "updatedAt": "2026-09-01T06:26:22Z"
+  "updatedAt": "2026-09-02T05:52:10Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CME",
   "source": "yahoo",
   "firstDate": "2002-12-06",
-  "lastDate": "2026-08-31",
-  "records": 5968,
+  "lastDate": "2026-09-01",
+  "records": 5969,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-09",
   "lastSplitDate": "2012-07-23",
   "corporateActionHash": "sha256:c0bbd3d0b340991b6c08b4ca045e6435ba40aaef16aafbaf64c48a9a512b84e9",
-  "priceDataHash": "sha256:fcfede7a3f428b2a5f0ddd08f8b43ca7ae9157fbaaacc1bc089b1bd881aab979",
+  "priceDataHash": "sha256:42eed4208e2b5f59c8882c92f6da9a8c30b1ba89e34d874a1057d127c92b6c7f",
   "lastFullValidationAt": "2026-08-27T11:27:11Z",
-  "updatedAt": "2026-09-01T06:21:56Z"
+  "updatedAt": "2026-09-02T05:47:44Z"
 }

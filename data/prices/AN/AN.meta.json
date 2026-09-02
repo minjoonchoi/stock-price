@@ -2,14 +2,14 @@
   "ticker": "AN",
   "source": "yahoo",
   "firstDate": "1990-05-11",
-  "lastDate": "2026-08-31",
-  "records": 9140,
+  "lastDate": "2026-09-01",
+  "records": 9141,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-07-03",
   "lastSplitDate": "1996-06-10",
   "corporateActionHash": "sha256:1260bf4aced4e562ac8fcafbced6f62293b7562c28039e2bcc939010cb2e1ab5",
-  "priceDataHash": "sha256:ce55591be18eb13d29a9a7aa5219160a0472f2f10e4d729abf1106a3094af841",
+  "priceDataHash": "sha256:a2aaf28ad4ad548b3185a69cd0c729938fa190617c5aa3bd12056c15cf95e7da",
   "lastFullValidationAt": "2026-08-27T11:12:17Z",
-  "updatedAt": "2026-09-01T06:14:14Z"
+  "updatedAt": "2026-09-02T05:40:10Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ATEX",
   "source": "yahoo",
   "firstDate": "2015-02-03",
-  "lastDate": "2026-08-31",
-  "records": 2911,
+  "lastDate": "2026-09-01",
+  "records": 2912,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:796671b323b1b3a44b42afc29780c1ef27a3d91cb945abf7fdf77a55cb05343a",
+  "priceDataHash": "sha256:775a08a182423a67138d92855646444a255c4196613821558473af6a29fb329d",
   "lastFullValidationAt": "2026-08-27T11:14:49Z",
-  "updatedAt": "2026-09-01T06:15:36Z"
+  "updatedAt": "2026-09-02T05:41:30Z"
 }

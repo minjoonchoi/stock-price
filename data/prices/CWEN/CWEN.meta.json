@@ -2,14 +2,14 @@
   "ticker": "CWEN",
   "source": "yahoo",
   "firstDate": "2015-05-15",
-  "lastDate": "2026-08-31",
-  "records": 2838,
+  "lastDate": "2026-09-01",
+  "records": 2839,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:6b8f1b5c218eb449ff2c064c252102bfe97d1abe63a1841b412e6e18e9084ff2",
-  "priceDataHash": "sha256:9a317b1e1c0b31364d5df02f81d9f44026905c23fda26d8c039a2c13aa126775",
+  "corporateActionHash": "sha256:a2ac06d5765190a37445e0973a030c32d64df3d6e92eb36e4e7dd5788a34da23",
+  "priceDataHash": "sha256:2e9e71424ac0d88391a2018f1a152a04a1360ee77d21b61eed4bfe56aa7e9a27",
   "lastFullValidationAt": "2026-08-27T11:31:55Z",
-  "updatedAt": "2026-09-01T06:24:20Z"
+  "updatedAt": "2026-09-02T05:50:08Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "AGYS",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11599,
+  "lastDate": "2026-09-01",
+  "records": 11600,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2009-07-16",
   "lastSplitDate": "1995-09-07",
   "corporateActionHash": "sha256:37cc836d244194e8ab945de6eb78a154ff47d4c5cab2c87d229aa356105cb815",
-  "priceDataHash": "sha256:65eee51ff7bc9bff93415dbd91f9c35db821c6abee6c6ee56fd927a8f88a033f",
+  "priceDataHash": "sha256:5673d03d7f1e935cc9cd5e887a10741bc82fb30d7ee18154bd28a4ae29d5eac3",
   "lastFullValidationAt": "2026-08-27T11:09:29Z",
-  "updatedAt": "2026-09-01T06:12:48Z"
+  "updatedAt": "2026-09-02T05:38:44Z"
 }

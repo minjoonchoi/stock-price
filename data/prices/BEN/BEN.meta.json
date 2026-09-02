@@ -2,14 +2,14 @@
   "ticker": "BEN",
   "source": "yahoo",
   "firstDate": "1983-09-23",
-  "lastDate": "2026-08-31",
-  "records": 10789,
+  "lastDate": "2026-09-01",
+  "records": 10790,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-29",
   "lastSplitDate": "2013-07-26",
   "corporateActionHash": "sha256:7d28b6d879ed141282629a87d0c33b4cce4141a3d40fa08b10d37b37c3076abd",
-  "priceDataHash": "sha256:5da2fef821d486003324d22ec09fac5e04037bcaa7cf61f919736b3eb039e6fd",
+  "priceDataHash": "sha256:fa47da8d3bc7a50164d275bacb96ca62682b4ee4d362a307eddf196880100dad",
   "lastFullValidationAt": "2026-08-27T11:18:37Z",
-  "updatedAt": "2026-09-01T06:17:30Z"
+  "updatedAt": "2026-09-02T05:43:22Z"
 }

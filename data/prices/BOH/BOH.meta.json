@@ -2,14 +2,14 @@
   "ticker": "BOH",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11432,
+  "lastDate": "2026-09-01",
+  "records": 11433,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "1997-12-15",
   "corporateActionHash": "sha256:2ded689b16646c53012842b80e8efbe79e7358a815e3e8d431551692ad029d5d",
-  "priceDataHash": "sha256:1f0cda319d7c7f0525000d58ef612b5a02e5d0cf5940fc58677ed284216454c3",
+  "priceDataHash": "sha256:c6609cc2388618b7778026aba40403b894e0b99386cd1cb8b36fa5560d5931ff",
   "lastFullValidationAt": "2026-08-27T11:20:43Z",
-  "updatedAt": "2026-09-01T06:18:34Z"
+  "updatedAt": "2026-09-02T05:44:26Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ATRC",
   "source": "yahoo",
   "firstDate": "2005-08-05",
-  "lastDate": "2026-08-31",
-  "records": 5300,
+  "lastDate": "2026-09-01",
+  "records": 5301,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:4689fdf0819e3068677db8975f6048c7b0c0d726029b9a411b184b0fa2dcb60d",
+  "priceDataHash": "sha256:aeaf15d6957d6b08375d993824a574ed389cde5a7c25f84dc13ffa64c287aa0f",
   "lastFullValidationAt": "2026-08-27T11:15:13Z",
-  "updatedAt": "2026-09-01T06:15:48Z"
+  "updatedAt": "2026-09-02T05:41:42Z"
 }

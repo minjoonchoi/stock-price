@@ -2,14 +2,14 @@
   "ticker": "ACHC",
   "source": "yahoo",
   "firstDate": "1994-03-04",
-  "lastDate": "2026-08-31",
-  "records": 8177,
+  "lastDate": "2026-09-01",
+  "records": 8178,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-11-01",
   "lastSplitDate": "2011-11-01",
   "corporateActionHash": "sha256:8e231bee9e22a6b37f0b22b89949f0903805ada6119070a46bea13c9d851af2a",
-  "priceDataHash": "sha256:e69b04fe3b338fb790cc04958e837cf7d8a8a9456a63b8aea576a44fed7d0898",
+  "priceDataHash": "sha256:ec767123d0bac752b8589cb3938dafb21efd3b6855162fe181c185acdcd882f8",
   "lastFullValidationAt": "2026-08-27T11:07:25Z",
-  "updatedAt": "2026-09-01T06:11:42Z"
+  "updatedAt": "2026-09-02T05:37:38Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "AB",
   "source": "yahoo",
   "firstDate": "1988-04-14",
-  "lastDate": "2026-08-31",
-  "records": 9602,
+  "lastDate": "2026-09-01",
+  "records": 9603,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "1998-04-03",
   "corporateActionHash": "sha256:91f0da2df1814bfe75444f01a6bec9512f8bba035946befc5cd3909b84556e94",
-  "priceDataHash": "sha256:bc3d645e9c874c0b6ed68deb4634e3e0ed739dc90ad8e7d47712244062a34486",
+  "priceDataHash": "sha256:4176a7d5267a5fa0d61505d8d06631170df8f204e746b553619fa612406afa64",
   "lastFullValidationAt": "2026-08-27T11:06:45Z",
-  "updatedAt": "2026-09-01T06:11:22Z"
+  "updatedAt": "2026-09-02T05:37:18Z"
 }
