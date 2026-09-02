@@ -2,14 +2,14 @@
   "ticker": "KIM",
   "source": "yahoo",
   "firstDate": "1991-11-22",
-  "lastDate": "2026-08-31",
-  "records": 8685,
+  "lastDate": "2026-09-01",
+  "records": 8686,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2005-08-24",
   "corporateActionHash": "sha256:3efc896992b49385ac7c1524c4dd7f3c879666030888ce9bce4b3cd773071bc2",
-  "priceDataHash": "sha256:db19e8ec96ed9b0edb5dc63b7ac81b1fed8f824445b1e422b4f1aaf9f4a5d0b9",
+  "priceDataHash": "sha256:103f32d623840bcddc273dd6649991464988ef14843316feff42204965c22df3",
   "lastFullValidationAt": "2026-08-28T23:22:26Z",
-  "updatedAt": "2026-09-01T12:42:14Z"
+  "updatedAt": "2026-09-02T12:16:37Z"
 }

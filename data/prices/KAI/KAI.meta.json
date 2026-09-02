@@ -2,14 +2,14 @@
   "ticker": "KAI",
   "source": "yahoo",
   "firstDate": "1992-11-03",
-  "lastDate": "2026-08-31",
-  "records": 8504,
+  "lastDate": "2026-09-01",
+  "records": 8505,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-16",
   "lastSplitDate": "2001-07-12",
   "corporateActionHash": "sha256:88f18fb25f86c5d05d611c7e9015f26ebbfc2242bc44b5114e6cddadef5daae0",
-  "priceDataHash": "sha256:19c69550bdafb0782536d94272cccd08e61fa3adda54f6077d267c6e708ceb83",
+  "priceDataHash": "sha256:d0cefa712a455c912a628308cb9d3ed751ec0ea2bbf604734249ded008021259",
   "lastFullValidationAt": "2026-08-28T23:21:50Z",
-  "updatedAt": "2026-09-01T12:41:56Z"
+  "updatedAt": "2026-09-02T12:16:14Z"
 }

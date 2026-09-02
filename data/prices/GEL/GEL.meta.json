@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7444,
-  "updatedAt": "2026-07-04T17:12:44Z",
-  "source": "yahoo"
+  "ticker": "GEL",
+  "source": "yahoo",
+  "firstDate": "1996-11-27",
+  "lastDate": "2026-09-01",
+  "records": 7454,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-31",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e720accc1d88aa6d1bf0f0b3475b38e22663574782796f364ff00a997e80c4af",
+  "priceDataHash": "sha256:615a6e7a2aa7a24b368e10376a74b66d6b98066dd96d0853d017e6480eef26e8",
+  "lastFullValidationAt": "2026-09-02T12:10:33Z",
+  "updatedAt": "2026-09-02T12:10:33Z"
 }

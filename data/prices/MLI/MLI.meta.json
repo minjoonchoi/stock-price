@@ -2,14 +2,14 @@
   "ticker": "MLI",
   "source": "yahoo",
   "firstDate": "1991-02-25",
-  "lastDate": "2026-08-31",
-  "records": 8939,
+  "lastDate": "2026-09-01",
+  "records": 8940,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2026-07-01",
   "corporateActionHash": "sha256:9405a32e0ca1788a7290e02e1df3e18551b7223a8c3c29b523883369423b54ee",
-  "priceDataHash": "sha256:af2b0f2d7be7177745ded200852355b34170279d56be9ef24743869cf7a28c59",
+  "priceDataHash": "sha256:4346dc1d63ba25f4be23f3aecd5d67d65abc81271144c9fc6689afaf910277f1",
   "lastFullValidationAt": "2026-08-28T23:31:10Z",
-  "updatedAt": "2026-09-01T12:46:44Z"
+  "updatedAt": "2026-09-02T12:21:16Z"
 }

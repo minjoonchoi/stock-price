@@ -2,14 +2,14 @@
   "ticker": "MGEE",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11566,
+  "lastDate": "2026-09-01",
+  "records": 11567,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2014-02-10",
-  "corporateActionHash": "sha256:05885e96b51ad0177f4019b0df31d01aa68ef943307829279a635be9d16a274d",
-  "priceDataHash": "sha256:78daea44144c483c4df23a1934e5572b18718b655fa4e1b95459f3b015fd39b4",
+  "corporateActionHash": "sha256:f2d8cf15631c278ed27965d923e80af12e428bdc16d25cb69ddfcba47f1efd4e",
+  "priceDataHash": "sha256:926f8b3a2ecf306faa52a0c5b734ab45ceadca4ceee4c007bf65ff3e88ddc85a",
   "lastFullValidationAt": "2026-08-28T23:30:14Z",
-  "updatedAt": "2026-09-01T12:46:16Z"
+  "updatedAt": "2026-09-02T12:20:49Z"
 }

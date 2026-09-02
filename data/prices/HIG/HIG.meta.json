@@ -2,14 +2,14 @@
   "ticker": "HIG",
   "source": "yahoo",
   "firstDate": "1995-12-15",
-  "lastDate": "2026-08-31",
-  "records": 7694,
+  "lastDate": "2026-09-01",
+  "records": 7695,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "1998-07-16",
-  "corporateActionHash": "sha256:631b435d29b3da54a93caacb88ce01543fd68a1bb46755e76139775c474a044e",
-  "priceDataHash": "sha256:7f351f4dc1c091200ea56cf8f9c1c6fb2abb7f5f11716521be7affe0e6143b8b",
+  "corporateActionHash": "sha256:9b9f6acf12a26a64e5c06eace861747ba6aae4c1ead4ff9fca33aa4edf76fd82",
+  "priceDataHash": "sha256:db0adc0bb7bb38ff78143ba0d540b5345f9a616fab0d88180598edc7d10f7977",
   "lastFullValidationAt": "2026-08-28T23:14:50Z",
-  "updatedAt": "2026-09-01T12:38:22Z"
+  "updatedAt": "2026-09-02T12:12:38Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FCN",
   "source": "yahoo",
   "firstDate": "1996-05-09",
-  "lastDate": "2026-08-31",
-  "records": 7625,
+  "lastDate": "2026-09-01",
+  "records": 7626,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2003-06-05",
   "lastSplitDate": "2003-06-05",
   "corporateActionHash": "sha256:8bcd0be4304bdbf05c3ce7dd8af3f7f11dec4fcda73e421956b718be686580b6",
-  "priceDataHash": "sha256:0a0bcc8191e1d57c953cac08ebf9c2af59b558668c9fee5f67083cd66aa3b434",
+  "priceDataHash": "sha256:37d52ddd92ea76ee1720d4fa68274064cd9cb10d2f080b07a78bdddca2103d9d",
   "lastFullValidationAt": "2026-08-28T23:06:22Z",
-  "updatedAt": "2026-09-01T12:34:02Z"
+  "updatedAt": "2026-09-02T12:08:07Z"
 }

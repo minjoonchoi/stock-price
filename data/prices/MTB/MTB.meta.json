@@ -2,14 +2,14 @@
   "ticker": "MTB",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11642,
+  "lastDate": "2026-09-01",
+  "records": 11643,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2000-10-06",
-  "corporateActionHash": "sha256:a23f59ad8f4beff53581265a6930d7b63b406c742c22a4fb1ce138cdb8cb5d36",
-  "priceDataHash": "sha256:11194e7f45629e093e62e38dd985aa8f9a6ff29c53e2fb3e9d2fc5e68d7cdae8",
+  "corporateActionHash": "sha256:e04852b204599d4edd54dce86e6cb0081b13d343a1f1c91b388edc17f6bcbe53",
+  "priceDataHash": "sha256:497a627f7982b1a50a5ba87ef507b6841b261e785293ad994c9d81fc0ba770b4",
   "lastFullValidationAt": "2026-08-28T23:33:28Z",
-  "updatedAt": "2026-09-01T12:47:54Z"
+  "updatedAt": "2026-09-02T12:22:27Z"
 }

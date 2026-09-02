@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 5028,
-  "updatedAt": "2026-07-04T17:16:26Z",
-  "source": "yahoo"
+  "ticker": "KALU",
+  "source": "yahoo",
+  "firstDate": "2006-07-07",
+  "lastDate": "2026-09-01",
+  "records": 5062,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-07-24",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:b5a10bc5b2c36501b49ac0535a64a614e415c41dd1e80ffbee3594c664e6dc8e",
+  "priceDataHash": "sha256:3371f51c9837d7f995093663e4133a20660c29355ae83b6a1a27f9c53cbfbe81",
+  "lastFullValidationAt": "2026-09-02T12:16:19Z",
+  "updatedAt": "2026-09-02T12:16:19Z"
 }

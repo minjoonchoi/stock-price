@@ -2,14 +2,14 @@
   "ticker": "HLI",
   "source": "yahoo",
   "firstDate": "2015-08-13",
-  "lastDate": "2026-08-31",
-  "records": 2778,
+  "lastDate": "2026-09-01",
+  "records": 2779,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:556b4f89b2909e627bb5efa94a75acbacdb9012b6481407e37203d01cd60e25f",
-  "priceDataHash": "sha256:0369356187be522d5f6c93e6a5972220bcaefccf24349068525a0aa5cae8d315",
+  "corporateActionHash": "sha256:4b9a80280f2272983101cb242855fcc777f39c820083244d5c18dae029dba579",
+  "priceDataHash": "sha256:f8545133eb56a4d4a750512015c2fb039ccedab1bf07dbd9217329ecb5b6f8df",
   "lastFullValidationAt": "2026-08-28T23:15:10Z",
-  "updatedAt": "2026-09-01T12:38:32Z"
+  "updatedAt": "2026-09-02T12:12:48Z"
 }

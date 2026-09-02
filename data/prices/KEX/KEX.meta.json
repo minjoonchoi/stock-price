@@ -2,14 +2,14 @@
   "ticker": "KEX",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11708,
+  "lastDate": "2026-09-01",
+  "records": 11709,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-06-01",
   "lastSplitDate": "2006-06-01",
   "corporateActionHash": "sha256:3600d476c68346f675fc028667aba8560f9adb2c61aaefd9c711a5a3fe11bc23",
-  "priceDataHash": "sha256:7a46ec1112ed289f3cbb0d70a4a18b3a663dc9d757167bc2509d615214a49bb6",
+  "priceDataHash": "sha256:c6ba249e4deb90bfd9bfc15ae649def33029d35e3d6d68760d2f3aa809982289",
   "lastFullValidationAt": "2026-08-28T23:22:06Z",
-  "updatedAt": "2026-09-01T12:42:04Z"
+  "updatedAt": "2026-09-02T12:16:26Z"
 }

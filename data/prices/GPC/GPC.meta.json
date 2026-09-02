@@ -2,14 +2,14 @@
   "ticker": "GPC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11587,
+  "lastDate": "2026-09-01",
+  "records": 11588,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "1997-04-15",
   "corporateActionHash": "sha256:d183c418764bc27745c42c85f104ff001ab98395a2b9547341bb5eb0b7b1392b",
-  "priceDataHash": "sha256:0ca66f0ee51b79fdea3590769c3cc5a3a46943c9505e7575b5e756caa3884bab",
+  "priceDataHash": "sha256:29ed8fce8bfc74095a552cef66b7bec82c6c28fc8e48e88c608108113a997b49",
   "lastFullValidationAt": "2026-08-28T23:12:24Z",
-  "updatedAt": "2026-09-01T12:37:08Z"
+  "updatedAt": "2026-09-02T12:11:23Z"
 }

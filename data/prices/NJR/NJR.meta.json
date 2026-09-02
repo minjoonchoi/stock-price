@@ -2,14 +2,14 @@
   "ticker": "NJR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-08-31",
-  "records": 11628,
+  "lastDate": "2026-09-01",
+  "records": 11629,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-10",
   "lastSplitDate": "2015-03-04",
   "corporateActionHash": "sha256:1c921e0804e1a88ed4fbe311a8391895353eb9d239ce00c223da47404e8beb3a",
-  "priceDataHash": "sha256:b62b6390f19c258348231d5b55d757fd033b9533753ea2b842fe65218dc432a2",
+  "priceDataHash": "sha256:bb6d2e83040c42cd4d1005455247d31a2a3ee6a45222a9b8b1c595a55f4d69ad",
   "lastFullValidationAt": "2026-08-28T23:36:20Z",
-  "updatedAt": "2026-09-01T12:49:24Z"
+  "updatedAt": "2026-09-02T12:23:55Z"
 }

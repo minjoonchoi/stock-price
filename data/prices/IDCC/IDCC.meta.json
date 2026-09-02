@@ -2,14 +2,14 @@
   "ticker": "IDCC",
   "source": "yahoo",
   "firstDate": "1981-11-12",
-  "lastDate": "2026-08-31",
-  "records": 11254,
+  "lastDate": "2026-09-01",
+  "records": 11255,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-08",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c5f7fbc0cbb5b7de531ed843d261eaf15e1694314d13b13dcd2726d8a77091eb",
-  "priceDataHash": "sha256:b5faf6c74a18706c621af21b2f0af9d91d1bb7562282dc26a9edc3178b081737",
+  "priceDataHash": "sha256:ba6b2b91562602251442b30d7aaa7f8156dc7bef727c55c879b1acd0d3f7ce59",
   "lastFullValidationAt": "2026-08-28T23:18:20Z",
-  "updatedAt": "2026-09-01T12:40:08Z"
+  "updatedAt": "2026-09-02T12:14:24Z"
 }

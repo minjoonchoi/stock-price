@@ -2,14 +2,14 @@
   "ticker": "IOND",
   "source": "yahoo",
   "firstDate": "2026-07-28",
-  "lastDate": "2026-08-31",
-  "records": 24,
+  "lastDate": "2026-09-01",
+  "records": 25,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:77b06a0772a26a0e0af2d753457656ee3f579f164ec569b68b2950b2b6782571",
+  "priceDataHash": "sha256:48652eeb7800654331a5f96ce6833353d7c708d859c1b6188d508ee61223fb2d",
   "lastFullValidationAt": "2026-08-27T21:12:11Z",
-  "updatedAt": "2026-09-01T12:40:50Z"
+  "updatedAt": "2026-09-02T12:15:08Z"
 }

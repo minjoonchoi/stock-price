@@ -2,14 +2,14 @@
   "ticker": "HURN",
   "source": "yahoo",
   "firstDate": "2004-10-13",
-  "lastDate": "2026-08-31",
-  "records": 5504,
+  "lastDate": "2026-09-01",
+  "records": 5505,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3b4e036b36ed9014f3b2265cc7a91c96fed6c1017d0029d4f3a1ab7aa22dc3e4",
+  "priceDataHash": "sha256:3fe2701e609164472e8048daf05856fbb4784723aa5158195bd9d9e2ded79e99",
   "lastFullValidationAt": "2026-08-28T23:17:18Z",
-  "updatedAt": "2026-09-01T12:39:36Z"
+  "updatedAt": "2026-09-02T12:13:52Z"
 }

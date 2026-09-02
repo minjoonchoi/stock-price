@@ -2,14 +2,14 @@
   "ticker": "IR",
   "source": "yahoo",
   "firstDate": "2017-05-12",
-  "lastDate": "2026-08-31",
-  "records": 2337,
+  "lastDate": "2026-09-01",
+  "records": 2338,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7d16818d9cc96e3e74de8cb604ba1b9883237eac52f9af4f76b47e32ba5eba66",
-  "priceDataHash": "sha256:c44c268ccc5dc70827e615dff5c3ec9f66eed531d2112d1e09b9a66acfa313c4",
+  "priceDataHash": "sha256:70af8ba6caed3506f5bdd513c5e583f23495cbd543802a82fa68ce9f8048e223",
   "lastFullValidationAt": "2026-08-28T23:20:18Z",
-  "updatedAt": "2026-09-01T12:41:10Z"
+  "updatedAt": "2026-09-02T12:15:28Z"
 }

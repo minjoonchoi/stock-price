@@ -2,14 +2,14 @@
   "ticker": "MRCY",
   "source": "yahoo",
   "firstDate": "1998-01-30",
-  "lastDate": "2026-08-31",
-  "records": 7189,
+  "lastDate": "2026-09-01",
+  "records": 7190,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1999-12-21",
   "lastSplitDate": "1999-12-21",
   "corporateActionHash": "sha256:681200ae34fd61e384ada445fc852c2af100fe9a66c9feaf97496f26f799a838",
-  "priceDataHash": "sha256:325c466f4ed7b5e6ae8318e647b0b4097a231d2319ce575e5d67c135dbc076fe",
+  "priceDataHash": "sha256:e38e2a93d501afe02d6a37fa0025b4de1b5c9bc906df13ffa54293d6febc40e3",
   "lastFullValidationAt": "2026-08-28T23:32:24Z",
-  "updatedAt": "2026-09-01T12:47:22Z"
+  "updatedAt": "2026-09-02T12:21:54Z"
 }

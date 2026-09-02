@@ -2,14 +2,14 @@
   "ticker": "GPI",
   "source": "yahoo",
   "firstDate": "1997-10-30",
-  "lastDate": "2026-08-31",
-  "records": 7243,
+  "lastDate": "2026-09-01",
+  "records": 7244,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:d5a6d1a3be7fe2e6f4abe722dec42c78539978816207f281c1861aeede247807",
-  "priceDataHash": "sha256:8b3e1c9a110ab113bbd489ec58c5c7906b9793205658a951f55f5a6ccda017a9",
+  "corporateActionHash": "sha256:98757d2f54d525a8e8bc295606dcfc60774798e2dd9634d41d1ee68924ec766d",
+  "priceDataHash": "sha256:75f11fab5e29732944eb2657a21a6eae4cfa96561dd64de1f756288b3f251d51",
   "lastFullValidationAt": "2026-08-28T23:12:36Z",
-  "updatedAt": "2026-09-01T12:37:14Z"
+  "updatedAt": "2026-09-02T12:11:28Z"
 }

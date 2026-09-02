@@ -2,14 +2,14 @@
   "ticker": "MLM",
   "source": "yahoo",
   "firstDate": "1994-02-17",
-  "lastDate": "2026-08-31",
-  "records": 8134,
+  "lastDate": "2026-09-01",
+  "records": 8135,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-01",
+  "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:0a5dc632e26f7f2a3d119bdab549b2ad81b401e65cc083fedfffd5e4862ef659",
-  "priceDataHash": "sha256:c17cf8f4d550986997a3ed0d41ea54ed2c13780c57d7bd81194367df45ced357",
+  "corporateActionHash": "sha256:0f74dca90a46a79fa34c1782d7d57c57ab1ac9d2ce9de42b84d2d754d8df3c2c",
+  "priceDataHash": "sha256:69cef441a61bb7fa3399bcd5b00773212951604e3c1875aca0de42dfae0ac490",
   "lastFullValidationAt": "2026-08-28T23:31:14Z",
-  "updatedAt": "2026-09-01T12:46:46Z"
+  "updatedAt": "2026-09-02T12:21:18Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "EXPO",
   "source": "yahoo",
   "firstDate": "1990-08-17",
-  "lastDate": "2026-08-31",
-  "records": 9061,
+  "lastDate": "2026-09-01",
+  "records": 9062,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-05",
   "lastSplitDate": "2018-06-08",
   "corporateActionHash": "sha256:afea4593fe5098c158f73b2d3a9a555350137a49fd9955b6e1bfe4ba5d16c388",
-  "priceDataHash": "sha256:7d18d7c808578be911e96530481ebe4d64a7c488e9bcecee81ab4c2c040f3bc8",
+  "priceDataHash": "sha256:766d23d9f987979dac1f4d066ab2960698332519fa7b0936eb661c6318adf59c",
   "lastFullValidationAt": "2026-08-28T23:05:22Z",
-  "updatedAt": "2026-09-01T12:33:32Z"
+  "updatedAt": "2026-09-02T12:07:36Z"
 }
