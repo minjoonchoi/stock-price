@@ -2,14 +2,14 @@
   "ticker": "ARES",
   "source": "yahoo",
   "firstDate": "2014-05-02",
-  "lastDate": "2026-09-01",
-  "records": 3100,
+  "lastDate": "2026-09-02",
+  "records": 3101,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:03dc1eca6934f698afa415f8b1533abc6e320ae0f842a967ac87b53bc83e4cd9",
-  "priceDataHash": "sha256:0b6540c15802801036e78f9626bce64bbf7a397550df7e40e1f97281b46234d8",
+  "priceDataHash": "sha256:d8120ca30b08fe8bacc9b8d872e066fdd3d5c8c22af7e37952cb4f0bc3372f7d",
   "lastFullValidationAt": "2026-08-27T11:13:45Z",
-  "updatedAt": "2026-09-02T05:40:56Z"
+  "updatedAt": "2026-09-03T05:41:55Z"
 }

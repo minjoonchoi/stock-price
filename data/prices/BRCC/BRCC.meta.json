@@ -2,14 +2,14 @@
   "ticker": "BRCC",
   "source": "yahoo",
   "firstDate": "2022-02-10",
-  "lastDate": "2026-09-01",
-  "records": 1141,
+  "lastDate": "2026-09-02",
+  "records": 1142,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-24",
   "lastSplitDate": "2026-08-24",
   "corporateActionHash": "sha256:bc84a396f62d96b2c8207ed41cb52ee67b32f8723fd6bf15efe420e5915d73e8",
-  "priceDataHash": "sha256:0263c0de5698e22132ad6a8300e286fd7d556cdd74da7e3f595f9e92d1c1d928",
+  "priceDataHash": "sha256:026582ca25ce21932db88227929effe3943e4b617c54df92060d6c8f99c751d6",
   "lastFullValidationAt": "2026-09-01T06:18:50Z",
-  "updatedAt": "2026-09-02T05:44:40Z"
+  "updatedAt": "2026-09-03T05:45:39Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "AVY",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-09-01",
-  "records": 13425,
+  "lastDate": "2026-09-02",
+  "records": 13426,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "1996-12-23",
-  "corporateActionHash": "sha256:aa277066874ed2901a01c7070a6d11696e135a33597756b285239478625d380d",
-  "priceDataHash": "sha256:dafd674c0b47d30069994c1f54941f4fae3a5c19f8e6126e671a120bf464e8fc",
+  "corporateActionHash": "sha256:858ebad2991162752ed0762ef1eeb496816affd7038780d4c26c40d8a312dd10",
+  "priceDataHash": "sha256:183f123c759b236660c3c33500546f8de37530b39c120b714cc168f6f261e67f",
   "lastFullValidationAt": "2026-08-27T11:16:05Z",
-  "updatedAt": "2026-09-02T05:42:06Z"
+  "updatedAt": "2026-09-03T05:43:05Z"
 }

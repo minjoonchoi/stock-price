@@ -2,14 +2,14 @@
   "ticker": "AMKR",
   "source": "yahoo",
   "firstDate": "1998-05-01",
-  "lastDate": "2026-09-01",
-  "records": 7126,
+  "lastDate": "2026-09-02",
+  "records": 7127,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:40084d035a9bae9c6c44701723679bdacb0177a59bbc6298a600babfeaf31498",
-  "priceDataHash": "sha256:2c87f7195db7c668d6098ac7eaeb126847fa05899e6ecfe9b08f884876a134df",
+  "corporateActionHash": "sha256:8f50b3c38607bf77ac47de15b58d7abbe2f69215a1d432a0cb8d3cd53318badc",
+  "priceDataHash": "sha256:9dac877b8c1611c9158601cc5531fb1faffb9587cc4a52b714b6d37c76de3055",
   "lastFullValidationAt": "2026-08-27T11:11:49Z",
-  "updatedAt": "2026-09-02T05:39:56Z"
+  "updatedAt": "2026-09-03T05:40:51Z"
 }

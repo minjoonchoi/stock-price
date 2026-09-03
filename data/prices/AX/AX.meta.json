@@ -2,14 +2,14 @@
   "ticker": "AX",
   "source": "yahoo",
   "firstDate": "2005-03-16",
-  "lastDate": "2026-09-01",
-  "records": 5400,
+  "lastDate": "2026-09-02",
+  "records": 5401,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2015-11-18",
   "lastSplitDate": "2015-11-18",
   "corporateActionHash": "sha256:a2d4788bea9fa97409d4909a245e59dc1fd87f363983269c3ec8e7991911d475",
-  "priceDataHash": "sha256:34cef3d47de6cc2a87a57bef6e52e606b0fba1d2984e66538f8a57f6f2773719",
+  "priceDataHash": "sha256:a4af27d403ce3c1decf5276e8f88cf70dce64b916ac441e0fbb3365dc08284d5",
   "lastFullValidationAt": "2026-08-27T11:16:17Z",
-  "updatedAt": "2026-09-02T05:42:12Z"
+  "updatedAt": "2026-09-03T05:43:11Z"
 }

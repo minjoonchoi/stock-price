@@ -2,14 +2,14 @@
   "ticker": "COLB",
   "source": "yahoo",
   "firstDate": "1992-06-16",
-  "lastDate": "2026-09-01",
-  "records": 8602,
+  "lastDate": "2026-09-02",
+  "records": 8603,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2004-05-10",
   "corporateActionHash": "sha256:49a71c4db076a375d75f8dd5e8a35af96ffb6dd57920d8da33f404a631aed006",
-  "priceDataHash": "sha256:9cf34edb6707f006a05956f3c046bf6d159735b30a25f9c035327c33c63e3366",
+  "priceDataHash": "sha256:1e66026e28c9f486f28220bb78bc72425adc7abe3f8e24f9b243079ca8ce7531",
   "lastFullValidationAt": "2026-08-27T11:28:25Z",
-  "updatedAt": "2026-09-02T05:48:22Z"
+  "updatedAt": "2026-09-03T05:49:21Z"
 }

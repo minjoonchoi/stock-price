@@ -2,14 +2,14 @@
   "ticker": "ALNY",
   "source": "yahoo",
   "firstDate": "2004-06-01",
-  "lastDate": "2026-09-01",
-  "records": 5599,
+  "lastDate": "2026-09-02",
+  "records": 5600,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:525c0b0bc0131537ac991509f8449eedfb4a3ffb76d19f639255fb55a64b509b",
+  "priceDataHash": "sha256:ddbf8c1a1ae0aafd4d3db44eaf494af56f755791120ce1935e948d9328c948d4",
   "lastFullValidationAt": "2026-08-27T11:11:07Z",
-  "updatedAt": "2026-09-02T05:39:34Z"
+  "updatedAt": "2026-09-03T05:40:27Z"
 }

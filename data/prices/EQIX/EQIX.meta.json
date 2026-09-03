@@ -2,14 +2,14 @@
   "ticker": "EQIX",
   "source": "yahoo",
   "firstDate": "2000-08-11",
-  "lastDate": "2026-09-01",
-  "records": 6547,
+  "lastDate": "2026-09-02",
+  "records": 6548,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2002-12-31",
   "corporateActionHash": "sha256:c6d70bff405dc3d0c482dfee7d06e343864e46526e99e2fa39c8d6a861f30838",
-  "priceDataHash": "sha256:7c0dcdc52fd0b5688e2acc7e76ef074b2ce4a2d14637bff7117de9aa9a72958f",
+  "priceDataHash": "sha256:3ca0659e953baca682d4ebdbfa3252460bed09bad47bad000cc7032c04250d60",
   "lastFullValidationAt": "2026-08-27T11:38:33Z",
-  "updatedAt": "2026-09-02T05:53:30Z"
+  "updatedAt": "2026-09-03T05:54:35Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CG",
   "source": "yahoo",
   "firstDate": "2012-05-03",
-  "lastDate": "2026-09-01",
-  "records": 3601,
+  "lastDate": "2026-09-02",
+  "records": 3602,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:46039443a93fb2a94d0fe673c8680e92d5a9df3994baee7160e249e32353df48",
-  "priceDataHash": "sha256:8d9cae7d33d1f1c2a947cdf3fe2cea6b8de3258fa689dab4e03c19a4def860d7",
+  "priceDataHash": "sha256:e37ad3dfb0b4386487c3e4ad659a8413580beaab333b6b3d0eb3024d1d627d15",
   "lastFullValidationAt": "2026-08-27T11:25:33Z",
-  "updatedAt": "2026-09-02T05:46:54Z"
+  "updatedAt": "2026-09-03T05:47:53Z"
 }

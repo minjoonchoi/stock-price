@@ -2,14 +2,14 @@
   "ticker": "COHR",
   "source": "yahoo",
   "firstDate": "1987-10-02",
-  "lastDate": "2026-09-01",
-  "records": 9802,
+  "lastDate": "2026-09-02",
+  "records": 9803,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-06-27",
   "lastSplitDate": "2011-06-27",
   "corporateActionHash": "sha256:7e2e22da5e04721d749fa8e8f4fdde8d6f5cb0db32c3085ad53721d62d178268",
-  "priceDataHash": "sha256:c23bde53d52488b82e56549b89482bab71aa03b308f45f0efa89af4e27b3d08d",
+  "priceDataHash": "sha256:76509b56c2343f80ff513285f507e069a7ad56cf34b32db05500c5997736ed48",
   "lastFullValidationAt": "2026-08-27T11:28:13Z",
-  "updatedAt": "2026-09-02T05:48:16Z"
+  "updatedAt": "2026-09-03T05:49:15Z"
 }
