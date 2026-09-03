@@ -2,14 +2,14 @@
   "ticker": "LEU",
   "source": "yahoo",
   "firstDate": "1998-07-23",
-  "lastDate": "2026-09-01",
-  "records": 7050,
+  "lastDate": "2026-09-02",
+  "records": 7051,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2014-09-30",
   "lastSplitDate": "2014-09-30",
   "corporateActionHash": "sha256:c23b5aa10862e544ebe5bc16c12a225371e552d43b626f8ba566e28074ee9e51",
-  "priceDataHash": "sha256:eb49a48fd3ea5e45c8cf411da634a747a8eb96b33a015ca627c62a2c6b94b7e4",
+  "priceDataHash": "sha256:7c07baab6f33b857f029a87c1cbed1950bae996f15c17c679237fb39b3424ea0",
   "lastFullValidationAt": "2026-08-28T23:24:54Z",
-  "updatedAt": "2026-09-02T12:17:46Z"
+  "updatedAt": "2026-09-03T12:19:26Z"
 }

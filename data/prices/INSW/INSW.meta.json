@@ -2,14 +2,14 @@
   "ticker": "INSW",
   "source": "yahoo",
   "firstDate": "2016-11-16",
-  "lastDate": "2026-09-01",
-  "records": 2458,
+  "lastDate": "2026-09-02",
+  "records": 2459,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-12",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:de7e2fb66d68d3de9ca03bd8391af37dba1dedfa64ead15c0b13bd37698e92ed",
-  "priceDataHash": "sha256:e93fc872092936c8c15e55a43f66a00e33f7e0387d2fcfc0e84ae8626d2e1b78",
+  "priceDataHash": "sha256:f57a0fcbcc892de39176e15e7e2a8fe094bebf3be200e1ee32530e9119ae2aab",
   "lastFullValidationAt": "2026-08-28T23:19:18Z",
-  "updatedAt": "2026-09-02T12:14:56Z"
+  "updatedAt": "2026-09-03T12:16:38Z"
 }

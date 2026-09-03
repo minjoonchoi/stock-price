@@ -2,14 +2,14 @@
   "ticker": "MAT",
   "source": "yahoo",
   "firstDate": "1976-06-17",
-  "lastDate": "2026-09-01",
-  "records": 12437,
+  "lastDate": "2026-09-02",
+  "records": 12438,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2017-08-21",
   "lastSplitDate": "1996-03-04",
   "corporateActionHash": "sha256:662f7eaed4cc2c13ceee7b5f426ef2f806bcfd1f92c47c7b5c317fa4311ca080",
-  "priceDataHash": "sha256:3103a21939feafdf71dfb906f0b1cde04d60af04bafb4bfd084586b27882cce2",
+  "priceDataHash": "sha256:6d53330a09c065383a1a9c930e10e989b8851cb83bf159d7fc5a58091d579712",
   "lastFullValidationAt": "2026-08-28T23:28:42Z",
-  "updatedAt": "2026-09-02T12:19:57Z"
+  "updatedAt": "2026-09-03T12:21:26Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "IPAR",
   "source": "yahoo",
   "firstDate": "1988-02-04",
-  "lastDate": "2026-09-01",
-  "records": 9536,
+  "lastDate": "2026-09-02",
+  "records": 9537,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2008-06-02",
   "corporateActionHash": "sha256:6d85d984a9003dd425650c1ae9ff63cc231671c892659a5f9b5c7f0940f6e94d",
-  "priceDataHash": "sha256:828af4275b68f3a1e91938e4fb792e191960009657ffd91fb359ed97ea007f20",
+  "priceDataHash": "sha256:43b1678829bad0681c8a667d35d0d178e3ff3bc3b8fe679a42ab1cee99701c08",
   "lastFullValidationAt": "2026-08-28T23:20:06Z",
-  "updatedAt": "2026-09-02T12:15:22Z"
+  "updatedAt": "2026-09-03T12:17:04Z"
 }

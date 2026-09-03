@@ -2,14 +2,14 @@
   "ticker": "FR",
   "source": "yahoo",
   "firstDate": "1994-06-24",
-  "lastDate": "2026-09-01",
-  "records": 8057,
+  "lastDate": "2026-09-02",
+  "records": 8058,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1c6d42c1b1cfb6e00663cd5a1240209cf779ee6389d0b9d5bad0135f083f0bd7",
-  "priceDataHash": "sha256:d2dc025eab0c7151a8b8e4167648c0ef836667d161f5a61d29c9d56547b8fea8",
+  "priceDataHash": "sha256:612700c416a48bd8d1b78bc875a7c8bdb8cba833b0f42149d4aa869040acc40e",
   "lastFullValidationAt": "2026-08-28T23:08:46Z",
-  "updatedAt": "2026-09-02T12:09:27Z"
+  "updatedAt": "2026-09-03T12:11:16Z"
 }

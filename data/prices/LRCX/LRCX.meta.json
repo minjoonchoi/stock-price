@@ -2,14 +2,14 @@
   "ticker": "LRCX",
   "source": "yahoo",
   "firstDate": "1984-05-04",
-  "lastDate": "2026-09-01",
-  "records": 10648,
+  "lastDate": "2026-09-02",
+  "records": 10649,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-17",
   "lastSplitDate": "2024-10-03",
   "corporateActionHash": "sha256:5563d8edfad30cc924e85f175cef6acd6cc9087568f33b963c6d6a844fcd16f2",
-  "priceDataHash": "sha256:755449d837836573795303dbe064b9b7726e724e8b87d3d8fa864839b39a048f",
+  "priceDataHash": "sha256:8ae4b694674933aa4b0e667e97616b2c9b4360e1a7121eeda25df27ed93b193c",
   "lastFullValidationAt": "2026-08-28T23:27:12Z",
-  "updatedAt": "2026-09-02T12:19:08Z"
+  "updatedAt": "2026-09-03T12:20:40Z"
 }

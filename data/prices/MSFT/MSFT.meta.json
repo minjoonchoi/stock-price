@@ -2,14 +2,14 @@
   "ticker": "MSFT",
   "source": "yahoo",
   "firstDate": "1986-03-13",
-  "lastDate": "2026-09-01",
-  "records": 10158,
+  "lastDate": "2026-09-02",
+  "records": 10159,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "2003-02-18",
   "corporateActionHash": "sha256:442b2e1ea440ca950043e0e5854cfe2ef67fd18f9a30119b8bbf75c54eb567d4",
-  "priceDataHash": "sha256:2e42b4dfc1219286d81ad0a731da776f3d7efdee999a49450cd93514fd5c01e7",
+  "priceDataHash": "sha256:046018d6f35ab2ff866be1fbf894798a0f23ad33719c8d19c90338e7b367d88b",
   "lastFullValidationAt": "2026-08-28T23:33:04Z",
-  "updatedAt": "2026-09-02T12:22:14Z"
+  "updatedAt": "2026-09-03T12:23:42Z"
 }

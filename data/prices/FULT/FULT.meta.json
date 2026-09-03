@@ -2,14 +2,14 @@
   "ticker": "FULT",
   "source": "yahoo",
   "firstDate": "1985-09-03",
-  "lastDate": "2026-09-01",
-  "records": 10023,
+  "lastDate": "2026-09-02",
+  "records": 10024,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2006-05-17",
   "corporateActionHash": "sha256:4733035c5f69c32ccbed83c3e4083e3598faa1409a3f57d13ff6cd52338928a9",
-  "priceDataHash": "sha256:7daab66e639ca56d98b6df470c56fbbb008101ef7975c8576acff8ad66a344fd",
+  "priceDataHash": "sha256:2d06c1ab06a023460921e1281f574a58878db9cac20c0664bf2d5252eb5b9eb6",
   "lastFullValidationAt": "2026-08-28T23:09:58Z",
-  "updatedAt": "2026-09-02T12:10:03Z"
+  "updatedAt": "2026-09-03T12:11:52Z"
 }

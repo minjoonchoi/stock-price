@@ -2,14 +2,14 @@
   "ticker": "FICO",
   "source": "yahoo",
   "firstDate": "1987-07-22",
-  "lastDate": "2026-09-01",
-  "records": 9845,
+  "lastDate": "2026-09-02",
+  "records": 9846,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2017-03-01",
   "lastSplitDate": "2004-03-11",
   "corporateActionHash": "sha256:abd4259cc0f435b9c48f35e90cc7a1f8725e70ffc16f6f438afa60e16bbdefd6",
-  "priceDataHash": "sha256:7ca21198efa16c62ad943dc422046d74e20b4ffbbf02bb3ba61f78cd988eb576",
+  "priceDataHash": "sha256:daea165e440327f51531894a17d7e71a6e4b3e3783c0d33eb26aa91111be132f",
   "lastFullValidationAt": "2026-08-28T23:07:16Z",
-  "updatedAt": "2026-09-02T12:08:36Z"
+  "updatedAt": "2026-09-03T12:10:26Z"
 }

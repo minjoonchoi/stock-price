@@ -2,14 +2,14 @@
   "ticker": "LEA",
   "source": "yahoo",
   "firstDate": "2009-11-09",
-  "lastDate": "2026-09-01",
-  "records": 4227,
+  "lastDate": "2026-09-02",
+  "records": 4228,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "2011-03-18",
-  "corporateActionHash": "sha256:dc3bdd2d3583cee3e47e52e4c95c7be83eb9ea1fcb052872bc43a8587c2553bf",
-  "priceDataHash": "sha256:11661aeacf2df738af80966034b3e23dac96a77d5a5bec562f38fe8a40e90035",
+  "corporateActionHash": "sha256:41a200f53036ecac3180b10d29982530e87b40f1b8428f57d72351c2a8592f92",
+  "priceDataHash": "sha256:a5ae0f01e115fcba3ab23717c8c66c0f84575cb421fdd895532604f0f33bffce",
   "lastFullValidationAt": "2026-08-28T23:24:42Z",
-  "updatedAt": "2026-09-02T12:17:40Z"
+  "updatedAt": "2026-09-03T12:19:20Z"
 }

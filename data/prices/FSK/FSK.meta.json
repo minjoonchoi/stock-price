@@ -2,14 +2,14 @@
   "ticker": "FSK",
   "source": "yahoo",
   "firstDate": "2014-04-16",
-  "lastDate": "2026-09-01",
-  "records": 3103,
+  "lastDate": "2026-09-02",
+  "records": 3104,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-17",
   "lastSplitDate": "2020-06-16",
   "corporateActionHash": "sha256:8732352ee87365a3832df8ef60f3bcb91bdc34e624234667dad35665b3d32a26",
-  "priceDataHash": "sha256:01df9a689aba12c0aafa46b64a54ba9a472eef7eacd75836e17c5afdcbdaecb2",
+  "priceDataHash": "sha256:5794d8d151bf749bbf13bd4759b25c4ca66646e37d727e8bd553c74086965a32",
   "lastFullValidationAt": "2026-08-28T23:09:18Z",
-  "updatedAt": "2026-09-02T12:09:42Z"
+  "updatedAt": "2026-09-03T12:11:32Z"
 }

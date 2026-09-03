@@ -2,14 +2,14 @@
   "ticker": "FOXA",
   "source": "yahoo",
   "firstDate": "2019-03-12",
-  "lastDate": "2026-09-01",
-  "records": 1879,
+  "lastDate": "2026-09-02",
+  "records": 1880,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-03-04",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:6869493a6cd75ce4cb517e5e48b59ec44146b581a5d00370f2a90a30bea995dd",
-  "priceDataHash": "sha256:ef2761ab57b553c4009d18b84911b4be07a433064030f272cfe9f850da94309e",
+  "corporateActionHash": "sha256:d285b6cd4c2ba2d15e41d978f2526147bff6a38663189aa3e512d1946d7913ca",
+  "priceDataHash": "sha256:79fd12e140505082fffccd221d0b33ae4e757b70e94c6e56e667c0396001f27e",
   "lastFullValidationAt": "2026-08-28T23:08:38Z",
-  "updatedAt": "2026-09-02T12:09:22Z"
+  "updatedAt": "2026-09-03T12:11:12Z"
 }
