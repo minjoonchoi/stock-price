@@ -1,15 +1,15 @@
 {
   "ticker": "CUZ",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
+  "firstDate": "1980-03-17",
   "lastDate": "2026-09-02",
-  "records": 11269,
+  "records": 11170,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2019-06-17",
   "corporateActionHash": "sha256:50a10944d056d9e0ab238c0a268e935aceac416948943dbdd1de65bfdd279c78",
-  "priceDataHash": "sha256:f967c9e3423ed31bbc01b1129c0ff55e0e1900f8fb63629629e3cb02f4cc8652",
-  "lastFullValidationAt": "2026-08-27T11:31:19Z",
-  "updatedAt": "2026-09-03T05:50:51Z"
+  "priceDataHash": "sha256:85b07e5d214a384a79693dc688680143869b2afae2c437d8feece35cf3c2954e",
+  "lastFullValidationAt": "2026-09-03T17:28:16Z",
+  "updatedAt": "2026-09-03T17:28:16Z"
 }
