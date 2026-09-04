@@ -2,14 +2,14 @@
   "ticker": "UMBF",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11443,
+  "lastDate": "2026-09-03",
+  "records": 11445,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-10",
   "lastSplitDate": "2006-05-31",
   "corporateActionHash": "sha256:c556f44055c82650b4bdd44f6977380718472d8c93b32681e8e56bb7f16b274a",
-  "priceDataHash": "sha256:dcdfef81ab528fb0c469bd8549402006d4214dec1de829de9f3a08b88d36b4da",
+  "priceDataHash": "sha256:b556eea95b135ddc8c12ac426380638681afdd7a3e4f8564b0c7357528658dc9",
   "lastFullValidationAt": "2026-09-02T17:41:55Z",
-  "updatedAt": "2026-09-02T17:41:55Z"
+  "updatedAt": "2026-09-04T17:08:40Z"
 }

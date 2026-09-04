@@ -2,14 +2,14 @@
   "ticker": "SHW",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11508,
+  "lastDate": "2026-09-03",
+  "records": 11510,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2021-04-01",
   "corporateActionHash": "sha256:daf53b08218b1a9e6a2a651f7c8cafe60ddc4cac26aaf5805130d0ed0c9a2cd6",
-  "priceDataHash": "sha256:edb440803dcb4a7422341e5bec9fed768a351bcd77fe859a06156711c56310d1",
+  "priceDataHash": "sha256:8bfda72ff357c5a3a3471ee349fcb676248c121262862cfd045cb1a3380d542a",
   "lastFullValidationAt": "2026-09-02T17:30:51Z",
-  "updatedAt": "2026-09-02T17:30:51Z"
+  "updatedAt": "2026-09-04T17:03:04Z"
 }

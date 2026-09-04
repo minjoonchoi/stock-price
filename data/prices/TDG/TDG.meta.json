@@ -2,14 +2,14 @@
   "ticker": "TDG",
   "source": "yahoo",
   "firstDate": "2006-03-15",
-  "lastDate": "2026-09-01",
-  "records": 5144,
+  "lastDate": "2026-09-03",
+  "records": 5146,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-09-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:b9d63e0920d71fce32b3e653698f6f8041d4a153164507b7a1b985ecc0d68c4e",
-  "priceDataHash": "sha256:ed87bfc4549d61cad1abf404565ca06edc59a54ebb8d1984538d37ef018b76b4",
+  "priceDataHash": "sha256:61fc709b668bd55f3a62e0f4514f2fab5b18fcfdcc21b1a7544dab7cab5a7bd1",
   "lastFullValidationAt": "2026-09-02T17:36:39Z",
-  "updatedAt": "2026-09-02T17:36:39Z"
+  "updatedAt": "2026-09-04T17:06:00Z"
 }

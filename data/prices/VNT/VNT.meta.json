@@ -2,14 +2,14 @@
   "ticker": "VNT",
   "source": "yahoo",
   "firstDate": "2020-09-24",
-  "lastDate": "2026-09-01",
-  "records": 1491,
+  "lastDate": "2026-09-03",
+  "records": 1493,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-04",
+  "lastCorporateActionDate": "2026-09-03",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:59eb937d7d1f97b61a5c552feb1a4a68a706c73509a4c89d9de7cc372e7c1e4f",
-  "priceDataHash": "sha256:14ded0a6c9d98425ede3adb444bc1cbbbf3d9981be7b8122097d4001c860cdc4",
+  "corporateActionHash": "sha256:6a7f91bf0906023b878454caeb86936672e9277b89f69807a194322ed87932b2",
+  "priceDataHash": "sha256:a49fe56309ba0645f74c9cacd9531b9de5e9d7748a26a8c4b6074eeb930a05ce",
   "lastFullValidationAt": "2026-09-02T17:44:59Z",
-  "updatedAt": "2026-09-02T17:44:59Z"
+  "updatedAt": "2026-09-04T17:10:14Z"
 }

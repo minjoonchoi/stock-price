@@ -2,14 +2,14 @@
   "ticker": "PJT",
   "source": "yahoo",
   "firstDate": "2015-09-22",
-  "lastDate": "2026-09-01",
-  "records": 2752,
+  "lastDate": "2026-09-03",
+  "records": 2754,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:df693de2bd0c5724a3fc9919cce60ecdb5f89c6abf4e21c274416be2c3bc5e3a",
-  "priceDataHash": "sha256:c47d6b95733eaeab7c4aec592e59f19139a8283bad5804d0930b59d8a260bea3",
+  "corporateActionHash": "sha256:91a09db49addf2fd8c76c9178317cd0abf121437d85e269958035e9132903ad9",
+  "priceDataHash": "sha256:018f37dc09f7587d4936c43b4e7274f3e4dca78c1b6929d2836536b335c96bc0",
   "lastFullValidationAt": "2026-09-02T17:20:21Z",
-  "updatedAt": "2026-09-02T17:20:21Z"
+  "updatedAt": "2026-09-04T16:57:40Z"
 }

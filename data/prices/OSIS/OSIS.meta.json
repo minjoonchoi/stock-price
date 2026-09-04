@@ -2,14 +2,14 @@
   "ticker": "OSIS",
   "source": "yahoo",
   "firstDate": "1997-10-02",
-  "lastDate": "2026-09-01",
-  "records": 7273,
+  "lastDate": "2026-09-03",
+  "records": 7275,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:0053749f3801cdf15993e45c520a9852d84c0eaf7979f9f629d15e6ff2ae39f7",
+  "priceDataHash": "sha256:0630ee5193eec4db02fe49be46aa49c6ab3af92e043f56cc669c6cf046321b07",
   "lastFullValidationAt": "2026-09-02T17:16:45Z",
-  "updatedAt": "2026-09-02T17:16:45Z"
+  "updatedAt": "2026-09-04T16:55:52Z"
 }

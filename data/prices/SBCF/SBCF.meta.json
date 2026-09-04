@@ -2,14 +2,14 @@
   "ticker": "SBCF",
   "source": "yahoo",
   "firstDate": "1984-02-02",
-  "lastDate": "2026-09-01",
-  "records": 10359,
+  "lastDate": "2026-09-03",
+  "records": 10361,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2013-12-13",
   "corporateActionHash": "sha256:af996c8f2d43b3b4bb41642d0cb8c2701827557a894f8e559c5d3f230b9e682b",
-  "priceDataHash": "sha256:402689cbd589bce1b22287d772b2ee6737f13cb53decbd25bc3ec872bbe53bd7",
+  "priceDataHash": "sha256:f43fad51dbfe1e4b400396ab6b4822a2ae3d62ec03e16db95a329ea6385486b2",
   "lastFullValidationAt": "2026-09-02T17:29:27Z",
-  "updatedAt": "2026-09-02T17:29:27Z"
+  "updatedAt": "2026-09-04T17:02:20Z"
 }

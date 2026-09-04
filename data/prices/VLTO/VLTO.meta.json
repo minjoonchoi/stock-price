@@ -2,14 +2,14 @@
   "ticker": "VLTO",
   "source": "yahoo",
   "firstDate": "2023-10-04",
-  "lastDate": "2026-09-01",
-  "records": 730,
+  "lastDate": "2026-09-03",
+  "records": 732,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:6e045ba394369dfe413e725ad4e85d965a96d8e1483b3fddc6a07b784f14a058",
-  "priceDataHash": "sha256:34f448bc10f56a4c1c58b809490aecc9594fbee2e8bd117fe6846f86b5fa4e41",
+  "priceDataHash": "sha256:c219aa391f8d3a81c81a555f5c0ca3517f8ea6984426cbc7919db917d9557539",
   "lastFullValidationAt": "2026-09-02T17:44:33Z",
-  "updatedAt": "2026-09-02T17:44:33Z"
+  "updatedAt": "2026-09-04T17:10:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TME",
   "source": "yahoo",
   "firstDate": "2018-12-12",
-  "lastDate": "2026-09-01",
-  "records": 1940,
+  "lastDate": "2026-09-03",
+  "records": 1942,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-04-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:b46d18f26fedd4f360820a77c850fce05ff4229e7273e6f71b9c496609c3af56",
-  "priceDataHash": "sha256:1a8f282e4997543711e0949384ccc7414791091a6470c4364bf83e40b9009467",
+  "priceDataHash": "sha256:06b21c40c81f26a5eeb2f5bc504cb590adfd75816f85ef8a13459f069695ec82",
   "lastFullValidationAt": "2026-09-02T17:38:11Z",
-  "updatedAt": "2026-09-02T17:38:11Z"
+  "updatedAt": "2026-09-04T17:06:46Z"
 }

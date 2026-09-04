@@ -2,14 +2,14 @@
   "ticker": "SMTC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11710,
+  "lastDate": "2026-09-03",
+  "records": 11712,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-09-26",
   "lastSplitDate": "2000-09-26",
   "corporateActionHash": "sha256:65d348d78139878209ece19f2b67326a8aef2f2617c4d305a5d675084b58c64d",
-  "priceDataHash": "sha256:207a2c8046abae1caa017ea9f396dcc6c72f8d361a65a336933983470867e00c",
+  "priceDataHash": "sha256:0ed8f4f3b81072b511156c759bb22e1870e83f0f3788e240b5baa884208c3517",
   "lastFullValidationAt": "2026-09-02T17:32:15Z",
-  "updatedAt": "2026-09-02T17:32:15Z"
+  "updatedAt": "2026-09-04T17:03:46Z"
 }

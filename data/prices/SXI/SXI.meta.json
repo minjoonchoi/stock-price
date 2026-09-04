@@ -2,14 +2,14 @@
   "ticker": "SXI",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-09-01",
-  "records": 13329,
+  "lastDate": "2026-09-03",
+  "records": 13331,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "1993-05-26",
   "corporateActionHash": "sha256:32bab8ef27b569737053452c1515e67b91dfe7849ef9980477f2cb7dc6256b0c",
-  "priceDataHash": "sha256:50bb9ddb73e2e4ac11fc3d9e2699cd12f616be12eaffbb909fb26ecb0b8d63f5",
+  "priceDataHash": "sha256:20253525ece36088e37442204fdc139fffae1c53fada6314b4a3dcedc9b69612",
   "lastFullValidationAt": "2026-09-02T17:35:39Z",
-  "updatedAt": "2026-09-02T17:35:39Z"
+  "updatedAt": "2026-09-04T17:05:30Z"
 }

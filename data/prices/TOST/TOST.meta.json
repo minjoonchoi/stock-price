@@ -2,14 +2,14 @@
   "ticker": "TOST",
   "source": "yahoo",
   "firstDate": "2021-09-22",
-  "lastDate": "2026-09-01",
-  "records": 1241,
+  "lastDate": "2026-09-03",
+  "records": 1243,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f71458a4425385d0ea28e1e42efff4ada177ab9fb16cfdebe088dbc70014d95a",
+  "priceDataHash": "sha256:66ff2c0297631fb027b584ddf3b912753e61cad7003503cf038fa5969a4c92bc",
   "lastFullValidationAt": "2026-09-02T17:38:39Z",
-  "updatedAt": "2026-09-02T17:38:39Z"
+  "updatedAt": "2026-09-04T17:07:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "NTAP",
   "source": "yahoo",
   "firstDate": "1995-11-21",
-  "lastDate": "2026-09-01",
-  "records": 7737,
+  "lastDate": "2026-09-03",
+  "records": 7739,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "2000-03-23",
   "corporateActionHash": "sha256:8a1e2449c15e4bbf4d1930046c3562d8df91c68f405a7a797794cd40bcef21c4",
-  "priceDataHash": "sha256:0f2317011772844ad59be67cb211c1787923836328a2ea7ecd206064544ce17e",
+  "priceDataHash": "sha256:f608c76ea90db212c3e85774f47b34381bca3066559adf753962dc42b158fe3e",
   "lastFullValidationAt": "2026-08-29T07:49:20Z",
-  "updatedAt": "2026-09-02T17:13:23Z"
+  "updatedAt": "2026-09-04T16:54:04Z"
 }

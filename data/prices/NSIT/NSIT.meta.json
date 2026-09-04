@@ -2,14 +2,14 @@
   "ticker": "NSIT",
   "source": "yahoo",
   "firstDate": "1995-01-24",
-  "lastDate": "2026-09-01",
-  "records": 7954,
+  "lastDate": "2026-09-03",
+  "records": 7956,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-09-19",
   "lastSplitDate": "2000-09-19",
   "corporateActionHash": "sha256:fd43281c63a545350481892332fb404036a3b53205559e3c7a2ac4d57191cabb",
-  "priceDataHash": "sha256:e503992462896cad458cf13ea4df1b75e0090840e12b07b1d61dc5d6422c203b",
+  "priceDataHash": "sha256:4f1323d2387484facb5e5d3111a657a75a3f07ffe1a37ca962ce994d2be9f6f1",
   "lastFullValidationAt": "2026-08-29T07:49:16Z",
-  "updatedAt": "2026-09-02T17:13:21Z"
+  "updatedAt": "2026-09-04T16:54:02Z"
 }

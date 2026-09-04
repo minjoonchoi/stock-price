@@ -2,14 +2,14 @@
   "ticker": "QNT",
   "source": "yahoo",
   "firstDate": "2026-06-04",
-  "lastDate": "2026-09-01",
-  "records": 62,
+  "lastDate": "2026-09-03",
+  "records": 64,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ba47d292ec43b2cb22ff16872f640afdadfbd30b5254ff27cbca8a5df041bf47",
+  "priceDataHash": "sha256:e69dc24db5c0ed9bd903d6578b7ea9d1a0da5fbcf082ec8e01c63ff09c32d765",
   "lastFullValidationAt": "2026-09-02T17:24:03Z",
-  "updatedAt": "2026-09-02T17:24:03Z"
+  "updatedAt": "2026-09-04T16:59:34Z"
 }

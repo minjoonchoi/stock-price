@@ -2,14 +2,14 @@
   "ticker": "SPHR",
   "source": "yahoo",
   "firstDate": "2020-04-09",
-  "lastDate": "2026-09-01",
-  "records": 1607,
+  "lastDate": "2026-09-03",
+  "records": 1609,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-04-21",
   "lastSplitDate": "2023-04-21",
   "corporateActionHash": "sha256:1ea941d15c66651f340ebbeb5f2da659a9b77a44284ca5e84103b699f9a74d37",
-  "priceDataHash": "sha256:148ed79ce1301063024627a4cebbf7237a185006e77606b6ab94f1247eee2158",
+  "priceDataHash": "sha256:e0da05a8a0dd9205fec4090314d18f507d114896513b1c2f2f4e3f1c0024c81e",
   "lastFullValidationAt": "2026-09-02T17:33:43Z",
-  "updatedAt": "2026-09-02T17:33:43Z"
+  "updatedAt": "2026-09-04T17:04:32Z"
 }

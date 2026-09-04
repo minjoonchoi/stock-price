@@ -2,14 +2,14 @@
   "ticker": "RGLD",
   "source": "yahoo",
   "firstDate": "1981-06-09",
-  "lastDate": "2026-09-01",
-  "records": 11356,
+  "lastDate": "2026-09-03",
+  "records": 11358,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:34786612989efdbf1dd3f76d434d1eed281100c90ae203ddc8024189f09c587f",
-  "priceDataHash": "sha256:371fcd15ef028d4fd2124cdd5ed9b3d9845156a1c622af6bb01dbb6a68a835e3",
+  "priceDataHash": "sha256:6303c4cb27376b958fcd31199f720f934c27558b3ce9e978b835039d27965bbc",
   "lastFullValidationAt": "2026-09-02T17:25:53Z",
-  "updatedAt": "2026-09-02T17:25:53Z"
+  "updatedAt": "2026-09-04T17:00:32Z"
 }

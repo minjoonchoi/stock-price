@@ -2,14 +2,14 @@
   "ticker": "SMR",
   "source": "yahoo",
   "firstDate": "2022-03-01",
-  "lastDate": "2026-09-01",
-  "records": 1131,
+  "lastDate": "2026-09-03",
+  "records": 1133,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a501906714253926f8c5820f30e3aee84ad458acaf0fcf397d15656d7946cf99",
+  "priceDataHash": "sha256:81eb43faf599ef611d9363d65622f99de65050bd89b7e775daa71f7465e13f76",
   "lastFullValidationAt": "2026-09-02T17:32:11Z",
-  "updatedAt": "2026-09-02T17:32:11Z"
+  "updatedAt": "2026-09-04T17:03:44Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PLXS",
   "source": "yahoo",
   "firstDate": "1986-02-05",
-  "lastDate": "2026-09-01",
-  "records": 10221,
+  "lastDate": "2026-09-03",
+  "records": 10223,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-09-01",
   "lastSplitDate": "2000-09-01",
   "corporateActionHash": "sha256:2dea1892ecab62217ed81791bcaaf96b311ff943b1fddfad14e91be3316b329d",
-  "priceDataHash": "sha256:ce2e83575d2da45f2abc3a7790847587437f56547f5a8b75e1ed9fe4fadcba36",
+  "priceDataHash": "sha256:b10f2010124236ba101febe8c9c6e7c56a037e8aba17700af3a26ec7799a4a97",
   "lastFullValidationAt": "2026-09-02T17:21:07Z",
-  "updatedAt": "2026-09-02T17:21:07Z"
+  "updatedAt": "2026-09-04T16:58:04Z"
 }

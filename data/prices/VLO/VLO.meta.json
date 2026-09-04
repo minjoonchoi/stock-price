@@ -2,14 +2,14 @@
   "ticker": "VLO",
   "source": "yahoo",
   "firstDate": "1982-01-04",
-  "lastDate": "2026-09-01",
-  "records": 11011,
+  "lastDate": "2026-09-03",
+  "records": 11013,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2013-05-02",
   "corporateActionHash": "sha256:626ecf14217dfdc6d878cbb7078ddacd09e7372b9c1a46585508887c9ee36963",
-  "priceDataHash": "sha256:668c9850fbf0aba963c4e5f5ff3f350c6895df634e5b4d87a28252832c4f096b",
+  "priceDataHash": "sha256:c0e53fa91caf46f3023bc41a7686ca0ae7465e24eae9667cd86012d2cf4f33fa",
   "lastFullValidationAt": "2026-09-02T17:44:29Z",
-  "updatedAt": "2026-09-02T17:44:29Z"
+  "updatedAt": "2026-09-04T17:09:58Z"
 }

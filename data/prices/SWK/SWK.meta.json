@@ -2,14 +2,14 @@
   "ticker": "SWK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11613,
+  "lastDate": "2026-09-03",
+  "records": 11615,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "1996-06-04",
   "corporateActionHash": "sha256:d184b0831e32718d75f019869547e733427f49edd7a4b44a5382405bf8130158",
-  "priceDataHash": "sha256:6fd23633fccd405b593c26c188d0d2c1224519a568d4a4806d59e0c8003a8bcb",
+  "priceDataHash": "sha256:70959a05ba3029a2715c00851e32d7467b24710d277abda1b2b60301fdeaea28",
   "lastFullValidationAt": "2026-09-02T17:35:27Z",
-  "updatedAt": "2026-09-02T17:35:27Z"
+  "updatedAt": "2026-09-04T17:05:24Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "VMRK",
   "source": "yahoo",
   "firstDate": "1993-08-12",
-  "lastDate": "2026-09-01",
-  "records": 8288,
+  "lastDate": "2026-09-03",
+  "records": 8290,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-29",
   "lastSplitDate": "2001-10-12",
   "corporateActionHash": "sha256:e2eef35666c25ef22052a7d4585775bf50a9b12584d7d0f2fd024c34cabefc1c",
-  "priceDataHash": "sha256:730409fc2d976a3ec3db5a65e7742ff9f43a673c305576bae6c232a9cfb58a12",
+  "priceDataHash": "sha256:6b89f3117015054add2390d61a04879054770138de330ddc76aedec3111c964d",
   "lastFullValidationAt": "2026-08-29T08:05:56Z",
-  "updatedAt": "2026-09-02T17:44:47Z"
+  "updatedAt": "2026-09-04T17:10:08Z"
 }

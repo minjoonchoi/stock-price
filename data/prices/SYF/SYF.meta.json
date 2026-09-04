@@ -2,14 +2,14 @@
   "ticker": "SYF",
   "source": "yahoo",
   "firstDate": "2014-07-31",
-  "lastDate": "2026-09-01",
-  "records": 3039,
+  "lastDate": "2026-09-03",
+  "records": 3041,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f1a30fc8a9b255bb76d95b07299e31aaeabc975b0618182cf90831633bc91e1c",
-  "priceDataHash": "sha256:ea2a07d199c9dc06c3bc29057c1550ba88a45b36bfd347184fe3b559e55401ec",
+  "priceDataHash": "sha256:1cbef38717f2bb0e455a4e5c7e4be806788bcaaf75a6939d05b8c5d0b5af9894",
   "lastFullValidationAt": "2026-09-02T17:35:51Z",
-  "updatedAt": "2026-09-02T17:35:51Z"
+  "updatedAt": "2026-09-04T17:05:36Z"
 }

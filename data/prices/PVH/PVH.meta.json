@@ -2,14 +2,14 @@
   "ticker": "PVH",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11663,
+  "lastDate": "2026-09-03",
+  "records": 11665,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "1991-10-10",
-  "corporateActionHash": "sha256:2a2b0372dcbb74190d88e974dae48845bcf73405144c5ee2e42d6facac79e5c5",
-  "priceDataHash": "sha256:435a2d3665c4bc23e93a3747ca821f03253145d2bffec5e738f9dc6aad200590",
+  "corporateActionHash": "sha256:70578d1382fe0fbc1f7abb2388d47ac994a6e90ac6500fc02a384eab1e725a9e",
+  "priceDataHash": "sha256:723260d0d31565acef6cac41d2cbffddd3cea7b206ac4912517d212b7cac9ec5",
   "lastFullValidationAt": "2026-09-02T17:23:31Z",
-  "updatedAt": "2026-09-02T17:23:31Z"
+  "updatedAt": "2026-09-04T16:59:18Z"
 }

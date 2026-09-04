@@ -2,14 +2,14 @@
   "ticker": "SM",
   "source": "yahoo",
   "firstDate": "1992-12-16",
-  "lastDate": "2026-09-01",
-  "records": 8481,
+  "lastDate": "2026-09-03",
+  "records": 8483,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2005-04-01",
   "corporateActionHash": "sha256:0730c0946897b684ee3514fc5290e58a367982e50f631b401fe8462ac9b2df66",
-  "priceDataHash": "sha256:9dee28730eaefd21f3f3301798de74b899e12ae3acc6be3e443d3dc2c58dbd39",
+  "priceDataHash": "sha256:c57d12ec16586ba1dd7d46ffdded3cb7b1a4ea7d34b5b4ae32f418b0f16c2cff",
   "lastFullValidationAt": "2026-09-02T17:31:55Z",
-  "updatedAt": "2026-09-02T17:31:55Z"
+  "updatedAt": "2026-09-04T17:03:36Z"
 }

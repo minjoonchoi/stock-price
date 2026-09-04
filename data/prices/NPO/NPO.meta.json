@@ -2,14 +2,14 @@
   "ticker": "NPO",
   "source": "yahoo",
   "firstDate": "2002-05-24",
-  "lastDate": "2026-09-01",
-  "records": 6105,
+  "lastDate": "2026-09-03",
+  "records": 6107,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:b63e088b498f9e231190e8c400ef56f65b2872b8696715d0efc0ac842e07e792",
-  "priceDataHash": "sha256:320998677c8ae4679ad7ca1b1ac150711dcac9e5ab940ad62238ae88d9de5daf",
+  "corporateActionHash": "sha256:581f8602a242d7404fdbc38d3ccd0553b6de78e98fa54eb61fc93480846f8b05",
+  "priceDataHash": "sha256:5f68aee27fcca34314aec6c025434d745785e49da6c49a9de499b1018d7fcd8c",
   "lastFullValidationAt": "2026-08-29T07:49:00Z",
-  "updatedAt": "2026-09-02T17:13:13Z"
+  "updatedAt": "2026-09-04T16:53:54Z"
 }

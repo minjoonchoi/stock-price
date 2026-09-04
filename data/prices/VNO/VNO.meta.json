@@ -2,14 +2,14 @@
   "ticker": "VNO",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-01",
-  "records": 11513,
+  "lastDate": "2026-09-03",
+  "records": 11515,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-12-18",
   "lastSplitDate": "2017-07-18",
   "corporateActionHash": "sha256:8448ed1d58786007a03c2e23a67ba0899df02049e0230db272a2070ad10e0711",
-  "priceDataHash": "sha256:55c89ad9d4e74c333611b78960bdda361b1f6586ab6fc4051074bec279dcbff6",
+  "priceDataHash": "sha256:527ca64af0b397ae9981009bab172f47ac87a240d0b3364e5ce7ddf320d5dca2",
   "lastFullValidationAt": "2026-09-02T17:44:51Z",
-  "updatedAt": "2026-09-02T17:44:51Z"
+  "updatedAt": "2026-09-04T17:10:10Z"
 }

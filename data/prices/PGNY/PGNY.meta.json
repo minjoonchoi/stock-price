@@ -2,14 +2,14 @@
   "ticker": "PGNY",
   "source": "yahoo",
   "firstDate": "2019-10-25",
-  "lastDate": "2026-09-01",
-  "records": 1721,
+  "lastDate": "2026-09-03",
+  "records": 1723,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:6e14bb8ae5959718bc78eaccf3aa5eaff825519b0f8dd211a4cae68286065ac8",
+  "priceDataHash": "sha256:ce64e25d3912274e326df3eb3919d561060ee0bfc6b261753349fa79030d12b0",
   "lastFullValidationAt": "2026-09-02T17:19:45Z",
-  "updatedAt": "2026-09-02T17:19:45Z"
+  "updatedAt": "2026-09-04T16:57:22Z"
 }

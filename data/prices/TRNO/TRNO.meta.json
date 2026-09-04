@@ -2,14 +2,14 @@
   "ticker": "TRNO",
   "source": "yahoo",
   "firstDate": "2010-02-10",
-  "lastDate": "2026-09-01",
-  "records": 4157,
+  "lastDate": "2026-09-03",
+  "records": 4159,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:567bd50d81f589d7dd87eb9e0f2b79ea1cf42d183cf63d8b8afbdc3d56c4a7d0",
-  "priceDataHash": "sha256:d07a660d27fadb983588a2b6b2615c80d16c66ba9351a0df2d48004370680093",
+  "priceDataHash": "sha256:4a7e1f5501c3199e398f314b13b247a24c79c56cd1c46b042124b19ad9ce8e15",
   "lastFullValidationAt": "2026-09-02T17:39:19Z",
-  "updatedAt": "2026-09-02T17:39:19Z"
+  "updatedAt": "2026-09-04T17:07:20Z"
 }
