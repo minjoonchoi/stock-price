@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-09-03",
+  "runId": "2026-09-04",
   "totalTargets": 1591,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NMIH",
-  "cursorIndex": 1000,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ESAB",
+  "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:491a666676aed9bedb201a69c3e62e9931d23f9721cc433c34038ab8d21a1beb",
-  "universeHash": "sha256:d1c8c46240ccef9ae784e596c8fb16b10ac5debbdac79006ccee991e8a941e7a",
+  "universeHash": "sha256:1f85da187ebf4f1e61bdafc8110a9dcdc09ee66cefe1af697d2d816062258e76",
   "shardCount": 1,
-  "startedAt": "2026-09-03T17:03:48Z",
-  "updatedAt": "2026-09-03T19:52:30Z"
+  "startedAt": "2026-09-04T05:45:56Z",
+  "updatedAt": "2026-09-04T06:02:40Z"
 }
