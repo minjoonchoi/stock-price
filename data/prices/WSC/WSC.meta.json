@@ -2,14 +2,14 @@
   "ticker": "WSC",
   "source": "yahoo",
   "firstDate": "2015-11-05",
-  "lastDate": "2026-08-28",
-  "records": 2718,
+  "lastDate": "2026-09-03",
+  "records": 2722,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-03",
+  "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3e67944bfb9d9fbcc0c5b0c18c0a4ccb7e5d124d3d871414502995e19b63f47e",
-  "priceDataHash": "sha256:e62b7faf223cfd1a7a59c7d6e6d14e1e3a4a873336729a4f5e39fbde7c33e81b",
-  "lastFullValidationAt": "2026-08-26T11:42:46Z",
-  "updatedAt": "2026-08-29T14:24:05Z"
+  "corporateActionHash": "sha256:856c29aff5a8155025860aad88d159df101d811c76c98f890195dcb4653c7d68",
+  "priceDataHash": "sha256:3ba8afad2f4283db02c397a9ddad8e56bca17862f979ba4f0f4913edc5eef65a",
+  "lastFullValidationAt": "2026-09-04T19:28:42Z",
+  "updatedAt": "2026-09-04T19:28:42Z"
 }
