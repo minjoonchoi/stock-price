@@ -2,14 +2,14 @@
   "ticker": "MKTX",
   "source": "yahoo",
   "firstDate": "2004-11-05",
-  "lastDate": "2026-09-02",
-  "records": 5487,
+  "lastDate": "2026-09-03",
+  "records": 5488,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:2e802cd48974a4fe1c564ef3ffadbd9eb370aadf411efd52c331079189fda591",
-  "priceDataHash": "sha256:fa557a6a709911b75bf3476c7c8d691a012d8c429ce121a13940df8f3db8a9b3",
+  "priceDataHash": "sha256:9a225ecdddb0ebe344745064f1b32bdaf83014054409520714151ba078925360",
   "lastFullValidationAt": "2026-08-28T23:31:06Z",
-  "updatedAt": "2026-09-03T12:22:40Z"
+  "updatedAt": "2026-09-04T12:21:35Z"
 }

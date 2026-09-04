@@ -2,14 +2,14 @@
   "ticker": "KMI",
   "source": "yahoo",
   "firstDate": "2011-02-11",
-  "lastDate": "2026-09-02",
-  "records": 3903,
+  "lastDate": "2026-09-03",
+  "records": 3904,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5a9c53ac7c589e328579c876b543efbef075fdf5f3ce4c64c61667aa2091d26d",
-  "priceDataHash": "sha256:b3e61b630ffea081aef0f6dbc5c624a64e34d9d2aac04f64c7b23950d2b01754",
+  "priceDataHash": "sha256:e61f65e3884df48d3d6e6a25bd49cc1291b2752f0ef7638bbfabe0f71e95e461",
   "lastFullValidationAt": "2026-08-28T23:22:46Z",
-  "updatedAt": "2026-09-03T12:18:26Z"
+  "updatedAt": "2026-09-04T12:17:19Z"
 }

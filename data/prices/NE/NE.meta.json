@@ -2,14 +2,14 @@
   "ticker": "NE",
   "source": "yahoo",
   "firstDate": "2021-06-09",
-  "lastDate": "2026-09-02",
-  "records": 1314,
+  "lastDate": "2026-09-03",
+  "records": 1315,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-04",
+  "lastCorporateActionDate": "2026-09-03",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:cb0e844a88d1b0436bb9d422ae6b23b4488c8f9e75ddf40bde463dfb9e25e736",
-  "priceDataHash": "sha256:15e68fdae2558ea454200304ae23610b34b8461560866c7b0a405d67e73d87f8",
+  "corporateActionHash": "sha256:f7311b7f561de7448c83da14d3c1862444d357c35ed197464c099774c6e71a0a",
+  "priceDataHash": "sha256:9fb37cddf18a00e24d8716180d4747e8ba641fe3a4973ffbc14b3562a5b86ded",
   "lastFullValidationAt": "2026-08-28T23:35:10Z",
-  "updatedAt": "2026-09-03T12:24:46Z"
+  "updatedAt": "2026-09-04T12:23:41Z"
 }
