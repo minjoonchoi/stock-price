@@ -2,14 +2,14 @@
   "ticker": "DASH",
   "source": "yahoo",
   "firstDate": "2020-12-09",
-  "lastDate": "2026-09-03",
-  "records": 1440,
+  "lastDate": "2026-09-04",
+  "records": 1441,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:152426d9661c13042196863950b05565f5aa57439e1ddb869bc340025d1867ee",
+  "priceDataHash": "sha256:d156fbb36464e8e43b13dbf157c49bf429695a3287712c5547cdbf7d31418138",
   "lastFullValidationAt": "2026-09-03T17:29:40Z",
-  "updatedAt": "2026-09-04T05:59:30Z"
+  "updatedAt": "2026-09-05T05:40:24Z"
 }

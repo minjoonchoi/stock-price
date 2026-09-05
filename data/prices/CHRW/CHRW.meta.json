@@ -2,14 +2,14 @@
   "ticker": "CHRW",
   "source": "yahoo",
   "firstDate": "1997-10-16",
-  "lastDate": "2026-09-03",
-  "records": 7251,
+  "lastDate": "2026-09-04",
+  "records": 7252,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-05",
+  "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2005-10-17",
-  "corporateActionHash": "sha256:b2bb46a7eaa56bf25b8d9c6bb1eeaed94e27c59724afaf281d3dfe1d39f794fa",
-  "priceDataHash": "sha256:55373c3c151f01827d01447dd30fe20f2e9a2e57bced03fe75d010984bd19a04",
+  "corporateActionHash": "sha256:2ab85bb9b551ed52f01183da6d4d810a9a4a1c41ef1093d2c70926d912b15e3f",
+  "priceDataHash": "sha256:ac0fac172f2c3a4c6940a9dc3013ef1ee31571075bce345e20955a1afcdb32e4",
   "lastFullValidationAt": "2026-09-03T17:23:08Z",
-  "updatedAt": "2026-09-04T05:56:08Z"
+  "updatedAt": "2026-09-05T05:37:02Z"
 }
