@@ -2,14 +2,14 @@
   "ticker": "ONB",
   "source": "yahoo",
   "firstDate": "1984-06-20",
-  "lastDate": "2026-09-03",
-  "records": 10301,
+  "lastDate": "2026-09-04",
+  "records": 10302,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-05",
+  "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2005-01-03",
-  "corporateActionHash": "sha256:b034e9a093882c9fb8def8c9ddee26244eb0eb4f2d95cec945b31166513a097c",
-  "priceDataHash": "sha256:8e4d53037b5271a1368c26a4fed07af0e4439d91548be9a7d63255456c7d7d9f",
+  "corporateActionHash": "sha256:39dd7aadd9cd6df61e35e106c633c02c4a81afe93e2620de552ad77f3bed4c2f",
+  "priceDataHash": "sha256:0ebcc59c9caaf97bb40cf1631d985f37f6cd5767aa9988420a1f617497a80a84",
   "lastFullValidationAt": "2026-09-02T17:16:01Z",
-  "updatedAt": "2026-09-04T16:55:30Z"
+  "updatedAt": "2026-09-05T15:59:43Z"
 }

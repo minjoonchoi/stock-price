@@ -2,14 +2,14 @@
   "ticker": "NTRS",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-03",
-  "records": 11648,
+  "lastDate": "2026-09-04",
+  "records": 11639,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-05",
+  "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1999-12-10",
-  "corporateActionHash": "sha256:171b71a0eb2452d3d37aa9b603cb5df7bf32359610d587b4f8bce61eefc2a7a4",
-  "priceDataHash": "sha256:67f2e7b7daa5c58b134929461d1add3dfc3f8110cf714f1ac939b640b073d99f",
-  "lastFullValidationAt": "2026-08-29T07:49:40Z",
-  "updatedAt": "2026-09-04T16:54:14Z"
+  "corporateActionHash": "sha256:1729fa3de866eb215d0cd6f002a0e18287427330c1c70cf17e2476fc3956e8a1",
+  "priceDataHash": "sha256:1ed015708a9f076fd4b2c17d14894aa33f0d02207cd62e6f22269202bd981fc8",
+  "lastFullValidationAt": "2026-09-05T15:58:23Z",
+  "updatedAt": "2026-09-05T15:58:23Z"
 }

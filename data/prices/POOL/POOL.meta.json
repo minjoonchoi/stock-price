@@ -2,14 +2,14 @@
   "ticker": "POOL",
   "source": "yahoo",
   "firstDate": "1995-10-13",
-  "lastDate": "2026-09-03",
-  "records": 7743,
+  "lastDate": "2026-09-04",
+  "records": 7744,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "2004-09-13",
   "corporateActionHash": "sha256:6414dcaee0a555b56caa49ded23bb59a966d4d0e3d10417b7d3064bea1ff235c",
-  "priceDataHash": "sha256:6edab3eb358a9b06c28ae8934e5390b2119284f3a137c598a10863a450a42c63",
+  "priceDataHash": "sha256:219a8bd28290d944cd1a4bb1c903dac4b37fd86349138b1af25279de15c0b640",
   "lastFullValidationAt": "2026-09-02T17:21:31Z",
-  "updatedAt": "2026-09-04T16:58:16Z"
+  "updatedAt": "2026-09-05T16:02:31Z"
 }

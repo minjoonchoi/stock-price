@@ -2,14 +2,14 @@
   "ticker": "PFE",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-09-03",
-  "records": 13575,
+  "lastDate": "2026-09-04",
+  "records": 13576,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-24",
   "lastSplitDate": "2020-11-17",
   "corporateActionHash": "sha256:4742d39acc0c6f244d89f7dde727e1b42f7b44cbb31004bd7125dbedb8c3b570",
-  "priceDataHash": "sha256:6524b4027cf156cfcf574ebcf31403d8322c1ef8b77c7827b9f62618ee8726f5",
+  "priceDataHash": "sha256:b153ce0ed30785304a02721f8803981328974f67344f43ce8553360df5a8d3d1",
   "lastFullValidationAt": "2026-09-02T17:19:21Z",
-  "updatedAt": "2026-09-04T16:57:10Z"
+  "updatedAt": "2026-09-05T16:01:23Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TPC",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-09-03",
-  "records": 13440,
+  "lastDate": "2026-09-04",
+  "records": 13441,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9009200ec4167b848e9cdc25afb53b6e5e7145a565f9bea58ba41b6af743df57",
-  "priceDataHash": "sha256:05732b281059e94442d5781cff88a535af8cf86bfbf334c403062c7969c510a5",
+  "priceDataHash": "sha256:6c3ea8b307a5d1f91764812d6b77a9722f0a813b18a062296faa4bb0f6d8c586",
   "lastFullValidationAt": "2026-09-02T17:38:43Z",
-  "updatedAt": "2026-09-04T17:07:02Z"
+  "updatedAt": "2026-09-05T16:11:25Z"
 }
