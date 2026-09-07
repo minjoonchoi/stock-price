@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-08-31",
+  "runId": "2026-09-07",
   "minMarketCap": 300000000,
-  "totalTickers": 10391,
-  "processedTickers": 4000,
-  "lastProcessedTicker": "GLIBA",
-  "cursorIndex": 4000,
+  "totalTickers": 10412,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAKR",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:3b190e2007e6bd2c52d4b4526b292425fcbe18362ad7f63f4518971bbbf717f2",
+  "secTickerHash": "sha256:491a666676aed9bedb201a69c3e62e9931d23f9721cc433c34038ab8d21a1beb",
   "shardCount": 1,
-  "startedAt": "2026-08-31T01:10:54Z",
-  "updatedAt": "2026-08-31T22:29:34Z"
+  "startedAt": "2026-09-07T00:36:08Z",
+  "updatedAt": "2026-09-07T02:16:08Z"
 }
