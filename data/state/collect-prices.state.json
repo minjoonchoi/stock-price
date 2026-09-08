@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-09-05",
+  "runId": "2026-09-08",
   "totalTargets": 1591,
-  "processedTargets": 1591,
-  "lastProcessedTicker": "ZYME",
-  "cursorIndex": 1591,
-  "completed": true,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ESAB",
+  "cursorIndex": 500,
+  "completed": false,
   "secTickerHash": "sha256:491a666676aed9bedb201a69c3e62e9931d23f9721cc433c34038ab8d21a1beb",
-  "universeHash": "sha256:1f85da187ebf4f1e61bdafc8110a9dcdc09ee66cefe1af697d2d816062258e76",
+  "universeHash": "sha256:3b098ea65274604c2226ceab8c9b5f91661f3ec9937d7a2ae67e4c9ba4cbf92d",
   "shardCount": 1,
-  "startedAt": "2026-09-05T05:26:52Z",
-  "updatedAt": "2026-09-05T19:03:11Z"
+  "startedAt": "2026-09-08T05:50:34Z",
+  "updatedAt": "2026-09-08T06:07:21Z"
 }
