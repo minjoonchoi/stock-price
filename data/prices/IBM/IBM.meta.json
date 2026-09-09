@@ -2,14 +2,14 @@
   "ticker": "IBM",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-04",
-  "records": 16215,
+  "lastDate": "2026-09-08",
+  "records": 16216,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "2021-11-04",
   "corporateActionHash": "sha256:3995271e53132b41d1171e42b66383d7b8261fb44ca8dc1cbb44efb505a11573",
-  "priceDataHash": "sha256:f385d835961d746d486e05b0373a45bbae76d7cbd9e00b6c43f212564b8bfd9c",
+  "priceDataHash": "sha256:59e043f9b01d9d9a24a616b0dccd441c744222b0b8bc74bbbde5b583c5cfcc71",
   "lastFullValidationAt": "2026-09-05T11:34:53Z",
-  "updatedAt": "2026-09-05T11:34:53Z"
+  "updatedAt": "2026-09-09T12:26:12Z"
 }
