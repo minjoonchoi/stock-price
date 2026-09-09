@@ -2,14 +2,14 @@
   "ticker": "AEE",
   "source": "yahoo",
   "firstDate": "1998-01-02",
-  "lastDate": "2026-09-04",
-  "records": 7194,
+  "lastDate": "2026-09-08",
+  "records": 7195,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-09",
+  "lastCorporateActionDate": "2026-09-08",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:9c275d855c7c33103ce4c0afe8a3d4a5db02b993144e0ddcfe1190aa7117ddd2",
-  "priceDataHash": "sha256:c2f277f099066d18b9923e8a56f01de7128547bafc0425e7c45240de7fafcd09",
+  "corporateActionHash": "sha256:2bc30cec7834c85dafbb28b41b6f182b7b296cc72c8a398bd28dbf4b8df841f5",
+  "priceDataHash": "sha256:a27c0fe0c9034da62d80bf7195d36a8bf255ff7183f1100a9a34b9ac1f243c94",
   "lastFullValidationAt": "2026-09-03T17:06:04Z",
-  "updatedAt": "2026-09-05T05:28:10Z"
+  "updatedAt": "2026-09-09T05:57:02Z"
 }
