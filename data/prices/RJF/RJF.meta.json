@@ -1,15 +1,15 @@
 {
   "ticker": "RJF",
   "source": "yahoo",
-  "firstDate": "1983-07-05",
-  "lastDate": "2026-09-04",
-  "records": 10513,
+  "firstDate": "1983-07-01",
+  "lastDate": "2026-09-08",
+  "records": 10534,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2021-09-22",
   "corporateActionHash": "sha256:e3fc0325a5180d894ddc2cca55bc741f82ee0f87bb2a00f58e25c1cdb774916e",
-  "priceDataHash": "sha256:e27f43332dc1a4c8b29f9d4cc00df676d90aba01bc1fb15346197605a7561f85",
-  "lastFullValidationAt": "2026-09-02T17:26:23Z",
-  "updatedAt": "2026-09-05T16:05:07Z"
+  "priceDataHash": "sha256:71e03d837dbb4e6faee79ccbc12780a0ab1d3b43eb84205dcad271ad6bf3a46b",
+  "lastFullValidationAt": "2026-09-09T17:27:10Z",
+  "updatedAt": "2026-09-09T17:27:10Z"
 }
