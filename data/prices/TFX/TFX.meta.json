@@ -2,14 +2,14 @@
   "ticker": "TFX",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-08",
-  "records": 11526,
+  "lastDate": "2026-09-09",
+  "records": 11527,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "1997-06-17",
   "corporateActionHash": "sha256:64aa393cb5e2343069874b4646d24cec2ae45649f70aff374af94fb5ea5ff35f",
-  "priceDataHash": "sha256:25bc4f57f2402839511fa14f032eb8ffd2326242b4ac51d60b205fa0c6d6a4d8",
+  "priceDataHash": "sha256:0c91ea10e67586437780e410156b0a21f4f25de7d9a744fd913b55c98c8178e0",
   "lastFullValidationAt": "2026-09-09T17:38:02Z",
-  "updatedAt": "2026-09-09T17:38:02Z"
+  "updatedAt": "2026-09-10T19:51:48Z"
 }
