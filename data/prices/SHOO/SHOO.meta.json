@@ -2,14 +2,14 @@
   "ticker": "SHOO",
   "source": "yahoo",
   "firstDate": "1993-12-13",
-  "lastDate": "2026-09-09",
-  "records": 8227,
+  "lastDate": "2026-09-10",
+  "records": 8228,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2018-10-12",
   "corporateActionHash": "sha256:f03ffe34e2801a4e24b73e23964add09e16ee04f619c65df06096292a3abe573",
-  "priceDataHash": "sha256:3f816ef2e7526af9b7c2523d0d2b4e82b94198ec86092631e0ebc6d632e75733",
+  "priceDataHash": "sha256:5fb88b54546eba8b775d500a40e864b83d79c167abc66e67aef78e79ba862dea",
   "lastFullValidationAt": "2026-09-09T17:31:30Z",
-  "updatedAt": "2026-09-10T19:48:30Z"
+  "updatedAt": "2026-09-11T17:13:17Z"
 }

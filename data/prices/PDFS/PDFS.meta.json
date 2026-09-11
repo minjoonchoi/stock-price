@@ -2,14 +2,14 @@
   "ticker": "PDFS",
   "source": "yahoo",
   "firstDate": "2001-07-31",
-  "lastDate": "2026-09-09",
-  "records": 6314,
+  "lastDate": "2026-09-10",
+  "records": 6315,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:592050820035fd4675131ee7810cedad110652fa4ccc61d7845ed795eb6f66aa",
+  "priceDataHash": "sha256:c6e13db83faad8f29fac4526bb5a17e4842bf159f1f2e9ad466cf5f8afaf14c4",
   "lastFullValidationAt": "2026-09-09T17:19:32Z",
-  "updatedAt": "2026-09-10T19:42:24Z"
+  "updatedAt": "2026-09-11T17:07:07Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "STEP",
   "source": "yahoo",
   "firstDate": "2020-09-16",
-  "lastDate": "2026-09-09",
-  "records": 1502,
+  "lastDate": "2026-09-10",
+  "records": 1503,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:42384434237b09ff40dc4e2672de5474cf350097f3b0bf577f786abb4e5bf3ef",
-  "priceDataHash": "sha256:0dc3a5ddb1d0561a23d270beae6dce0ff05fb77b31b8d48dc8866b804f8c8967",
+  "priceDataHash": "sha256:e17a82e15d158bccf2922291d7d123140b0203e4aa74aef4f38051e141d1de23",
   "lastFullValidationAt": "2026-09-09T17:35:22Z",
-  "updatedAt": "2026-09-10T19:50:28Z"
+  "updatedAt": "2026-09-11T17:15:15Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "VFC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-09",
-  "records": 11666,
+  "lastDate": "2026-09-10",
+  "records": 11667,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-10",
+  "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "2019-05-23",
-  "corporateActionHash": "sha256:74f337d09245aad7aacb28971e578637ce8ae1734b333f50db43345f290de05b",
-  "priceDataHash": "sha256:874f41fcb12343ab455fed670fab054f5eefc2ef40aaccdaf230bb0218273537",
+  "corporateActionHash": "sha256:65f0c659cb5c3c70709c2bf5a08d9822261e53ae2fff8966a42a51456f756035",
+  "priceDataHash": "sha256:22e18c334b8e95aeeac3367896b424231ec5c7bef27ec4fce1ec934f7a230fa6",
   "lastFullValidationAt": "2026-09-09T17:44:34Z",
-  "updatedAt": "2026-09-10T19:55:06Z"
+  "updatedAt": "2026-09-11T17:19:53Z"
 }
