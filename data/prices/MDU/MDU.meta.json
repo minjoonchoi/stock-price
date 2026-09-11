@@ -2,14 +2,14 @@
   "ticker": "MDU",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-09-09",
-  "records": 13323,
+  "lastDate": "2026-09-10",
+  "records": 13324,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-11",
+  "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "2024-11-01",
-  "corporateActionHash": "sha256:4e8e6c0a5e330ea54cd43699b15053dbd48c9a1bc090e8af0905a25589f894f7",
-  "priceDataHash": "sha256:a4e9899a98318342921bc3a6c07b063399466e7e939109a5bfca304485ba051d",
+  "corporateActionHash": "sha256:81cd4e5984f5d5d9db7b614c5de18acaa1abfdef09d26cfdc6fa66089f2bb899",
+  "priceDataHash": "sha256:1c71e173e75d48a890b51ba194663e6162082c49c025d657d5d3fab9a6427b46",
   "lastFullValidationAt": "2026-09-05T11:46:55Z",
-  "updatedAt": "2026-09-10T17:16:55Z"
+  "updatedAt": "2026-09-11T12:28:45Z"
 }

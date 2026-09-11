@@ -2,14 +2,14 @@
   "ticker": "MS",
   "source": "yahoo",
   "firstDate": "1993-02-23",
-  "lastDate": "2026-09-09",
-  "records": 8436,
+  "lastDate": "2026-09-10",
+  "records": 8437,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2000-01-27",
   "corporateActionHash": "sha256:f0adee2712423cdce9c434ad969f94984e6edec15eca3d7de8f51ec855d7dbf1",
-  "priceDataHash": "sha256:c4fa4d22a577a49b200be99c414e069441330bd6a9fe8d6176360381ab9af18c",
+  "priceDataHash": "sha256:d04fe12590683d1d964868f0073a2c0280f8caa446e6f5da7ce93d453c9b9ea4",
   "lastFullValidationAt": "2026-09-05T11:49:51Z",
-  "updatedAt": "2026-09-10T17:18:27Z"
+  "updatedAt": "2026-09-11T12:30:15Z"
 }

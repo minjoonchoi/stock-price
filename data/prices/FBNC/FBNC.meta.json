@@ -2,14 +2,14 @@
   "ticker": "FBNC",
   "source": "yahoo",
   "firstDate": "1987-04-30",
-  "lastDate": "2026-09-09",
-  "records": 9789,
+  "lastDate": "2026-09-10",
+  "records": 9790,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2004-11-16",
   "corporateActionHash": "sha256:23efce6ff6b2c7a3551f312f971180a88ddecfcb855cc25eaa58bd129581c9b3",
-  "priceDataHash": "sha256:7bb165275ba9836fca66e94920f1f3ad6cd650ae973afb4c4422b7a87b36d328",
+  "priceDataHash": "sha256:b463bf1fa2afdb5fdc03fdead29ec0124f8200510ab707c4d0c7a99c63d53197",
   "lastFullValidationAt": "2026-09-05T11:23:09Z",
-  "updatedAt": "2026-09-10T17:04:41Z"
+  "updatedAt": "2026-09-11T12:16:23Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "IVT",
   "source": "yahoo",
   "firstDate": "2014-02-27",
-  "lastDate": "2026-09-09",
-  "records": 3112,
+  "lastDate": "2026-09-10",
+  "records": 3113,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2021-08-06",
   "corporateActionHash": "sha256:3dcc4ce4ec8b90d80bea082e1e77f5d10797622e2cc66c319cbc6177ea3481bf",
-  "priceDataHash": "sha256:ec463ec114d11b0990f04e7b8038865ba9e5ba63ac72e920b8acaf0f093e9557",
+  "priceDataHash": "sha256:a7a55e7516c73386ffd633f4bf3f89489ae7ac54cb380031ce9db6169f8b6726",
   "lastFullValidationAt": "2026-09-05T11:38:07Z",
-  "updatedAt": "2026-09-10T17:12:23Z"
+  "updatedAt": "2026-09-11T12:24:11Z"
 }
