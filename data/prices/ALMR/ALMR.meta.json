@@ -2,14 +2,14 @@
   "ticker": "ALMR",
   "source": "yahoo",
   "firstDate": "2026-04-17",
-  "lastDate": "2026-09-09",
-  "records": 100,
+  "lastDate": "2026-09-10",
+  "records": 101,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:868817b44de689bfb34a04680134ad8ea9428794e5c5400646c968070f778d54",
+  "priceDataHash": "sha256:b2efc4d0722ce20fc6cfbc7325ae82ff67c4f170d746a491e2fbb766c09362e9",
   "lastFullValidationAt": "2026-09-10T12:16:02Z",
-  "updatedAt": "2026-09-10T12:16:02Z"
+  "updatedAt": "2026-09-11T05:50:38Z"
 }
