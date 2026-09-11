@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-11",
   "totalTargets": 1593,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VOYA",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1593,
+  "lastProcessedTicker": "ZYME",
+  "cursorIndex": 1593,
+  "completed": true,
   "secTickerHash": "sha256:1693974d2115fdad01546af5fd789199c74c569f90328147cd09fddf43215d2a",
   "universeHash": "sha256:aa62ebba0a12cb7137f4065eaa8d0951765115c7715e4ac45a4068996f531fc4",
   "shardCount": 1,
   "startedAt": "2026-09-11T05:45:54Z",
-  "updatedAt": "2026-09-11T17:20:31Z"
+  "updatedAt": "2026-09-11T19:55:19Z"
 }
