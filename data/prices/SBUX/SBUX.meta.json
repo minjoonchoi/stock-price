@@ -2,14 +2,14 @@
   "ticker": "SBUX",
   "source": "yahoo",
   "firstDate": "1992-06-26",
-  "lastDate": "2026-09-10",
-  "records": 8603,
+  "lastDate": "2026-09-11",
+  "records": 8604,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2015-04-09",
   "corporateActionHash": "sha256:ed955399ffdeaa496607ad384cf84333c449170623508881f9dbeadc208c23c3",
-  "priceDataHash": "sha256:1134b83dc6d8f33db38f9fa4fdd522b76ee1e63753740179b2fdc463639d9443",
+  "priceDataHash": "sha256:ddd52ade92e0d46e0601142ac8b5a37be9a7cd98d795e3cd6b5ebb8c5b1e3dda",
   "lastFullValidationAt": "2026-09-09T17:30:22Z",
-  "updatedAt": "2026-09-11T17:12:39Z"
+  "updatedAt": "2026-09-12T16:20:17Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "THG",
   "source": "yahoo",
   "firstDate": "1995-10-11",
-  "lastDate": "2026-09-10",
-  "records": 7746,
+  "lastDate": "2026-09-11",
+  "records": 7747,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-12",
+  "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:df105a8823adec50ebbff994dc367630b1544871fe9d72de5278b019575077f3",
-  "priceDataHash": "sha256:ec4d54de04968b447761954881dc44a522e1ba689c5e686d9eb60ba0c9a5dd93",
+  "corporateActionHash": "sha256:fe98b3a1f92434b10ae4d1d2a38da486863ea06fc925955be6d6d2e153598c88",
+  "priceDataHash": "sha256:056fdcbe58d9b1d0c269778cba121fd6be2e9fc5f76dff64e3d89d8945f21cbf",
   "lastFullValidationAt": "2026-09-09T17:38:18Z",
-  "updatedAt": "2026-09-11T17:16:43Z"
+  "updatedAt": "2026-09-12T16:24:29Z"
 }
