@@ -2,14 +2,14 @@
   "ticker": "ESI",
   "source": "yahoo",
   "firstDate": "2013-10-22",
-  "lastDate": "2026-09-10",
-  "records": 3240,
+  "lastDate": "2026-09-11",
+  "records": 3241,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5db4c69a8d237eb961412b9ef6b691cef35f41b6354b715965cdb80ceaa397b4",
-  "priceDataHash": "sha256:594d7e8d37ff58509dc1d48b515c3eee81700e6d0a33ecfb1c8c1429ca5229fb",
+  "priceDataHash": "sha256:2f5abc7a53db1d12da6c760b48aac0e96940a0892f88dc9594ffbc7d41125c65",
   "lastFullValidationAt": "2026-09-11T12:15:03Z",
-  "updatedAt": "2026-09-11T12:15:03Z"
+  "updatedAt": "2026-09-12T11:42:05Z"
 }
