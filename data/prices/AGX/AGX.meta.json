@@ -2,14 +2,14 @@
   "ticker": "AGX",
   "source": "yahoo",
   "firstDate": "1995-08-18",
-  "lastDate": "2026-09-10",
-  "records": 7689,
+  "lastDate": "2026-09-11",
+  "records": 7690,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-23",
   "lastSplitDate": "2001-10-09",
   "corporateActionHash": "sha256:4e784f093cf2ff3b40ed572e451033d2205cfa2e2100bc697dbf29679d24467c",
-  "priceDataHash": "sha256:d32743f6e7e786b828f2b7e0abf94f5ccec3a61cab7916bc7b126247f908a574",
+  "priceDataHash": "sha256:1405569fd6603d64ea133d514afc2240d7a33435ca3471651bd77f3085e20d12",
   "lastFullValidationAt": "2026-09-11T05:49:04Z",
-  "updatedAt": "2026-09-11T05:49:04Z"
+  "updatedAt": "2026-09-12T05:37:17Z"
 }
