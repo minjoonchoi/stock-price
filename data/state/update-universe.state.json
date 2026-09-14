@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-09-07",
+  "runId": "2026-09-14",
   "minMarketCap": 300000000,
-  "totalTickers": 10412,
-  "processedTickers": 4000,
-  "lastProcessedTicker": "GLEI",
-  "cursorIndex": 4000,
+  "totalTickers": 10426,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAKR",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:491a666676aed9bedb201a69c3e62e9931d23f9721cc433c34038ab8d21a1beb",
+  "secTickerHash": "sha256:fb8d53da4f9cc9db10708b75876c1ed0a255f93d6618990da936bcc58ee72a23",
   "shardCount": 1,
-  "startedAt": "2026-09-07T00:36:08Z",
-  "updatedAt": "2026-09-07T20:52:27Z"
+  "startedAt": "2026-09-14T00:43:57Z",
+  "updatedAt": "2026-09-14T02:23:57Z"
 }
