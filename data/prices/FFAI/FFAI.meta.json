@@ -2,14 +2,14 @@
   "ticker": "FFAI",
   "source": "yahoo",
   "firstDate": "2020-09-02",
-  "lastDate": "2026-09-11",
-  "records": 1513,
+  "lastDate": "2026-09-14",
+  "records": 1514,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-24",
   "lastSplitDate": "2026-07-24",
   "corporateActionHash": "sha256:402efca29b2d918442298c5fbb2dbcb62f49153b05923dd885f6b3202ae794a1",
-  "priceDataHash": "sha256:a83debd2b929129cd5530db671d576eaa44f5212b7e3ec522e08117ddb9a4cce",
+  "priceDataHash": "sha256:475bc4ff2d9bef9c4435bcf4de959b5b402a7892c2d652bc5dec80f8eca5b349",
   "lastFullValidationAt": "2026-09-09T12:20:28Z",
-  "updatedAt": "2026-09-12T11:44:29Z"
+  "updatedAt": "2026-09-15T12:40:13Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "INSM",
   "source": "yahoo",
   "firstDate": "2000-06-01",
-  "lastDate": "2026-09-11",
-  "records": 6609,
+  "lastDate": "2026-09-14",
+  "records": 6610,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-03-03",
   "lastSplitDate": "2011-03-03",
   "corporateActionHash": "sha256:4c843a9b0f6102ddb3387ef284ca3fc52a61f981286af953fc94d87147f34c49",
-  "priceDataHash": "sha256:b5b57868c13ed4630e6dda442091ed36171d6963860fa277347611ba0e6c662e",
+  "priceDataHash": "sha256:ee38a513c45104a2fbabfa7c6c3e9aa5cfa31233404bd5bdc3e495514fc1dbb1",
   "lastFullValidationAt": "2026-09-12T11:56:57Z",
-  "updatedAt": "2026-09-12T11:56:57Z"
+  "updatedAt": "2026-09-15T12:46:35Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FDX",
   "source": "yahoo",
   "firstDate": "1978-04-12",
-  "lastDate": "2026-09-11",
-  "records": 12180,
+  "lastDate": "2026-09-14",
+  "records": 12181,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-22",
+  "lastCorporateActionDate": "2026-09-14",
   "lastSplitDate": "2026-06-01",
-  "corporateActionHash": "sha256:88cb8f3c6cc1cc5d969341042c7d8e1a70290891b626d9ff78c2031795ab6c85",
-  "priceDataHash": "sha256:efadbe6f486ac4755bdc7804aab22fe2fff3439c62d9524f2098ae7e9bb752da",
+  "corporateActionHash": "sha256:32d070a238cd98eb6f16e2328403a60084ddd6bdec3118e621b9c6b7461fe659",
+  "priceDataHash": "sha256:7bedc3b57935603902060aa47470722c50a5e1d8dff38afce4240c2245c8e1dc",
   "lastFullValidationAt": "2026-09-12T11:44:15Z",
-  "updatedAt": "2026-09-12T11:44:15Z"
+  "updatedAt": "2026-09-15T12:40:05Z"
 }

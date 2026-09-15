@@ -2,14 +2,14 @@
   "ticker": "HR",
   "source": "yahoo",
   "firstDate": "1993-05-27",
-  "lastDate": "2026-09-11",
-  "records": 8306,
+  "lastDate": "2026-09-14",
+  "records": 8307,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-11",
   "lastSplitDate": "2014-12-16",
   "corporateActionHash": "sha256:f625a9fb8b604a7d52b43133c81d466a6ba611081831d2a47f4c194613c4534e",
-  "priceDataHash": "sha256:421a7094541106cdbb9c8ae49a4940d467f066a826d22afe5bb3d1836ba12cab",
+  "priceDataHash": "sha256:c6c8604e55390c401ff794bbea8f072cdd5d2cb05eb74fde8cf02a05a6b8f45c",
   "lastFullValidationAt": "2026-09-12T11:53:53Z",
-  "updatedAt": "2026-09-12T11:53:53Z"
+  "updatedAt": "2026-09-15T12:45:01Z"
 }
