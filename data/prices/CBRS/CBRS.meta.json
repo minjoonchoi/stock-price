@@ -2,14 +2,14 @@
   "ticker": "CBRS",
   "source": "yahoo",
   "firstDate": "2026-05-14",
-  "lastDate": "2026-09-11",
-  "records": 83,
+  "lastDate": "2026-09-14",
+  "records": 84,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2637fef551f7d21a2c5dd00f625aac455ba99f93430bc1317e7cee38156cacfe",
+  "priceDataHash": "sha256:2ab0cdfe76bf3f1d3f7bf52d3f949381327e14507e6738f38b5c3c66e8206987",
   "lastFullValidationAt": "2026-09-11T06:03:30Z",
-  "updatedAt": "2026-09-12T05:44:36Z"
+  "updatedAt": "2026-09-15T06:15:35Z"
 }
