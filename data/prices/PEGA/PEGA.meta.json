@@ -2,14 +2,14 @@
   "ticker": "PEGA",
   "source": "yahoo",
   "firstDate": "1996-07-19",
-  "lastDate": "2026-09-11",
-  "records": 7582,
+  "lastDate": "2026-09-14",
+  "records": 7583,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "2025-06-23",
   "corporateActionHash": "sha256:5f0d332a1241cff0630a3766aef810bb1a7e276bb7a625117103809c05bc6d7f",
-  "priceDataHash": "sha256:3d81c98b0f69082d6a0cd653668484f718b7858eab11602b84c7727701652816",
+  "priceDataHash": "sha256:c27f74b826d9e936a60d9c956526c436508b403cb98b577861b0ba3923591c82",
   "lastFullValidationAt": "2026-09-09T17:19:48Z",
-  "updatedAt": "2026-09-12T16:14:47Z"
+  "updatedAt": "2026-09-15T17:43:35Z"
 }
