@@ -2,14 +2,14 @@
   "ticker": "ZBIO",
   "source": "yahoo",
   "firstDate": "2024-09-13",
-  "lastDate": "2026-09-11",
-  "records": 500,
+  "lastDate": "2026-09-15",
+  "records": 502,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3dc49e72dbc97e1cd58f6b4501d9ae5fcc22e78ba4faf4353004372fa96995a6",
+  "priceDataHash": "sha256:085af4271bfeb33a8e1f8e9965ccb9054dbe4a8c15abbdf9a45ed0d4686d6fc2",
   "lastFullValidationAt": "2026-09-11T19:54:41Z",
-  "updatedAt": "2026-09-12T19:12:40Z"
+  "updatedAt": "2026-09-16T05:52:16Z"
 }

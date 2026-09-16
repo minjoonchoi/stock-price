@@ -2,14 +2,14 @@
   "ticker": "VRT",
   "source": "yahoo",
   "firstDate": "2018-08-02",
-  "lastDate": "2026-09-11",
-  "records": 2038,
+  "lastDate": "2026-09-15",
+  "records": 2040,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-14",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:4467218d4ac28e67ce7c0fd38e742079862bcfc7137c43d30ebe090e323ebebb",
-  "priceDataHash": "sha256:5ac00c78b1387da5d5b6d24a07edb49ea982702128dbb26d663fd981bd7cf271",
+  "corporateActionHash": "sha256:bbbdc987c38d05f08a0334142ab3f2157acd5c6cf69698f967a41138d1c9b23f",
+  "priceDataHash": "sha256:273cf8f155e756a46f4ec2a7ae77451d66100d666b6a0486f3deecc680ad012a",
   "lastFullValidationAt": "2026-09-11T19:49:33Z",
-  "updatedAt": "2026-09-12T19:10:06Z"
+  "updatedAt": "2026-09-16T05:49:42Z"
 }

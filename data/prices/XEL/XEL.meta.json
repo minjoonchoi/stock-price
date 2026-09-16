@@ -2,14 +2,14 @@
   "ticker": "XEL",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-09-11",
-  "records": 13275,
+  "lastDate": "2026-09-15",
+  "records": 13277,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "1998-06-02",
-  "corporateActionHash": "sha256:d312df7fedf8f76bad1f452dec663e7e74a1e7f55b2d9aff9164a2ed75b8fa52",
-  "priceDataHash": "sha256:af4c11969cc71543c8fec62ba9312487a112c9a20b510c518b66475fdb1dda68",
+  "corporateActionHash": "sha256:94e02cfa501f89672ca50d502872582a409eab3f521294cf058cdab19174e46d",
+  "priceDataHash": "sha256:83a7570af78c769486255a4846e3a206d22478c9888e63cade04ebc3d0362d6b",
   "lastFullValidationAt": "2026-09-11T19:53:42Z",
-  "updatedAt": "2026-09-12T19:12:11Z"
+  "updatedAt": "2026-09-16T05:51:46Z"
 }

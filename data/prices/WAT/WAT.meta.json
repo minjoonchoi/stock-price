@@ -2,14 +2,14 @@
   "ticker": "WAT",
   "source": "yahoo",
   "firstDate": "1995-11-17",
-  "lastDate": "2026-09-11",
-  "records": 7753,
+  "lastDate": "2026-09-15",
+  "records": 7755,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-08-28",
   "lastSplitDate": "2000-08-28",
   "corporateActionHash": "sha256:59926ec5f98b28461d523ebe9b1788bbee14a42f8ddebaf103afb6e53268bcf0",
-  "priceDataHash": "sha256:c3cc03c80afcbed00615accec8b34cf15b59ef31bc1b339fc7805da724c1324b",
+  "priceDataHash": "sha256:4a6e0bd7896ff66cc597267da8eaab43847e13b5689d6b030a9e0ac09f93885b",
   "lastFullValidationAt": "2026-09-11T19:50:37Z",
-  "updatedAt": "2026-09-12T19:10:39Z"
+  "updatedAt": "2026-09-16T05:50:14Z"
 }
