@@ -2,14 +2,14 @@
   "ticker": "MRK",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-14",
-  "records": 16176,
+  "lastDate": "2026-09-15",
+  "records": 16177,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2021-06-03",
-  "corporateActionHash": "sha256:f6f68e3a1e96cddceed9600f51a825bf5d5ae807e057e120eed2623af0184e8e",
-  "priceDataHash": "sha256:617a9f6bbe2ef309158c4a1f7cd1f6379a2c6c80a39b0cc8bde3f3969e781fc9",
+  "corporateActionHash": "sha256:08e8c0385e6a5d3db82e82449c31c75aac6599cedb592d5c0bfe7cfb319d85bc",
+  "priceDataHash": "sha256:1c50259dcf66f09c1954e7fc05bee03e9cc5322c3d11b8af0e2f9d6867cfab6d",
   "lastFullValidationAt": "2026-09-12T12:10:10Z",
-  "updatedAt": "2026-09-15T12:53:24Z"
+  "updatedAt": "2026-09-16T17:53:40Z"
 }

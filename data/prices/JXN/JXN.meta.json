@@ -2,14 +2,14 @@
   "ticker": "JXN",
   "source": "yahoo",
   "firstDate": "2021-09-01",
-  "lastDate": "2026-09-14",
-  "records": 1263,
+  "lastDate": "2026-09-15",
+  "records": 1264,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-11",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:b1a9ae50445686e114fefca54f6977951b5b26b0f617e804f8028544b004d212",
-  "priceDataHash": "sha256:c0045e9c1d1d90ef72dda7a48640fe6afedacd726421e08fa86b129b7fed9c95",
+  "corporateActionHash": "sha256:c083284f30c93c3a417f67990af0abf3a720e6930940ab6bdee0c355d9986189",
+  "priceDataHash": "sha256:d5ef4be30db72b2f65dc49623e6205ebd37f236f9a7d6237c1f49ae9741884b8",
   "lastFullValidationAt": "2026-09-12T11:59:33Z",
-  "updatedAt": "2026-09-15T12:47:55Z"
+  "updatedAt": "2026-09-16T17:47:56Z"
 }
