@@ -2,14 +2,14 @@
   "ticker": "CRBG",
   "source": "yahoo",
   "firstDate": "2022-09-16",
-  "lastDate": "2026-09-14",
-  "records": 1000,
+  "lastDate": "2026-09-15",
+  "records": 1001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-16",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e1edf8e8a85582627a2be867c88fb13f0a8384115324ab0c18979e137a4108a5",
-  "priceDataHash": "sha256:372178a500c4b1390c4bcc5ffb77e570bc7fa1d72a3f6df46a3d27d84d586b00",
+  "priceDataHash": "sha256:29c8b53830414d7815e35c61dc4f1eef6ffd81c554bb5817745e069cd98e35b7",
   "lastFullValidationAt": "2026-09-11T06:09:18Z",
-  "updatedAt": "2026-09-15T06:18:35Z"
+  "updatedAt": "2026-09-16T12:48:16Z"
 }
