@@ -2,14 +2,14 @@
   "ticker": "UCB",
   "source": "yahoo",
   "firstDate": "2002-03-21",
-  "lastDate": "2026-09-14",
-  "records": 6143,
+  "lastDate": "2026-09-16",
+  "records": 6137,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2011-06-20",
-  "corporateActionHash": "sha256:159e08428f500e4725ea6dc24b970d9f4f13ca4b8d0e144c0d13f06a37825a97",
-  "priceDataHash": "sha256:9b97520a962d201a15c21c51d836f98c69be2efcab5d1480938703910aec5170",
-  "lastFullValidationAt": "2026-09-09T17:41:52Z",
-  "updatedAt": "2026-09-15T17:54:49Z"
+  "corporateActionHash": "sha256:9dda348df37fd92fa1392e729e9a6b41cb854961f01ad920243f28d39b0e971a",
+  "priceDataHash": "sha256:9007f68d3d77f9c48e8d10d1ea220c5feba1687c2c241c34a41b5af13b669aa1",
+  "lastFullValidationAt": "2026-09-17T06:30:25Z",
+  "updatedAt": "2026-09-17T06:30:25Z"
 }

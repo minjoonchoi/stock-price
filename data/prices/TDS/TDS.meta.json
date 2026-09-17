@@ -2,14 +2,14 @@
   "ticker": "TDS",
   "source": "yahoo",
   "firstDate": "1981-12-15",
-  "lastDate": "2026-09-14",
-  "records": 11234,
+  "lastDate": "2026-09-16",
+  "records": 11257,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-16",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2012-01-25",
-  "corporateActionHash": "sha256:f3593d4b754e2a3c15eeb42a45d6e45e188fee9acd73f9e85ae73ec9606f18a6",
-  "priceDataHash": "sha256:b98c4da9307172a95543fc431912f438a7c32314a8523b846ae14b3a5ab9f1ad",
-  "lastFullValidationAt": "2026-09-09T17:37:26Z",
-  "updatedAt": "2026-09-15T17:52:35Z"
+  "corporateActionHash": "sha256:32e8a5e19f3e9fc2dc04b80072ca8638042bac7d0a656c50b7bac16a77d97c18",
+  "priceDataHash": "sha256:601ed8112225cc024fffd90e646555ccb1d8bf44a679b8bb2ed6a1911438deb9",
+  "lastFullValidationAt": "2026-09-17T06:25:59Z",
+  "updatedAt": "2026-09-17T06:25:59Z"
 }

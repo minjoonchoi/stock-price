@@ -2,14 +2,14 @@
   "ticker": "TKO",
   "source": "yahoo",
   "firstDate": "1999-10-19",
-  "lastDate": "2026-09-14",
-  "records": 6757,
+  "lastDate": "2026-09-16",
+  "records": 6761,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:c62522c10d58529056e0a83cdf0230338355c8d5525be1076c52bd1d6ec85cad",
-  "priceDataHash": "sha256:ea7888d867b1494cab474f4bc8ca5b6b634854ba632ea8a3c279101cfacd6efe",
-  "lastFullValidationAt": "2026-09-09T17:38:38Z",
-  "updatedAt": "2026-09-15T17:53:11Z"
+  "corporateActionHash": "sha256:364bf16728aac84f82a76a95811808949f5a0cc58bf0a6cc7fd063e60e18f149",
+  "priceDataHash": "sha256:dbef60cabf68880ead7380b7d9f15e4135f9fcd3ece0237fd1d034af3d80a61d",
+  "lastFullValidationAt": "2026-09-17T06:27:11Z",
+  "updatedAt": "2026-09-17T06:27:11Z"
 }

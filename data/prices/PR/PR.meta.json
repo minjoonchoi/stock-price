@@ -2,14 +2,14 @@
   "ticker": "PR",
   "source": "yahoo",
   "firstDate": "2016-04-15",
-  "lastDate": "2026-09-14",
-  "records": 2617,
+  "lastDate": "2026-09-16",
+  "records": 2620,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-16",
+  "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:16d258b73cbb1e5bdb69c7d155841398412d707674caf28be6c68cd23fc4cffc",
-  "priceDataHash": "sha256:5473babf3a49d83372cc019bcc07f9a90bbb3d0f90a2cc25c741c741fe99be7f",
-  "lastFullValidationAt": "2026-09-09T17:22:52Z",
-  "updatedAt": "2026-09-15T17:45:09Z"
+  "corporateActionHash": "sha256:b2473db4dd424ea72907debca7ae7305f0709cad7ff98ff743c10b24d58896c2",
+  "priceDataHash": "sha256:1c91ae64a4f4663e29f2233825a48abd00a5196e95626490cbe1e9c5df1a7089",
+  "lastFullValidationAt": "2026-09-17T06:11:23Z",
+  "updatedAt": "2026-09-17T06:11:23Z"
 }

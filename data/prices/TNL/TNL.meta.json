@@ -2,14 +2,14 @@
   "ticker": "TNL",
   "source": "yahoo",
   "firstDate": "2006-07-19",
-  "lastDate": "2026-09-14",
-  "records": 5066,
+  "lastDate": "2026-09-16",
+  "records": 5068,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-12",
+  "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "2018-06-01",
-  "corporateActionHash": "sha256:8cd8d73c19a9c60ce71443f18f2bf9927dbb297cae4ab2070aa8ce0d92007d03",
-  "priceDataHash": "sha256:c774510b24529bde112550dd5062463b566ac393c0821559bed2f915eea1fdc2",
-  "lastFullValidationAt": "2026-09-09T17:39:14Z",
-  "updatedAt": "2026-09-15T17:53:29Z"
+  "corporateActionHash": "sha256:40769d9a5467bf6a69fa499afc458fb628391ac5db093f5b783bf995f10817ad",
+  "priceDataHash": "sha256:43ab5dc5d65c75f60f39b634172f65be90fd7d50c84c1d222c4ee9d9836a53c2",
+  "lastFullValidationAt": "2026-09-17T06:27:47Z",
+  "updatedAt": "2026-09-17T06:27:47Z"
 }

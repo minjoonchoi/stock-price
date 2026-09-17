@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-16",
   "totalTargets": 1594,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NKTR",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VNT",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:00b4f5fc803dbb6721e9e53ef6d556d4420835909d7dd7bafbf558117a6ddb83",
   "universeHash": "sha256:4ad67032bb501ed38f4f8763a5405569f0491ddc3de495847f3d411d783c52dd",
   "shardCount": 1,
   "startedAt": "2026-09-16T12:36:06Z",
-  "updatedAt": "2026-09-16T17:55:44Z"
+  "updatedAt": "2026-09-17T06:34:15Z"
 }

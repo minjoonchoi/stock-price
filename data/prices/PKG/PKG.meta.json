@@ -2,14 +2,14 @@
   "ticker": "PKG",
   "source": "yahoo",
   "firstDate": "2000-01-28",
-  "lastDate": "2026-09-14",
-  "records": 6689,
+  "lastDate": "2026-09-16",
+  "records": 6691,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:491a7d6e870c8e0c6d62324506d93b81f7215785238227e88147847ed5223835",
-  "priceDataHash": "sha256:759a61ec555f6bf95cc6c0d66cb59acf96965eece6ff71b30c582581525cf00a",
-  "lastFullValidationAt": "2026-09-09T17:21:16Z",
-  "updatedAt": "2026-09-15T17:44:19Z"
+  "corporateActionHash": "sha256:2c0d6403b834823582a55c832f2c14351d3c92716cd236bae3270ff6f70ffa9b",
+  "priceDataHash": "sha256:6c3dfdd3acd48e030710ffda796ea14847d7cbe2dcc73058953ad55b932a50ca",
+  "lastFullValidationAt": "2026-09-17T06:09:47Z",
+  "updatedAt": "2026-09-17T06:09:47Z"
 }

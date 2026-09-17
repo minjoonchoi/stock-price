@@ -2,14 +2,14 @@
   "ticker": "RNST",
   "source": "yahoo",
   "firstDate": "1992-04-24",
-  "lastDate": "2026-09-14",
-  "records": 8580,
+  "lastDate": "2026-09-16",
+  "records": 8600,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-16",
+  "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "2006-08-29",
-  "corporateActionHash": "sha256:5d010fc7599d43306161bb5d2fe452a365ac6ec95a6eb9a33cabf1cae5cba708",
-  "priceDataHash": "sha256:645b96ecb3f5fe9f3c2e28ce1033a965fd2774889534141812e654b44b65e8ab",
-  "lastFullValidationAt": "2026-09-09T17:27:46Z",
-  "updatedAt": "2026-09-15T17:47:39Z"
+  "corporateActionHash": "sha256:61420a2dca502b9f9f69ce3bd20fde48658bddb8aa5b9bbb3f2ff1dc13532cba",
+  "priceDataHash": "sha256:da7c24a9efd78f51eb29ecc68cc5771a3960918baefffdd73a2007ae42e89af9",
+  "lastFullValidationAt": "2026-09-17T06:16:17Z",
+  "updatedAt": "2026-09-17T06:16:17Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SYBT",
   "source": "yahoo",
   "firstDate": "1993-03-24",
-  "lastDate": "2026-09-14",
-  "records": 8094,
+  "lastDate": "2026-09-16",
+  "records": 8077,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-15",
   "lastSplitDate": "2016-05-31",
   "corporateActionHash": "sha256:e3f3161652f4cf898c15ff1386408437d1745c69da3019633fbff294676b4131",
-  "priceDataHash": "sha256:0e789c2ff5b2d3eee2a1d44dcdd370942af4c611da38d49eb9d14697d073d06d",
-  "lastFullValidationAt": "2026-09-09T17:36:30Z",
-  "updatedAt": "2026-09-15T17:52:07Z"
+  "priceDataHash": "sha256:a475d588f3a572c145b17fb8426ef14a8348ce41398d116c6eb6043c605694ae",
+  "lastFullValidationAt": "2026-09-17T06:25:03Z",
+  "updatedAt": "2026-09-17T06:25:03Z"
 }
