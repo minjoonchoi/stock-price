@@ -2,14 +2,14 @@
   "ticker": "EMN",
   "source": "yahoo",
   "firstDate": "1993-12-14",
-  "lastDate": "2026-09-15",
-  "records": 8226,
+  "lastDate": "2026-09-16",
+  "records": 8227,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2011-10-04",
   "corporateActionHash": "sha256:e4205c0115d3a163508b1cd715247f6969c7f2d3fde918cd9bd325c880b5ec77",
-  "priceDataHash": "sha256:ae60140df6a7fccece33e42b391e80f50aba692ebfa8b2a9adb3f78a5c59ebab",
+  "priceDataHash": "sha256:cb8ac050c36ed8ecd9f6347772d78ffd323d7c916a70af7772218318a637cea1",
   "lastFullValidationAt": "2026-09-11T06:17:27Z",
-  "updatedAt": "2026-09-16T12:52:24Z"
+  "updatedAt": "2026-09-17T18:31:05Z"
 }

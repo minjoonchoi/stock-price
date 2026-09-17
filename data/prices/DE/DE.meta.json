@@ -2,14 +2,14 @@
   "ticker": "DE",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-09-15",
-  "records": 13549,
+  "lastDate": "2026-09-16",
+  "records": 13550,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2007-12-04",
   "corporateActionHash": "sha256:563131a918a84fad6a6370a1dffc800f831110499ebf4d7e9420c101ccf76474",
-  "priceDataHash": "sha256:b341fdb72700bff0eed8d2f05d637acd0141afe530e0beb5be42d6a3745bbdf6",
+  "priceDataHash": "sha256:87653a2eb79cd95f10aac8b9ea3f1441f21c5875cc46b68af3449304a6e69c64",
   "lastFullValidationAt": "2026-09-11T06:12:57Z",
-  "updatedAt": "2026-09-16T12:50:04Z"
+  "updatedAt": "2026-09-17T18:28:43Z"
 }
