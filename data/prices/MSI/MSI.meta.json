@@ -2,14 +2,14 @@
   "ticker": "MSI",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-15",
-  "records": 16166,
+  "lastDate": "2026-09-17",
+  "records": 16168,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-17",
+  "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "2011-01-04",
-  "corporateActionHash": "sha256:73035fe18b547e9524fda62e77f261b801b486e2511a03b8835076ad3a90402e",
-  "priceDataHash": "sha256:045af2700372655962e1bb074b2715ad8527a28691f7213c0e646fff9697f3b0",
+  "corporateActionHash": "sha256:d9f5d6cad8a9348ba3ac6520f3be8aeb9b5a43a41a32c580bf965ebf355b05a9",
+  "priceDataHash": "sha256:2c523306e7a28b814f904d0ecea0ccd6d25d40c3da1431ebd7de59e2ce4b45f3",
   "lastFullValidationAt": "2026-09-12T12:10:57Z",
-  "updatedAt": "2026-09-16T17:54:04Z"
+  "updatedAt": "2026-09-18T06:02:58Z"
 }

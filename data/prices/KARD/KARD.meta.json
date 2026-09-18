@@ -2,14 +2,14 @@
   "ticker": "KARD",
   "source": "yahoo",
   "firstDate": "2026-06-18",
-  "lastDate": "2026-09-15",
-  "records": 61,
+  "lastDate": "2026-09-17",
+  "records": 63,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f4aebba61c6d12ea8cc2e1d22c9ffbe9a3f02687ee83b9a8ea72676ce407b9e0",
+  "priceDataHash": "sha256:ade73d02228cc97b8c2657785f96b1c1dd727657694aa6f313ed972a7796f6fe",
   "lastFullValidationAt": "2026-09-12T11:59:43Z",
-  "updatedAt": "2026-09-16T17:48:04Z"
+  "updatedAt": "2026-09-18T05:57:10Z"
 }

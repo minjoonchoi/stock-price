@@ -2,14 +2,14 @@
   "ticker": "MCO",
   "source": "yahoo",
   "firstDate": "1994-10-31",
-  "lastDate": "2026-09-15",
-  "records": 8014,
+  "lastDate": "2026-09-17",
+  "records": 8016,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2005-05-19",
   "corporateActionHash": "sha256:6d684f5e21ae429e924081acf7b339d9daba6989b1bc321e66b31504f357b21e",
-  "priceDataHash": "sha256:9705fae54b63fdf0d428e0e4a80432050cfb731f4e71d09e7efb366510435a14",
+  "priceDataHash": "sha256:989a8d10893c42c2ce588342b5b4b07d1372039f9c45d179095c05d7ba924ad5",
   "lastFullValidationAt": "2026-09-12T12:07:01Z",
-  "updatedAt": "2026-09-16T17:52:02Z"
+  "updatedAt": "2026-09-18T06:00:56Z"
 }

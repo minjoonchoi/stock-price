@@ -2,14 +2,14 @@
   "ticker": "HCA",
   "source": "yahoo",
   "firstDate": "2011-03-10",
-  "lastDate": "2026-09-15",
-  "records": 3901,
+  "lastDate": "2026-09-17",
+  "records": 3903,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-16",
+  "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:87227117f95eb88c1e198d535d89e56a6dc88e3dce6c96c8170ad169991b04e5",
-  "priceDataHash": "sha256:3cc1c10ba712d76406bc674784c32737b5fa117a5196f567d2122fb341aca54a",
+  "corporateActionHash": "sha256:555968c1eec3165fc264cb73e7e0cb5ead3b8128c15fe8a4181b371b09a6c19a",
+  "priceDataHash": "sha256:4fa64055a1371ee3768bd80f36c12caf84534366bd9bebb550543439ffc1069d",
   "lastFullValidationAt": "2026-09-12T11:52:01Z",
-  "updatedAt": "2026-09-16T17:44:04Z"
+  "updatedAt": "2026-09-18T05:53:14Z"
 }

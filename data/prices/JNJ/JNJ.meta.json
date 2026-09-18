@@ -2,14 +2,14 @@
   "ticker": "JNJ",
   "source": "yahoo",
   "firstDate": "1962-01-03",
-  "lastDate": "2026-09-15",
-  "records": 16020,
+  "lastDate": "2026-09-17",
+  "records": 16022,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-25",
   "lastSplitDate": "2001-06-13",
   "corporateActionHash": "sha256:f6efceac5f7000a8863db2f048245c99fc851e2d57dadad26fbc6c53a746766a",
-  "priceDataHash": "sha256:7cdf72ef2143b896716fcd3e673fd811c36a54c0c4a49cee80094a10758090a9",
+  "priceDataHash": "sha256:9a3796274e54b082578ae7aecfe022f9576bf52eb71e422228e869637a7e0b21",
   "lastFullValidationAt": "2026-09-12T11:59:25Z",
-  "updatedAt": "2026-09-16T17:47:52Z"
+  "updatedAt": "2026-09-18T05:57:00Z"
 }

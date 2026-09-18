@@ -2,14 +2,14 @@
   "ticker": "HBAN",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-15",
-  "records": 11593,
+  "lastDate": "2026-09-17",
+  "records": 11595,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-17",
+  "lastCorporateActionDate": "2026-09-17",
   "lastSplitDate": "2000-07-12",
-  "corporateActionHash": "sha256:6053d1e7b8ed693094b9c4a3d9b3c3471da6268a00cfad874001d1e90304a61f",
-  "priceDataHash": "sha256:b0739bf08b7842a440f6220dbeb1d5a93fd6e408fdd9f96e95f781745cb32f58",
+  "corporateActionHash": "sha256:d97ee90999a22d8065e7fb8633ae6d3a9f63f7de521b3ceb03a894f15f1fbf59",
+  "priceDataHash": "sha256:8c93a0621497b9dec5a948948f14f40d9a712c4eab54d17ae7b019825da4a360",
   "lastFullValidationAt": "2026-09-12T11:51:57Z",
-  "updatedAt": "2026-09-16T17:44:02Z"
+  "updatedAt": "2026-09-18T05:53:12Z"
 }
