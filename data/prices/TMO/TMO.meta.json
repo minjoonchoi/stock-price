@@ -2,14 +2,14 @@
   "ticker": "TMO",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-16",
-  "records": 11665,
+  "lastDate": "2026-09-17",
+  "records": 11666,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "1996-06-06",
   "corporateActionHash": "sha256:5adaf0ad2df2296cb7d133d2b54d23c2b121169feadf3eb900f3891c150d0227",
-  "priceDataHash": "sha256:a73011c68837803461d703e7f50eb1eae97ad5b90ab776217e65f3d70a270cbd",
+  "priceDataHash": "sha256:12c1135d846e10bef724e5a41371f14cc76a8bafab2d13f7d0a08feff3122c9b",
   "lastFullValidationAt": "2026-09-17T06:27:31Z",
-  "updatedAt": "2026-09-17T06:27:31Z"
+  "updatedAt": "2026-09-18T12:28:43Z"
 }

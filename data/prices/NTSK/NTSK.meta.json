@@ -2,14 +2,14 @@
   "ticker": "NTSK",
   "source": "yahoo",
   "firstDate": "2025-09-18",
-  "lastDate": "2026-09-16",
-  "records": 250,
+  "lastDate": "2026-09-17",
+  "records": 251,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:67086ca25669a3c55512897e901bdf0f01576fb943169f4351ef48df02454bd5",
+  "priceDataHash": "sha256:89bbf5401b010592b9798c07847227b2c10eafe96bd1a05823512cadd8462039",
   "lastFullValidationAt": "2026-09-12T16:12:01Z",
-  "updatedAt": "2026-09-17T06:02:53Z"
+  "updatedAt": "2026-09-18T12:16:13Z"
 }
