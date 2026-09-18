@@ -2,14 +2,14 @@
   "ticker": "CRM",
   "source": "yahoo",
   "firstDate": "2004-06-23",
-  "lastDate": "2026-09-16",
-  "records": 5594,
+  "lastDate": "2026-09-17",
+  "records": 5595,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-11",
+  "lastCorporateActionDate": "2026-09-17",
   "lastSplitDate": "2013-04-18",
-  "corporateActionHash": "sha256:f65b02df51c1163b2adca4fdbd79156df47fe5f1975ef1196503e127804a4e6a",
-  "priceDataHash": "sha256:51131493dd010ac1d221a309484ee7b676c1dba5666f4cdb0e6a136381b5edac",
-  "lastFullValidationAt": "2026-09-11T06:09:44Z",
-  "updatedAt": "2026-09-17T18:27:09Z"
+  "corporateActionHash": "sha256:cc0a043814133902de0499bc8d3dd1253039faab6776374bcd39538e589cf94c",
+  "priceDataHash": "sha256:c79e036f6114df656b9bee08ec980cb0107829dd1bf5dd5db2390768f5636bd2",
+  "lastFullValidationAt": "2026-09-18T17:36:07Z",
+  "updatedAt": "2026-09-18T17:36:07Z"
 }
