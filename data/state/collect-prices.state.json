@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-19",
   "totalTargets": 1598,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VMI",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1598,
+  "lastProcessedTicker": "ZYME",
+  "cursorIndex": 1598,
+  "completed": true,
   "secTickerHash": "sha256:a914626642411ca46be14fad0459c73bd4f1058191af3bb56310acf3a8209f31",
   "universeHash": "sha256:e27bb3b05e0ff7d47b96f1ec035d5966b484742c78089d8cd870e15fee6ff07d",
   "shardCount": 1,
   "startedAt": "2026-09-19T05:41:14Z",
-  "updatedAt": "2026-09-19T16:42:46Z"
+  "updatedAt": "2026-09-19T19:27:03Z"
 }
