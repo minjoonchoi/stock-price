@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 7151,
-  "updatedAt": "2026-07-04T17:15:12Z",
-  "source": "yahoo"
+  "ticker": "IESC",
+  "source": "yahoo",
+  "firstDate": "1998-01-28",
+  "lastDate": "2026-09-18",
+  "records": 7205,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-08-24",
+  "lastSplitDate": "2026-08-24",
+  "corporateActionHash": "sha256:99a16d37575ec858f51a0f194399609e196a984cbf1885f5e620bd02d84cfbdd",
+  "priceDataHash": "sha256:78cc2e4f43d39644e7d71d9f0f24bdfb8b0bacb665b7d25f276fca23e103bff6",
+  "lastFullValidationAt": "2026-09-19T12:12:43Z",
+  "updatedAt": "2026-09-19T12:12:43Z"
 }

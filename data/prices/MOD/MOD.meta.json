@@ -1,15 +1,15 @@
 {
   "ticker": "MOD",
   "source": "yahoo",
-  "firstDate": "1982-09-20",
-  "lastDate": "2026-09-17",
-  "records": 10839,
+  "firstDate": "1982-09-21",
+  "lastDate": "2026-09-18",
+  "records": 10829,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-11-19",
   "lastSplitDate": "1993-02-22",
   "corporateActionHash": "sha256:f0b7450267567be48319032e318023cc837e8a7f7e27aa74285220f77ae51956",
-  "priceDataHash": "sha256:64c67f87f7425f55946fe040838a42fb297208bb56bb9c57a3950ae72862bd9a",
-  "lastFullValidationAt": "2026-09-12T12:09:29Z",
-  "updatedAt": "2026-09-18T06:02:14Z"
+  "priceDataHash": "sha256:0348cd40befe656e5e1bc14accbb46f7322ae2463cc5b7c8a965940cd9852343",
+  "lastFullValidationAt": "2026-09-19T12:25:57Z",
+  "updatedAt": "2026-09-19T12:25:57Z"
 }

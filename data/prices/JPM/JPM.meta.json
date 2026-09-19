@@ -2,14 +2,14 @@
   "ticker": "JPM",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-17",
-  "records": 11685,
+  "lastDate": "2026-09-18",
+  "records": 11678,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2000-06-12",
   "corporateActionHash": "sha256:5fbf9c35460570f03f4ddd21da43efb473650d4650a2db2e0c4fa94fbf1c78d5",
-  "priceDataHash": "sha256:68727796bd88dfd674665dcab9af865b2e39a013581ba6e25b5afdfb9da33850",
-  "lastFullValidationAt": "2026-09-12T11:59:29Z",
-  "updatedAt": "2026-09-18T05:57:02Z"
+  "priceDataHash": "sha256:807df7c8fcf013de2351fa2aaf282cd2d7f0ab2fbc84b8baba0883586367dcd0",
+  "lastFullValidationAt": "2026-09-19T12:15:57Z",
+  "updatedAt": "2026-09-19T12:15:57Z"
 }
