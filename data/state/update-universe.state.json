@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-09-14",
+  "runId": "2026-09-21",
   "minMarketCap": 300000000,
-  "totalTickers": 10426,
-  "processedTickers": 4000,
-  "lastProcessedTicker": "GLG",
-  "cursorIndex": 4000,
+  "totalTickers": 10438,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BALY",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:fb8d53da4f9cc9db10708b75876c1ed0a255f93d6618990da936bcc58ee72a23",
+  "secTickerHash": "sha256:a914626642411ca46be14fad0459c73bd4f1058191af3bb56310acf3a8209f31",
   "shardCount": 1,
-  "startedAt": "2026-09-14T00:43:57Z",
-  "updatedAt": "2026-09-14T21:35:57Z"
+  "startedAt": "2026-09-21T00:46:52Z",
+  "updatedAt": "2026-09-21T02:26:52Z"
 }
