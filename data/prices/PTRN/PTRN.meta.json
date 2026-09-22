@@ -2,14 +2,14 @@
   "ticker": "PTRN",
   "source": "yahoo",
   "firstDate": "2025-09-19",
-  "lastDate": "2026-09-18",
-  "records": 251,
+  "lastDate": "2026-09-21",
+  "records": 252,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:43d1d292c716f2e06a8ddd5775c554b3332232a8ca4f7c66d4871044994aeb6a",
+  "priceDataHash": "sha256:113d2a3485a1e4e577e13db5c5be1b2af6636945858dc5f8576abbb6703cf249",
   "lastFullValidationAt": "2026-09-17T06:12:41Z",
-  "updatedAt": "2026-09-19T16:31:24Z"
+  "updatedAt": "2026-09-22T17:47:04Z"
 }

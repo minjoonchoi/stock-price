@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-22",
   "totalTargets": 1598,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NKE",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VMI",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:5b0d30fc4907e0cfc9843841d5b08cc09febc5ec1dcc40a22993093ebb5f440c",
   "universeHash": "sha256:e27bb3b05e0ff7d47b96f1ec035d5966b484742c78089d8cd870e15fee6ff07d",
   "shardCount": 1,
   "startedAt": "2026-09-22T06:04:46Z",
-  "updatedAt": "2026-09-22T12:49:05Z"
+  "updatedAt": "2026-09-22T17:58:00Z"
 }
