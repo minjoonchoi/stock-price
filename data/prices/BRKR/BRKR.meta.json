@@ -2,14 +2,14 @@
   "ticker": "BRKR",
   "source": "yahoo",
   "firstDate": "2000-08-04",
-  "lastDate": "2026-09-18",
-  "records": 6569,
+  "lastDate": "2026-09-21",
+  "records": 6570,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-22",
+  "lastCorporateActionDate": "2026-09-21",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:26e05f1c88fc7ba0a7510d7130ac28f508b00bdbcd86abbe242d4486ffb47f72",
-  "priceDataHash": "sha256:388a71a9ec0fd9fabb2e4f6140c5bf9ea533d61c5266579aacc670c2fdf328ff",
+  "corporateActionHash": "sha256:2e59ed8e40488eff6df16f2edf8e7f30b6aa4a5ad34222f11b55d2550c79a595",
+  "priceDataHash": "sha256:0ef13d08445daf9277b03af8d56349578614cb7d6d45c7fdc8c222c42b9408df",
   "lastFullValidationAt": "2026-09-18T17:27:13Z",
-  "updatedAt": "2026-09-19T05:48:54Z"
+  "updatedAt": "2026-09-22T06:12:24Z"
 }
