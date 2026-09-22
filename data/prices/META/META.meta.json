@@ -2,14 +2,14 @@
   "ticker": "META",
   "source": "yahoo",
   "firstDate": "2012-05-18",
-  "lastDate": "2026-09-18",
-  "records": 3604,
+  "lastDate": "2026-09-21",
+  "records": 3605,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-15",
+  "lastCorporateActionDate": "2026-09-21",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1221e17e4b556eeb70680d9f74e60d04ed48c907a8f4eeeafcbcf48722686d22",
-  "priceDataHash": "sha256:49e7dd138483700b75d512157c9f8df44545c8af7bde8a0330e6e0292cbe52d2",
+  "corporateActionHash": "sha256:62dc082b371c08357274f7eb477899444e5af8fd9d7c0a226a5cda7f53f1c67e",
+  "priceDataHash": "sha256:468ce53b4bcbacc3e18611e7c2a203acc93f13ad66240f8958e0f7f96ba99b88",
   "lastFullValidationAt": "2026-09-19T12:24:17Z",
-  "updatedAt": "2026-09-19T12:24:17Z"
+  "updatedAt": "2026-09-22T12:45:51Z"
 }

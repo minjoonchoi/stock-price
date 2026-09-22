@@ -2,14 +2,14 @@
   "ticker": "HLNE",
   "source": "yahoo",
   "firstDate": "2017-03-01",
-  "lastDate": "2026-09-18",
-  "records": 2402,
+  "lastDate": "2026-09-21",
+  "records": 2403,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-18",
+  "lastCorporateActionDate": "2026-09-21",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3299b52e569bdcb58c230944ef96126608a27a5dde0802df91a92438ad0bce29",
-  "priceDataHash": "sha256:c96d49e85f78d0af1f56fcc6c7cd2bdb74dfd2a035f7c6d55bde79a9eddd32ca",
+  "corporateActionHash": "sha256:e456a285003782de63832d975df31f4fc9234d4674284b7d8d54c31427f4aac1",
+  "priceDataHash": "sha256:a2bd9c3f5077b2e66e693248e2536f90f643e1d22148b452ba5211ffc8adf8a9",
   "lastFullValidationAt": "2026-09-19T12:09:25Z",
-  "updatedAt": "2026-09-19T12:09:25Z"
+  "updatedAt": "2026-09-22T12:38:13Z"
 }

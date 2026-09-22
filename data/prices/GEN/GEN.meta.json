@@ -2,14 +2,14 @@
   "ticker": "GEN",
   "source": "yahoo",
   "firstDate": "1989-06-23",
-  "lastDate": "2026-09-18",
-  "records": 9356,
+  "lastDate": "2026-09-21",
+  "records": 9357,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "2004-12-01",
   "corporateActionHash": "sha256:b6d0d81ccfe351573c5334dc7d2782b63513dbf1055c64f0c28f57186a2a32d9",
-  "priceDataHash": "sha256:e51d34047ae2650846dec8919827b94e5315d12d057d3b0021e492d35a2e5528",
+  "priceDataHash": "sha256:e3f17f2c1165608408a661698d5deb09a566484e7b721326e93cad85f55e964b",
   "lastFullValidationAt": "2026-09-19T12:04:57Z",
-  "updatedAt": "2026-09-19T12:04:57Z"
+  "updatedAt": "2026-09-22T12:35:57Z"
 }
