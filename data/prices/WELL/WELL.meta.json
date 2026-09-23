@@ -2,14 +2,14 @@
   "ticker": "WELL",
   "source": "yahoo",
   "firstDate": "1980-03-19",
-  "lastDate": "2026-09-18",
-  "records": 11609,
+  "lastDate": "2026-09-21",
+  "records": 11610,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "1985-09-04",
   "corporateActionHash": "sha256:820c1555aab21887e844875b99bd655b0a30716d12e5d9743d14640de32ab3b9",
-  "priceDataHash": "sha256:e4e64bbb54fd206f638f68e72a80941792a377027167a4e7678ec716e9cf59a9",
+  "priceDataHash": "sha256:a6d4c2c96384cf4c0bd17dc5f159c5646a14af077ee7f777892c19318da0d362",
   "lastFullValidationAt": "2026-09-19T19:22:51Z",
-  "updatedAt": "2026-09-19T19:22:51Z"
+  "updatedAt": "2026-09-23T05:46:06Z"
 }

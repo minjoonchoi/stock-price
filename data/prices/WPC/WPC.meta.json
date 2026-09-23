@@ -2,14 +2,14 @@
   "ticker": "WPC",
   "source": "yahoo",
   "firstDate": "1998-01-21",
-  "lastDate": "2026-09-18",
-  "records": 7183,
+  "lastDate": "2026-09-21",
+  "records": 7184,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2023-11-02",
   "corporateActionHash": "sha256:330b7c877089cf99d0e5437e572b6d6239b4ae0bee5527dc594bd8c613cf8c65",
-  "priceDataHash": "sha256:76228190b2e645a5c470c3bef2c370aaf86ecc7010fe5f27ae13d60d9df010fd",
+  "priceDataHash": "sha256:2434da0ef912f68b6a06fbf148a8feae2fb1e9e78a13902f435724b974ed397f",
   "lastFullValidationAt": "2026-09-19T19:24:11Z",
-  "updatedAt": "2026-09-19T19:24:11Z"
+  "updatedAt": "2026-09-23T05:46:47Z"
 }

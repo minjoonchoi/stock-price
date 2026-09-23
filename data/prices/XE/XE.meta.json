@@ -2,14 +2,14 @@
   "ticker": "XE",
   "source": "yahoo",
   "firstDate": "2026-04-24",
-  "lastDate": "2026-09-18",
-  "records": 102,
+  "lastDate": "2026-09-21",
+  "records": 103,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:eb5f8630ccd276b6b7177717601844babbe2f21502ca635cb231809494d6baf5",
+  "priceDataHash": "sha256:0d2e7791f108c070d6921a99db42880aa8b35b06f09f26d1f399d75189880878",
   "lastFullValidationAt": "2026-09-19T19:25:19Z",
-  "updatedAt": "2026-09-19T19:25:19Z"
+  "updatedAt": "2026-09-23T05:47:20Z"
 }
