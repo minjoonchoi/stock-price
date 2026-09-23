@@ -2,14 +2,14 @@
   "ticker": "BETA",
   "source": "yahoo",
   "firstDate": "2025-11-04",
-  "lastDate": "2026-09-21",
-  "records": 220,
+  "lastDate": "2026-09-22",
+  "records": 221,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:1a85c002c6890540ed40d6e35ba861ad49eb4a4a1a10d3831ba14972d97c30a0",
+  "priceDataHash": "sha256:be70dab7e84b998a26c70019ab2df926ca67256a074a0af28a937409cc11c74a",
   "lastFullValidationAt": "2026-09-18T17:24:45Z",
-  "updatedAt": "2026-09-22T06:11:08Z"
+  "updatedAt": "2026-09-23T12:56:43Z"
 }
