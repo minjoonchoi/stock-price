@@ -2,14 +2,14 @@
   "ticker": "HON",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-21",
-  "records": 16104,
+  "lastDate": "2026-09-23",
+  "records": 16105,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2026-06-29",
   "corporateActionHash": "sha256:20a89ffb2c1aad936889a31098a21a0381e4d8310a1d02ba22c2dc815513be46",
-  "priceDataHash": "sha256:28191f50a6f86c014ebe5ff39b4cfe69ee541f61db28c8c8367a328607c7e6cb",
+  "priceDataHash": "sha256:699d3cb7ac280d9f41032be41bc7146b63e003b25f186fae1998ca0cbf200341",
   "lastFullValidationAt": "2026-09-19T12:09:53Z",
-  "updatedAt": "2026-09-22T12:38:27Z"
+  "updatedAt": "2026-09-24T12:50:55Z"
 }
