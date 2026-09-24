@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-09-23",
-  "totalTargets": 1598,
+  "runId": "2026-09-24",
+  "totalTargets": 1599,
   "processedTargets": 500,
-  "lastProcessedTicker": "ESAB",
+  "lastProcessedTicker": "ES",
   "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:8a3ca025f8e0beef0b4920b0b80140d3545616ba7df27fadc66b5dd7408ac455",
-  "universeHash": "sha256:e27bb3b05e0ff7d47b96f1ec035d5966b484742c78089d8cd870e15fee6ff07d",
+  "universeHash": "sha256:4659a33d0662f648ca2063c15092813731a9d7a80c7beb14a5bfa07a40846ee1",
   "shardCount": 1,
-  "startedAt": "2026-09-23T17:54:23Z",
-  "updatedAt": "2026-09-23T17:55:40Z"
+  "startedAt": "2026-09-24T06:02:43Z",
+  "updatedAt": "2026-09-24T06:19:25Z"
 }

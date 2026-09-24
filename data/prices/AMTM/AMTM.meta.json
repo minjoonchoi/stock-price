@@ -2,14 +2,14 @@
   "ticker": "AMTM",
   "source": "yahoo",
   "firstDate": "2024-09-24",
-  "lastDate": "2026-09-22",
-  "records": 500,
+  "lastDate": "2026-09-23",
+  "records": 501,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3e894518481418b22bf2666fb3713d871bbd144e87ae8d6c35a05b5d7f861649",
+  "priceDataHash": "sha256:268086780b3c9a72fd882e361eedafcbd46d299a0931c1a0245a50f4bbf80e8c",
   "lastFullValidationAt": "2026-09-18T17:18:15Z",
-  "updatedAt": "2026-09-23T12:53:23Z"
+  "updatedAt": "2026-09-24T06:05:47Z"
 }

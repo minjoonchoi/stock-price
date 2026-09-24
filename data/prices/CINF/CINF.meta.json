@@ -2,14 +2,14 @@
   "ticker": "CINF",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-22",
-  "records": 11524,
+  "lastDate": "2026-09-23",
+  "records": 11525,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-23",
+  "lastCorporateActionDate": "2026-09-23",
   "lastSplitDate": "2005-04-04",
-  "corporateActionHash": "sha256:0e68a29169f717e16ab9f3f0718e127b92b722b6ce1867c0bbe1a8580e47404e",
-  "priceDataHash": "sha256:cc3314eb2f91b6a65cc56b5a5cd0a422a68f30b75d86a6cf476a6215d78078e7",
+  "corporateActionHash": "sha256:5c5076ec2c46a1837a3871dadd3b221681134ef478dfbe26d855425eff10227d",
+  "priceDataHash": "sha256:d62b481fd8b690a9457f379b930238b27fb313d56edb887b18db967ff9de305e",
   "lastFullValidationAt": "2026-09-18T17:32:41Z",
-  "updatedAt": "2026-09-23T13:00:53Z"
+  "updatedAt": "2026-09-24T06:13:11Z"
 }
