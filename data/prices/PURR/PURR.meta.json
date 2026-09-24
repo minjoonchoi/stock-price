@@ -2,14 +2,14 @@
   "ticker": "PURR",
   "source": "yahoo",
   "firstDate": "2025-12-03",
-  "lastDate": "2026-09-21",
-  "records": 200,
+  "lastDate": "2026-09-23",
+  "records": 202,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ecd11f11c98948dc132db353f647c691aa23402bb4273bf3d0622d41de469e83",
-  "lastFullValidationAt": "2026-09-17T06:12:45Z",
-  "updatedAt": "2026-09-22T17:47:06Z"
+  "priceDataHash": "sha256:602a9ff79ac82a70d415944ac75b5be426f0653a4f836f0c4231ca9184efa36d",
+  "lastFullValidationAt": "2026-09-24T18:05:54Z",
+  "updatedAt": "2026-09-24T18:05:54Z"
 }
