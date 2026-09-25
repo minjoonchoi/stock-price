@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-09-24",
+  "runId": "2026-09-25",
   "totalTargets": 1599,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VMC",
-  "cursorIndex": 1500,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ES",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:8a3ca025f8e0beef0b4920b0b80140d3545616ba7df27fadc66b5dd7408ac455",
+  "secTickerHash": "sha256:215a513d60193a82e3a7160cee734e5052d3c1ccd9561bd06d32bd01718a4d36",
   "universeHash": "sha256:4659a33d0662f648ca2063c15092813731a9d7a80c7beb14a5bfa07a40846ee1",
   "shardCount": 1,
-  "startedAt": "2026-09-24T06:02:43Z",
-  "updatedAt": "2026-09-24T18:27:12Z"
+  "startedAt": "2026-09-25T06:07:19Z",
+  "updatedAt": "2026-09-25T06:24:15Z"
 }

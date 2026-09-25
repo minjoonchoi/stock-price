@@ -2,14 +2,14 @@
   "ticker": "BAX",
   "source": "yahoo",
   "firstDate": "1981-10-27",
-  "lastDate": "2026-09-23",
-  "records": 11267,
+  "lastDate": "2026-09-24",
+  "records": 11268,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2015-07-01",
   "corporateActionHash": "sha256:d66847769f6a1b97918a9cb6ceedd1303414e22dee6eb8d6c00457d9bb0d06ce",
-  "priceDataHash": "sha256:84a59edeec73eaff02a113955503c0c89b89d59a389a4aafba36cff40b54b9bb",
+  "priceDataHash": "sha256:346d536d81f97245a27829da8c4c1f2ab50cb4b429e064db87d99c843159e758",
   "lastFullValidationAt": "2026-09-18T17:23:37Z",
-  "updatedAt": "2026-09-24T06:08:31Z"
+  "updatedAt": "2026-09-25T06:13:17Z"
 }

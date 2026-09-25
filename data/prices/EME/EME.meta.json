@@ -2,14 +2,14 @@
   "ticker": "EME",
   "source": "yahoo",
   "firstDate": "1995-01-10",
-  "lastDate": "2026-09-23",
-  "records": 7979,
+  "lastDate": "2026-09-24",
+  "records": 7980,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-15",
   "lastSplitDate": "2007-07-10",
   "corporateActionHash": "sha256:63118fd6cdced60e9b768b565671452b1a83546853e71c2071f12adb013d61fd",
-  "priceDataHash": "sha256:b1f6d0652524c181a248a59c7cdaa2c5a487f48b9620123e1931f52975182a62",
+  "priceDataHash": "sha256:f75e45712ffe4dca5bb195a8aa4129f46c75812e740e4cd52abb214f8ee1592e",
   "lastFullValidationAt": "2026-09-18T17:43:41Z",
-  "updatedAt": "2026-09-24T06:18:47Z"
+  "updatedAt": "2026-09-25T06:23:37Z"
 }
