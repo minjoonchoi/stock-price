@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-25",
   "totalTargets": 1599,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NJR",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VMC",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:215a513d60193a82e3a7160cee734e5052d3c1ccd9561bd06d32bd01718a4d36",
   "universeHash": "sha256:4659a33d0662f648ca2063c15092813731a9d7a80c7beb14a5bfa07a40846ee1",
   "shardCount": 1,
   "startedAt": "2026-09-25T06:07:19Z",
-  "updatedAt": "2026-09-25T13:00:36Z"
+  "updatedAt": "2026-09-25T19:11:30Z"
 }
