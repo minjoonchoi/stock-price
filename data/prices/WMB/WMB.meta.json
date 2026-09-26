@@ -2,14 +2,14 @@
   "ticker": "WMB",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-09-21",
-  "records": 11210,
+  "lastDate": "2026-09-25",
+  "records": 11214,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "2012-01-03",
   "corporateActionHash": "sha256:e27c3a952adae1df6756c1b5d84fdfdefefec195476872a8aef40106d3efd181",
-  "priceDataHash": "sha256:22ea9fba165f3fa487569e6a6b8bc98cca292d694a968a5331cd5b667c47b2fd",
+  "priceDataHash": "sha256:17a9a9df53aebc0154bc17c9a4c185490334ad27164ed0964c9e54a8457e86fc",
   "lastFullValidationAt": "2026-09-19T19:23:51Z",
-  "updatedAt": "2026-09-23T05:46:36Z"
+  "updatedAt": "2026-09-26T06:09:10Z"
 }
