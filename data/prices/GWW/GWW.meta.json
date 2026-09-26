@@ -1,15 +1,15 @@
 {
   "ticker": "GWW",
   "source": "yahoo",
-  "firstDate": "1973-02-22",
-  "lastDate": "2026-09-24",
-  "records": 13097,
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-09-25",
+  "records": 13224,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "1998-06-15",
   "corporateActionHash": "sha256:e870d7d4becbdcd788296c6c68582beee62200ebd4e7980bdf7aed2a372ec659",
-  "priceDataHash": "sha256:1a8bcdaec5eadcd09001d3bfb566eb35f9488706f15c9532e54a168f479c6d78",
-  "lastFullValidationAt": "2026-09-19T12:07:37Z",
-  "updatedAt": "2026-09-25T12:48:52Z"
+  "priceDataHash": "sha256:7d21effb254b10709608ce5bc571d28c0705d5c8a6ded017d09c71ace972e546",
+  "lastFullValidationAt": "2026-09-26T17:12:23Z",
+  "updatedAt": "2026-09-26T17:12:23Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "FCNCA",
   "source": "yahoo",
-  "firstDate": "1986-10-22",
-  "lastDate": "2026-09-24",
-  "records": 10012,
+  "firstDate": "1986-10-29",
+  "lastDate": "2026-09-25",
+  "records": 9967,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9c3831e21f40a8c1891b17f0c4fb002450ba238ce7cc713de54defaa9c0caade",
-  "priceDataHash": "sha256:cb53fb6f3ec103484cb0bc3e05be73a0e965d15d66a0c608172d60d996294e5a",
-  "lastFullValidationAt": "2026-09-19T12:00:27Z",
-  "updatedAt": "2026-09-25T12:45:08Z"
+  "priceDataHash": "sha256:09938e25b4808bfb7a1a9640b3c44c74b28543d1268fd8088408e6efaaadf8b9",
+  "lastFullValidationAt": "2026-09-26T17:05:11Z",
+  "updatedAt": "2026-09-26T17:05:11Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "FNB",
   "source": "yahoo",
-  "firstDate": "1986-09-02",
-  "lastDate": "2026-09-24",
-  "records": 9802,
+  "firstDate": "1986-09-03",
+  "lastDate": "2026-09-25",
+  "records": 9792,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2003-05-13",
   "corporateActionHash": "sha256:69a7666e896f75d95f33573b0245f3b2e0c51d9fa592ac3bfaf22665071306d7",
-  "priceDataHash": "sha256:9e365ac33d543b15bfa7dd9689124ccad4a1f0042e758147541511ce49c5bd8d",
-  "lastFullValidationAt": "2026-09-19T12:02:15Z",
-  "updatedAt": "2026-09-25T12:46:08Z"
+  "priceDataHash": "sha256:02a9b79e726447d5ac968f5935cd7b7dbf50c748d42ecceb1a339aa241448522",
+  "lastFullValidationAt": "2026-09-26T17:07:01Z",
+  "updatedAt": "2026-09-26T17:07:01Z"
 }

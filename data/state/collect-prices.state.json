@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-09-26",
   "totalTargets": 1599,
-  "processedTargets": 500,
-  "lastProcessedTicker": "ES",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NJR",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:1e25fe1c8f5562627dad48a8eca43dd41a882887d2750b009099314f2df89171",
   "universeHash": "sha256:4659a33d0662f648ca2063c15092813731a9d7a80c7beb14a5bfa07a40846ee1",
   "shardCount": 1,
   "startedAt": "2026-09-26T12:16:58Z",
-  "updatedAt": "2026-09-26T12:49:38Z"
+  "updatedAt": "2026-09-26T17:35:25Z"
 }
