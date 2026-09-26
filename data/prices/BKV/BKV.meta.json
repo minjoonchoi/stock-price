@@ -2,14 +2,14 @@
   "ticker": "BKV",
   "source": "yahoo",
   "firstDate": "2024-09-26",
-  "lastDate": "2026-09-24",
-  "records": 500,
+  "lastDate": "2026-09-25",
+  "records": 501,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:12d6f84a97caa8e18100e3fe6d1c7322695b4b7fdbb269badc891ade542e88b5",
-  "lastFullValidationAt": "2026-09-18T17:25:53Z",
-  "updatedAt": "2026-09-25T06:14:25Z"
+  "priceDataHash": "sha256:3f747bce372507d8ee8fa0294accc5173e88746ef84a0172475193220d2a5017",
+  "lastFullValidationAt": "2026-09-26T12:30:32Z",
+  "updatedAt": "2026-09-26T12:30:32Z"
 }
