@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-09-21",
+  "runId": "2026-09-28",
   "minMarketCap": 300000000,
-  "totalTickers": 10459,
+  "totalTickers": 10428,
   "processedTickers": 1000,
-  "lastProcessedTicker": "BALY",
+  "lastProcessedTicker": "BAMXF",
   "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:5b0d30fc4907e0cfc9843841d5b08cc09febc5ec1dcc40a22993093ebb5f440c",
+  "secTickerHash": "sha256:1e25fe1c8f5562627dad48a8eca43dd41a882887d2750b009099314f2df89171",
   "shardCount": 1,
-  "startedAt": "2026-09-21T20:07:15Z",
-  "updatedAt": "2026-09-21T21:47:16Z"
+  "startedAt": "2026-09-28T06:42:04Z",
+  "updatedAt": "2026-09-28T08:22:04Z"
 }
