@@ -2,14 +2,14 @@
   "ticker": "UNM",
   "source": "yahoo",
   "firstDate": "1986-11-06",
-  "lastDate": "2026-09-24",
-  "records": 10001,
+  "lastDate": "2026-09-28",
+  "records": 10003,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-24",
   "lastSplitDate": "1997-06-03",
   "corporateActionHash": "sha256:fbfd107fb14ac53ff643e4efafe8215d8076fd2de20adbf19aec33b7b8cf95fe",
-  "priceDataHash": "sha256:77f5b6079514dd24e05eb91345b7a8fe73e705d605c872aa4548e8d95aa690d4",
+  "priceDataHash": "sha256:75f64b51bfb1b4682cb4b36577e1e5596533316b64caf4c4ecd26c6064740341",
   "lastFullValidationAt": "2026-09-24T18:24:42Z",
-  "updatedAt": "2026-09-25T19:10:14Z"
+  "updatedAt": "2026-09-29T20:40:37Z"
 }
