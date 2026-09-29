@@ -2,14 +2,14 @@
   "ticker": "DOV",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-25",
-  "records": 11605,
+  "lastDate": "2026-09-28",
+  "records": 11606,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2018-05-09",
   "corporateActionHash": "sha256:76655d43e98dfa314b742b87fee6792c28d7891a1c2e18bba4d9660efab3312d",
-  "priceDataHash": "sha256:c2ab574e1348c813c0fb1834bf4f6e1863591c6a8ee080af5d4637eb273f510a",
+  "priceDataHash": "sha256:f8bf34d33cfaaa9c52f324a748e458181efdb25f34ac6095fdc1fb6443b3ec43",
   "lastFullValidationAt": "2026-09-26T12:45:50Z",
-  "updatedAt": "2026-09-26T12:45:50Z"
+  "updatedAt": "2026-09-29T07:07:11Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "BSM",
   "source": "yahoo",
   "firstDate": "2015-04-30",
-  "lastDate": "2026-09-25",
-  "records": 2861,
+  "lastDate": "2026-09-28",
+  "records": 2862,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:b346f5874ea7c105b3d7d30670e39ce6f9c5d573ba633646351f2e671e0c1e29",
-  "priceDataHash": "sha256:6f9d693b024de3091b6ab7aef5ed1f2aa01ad7c3a5ff7a0c1603988641dfce78",
+  "priceDataHash": "sha256:535c9b11dab352ed05dadb716fbafa3a49e7c4fccf8ec21f537b897cfa97a1e5",
   "lastFullValidationAt": "2026-09-26T12:32:20Z",
-  "updatedAt": "2026-09-26T12:32:20Z"
+  "updatedAt": "2026-09-29T07:00:19Z"
 }
