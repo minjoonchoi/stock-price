@@ -2,14 +2,14 @@
   "ticker": "ABCB",
   "source": "yahoo",
   "firstDate": "1994-05-19",
-  "lastDate": "2026-09-28",
-  "records": 7989,
+  "lastDate": "2026-09-29",
+  "records": 7990,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2010-06-28",
   "corporateActionHash": "sha256:6cf5759b1af9ce4c53caea1d4fdb7206b2ebd227927fb087ad802800c886ee0b",
-  "priceDataHash": "sha256:1f57c2756bc30d33c61de3eb6abc9e251bc3ab5a808da939da321583d2768f8e",
+  "priceDataHash": "sha256:b81af2922ee62375e5d18f8bc3354031cc864207bb1e47e0b1153935a79ce8ed",
   "lastFullValidationAt": "2026-09-26T12:17:36Z",
-  "updatedAt": "2026-09-29T06:52:47Z"
+  "updatedAt": "2026-09-30T06:33:29Z"
 }

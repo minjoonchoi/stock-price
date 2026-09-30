@@ -2,14 +2,14 @@
   "ticker": "ABTC",
   "source": "yahoo",
   "firstDate": "2018-02-26",
-  "lastDate": "2026-09-28",
-  "records": 2159,
+  "lastDate": "2026-09-29",
+  "records": 2160,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2026-07-06",
   "corporateActionHash": "sha256:c82b1cf00d632649027cb59d62d12394c6d6f630a237e790731d3a5c67558f01",
-  "priceDataHash": "sha256:9a9e85ed078df0d1678ee9598e0f6204a218af4f8bb2949618e4acaf81fd749b",
+  "priceDataHash": "sha256:b215a91b47e49e3acdd111197c4e0aa4adab370abf9dc502453e2ed724a07809",
   "lastFullValidationAt": "2026-09-26T12:17:56Z",
-  "updatedAt": "2026-09-29T06:52:57Z"
+  "updatedAt": "2026-09-30T06:33:38Z"
 }

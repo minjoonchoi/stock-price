@@ -2,14 +2,14 @@
   "ticker": "DOW",
   "source": "yahoo",
   "firstDate": "2019-03-20",
-  "lastDate": "2026-09-28",
-  "records": 1892,
+  "lastDate": "2026-09-29",
+  "records": 1893,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f0f6c8ccf1961b994d1edc5eaf0597c15f9b4b3859ace987ed7a6705a3fd0f9a",
-  "priceDataHash": "sha256:582768b92119d2f6132c691107565f2d73013d29e3f1e778586fe5d029924454",
+  "priceDataHash": "sha256:18990c60773fa3ecc64f6a8b13c70ebd6f0efdc80efea9791705565b77799557",
   "lastFullValidationAt": "2026-09-26T12:45:54Z",
-  "updatedAt": "2026-09-29T07:07:13Z"
+  "updatedAt": "2026-09-30T06:47:54Z"
 }

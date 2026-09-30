@@ -2,14 +2,14 @@
   "ticker": "ADM",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-28",
-  "records": 11630,
+  "lastDate": "2026-09-29",
+  "records": 11631,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2001-08-30",
   "corporateActionHash": "sha256:ed7f682a20f2f53c2b2a3a4ea1e69c94950df237ca882fba8e56d1ddb23d536f",
-  "priceDataHash": "sha256:14dc4df84f048ef9acc9a80663aa42d6c0cc452a785da1d4e450f95f13db3fce",
+  "priceDataHash": "sha256:07798daa683e74e822e8804d548985524f4fc0d9fdff799b167780785d4c7496",
   "lastFullValidationAt": "2026-09-23T12:51:17Z",
-  "updatedAt": "2026-09-29T06:53:29Z"
+  "updatedAt": "2026-09-30T06:34:11Z"
 }

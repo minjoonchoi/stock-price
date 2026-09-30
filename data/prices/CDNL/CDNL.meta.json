@@ -2,14 +2,14 @@
   "ticker": "CDNL",
   "source": "yahoo",
   "firstDate": "2025-12-10",
-  "lastDate": "2026-09-28",
-  "records": 200,
+  "lastDate": "2026-09-29",
+  "records": 201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:cd915337fde999f57ebadd27197c7893e1cf980ee4fcdb818bea15ac0e38c18c",
+  "priceDataHash": "sha256:bb3263193ffb19802e20929b541ecf811e46c3530e0697550e86b50eb36397ac",
   "lastFullValidationAt": "2026-09-26T12:35:20Z",
-  "updatedAt": "2026-09-29T07:01:51Z"
+  "updatedAt": "2026-09-30T06:42:32Z"
 }

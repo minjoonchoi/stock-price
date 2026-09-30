@@ -2,14 +2,14 @@
   "ticker": "AOS",
   "source": "yahoo",
   "firstDate": "1983-09-30",
-  "lastDate": "2026-09-28",
-  "records": 10662,
+  "lastDate": "2026-09-29",
+  "records": 10663,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-31",
   "lastSplitDate": "2016-10-06",
   "corporateActionHash": "sha256:dace25e418933fe736a94c2d6c0311f9245c00da528b2f77613ecfd7231bd093",
-  "priceDataHash": "sha256:976ae40be51dbc7e95ec59b625336ed65c86d348208b980c95f54bafc25bd0b3",
+  "priceDataHash": "sha256:63b09bebcad895025d83cde5216bf7a8b4397926fa550dce381a4772e7de20c7",
   "lastFullValidationAt": "2026-09-26T12:23:24Z",
-  "updatedAt": "2026-09-29T06:55:47Z"
+  "updatedAt": "2026-09-30T06:36:29Z"
 }
