@@ -2,14 +2,14 @@
   "ticker": "EPR",
   "source": "yahoo",
   "firstDate": "1997-11-18",
-  "lastDate": "2026-09-29",
-  "records": 7230,
+  "lastDate": "2026-09-30",
+  "records": 7231,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-31",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:b0b4c7f8403880e17e521a3371dc40d2556951bcd7b262d6df26678b1b822778",
-  "priceDataHash": "sha256:4e32f96aa0f3d983bb7e53685502b8662982b33a3c198dbd9278e6ef5f4047ca",
+  "corporateActionHash": "sha256:efa304935f345739daa7ec7fea6a6d244de2299782e5a4f9cc6036e93f2a9098",
+  "priceDataHash": "sha256:c525cff914976c7a5b022de65120b8b1843572e2a47e17753c3177e95bcffd91",
   "lastFullValidationAt": "2026-09-26T12:49:06Z",
-  "updatedAt": "2026-09-30T06:49:33Z"
+  "updatedAt": "2026-10-01T14:48:12Z"
 }

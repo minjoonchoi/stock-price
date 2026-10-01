@@ -2,14 +2,14 @@
   "ticker": "CVBF",
   "source": "yahoo",
   "firstDate": "1983-04-04",
-  "lastDate": "2026-09-29",
-  "records": 10754,
+  "lastDate": "2026-09-30",
+  "records": 10755,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-09",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2007-01-03",
-  "corporateActionHash": "sha256:67cdf912d9c8b815d394dc15cef9ba775ff53a2fb2e612b8307135778f26b5db",
-  "priceDataHash": "sha256:7d3d5b8a0fe8e04994eed9809d48de31484faa9dbfa927064330a08baa591a21",
+  "corporateActionHash": "sha256:97ffc4c7070ca5d405575f8c2204414458bc1ed53e92d917a34ef862e54e9389",
+  "priceDataHash": "sha256:567c16744283124b4c3877c3f8ed953fe552e89aaeb9244140dbf0b4b129219c",
   "lastFullValidationAt": "2026-09-26T12:42:08Z",
-  "updatedAt": "2026-09-30T06:46:01Z"
+  "updatedAt": "2026-10-01T14:44:38Z"
 }

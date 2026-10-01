@@ -2,14 +2,14 @@
   "ticker": "APLE",
   "source": "yahoo",
   "firstDate": "2015-05-18",
-  "lastDate": "2026-09-29",
-  "records": 2853,
+  "lastDate": "2026-09-30",
+  "records": 2854,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-31",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:a9b2c61418f5f9f5df9c9836665ce6cf4bb62a71cfa642459600e6fc17ca3ac9",
-  "priceDataHash": "sha256:18f8fc96a6f59bc562fdbc091b4715cf13ddf5192d6c3bc26feec6f17b35e5e3",
+  "corporateActionHash": "sha256:e1fd1f29cd7086d63fe9e32edb25b6071d71bf5c53c1d1bf3268c1cc490e1923",
+  "priceDataHash": "sha256:f4c7a363b838199a7be0c69c1dcfbb0c86cee46bf5a1f42e696af5a81498afec",
   "lastFullValidationAt": "2026-09-26T12:23:48Z",
-  "updatedAt": "2026-09-30T06:36:40Z"
+  "updatedAt": "2026-10-01T14:35:02Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CMS",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-09-29",
-  "records": 13358,
+  "lastDate": "2026-09-30",
+  "records": 13359,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8bd7fd3edd217d6c39a34aae2ec31e834f3ba4c040dc0916a06f73c4563e74df",
-  "priceDataHash": "sha256:a99af73cb11d583ef29d3af9cef4ec638cdcdeda074a9e6d8b81d471ad6b7793",
+  "priceDataHash": "sha256:09dc60a38be8d90df141b95a64d1bd9adc2d4412e7c59dfd327aaebf929ea3c9",
   "lastFullValidationAt": "2026-09-26T12:38:12Z",
-  "updatedAt": "2026-09-30T06:44:01Z"
+  "updatedAt": "2026-10-01T14:42:36Z"
 }

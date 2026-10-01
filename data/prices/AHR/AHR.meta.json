@@ -2,14 +2,14 @@
   "ticker": "AHR",
   "source": "yahoo",
   "firstDate": "2024-02-07",
-  "lastDate": "2026-09-29",
-  "records": 663,
+  "lastDate": "2026-09-30",
+  "records": 664,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:fe0da26f11ef27c8e69581f461cbc7b4110c78fd452841b469eb1b1c4e855201",
-  "priceDataHash": "sha256:4a4c4ef1487ef654f72f2cf358c0715be78668edf6e2d5b747d1d0bf10f8fc3b",
+  "corporateActionHash": "sha256:aa1284976e95906c163c8f59fa55ac702d50c54d3dc6c16c50665474ae6e25ee",
+  "priceDataHash": "sha256:1711fff9342b9ab8f494a729dd4e38bf18a9b630ef932f6f98b53f8c6c69a87a",
   "lastFullValidationAt": "2026-09-26T12:20:18Z",
-  "updatedAt": "2026-09-30T06:34:52Z"
+  "updatedAt": "2026-10-01T14:33:14Z"
 }

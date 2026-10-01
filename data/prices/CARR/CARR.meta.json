@@ -2,14 +2,14 @@
   "ticker": "CARR",
   "source": "yahoo",
   "firstDate": "2020-03-19",
-  "lastDate": "2026-09-29",
-  "records": 1641,
+  "lastDate": "2026-09-30",
+  "records": 1642,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-21",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:311b552a969d885770762279cb2f88881b8af196cf2f37f14a00a2e32bcf4ade",
-  "priceDataHash": "sha256:530c8791e0210e7cd73bcd7b52e41ff586ad9f034a032e4c1b447a76f94ef459",
+  "priceDataHash": "sha256:bf2d2cd44141119b08ba8c104c9f02f78d87bc336d34d4830bd4da2f874ff25e",
   "lastFullValidationAt": "2026-09-26T12:34:00Z",
-  "updatedAt": "2026-09-30T06:41:50Z"
+  "updatedAt": "2026-10-01T14:40:18Z"
 }

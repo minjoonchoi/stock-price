@@ -2,14 +2,14 @@
   "ticker": "DRH",
   "source": "yahoo",
   "firstDate": "2005-05-26",
-  "lastDate": "2026-09-29",
-  "records": 5354,
+  "lastDate": "2026-09-30",
+  "records": 5355,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:4571697c81f53afb508c1fcc6b1b30b58d0c35b8371d4bc86eba59d623de1d8f",
-  "priceDataHash": "sha256:480cf66c25f68d62fc387896bfdd3998cbbb17c7058744d4a5b3c186971c369b",
+  "corporateActionHash": "sha256:d1986fb60eccd0aa7daea748d46c0df85cab656df14b498d3d7e7a27cb946f19",
+  "priceDataHash": "sha256:e0fc3572802fcf4a92aad6f647d190c677f087ac21c02fd6a05f7b9f0d5b456c",
   "lastFullValidationAt": "2026-09-26T12:46:02Z",
-  "updatedAt": "2026-09-30T06:47:58Z"
+  "updatedAt": "2026-10-01T14:46:36Z"
 }

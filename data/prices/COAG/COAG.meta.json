@@ -2,14 +2,14 @@
   "ticker": "COAG",
   "source": "yahoo",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-09-29",
-  "records": 104,
+  "lastDate": "2026-09-30",
+  "records": 105,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ac87200cbcfc46e320d9c41c41f7b5cab145927f99516130c7480e0be975ce4f",
+  "priceDataHash": "sha256:f6cabe30b48d5c9c82b21c149da99e30c25c98ebba3c0bb79ed5331b3edf9ff8",
   "lastFullValidationAt": "2026-09-26T12:38:46Z",
-  "updatedAt": "2026-09-30T06:44:18Z"
+  "updatedAt": "2026-10-01T14:42:56Z"
 }

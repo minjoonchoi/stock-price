@@ -2,14 +2,14 @@
   "ticker": "DEI",
   "source": "yahoo",
   "firstDate": "2006-10-25",
-  "lastDate": "2026-09-29",
-  "records": 5003,
+  "lastDate": "2026-09-30",
+  "records": 5004,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:df9e6e480330b46eafd676bd5b9aa210bfcf59346c873e5d1b665dabe7b33977",
-  "priceDataHash": "sha256:f5c4ac86998c4791140d78f03bebbed91a6a532844065a3f41cef4c65027cf0e",
+  "corporateActionHash": "sha256:c7e0a825854e4b52fed9d8601631189b094399740da0bef1c6cefc906a669fa9",
+  "priceDataHash": "sha256:0c94440320051b40713e49da1b1da1632d97c5d7bbe52f579dc52fe2ada163bb",
   "lastFullValidationAt": "2026-09-26T12:44:04Z",
-  "updatedAt": "2026-09-30T06:46:58Z"
+  "updatedAt": "2026-10-01T14:45:36Z"
 }

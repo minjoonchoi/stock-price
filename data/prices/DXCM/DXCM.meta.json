@@ -2,14 +2,14 @@
   "ticker": "DXCM",
   "source": "yahoo",
   "firstDate": "2005-04-14",
-  "lastDate": "2026-09-29",
-  "records": 5399,
+  "lastDate": "2026-09-30",
+  "records": 5400,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-06-13",
   "lastSplitDate": "2022-06-13",
   "corporateActionHash": "sha256:94dd9cf91c2d4d69c19268b8bf5a23c4c564afa414f00d95cbb934ca11b62404",
-  "priceDataHash": "sha256:24105d5af082d4481a54dac30e89e0a995e6ecb36c1503f7612ee4612f27af71",
+  "priceDataHash": "sha256:7ccbed44fbd8586ad768b1cf780336f91d12df4873c01a79a8cb69149cfec556",
   "lastFullValidationAt": "2026-09-26T12:46:48Z",
-  "updatedAt": "2026-09-30T06:48:22Z"
+  "updatedAt": "2026-10-01T14:47:00Z"
 }
