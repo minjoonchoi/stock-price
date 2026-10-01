@@ -2,14 +2,14 @@
   "ticker": "WSM",
   "source": "yahoo",
   "firstDate": "1983-07-07",
-  "lastDate": "2026-09-25",
-  "records": 10767,
+  "lastDate": "2026-09-30",
+  "records": 10685,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-17",
   "lastSplitDate": "2024-07-09",
   "corporateActionHash": "sha256:93a832313aec815a75a8edc2625e06929b7b1af9ac404897a0c2443d2f111bf9",
-  "priceDataHash": "sha256:b4483457ca76715f54dddcbd40134f0a8587a405a61696c9ad50af6a8a075ecf",
-  "lastFullValidationAt": "2026-09-19T19:24:31Z",
-  "updatedAt": "2026-09-26T06:09:30Z"
+  "priceDataHash": "sha256:9a2c9b964dcb6c11411faa9c91c615e59d285ae415f81af2e4b9adf79907fc24",
+  "lastFullValidationAt": "2026-10-01T07:09:14Z",
+  "updatedAt": "2026-10-01T07:09:14Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "VTR",
   "source": "yahoo",
   "firstDate": "1997-05-05",
-  "lastDate": "2026-09-25",
-  "records": 7386,
+  "lastDate": "2026-09-30",
+  "records": 7384,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2015-08-18",
-  "corporateActionHash": "sha256:a9689831916babbc095b3da771417953fd37fc0b66ad24f4a9eab095ea86512a",
-  "priceDataHash": "sha256:d1a758e982d205580dcf762fe2a126f6633bd35911be8f7582803941543b96af",
-  "lastFullValidationAt": "2026-09-19T19:21:47Z",
-  "updatedAt": "2026-09-26T06:08:08Z"
+  "corporateActionHash": "sha256:df3f671797a7f3ed29204f4ffd2c5d9d3680bf17345f2aac8246dfaee05a2740",
+  "priceDataHash": "sha256:97199d15eeedf1ee7a27c1252689ea44ceb6cf07e6eba7836e3c4dd8b9e12c2a",
+  "lastFullValidationAt": "2026-10-01T07:06:30Z",
+  "updatedAt": "2026-10-01T07:06:30Z"
 }
