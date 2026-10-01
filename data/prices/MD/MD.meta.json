@@ -2,14 +2,14 @@
   "ticker": "MD",
   "source": "yahoo",
   "firstDate": "1995-09-20",
-  "lastDate": "2026-09-29",
-  "records": 7807,
+  "lastDate": "2026-09-30",
+  "records": 7808,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-12-20",
   "lastSplitDate": "2013-12-20",
   "corporateActionHash": "sha256:245a860e395761868c91ad30d3439718f471db1ed823e0c360aefea4d9ef4a8a",
-  "priceDataHash": "sha256:32de0bbde7ea49b3c69ff961a340a23cde9a63146c7bb71c6087f179b29b4745",
+  "priceDataHash": "sha256:af76673e92080928320b5699f0d8537d36f7e5657dc34873784350acb1866b55",
   "lastFullValidationAt": "2026-09-26T17:28:35Z",
-  "updatedAt": "2026-09-30T13:47:46Z"
+  "updatedAt": "2026-10-01T20:35:17Z"
 }

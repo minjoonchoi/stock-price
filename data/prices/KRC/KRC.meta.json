@@ -2,14 +2,14 @@
   "ticker": "KRC",
   "source": "yahoo",
   "firstDate": "1997-01-29",
-  "lastDate": "2026-09-29",
-  "records": 7421,
+  "lastDate": "2026-09-30",
+  "records": 7422,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:6c6dc093f7cac1313567bf45300ba0de8d3b0527cbd1008866dfe9592b367722",
-  "priceDataHash": "sha256:6bf3203a865b9116165b9dcd28b500a985dc5f8a34b6b79203859db2fd974e3f",
+  "corporateActionHash": "sha256:9d882012a8a47a1f764def52d155953e817d54f960a26761f3ca5c35e7a1128d",
+  "priceDataHash": "sha256:ea32b7f3626c43b61801253f5f24c7fa3a881ae4d19458a28ea46269a0f75721",
   "lastFullValidationAt": "2026-09-26T17:22:35Z",
-  "updatedAt": "2026-09-30T13:44:40Z"
+  "updatedAt": "2026-10-01T20:31:59Z"
 }

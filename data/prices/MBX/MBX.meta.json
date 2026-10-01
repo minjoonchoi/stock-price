@@ -2,14 +2,14 @@
   "ticker": "MBX",
   "source": "yahoo",
   "firstDate": "2024-09-13",
-  "lastDate": "2026-09-29",
-  "records": 512,
+  "lastDate": "2026-09-30",
+  "records": 513,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e0190c96f194aa23991993587b1524c3e0b812f691e18509de977c18dfc2c857",
+  "priceDataHash": "sha256:3227750aeace675ed591e53bea4754b65375c0289533109fdc1dd77d62a4523a",
   "lastFullValidationAt": "2026-09-26T17:27:59Z",
-  "updatedAt": "2026-09-30T13:47:28Z"
+  "updatedAt": "2026-10-01T20:34:59Z"
 }

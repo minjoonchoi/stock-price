@@ -2,14 +2,14 @@
   "ticker": "MDLZ",
   "source": "yahoo",
   "firstDate": "2001-06-13",
-  "lastDate": "2026-09-29",
-  "records": 6358,
+  "lastDate": "2026-09-30",
+  "records": 6359,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:80e7c1677d97a37a6271c029bec05586fed1164b4a2791c9e4725782d9029f70",
-  "priceDataHash": "sha256:3ce50d188d5fef5dd0a22bf5ca5736d6ab44615824707b72dcad4d89b5b7914c",
+  "corporateActionHash": "sha256:e287e281c047143fce5bee618fbdc195655f08db6697ad65d497d7fd2e723f4e",
+  "priceDataHash": "sha256:70efb6e17ac945b13757f4d5a5c8cfbe85ab233d2f91593350ceda1a844ad907",
   "lastFullValidationAt": "2026-09-26T17:28:51Z",
-  "updatedAt": "2026-09-30T13:47:54Z"
+  "updatedAt": "2026-10-01T20:35:25Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FDXF",
   "source": "yahoo",
   "firstDate": "2026-05-27",
-  "lastDate": "2026-09-29",
-  "records": 87,
+  "lastDate": "2026-09-30",
+  "records": 88,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ba34b72db006047abcdcd8838883a911fa856771e0f608d3a11595845d9947a6",
+  "priceDataHash": "sha256:fcce95c145a28f51f4e5e6456d0feeae4801282557183153eaccaa93bc6925a3",
   "lastFullValidationAt": "2026-09-26T17:05:27Z",
-  "updatedAt": "2026-09-30T13:35:54Z"
+  "updatedAt": "2026-10-01T20:23:01Z"
 }

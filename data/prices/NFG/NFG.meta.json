@@ -2,14 +2,14 @@
   "ticker": "NFG",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-09-29",
-  "records": 13358,
+  "lastDate": "2026-09-30",
+  "records": 13359,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2001-09-10",
-  "corporateActionHash": "sha256:abf4ebf0fb3e6926875040bd2436e7829654701834a07eb8894305f947736077",
-  "priceDataHash": "sha256:4a9d6f4a5c249238396b6d0a0042f55ae8104c864aa48fca6c92dbd9376122c6",
+  "corporateActionHash": "sha256:66d6c95fc4a1c6ba0a37d3247856d5ad1d22593724e2b8692628a2fe2887936e",
+  "priceDataHash": "sha256:aacddf34762f12287448b2c3fe9de981a78b2613214623ee69135716273dc861",
   "lastFullValidationAt": "2026-09-26T17:34:45Z",
-  "updatedAt": "2026-09-30T13:50:58Z"
+  "updatedAt": "2026-10-01T20:38:31Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FAST",
   "source": "yahoo",
   "firstDate": "1987-08-20",
-  "lastDate": "2026-09-29",
-  "records": 9689,
+  "lastDate": "2026-09-30",
+  "records": 9690,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-28",
   "lastSplitDate": "2025-05-22",
   "corporateActionHash": "sha256:6a7bcf36a03ee6258774b1e09015771ef9c6a96c949684a5144d26bf4b45c736",
-  "priceDataHash": "sha256:9837888712d9c94deee2da45427af389892c4447474afaacb82c0ce18ecbe794",
+  "priceDataHash": "sha256:02a32e41a59e0e683c0b39014f83d2c5a45bd8447dd9c2102088ffd0ff9b760d",
   "lastFullValidationAt": "2026-09-26T17:04:39Z",
-  "updatedAt": "2026-09-30T13:35:30Z"
+  "updatedAt": "2026-10-01T20:22:37Z"
 }

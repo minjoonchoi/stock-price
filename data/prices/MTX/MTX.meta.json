@@ -2,14 +2,14 @@
   "ticker": "MTX",
   "source": "yahoo",
   "firstDate": "1992-10-23",
-  "lastDate": "2026-09-29",
-  "records": 8541,
+  "lastDate": "2026-09-30",
+  "records": 8542,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2012-12-12",
   "corporateActionHash": "sha256:ab73e5484463f0374f9cee5905b5c6e2bcbd887c4c2dd12c1b18d8748dda13ae",
-  "priceDataHash": "sha256:f7049ea6e28f343e488904b1a8e5474487b86468942e52d18ce981c1602bb1d8",
+  "priceDataHash": "sha256:84b1bcddbd6e5229fd828e11012e78547e9183765f85cf82ee61e5bb507ab80c",
   "lastFullValidationAt": "2026-09-26T17:33:03Z",
-  "updatedAt": "2026-09-30T13:50:06Z"
+  "updatedAt": "2026-10-01T20:37:37Z"
 }
