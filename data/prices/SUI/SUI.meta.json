@@ -2,14 +2,14 @@
   "ticker": "SUI",
   "source": "yahoo",
   "firstDate": "1993-12-09",
-  "lastDate": "2026-09-29",
-  "records": 8187,
+  "lastDate": "2026-10-01",
+  "records": 8181,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:95ba3dbeab7c6134cc191f54e7083403ad8a60099d5a60293d3815ec52bb36c9",
-  "priceDataHash": "sha256:29b6b4e6057657d4807beb0355f769b488e34c2cac53c13b2d76b2dae0c9f200",
-  "lastFullValidationAt": "2026-09-24T18:17:40Z",
-  "updatedAt": "2026-09-30T20:42:41Z"
+  "corporateActionHash": "sha256:0a2e8fb92b1c369cacbc696a9ab3e147b23c2ce947461c14c19e5a28ba4fb21d",
+  "priceDataHash": "sha256:1c8c6104e3df20a7820ef591869531d6cc07b775f76227f83fc0e989d716d385",
+  "lastFullValidationAt": "2026-10-02T20:29:19Z",
+  "updatedAt": "2026-10-02T20:29:19Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SFBS",
   "source": "yahoo",
   "firstDate": "2014-05-14",
-  "lastDate": "2026-09-29",
-  "records": 3112,
+  "lastDate": "2026-10-01",
+  "records": 3114,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-21",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2026-08-21",
-  "corporateActionHash": "sha256:ea0f5cd07da7aee16d6eee573758965c8bd4d72abdc65a17fbba6280cc23aff0",
-  "priceDataHash": "sha256:9f66050df1f7303a5a3973cf45553154bf64ae908658f46d463beb19b03ca983",
+  "corporateActionHash": "sha256:285ab15d804f474cc39476159d4f9dfd88d0c9218e89fe526bfba913a05a0e61",
+  "priceDataHash": "sha256:f26c0c4e5a3703d0ec40a7540d625d84ad2841a2cee7e6672d7460df4a1de1a0",
   "lastFullValidationAt": "2026-09-29T20:34:19Z",
-  "updatedAt": "2026-09-30T20:40:07Z"
+  "updatedAt": "2026-10-02T20:24:15Z"
 }

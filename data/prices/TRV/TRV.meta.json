@@ -1,15 +1,15 @@
 {
   "ticker": "TRV",
   "source": "yahoo",
-  "firstDate": "1975-11-17",
-  "lastDate": "2026-09-29",
-  "records": 12673,
+  "firstDate": "1975-11-18",
+  "lastDate": "2026-10-01",
+  "records": 12596,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "1998-05-12",
   "corporateActionHash": "sha256:9662812ff3548f8bf58e483664661bb0d0952427d5089236ebc50ed05290052f",
-  "priceDataHash": "sha256:64de1f73a3a847569d85310ac3f98ca49a040d0f878bd6059b55144bb5c07225",
-  "lastFullValidationAt": "2026-09-24T18:21:58Z",
-  "updatedAt": "2026-09-30T20:44:51Z"
+  "priceDataHash": "sha256:32b80098aa16ce5992223b0b959c796799315d8c3faab4736479b3cb9af63d12",
+  "lastFullValidationAt": "2026-10-02T20:33:37Z",
+  "updatedAt": "2026-10-02T20:33:37Z"
 }

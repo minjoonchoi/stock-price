@@ -2,14 +2,14 @@
   "ticker": "STWD",
   "source": "yahoo",
   "firstDate": "2009-08-12",
-  "lastDate": "2026-09-29",
-  "records": 4287,
+  "lastDate": "2026-10-01",
+  "records": 4296,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2014-02-03",
-  "corporateActionHash": "sha256:8ed1d17093423033afd3cbea859c80ebc8eda48b387b806b6ded5f0023f7c2bd",
-  "priceDataHash": "sha256:f12eb9d85161326e7b0bfde7e76db3ff760f1c63e8aee21834f14f8e3ce4cfbc",
-  "lastFullValidationAt": "2026-09-24T18:17:32Z",
-  "updatedAt": "2026-09-30T20:42:37Z"
+  "corporateActionHash": "sha256:a3606fa49c260038a1fc5a2a40bdafeffd7eb134216ca976fc8fd76ebd3e0604",
+  "priceDataHash": "sha256:3672d52c6cccf18a9e0f3326f48b835592ec7549e94c59874aeef2e6f9a354e5",
+  "lastFullValidationAt": "2026-10-02T20:29:11Z",
+  "updatedAt": "2026-10-02T20:29:11Z"
 }

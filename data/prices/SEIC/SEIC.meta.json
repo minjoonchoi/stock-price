@@ -2,14 +2,14 @@
   "ticker": "SEIC",
   "source": "yahoo",
   "firstDate": "1981-03-25",
-  "lastDate": "2026-09-29",
-  "records": 11381,
+  "lastDate": "2026-10-01",
+  "records": 11385,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-08",
   "lastSplitDate": "2007-06-22",
   "corporateActionHash": "sha256:2625ad17c6ffb08f4e576516f783847d8b2138923a2f0b93ae83cf013e618b74",
-  "priceDataHash": "sha256:4f24b27a73450ba9468e5e19cf1dec6385f7cc2c1f804891ceca1dd9b360abff",
-  "lastFullValidationAt": "2026-09-24T18:12:24Z",
-  "updatedAt": "2026-09-30T20:39:59Z"
+  "priceDataHash": "sha256:9c042e395bd6bc550ddd068f8f6afd9f65b53ccf47c17c94b832652c284c8e3d",
+  "lastFullValidationAt": "2026-10-02T20:24:03Z",
+  "updatedAt": "2026-10-02T20:24:03Z"
 }

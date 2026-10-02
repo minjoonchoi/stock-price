@@ -2,14 +2,14 @@
   "ticker": "USB",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-09-29",
-  "records": 12995,
+  "lastDate": "2026-10-01",
+  "records": 12933,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "1999-04-16",
-  "corporateActionHash": "sha256:aec4c2ebe59df27bc7c5841745769ccb375242d66d6b45ed916c3a3f53076e7a",
-  "priceDataHash": "sha256:66c43c86b2fca5c19376edc36c8c8fb68b7ed1e11554663f95b17f55215f6f9b",
-  "lastFullValidationAt": "2026-09-24T18:25:14Z",
-  "updatedAt": "2026-09-30T20:46:31Z"
+  "corporateActionHash": "sha256:0c0608f2eb04657b274f92dec9736741f5e1b0cf5a262a7930834ccf87b669e1",
+  "priceDataHash": "sha256:daefb85a262b148ad2cbc59bfddd35aa926c9eb314bf2d87656c6ac8d63fcd4d",
+  "lastFullValidationAt": "2026-10-02T20:36:53Z",
+  "updatedAt": "2026-10-02T20:36:53Z"
 }

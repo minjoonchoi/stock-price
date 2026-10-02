@@ -2,14 +2,14 @@
   "ticker": "SYK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-29",
-  "records": 11691,
+  "lastDate": "2026-10-01",
+  "records": 11689,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-06-30",
+  "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2004-05-17",
-  "corporateActionHash": "sha256:8db29c2410f64d6732d9e945f32b077fb897fa98b96e7274b7836268f4b2b1c2",
-  "priceDataHash": "sha256:88ace68a90f3d278e5e8e6e8bbaedc159ac9e8ce631a0889492c1d740eaa96fb",
-  "lastFullValidationAt": "2026-09-24T18:18:24Z",
-  "updatedAt": "2026-09-30T20:43:03Z"
+  "corporateActionHash": "sha256:5bc33a30218707b4ceea43a712e5e8a1c8db60ca93c3af8964f9506cd30deea6",
+  "priceDataHash": "sha256:954aaa42ee47a1e86bdcb9d53b1de0216d3944a5dd239d16a42e80664eb27387",
+  "lastFullValidationAt": "2026-10-02T20:30:03Z",
+  "updatedAt": "2026-10-02T20:30:03Z"
 }

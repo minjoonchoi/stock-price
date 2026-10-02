@@ -2,14 +2,14 @@
   "ticker": "RITM",
   "source": "yahoo",
   "firstDate": "2013-05-02",
-  "lastDate": "2026-09-29",
-  "records": 3360,
+  "lastDate": "2026-10-01",
+  "records": 3356,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-02",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2014-10-20",
-  "corporateActionHash": "sha256:1e16b2686a6a9e98d6fade4f4359d8dd004ef2a51b98412808ecadef75836d48",
-  "priceDataHash": "sha256:f515874fb5de961804d71493014330110e026a2d0111a983f1eed7aeadd20b2a",
-  "lastFullValidationAt": "2026-09-24T18:08:42Z",
-  "updatedAt": "2026-09-30T20:38:05Z"
+  "corporateActionHash": "sha256:8e21637ce85dd52e5ab45cee5af4c1d7350553e2d2c2802ed3f7afb1a8eae75d",
+  "priceDataHash": "sha256:3084864cc352bc05bcf542ef270cf6c6107fcdf3f22725ba74a70d064d13544b",
+  "lastFullValidationAt": "2026-10-02T20:20:11Z",
+  "updatedAt": "2026-10-02T20:20:11Z"
 }
