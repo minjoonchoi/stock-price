@@ -2,14 +2,14 @@
   "ticker": "MPT",
   "source": "yahoo",
   "firstDate": "2005-07-08",
-  "lastDate": "2026-09-30",
-  "records": 5322,
+  "lastDate": "2026-10-01",
+  "records": 5323,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:4e393f60fc49bd4cbc8f679e94b8682f1509b7bb986ddf81bc93b9ebaa5e6d38",
-  "priceDataHash": "sha256:57946b837a1406d4cae8862501118f131b144654347aa299c6d2ca832f78d3b3",
+  "priceDataHash": "sha256:0afed0c78b5c9e8488b59a0fb5268ca62150c9260012dc8755abafc8e97eafb3",
   "lastFullValidationAt": "2026-09-30T13:49:12Z",
-  "updatedAt": "2026-10-01T20:36:43Z"
+  "updatedAt": "2026-10-02T14:03:20Z"
 }

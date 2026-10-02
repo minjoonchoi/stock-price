@@ -2,14 +2,14 @@
   "ticker": "HONA",
   "source": "yahoo",
   "firstDate": "2026-06-15",
-  "lastDate": "2026-09-30",
-  "records": 75,
+  "lastDate": "2026-10-01",
+  "records": 76,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f8250a3c1ca1b39f68e9e3d37dcc74eccb3f2fb5aac770d7aab2cf2b4f2040dc",
+  "priceDataHash": "sha256:358d12ebd91791178cfce14889620727c818e85faeecf0ac4cc14572eb3f5d3a",
   "lastFullValidationAt": "2026-09-26T17:14:43Z",
-  "updatedAt": "2026-10-01T20:27:57Z"
+  "updatedAt": "2026-10-02T13:54:50Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "MRVL",
   "source": "yahoo",
   "firstDate": "2000-06-30",
-  "lastDate": "2026-09-30",
-  "records": 6600,
+  "lastDate": "2026-10-01",
+  "records": 6601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-10",
   "lastSplitDate": "2006-07-25",
   "corporateActionHash": "sha256:0d39707bba72703c8a14229133142801def729c2866317eace98a4eb958ef49b",
-  "priceDataHash": "sha256:10970b766cc163f8a4d96ccf226ed6a06324d70d42379c329b774a325ca27563",
+  "priceDataHash": "sha256:ee1e88ee88bef4ae9cba5e98b78dfe52e8a06fcee2cd4f8f007109e659d7cef2",
   "lastFullValidationAt": "2026-09-26T17:31:51Z",
-  "updatedAt": "2026-10-01T20:37:01Z"
+  "updatedAt": "2026-10-02T14:03:38Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "GPK",
   "source": "yahoo",
   "firstDate": "1992-12-10",
-  "lastDate": "2026-09-30",
-  "records": 8468,
+  "lastDate": "2026-10-01",
+  "records": 8469,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2000-01-03",
   "corporateActionHash": "sha256:528e1064cd7db90945e41ef13a23035854dcbbc91a696aedd41ea1a54a00377a",
-  "priceDataHash": "sha256:ec4c09255b7bf3919a641fb36c3bdd09ca04ff0874c1f5afde45bd34d9f65efa",
+  "priceDataHash": "sha256:04a366d14185ba73c02341239bb2e8eebc4b27d57d5ec0bbe6d907c114323efc",
   "lastFullValidationAt": "2026-09-30T13:39:04Z",
-  "updatedAt": "2026-10-01T20:26:17Z"
+  "updatedAt": "2026-10-02T13:53:12Z"
 }

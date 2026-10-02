@@ -2,14 +2,14 @@
   "ticker": "LINE",
   "source": "yahoo",
   "firstDate": "2024-07-25",
-  "lastDate": "2026-09-30",
-  "records": 548,
+  "lastDate": "2026-10-01",
+  "records": 549,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c4b3d20b77ef051e35cb6bcda4da114c0595e2bfcf4428583aded70d6a92667c",
-  "priceDataHash": "sha256:88a37ef992a5b4476da31c6b9e8f4c3d11493080155c79de4a5f6510fa58f94a",
+  "priceDataHash": "sha256:5fb0f774f3123d21347ad25dc6e88e4b80f446212657450e2596a463ecb4b4cc",
   "lastFullValidationAt": "2026-09-26T17:24:51Z",
-  "updatedAt": "2026-10-01T20:33:13Z"
+  "updatedAt": "2026-10-02T13:59:58Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FISV",
   "source": "yahoo",
   "firstDate": "1986-09-25",
-  "lastDate": "2026-09-30",
-  "records": 10079,
+  "lastDate": "2026-10-01",
+  "records": 10080,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2018-03-20",
   "lastSplitDate": "2018-03-20",
   "corporateActionHash": "sha256:f45bb04e64633ac6ac001698d67185331af7786298a422040a0617eadc93c8a5",
-  "priceDataHash": "sha256:5f9f472985822c7aa94ec942be30539c3fbd6075da908ef063ab95327014c79e",
+  "priceDataHash": "sha256:af6e24ad5a41e86d84d84bfb585d5c038c4a2416ad6df6b5608f5d6bc006412a",
   "lastFullValidationAt": "2026-09-26T17:06:15Z",
-  "updatedAt": "2026-10-01T20:23:31Z"
+  "updatedAt": "2026-10-02T13:50:28Z"
 }

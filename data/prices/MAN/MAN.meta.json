@@ -2,14 +2,14 @@
   "ticker": "MAN",
   "source": "yahoo",
   "firstDate": "1988-10-05",
-  "lastDate": "2026-09-30",
-  "records": 9478,
+  "lastDate": "2026-10-01",
+  "records": 9479,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:55e1b2705b921a4122d62db2719f09e0d6bfae8ad236d3d2d92d8543da7ed84b",
-  "priceDataHash": "sha256:d67d5d1b8c24091ea5ad61b9c25643724d61e0fd78caacea6c887790ff3349ce",
+  "priceDataHash": "sha256:86e29f98a84bd2926a00dd7f6e4f0d02412345b7cc14a4af8de88a7a87063f96",
   "lastFullValidationAt": "2026-10-01T20:34:39Z",
-  "updatedAt": "2026-10-01T20:34:39Z"
+  "updatedAt": "2026-10-02T14:01:18Z"
 }

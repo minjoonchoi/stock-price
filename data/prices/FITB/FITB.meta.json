@@ -2,14 +2,14 @@
   "ticker": "FITB",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-30",
-  "records": 11611,
+  "lastDate": "2026-10-01",
+  "records": 11612,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2000-07-17",
   "corporateActionHash": "sha256:5c582ff0107eae105d93e5f506d1bb6fd10e202f6d7dddf6bed4f31351dd469d",
-  "priceDataHash": "sha256:3560a59204823c40d258c810cba4e82a45682419878029a4235a8883633016ea",
+  "priceDataHash": "sha256:1a8016643e4056c25ba1d392af96a65aca4391d4e799691833a17b78a00d64c5",
   "lastFullValidationAt": "2026-09-26T17:06:19Z",
-  "updatedAt": "2026-10-01T20:23:33Z"
+  "updatedAt": "2026-10-02T13:50:30Z"
 }

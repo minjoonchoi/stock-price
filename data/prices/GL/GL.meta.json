@@ -2,14 +2,14 @@
   "ticker": "GL",
   "source": "yahoo",
   "firstDate": "1980-10-01",
-  "lastDate": "2026-09-30",
-  "records": 11524,
+  "lastDate": "2026-10-01",
+  "records": 11525,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-06",
   "lastSplitDate": "2014-07-02",
   "corporateActionHash": "sha256:e9d7185f2b4083650b4a937ba3aa945d84b2f7c6108aceb134329952af9f746e",
-  "priceDataHash": "sha256:b58635d74a320b3bce4a193f5b986061f620dd39c6f6034552e8799dabdd4359",
+  "priceDataHash": "sha256:834bf28637a9cd3dbf36ae291c9d17012e3b4b6847b4f14ee109364a3dc8443f",
   "lastFullValidationAt": "2026-09-26T17:10:23Z",
-  "updatedAt": "2026-10-01T20:25:39Z"
+  "updatedAt": "2026-10-02T13:52:36Z"
 }

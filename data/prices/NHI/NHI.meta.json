@@ -2,14 +2,14 @@
   "ticker": "NHI",
   "source": "yahoo",
   "firstDate": "1991-10-09",
-  "lastDate": "2026-09-30",
-  "records": 8748,
+  "lastDate": "2026-10-01",
+  "records": 8749,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8b47e3b91239eb0660ab18741bf18f89383c5a0826c7c81f7e2c6552ca2743da",
-  "priceDataHash": "sha256:bda9a328b16a844ebb7f50bdc233beab4b492bd48abd25dc8716b4ec51d4e7d4",
+  "priceDataHash": "sha256:5e2af01208ec1a26114fca105be5274038ea1670319a79cb6a2c8b512d87f36c",
   "lastFullValidationAt": "2026-09-26T17:35:05Z",
-  "updatedAt": "2026-10-01T20:38:41Z"
+  "updatedAt": "2026-10-02T14:05:16Z"
 }

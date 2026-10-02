@@ -2,14 +2,14 @@
   "ticker": "FFIV",
   "source": "yahoo",
   "firstDate": "1999-06-04",
-  "lastDate": "2026-09-30",
-  "records": 6873,
+  "lastDate": "2026-10-01",
+  "records": 6874,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2007-08-21",
   "lastSplitDate": "2007-08-21",
   "corporateActionHash": "sha256:8cc4c7ad4f2ac9d3f627dfc0d5e10ab715491538f7ed50ae7872ca2c0126a350",
-  "priceDataHash": "sha256:f52a14254cc44cb8f328bed61c94da210be3c4833cb7f49b4763a12ab9490db4",
+  "priceDataHash": "sha256:a4ae270306a5dd90496d218d905c96255f86ca428e07762a79db4fcd0c21f319",
   "lastFullValidationAt": "2026-09-26T17:05:49Z",
-  "updatedAt": "2026-10-01T20:23:15Z"
+  "updatedAt": "2026-10-02T13:50:14Z"
 }

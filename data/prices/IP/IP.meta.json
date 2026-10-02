@@ -2,14 +2,14 @@
   "ticker": "IP",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-30",
-  "records": 16160,
+  "lastDate": "2026-10-01",
+  "records": 16161,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2021-10-01",
   "corporateActionHash": "sha256:2967219ace63c9156b61459e3b243ad7cd056c12a6f9df1c6ed4efb08a26896c",
-  "priceDataHash": "sha256:9046b29d562ae41d58cb5e80200161787b5f346d65ec9fe04ae815fc731b6bf6",
+  "priceDataHash": "sha256:4e79a1b2c803f07a587f92822f0395f6040b27b6aa967e8813f747acbf03fba6",
   "lastFullValidationAt": "2026-09-26T17:19:09Z",
-  "updatedAt": "2026-10-01T20:30:13Z"
+  "updatedAt": "2026-10-02T13:57:04Z"
 }

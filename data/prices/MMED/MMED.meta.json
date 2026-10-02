@@ -2,14 +2,14 @@
   "ticker": "MMED",
   "source": "yahoo",
   "firstDate": "2026-03-06",
-  "lastDate": "2026-09-30",
-  "records": 144,
+  "lastDate": "2026-10-01",
+  "records": 145,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f96db9f811b2956cd2d177f0b350abbe530b133bcfc6e037bc92c7aa40a8d304",
+  "priceDataHash": "sha256:6ef6f3e0ca5e33f47194a8dcb151874aebfa29cdfb35db0a456e83a9c8a5b91a",
   "lastFullValidationAt": "2026-09-26T17:30:25Z",
-  "updatedAt": "2026-10-01T20:36:15Z"
+  "updatedAt": "2026-10-02T14:02:50Z"
 }

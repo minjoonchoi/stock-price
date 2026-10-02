@@ -2,14 +2,14 @@
   "ticker": "ICUI",
   "source": "yahoo",
   "firstDate": "1992-03-31",
-  "lastDate": "2026-09-30",
-  "records": 8686,
+  "lastDate": "2026-10-01",
+  "records": 8687,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2002-03-18",
   "lastSplitDate": "2002-03-18",
   "corporateActionHash": "sha256:83524eae79c3e52ba33fb227b38d69caa6253084a315043298053c859f5f20ba",
-  "priceDataHash": "sha256:9f527870d4ae3bc16c57760a766b4709681d7b6e29e9b334f5677647c59fa5ee",
+  "priceDataHash": "sha256:9580c2d25dcf7fefe545db4b311edbfcf9582baf91d6097a2532bfa12b5b948d",
   "lastFullValidationAt": "2026-09-26T17:17:07Z",
-  "updatedAt": "2026-10-01T20:29:09Z"
+  "updatedAt": "2026-10-02T13:56:02Z"
 }

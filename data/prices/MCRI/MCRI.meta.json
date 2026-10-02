@@ -2,14 +2,14 @@
   "ticker": "MCRI",
   "source": "yahoo",
   "firstDate": "1993-08-06",
-  "lastDate": "2026-09-30",
-  "records": 8342,
+  "lastDate": "2026-10-01",
+  "records": 8343,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2005-03-31",
   "corporateActionHash": "sha256:ae2ad8f32c735ca51b3e37bbae06ad3a571a99bc5b5da0fbdf53269f52215af5",
-  "priceDataHash": "sha256:8e25f68a7dfeba96be009b0929fa3b2b279ca811cab6579b2b26580b9b7f12ca",
+  "priceDataHash": "sha256:fec545bfa7db386b3b3acaf72853f3540102f8aaf998758e6aa022e083e64b2c",
   "lastFullValidationAt": "2026-09-26T17:28:27Z",
-  "updatedAt": "2026-10-01T20:35:13Z"
+  "updatedAt": "2026-10-02T14:01:50Z"
 }

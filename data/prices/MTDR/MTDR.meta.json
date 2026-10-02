@@ -2,14 +2,14 @@
   "ticker": "MTDR",
   "source": "yahoo",
   "firstDate": "2012-02-02",
-  "lastDate": "2026-09-30",
-  "records": 3686,
+  "lastDate": "2026-10-01",
+  "records": 3687,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c1fb0e5c4d37597430d38344c9fdf51be0fde483fe87c5d1c32ed8d01756c7b6",
-  "priceDataHash": "sha256:325a73032d73e42d950fb2db646bed5f66fb7e4aa312c780a1ff3169b217155a",
+  "priceDataHash": "sha256:e8fed6ff91c8cdc76cfc56639f1970021f447e5d60763af413dd32c0ad459624",
   "lastFullValidationAt": "2026-09-26T17:32:39Z",
-  "updatedAt": "2026-10-01T20:37:25Z"
+  "updatedAt": "2026-10-02T14:04:02Z"
 }

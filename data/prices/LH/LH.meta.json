@@ -2,14 +2,14 @@
   "ticker": "LH",
   "source": "yahoo",
   "firstDate": "1990-03-29",
-  "lastDate": "2026-09-30",
-  "records": 9192,
+  "lastDate": "2026-10-01",
+  "records": 9193,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2023-07-03",
   "corporateActionHash": "sha256:740d37d318e809e477c40f85d184477e7f2ddaad08964ee2ef51ece1ab5d0a19",
-  "priceDataHash": "sha256:1479e37e298b751b02a14cf0bdb55a7d51da8763a006451d5b0517334ff65642",
+  "priceDataHash": "sha256:bf192dfbf831d97c8beb1708ea77b7b7f675e4bdb3d74429b6cf749ce0cd4202",
   "lastFullValidationAt": "2026-09-26T17:24:23Z",
-  "updatedAt": "2026-10-01T20:32:53Z"
+  "updatedAt": "2026-10-02T13:59:42Z"
 }
