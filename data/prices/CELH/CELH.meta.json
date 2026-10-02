@@ -2,14 +2,14 @@
   "ticker": "CELH",
   "source": "yahoo",
   "firstDate": "2007-01-22",
-  "lastDate": "2026-09-30",
-  "records": 4955,
+  "lastDate": "2026-10-01",
+  "records": 4956,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-11-15",
   "lastSplitDate": "2023-11-15",
   "corporateActionHash": "sha256:f033ec92e13539839e5fbd58d188eb945fe30bab6902fb92ae3fe4d0d357d6be",
-  "priceDataHash": "sha256:15957b6471232534b1d35b09ab514ae0ff5791e725e2690c21ad8325e3b58aff",
+  "priceDataHash": "sha256:d3ccf68d795fd65450bbb3d92bb07c3e607d1e52c1ba3a6bf36c30c84824aeab",
   "lastFullValidationAt": "2026-09-26T12:35:52Z",
-  "updatedAt": "2026-10-01T14:41:20Z"
+  "updatedAt": "2026-10-02T07:06:08Z"
 }

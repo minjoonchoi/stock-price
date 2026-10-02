@@ -2,14 +2,14 @@
   "ticker": "CAT",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-09-30",
-  "records": 16204,
+  "lastDate": "2026-10-01",
+  "records": 16205,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-20",
   "lastSplitDate": "2005-07-14",
   "corporateActionHash": "sha256:ddb134a3ecb203dd9c44eee3271199153ce470d3f6cdb5ed6f38feb1c2bcd337",
-  "priceDataHash": "sha256:7fefb23bcd319327d20c77489521df3661e052fe3fd3100d331146b574298b03",
+  "priceDataHash": "sha256:4b3e23ae066abd148f93832de2cfa10cea9fa2a595e91931e318614703750fe3",
   "lastFullValidationAt": "2026-09-26T12:34:12Z",
-  "updatedAt": "2026-10-01T14:40:24Z"
+  "updatedAt": "2026-10-02T07:05:16Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CMG",
   "source": "yahoo",
   "firstDate": "2006-01-26",
-  "lastDate": "2026-09-30",
-  "records": 5202,
+  "lastDate": "2026-10-01",
+  "records": 5203,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-06-26",
   "lastSplitDate": "2024-06-26",
   "corporateActionHash": "sha256:ef90645c312cb5c9069bda23b5435b8c38176f048296203956d92f52cb83f2fa",
-  "priceDataHash": "sha256:f451fc820ed286885938c9c05137067461bdb6bef64a96695bf3e23e5b458c13",
+  "priceDataHash": "sha256:a1bf3ee237901a709fcda29aef07189eca91b17faa6b87464e5cfff980dd1de2",
   "lastFullValidationAt": "2026-09-26T12:38:04Z",
-  "updatedAt": "2026-10-01T14:42:32Z"
+  "updatedAt": "2026-10-02T07:07:16Z"
 }

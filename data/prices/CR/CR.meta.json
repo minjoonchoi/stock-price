@@ -2,14 +2,14 @@
   "ticker": "CR",
   "source": "yahoo",
   "firstDate": "2023-03-29",
-  "lastDate": "2026-09-30",
-  "records": 880,
+  "lastDate": "2026-10-01",
+  "records": 881,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1d5df29046b90228add224ca0b293f38e9c6e252f54de3c0811366230f692b03",
-  "priceDataHash": "sha256:10ba845518a2f24190204b434e031ac33135bb7d573f63b3d85e23ac1fe5b46f",
+  "priceDataHash": "sha256:258ae82f6b5c68be154168460c3988dd9617a9069ebd5944291ec00672f6c766",
   "lastFullValidationAt": "2026-09-26T12:40:18Z",
-  "updatedAt": "2026-10-01T14:43:42Z"
+  "updatedAt": "2026-10-02T07:08:24Z"
 }

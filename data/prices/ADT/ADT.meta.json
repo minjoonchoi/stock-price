@@ -2,14 +2,14 @@
   "ticker": "ADT",
   "source": "yahoo",
   "firstDate": "2018-01-19",
-  "lastDate": "2026-09-30",
-  "records": 2186,
+  "lastDate": "2026-10-01",
+  "records": 2187,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:30b0a985787046134f6431ef9b7cdd0fd0b6db5699d5645bd02acfc78d144f26",
-  "priceDataHash": "sha256:a908b89e5ceb5c1a142fefef5aaf2dce796e8a4574f0813db9047bf3d1fe7f1d",
+  "priceDataHash": "sha256:8d02765612e8902cb1bc9fdf9286351ef89c4b32b40dba3d603a8ca814f56c1a",
   "lastFullValidationAt": "2026-09-26T12:19:18Z",
-  "updatedAt": "2026-10-01T14:32:38Z"
+  "updatedAt": "2026-10-02T06:57:32Z"
 }

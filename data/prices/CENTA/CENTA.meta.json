@@ -2,14 +2,14 @@
   "ticker": "CENTA",
   "source": "yahoo",
   "firstDate": "2007-02-06",
-  "lastDate": "2026-09-30",
-  "records": 4944,
+  "lastDate": "2026-10-01",
+  "records": 4945,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-02-09",
   "lastSplitDate": "2024-02-09",
   "corporateActionHash": "sha256:9749174a85855d7fa973ea0888349accc0a5ab603cc9d93157a50d30cbeda794",
-  "priceDataHash": "sha256:42ba22ed3e5c87215d1d022dda5dfdc4027569c2f0f1e51f4551110e35ab7617",
+  "priceDataHash": "sha256:9bd2e19c090c82e004f8d345342efffab2e4096ec988340f29993cd90ea18c9d",
   "lastFullValidationAt": "2026-09-26T12:36:00Z",
-  "updatedAt": "2026-10-01T14:41:24Z"
+  "updatedAt": "2026-10-02T07:06:12Z"
 }

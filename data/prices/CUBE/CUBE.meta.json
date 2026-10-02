@@ -2,14 +2,14 @@
   "ticker": "CUBE",
   "source": "yahoo",
   "firstDate": "2004-10-22",
-  "lastDate": "2026-09-30",
-  "records": 5505,
+  "lastDate": "2026-10-01",
+  "records": 5506,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-01",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:76b05028430af11a744aa714efa9ebb2e6a4a6da0495ae8b6b13d10ebf27f594",
-  "priceDataHash": "sha256:0643e854500fa54d0e7123ab99760a8bf2c2078e601bf434d5286aa3d82f1c68",
+  "corporateActionHash": "sha256:055da9539afbb3bc3d3d9f2730b2b6ed65d397468e5cf1c2d6455427d2bf1029",
+  "priceDataHash": "sha256:0dfa2b5ad618a4882f3809a1a8dc6afdc68c138dedb61e64441bc36a49aa05de",
   "lastFullValidationAt": "2026-09-26T12:41:52Z",
-  "updatedAt": "2026-10-01T14:44:30Z"
+  "updatedAt": "2026-10-02T07:09:14Z"
 }

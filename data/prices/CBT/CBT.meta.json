@@ -2,14 +2,14 @@
   "ticker": "CBT",
   "source": "yahoo",
   "firstDate": "1980-11-05",
-  "lastDate": "2026-09-30",
-  "records": 11445,
+  "lastDate": "2026-10-01",
+  "records": 11446,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "1996-03-25",
   "corporateActionHash": "sha256:2e1c249e64baabcbcbca2851642f1a028dfd5d82f50a2db3dbbcef8b909e7747",
-  "priceDataHash": "sha256:8f38898b5dcc1f43e6bda589db9f53c8d38e677a92bc1a9ec3fe94c8475171c4",
+  "priceDataHash": "sha256:109c88997108b0862ac44d65a479bb45c5a56a2741cca4e3116a701f27107c6f",
   "lastFullValidationAt": "2026-09-26T12:34:40Z",
-  "updatedAt": "2026-10-01T14:40:38Z"
+  "updatedAt": "2026-10-02T07:05:30Z"
 }

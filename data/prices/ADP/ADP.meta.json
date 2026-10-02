@@ -2,14 +2,14 @@
   "ticker": "ADP",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-30",
-  "records": 11654,
+  "lastDate": "2026-10-01",
+  "records": 11655,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "2014-10-01",
   "corporateActionHash": "sha256:2cf3571db9c2738ea485bba3b3c3364f7e901d3f0d2a49c155db16838e37911c",
-  "priceDataHash": "sha256:98f6296b96279e04cf9b6c0f6d863b98f825d11ea7b047efef2fa13cf81254e8",
+  "priceDataHash": "sha256:8bb7d07f2bf385a45f162114ea2a7094252611db4855977ec6d476ed833d1d05",
   "lastFullValidationAt": "2026-09-26T12:19:06Z",
-  "updatedAt": "2026-10-01T14:32:32Z"
+  "updatedAt": "2026-10-02T06:57:26Z"
 }

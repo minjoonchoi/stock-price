@@ -2,14 +2,14 @@
   "ticker": "ANDE",
   "source": "yahoo",
   "firstDate": "1996-02-20",
-  "lastDate": "2026-09-30",
-  "records": 7550,
+  "lastDate": "2026-10-01",
+  "records": 7551,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-01",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2014-02-19",
-  "corporateActionHash": "sha256:579888feb2929c1bbd68c2f59bcf38e4961489daa50e5592ba0d42f42f016f43",
-  "priceDataHash": "sha256:0de24e842a313d174e548044b2b6d1e5887837c334998342d98ee10eedd302f1",
+  "corporateActionHash": "sha256:2cd3e2505dcefede4ca0280c790507d5b995b90db9d0aec4f845aa55543a18a8",
+  "priceDataHash": "sha256:6c8a52f9c2488adb13b0631baa7aab0e6ab53e62bc5b29cfeace6810763eb5cf",
   "lastFullValidationAt": "2026-09-26T12:23:08Z",
-  "updatedAt": "2026-10-01T14:34:42Z"
+  "updatedAt": "2026-10-02T06:59:38Z"
 }

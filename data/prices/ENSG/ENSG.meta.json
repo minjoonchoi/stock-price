@@ -2,14 +2,14 @@
   "ticker": "ENSG",
   "source": "yahoo",
   "firstDate": "2007-11-09",
-  "lastDate": "2026-09-30",
-  "records": 4751,
+  "lastDate": "2026-10-01",
+  "records": 4752,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2019-10-01",
   "corporateActionHash": "sha256:39b7e319b3ffdc3bb3f0ce3a5d61b89b851976a54620c5a4eeff019d91f22584",
-  "priceDataHash": "sha256:c29903f6724c56e25639da295862e4cb4a36537351e1dde8586482930aaa9222",
+  "priceDataHash": "sha256:9f0735bd34dd73f82251988037926634ee0a884ddd0e2e6edc145161f4524875",
   "lastFullValidationAt": "2026-09-26T12:48:42Z",
-  "updatedAt": "2026-10-01T14:48:00Z"
+  "updatedAt": "2026-10-02T07:12:46Z"
 }

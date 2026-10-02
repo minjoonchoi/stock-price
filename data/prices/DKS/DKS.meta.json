@@ -2,14 +2,14 @@
   "ticker": "DKS",
   "source": "yahoo",
   "firstDate": "2002-10-16",
-  "lastDate": "2026-09-30",
-  "records": 6024,
+  "lastDate": "2026-10-01",
+  "records": 6025,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "2007-10-22",
   "corporateActionHash": "sha256:7867d9792f150624960ccd342b4ef8d1b00459420e17f4cc5770ee297c83a944",
-  "priceDataHash": "sha256:a1e4abeb44f4a849321390150b69ed53beef0daa64fcba4fc14b55ac68f47ac0",
+  "priceDataHash": "sha256:5687db14af6883494bacef2b94ecbb3ac61c2745bc1e44655dbd43cd48105cf0",
   "lastFullValidationAt": "2026-09-26T12:45:02Z",
-  "updatedAt": "2026-10-01T14:46:06Z"
+  "updatedAt": "2026-10-02T07:10:52Z"
 }

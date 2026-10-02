@@ -2,14 +2,14 @@
   "ticker": "CUBI",
   "source": "yahoo",
   "firstDate": "2012-03-14",
-  "lastDate": "2026-09-30",
-  "records": 3658,
+  "lastDate": "2026-10-01",
+  "records": 3659,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2014-05-22",
   "lastSplitDate": "2014-05-22",
   "corporateActionHash": "sha256:7773f03297db5504b95e2972f16474e1db4cc9aee80d2d61ad5c5764fc1de22b",
-  "priceDataHash": "sha256:f76428e4c359f9f5843b38fcca2a2be8462c9beb64c4012e740ee8cd746db85c",
+  "priceDataHash": "sha256:848df94f49efcc3b3ac990db84bbd8714061bf46a3b598af560ee6ca875af6b2",
   "lastFullValidationAt": "2026-09-26T12:41:56Z",
-  "updatedAt": "2026-10-01T14:44:32Z"
+  "updatedAt": "2026-10-02T07:09:16Z"
 }

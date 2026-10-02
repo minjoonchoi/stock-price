@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-01",
+  "runId": "2026-10-02",
   "totalTargets": 1601,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NIO",
-  "cursorIndex": 1000,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ES",
+  "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:e7a10dbf81c02c8406468c50a1d5375a09386d02ee48fe3dfb233762c349373e",
-  "universeHash": "sha256:503ca2bc6a0e3d507f4e9b6d87e0822f2eed3009901789ce75a1230c36c0996e",
+  "universeHash": "sha256:9649a03a32d204a2eb2acf046e6b403af07d67892640644bf1dd2a43e71306fa",
   "shardCount": 1,
-  "startedAt": "2026-10-01T14:31:24Z",
-  "updatedAt": "2026-10-01T20:38:47Z"
+  "startedAt": "2026-10-02T06:56:18Z",
+  "updatedAt": "2026-10-02T07:13:14Z"
 }

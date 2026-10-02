@@ -2,14 +2,14 @@
   "ticker": "DNOW",
   "source": "yahoo",
   "firstDate": "2014-05-20",
-  "lastDate": "2026-09-30",
-  "records": 3110,
+  "lastDate": "2026-10-01",
+  "records": 3111,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:335a0baae09a804951a4d81097b2c2c8be72366807af3a7d41f3b40511ba994d",
+  "priceDataHash": "sha256:1e24e3b26a52e7c007424289a4dc9a44ff870fee65e6cf4da88b84ac32c0ec19",
   "lastFullValidationAt": "2026-09-26T12:45:22Z",
-  "updatedAt": "2026-10-01T14:46:16Z"
+  "updatedAt": "2026-10-02T07:11:02Z"
 }

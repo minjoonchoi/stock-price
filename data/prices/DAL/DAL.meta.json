@@ -2,14 +2,14 @@
   "ticker": "DAL",
   "source": "yahoo",
   "firstDate": "2007-05-03",
-  "lastDate": "2026-09-30",
-  "records": 4882,
+  "lastDate": "2026-10-01",
+  "records": 4883,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-09",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:b9f3a55ab78e66eab286ad67a826576cf87113fe4b541d844c9b6ab334d133a4",
-  "priceDataHash": "sha256:05766348a24e60c045ecbb20648829eb568a2fbbcefe64c105b651fd24e9bbc3",
+  "priceDataHash": "sha256:714605d13763d3eb2e480b4943940eb6c8a62efcc736b520c5472ed88a3c9241",
   "lastFullValidationAt": "2026-09-26T12:43:16Z",
-  "updatedAt": "2026-10-01T14:45:12Z"
+  "updatedAt": "2026-10-02T07:09:56Z"
 }

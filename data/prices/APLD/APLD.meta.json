@@ -2,14 +2,14 @@
   "ticker": "APLD",
   "source": "yahoo",
   "firstDate": "2022-04-13",
-  "lastDate": "2026-09-30",
-  "records": 1120,
+  "lastDate": "2026-10-01",
+  "records": 1121,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-04-13",
   "lastSplitDate": "2022-04-13",
   "corporateActionHash": "sha256:045ec5c6fa071ff31107481c9501acfd1e298884d7390d9ee69f254c1bbdd5cb",
-  "priceDataHash": "sha256:45bde314a0d6f94d92ef92855d73c78e8c8321c62e73f480691ff0cad062f948",
+  "priceDataHash": "sha256:de5f67ac7442ee91bf4d7a8be45ff493a3f829a50f59a8e38fc597b8610497b7",
   "lastFullValidationAt": "2026-09-26T12:23:44Z",
-  "updatedAt": "2026-10-01T14:35:00Z"
+  "updatedAt": "2026-10-02T06:59:56Z"
 }
