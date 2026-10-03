@@ -2,14 +2,14 @@
   "ticker": "CSCO",
   "source": "yahoo",
   "firstDate": "1990-02-16",
-  "lastDate": "2026-10-01",
-  "records": 9193,
+  "lastDate": "2026-10-02",
+  "records": 9185,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-06",
+  "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "2000-03-23",
-  "corporateActionHash": "sha256:02b1205423d0006e992ccf9eb0987839e990f28066d611b9846e68485a28d882",
-  "priceDataHash": "sha256:b6cded521649ab3cd1d9882da26aae23c67bf22ba8e96bec94a692ab2d7e70f5",
-  "lastFullValidationAt": "2026-09-26T12:41:12Z",
-  "updatedAt": "2026-10-02T07:08:54Z"
+  "corporateActionHash": "sha256:60872d1c196effe35f7d63ba0c0d2777c0debdfd003be4e81d8382355faf783b",
+  "priceDataHash": "sha256:67d1ad49205f94e8cfb1aad889d54f448393d8d9f7691c67587dbd19adfc7972",
+  "lastFullValidationAt": "2026-10-03T12:51:54Z",
+  "updatedAt": "2026-10-03T12:51:54Z"
 }

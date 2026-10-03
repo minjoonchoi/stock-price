@@ -2,14 +2,14 @@
   "ticker": "ALL",
   "source": "yahoo",
   "firstDate": "1993-06-03",
-  "lastDate": "2026-10-01",
-  "records": 8362,
+  "lastDate": "2026-10-02",
+  "records": 8364,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "1998-07-02",
   "corporateActionHash": "sha256:415187c0eac12492c5c14f0c04d8e8b34bd9805bba9808f421eefd1e597c7a9f",
-  "priceDataHash": "sha256:e6a2fb6e295260791d6f6a15d011a438f7681e72b09314bebcd7b0e01d28ee70",
-  "lastFullValidationAt": "2026-09-26T12:21:34Z",
-  "updatedAt": "2026-10-02T06:58:42Z"
+  "priceDataHash": "sha256:e92d1b7a6aa126f326d3ee1ea842227bdc6462c75a33ae79af18121d905e7086",
+  "lastFullValidationAt": "2026-10-03T12:32:16Z",
+  "updatedAt": "2026-10-03T12:32:16Z"
 }

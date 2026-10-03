@@ -2,14 +2,14 @@
   "ticker": "APPN",
   "source": "yahoo",
   "firstDate": "2017-05-25",
-  "lastDate": "2026-10-01",
-  "records": 2351,
+  "lastDate": "2026-10-02",
+  "records": 2352,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:eb6029141b50919527771e48b244fa02efa3876731adcc7a4d954bb7fff6cf6a",
+  "priceDataHash": "sha256:b8c236e76db48ac2da3137c8718b30a59d8667c07bc1796f778ae39be534cc80",
   "lastFullValidationAt": "2026-10-02T07:00:08Z",
-  "updatedAt": "2026-10-02T07:00:08Z"
+  "updatedAt": "2026-10-03T12:34:44Z"
 }

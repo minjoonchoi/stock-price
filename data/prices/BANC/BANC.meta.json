@@ -2,14 +2,14 @@
   "ticker": "BANC",
   "source": "yahoo",
   "firstDate": "2002-08-23",
-  "lastDate": "2026-10-01",
-  "records": 5821,
+  "lastDate": "2026-10-02",
+  "records": 5790,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:42683abae0246c437f613de6d1e19127f1fbafe8fb896b938a0672bf2ddd4b82",
-  "priceDataHash": "sha256:dd4f11f29b85c381a0c77c41b26acb9e7ba3d11f552c6ef2e5101bef4fd405a0",
-  "lastFullValidationAt": "2026-09-26T12:27:52Z",
-  "updatedAt": "2026-10-02T07:02:04Z"
+  "priceDataHash": "sha256:e8912414e1fa3b4bc14a1631789d92845c939c57e0a137d103604b4a7e8cf2ba",
+  "lastFullValidationAt": "2026-10-03T12:38:34Z",
+  "updatedAt": "2026-10-03T12:38:34Z"
 }

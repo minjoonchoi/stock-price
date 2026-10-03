@@ -2,14 +2,14 @@
   "ticker": "CBSH",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-01",
-  "records": 11567,
+  "lastDate": "2026-10-02",
+  "records": 11561,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2025-12-02",
   "corporateActionHash": "sha256:24afca7dab1ecad64e40383ce5297a7579d1e309e55f6ccbc8eaf1d39241884a",
-  "priceDataHash": "sha256:2d0fd3a4fe6243fe2fec0c376a4637f8b40fd7e025c333d2301c16ba1991884d",
-  "lastFullValidationAt": "2026-09-26T12:34:36Z",
-  "updatedAt": "2026-10-02T07:05:28Z"
+  "priceDataHash": "sha256:92de738e20b8463169a5337571be294834c67af4fc9ea8b4937034db79fc8b55",
+  "lastFullValidationAt": "2026-10-03T12:45:18Z",
+  "updatedAt": "2026-10-03T12:45:18Z"
 }
