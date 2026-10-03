@@ -2,14 +2,14 @@
   "ticker": "VTRS",
   "source": "yahoo",
   "firstDate": "1980-03-19",
-  "lastDate": "2026-09-30",
-  "records": 11611,
+  "lastDate": "2026-10-02",
+  "records": 11613,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2003-10-09",
   "corporateActionHash": "sha256:10ecb1bf734ec711aaca35912d5411be8eb2a77f68e1348572a5e6712fa55b91",
-  "priceDataHash": "sha256:15a38000d71df0ab384eb02eec167dafdabc09a32ef05d81d1ffde2270ce05a4",
+  "priceDataHash": "sha256:64b95ee6a0d58a4e9812b867d78953d765f074c45c3ab6704aa39e3aa4ea1321",
   "lastFullValidationAt": "2026-10-01T07:06:34Z",
-  "updatedAt": "2026-10-01T07:06:34Z"
+  "updatedAt": "2026-10-03T06:17:30Z"
 }

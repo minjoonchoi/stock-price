@@ -2,14 +2,14 @@
   "ticker": "VSNT",
   "source": "yahoo",
   "firstDate": "2025-12-15",
-  "lastDate": "2026-09-30",
-  "records": 199,
+  "lastDate": "2026-10-02",
+  "records": 201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-01",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:af44707f0d7e0f62ddf9594d0ba8251d966da7831ad6ff3b3f6667ab8d6a6129",
-  "priceDataHash": "sha256:c684580cc11d4606196ab9313f7c1be4dcd8003fa2e1caa7c8d80bce47e0a2b6",
+  "corporateActionHash": "sha256:779767c2eb2d4b69e83d9286f6dae9aa08448c6a816c20a1b7a91d243873894e",
+  "priceDataHash": "sha256:40a03a3a47a29fe1a99f1ac16f1aff8a0db54e01b3090772eb429c95e53dacd4",
   "lastFullValidationAt": "2026-10-01T07:06:18Z",
-  "updatedAt": "2026-10-01T07:06:18Z"
+  "updatedAt": "2026-10-03T06:17:22Z"
 }

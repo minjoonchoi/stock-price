@@ -2,14 +2,14 @@
   "ticker": "WAL",
   "source": "yahoo",
   "firstDate": "2005-07-01",
-  "lastDate": "2026-09-30",
-  "records": 5344,
+  "lastDate": "2026-10-02",
+  "records": 5346,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:d0606ee28bc814039d962ab8525f4fa8053cfa3ab7f30469f00a5c7f8aea3f76",
-  "priceDataHash": "sha256:73f7131f86cef9f5fa6c416a48495d86f8d0abd083b78d3783cf8b39ca470dc2",
+  "priceDataHash": "sha256:bfe7c5288e94711cd97c347651be80b89a5365304bfb7ab8d04c062be1a6d497",
   "lastFullValidationAt": "2026-10-01T07:06:58Z",
-  "updatedAt": "2026-10-01T07:06:58Z"
+  "updatedAt": "2026-10-03T06:17:42Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "VRSN",
   "source": "yahoo",
   "firstDate": "1998-01-30",
-  "lastDate": "2026-09-30",
-  "records": 7209,
+  "lastDate": "2026-10-02",
+  "records": 7211,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "1999-12-07",
   "corporateActionHash": "sha256:1eb99a9c05c6779dc03e8864e85702826d20c9e2c5b921d2e1c004ed1b1b00a3",
-  "priceDataHash": "sha256:7e00839884bc1a7a7f889469d80771357cf10cb70a45ff6dd45af76807d8d80f",
+  "priceDataHash": "sha256:ace1ed303693169c256363f836794eb667197ed1714dbbfb8d7ad22916e2b72c",
   "lastFullValidationAt": "2026-10-01T07:05:54Z",
-  "updatedAt": "2026-10-01T07:05:54Z"
+  "updatedAt": "2026-10-03T06:17:10Z"
 }

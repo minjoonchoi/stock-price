@@ -2,14 +2,14 @@
   "ticker": "WOR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-09-30",
-  "records": 11616,
+  "lastDate": "2026-10-02",
+  "records": 11618,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2023-12-01",
   "corporateActionHash": "sha256:cb7981540cbb485c2ef9615d0783af89271c71816c1d20d6a218dbf7b7dede92",
-  "priceDataHash": "sha256:8a3a0e3329e0fa7c0ede37cd0807855e0f834fa2534ff179388357124b124299",
+  "priceDataHash": "sha256:07a1994fb6f1143f7d047f75d5be1d67cd7835a8a4fbaf053b4ce11797892e9e",
   "lastFullValidationAt": "2026-10-01T07:08:50Z",
-  "updatedAt": "2026-10-01T07:08:50Z"
+  "updatedAt": "2026-10-03T06:18:38Z"
 }
