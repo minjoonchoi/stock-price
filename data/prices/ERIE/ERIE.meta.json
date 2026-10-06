@@ -2,14 +2,14 @@
   "ticker": "ERIE",
   "source": "yahoo",
   "firstDate": "1995-10-02",
-  "lastDate": "2026-10-02",
-  "records": 7753,
+  "lastDate": "2026-10-05",
+  "records": 7754,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-07",
+  "lastCorporateActionDate": "2026-10-05",
   "lastSplitDate": "1996-05-13",
-  "corporateActionHash": "sha256:437bf97129668ffc100aafbd0ac2fd22cbb291642722754f54eac6ac6836af8a",
-  "priceDataHash": "sha256:29c97448d08aa428d0103721a3bd318fcfc0b794f11b97c9de238569ab626558",
+  "corporateActionHash": "sha256:af3674fef5a6b8dbd66270ca6e921a5ec182da46f2df2f40861a65e4f333fc83",
+  "priceDataHash": "sha256:d18da546fcf8f8731ef07cc3172a555575f69b4c37764ee0d06b7d40e78c8a91",
   "lastFullValidationAt": "2026-10-03T13:00:16Z",
-  "updatedAt": "2026-10-03T13:00:16Z"
+  "updatedAt": "2026-10-06T07:47:25Z"
 }
