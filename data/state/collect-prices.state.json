@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-06",
   "totalTargets": 1601,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NIO",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VLTO",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:9c9a46a413de7097946d361a26ce728f7a1174f859b9c598c7c2e5a219d27865",
   "universeHash": "sha256:9649a03a32d204a2eb2acf046e6b403af07d67892640644bf1dd2a43e71306fa",
   "shardCount": 1,
   "startedAt": "2026-10-06T07:30:47Z",
-  "updatedAt": "2026-10-06T16:25:48Z"
+  "updatedAt": "2026-10-06T23:00:39Z"
 }

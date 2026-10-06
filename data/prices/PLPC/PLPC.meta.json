@@ -2,14 +2,14 @@
   "ticker": "PLPC",
   "source": "yahoo",
   "firstDate": "1999-04-28",
-  "lastDate": "2026-10-01",
-  "records": 6852,
+  "lastDate": "2026-10-05",
+  "records": 6854,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:83458c4dc59533df472d5b5d0eb7479a87100707d3b947ac9b66c35f2d13e8c6",
-  "priceDataHash": "sha256:74606dc1b9a742d08e5c558889d7260fb0eda0fc7bf61cbb49604946cda85cff",
+  "priceDataHash": "sha256:ce50afcaa9be8526750226b1c7b03f96ddab88c631f46f8a7df2f6841a68c1d6",
   "lastFullValidationAt": "2026-10-02T20:14:45Z",
-  "updatedAt": "2026-10-02T20:14:45Z"
+  "updatedAt": "2026-10-06T22:47:57Z"
 }

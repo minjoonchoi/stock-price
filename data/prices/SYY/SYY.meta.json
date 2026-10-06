@@ -2,14 +2,14 @@
   "ticker": "SYY",
   "source": "yahoo",
   "firstDate": "1973-05-08",
-  "lastDate": "2026-10-01",
-  "records": 13201,
+  "lastDate": "2026-10-05",
+  "records": 13203,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-02",
+  "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "2000-12-18",
-  "corporateActionHash": "sha256:53620367f9d83b62693bb6b6aed83a0643295a0cd699c1b974f3491caf8a950e",
-  "priceDataHash": "sha256:7b5d81bf7e6f7ba3afd85275ce032d9c7eab35cea85b1cfee2b3790d8f6aff80",
+  "corporateActionHash": "sha256:fdda5011a5be4aae014766bf2fad125ba2c510672821ad6ca973b3c011623270",
+  "priceDataHash": "sha256:ad52cbdec613f4da7246960998e9362c6297b864c27e9f0f56d886ef21f7b107",
   "lastFullValidationAt": "2026-10-02T20:30:19Z",
-  "updatedAt": "2026-10-02T20:30:19Z"
+  "updatedAt": "2026-10-06T22:56:15Z"
 }

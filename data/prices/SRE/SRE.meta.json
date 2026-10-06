@@ -2,14 +2,14 @@
   "ticker": "SRE",
   "source": "yahoo",
   "firstDate": "1998-06-29",
-  "lastDate": "2026-10-01",
-  "records": 7101,
+  "lastDate": "2026-10-05",
+  "records": 7103,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-24",
   "lastSplitDate": "2023-08-22",
   "corporateActionHash": "sha256:e5fcb3a09b79b689f9d99ba08774071f0fa74c8cbbff035e11d14fb43631ee67",
-  "priceDataHash": "sha256:56930a3306f977474c2230779984bb01f84a0a06dc6a57bd96997f3b65c69686",
+  "priceDataHash": "sha256:b456bef280d52edb2bc02069ea21f48a475ca1cd8fabb67d5aa979a7dd194ba4",
   "lastFullValidationAt": "2026-10-02T20:28:11Z",
-  "updatedAt": "2026-10-02T20:28:11Z"
+  "updatedAt": "2026-10-06T22:55:11Z"
 }

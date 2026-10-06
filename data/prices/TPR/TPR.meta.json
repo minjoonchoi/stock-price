@@ -2,14 +2,14 @@
   "ticker": "TPR",
   "source": "yahoo",
   "firstDate": "2000-10-06",
-  "lastDate": "2026-10-01",
-  "records": 6522,
+  "lastDate": "2026-10-05",
+  "records": 6524,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2005-04-05",
   "corporateActionHash": "sha256:849603dccb0972ea2e1177eeb504b5302c4f9db594a1f03a85e407bdea05b03f",
-  "priceDataHash": "sha256:bff94f9543da549ff969bdd3035d9e86105cb113a62f1bbd698f3eb906e05197",
+  "priceDataHash": "sha256:5006bc36147edbcf3540582af23ec309b3727835192a10cdeb4c6018b199753b",
   "lastFullValidationAt": "2026-10-02T20:33:05Z",
-  "updatedAt": "2026-10-02T20:33:05Z"
+  "updatedAt": "2026-10-06T22:57:41Z"
 }

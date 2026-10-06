@@ -2,14 +2,14 @@
   "ticker": "RTO",
   "source": "yahoo",
   "firstDate": "1996-11-18",
-  "lastDate": "2026-10-01",
-  "records": 7425,
+  "lastDate": "2026-10-05",
+  "records": 7427,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2001-11-16",
   "corporateActionHash": "sha256:4aa9126bec4a34abb1012b51ed5975a52a19d595cd08d4e640b1f6aa08f07bac",
-  "priceDataHash": "sha256:8955ae17e0872c9787e273d914eb8418d75917375b9bbd29c5325b712a043192",
+  "priceDataHash": "sha256:290230bc0b4e3fb2f0e4232378f454250111aae774129528b0fe5e9ea34f1141",
   "lastFullValidationAt": "2026-10-02T20:22:09Z",
-  "updatedAt": "2026-10-02T20:22:09Z"
+  "updatedAt": "2026-10-06T22:51:49Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TRMK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-01",
-  "records": 11537,
+  "lastDate": "2026-10-05",
+  "records": 11539,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "1998-03-31",
   "corporateActionHash": "sha256:bd8006ca1c6fa8509030247aa2678c884861ef67be78616d4e738efc60b8c98b",
-  "priceDataHash": "sha256:ff6199361cebc395ed2ab0de081dbe353953a30980cb4ef629a4c3db2b9f8bcd",
+  "priceDataHash": "sha256:a38f9baa55bbc86e9d45d018ede22a0b637095e1f6d234c1b30ed09da242dac6",
   "lastFullValidationAt": "2026-10-02T20:33:25Z",
-  "updatedAt": "2026-10-02T20:33:25Z"
+  "updatedAt": "2026-10-06T22:57:51Z"
 }

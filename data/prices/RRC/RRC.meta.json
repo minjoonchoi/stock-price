@@ -2,14 +2,14 @@
   "ticker": "RRC",
   "source": "yahoo",
   "firstDate": "1980-06-19",
-  "lastDate": "2026-10-01",
-  "records": 11662,
+  "lastDate": "2026-10-05",
+  "records": 11664,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "2005-12-05",
   "corporateActionHash": "sha256:6fc50af015cf034d08fc5a80b2d0e08e43979de69a9b1243048a8048a463337f",
-  "priceDataHash": "sha256:c5bb3ee7cc2f98e82b71beaf852901c32def0fff210afc14773f08e6997636e1",
+  "priceDataHash": "sha256:bb205e64f378f4c4707da346344e3be22ae0b3ea09cda9a11a35cac4899c03ba",
   "lastFullValidationAt": "2026-10-02T20:21:45Z",
-  "updatedAt": "2026-10-02T20:21:45Z"
+  "updatedAt": "2026-10-06T22:51:37Z"
 }

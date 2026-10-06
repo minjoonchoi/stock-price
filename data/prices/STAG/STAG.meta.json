@@ -2,14 +2,14 @@
   "ticker": "STAG",
   "source": "yahoo",
   "firstDate": "2011-04-15",
-  "lastDate": "2026-10-01",
-  "records": 3878,
+  "lastDate": "2026-10-05",
+  "records": 3880,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5622f62c69543b92051b54370d97fca7dd4061b619aa3a2fc1cbb3e30f1271d4",
-  "priceDataHash": "sha256:c0312e1387f0b83f6744c778f31f6272a7c27ce77c850bed8c8c706e245a10a3",
+  "priceDataHash": "sha256:76d0bbbd51398a7e9615e5a22a4af877726e7bbc3d27711ac32340fc5fd4ffdf",
   "lastFullValidationAt": "2026-10-02T20:28:35Z",
-  "updatedAt": "2026-10-02T20:28:35Z"
+  "updatedAt": "2026-10-06T22:55:23Z"
 }

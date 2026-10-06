@@ -2,14 +2,14 @@
   "ticker": "PPL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-01",
-  "records": 11620,
+  "lastDate": "2026-10-05",
+  "records": 11622,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "2015-06-02",
   "corporateActionHash": "sha256:15bd579f450e092a45a770259f6ea5d6a89dd81a10f6aa088b517bc46b8b5450",
-  "priceDataHash": "sha256:94d5fc77f47282bff160ea94eb720b29471a7d5708dd16bce5329d36c41abec0",
+  "priceDataHash": "sha256:02a0db52e4b177d704c32037b70e945adf1c647c7a6c785d5aba30af37622f07",
   "lastFullValidationAt": "2026-10-02T20:15:53Z",
-  "updatedAt": "2026-10-02T20:15:53Z"
+  "updatedAt": "2026-10-06T22:48:37Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TFC",
   "source": "yahoo",
   "firstDate": "1980-03-18",
-  "lastDate": "2026-10-01",
-  "records": 11361,
+  "lastDate": "2026-10-05",
+  "records": 11363,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "1998-08-04",
   "corporateActionHash": "sha256:3135cc529129b1e6b85e3a3a4e50e6f9d8208cc32d336be36831caa0acf05029",
-  "priceDataHash": "sha256:49dff4afdc975152991c2a396323d49a3255adfefbfb4b71fab3d94534bde312",
+  "priceDataHash": "sha256:e6bc9a06de86f427bb636b17d344745ee4b0641a34e468c1d03c2119090ce03b",
   "lastFullValidationAt": "2026-10-02T20:31:23Z",
-  "updatedAt": "2026-10-02T20:31:23Z"
+  "updatedAt": "2026-10-06T22:56:48Z"
 }
