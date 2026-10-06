@@ -1,15 +1,15 @@
 {
   "ticker": "GBTG",
   "source": "yahoo",
-  "firstDate": "2022-08-18",
+  "firstDate": "2026-09-28",
   "lastDate": "2026-09-29",
-  "records": 1032,
+  "records": 2,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f7c6ccaef2c9d89cdfe26eba7dba37172ae4988e24e9525b30a652f4b2f969f9",
-  "lastFullValidationAt": "2026-09-26T17:09:17Z",
-  "updatedAt": "2026-09-30T13:37:52Z"
+  "priceDataHash": "sha256:bc392c1fbf7e9a01c76c148a3bb9a643d397029ed6710e912ab92e980ef6c688",
+  "lastFullValidationAt": "2026-10-06T15:59:44Z",
+  "updatedAt": "2026-10-06T15:59:44Z"
 }

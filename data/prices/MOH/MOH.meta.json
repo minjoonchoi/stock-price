@@ -2,14 +2,14 @@
   "ticker": "MOH",
   "source": "yahoo",
   "firstDate": "2003-07-02",
-  "lastDate": "2026-10-01",
-  "records": 5850,
+  "lastDate": "2026-10-05",
+  "records": 5852,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-05-23",
   "lastSplitDate": "2011-05-23",
   "corporateActionHash": "sha256:40b2a8d7b56c4a34be0ced8ef8abb6562e0ee1e4e194b5db6a19fd1e063645a7",
-  "priceDataHash": "sha256:7057e74a622933502b2d6abf639fafec7709f8b0da727180602dc4c392639a9a",
-  "lastFullValidationAt": "2026-09-26T17:30:55Z",
-  "updatedAt": "2026-10-02T14:03:08Z"
+  "priceDataHash": "sha256:7e61b14fe696c70c8b3ff8bebf168159dcdd30287140197329e3348f6eca560c",
+  "lastFullValidationAt": "2026-10-06T16:21:24Z",
+  "updatedAt": "2026-10-06T16:21:24Z"
 }

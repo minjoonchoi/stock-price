@@ -2,14 +2,14 @@
   "ticker": "LIFE",
   "source": "yahoo",
   "firstDate": "2026-01-29",
-  "lastDate": "2026-10-01",
-  "records": 170,
+  "lastDate": "2026-10-05",
+  "records": 172,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:6876bafdcc238d8688f6e49c7bf4eb9f91d9e703b9c976d379360ed80642b606",
+  "priceDataHash": "sha256:26d78e38497c8e125cafd75ff8e5643abd5d981ab99a02a1b38cbb6548173578",
   "lastFullValidationAt": "2026-10-01T20:33:01Z",
-  "updatedAt": "2026-10-02T13:59:48Z"
+  "updatedAt": "2026-10-06T16:15:02Z"
 }
