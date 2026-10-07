@@ -2,14 +2,14 @@
   "ticker": "HUM",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-10-05",
-  "records": 11256,
+  "lastDate": "2026-10-06",
+  "records": 11257,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-26",
   "lastSplitDate": "1991-08-01",
   "corporateActionHash": "sha256:693b84740561021593258491ae48f36222a8fbfab890e2168116a9b49205d902",
-  "priceDataHash": "sha256:cd0d7da9f60e87fdadc8d46ab69e35c9445d8c0627e07ccf31096a952b33053e",
+  "priceDataHash": "sha256:9225ffa1e0b6d8cc0ef18496f8cdd891a89138ff68503079923c867265bf685c",
   "lastFullValidationAt": "2026-10-06T16:06:32Z",
-  "updatedAt": "2026-10-06T16:06:32Z"
+  "updatedAt": "2026-10-07T14:31:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "MDLN",
   "source": "yahoo",
   "firstDate": "2025-12-17",
-  "lastDate": "2026-10-05",
-  "records": 200,
+  "lastDate": "2026-10-06",
+  "records": 201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e0fb62b081880e8f96209693206887c89d1c7a56b899737af812c6cc2945f36a",
+  "priceDataHash": "sha256:433e131c8c59601adbec09409b099aa422ed708d04c3399791369c007c5e351d",
   "lastFullValidationAt": "2026-10-06T16:19:16Z",
-  "updatedAt": "2026-10-06T16:19:16Z"
+  "updatedAt": "2026-10-07T14:37:45Z"
 }

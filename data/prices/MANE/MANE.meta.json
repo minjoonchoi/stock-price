@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 103,
-  "updatedAt": "2026-07-04T17:18:24Z",
-  "source": "yahoo"
+  "ticker": "MANE",
+  "source": "yahoo",
+  "firstDate": "2026-02-04",
+  "lastDate": "2026-10-06",
+  "records": 169,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:273bf5ffbfbe29bf3d0f35d4abc1e32ee9b04a6413e0ddba45f4cf2774a4672b",
+  "lastFullValidationAt": "2026-10-07T14:37:04Z",
+  "updatedAt": "2026-10-07T14:37:04Z"
 }
