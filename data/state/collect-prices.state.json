@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-06",
-  "totalTargets": 1601,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VLTO",
-  "cursorIndex": 1500,
+  "runId": "2026-10-07",
+  "totalTargets": 1614,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EQT",
+  "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:9c9a46a413de7097946d361a26ce728f7a1174f859b9c598c7c2e5a219d27865",
-  "universeHash": "sha256:9649a03a32d204a2eb2acf046e6b403af07d67892640644bf1dd2a43e71306fa",
+  "universeHash": "sha256:233da59f0aab6b603aaea6cb336f75ce8e47d8847ec255ece4d2da78a04f942e",
   "shardCount": 1,
-  "startedAt": "2026-10-06T07:30:47Z",
-  "updatedAt": "2026-10-06T23:00:39Z"
+  "startedAt": "2026-10-07T07:05:05Z",
+  "updatedAt": "2026-10-07T07:21:51Z"
 }

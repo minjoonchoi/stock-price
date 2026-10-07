@@ -2,14 +2,14 @@
   "ticker": "CHYM",
   "source": "yahoo",
   "firstDate": "2025-06-12",
-  "lastDate": "2026-10-05",
-  "records": 330,
+  "lastDate": "2026-10-06",
+  "records": 331,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a25d2479cc2404508d34f21c34e7c78f1881a0e342813488db9216c44e81cbaf",
+  "priceDataHash": "sha256:1dc32ef5290a22923b6ace23d6d0596d3174f4ac601007437be2240670b58dad",
   "lastFullValidationAt": "2026-10-03T12:47:48Z",
-  "updatedAt": "2026-10-06T07:41:05Z"
+  "updatedAt": "2026-10-07T07:15:31Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "BXMT",
   "source": "yahoo",
   "firstDate": "1980-12-29",
-  "lastDate": "2026-10-05",
-  "records": 11182,
+  "lastDate": "2026-10-06",
+  "records": 11183,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2013-05-07",
   "corporateActionHash": "sha256:4af6dd2ec34d331d18686e9b501b81d20ce2378f57bcbfe42cbdade5a65f98e5",
-  "priceDataHash": "sha256:08a095e413dd5f7ab6d735c97db1350d529ca0c722478d17544e980bc9d0f1d3",
+  "priceDataHash": "sha256:54af6e66744a833b349aa593d0c55786321b329e2415aa53064e66c4220d855c",
   "lastFullValidationAt": "2026-10-03T12:43:50Z",
-  "updatedAt": "2026-10-06T07:39:03Z"
+  "updatedAt": "2026-10-07T07:13:29Z"
 }

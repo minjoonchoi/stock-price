@@ -2,14 +2,14 @@
   "ticker": "DXPE",
   "source": "yahoo",
   "firstDate": "1998-05-07",
-  "lastDate": "2026-10-05",
-  "records": 7147,
+  "lastDate": "2026-10-06",
+  "records": 7148,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-10-01",
   "lastSplitDate": "2008-10-01",
   "corporateActionHash": "sha256:29c14cdfb03a2dbf483f02711ad8f137b7012901a2a77f0375e5e92c4fcf445a",
-  "priceDataHash": "sha256:26703e8ad260b396431585ee759d01e94f3c4af5f7427e8349ef947c45a38462",
+  "priceDataHash": "sha256:dd869a0f924d98a5e320dfa321e12c73a81d65e763548473d522b716d0ce5bc9",
   "lastFullValidationAt": "2026-10-03T12:57:34Z",
-  "updatedAt": "2026-10-06T07:46:03Z"
+  "updatedAt": "2026-10-07T07:20:33Z"
 }

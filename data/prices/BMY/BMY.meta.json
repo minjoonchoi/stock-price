@@ -2,14 +2,14 @@
   "ticker": "BMY",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-10-05",
-  "records": 13626,
+  "lastDate": "2026-10-06",
+  "records": 13627,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "2001-08-07",
   "corporateActionHash": "sha256:9788b45bc28529f41bf40f0fcc39775dbbb38a36f37319d135e904006c69dbe7",
-  "priceDataHash": "sha256:2b7c82b46ed8c1ad6ee152750128316fdd7df2b3cc646a48c1331df738363f69",
+  "priceDataHash": "sha256:67991264d8c816230bbc1ee6360af67c24f559b5a58ef5f69c268b4d1f7850a0",
   "lastFullValidationAt": "2026-10-03T12:41:52Z",
-  "updatedAt": "2026-10-06T07:38:03Z"
+  "updatedAt": "2026-10-07T07:12:29Z"
 }
