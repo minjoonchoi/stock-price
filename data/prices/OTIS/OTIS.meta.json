@@ -2,14 +2,14 @@
   "ticker": "OTIS",
   "source": "yahoo",
   "firstDate": "2020-03-19",
-  "lastDate": "2026-10-05",
-  "records": 1645,
+  "lastDate": "2026-10-06",
+  "records": 1646,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1cd5caecf1aa4d74d8e3401a15446487843f6466e78c85e178f704f75af8ab25",
-  "priceDataHash": "sha256:770d3582488178b65d26a68752f08778b41e2bbbf724e5e3f999bda6fcb9b2d0",
+  "priceDataHash": "sha256:564c0b792a5f1ab313cdcac898c3810a881d41a941a34f0cc6f9ece1c63cc68f",
   "lastFullValidationAt": "2026-10-02T20:10:53Z",
-  "updatedAt": "2026-10-06T22:46:01Z"
+  "updatedAt": "2026-10-07T21:13:56Z"
 }

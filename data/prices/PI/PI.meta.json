@@ -2,14 +2,14 @@
   "ticker": "PI",
   "source": "yahoo",
   "firstDate": "2016-07-21",
-  "lastDate": "2026-10-05",
-  "records": 2566,
+  "lastDate": "2026-10-06",
+  "records": 2567,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:fa4d54ac016c66511e0ffcef6172500b2a87878115bfdd234ab20948ff604047",
+  "priceDataHash": "sha256:b32460dd3f6f515b1105725fdfd1f937fe6ead7ec850c49b3ad726c05907fb8e",
   "lastFullValidationAt": "2026-10-02T20:14:01Z",
-  "updatedAt": "2026-10-06T22:47:35Z"
+  "updatedAt": "2026-10-07T21:15:30Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PM",
   "source": "yahoo",
   "firstDate": "2008-03-17",
-  "lastDate": "2026-10-05",
-  "records": 4665,
+  "lastDate": "2026-10-06",
+  "records": 4666,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:3dada885e2883648f5e5ecdb4d51ee358c2cadddab9cdf9c32b5cc4c98fdd5e5",
-  "priceDataHash": "sha256:14aee6062b7dc12be1314026f3969f7f02bc8c227b4f6ac5ae4e0dfc38b65a17",
+  "priceDataHash": "sha256:32971eb80eb8ea5a7f88de94d30d468f1e2abeaf04d715cc2fbd367331d578d9",
   "lastFullValidationAt": "2026-10-02T20:15:07Z",
-  "updatedAt": "2026-10-06T22:48:11Z"
+  "updatedAt": "2026-10-07T21:16:04Z"
 }

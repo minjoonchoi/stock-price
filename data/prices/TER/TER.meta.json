@@ -2,14 +2,14 @@
   "ticker": "TER",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-10-05",
-  "records": 13518,
+  "lastDate": "2026-10-06",
+  "records": 13519,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1999-09-01",
   "corporateActionHash": "sha256:83cae1079ce9d90d9a96c6bee6f5657996edd605b331c2a8b4949dfb310d3ea1",
-  "priceDataHash": "sha256:ed9335c5c6240200be1d57785f2e1db1a8bc577efce4660f6e7af3227ea395c2",
+  "priceDataHash": "sha256:82c055a8455db7f7627617cb76183030e413330ccf9d6e5c53dcca8b53408176",
   "lastFullValidationAt": "2026-10-02T20:31:15Z",
-  "updatedAt": "2026-10-06T22:56:44Z"
+  "updatedAt": "2026-10-07T21:24:18Z"
 }
