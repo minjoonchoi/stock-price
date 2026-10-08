@@ -2,14 +2,14 @@
   "ticker": "HRI",
   "source": "yahoo",
   "firstDate": "2006-11-16",
-  "lastDate": "2026-10-06",
-  "records": 5001,
+  "lastDate": "2026-10-07",
+  "records": 5002,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "2016-07-01",
   "corporateActionHash": "sha256:ece6f59204a1925127819015575fc148efb24614f99d6319508648c886844680",
-  "priceDataHash": "sha256:47020100c10d3dd34f0aec194587a85d0b98ad8b4be79d4e3f089ff33e65e258",
+  "priceDataHash": "sha256:09eea6c81ffc400636b8a2aa8dfc3ca9e9a869c6146c4f2e95a46f7c1d566862",
   "lastFullValidationAt": "2026-10-06T16:05:40Z",
-  "updatedAt": "2026-10-07T14:30:33Z"
+  "updatedAt": "2026-10-08T17:03:39Z"
 }

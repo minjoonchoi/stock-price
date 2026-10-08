@@ -2,14 +2,14 @@
   "ticker": "FRT",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-10-06",
-  "records": 12799,
+  "lastDate": "2026-10-07",
+  "records": 12800,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "1985-11-06",
   "corporateActionHash": "sha256:fc94157a73869e780a534e93575cbb35b0a5ce1b778fcea59d1b18aaf6bee2ff",
-  "priceDataHash": "sha256:f56f6ee510ea593236ce703a918ef24f38ad5b74d08988dea7bff7262f16029a",
+  "priceDataHash": "sha256:6fcf0bf82c55b6a5dc35e4bba081b1d0b33bc5396d893b01ff3612ebf0db24bc",
   "lastFullValidationAt": "2026-10-06T15:58:24Z",
-  "updatedAt": "2026-10-07T14:26:45Z"
+  "updatedAt": "2026-10-08T16:59:55Z"
 }

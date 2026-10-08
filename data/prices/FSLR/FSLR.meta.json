@@ -2,14 +2,14 @@
   "ticker": "FSLR",
   "source": "yahoo",
   "firstDate": "2006-11-17",
-  "lastDate": "2026-10-06",
-  "records": 5000,
+  "lastDate": "2026-10-07",
+  "records": 5001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:25523688f124b7fe6b9936b70459e6bb3921594713584c3ca7f4fa7ea2ebde45",
+  "priceDataHash": "sha256:30357f2211320dfa0ca2da60cf73bc32d8651f732e851de570063468318513c3",
   "lastFullValidationAt": "2026-10-06T15:58:36Z",
-  "updatedAt": "2026-10-07T14:26:51Z"
+  "updatedAt": "2026-10-08T17:00:01Z"
 }

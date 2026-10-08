@@ -2,14 +2,14 @@
   "ticker": "GAP",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-06",
-  "records": 11660,
+  "lastDate": "2026-10-07",
+  "records": 11661,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-08",
+  "lastCorporateActionDate": "2026-10-07",
   "lastSplitDate": "1999-06-22",
-  "corporateActionHash": "sha256:e653603f3f8bc962b73ac88773263470d430ffa3cfc8c237e78bdcd4fbecda9d",
-  "priceDataHash": "sha256:a724da401f29ee38b4de3179639d36cb3c7b2710d2cff9259b1e20dc8275ff8c",
+  "corporateActionHash": "sha256:c01063226660e09a154e8c7af13c56197d048309255744e7d3d8dfee3cc5efa5",
+  "priceDataHash": "sha256:4693edf359190b009f55098fbaff6d4edd64f3736035981abb876a6b3c5af368",
   "lastFullValidationAt": "2026-10-06T15:59:28Z",
-  "updatedAt": "2026-10-07T14:27:22Z"
+  "updatedAt": "2026-10-08T17:00:29Z"
 }
