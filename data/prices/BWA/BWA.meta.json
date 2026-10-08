@@ -2,14 +2,14 @@
   "ticker": "BWA",
   "source": "yahoo",
   "firstDate": "1993-08-13",
-  "lastDate": "2026-10-06",
-  "records": 8311,
+  "lastDate": "2026-10-07",
+  "records": 8312,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2023-07-05",
   "corporateActionHash": "sha256:be4d62a41c496f1d1f404df87c7e2a70cb7a7ff675f450a56b6980088b174591",
-  "priceDataHash": "sha256:852f5bfd2abff8ae2446ed1d3ee6f3566b7b502646ab5f59694961605feb3a90",
+  "priceDataHash": "sha256:3d41ec7423d2c00b4db85fae59739dce965e515137bbcb7db0822374c096d3ee",
   "lastFullValidationAt": "2026-10-03T12:43:34Z",
-  "updatedAt": "2026-10-07T07:13:21Z"
+  "updatedAt": "2026-10-08T07:23:03Z"
 }

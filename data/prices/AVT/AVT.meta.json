@@ -2,14 +2,14 @@
   "ticker": "AVT",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-10-06",
-  "records": 13240,
+  "lastDate": "2026-10-07",
+  "records": 13241,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-09",
   "lastSplitDate": "2000-09-29",
   "corporateActionHash": "sha256:ae0d8b5e297b9f34477762b787c4d2870746b5bb4dd2ceea04d3d487ffc8e9e5",
-  "priceDataHash": "sha256:170212dbbe87c72232ce1daf47876a9196b08bb6ce708dcd36376bb33cf91ce9",
+  "priceDataHash": "sha256:0a3eeaa62c20041cd1ea1326689d259ac8efb8cedd4ffa27d7ce237a9cd1cd10",
   "lastFullValidationAt": "2026-10-03T12:37:18Z",
-  "updatedAt": "2026-10-07T07:10:11Z"
+  "updatedAt": "2026-10-08T07:19:53Z"
 }

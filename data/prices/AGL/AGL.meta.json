@@ -2,14 +2,14 @@
   "ticker": "AGL",
   "source": "yahoo",
   "firstDate": "2021-04-15",
-  "lastDate": "2026-10-06",
-  "records": 1376,
+  "lastDate": "2026-10-07",
+  "records": 1377,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-03-31",
   "lastSplitDate": "2026-03-31",
   "corporateActionHash": "sha256:7f886573e468f824293f7973803ea8da869e1940259cc9316a0d37aebc4d64c8",
-  "priceDataHash": "sha256:90663f2409aed590564efd5ca5d68b9ddd7366f0e2999a7273d35a878639bf28",
+  "priceDataHash": "sha256:6c654a767f58e38254d60f0bfd0f390cd6bb32a3e90db5f59e44ca8a5092ecf6",
   "lastFullValidationAt": "2026-10-03T12:30:40Z",
-  "updatedAt": "2026-10-07T07:06:39Z"
+  "updatedAt": "2026-10-08T07:16:25Z"
 }

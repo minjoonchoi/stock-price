@@ -2,14 +2,14 @@
   "ticker": "CENT",
   "source": "yahoo",
   "firstDate": "1992-07-15",
-  "lastDate": "2026-10-06",
-  "records": 8567,
+  "lastDate": "2026-10-07",
+  "records": 8568,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-02-09",
   "lastSplitDate": "2024-02-09",
   "corporateActionHash": "sha256:7deb04402e95a280a53478a76a96d18ab7ccd4c1060d95ec9a86c40a519eaf50",
-  "priceDataHash": "sha256:5878e71d238842e25acbd3c290a45daac6c7d97cc704d66949d9ad992f2d22f0",
+  "priceDataHash": "sha256:2cadd1468aca02715eec8ab4292676fad85f7cba3a48f9fb23663432e1ef2461",
   "lastFullValidationAt": "2026-10-03T12:46:38Z",
-  "updatedAt": "2026-10-07T07:14:55Z"
+  "updatedAt": "2026-10-08T07:24:37Z"
 }
