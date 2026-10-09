@@ -2,14 +2,14 @@
   "ticker": "WDC",
   "source": "yahoo",
   "firstDate": "1978-10-31",
-  "lastDate": "2026-10-02",
-  "records": 12000,
+  "lastDate": "2026-10-08",
+  "records": 11978,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-08",
   "lastSplitDate": "2025-02-24",
   "corporateActionHash": "sha256:7ea770275a007d8f84c02e3ce23d45d6a2265a08100c81462f1520a43c6e6646",
-  "priceDataHash": "sha256:6c3f983647ec603e2bcad43d5e908a537f8d78c7275973ab6a5e6233715c90e5",
-  "lastFullValidationAt": "2026-10-01T07:07:22Z",
-  "updatedAt": "2026-10-03T06:17:54Z"
+  "priceDataHash": "sha256:5364fad089d26c59ad36bb483a504602dda86545d4260187dab7a6377ba2c873",
+  "lastFullValidationAt": "2026-10-09T07:23:24Z",
+  "updatedAt": "2026-10-09T07:23:24Z"
 }
