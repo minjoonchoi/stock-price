@@ -2,14 +2,14 @@
   "ticker": "ALH",
   "source": "yahoo",
   "firstDate": "2025-10-09",
-  "lastDate": "2026-10-07",
-  "records": 250,
+  "lastDate": "2026-10-08",
+  "records": 251,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:9f35cfea99b59ca91630988701952d2c8ee6fc93cfd100f3f8925158af79dca9",
+  "priceDataHash": "sha256:1e2bb89a6cd517316d8a01bb531a2cdc39a867b4de95ccf78e8e0d8ee413c105",
   "lastFullValidationAt": "2026-10-03T12:32:00Z",
-  "updatedAt": "2026-10-08T07:17:05Z"
+  "updatedAt": "2026-10-09T16:07:52Z"
 }
