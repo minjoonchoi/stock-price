@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-10-05",
+  "runId": "2026-10-12",
   "minMarketCap": 300000000,
-  "totalTickers": 10434,
+  "totalTickers": 10445,
   "processedTickers": 1000,
-  "lastProcessedTicker": "BANC",
+  "lastProcessedTicker": "BANC-PF",
   "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:e7a10dbf81c02c8406468c50a1d5375a09386d02ee48fe3dfb233762c349373e",
+  "secTickerHash": "sha256:89cfa2842f42df11bdc4a731b50279eb1420a50b8d9236d14d1a43118ce0665b",
   "shardCount": 1,
-  "startedAt": "2026-10-05T06:49:45Z",
-  "updatedAt": "2026-10-05T08:29:45Z"
+  "startedAt": "2026-10-12T07:15:06Z",
+  "updatedAt": "2026-10-12T08:55:06Z"
 }
