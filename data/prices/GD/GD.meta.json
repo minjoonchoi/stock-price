@@ -2,14 +2,14 @@
   "ticker": "GD",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-10-08",
-  "records": 16093,
+  "lastDate": "2026-10-12",
+  "records": 16028,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-02",
+  "lastCorporateActionDate": "2026-10-09",
   "lastSplitDate": "2006-03-27",
-  "corporateActionHash": "sha256:a33f941395d4d167ffb6c5f9eda41e850c7138ee1013ba4d8f134d0489d80657",
-  "priceDataHash": "sha256:797504c0b70b310921836cd560d598de517b030a9e7af943689620db73a157b4",
-  "lastFullValidationAt": "2026-10-06T15:59:52Z",
-  "updatedAt": "2026-10-09T21:39:54Z"
+  "corporateActionHash": "sha256:eb08eec6bb306ba95fad8da2d2515d66f4e3fafd32c95116bdf5f5df1b95209d",
+  "priceDataHash": "sha256:4a3b9b9dd189db175e8d6ca80d7a2359a86b639a9a48e96c3e6c42de5be78c6c",
+  "lastFullValidationAt": "2026-10-13T17:05:11Z",
+  "updatedAt": "2026-10-13T17:05:11Z"
 }

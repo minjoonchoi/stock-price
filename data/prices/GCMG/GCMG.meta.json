@@ -1,15 +1,15 @@
 {
   "ticker": "GCMG",
   "source": "yahoo",
-  "firstDate": "2019-02-15",
-  "lastDate": "2026-10-08",
-  "records": 1886,
+  "firstDate": "2019-02-06",
+  "lastDate": "2026-10-12",
+  "records": 1896,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:edc08d17c477306d5a3bd703fbd9c125af6c18261b7513b7a45d2b82b5be4583",
-  "priceDataHash": "sha256:b9c9292a3cb4d747db8399ebd3669ffb0595dc9314089907219ec4fe0e4a295f",
-  "lastFullValidationAt": "2026-10-06T15:59:48Z",
-  "updatedAt": "2026-10-09T21:39:52Z"
+  "priceDataHash": "sha256:25ee7596232fa0851fd049f1d15a760d147564d8f4bbab8870756278c5cfaaf1",
+  "lastFullValidationAt": "2026-10-13T17:05:03Z",
+  "updatedAt": "2026-10-13T17:05:03Z"
 }

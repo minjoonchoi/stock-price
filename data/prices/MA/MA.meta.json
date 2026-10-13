@@ -2,14 +2,14 @@
   "ticker": "MA",
   "source": "yahoo",
   "firstDate": "2006-05-25",
-  "lastDate": "2026-10-08",
-  "records": 5125,
+  "lastDate": "2026-10-12",
+  "records": 5127,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-09",
+  "lastCorporateActionDate": "2026-10-09",
   "lastSplitDate": "2014-01-22",
-  "corporateActionHash": "sha256:682b230808e7019e8136874cee9f5bb0ec07ebb3cef9c5a86318cc87332a94d8",
-  "priceDataHash": "sha256:659c593727f4ffe3e496201aeeaa3142e625eb41ba26c8e665394c85db0cf1e3",
-  "lastFullValidationAt": "2026-10-06T16:17:40Z",
-  "updatedAt": "2026-10-09T21:49:20Z"
+  "corporateActionHash": "sha256:041b8ff1c9b2585e7119caee4755fa1c661605b7bd9e1162dcd8012d65cd8342",
+  "priceDataHash": "sha256:7fabedd3b7104b88fff0624b4677d451cd6edb9f25fe6a7c47692f755e4a4862",
+  "lastFullValidationAt": "2026-10-13T17:23:07Z",
+  "updatedAt": "2026-10-13T17:23:07Z"
 }
