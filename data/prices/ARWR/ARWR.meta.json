@@ -2,14 +2,14 @@
   "ticker": "ARWR",
   "source": "yahoo",
   "firstDate": "1993-12-16",
-  "lastDate": "2026-10-09",
-  "records": 8259,
+  "lastDate": "2026-10-12",
+  "records": 8260,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-11-17",
   "lastSplitDate": "2011-11-17",
   "corporateActionHash": "sha256:99bc83d5842b4ca0ba1a254fe7fce492da982fbeb573a3570f37cb53cd3778fc",
-  "priceDataHash": "sha256:174a440b0d3dfb63a172f6b528e96264d9b5fe7f6ed9675fd639853ba0a413c7",
+  "priceDataHash": "sha256:f4de11167cf6bebd89146a6e2fe8a5adc61fca91c11c50fb32634b86fc241725",
   "lastFullValidationAt": "2026-10-10T13:38:08Z",
-  "updatedAt": "2026-10-10T13:38:08Z"
+  "updatedAt": "2026-10-13T07:42:26Z"
 }

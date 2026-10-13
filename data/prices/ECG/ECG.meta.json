@@ -2,14 +2,14 @@
   "ticker": "ECG",
   "source": "yahoo",
   "firstDate": "2024-10-28",
-  "lastDate": "2026-10-09",
-  "records": 489,
+  "lastDate": "2026-10-12",
+  "records": 490,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:17271fe68e98d70ac421b892bbdc578a99deffdd28eaf59fd96380f336ef13e3",
+  "priceDataHash": "sha256:f700403845b7330196ef66aad14c15ccc27c5e6715afb8e06bebdca3dbe91f9a",
   "lastFullValidationAt": "2026-10-10T14:00:08Z",
-  "updatedAt": "2026-10-10T14:00:08Z"
+  "updatedAt": "2026-10-13T07:53:50Z"
 }
