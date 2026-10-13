@@ -2,14 +2,14 @@
   "ticker": "TCBI",
   "source": "yahoo",
   "firstDate": "2003-08-13",
-  "lastDate": "2026-10-07",
-  "records": 5825,
+  "lastDate": "2026-10-12",
+  "records": 5828,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:19e9b320715cafafa34ab97f0ab52a6d55aef8216e50c4665d2b85649482c2ef",
-  "priceDataHash": "sha256:831d444415fef5367a1b710436fc2a094608d622cceffbed8a2f856283e09bfa",
-  "lastFullValidationAt": "2026-10-02T20:30:39Z",
-  "updatedAt": "2026-10-08T22:16:25Z"
+  "priceDataHash": "sha256:567cd3ca8aba0f38b15f22b45799d474faf0cc2442a86a71ad128450ee563935",
+  "lastFullValidationAt": "2026-10-13T22:19:24Z",
+  "updatedAt": "2026-10-13T22:19:24Z"
 }

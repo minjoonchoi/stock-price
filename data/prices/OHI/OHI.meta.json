@@ -1,15 +1,15 @@
 {
   "ticker": "OHI",
   "source": "yahoo",
-  "firstDate": "1992-08-07",
-  "lastDate": "2026-10-07",
-  "records": 8561,
+  "firstDate": "1992-08-24",
+  "lastDate": "2026-10-12",
+  "records": 8571,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:86a729bdaf3df1a033833f3f3133b29f024a51fe7d212a2f73af96ca886be30b",
-  "priceDataHash": "sha256:864079d616a96978d46519520726ff67bdd5706d434245c4ff89c84f3a4359be",
-  "lastFullValidationAt": "2026-10-02T20:09:09Z",
-  "updatedAt": "2026-10-08T22:05:31Z"
+  "priceDataHash": "sha256:c3ae529d398d489e8bafb0b1303bcf61ebb65fd935951eefcb1712bbb0637877",
+  "lastFullValidationAt": "2026-10-13T21:58:02Z",
+  "updatedAt": "2026-10-13T21:58:02Z"
 }

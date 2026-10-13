@@ -1,15 +1,15 @@
 {
   "ticker": "SUN",
   "source": "yahoo",
-  "firstDate": "2012-09-20",
-  "lastDate": "2026-10-07",
-  "records": 3529,
+  "firstDate": "2026-07-17",
+  "lastDate": "2026-10-09",
+  "records": 60,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:93bc1d201670fbfd5b300f29c38f232c42c3f31d3879592005edec22e2f57c6a",
-  "priceDataHash": "sha256:703cb97cb8600a51189ad4a455ada20113799648441b1ddcd7ddc4a234e95670",
-  "lastFullValidationAt": "2026-10-02T20:29:23Z",
-  "updatedAt": "2026-10-08T22:15:45Z"
+  "corporateActionHash": "sha256:d158a817f9eb493616e881ba618f1d70b683c1e56502c34ba0563a57a0622dbb",
+  "priceDataHash": "sha256:c8d008518dff699b56391c58455deb81c774edd5edde68eabe7a9dd2281b9112",
+  "lastFullValidationAt": "2026-10-13T22:18:06Z",
+  "updatedAt": "2026-10-13T22:18:06Z"
 }

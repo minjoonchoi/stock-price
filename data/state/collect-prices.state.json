@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-13",
   "totalTargets": 1617,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NET",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VEEV",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:89cfa2842f42df11bdc4a731b50279eb1420a50b8d9236d14d1a43118ce0665b",
   "universeHash": "sha256:bf82dfacc07fffcd63f9c0aa52c5c999648128b08b93b8803c4d4209906a5c32",
   "shardCount": 1,
   "startedAt": "2026-10-13T07:38:16Z",
-  "updatedAt": "2026-10-13T17:30:39Z"
+  "updatedAt": "2026-10-13T22:26:36Z"
 }
