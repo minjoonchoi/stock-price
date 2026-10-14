@@ -2,14 +2,14 @@
   "ticker": "CIFR",
   "source": "yahoo",
   "firstDate": "2020-10-20",
-  "lastDate": "2026-10-12",
-  "records": 1501,
+  "lastDate": "2026-10-13",
+  "records": 1502,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a12d7057fb4b3dec2576202033c092621804e336545b43c5dc08ceff190f2805",
+  "priceDataHash": "sha256:7b5255719f1ce38a47f037481770f551091b734ce0bceb4637084fca70251bf9",
   "lastFullValidationAt": "2026-10-10T13:50:20Z",
-  "updatedAt": "2026-10-13T07:48:44Z"
+  "updatedAt": "2026-10-14T06:14:59Z"
 }

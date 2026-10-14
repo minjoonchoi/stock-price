@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-13",
-  "totalTargets": 1617,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VEEV",
-  "cursorIndex": 1500,
+  "runId": "2026-10-14",
+  "totalTargets": 1616,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EQT",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:89cfa2842f42df11bdc4a731b50279eb1420a50b8d9236d14d1a43118ce0665b",
-  "universeHash": "sha256:bf82dfacc07fffcd63f9c0aa52c5c999648128b08b93b8803c4d4209906a5c32",
+  "secTickerHash": "sha256:2d4b117e21a7b427242c4cf2ba7ee44b903c46caac82a6fcf68d3170cb12e874",
+  "universeHash": "sha256:a70d8f0dda225c7920dd7420eacec251ab91b241aa1a19b25a8c54ff5a4e767f",
   "shardCount": 1,
-  "startedAt": "2026-10-13T07:38:16Z",
-  "updatedAt": "2026-10-13T22:26:36Z"
+  "startedAt": "2026-10-14T06:04:31Z",
+  "updatedAt": "2026-10-14T06:21:12Z"
 }

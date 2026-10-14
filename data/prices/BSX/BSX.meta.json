@@ -2,14 +2,14 @@
   "ticker": "BSX",
   "source": "yahoo",
   "firstDate": "1992-05-19",
-  "lastDate": "2026-10-12",
-  "records": 8660,
+  "lastDate": "2026-10-13",
+  "records": 8661,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2003-11-06",
   "lastSplitDate": "2003-11-06",
   "corporateActionHash": "sha256:ce214fc83ce18277fccfeb0d67dbad26382e1f2f5abf5328386203e26ca271d7",
-  "priceDataHash": "sha256:8021631c0bf098aa112fb68a9b1a2838d88ddcd38af5bcff8562e51f9559c33e",
+  "priceDataHash": "sha256:d9783d66f35d91914de7b74ff44d6d7aa79a74872d05d0567c459fe49d311ef5",
   "lastFullValidationAt": "2026-10-10T13:45:32Z",
-  "updatedAt": "2026-10-13T07:46:14Z"
+  "updatedAt": "2026-10-14T06:12:29Z"
 }

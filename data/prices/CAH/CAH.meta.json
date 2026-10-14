@@ -2,14 +2,14 @@
   "ticker": "CAH",
   "source": "yahoo",
   "firstDate": "1983-08-04",
-  "lastDate": "2026-10-12",
-  "records": 10863,
+  "lastDate": "2026-10-13",
+  "records": 10864,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2001-04-23",
   "corporateActionHash": "sha256:6e2cba7b5635338d595afea5c985124385fbb1781e4adadc4829d79ed2264a69",
-  "priceDataHash": "sha256:6cfcc4e05e03788d033f4237ecd09e9f1a94f659e1ea941a44c2c9caea69b1fb",
+  "priceDataHash": "sha256:907d77ec65c4bbc495bf816f72ef3f5b661733a098daf986b8c3737c98780c51",
   "lastFullValidationAt": "2026-10-10T13:46:41Z",
-  "updatedAt": "2026-10-13T07:46:48Z"
+  "updatedAt": "2026-10-14T06:13:03Z"
 }
