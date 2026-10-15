@@ -2,14 +2,14 @@
   "ticker": "ACM",
   "source": "yahoo",
   "firstDate": "2007-05-10",
-  "lastDate": "2026-10-13",
-  "records": 4888,
+  "lastDate": "2026-10-14",
+  "records": 4889,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-01",
+  "lastCorporateActionDate": "2026-10-14",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:479b28effbdba7fe9511b537243301868dc81a3ad3217ddfb9e4f3b22e1b2901",
-  "priceDataHash": "sha256:20e12c349a0637522480f60405a7db4681a60ed42580ce2250bf1f3bf8286893",
+  "corporateActionHash": "sha256:aa401ee4fbfd59045fd61876ad298f90ab2ac181bc9f82aad6af667a62c975d8",
+  "priceDataHash": "sha256:5b0e82848a85dbe39a4f9fb7383a043facfa9e43e430d145657af16eb59be365",
   "lastFullValidationAt": "2026-10-10T13:31:56Z",
-  "updatedAt": "2026-10-14T06:05:17Z"
+  "updatedAt": "2026-10-15T17:46:36Z"
 }
