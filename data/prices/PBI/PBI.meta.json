@@ -2,14 +2,14 @@
   "ticker": "PBI",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-10-12",
-  "records": 13572,
+  "lastDate": "2026-10-14",
+  "records": 13574,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "1998-01-20",
   "corporateActionHash": "sha256:d95879ea134e6a354ba29cb1160647b7ae1319538a93ee875a6aa9a886f73261",
-  "priceDataHash": "sha256:854b4bcc8069f2631aa6baacfe36f16af1dd9bdccec2e62ecd63349ae32697b6",
+  "priceDataHash": "sha256:6bc97e3d91cb566103431b3425bd3afc748edf0027c3d9997e128c2808ac8077",
   "lastFullValidationAt": "2026-10-13T22:01:06Z",
-  "updatedAt": "2026-10-13T22:01:06Z"
+  "updatedAt": "2026-10-15T12:42:37Z"
 }

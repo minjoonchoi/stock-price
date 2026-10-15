@@ -2,14 +2,14 @@
   "ticker": "TYL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-12",
-  "records": 11716,
+  "lastDate": "2026-10-14",
+  "records": 11718,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1990-05-15",
   "lastSplitDate": "1990-05-15",
   "corporateActionHash": "sha256:431d22fc8099a875b1141c6d55cbaf8604ef6e1c261f4b8b8ba6e4bb722dac9b",
-  "priceDataHash": "sha256:9cc6148615291e61103673a51cd201457f00fec97238a5a5d52da79e1c13bafa",
+  "priceDataHash": "sha256:7bb15233f5fb7effd09b046a6ab46922d180aef0cfb6a1e760071bdbd4689cd3",
   "lastFullValidationAt": "2026-10-13T22:23:46Z",
-  "updatedAt": "2026-10-13T22:23:46Z"
+  "updatedAt": "2026-10-15T12:54:45Z"
 }

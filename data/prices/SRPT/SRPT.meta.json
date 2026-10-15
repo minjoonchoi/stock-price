@@ -2,14 +2,14 @@
   "ticker": "SRPT",
   "source": "yahoo",
   "firstDate": "1997-06-04",
-  "lastDate": "2026-10-12",
-  "records": 7385,
+  "lastDate": "2026-10-14",
+  "records": 7387,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2012-07-12",
   "lastSplitDate": "2012-07-12",
   "corporateActionHash": "sha256:b41b18df8d23f9be37b50ecb4d82bf94428b7084389c78a610cc0e991b280024",
-  "priceDataHash": "sha256:b125a21f684cb0d37508764d53456fa5e539584e88af8864fedb70f4e205aa3f",
+  "priceDataHash": "sha256:d5feec4f3348ea3159a233e480acc8d35171bfafbbb2b44d43b9acaee6874fe3",
   "lastFullValidationAt": "2026-10-13T22:16:58Z",
-  "updatedAt": "2026-10-13T22:16:58Z"
+  "updatedAt": "2026-10-15T12:51:09Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PNC",
   "source": "yahoo",
   "firstDate": "1975-11-17",
-  "lastDate": "2026-10-12",
-  "records": 12783,
+  "lastDate": "2026-10-14",
+  "records": 12785,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-20",
+  "lastCorporateActionDate": "2026-10-14",
   "lastSplitDate": "1992-11-16",
-  "corporateActionHash": "sha256:d92ef92aba9c762f6d111ae435ae19ff8307f1e303355ea59e8c08042be83387",
-  "priceDataHash": "sha256:0a152690a9f39c72536435bc3419e40e2b1212ed44a4efc5804939a915cdf530",
+  "corporateActionHash": "sha256:770ffac679a40a75f13f31c4b1406cf1c820e03831b2dd83bebdb890669efb3b",
+  "priceDataHash": "sha256:488969ac3de7c422f51cf4761df6ba38904650d39013fdc490de7f226d7df7ff",
   "lastFullValidationAt": "2026-10-13T22:04:04Z",
-  "updatedAt": "2026-10-13T22:04:04Z"
+  "updatedAt": "2026-10-15T12:44:09Z"
 }

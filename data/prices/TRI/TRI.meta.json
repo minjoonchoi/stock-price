@@ -2,14 +2,14 @@
   "ticker": "TRI",
   "source": "yahoo",
   "firstDate": "2002-06-12",
-  "lastDate": "2026-10-12",
-  "records": 6104,
+  "lastDate": "2026-10-14",
+  "records": 6106,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2023-06-23",
   "corporateActionHash": "sha256:1cf241fd5852075d6873c96080411fb0e6a46095af27ecd39aa2cdfe6bf7598a",
-  "priceDataHash": "sha256:3fed3f028f22480a30308cc044d5c1bfe6aff6f5af62800761de920eea9d10c7",
+  "priceDataHash": "sha256:146a6a8c4c928befe67db1801ce1bcaa21b735801eded9c4ca9aaa9260c71173",
   "lastFullValidationAt": "2026-10-13T22:22:02Z",
-  "updatedAt": "2026-10-13T22:22:02Z"
+  "updatedAt": "2026-10-15T12:53:47Z"
 }

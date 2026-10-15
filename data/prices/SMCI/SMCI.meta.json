@@ -2,14 +2,14 @@
   "ticker": "SMCI",
   "source": "yahoo",
   "firstDate": "2007-03-29",
-  "lastDate": "2026-10-12",
-  "records": 4916,
+  "lastDate": "2026-10-14",
+  "records": 4918,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-10-01",
   "lastSplitDate": "2024-10-01",
   "corporateActionHash": "sha256:20a3db2f37c68bf9ef7460fa11a1e57cce21357854df2b2f9d046b92f5d5ed3b",
-  "priceDataHash": "sha256:e8934395c734443b23cd68393430c57c9846cea45d4a984725f70e30153c0713",
+  "priceDataHash": "sha256:a05581d6f9d849b80801ddcdd2025b5dd01c64e401d24c3bee54681e727b865f",
   "lastFullValidationAt": "2026-10-13T22:14:50Z",
-  "updatedAt": "2026-10-13T22:14:50Z"
+  "updatedAt": "2026-10-15T12:49:59Z"
 }
