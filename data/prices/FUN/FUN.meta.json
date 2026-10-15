@@ -2,14 +2,14 @@
   "ticker": "FUN",
   "source": "yahoo",
   "firstDate": "1987-04-23",
-  "lastDate": "2026-10-12",
-  "records": 9840,
+  "lastDate": "2026-10-14",
+  "records": 9842,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-06-05",
   "lastSplitDate": "1997-11-18",
   "corporateActionHash": "sha256:9fa46524fbd695c142035839068199396cf47e5d57da42d6a51fb8cadbe7adbc",
-  "priceDataHash": "sha256:8e6b7b10234605e058b741bcb08f63d4618b0092907ce6db8f963f272d7f1f25",
+  "priceDataHash": "sha256:533e2ee3d3de7f4792c06976207b27b116f03aa9078e24858cfb375d0591458c",
   "lastFullValidationAt": "2026-10-13T17:04:31Z",
-  "updatedAt": "2026-10-13T17:04:31Z"
+  "updatedAt": "2026-10-15T05:50:11Z"
 }

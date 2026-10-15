@@ -2,14 +2,14 @@
   "ticker": "GEO",
   "source": "yahoo",
   "firstDate": "1994-07-27",
-  "lastDate": "2026-10-12",
-  "records": 8098,
+  "lastDate": "2026-10-14",
+  "records": 8100,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2021-01-22",
   "lastSplitDate": "2017-04-25",
   "corporateActionHash": "sha256:bd5e0028724b9b2c2a0d7dbbc926670937ba1f3fc774b7e4ad126936a8ce4311",
-  "priceDataHash": "sha256:ccb672fed2273143c7b921e95c134ee804c16a25dd52d4310f64e83363987695",
+  "priceDataHash": "sha256:394ac4ceefeecbf1b6d3cd7905022759eb592f93fb732a5c67f5ba451e7c692e",
   "lastFullValidationAt": "2026-10-13T17:05:37Z",
-  "updatedAt": "2026-10-13T17:05:37Z"
+  "updatedAt": "2026-10-15T05:50:43Z"
 }

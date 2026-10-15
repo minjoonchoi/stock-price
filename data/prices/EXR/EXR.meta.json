@@ -2,14 +2,14 @@
   "ticker": "EXR",
   "source": "yahoo",
   "firstDate": "2004-08-16",
-  "lastDate": "2026-10-12",
-  "records": 5559,
+  "lastDate": "2026-10-14",
+  "records": 5561,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c8e5c71ca382e7c6d6f751b108b79de38853502bd81b71dc397d553a0af03ec6",
-  "priceDataHash": "sha256:63c4b8daa9ce2e8b733157483820f1a2c2eaad9aad1ae690f4a265d976f5aea8",
+  "priceDataHash": "sha256:26b36d00733b928f3afe2167beba096009e13bb4bbbf71be5cfc8f3749f4f0bf",
   "lastFullValidationAt": "2026-10-13T16:59:51Z",
-  "updatedAt": "2026-10-13T16:59:51Z"
+  "updatedAt": "2026-10-15T05:47:45Z"
 }

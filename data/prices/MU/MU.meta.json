@@ -2,14 +2,14 @@
   "ticker": "MU",
   "source": "yahoo",
   "firstDate": "1984-06-01",
-  "lastDate": "2026-10-12",
-  "records": 10673,
+  "lastDate": "2026-10-14",
+  "records": 10675,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-06",
+  "lastCorporateActionDate": "2026-10-14",
   "lastSplitDate": "2000-05-02",
-  "corporateActionHash": "sha256:d22c4d6d212e933d3b99e4b7a69550de6014c412a7265a6b3668670b30a8d8c1",
-  "priceDataHash": "sha256:4717718736f999605f343c5fa5e725aaf28f6d2c60c5c2488580255502f741d6",
+  "corporateActionHash": "sha256:7a56228c62f0e2fb6100aa33c2a948e2323c04a568ae9c1ce79d7313bbb0d272",
+  "priceDataHash": "sha256:1a155aef4b6a5ceb5766df589473c472c7080cfcbac814e86d15037adf9004bf",
   "lastFullValidationAt": "2026-10-13T17:29:13Z",
-  "updatedAt": "2026-10-13T17:29:13Z"
+  "updatedAt": "2026-10-15T06:02:59Z"
 }

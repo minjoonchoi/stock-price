@@ -2,14 +2,14 @@
   "ticker": "LHX",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-10-12",
-  "records": 11252,
+  "lastDate": "2026-10-14",
+  "records": 11254,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2009-05-11",
   "corporateActionHash": "sha256:b78a10fc4700b8c05218b5496c4a0e19ae7a3e01aa81c267052b4b06a4f7f71b",
-  "priceDataHash": "sha256:30846d470978903cafe2155abef35bf29199d586afdf6b0a9d0b925bb9ab1482",
+  "priceDataHash": "sha256:f9833a92c4ec362e23826caa66ecebb656fce9a74a57f0ef448e24bd5a905004",
   "lastFullValidationAt": "2026-10-13T17:20:23Z",
-  "updatedAt": "2026-10-13T17:20:23Z"
+  "updatedAt": "2026-10-15T05:58:19Z"
 }

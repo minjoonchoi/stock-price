@@ -2,14 +2,14 @@
   "ticker": "LGND",
   "source": "yahoo",
   "firstDate": "1992-11-18",
-  "lastDate": "2026-10-12",
-  "records": 8504,
+  "lastDate": "2026-10-14",
+  "records": 8506,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-11-02",
   "lastSplitDate": "2022-11-02",
   "corporateActionHash": "sha256:90f9db9fb22dc3ab390e2fe1c1f1b2c07399bbce09e731f246b0d531f8dc4359",
-  "priceDataHash": "sha256:aeffddb5604042951ed728c7b7eea48f8ccbf328a3770065ac9897b396f39941",
+  "priceDataHash": "sha256:68962a0a862f7b9b9430fdbe62516854737b95b2899e0ede60d5473f864731b4",
   "lastFullValidationAt": "2026-10-13T17:20:15Z",
-  "updatedAt": "2026-10-13T17:20:15Z"
+  "updatedAt": "2026-10-15T05:58:15Z"
 }

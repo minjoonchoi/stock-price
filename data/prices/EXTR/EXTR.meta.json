@@ -2,14 +2,14 @@
   "ticker": "EXTR",
   "source": "yahoo",
   "firstDate": "1999-04-09",
-  "lastDate": "2026-10-12",
-  "records": 6920,
+  "lastDate": "2026-10-14",
+  "records": 6922,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2000-08-25",
   "lastSplitDate": "2000-08-25",
   "corporateActionHash": "sha256:f9abda93c8f99add068a7d57ae085ce301a3754348da1bb0f6c1e4094d087495",
-  "priceDataHash": "sha256:5af85961e8632c84e6e06ec8a40be4b33d91d748b8355a24f5cbf7a534d0241d",
+  "priceDataHash": "sha256:b02f6f1aa77c716ed5b20d2195505388a6db2290513093a9216f18532cbaf554",
   "lastFullValidationAt": "2026-10-13T16:59:55Z",
-  "updatedAt": "2026-10-13T16:59:55Z"
+  "updatedAt": "2026-10-15T05:47:47Z"
 }

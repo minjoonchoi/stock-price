@@ -2,14 +2,14 @@
   "ticker": "MCK",
   "source": "yahoo",
   "firstDate": "1994-11-10",
-  "lastDate": "2026-10-12",
-  "records": 8021,
+  "lastDate": "2026-10-14",
+  "records": 8023,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "1998-01-05",
   "corporateActionHash": "sha256:a6f5a86c139702684b017e103fb68f46a960428336e5bd8231d049e5c315ff6d",
-  "priceDataHash": "sha256:8561f0f55896b2e5245e0d5bbca0fe92681a66650dbbf7bffdc1308abc0991e4",
+  "priceDataHash": "sha256:126b2adf3f18a377acc47dab0084ccd53694953634f0de360b4f9ca9ad6aa14d",
   "lastFullValidationAt": "2026-10-13T17:24:19Z",
-  "updatedAt": "2026-10-13T17:24:19Z"
+  "updatedAt": "2026-10-15T06:00:29Z"
 }
