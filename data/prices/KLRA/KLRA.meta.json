@@ -2,14 +2,14 @@
   "ticker": "KLRA",
   "source": "yahoo",
   "firstDate": "2026-04-17",
-  "lastDate": "2026-10-14",
-  "records": 125,
+  "lastDate": "2026-10-15",
+  "records": 126,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ed481d542ca48df399fb9c1c383de6060b0a9534d9c7048eb3705424894b074d",
+  "priceDataHash": "sha256:5a53a7f53184e16e7e646e260b57275ad1986381601133c3e091ee81cd51515c",
   "lastFullValidationAt": "2026-10-13T17:17:43Z",
-  "updatedAt": "2026-10-15T05:56:59Z"
+  "updatedAt": "2026-10-16T05:54:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "IDT",
   "source": "yahoo",
   "firstDate": "2001-05-16",
-  "lastDate": "2026-10-14",
-  "records": 6384,
+  "lastDate": "2026-10-15",
+  "records": 6385,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-05",
   "lastSplitDate": "2013-08-01",
   "corporateActionHash": "sha256:59772d4f3651438d4d6247a350816168b1a4ef74ba99b35efd2f3b8b855189a9",
-  "priceDataHash": "sha256:33c66de8240b31be82b8c87d31ba2cda2634b7542667b220ece6a4766ce0c8e8",
+  "priceDataHash": "sha256:747c1d23b519c12600405b19ad947b00a610efaa4a7df8230504279e7aeb9201",
   "lastFullValidationAt": "2026-10-13T17:13:07Z",
-  "updatedAt": "2026-10-15T05:54:33Z"
+  "updatedAt": "2026-10-16T05:51:38Z"
 }

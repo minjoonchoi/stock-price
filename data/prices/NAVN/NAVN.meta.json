@@ -2,14 +2,14 @@
   "ticker": "NAVN",
   "source": "yahoo",
   "firstDate": "2025-10-30",
-  "lastDate": "2026-10-14",
-  "records": 240,
+  "lastDate": "2026-10-15",
+  "records": 241,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c856fa769dbed8b11369e7b5cd37382550c3200dab4b61e5ee76ef48a97518b4",
+  "priceDataHash": "sha256:84047d2abab5c3b1d960a8c8c1ed3c6d476a459d3876cdd0146ff4767d6629fb",
   "lastFullValidationAt": "2026-10-13T17:29:45Z",
-  "updatedAt": "2026-10-15T06:03:15Z"
+  "updatedAt": "2026-10-16T06:00:14Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "HHH",
   "source": "yahoo",
   "firstDate": "2010-11-05",
-  "lastDate": "2026-10-14",
-  "records": 4008,
+  "lastDate": "2026-10-15",
+  "records": 4009,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-08-01",
   "lastSplitDate": "2024-08-01",
   "corporateActionHash": "sha256:9a633263d7beceb5cc931637a7bcc77f987758134976d75d48f548c746f75df7",
-  "priceDataHash": "sha256:3f7f3e5ac28ab08c9509c1eab54f9a23cc96485a8fd04b7754c5ed4cb429db36",
+  "priceDataHash": "sha256:559ad8b98df72781c4977c4ac04cdac66d34efa1ff4a501c85d855bfcf276c40",
   "lastFullValidationAt": "2026-10-13T17:09:27Z",
-  "updatedAt": "2026-10-15T05:52:43Z"
+  "updatedAt": "2026-10-16T05:49:48Z"
 }

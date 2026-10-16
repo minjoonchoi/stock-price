@@ -2,14 +2,14 @@
   "ticker": "FRPT",
   "source": "yahoo",
   "firstDate": "2014-11-07",
-  "lastDate": "2026-10-14",
-  "records": 3000,
+  "lastDate": "2026-10-15",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:12892d2eccf3bc9546d8caffc60195875e0cd34285c926309520e76a1dd182e1",
+  "priceDataHash": "sha256:5b294714188b489ba870bb8545c7ad406398f58d4b3cdd4be928ac7f0a54b323",
   "lastFullValidationAt": "2026-10-13T17:03:29Z",
-  "updatedAt": "2026-10-15T05:49:37Z"
+  "updatedAt": "2026-10-16T05:46:46Z"
 }

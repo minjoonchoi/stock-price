@@ -2,14 +2,14 @@
   "ticker": "FLY",
   "source": "yahoo",
   "firstDate": "2025-08-07",
-  "lastDate": "2026-10-14",
-  "records": 299,
+  "lastDate": "2026-10-15",
+  "records": 300,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2d0f468497b6899933aac4be43e48a8e80214f61c7730825e3142d3b34a6a97b",
+  "priceDataHash": "sha256:ce70309085d5344ece62113435268e8ef26123050b46206bc3595ff37812aa91",
   "lastFullValidationAt": "2026-10-13T17:02:33Z",
-  "updatedAt": "2026-10-15T05:49:09Z"
+  "updatedAt": "2026-10-16T05:46:18Z"
 }
