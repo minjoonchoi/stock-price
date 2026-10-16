@@ -2,14 +2,14 @@
   "ticker": "VYLR",
   "source": "yahoo",
   "firstDate": "2026-10-01",
-  "lastDate": "2026-10-08",
-  "records": 6,
+  "lastDate": "2026-10-15",
+  "records": 11,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f23f35b4055d17acaae51341e745aa81eb472c47715de40609245ca125e51d4d",
-  "lastFullValidationAt": "2026-10-09T07:22:44Z",
-  "updatedAt": "2026-10-09T07:22:44Z"
+  "priceDataHash": "sha256:9f83188ee08e8d389982985545e92b6ad406820373e00298e7cfda683f440668",
+  "lastFullValidationAt": "2026-10-16T17:28:25Z",
+  "updatedAt": "2026-10-16T17:28:25Z"
 }

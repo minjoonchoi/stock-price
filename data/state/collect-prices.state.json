@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-15",
   "totalTargets": 1616,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VERA",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1616,
+  "lastProcessedTicker": "ZYME",
+  "cursorIndex": 1616,
+  "completed": true,
   "secTickerHash": "sha256:3ef89b0cd263ec64e4564f80143b30759e3a07f12ef705b989c1a61c5fc19071",
   "universeHash": "sha256:a70d8f0dda225c7920dd7420eacec251ab91b241aa1a19b25a8c54ff5a4e767f",
   "shardCount": 1,
   "startedAt": "2026-10-15T17:45:50Z",
-  "updatedAt": "2026-10-16T12:38:38Z"
+  "updatedAt": "2026-10-16T17:33:33Z"
 }
