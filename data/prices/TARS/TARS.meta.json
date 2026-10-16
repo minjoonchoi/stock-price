@@ -2,14 +2,14 @@
   "ticker": "TARS",
   "source": "yahoo",
   "firstDate": "2020-10-16",
-  "lastDate": "2026-10-14",
-  "records": 1505,
+  "lastDate": "2026-10-15",
+  "records": 1506,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:03832beaea720f53b72f18d00bae17712a93a7bb7b478c85d735d9b8e9896937",
+  "priceDataHash": "sha256:ee716d86a0f64583e96a18425f9f1cda5d912e8b5c14718aa788fd3063459d0e",
   "lastFullValidationAt": "2026-10-13T22:19:16Z",
-  "updatedAt": "2026-10-15T12:52:21Z"
+  "updatedAt": "2026-10-16T12:34:52Z"
 }

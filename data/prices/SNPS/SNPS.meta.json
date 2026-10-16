@@ -2,14 +2,14 @@
   "ticker": "SNPS",
   "source": "yahoo",
   "firstDate": "1992-02-26",
-  "lastDate": "2026-10-14",
-  "records": 8720,
+  "lastDate": "2026-10-15",
+  "records": 8721,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2003-09-24",
   "lastSplitDate": "2003-09-24",
   "corporateActionHash": "sha256:633386b13271a17123341c3c1b700ad243a02d4438474df27810641f973d7179",
-  "priceDataHash": "sha256:fec329db0cda937ede31ee3df3441cc722309041b97b1c7b99e2dbdf1247193d",
+  "priceDataHash": "sha256:69a00ba18535caf7a5f8e3792c0595ff43eadd650b43cc29307f37c60700189c",
   "lastFullValidationAt": "2026-10-13T22:15:44Z",
-  "updatedAt": "2026-10-15T12:50:29Z"
+  "updatedAt": "2026-10-16T12:33:04Z"
 }

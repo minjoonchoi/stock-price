@@ -2,14 +2,14 @@
   "ticker": "PLUG",
   "source": "yahoo",
   "firstDate": "1999-10-29",
-  "lastDate": "2026-10-14",
-  "records": 6780,
+  "lastDate": "2026-10-15",
+  "records": 6781,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-05-20",
   "lastSplitDate": "2011-05-20",
   "corporateActionHash": "sha256:2b9996c18372e6c0fdf98b2373fbf83a28908230cf10e4d326d6bd8da9ecd6da",
-  "priceDataHash": "sha256:ef426772ed519fc9839e83d9e2ed29ddfe8e867b09c0d1a29962d2daae981561",
+  "priceDataHash": "sha256:d18302477105f6af07d1bc3327394088dcb3b72cd6fcb319a8f8ec03297d6f8b",
   "lastFullValidationAt": "2026-10-13T22:03:50Z",
-  "updatedAt": "2026-10-15T12:43:59Z"
+  "updatedAt": "2026-10-16T12:26:56Z"
 }

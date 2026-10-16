@@ -2,14 +2,14 @@
   "ticker": "NLY",
   "source": "yahoo",
   "firstDate": "1997-10-08",
-  "lastDate": "2026-10-14",
-  "records": 7252,
+  "lastDate": "2026-10-15",
+  "records": 7253,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2022-09-26",
   "corporateActionHash": "sha256:eb6f9ec62e529ddb7698a03804424eceaec93fe168aa143e2c485827d184be40",
-  "priceDataHash": "sha256:fbfdb07654c3c58eca2370a29fbc555a51e2516bd200ee4b6955a9b655056e26",
+  "priceDataHash": "sha256:abc34a75922a2091cfca314d82ebd588abfbb7a21071a962d0244b2e011262d6",
   "lastFullValidationAt": "2026-10-15T12:38:43Z",
-  "updatedAt": "2026-10-15T12:38:43Z"
+  "updatedAt": "2026-10-16T12:22:26Z"
 }

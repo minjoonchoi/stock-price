@@ -2,14 +2,14 @@
   "ticker": "NWS",
   "source": "yahoo",
   "firstDate": "2013-06-19",
-  "lastDate": "2026-10-14",
-  "records": 3350,
+  "lastDate": "2026-10-15",
+  "records": 3351,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-09",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c95d582283f6fb49c69cde68d6490d97ab8a3358f130f6564dbbb841795c2761",
-  "priceDataHash": "sha256:63252273864aeb65eb3c96a5db6f982e8b63d8f54742d2906286a8d1552d1f37",
+  "priceDataHash": "sha256:2996cc50d60f28bc8fa2f60d1f627d88b0686815132810952bfb2c59677847c1",
   "lastFullValidationAt": "2026-10-13T21:57:10Z",
-  "updatedAt": "2026-10-15T12:40:39Z"
+  "updatedAt": "2026-10-16T12:23:36Z"
 }
