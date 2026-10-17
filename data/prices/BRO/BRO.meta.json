@@ -1,15 +1,15 @@
 {
   "ticker": "BRO",
   "source": "yahoo",
-  "firstDate": "1981-02-11",
+  "firstDate": "1981-05-06",
   "lastDate": "2026-10-16",
-  "records": 10927,
+  "records": 10976,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-12",
   "lastSplitDate": "2018-03-29",
   "corporateActionHash": "sha256:288bfea6c8874b33435b1c42e4be1281e4eac058c3429114a571436e77ede982",
-  "priceDataHash": "sha256:bd3f47c15627d8bc8be5c03c5136dd2c313a1f562b4c9f3bd5922eacc2a7b1f0",
-  "lastFullValidationAt": "2026-10-10T13:45:05Z",
-  "updatedAt": "2026-10-17T05:37:33Z"
+  "priceDataHash": "sha256:da59e2b9c145d7a9427bdcac7954c77e67ff4ac84063a8a4ad9d8e2c59ce82e9",
+  "lastFullValidationAt": "2026-10-17T16:37:52Z",
+  "updatedAt": "2026-10-17T16:37:52Z"
 }

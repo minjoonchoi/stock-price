@@ -1,15 +1,15 @@
 {
   "ticker": "CHD",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
+  "firstDate": "1980-03-18",
   "lastDate": "2026-10-16",
-  "records": 11600,
+  "records": 11498,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2016-09-02",
   "corporateActionHash": "sha256:f61e4e81b2b4d8802eb790acacacaccb1c52c1a93d8cdbc10ca672a5de30dd4b",
-  "priceDataHash": "sha256:baf8d1bbcae547662ede51ae440f3e1befc37e5e53d37f0eb07525d7e1c285e1",
-  "lastFullValidationAt": "2026-10-10T13:49:37Z",
-  "updatedAt": "2026-10-17T05:39:57Z"
+  "priceDataHash": "sha256:185c08957506e53206d1caed0f051c2ce8fb24f5c075a6f112b4dc2559f69379",
+  "lastFullValidationAt": "2026-10-17T16:42:24Z",
+  "updatedAt": "2026-10-17T16:42:24Z"
 }

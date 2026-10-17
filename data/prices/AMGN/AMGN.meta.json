@@ -1,15 +1,15 @@
 {
   "ticker": "AMGN",
   "source": "yahoo",
-  "firstDate": "1983-06-20",
+  "firstDate": "1983-06-17",
   "lastDate": "2026-10-16",
-  "records": 10866,
+  "records": 10882,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "1999-11-22",
   "corporateActionHash": "sha256:d0b9884276d52eecd807b4b8136ef63373eb7c204771aab9527451c59c543551",
-  "priceDataHash": "sha256:a3d96abf35f92326a7ca8b6d805196f586732b00952f3c9b0692ed3fa1fc0a2e",
-  "lastFullValidationAt": "2026-10-10T13:35:45Z",
-  "updatedAt": "2026-10-17T05:32:31Z"
+  "priceDataHash": "sha256:5a01e16c34d3ecf67ce63fdef71a76f7f1b750ebeb4c8396bb2ac479ae744efc",
+  "lastFullValidationAt": "2026-10-17T16:28:46Z",
+  "updatedAt": "2026-10-17T16:28:46Z"
 }
