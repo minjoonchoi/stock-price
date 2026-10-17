@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-15",
-  "totalTargets": 1616,
-  "processedTargets": 1616,
-  "lastProcessedTicker": "ZYME",
-  "cursorIndex": 1616,
-  "completed": true,
+  "runId": "2026-10-17",
+  "totalTargets": 1618,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EQT",
+  "cursorIndex": 500,
+  "completed": false,
   "secTickerHash": "sha256:3ef89b0cd263ec64e4564f80143b30759e3a07f12ef705b989c1a61c5fc19071",
-  "universeHash": "sha256:a70d8f0dda225c7920dd7420eacec251ab91b241aa1a19b25a8c54ff5a4e767f",
+  "universeHash": "sha256:2cad46799367131c9eb515e0c23c6f3276f07b767d7df01fa7c8e9ca050cf772",
   "shardCount": 1,
-  "startedAt": "2026-10-15T17:45:50Z",
-  "updatedAt": "2026-10-16T17:33:33Z"
+  "startedAt": "2026-10-17T05:29:27Z",
+  "updatedAt": "2026-10-17T05:46:47Z"
 }

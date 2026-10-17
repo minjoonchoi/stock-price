@@ -1,15 +1,15 @@
 {
   "ticker": "DKL",
   "source": "yahoo",
-  "firstDate": "2012-11-05",
-  "lastDate": "2026-10-14",
-  "records": 3493,
+  "firstDate": "2012-11-02",
+  "lastDate": "2026-10-16",
+  "records": 3492,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-03",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5be121e37cd51ee77f700a048a3206db9c76825d68c7b13701c848611428b32f",
-  "priceDataHash": "sha256:734d02aee5b2d4f63658c2d960416027372db4089d01a77a5a3b0625829478ad",
-  "lastFullValidationAt": "2026-10-09T16:20:28Z",
-  "updatedAt": "2026-10-15T18:00:12Z"
+  "priceDataHash": "sha256:5bb11b81a5c657704310d93fbac37ffe04269767269ca4c3783de6e068ee5115",
+  "lastFullValidationAt": "2026-10-17T05:44:25Z",
+  "updatedAt": "2026-10-17T05:44:25Z"
 }

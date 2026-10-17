@@ -2,14 +2,14 @@
   "ticker": "ATKR",
   "source": "yahoo",
   "firstDate": "2016-06-10",
-  "lastDate": "2026-10-14",
-  "records": 2601,
+  "lastDate": "2026-10-16",
+  "records": 2603,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-18",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:180a6680a7ae6b8d34a52ed2c523e3d2a023eee8913532cc4151ef0a2c160008",
-  "priceDataHash": "sha256:3f02af8fe133a6ee3a72b2f6322918b08918a0e6eb9a4df3bbfc9b0ec0b29b52",
+  "priceDataHash": "sha256:ed1b1b6d50680d54b65284a5938d846ddda1f113525b2267a25e33de1242ea51",
   "lastFullValidationAt": "2026-10-10T13:38:52Z",
-  "updatedAt": "2026-10-15T17:50:24Z"
+  "updatedAt": "2026-10-17T05:34:19Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "DLR",
   "source": "yahoo",
   "firstDate": "2004-10-29",
-  "lastDate": "2026-10-14",
-  "records": 5520,
+  "lastDate": "2026-10-16",
+  "records": 5522,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:53d528efcb3df7dbd76cf68f2b33ecb2c4012bae2872cee8a516908c280492ab",
-  "priceDataHash": "sha256:fef56fdd44a6088f2bae625b3739a0ba51ccdbfdb12db4a5c498ede9c185cc36",
+  "priceDataHash": "sha256:e193d0599c1d1ac4bafb8dcc06b254328529e9122b5392e3ce3bf408dac28e32",
   "lastFullValidationAt": "2026-10-10T13:58:04Z",
-  "updatedAt": "2026-10-15T18:00:20Z"
+  "updatedAt": "2026-10-17T05:44:33Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "CURB",
   "source": "yahoo",
   "firstDate": "2024-09-26",
-  "lastDate": "2026-10-14",
-  "records": 514,
+  "lastDate": "2026-10-16",
+  "records": 516,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-29",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:b2cdd68aa11177dca033ea1adcafdd6371ccd6e2d50ea255b0b7f2bf0d19d4dd",
-  "priceDataHash": "sha256:816b05ad341ad207e0fe65a6c86767a321303a8f3b2eaf3ab582b6fc3954e9f1",
+  "priceDataHash": "sha256:62b29d7aa864c2d5db538e1e8e7677e22dd28d67a7887b5234b003012adcd040",
   "lastFullValidationAt": "2026-10-10T13:54:56Z",
-  "updatedAt": "2026-10-15T17:58:44Z"
+  "updatedAt": "2026-10-17T05:42:55Z"
 }

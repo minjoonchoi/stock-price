@@ -2,14 +2,14 @@
   "ticker": "DECK",
   "source": "yahoo",
   "firstDate": "1993-10-15",
-  "lastDate": "2026-10-14",
-  "records": 8305,
+  "lastDate": "2026-10-16",
+  "records": 8307,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-09-17",
   "lastSplitDate": "2024-09-17",
   "corporateActionHash": "sha256:440c383ee5f9f2094e8778fbc3292bf0f53b0af5a07c23b2aceda6322ee9feca",
-  "priceDataHash": "sha256:7086097622fc0a85e37b6be664e60df0f8682d55921deb2ef5246b597776f923",
+  "priceDataHash": "sha256:b1920f17334912bc58357de23c783a56959a8ccdb618aa72ea686768063231bb",
   "lastFullValidationAt": "2026-10-10T13:56:57Z",
-  "updatedAt": "2026-10-15T17:59:44Z"
+  "updatedAt": "2026-10-17T05:43:55Z"
 }

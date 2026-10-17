@@ -2,14 +2,14 @@
   "ticker": "CAI",
   "source": "yahoo",
   "firstDate": "2025-06-18",
-  "lastDate": "2026-10-14",
-  "records": 333,
+  "lastDate": "2026-10-16",
+  "records": 335,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:647a2f86ba5491501ccf9e38bccc3c1fa1356156b599cf365538171fd77dfc9f",
+  "priceDataHash": "sha256:829c31425742cb6f04ca0b0de066b0ac1f13ec3d7728dff911a627ea036bb8da",
   "lastFullValidationAt": "2026-10-10T13:46:44Z",
-  "updatedAt": "2026-10-15T17:54:24Z"
+  "updatedAt": "2026-10-17T05:38:23Z"
 }

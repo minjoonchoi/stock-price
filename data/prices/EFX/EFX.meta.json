@@ -2,14 +2,14 @@
   "ticker": "EFX",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-14",
-  "records": 11634,
+  "lastDate": "2026-10-16",
+  "records": 11636,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "1995-12-18",
   "corporateActionHash": "sha256:f7f706e63a2c17e0e2b4b5e6467766a588f1a43a616dc9bfff801ac24a6b6606",
-  "priceDataHash": "sha256:d900b795562ee41f747726b2178ab7ee86822482685eb1e142f6d7bbb1bcda33",
+  "priceDataHash": "sha256:cab708c422baf8917c26359052d87d0e4ac2bfcd17ac75bd6ac60b181058963a",
   "lastFullValidationAt": "2026-10-10T14:00:33Z",
-  "updatedAt": "2026-10-15T18:01:38Z"
+  "updatedAt": "2026-10-17T05:45:55Z"
 }

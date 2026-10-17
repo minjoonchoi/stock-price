@@ -2,14 +2,14 @@
   "ticker": "AYI",
   "source": "yahoo",
   "firstDate": "2001-12-03",
-  "lastDate": "2026-10-14",
-  "records": 6252,
+  "lastDate": "2026-10-16",
+  "records": 6254,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-17",
+  "lastCorporateActionDate": "2026-10-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:edcef33d8d6c1b18830b05aa1a5b7020fd74b6ad3e8b1a3d4aa0c2ce77271709",
-  "priceDataHash": "sha256:256404fb2017e0b4e2358f00f7fc75e4e70e6c8487b4649c7ef0943c118883dd",
+  "corporateActionHash": "sha256:e1648b608972178b5b350d66c132d7ea493686f3656b63d4d3798c0efcad0a52",
+  "priceDataHash": "sha256:9028dbca768bbb7befedc9d8b9adb67ba939bb2321f73eea63f7544dc601487b",
   "lastFullValidationAt": "2026-10-10T13:40:36Z",
-  "updatedAt": "2026-10-15T17:51:16Z"
+  "updatedAt": "2026-10-17T05:35:11Z"
 }
