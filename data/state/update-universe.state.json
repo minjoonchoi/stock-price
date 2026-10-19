@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-10-12",
+  "runId": "2026-10-19",
   "minMarketCap": 300000000,
-  "totalTickers": 10445,
-  "processedTickers": 2000,
-  "lastProcessedTicker": "CIK",
-  "cursorIndex": 2000,
+  "totalTickers": 10443,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAMGF",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:89cfa2842f42df11bdc4a731b50279eb1420a50b8d9236d14d1a43118ce0665b",
+  "secTickerHash": "sha256:c5333169fff22daf9ca937663bcf2ccf567c0f358aeeaac0440968c090ead253",
   "shardCount": 1,
-  "startedAt": "2026-10-12T07:15:06Z",
-  "updatedAt": "2026-10-12T20:36:57Z"
+  "startedAt": "2026-10-19T00:42:51Z",
+  "updatedAt": "2026-10-19T02:22:51Z"
 }
