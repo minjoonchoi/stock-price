@@ -2,14 +2,14 @@
   "ticker": "MGRC",
   "source": "yahoo",
   "firstDate": "1984-11-13",
-  "lastDate": "2026-10-15",
-  "records": 10475,
+  "lastDate": "2026-10-19",
+  "records": 10477,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-17",
+  "lastCorporateActionDate": "2026-10-16",
   "lastSplitDate": "2005-03-28",
-  "corporateActionHash": "sha256:ee6f47f62d9e31b4cce3fd1a2628864db5f71550298d084a808114b0b2e8be73",
-  "priceDataHash": "sha256:7d36cd899fc05dae26f610fd7397d78aa206086bdee26d128bbe5b97c682dea8",
+  "corporateActionHash": "sha256:f085f569209e715309e3b4fdb9e5741a6939242db09710ca6ecc27d86492dae1",
+  "priceDataHash": "sha256:54fab8332ae111f08116220ede5c26d301501f524b91a509e9fadee353cf891f",
   "lastFullValidationAt": "2026-10-13T17:25:29Z",
-  "updatedAt": "2026-10-16T05:58:02Z"
+  "updatedAt": "2026-10-20T13:00:33Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FTRE",
   "source": "yahoo",
   "firstDate": "2023-06-16",
-  "lastDate": "2026-10-15",
-  "records": 836,
+  "lastDate": "2026-10-19",
+  "records": 838,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a36e3f2360e72cbd106314be97126583c1a4c2ccc74295e34ea2dc32b8e2ecd6",
+  "priceDataHash": "sha256:dfdc4280e683cf48dd08afb70099cf3682690061bfd9c5c503e031c6def27e9b",
   "lastFullValidationAt": "2026-10-15T05:50:01Z",
-  "updatedAt": "2026-10-16T05:47:08Z"
+  "updatedAt": "2026-10-20T12:49:11Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ET",
   "source": "yahoo",
   "firstDate": "2026-07-17",
-  "lastDate": "2026-10-15",
-  "records": 62,
+  "lastDate": "2026-10-19",
+  "records": 64,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-07",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:258dfc7b7addf219c47fd30070ca3753fabd989d24300eb1213f40b2a0a09770",
-  "priceDataHash": "sha256:629922edb9c355d158fc998928dc9416a847d795685e9b1a0cf137853e68ad89",
+  "priceDataHash": "sha256:a2b03f03ecab387a71045667e487bb6bb4c441e5d8e8b162edc066c61d6a8f3e",
   "lastFullValidationAt": "2026-10-13T16:58:45Z",
-  "updatedAt": "2026-10-16T05:44:20Z"
+  "updatedAt": "2026-10-20T12:46:15Z"
 }

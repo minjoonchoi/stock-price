@@ -2,14 +2,14 @@
   "ticker": "MAIR",
   "source": "yahoo",
   "firstDate": "2026-04-16",
-  "lastDate": "2026-10-15",
-  "records": 127,
+  "lastDate": "2026-10-19",
+  "records": 129,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:6236ebfdd47ec53b04be9bdcc2c5eb576128e6d8cd3cc8dd204c1e1c953b793b",
+  "priceDataHash": "sha256:cecb34ea7dc928e8bd36f6a34c9ffa01e2c7e3f4935b1c5b477632d03bffff96",
   "lastFullValidationAt": "2026-10-15T05:59:55Z",
-  "updatedAt": "2026-10-16T05:56:54Z"
+  "updatedAt": "2026-10-20T12:59:19Z"
 }

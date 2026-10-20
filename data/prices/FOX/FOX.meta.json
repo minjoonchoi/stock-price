@@ -2,14 +2,14 @@
   "ticker": "FOX",
   "source": "yahoo",
   "firstDate": "2019-03-13",
-  "lastDate": "2026-10-15",
-  "records": 1910,
+  "lastDate": "2026-10-19",
+  "records": 1912,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7f436d1410b41199fcc90fb2082e6c1506f34dbcbfd0d78d7e13067612622a53",
-  "priceDataHash": "sha256:1cbb4c63d4a6ab2bce81fec78d29329954dbb2d120b6fc98c1a0cb6c6b2e7213",
+  "priceDataHash": "sha256:16fce2d2d28150f6162f86db9281d30233f8161c2479c8960247e48763a003d7",
   "lastFullValidationAt": "2026-10-13T17:03:01Z",
-  "updatedAt": "2026-10-16T05:46:32Z"
+  "updatedAt": "2026-10-20T12:48:35Z"
 }

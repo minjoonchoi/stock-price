@@ -2,14 +2,14 @@
   "ticker": "JAN",
   "source": "yahoo",
   "firstDate": "2026-03-20",
-  "lastDate": "2026-10-15",
-  "records": 145,
+  "lastDate": "2026-10-19",
+  "records": 147,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-09-11",
+  "lastCorporateActionDate": "2026-10-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:f7d9b084abde955f8aa40d5bffdfe230fcd604f21a7b68f6ad2cde02cc5deb81",
-  "priceDataHash": "sha256:37b1e8d9ead25c41d659dffcdd1e7fdbfe8f8e2d8d51703f2b295679b3faa213",
+  "corporateActionHash": "sha256:52f233674d40febb1073b13e2033f9e94b98b604f40c3b99c792805497c52777",
+  "priceDataHash": "sha256:c92271a104c2a46b180188311d48a20448beab825fd018825d3063debab2ee59",
   "lastFullValidationAt": "2026-10-15T05:56:13Z",
-  "updatedAt": "2026-10-16T05:53:14Z"
+  "updatedAt": "2026-10-20T12:55:29Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FCFS",
   "source": "yahoo",
   "firstDate": "1991-06-10",
-  "lastDate": "2026-10-15",
-  "records": 8885,
+  "lastDate": "2026-10-19",
+  "records": 8887,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2006-02-22",
   "corporateActionHash": "sha256:b238dc171537956be180a5fc18c57d321c00fc3d158870adaad0155945a25e31",
-  "priceDataHash": "sha256:d756b46dd5f28d6bd9bfb91623c50fe3bf9be11bfbfb49691ff96f502d249435",
+  "priceDataHash": "sha256:5ad75406bf6e344a2599ee3f9f198993b049e453de5963cf9c281b625f7fc172",
   "lastFullValidationAt": "2026-10-13T17:00:43Z",
-  "updatedAt": "2026-10-16T05:45:20Z"
+  "updatedAt": "2026-10-20T12:47:17Z"
 }
