@@ -2,14 +2,14 @@
   "ticker": "SNX",
   "source": "yahoo",
   "firstDate": "2003-11-25",
-  "lastDate": "2026-10-15",
-  "records": 5758,
+  "lastDate": "2026-10-19",
+  "records": 5760,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-17",
+  "lastCorporateActionDate": "2026-10-16",
   "lastSplitDate": "2020-12-01",
-  "corporateActionHash": "sha256:2f09f7665e634c2dd41fab9340440dc00275894a51d1f296c76b97b06e11f578",
-  "priceDataHash": "sha256:340e5e64f489045a5343d62ba17e6021bf523437342c3099a9ceb6b7caa462c2",
+  "corporateActionHash": "sha256:2d3734706d56803e6d202a343f783e7ad1cd370d7a7b4622f2d1ec80585edeca",
+  "priceDataHash": "sha256:cf31663edb5769273771f8187df0590af67ec4b398b77ad8b528a946703e8313",
   "lastFullValidationAt": "2026-10-13T22:15:48Z",
-  "updatedAt": "2026-10-16T12:33:06Z"
+  "updatedAt": "2026-10-20T18:12:40Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PB",
   "source": "yahoo",
   "firstDate": "1998-11-12",
-  "lastDate": "2026-10-15",
-  "records": 6959,
+  "lastDate": "2026-10-19",
+  "records": 6961,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2002-06-03",
   "corporateActionHash": "sha256:62e0c6166006381e40d5bde71b9f8ea263df3e2c4668ed20896ba20987a8572f",
-  "priceDataHash": "sha256:f1b10341e8fc71f0418494298d688277489853a91bf3816eb50cfad4dd2487c1",
+  "priceDataHash": "sha256:02bf57f8f176fb7e80f3ffe38c08942a3f80e824d26fc5b1a95c70172bff6c43",
   "lastFullValidationAt": "2026-10-13T22:00:58Z",
-  "updatedAt": "2026-10-16T12:25:30Z"
+  "updatedAt": "2026-10-20T18:05:06Z"
 }

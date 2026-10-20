@@ -2,14 +2,14 @@
   "ticker": "NP",
   "source": "yahoo",
   "firstDate": "2025-10-01",
-  "lastDate": "2026-10-15",
-  "records": 262,
+  "lastDate": "2026-10-19",
+  "records": 264,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:542386ab5324675e7ea4fb4794cb90fb9f54b4778a210c144e87a92353e92a6a",
+  "priceDataHash": "sha256:cea7ee791608e15b60c3327f3c10b3120ad42ca9d1a602ec31a4e41bc512a673",
   "lastFullValidationAt": "2026-10-15T12:39:21Z",
-  "updatedAt": "2026-10-16T12:22:46Z"
+  "updatedAt": "2026-10-20T18:02:22Z"
 }

@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-20",
   "totalTargets": 1617,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NET",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VERA",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:c5333169fff22daf9ca937663bcf2ccf567c0f358aeeaac0440968c090ead253",
   "universeHash": "sha256:3aeb020f9f4f595ef1d548a42ff193e6af3dbcb4e2f4ad079560548b4188ad08",
   "shardCount": 1,
   "startedAt": "2026-10-20T05:57:07Z",
-  "updatedAt": "2026-10-20T13:03:15Z"
+  "updatedAt": "2026-10-20T18:18:12Z"
 }

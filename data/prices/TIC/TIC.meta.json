@@ -2,14 +2,14 @@
   "ticker": "TIC",
   "source": "yahoo",
   "firstDate": "2025-02-18",
-  "lastDate": "2026-10-15",
-  "records": 418,
+  "lastDate": "2026-10-19",
+  "records": 420,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:008cefa896ac527cde8c2d3f1ff523a7dc5d861a5bf8ba64e9a0aaeaa7a3327c",
+  "priceDataHash": "sha256:46777516334a42efc8150057230ef3206ccfc6cc64182ce9d78dbb78bc887d06",
   "lastFullValidationAt": "2026-10-13T22:20:38Z",
-  "updatedAt": "2026-10-16T12:35:34Z"
+  "updatedAt": "2026-10-20T18:15:08Z"
 }
