@@ -1,15 +1,15 @@
 {
   "ticker": "STLD",
   "source": "yahoo",
-  "firstDate": "1996-11-22",
-  "lastDate": "2026-10-19",
-  "records": 7501,
+  "firstDate": "1996-11-25",
+  "lastDate": "2026-10-20",
+  "records": 7503,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2008-03-31",
   "corporateActionHash": "sha256:efe857f5267880019fff5fe0cd669067ee7da3eff657bc3ebdde4279a08029d1",
-  "priceDataHash": "sha256:18cc24f33887e86c1226669bfe2b0ba7b1bfbdff4357da7eaf4ebe36ecfc56ea",
-  "lastFullValidationAt": "2026-10-13T22:17:34Z",
-  "updatedAt": "2026-10-20T18:13:34Z"
+  "priceDataHash": "sha256:5209dd44f606ecd356724b57d2f1c5db3c085d2418853892d78b5186eb61413b",
+  "lastFullValidationAt": "2026-10-21T18:28:59Z",
+  "updatedAt": "2026-10-21T18:28:59Z"
 }

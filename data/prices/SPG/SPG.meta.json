@@ -1,15 +1,15 @@
 {
   "ticker": "SPG",
   "source": "yahoo",
-  "firstDate": "1993-12-16",
-  "lastDate": "2026-10-19",
-  "records": 8225,
+  "firstDate": "1993-12-14",
+  "lastDate": "2026-10-20",
+  "records": 8230,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-09",
   "lastSplitDate": "2014-05-29",
   "corporateActionHash": "sha256:1c5239ea4a6c90eb54b814dd2ba6a2ce0e41b0d5b690c4fb51efce571cd83d7a",
-  "priceDataHash": "sha256:d015f60237627c3a0adc016e3bd60e3b33f4e4168fefe77d65ab618642319128",
-  "lastFullValidationAt": "2026-10-13T22:16:26Z",
-  "updatedAt": "2026-10-20T18:13:00Z"
+  "priceDataHash": "sha256:8377506fa97dc4fd45474c1280beefa7013e909ef0db59d04b2cef558e49626a",
+  "lastFullValidationAt": "2026-10-21T18:27:51Z",
+  "updatedAt": "2026-10-21T18:27:51Z"
 }
