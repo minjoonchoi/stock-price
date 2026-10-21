@@ -2,14 +2,14 @@
   "ticker": "FIX",
   "source": "yahoo",
   "firstDate": "1997-06-27",
-  "lastDate": "2026-10-19",
-  "records": 7372,
+  "lastDate": "2026-10-20",
+  "records": 7367,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8388540ff31352c5f6cf8807a8cea9e5e710871601475ac7ca0286d6a130cfb1",
-  "priceDataHash": "sha256:1aafffbc797fef25b456e3a8cacd3361d38225c34ff19dfa78b3a38b43091d0f",
-  "lastFullValidationAt": "2026-10-13T17:02:11Z",
-  "updatedAt": "2026-10-20T12:48:07Z"
+  "priceDataHash": "sha256:ab715c9485b132192f73d3f3b7cd2cf0a5e8c3230430246515129a92f86e604e",
+  "lastFullValidationAt": "2026-10-21T13:00:11Z",
+  "updatedAt": "2026-10-21T13:00:11Z"
 }
