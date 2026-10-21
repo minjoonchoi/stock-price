@@ -2,14 +2,14 @@
   "ticker": "AXTA",
   "source": "yahoo",
   "firstDate": "2014-11-12",
-  "lastDate": "2026-10-19",
-  "records": 3000,
+  "lastDate": "2026-10-20",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:8de936b16a94afe2b2f37bbede7f9119770fafba2a405a99dac8c82715ec9328",
+  "priceDataHash": "sha256:9e24f0c27154c64ac5c14d3227a5d4de5d64124762c9fe275e9ef38e098d23f2",
   "lastFullValidationAt": "2026-10-17T16:33:18Z",
-  "updatedAt": "2026-10-20T06:02:29Z"
+  "updatedAt": "2026-10-21T06:02:11Z"
 }

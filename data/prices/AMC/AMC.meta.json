@@ -2,14 +2,14 @@
   "ticker": "AMC",
   "source": "yahoo",
   "firstDate": "2013-12-18",
-  "lastDate": "2026-10-19",
-  "records": 3226,
+  "lastDate": "2026-10-20",
+  "records": 3227,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-08-24",
   "lastSplitDate": "2023-08-24",
   "corporateActionHash": "sha256:29efa88448760ee367847607c7bd47acdc018757d1e429ddd1804b2dc0d7021c",
-  "priceDataHash": "sha256:eca703dc85b6a53afed42173c3c0a9dd9fd8e6dbe2d3e0e4a782265f884e0bc7",
+  "priceDataHash": "sha256:2bad18ae8c714d8a440ef21ab3cc6a760cf91e2dd811d88af4b15beba7069c54",
   "lastFullValidationAt": "2026-10-17T05:32:23Z",
-  "updatedAt": "2026-10-20T05:59:51Z"
+  "updatedAt": "2026-10-21T05:59:33Z"
 }

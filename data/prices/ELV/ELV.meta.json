@@ -2,14 +2,14 @@
   "ticker": "ELV",
   "source": "yahoo",
   "firstDate": "2001-10-30",
-  "lastDate": "2026-10-19",
-  "records": 6279,
+  "lastDate": "2026-10-20",
+  "records": 6280,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "2005-06-01",
   "corporateActionHash": "sha256:20a9a56668e475c35d9613d14872f4d13a12c229f85fc7cde7fb712c24768d2e",
-  "priceDataHash": "sha256:115e19d5d9500c097cb946dec78d92ca55d802034228407c7286e6d671422a7f",
+  "priceDataHash": "sha256:bec3b8b1ac26367515935b0d2827ab1c2e130f41f208ab4c7ddb81c2ec0bed60",
   "lastFullValidationAt": "2026-10-17T16:53:52Z",
-  "updatedAt": "2026-10-20T06:13:11Z"
+  "updatedAt": "2026-10-21T06:12:53Z"
 }

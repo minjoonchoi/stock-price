@@ -2,14 +2,14 @@
   "ticker": "ATR",
   "source": "yahoo",
   "firstDate": "1993-04-23",
-  "lastDate": "2026-10-19",
-  "records": 8372,
+  "lastDate": "2026-10-20",
+  "records": 8373,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-30",
   "lastSplitDate": "2007-05-10",
   "corporateActionHash": "sha256:d587a210d1a4c50d3984064ea405ada0f9c2bc44b37db5e01be1968384d5bae0",
-  "priceDataHash": "sha256:ac21d9d188ca3afcfcb8b935321ede42fe67769c7c8e5736ec2f103e08df3d3b",
+  "priceDataHash": "sha256:ac14afc6dd32e2f2ce2251141137350402db702bdcc530487c69c052a78496c6",
   "lastFullValidationAt": "2026-10-17T16:31:58Z",
-  "updatedAt": "2026-10-20T06:01:47Z"
+  "updatedAt": "2026-10-21T06:01:29Z"
 }

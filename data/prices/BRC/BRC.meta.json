@@ -2,14 +2,14 @@
   "ticker": "BRC",
   "source": "yahoo",
   "firstDate": "1986-10-31",
-  "lastDate": "2026-10-19",
-  "records": 9872,
+  "lastDate": "2026-10-20",
+  "records": 9873,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-09",
   "lastSplitDate": "2005-01-03",
   "corporateActionHash": "sha256:ec057c07e81f86f1aa7e235b7e4c441e32c825c73c906fc970316a2422980e40",
-  "priceDataHash": "sha256:2a3eb9e9a359629e5ab6e42a6d1803d5f4acc705bfd1a2991436d00b736a2219",
+  "priceDataHash": "sha256:07011b26a43ba6c558e46126996094c23c73c06b0ec073f1265c7d3aa8590874",
   "lastFullValidationAt": "2026-10-17T16:37:44Z",
-  "updatedAt": "2026-10-20T06:04:45Z"
+  "updatedAt": "2026-10-21T06:04:27Z"
 }

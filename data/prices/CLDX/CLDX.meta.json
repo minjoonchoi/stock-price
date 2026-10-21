@@ -2,14 +2,14 @@
   "ticker": "CLDX",
   "source": "yahoo",
   "firstDate": "1986-05-15",
-  "lastDate": "2026-10-19",
-  "records": 10185,
+  "lastDate": "2026-10-20",
+  "records": 10186,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-02-11",
   "lastSplitDate": "2019-02-11",
   "corporateActionHash": "sha256:f3fbf50d1565337388aa96740c39f000135f332a25a4097aafb026a145c7bdc5",
-  "priceDataHash": "sha256:1845e6cb096ac6499d7290e60233ac4e7753b89b068dd078e538c795534de1aa",
+  "priceDataHash": "sha256:033fba23594c4cf4b04af9a69f3da0233472ed4918f9317eaac73a80692f314f",
   "lastFullValidationAt": "2026-10-17T16:43:20Z",
-  "updatedAt": "2026-10-20T06:07:43Z"
+  "updatedAt": "2026-10-21T06:07:25Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ABG",
   "source": "yahoo",
   "firstDate": "2002-03-21",
-  "lastDate": "2026-10-19",
-  "records": 6183,
+  "lastDate": "2026-10-20",
+  "records": 6184,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-07-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:8c7ec9e2f889b0439d40a7ccca35e9199ea00361bf74228b3bcdce513d0a7ba0",
-  "priceDataHash": "sha256:f155d700851f701a10fe7140094b00a2aeed4944c72a739e79cbf2424bf5f3f8",
+  "priceDataHash": "sha256:d3d0a89da2aca6df21bc50b60a84237fc5a3bdb01e7833ffe4b04c507e6278b3",
   "lastFullValidationAt": "2026-10-17T16:24:10Z",
-  "updatedAt": "2026-10-20T05:57:29Z"
+  "updatedAt": "2026-10-21T05:57:11Z"
 }
