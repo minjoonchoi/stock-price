@@ -2,14 +2,14 @@
   "ticker": "ENVA",
   "source": "yahoo",
   "firstDate": "2014-11-13",
-  "lastDate": "2026-10-20",
-  "records": 3000,
+  "lastDate": "2026-10-21",
+  "records": 3001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:928c3b55507df9ae97a6c7d5fb82eea68bd7f278a087ade8ba50222f1edad54d",
+  "priceDataHash": "sha256:49e43f902d507867525e732cce2160614b15e05a7b522499c91096568d322ac3",
   "lastFullValidationAt": "2026-10-17T16:54:28Z",
-  "updatedAt": "2026-10-21T06:13:11Z"
+  "updatedAt": "2026-10-22T13:18:41Z"
 }

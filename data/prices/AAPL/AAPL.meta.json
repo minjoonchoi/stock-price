@@ -2,14 +2,14 @@
   "ticker": "AAPL",
   "source": "yahoo",
   "firstDate": "1980-12-12",
-  "lastDate": "2026-10-20",
-  "records": 11529,
+  "lastDate": "2026-10-21",
+  "records": 11530,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-10",
   "lastSplitDate": "2020-08-31",
   "corporateActionHash": "sha256:92ce68fd90b25957d4996e6cb2d94b18b9609a5ed7dd0365f5a9f150cb01d59e",
-  "priceDataHash": "sha256:c719d0ca86307f488f31fab3980f345bdceb255a085f4f1a5c6d69c1085daab7",
+  "priceDataHash": "sha256:0c381231fa7b9735b02c473b53ac6861e838d913fb8c92630553ef27594f550f",
   "lastFullValidationAt": "2026-10-17T05:29:43Z",
-  "updatedAt": "2026-10-21T05:57:03Z"
+  "updatedAt": "2026-10-22T13:02:27Z"
 }

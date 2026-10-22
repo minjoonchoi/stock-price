@@ -2,14 +2,14 @@
   "ticker": "DFTX",
   "source": "yahoo",
   "firstDate": "2016-11-15",
-  "lastDate": "2026-10-20",
-  "records": 2495,
+  "lastDate": "2026-10-21",
+  "records": 2496,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-08-29",
   "lastSplitDate": "2022-08-29",
   "corporateActionHash": "sha256:049638c0a53785f627802bfb7891565c282fe7a82aad1c617d0194196b571f94",
-  "priceDataHash": "sha256:0b13ce478c341994c9fd552e6b1e1efea9d1544cec80fb55f8e57bfbc8d38c40",
+  "priceDataHash": "sha256:150e59002b718cbd8c275f70ff1fffd47d1c0fae4bde28594352b63237d60cb1",
   "lastFullValidationAt": "2026-10-17T16:49:56Z",
-  "updatedAt": "2026-10-21T06:10:49Z"
+  "updatedAt": "2026-10-22T13:16:19Z"
 }
