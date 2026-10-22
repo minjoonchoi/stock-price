@@ -2,14 +2,14 @@
   "ticker": "INGR",
   "source": "yahoo",
   "firstDate": "1997-12-11",
-  "lastDate": "2026-10-20",
-  "records": 7233,
+  "lastDate": "2026-10-21",
+  "records": 7234,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2005-01-26",
   "corporateActionHash": "sha256:29a71a5c90752c7b5a98cdd1b9dc887d72f5bfcc9215c0acbae38c7b07c72fb7",
-  "priceDataHash": "sha256:0abf8973610f09f90cf2ce34989bc15c6829ffc4153f33ee20f84dc8a8802c2b",
+  "priceDataHash": "sha256:256cb74bc11d5616f268695cdc17024521960a3775fadae674ee0004c1448cf4",
   "lastFullValidationAt": "2026-10-20T12:54:21Z",
-  "updatedAt": "2026-10-21T13:11:57Z"
+  "updatedAt": "2026-10-22T18:13:05Z"
 }
