@@ -2,14 +2,14 @@
   "ticker": "DX",
   "source": "yahoo",
   "firstDate": "1988-02-10",
-  "lastDate": "2026-10-21",
-  "records": 9652,
+  "lastDate": "2026-10-22",
+  "records": 9653,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-09-21",
+  "lastCorporateActionDate": "2026-10-22",
   "lastSplitDate": "2019-06-21",
-  "corporateActionHash": "sha256:074855868087feb45497d5c64e07142c07d02e41d5375bcc82d7b71194ec2dd4",
-  "priceDataHash": "sha256:b3ec373a7e87a92f9f59a8725db89744b9702f7f2c8cf89f9ed9ac3b27a64521",
+  "corporateActionHash": "sha256:f219f83799498089a7c7ff0fd0ee7f6673cbee0c0a6bb0a0a7e3e3ebc3a17199",
+  "priceDataHash": "sha256:6803075b224f1d00dc6416ad86bbb6c589b31c4289a548bd61a1f9b15f28b1c6",
   "lastFullValidationAt": "2026-10-17T16:52:24Z",
-  "updatedAt": "2026-10-22T13:17:37Z"
+  "updatedAt": "2026-10-23T06:10:07Z"
 }
