@@ -1,15 +1,15 @@
 {
   "ticker": "AMT",
   "source": "yahoo",
-  "firstDate": "1998-02-27",
-  "lastDate": "2026-10-22",
-  "records": 7198,
+  "firstDate": "1998-03-02",
+  "lastDate": "2026-10-23",
+  "records": 7196,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:86fb6c397699f8ab592168e253d76ec3958b49740229cea965f39df837ec4a97",
-  "priceDataHash": "sha256:b75724bfb11f613ecdbbfea7513ca1fa516e0fdcbbda45ed4e9a3bab3eedded4",
-  "lastFullValidationAt": "2026-10-17T16:29:10Z",
-  "updatedAt": "2026-10-23T05:57:53Z"
+  "priceDataHash": "sha256:88d24831b063f355a239da0bffc762729e0a1e9bf9fc52d26dc3f0233feb02f4",
+  "lastFullValidationAt": "2026-10-24T16:42:52Z",
+  "updatedAt": "2026-10-24T16:42:52Z"
 }

@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-23",
+  "runId": "2026-10-24",
   "totalTargets": 1616,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "VERA",
-  "cursorIndex": 1500,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EQT",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:198a3d02a50efccfdbaa761180caed6665e03d351421e7a0186df52e585f3da2",
+  "secTickerHash": "sha256:715be6ab69e2f0ae159fa14a3dfda928d7f5573000a1ea1d99870405d6b358ff",
   "universeHash": "sha256:75d0167ae66400deb3448d036021eaa6a25b5f14bfb34346a1bd751c433edadc",
   "shardCount": 1,
-  "startedAt": "2026-10-23T17:58:23Z",
-  "updatedAt": "2026-10-24T12:20:53Z"
+  "startedAt": "2026-10-24T16:36:50Z",
+  "updatedAt": "2026-10-24T17:09:38Z"
 }
