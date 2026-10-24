@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-23",
   "totalTargets": 1616,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EQT",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NET",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:198a3d02a50efccfdbaa761180caed6665e03d351421e7a0186df52e585f3da2",
   "universeHash": "sha256:75d0167ae66400deb3448d036021eaa6a25b5f14bfb34346a1bd751c433edadc",
   "shardCount": 1,
   "startedAt": "2026-10-23T17:58:23Z",
-  "updatedAt": "2026-10-23T17:58:47Z"
+  "updatedAt": "2026-10-24T05:56:57Z"
 }

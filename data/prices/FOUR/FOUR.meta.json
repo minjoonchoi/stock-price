@@ -2,14 +2,14 @@
   "ticker": "FOUR",
   "source": "yahoo",
   "firstDate": "2020-06-05",
-  "lastDate": "2026-10-21",
-  "records": 1603,
+  "lastDate": "2026-10-23",
+  "records": 1605,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:574640b60ec25126f019a214494285fc43daff91eee59493ac2a6d3dfa3f33a7",
+  "priceDataHash": "sha256:cccb38c20c8f975ff851ec8fa8c70d7a5a657f1995cd64dacc90d11c9c9f1903",
   "lastFullValidationAt": "2026-10-21T13:00:57Z",
-  "updatedAt": "2026-10-22T18:07:21Z"
+  "updatedAt": "2026-10-24T05:42:43Z"
 }

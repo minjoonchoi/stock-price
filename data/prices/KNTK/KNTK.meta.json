@@ -2,14 +2,14 @@
   "ticker": "KNTK",
   "source": "yahoo",
   "firstDate": "2018-11-13",
-  "lastDate": "2026-10-21",
-  "records": 1989,
+  "lastDate": "2026-10-23",
+  "records": 1991,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-24",
+  "lastCorporateActionDate": "2026-10-23",
   "lastSplitDate": "2022-06-09",
-  "corporateActionHash": "sha256:224e95e5e284c4206de3fe15bfe9a2591d72b01a20622bce294a4edab84296e7",
-  "priceDataHash": "sha256:04c7e612eea006b06948bead20f67a923b09b3535aab781bba066aba56c90b74",
+  "corporateActionHash": "sha256:69b8fca358f0620f3f2c38495fc822e9b3a9e4c4f13a48e270b7b106b9ecd4ee",
+  "priceDataHash": "sha256:44c83a850eeca2336c964072b3a1337070ca6bf864c2837d4e0754cd4a84630b",
   "lastFullValidationAt": "2026-10-21T13:16:09Z",
-  "updatedAt": "2026-10-22T18:15:15Z"
+  "updatedAt": "2026-10-24T05:50:29Z"
 }

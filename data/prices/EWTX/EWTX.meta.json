@@ -2,14 +2,14 @@
   "ticker": "EWTX",
   "source": "yahoo",
   "firstDate": "2021-03-26",
-  "lastDate": "2026-10-21",
-  "records": 1400,
+  "lastDate": "2026-10-23",
+  "records": 1402,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:573398c60b503d561a59d7b0a37ebd6d2695f08e60a8fb567dd1069e0e2788ec",
+  "priceDataHash": "sha256:ba61085158e3ce5cbb1f5b3eb418349bb0ecb4cddb0ef3f69237671762147748",
   "lastFullValidationAt": "2026-10-21T12:57:17Z",
-  "updatedAt": "2026-10-22T18:05:27Z"
+  "updatedAt": "2026-10-24T05:40:49Z"
 }

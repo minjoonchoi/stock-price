@@ -2,14 +2,14 @@
   "ticker": "FORM",
   "source": "yahoo",
   "firstDate": "2003-06-12",
-  "lastDate": "2026-10-21",
-  "records": 5878,
+  "lastDate": "2026-10-23",
+  "records": 5880,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ccafa3bb268e17b1bbcc20e50d9e1a8385202fc9349a6785faa7f52a4ed0126b",
+  "priceDataHash": "sha256:0cb3511db899a5764766e77151fd60d6713c895a24934d18ffb140659d247e6f",
   "lastFullValidationAt": "2026-10-21T13:00:53Z",
-  "updatedAt": "2026-10-22T18:07:19Z"
+  "updatedAt": "2026-10-24T05:42:41Z"
 }

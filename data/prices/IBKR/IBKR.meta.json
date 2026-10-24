@@ -2,14 +2,14 @@
   "ticker": "IBKR",
   "source": "yahoo",
   "firstDate": "2007-05-04",
-  "lastDate": "2026-10-21",
-  "records": 4896,
+  "lastDate": "2026-10-23",
+  "records": 4898,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2025-06-18",
   "corporateActionHash": "sha256:6c080cb2d0416d4630238dd857e4453afe321cefb3e6828ee7286a73e7aa6750",
-  "priceDataHash": "sha256:edaaed29a78dbec5740ed8208dbda192779686116ac90c671602e38ba91681cd",
+  "priceDataHash": "sha256:3017e3170d2bf3786e5cec0dacffaeba69ec36d10238e09fc32977ca16736f81",
   "lastFullValidationAt": "2026-10-21T13:10:25Z",
-  "updatedAt": "2026-10-22T18:12:15Z"
+  "updatedAt": "2026-10-24T05:47:33Z"
 }

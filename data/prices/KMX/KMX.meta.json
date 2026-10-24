@@ -2,14 +2,14 @@
   "ticker": "KMX",
   "source": "yahoo",
   "firstDate": "1997-02-04",
-  "lastDate": "2026-10-21",
-  "records": 7475,
+  "lastDate": "2026-10-23",
+  "records": 7477,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2007-03-27",
   "lastSplitDate": "2007-03-27",
   "corporateActionHash": "sha256:9bf3d8886352192e7b62e88dfdf8784c4284ec1ac20f639e6e54ae483af0aebd",
-  "priceDataHash": "sha256:af62a6a9e07a665e87d045942810194d04ab54cbd6bd599c4dfa363c2b87af07",
+  "priceDataHash": "sha256:fb4b6bb0c6df056b93aee5f3df49c545bdaa1d89eee09113701c877f57ac555c",
   "lastFullValidationAt": "2026-10-21T13:15:53Z",
-  "updatedAt": "2026-10-22T18:15:07Z"
+  "updatedAt": "2026-10-24T05:50:21Z"
 }

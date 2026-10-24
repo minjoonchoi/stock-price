@@ -2,14 +2,14 @@
   "ticker": "KMB",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-21",
-  "records": 11611,
+  "lastDate": "2026-10-23",
+  "records": 11613,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2014-11-03",
   "corporateActionHash": "sha256:6ff2d68e05206f0008fb074c34abf34478b4ef54704eff9da7e5c346b45b6e96",
-  "priceDataHash": "sha256:94823248831941d9351ed43ed55c5488985ab339737870d69f05313a8a25806b",
+  "priceDataHash": "sha256:5d9d71ceb1d3afd28f15e00f80971db5627e95f01cace967301fdf2803377975",
   "lastFullValidationAt": "2026-10-21T13:15:46Z",
-  "updatedAt": "2026-10-22T18:15:03Z"
+  "updatedAt": "2026-10-24T05:50:17Z"
 }

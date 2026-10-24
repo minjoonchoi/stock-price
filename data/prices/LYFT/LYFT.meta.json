@@ -2,14 +2,14 @@
   "ticker": "LYFT",
   "source": "yahoo",
   "firstDate": "2019-03-29",
-  "lastDate": "2026-10-21",
-  "records": 1902,
+  "lastDate": "2026-10-23",
+  "records": 1904,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:3b58db03d2818937ecac9c5a46f3a055d41497fa513915e2dc18c5deced39913",
+  "priceDataHash": "sha256:b00a7fcde3e8920961022d999dab381dbc6a4f667db6a1922fd01bc5ad42cc5d",
   "lastFullValidationAt": "2026-10-21T13:20:53Z",
-  "updatedAt": "2026-10-22T18:17:41Z"
+  "updatedAt": "2026-10-24T05:52:55Z"
 }

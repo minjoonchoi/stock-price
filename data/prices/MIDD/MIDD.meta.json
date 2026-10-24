@@ -2,14 +2,14 @@
   "ticker": "MIDD",
   "source": "yahoo",
   "firstDate": "1987-08-10",
-  "lastDate": "2026-10-21",
-  "records": 9875,
+  "lastDate": "2026-10-23",
+  "records": 9877,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-07",
   "lastSplitDate": "2026-07-07",
   "corporateActionHash": "sha256:75486964b712fbcb01c2d0dc773bc9b39e4a39bccced8f0ef6f76033e787f922",
-  "priceDataHash": "sha256:588df262267a6289a2b49404095086e5ffd96a7aa55f3d6eafede697cfbcf233",
+  "priceDataHash": "sha256:a4b0a61a0c78f699fa5a4fcac112294188a6ae8e06de5af092521c0296f2dd08",
   "lastFullValidationAt": "2026-10-21T13:23:47Z",
-  "updatedAt": "2026-10-22T18:19:17Z"
+  "updatedAt": "2026-10-24T05:54:27Z"
 }

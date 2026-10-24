@@ -2,14 +2,14 @@
   "ticker": "FRMI",
   "source": "yahoo",
   "firstDate": "2025-10-01",
-  "lastDate": "2026-10-21",
-  "records": 266,
+  "lastDate": "2026-10-23",
+  "records": 268,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f3bb462d66b78d7616a8c2dcd760106df49c4d8e85d7824bdec1d03b0ffbbefb",
+  "priceDataHash": "sha256:3fb82fddc8a56432ca5c3b0f0ff8023a1933090ede9e4509ed36a803f29d0d6c",
   "lastFullValidationAt": "2026-10-21T13:01:21Z",
-  "updatedAt": "2026-10-22T18:07:33Z"
+  "updatedAt": "2026-10-24T05:42:55Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FIVE",
   "source": "yahoo",
   "firstDate": "2012-07-19",
-  "lastDate": "2026-10-21",
-  "records": 3585,
+  "lastDate": "2026-10-23",
+  "records": 3587,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:93b1821926233bf9d8673a9f4ac1dc71956f0c8a9629e31fe90a3a2459035d14",
+  "priceDataHash": "sha256:873fba74a366d83414337e35610756bd222948740127aecfcd64d9bd9573f421",
   "lastFullValidationAt": "2026-10-21T13:00:03Z",
-  "updatedAt": "2026-10-22T18:06:53Z"
+  "updatedAt": "2026-10-24T05:42:15Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "EZPW",
   "source": "yahoo",
   "firstDate": "1991-08-27",
-  "lastDate": "2026-10-21",
-  "records": 8851,
+  "lastDate": "2026-10-23",
+  "records": 8853,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2006-12-12",
   "lastSplitDate": "2006-12-12",
   "corporateActionHash": "sha256:1cd1cc24c1a86564cfe34b5a029dc1c8d6acb05d8e3f81bece294549418fb1fb",
-  "priceDataHash": "sha256:8a0bdf02693aef6f28b807a2990c68e4a06110a09422e75dc88aa328816763a0",
+  "priceDataHash": "sha256:4a3978ce773409379b26cff96a3470b334689d2b5a2494b5071091d7446db345",
   "lastFullValidationAt": "2026-10-21T12:57:59Z",
-  "updatedAt": "2026-10-22T18:05:49Z"
+  "updatedAt": "2026-10-24T05:41:11Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "GEHC",
   "source": "yahoo",
   "firstDate": "2022-12-15",
-  "lastDate": "2026-10-21",
-  "records": 965,
+  "lastDate": "2026-10-23",
+  "records": 967,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-24",
+  "lastCorporateActionDate": "2026-10-23",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:ed86375b9f43d679e3396a5f3595fbd32107e872a242300287c2967d65ece2c1",
-  "priceDataHash": "sha256:5c0b9ab749983c7660ff598f68d12e78b6b44257d116c7f72bf6ac136bfdf4e2",
+  "corporateActionHash": "sha256:e77225d6a67736dfc3307728217f67816bc16836471d9288f35c605cb1eeda2c",
+  "priceDataHash": "sha256:e6535329f38e42089c3ff6d65833d5511dfcd9a5edb1142edd6a758f5e11b571",
   "lastFullValidationAt": "2026-10-21T13:03:19Z",
-  "updatedAt": "2026-10-22T18:08:35Z"
+  "updatedAt": "2026-10-24T05:43:55Z"
 }
