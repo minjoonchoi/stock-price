@@ -2,14 +2,14 @@
   "ticker": "SOLS",
   "source": "yahoo",
   "firstDate": "2025-10-20",
-  "lastDate": "2026-10-20",
-  "records": 252,
+  "lastDate": "2026-10-23",
+  "records": 255,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-27",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1c372745e0f3c9f34df237148a679519dd4c8a40b45932242f454595bf4b2eed",
-  "priceDataHash": "sha256:816379794edcbcc8763e827b088183e99dd591d20de33ffea9e21f66642b1409",
+  "priceDataHash": "sha256:cb058f2304b37733bc805ff57faeb7d1655d631b597f367a2c42a6418b44b946",
   "lastFullValidationAt": "2026-10-21T18:27:25Z",
-  "updatedAt": "2026-10-21T18:27:25Z"
+  "updatedAt": "2026-10-24T12:15:13Z"
 }

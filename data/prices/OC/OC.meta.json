@@ -2,14 +2,14 @@
   "ticker": "OC",
   "source": "yahoo",
   "firstDate": "2006-11-01",
-  "lastDate": "2026-10-20",
-  "records": 5020,
+  "lastDate": "2026-10-23",
+  "records": 5023,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-19",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:2a5bf95ca39332e93ffe3251dbdf89eb9f485e6bbd06bc62beb86dae6d6e1370",
-  "priceDataHash": "sha256:70e70ce49daa120a6bcff149d25427ea2b9c45b6a76af462ef835f2f47eed3d0",
+  "priceDataHash": "sha256:54ed7dcae8799cbb7164d19edc64081c9f9a34d2b5ff11fec1770def7a8ff9bd",
   "lastFullValidationAt": "2026-10-21T18:09:11Z",
-  "updatedAt": "2026-10-21T18:09:11Z"
+  "updatedAt": "2026-10-24T12:05:33Z"
 }

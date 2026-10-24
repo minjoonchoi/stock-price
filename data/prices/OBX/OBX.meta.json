@@ -2,14 +2,14 @@
   "ticker": "OBX",
   "source": "yahoo",
   "firstDate": "2026-07-27",
-  "lastDate": "2026-10-20",
-  "records": 61,
+  "lastDate": "2026-10-23",
+  "records": 64,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c981843cbcbec7d70e8ed4e0555fafe5964ed2a78c2d06ade8a6bb992ce3426f",
+  "priceDataHash": "sha256:5a4105cb3e514a7f765ad4a338f19449d82898415b559809024cd2f47dd0410f",
   "lastFullValidationAt": "2026-10-21T18:09:07Z",
-  "updatedAt": "2026-10-21T18:09:07Z"
+  "updatedAt": "2026-10-24T12:05:31Z"
 }

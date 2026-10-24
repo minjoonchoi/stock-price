@@ -2,14 +2,14 @@
   "ticker": "SEZL",
   "source": "yahoo",
   "firstDate": "2023-09-13",
-  "lastDate": "2026-10-20",
-  "records": 779,
+  "lastDate": "2026-10-23",
+  "records": 782,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-03-31",
   "lastSplitDate": "2025-03-31",
   "corporateActionHash": "sha256:22e85609ec61a5f2ab714d1d552412a56f58eda51c8d1331997e440f86296b80",
-  "priceDataHash": "sha256:13412df87e69f09542c7add7383e93e55581d766007585d5d03b11f5c7ee09d3",
+  "priceDataHash": "sha256:c7a1eb06cebf55e231eac15f527a5dea9c9eaaab1db401b991ef45af97e10ffa",
   "lastFullValidationAt": "2026-10-21T18:24:17Z",
-  "updatedAt": "2026-10-21T18:24:17Z"
+  "updatedAt": "2026-10-24T12:13:33Z"
 }

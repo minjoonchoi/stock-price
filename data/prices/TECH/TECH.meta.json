@@ -2,14 +2,14 @@
   "ticker": "TECH",
   "source": "yahoo",
   "firstDate": "1989-02-09",
-  "lastDate": "2026-10-20",
-  "records": 9472,
+  "lastDate": "2026-10-23",
+  "records": 9475,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-24",
   "lastSplitDate": "2022-11-30",
   "corporateActionHash": "sha256:f8530c3cd07455cdf4755b31b6956c2f90d06319b6bb29bf114fc30aad99a2e1",
-  "priceDataHash": "sha256:85e19aa91d99ed90ed067df49ef2565bc5d177c04626790d3e77a254471287d2",
+  "priceDataHash": "sha256:1582c32f7dae937f3efc8fa076e130453df097804a21286415674c30e54273b9",
   "lastFullValidationAt": "2026-10-21T18:31:14Z",
-  "updatedAt": "2026-10-21T18:31:14Z"
+  "updatedAt": "2026-10-24T12:17:13Z"
 }

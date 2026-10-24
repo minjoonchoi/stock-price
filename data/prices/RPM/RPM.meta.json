@@ -2,14 +2,14 @@
   "ticker": "RPM",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-20",
-  "records": 11516,
+  "lastDate": "2026-10-23",
+  "records": 11519,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-20",
   "lastSplitDate": "1997-12-09",
   "corporateActionHash": "sha256:8c99cc2927c149c71ccde2e83e598c6e1e88e4f37faa3b53ca15954324b3df89",
-  "priceDataHash": "sha256:d963d7b61b90531e438b1d208f788a54939f2f46645aad8bde43aeb8003d98d3",
+  "priceDataHash": "sha256:710cebf90658893e99b743b369bac59050090d9e23eacb39cd6e29a86670ec01",
   "lastFullValidationAt": "2026-10-21T18:21:45Z",
-  "updatedAt": "2026-10-21T18:21:45Z"
+  "updatedAt": "2026-10-24T12:12:05Z"
 }
