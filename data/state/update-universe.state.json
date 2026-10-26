@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-10-19",
+  "runId": "2026-10-26",
   "minMarketCap": 300000000,
-  "totalTickers": 10443,
-  "processedTickers": 4000,
-  "lastProcessedTicker": "GLIV",
-  "cursorIndex": 4000,
+  "totalTickers": 10429,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAMKF",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:c5333169fff22daf9ca937663bcf2ccf567c0f358aeeaac0440968c090ead253",
+  "secTickerHash": "sha256:715be6ab69e2f0ae159fa14a3dfda928d7f5573000a1ea1d99870405d6b358ff",
   "shardCount": 1,
-  "startedAt": "2026-10-19T00:42:51Z",
-  "updatedAt": "2026-10-19T22:18:10Z"
+  "startedAt": "2026-10-26T00:59:52Z",
+  "updatedAt": "2026-10-26T02:39:52Z"
 }
