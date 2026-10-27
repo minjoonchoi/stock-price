@@ -2,14 +2,14 @@
   "ticker": "AZZ",
   "source": "yahoo",
   "firstDate": "1980-03-18",
-  "lastDate": "2026-10-23",
-  "records": 11600,
+  "lastDate": "2026-10-26",
+  "records": 11601,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-19",
   "lastSplitDate": "2012-07-31",
   "corporateActionHash": "sha256:e24e17c9ee70505edbd72c3f8bae28684a5380a38817f316aee3f279a2e7903b",
-  "priceDataHash": "sha256:6759f3477a657637ccee34ae9548c6baf4f857855429636c20c75832987d332c",
+  "priceDataHash": "sha256:4c913db6a0a9f2935387368c5c177872c9d601896e1bb6aeb0fc30c5f741fef1",
   "lastFullValidationAt": "2026-10-24T16:47:26Z",
-  "updatedAt": "2026-10-24T16:47:26Z"
+  "updatedAt": "2026-10-27T06:23:09Z"
 }

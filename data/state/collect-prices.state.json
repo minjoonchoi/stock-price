@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-24",
-  "totalTargets": 1616,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NET",
-  "cursorIndex": 1000,
+  "runId": "2026-10-27",
+  "totalTargets": 1621,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EPRT",
+  "cursorIndex": 500,
   "completed": false,
   "secTickerHash": "sha256:715be6ab69e2f0ae159fa14a3dfda928d7f5573000a1ea1d99870405d6b358ff",
-  "universeHash": "sha256:75d0167ae66400deb3448d036021eaa6a25b5f14bfb34346a1bd751c433edadc",
+  "universeHash": "sha256:448f3bbc0e5698de83ca0d6e0ec5d1733ef5e38aa31f286a6872671fb0f296a7",
   "shardCount": 1,
-  "startedAt": "2026-10-24T16:36:50Z",
-  "updatedAt": "2026-10-24T19:27:03Z"
+  "startedAt": "2026-10-27T06:17:15Z",
+  "updatedAt": "2026-10-27T06:34:29Z"
 }

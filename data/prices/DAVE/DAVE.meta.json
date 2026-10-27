@@ -2,14 +2,14 @@
   "ticker": "DAVE",
   "source": "yahoo",
   "firstDate": "2021-04-26",
-  "lastDate": "2026-10-23",
-  "records": 1382,
+  "lastDate": "2026-10-26",
+  "records": 1383,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-01-06",
   "lastSplitDate": "2023-01-06",
   "corporateActionHash": "sha256:0ec1d238c57f1b9af027d846b1a681aef79781779aeecfa5525e3694901d0ab1",
-  "priceDataHash": "sha256:5586348ed29e53dc57bf35662941876a97eee9abfb785f61a37b10553b1ab533",
+  "priceDataHash": "sha256:2c702040519fa81bbc02b6981bee278e0f3d4d878e557409e05d9b0db30610ed",
   "lastFullValidationAt": "2026-10-24T17:03:38Z",
-  "updatedAt": "2026-10-24T17:03:38Z"
+  "updatedAt": "2026-10-27T06:31:37Z"
 }
