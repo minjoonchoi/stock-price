@@ -2,14 +2,14 @@
   "ticker": "SBET",
   "source": "yahoo",
   "firstDate": "1997-05-21",
-  "lastDate": "2026-10-23",
-  "records": 7403,
+  "lastDate": "2026-10-26",
+  "records": 7404,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-05-06",
   "lastSplitDate": "2025-05-06",
   "corporateActionHash": "sha256:f48938b1a0f18c293d0fbde8d413e0ef4fdccaae93d0e321506d66cd18c8b48c",
-  "priceDataHash": "sha256:ce4ca56f74374d59bec53d731cdbefc53e6c1d173bc14130789ddd78f1aab7d0",
+  "priceDataHash": "sha256:d8496e67f86814fbb62c97cb48790841bc580b473bb1ea0ffd22f00024e10102",
   "lastFullValidationAt": "2026-10-24T12:13:07Z",
-  "updatedAt": "2026-10-24T12:13:07Z"
+  "updatedAt": "2026-10-27T20:17:00Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "USAC",
   "source": "yahoo",
   "firstDate": "2013-01-15",
-  "lastDate": "2026-10-23",
-  "records": 3457,
+  "lastDate": "2026-10-26",
+  "records": 3458,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-27",
+  "lastCorporateActionDate": "2026-10-26",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:444ea250ee5310d2de2e56ae4e05e20f01ee060b1ecac1999485d322a835a726",
-  "priceDataHash": "sha256:34e9a5f873e2f9d95f6a4e26e04d847d685ad4b60a8c12926831f95260107b0d",
+  "corporateActionHash": "sha256:9e5d678c1fc59a2c6ab2082b37f9cf16924314da98b7f0f5fecbf683ddefd36e",
+  "priceDataHash": "sha256:07e330800ef9e03421ba49ff5bee1608d28a7d213a014e4a26b49277e64ef818",
   "lastFullValidationAt": "2026-10-21T18:36:57Z",
-  "updatedAt": "2026-10-24T12:20:17Z"
+  "updatedAt": "2026-10-27T20:23:52Z"
 }

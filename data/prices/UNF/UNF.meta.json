@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 10699,
-  "updatedAt": "2026-07-04T17:30:09Z",
-  "source": "yahoo"
+  "ticker": "UNF",
+  "source": "yahoo",
+  "firstDate": "1984-01-16",
+  "lastDate": "2026-10-26",
+  "records": 10756,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-09-04",
+  "lastSplitDate": "1994-01-20",
+  "corporateActionHash": "sha256:530b424fdbec9359ce3d0899d00b9490d452865b39b688d01ccfa909467fb0fd",
+  "priceDataHash": "sha256:42011a441768c6d473e7e711f02bd788628546947477b299420b76ba335caef2",
+  "lastFullValidationAt": "2026-10-27T20:23:32Z",
+  "updatedAt": "2026-10-27T20:23:32Z"
 }
