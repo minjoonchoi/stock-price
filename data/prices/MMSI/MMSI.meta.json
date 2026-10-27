@@ -2,14 +2,14 @@
   "ticker": "MMSI",
   "source": "yahoo",
   "firstDate": "1990-05-14",
-  "lastDate": "2026-10-23",
-  "records": 9179,
+  "lastDate": "2026-10-26",
+  "records": 9180,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2011-05-06",
   "lastSplitDate": "2011-05-06",
   "corporateActionHash": "sha256:90afe492666a4c2d2f8b3a518cd1288ef4bdcdfd75ef2d01e06ff8d5e08a5723",
-  "priceDataHash": "sha256:8fc992cb45d0e0669e002d46619478af0ad09083360ebbe6b6506995330c599c",
+  "priceDataHash": "sha256:b0789a40264f27905405592a64beecf33e730d00a6d81f372497a12d10ab6c32",
   "lastFullValidationAt": "2026-10-21T13:24:35Z",
-  "updatedAt": "2026-10-24T05:54:51Z"
+  "updatedAt": "2026-10-27T13:26:31Z"
 }

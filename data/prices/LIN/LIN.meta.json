@@ -2,14 +2,14 @@
   "ticker": "LIN",
   "source": "yahoo",
   "firstDate": "1992-06-17",
-  "lastDate": "2026-10-23",
-  "records": 8612,
+  "lastDate": "2026-10-26",
+  "records": 8613,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-03",
   "lastSplitDate": "2003-12-16",
   "corporateActionHash": "sha256:e11bc89c97d866af2ca4787fc136ceac8b0b8a552e29a3f06c09e517884562d8",
-  "priceDataHash": "sha256:519af405961f512a56b9a27bfb8386efa217b9e297c495ef4f4773725b708006",
+  "priceDataHash": "sha256:2e9160d0e60365bcd64618bb6fb7d22d134dee0d86f3e4fb1ecd8b1253ed15ea",
   "lastFullValidationAt": "2026-10-21T13:18:39Z",
-  "updatedAt": "2026-10-24T05:51:45Z"
+  "updatedAt": "2026-10-27T13:23:13Z"
 }

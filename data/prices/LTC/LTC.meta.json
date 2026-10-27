@@ -2,14 +2,14 @@
   "ticker": "LTC",
   "source": "yahoo",
   "firstDate": "1992-08-18",
-  "lastDate": "2026-10-23",
-  "records": 8522,
+  "lastDate": "2026-10-26",
+  "records": 8523,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-22",
   "lastSplitDate": "1998-10-01",
   "corporateActionHash": "sha256:7e35146ffe257af0c0d8570f185a431babe581d2c40455a13e227f378f8a39bb",
-  "priceDataHash": "sha256:db105c8eb2a89c4b9d1b901538fc9b246bc7ce901122c98106532ea4e2a792f6",
+  "priceDataHash": "sha256:a6d72accd62746328800c47f106ec1465a4eadaa8cd0efeebae327df88624076",
   "lastFullValidationAt": "2026-10-21T13:20:25Z",
-  "updatedAt": "2026-10-24T05:52:41Z"
+  "updatedAt": "2026-10-27T13:24:15Z"
 }
