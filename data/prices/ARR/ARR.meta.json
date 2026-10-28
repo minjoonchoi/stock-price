@@ -2,14 +2,14 @@
   "ticker": "ARR",
   "source": "yahoo",
   "firstDate": "2007-12-03",
-  "lastDate": "2026-10-26",
-  "records": 4639,
+  "lastDate": "2026-10-27",
+  "records": 4640,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "2023-10-02",
   "corporateActionHash": "sha256:bb33fe5fc6a5e23b9886e0c70cf9cc09b263ff630c2368c9fc03450687814dd5",
-  "priceDataHash": "sha256:c1d13a580877d92508273e1972eec5855c6fd341e40c28bba925a6b95f3dbc3b",
+  "priceDataHash": "sha256:2d850b95f33d52e9a189151b8ae5cd0169f6e57b81d21b327232acdbc505bd41",
   "lastFullValidationAt": "2026-10-24T16:44:48Z",
-  "updatedAt": "2026-10-27T06:21:35Z"
+  "updatedAt": "2026-10-28T06:59:28Z"
 }

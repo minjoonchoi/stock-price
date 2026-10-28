@@ -2,14 +2,14 @@
   "ticker": "ELS",
   "source": "yahoo",
   "firstDate": "1993-02-25",
-  "lastDate": "2026-10-26",
-  "records": 8411,
+  "lastDate": "2026-10-27",
+  "records": 8412,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-25",
   "lastSplitDate": "2019-10-16",
   "corporateActionHash": "sha256:c5d58c1005cef0ba1fb81ea605fa557572491cb2611747eecd46df4233d932d5",
-  "priceDataHash": "sha256:445c2d9c63f4d52a9dd735a9ac18edecf4060418d5acfca59e9a2ad7d2b07292",
+  "priceDataHash": "sha256:25229cb1518ade818b5af4dbc4369801ee025b6d625ac99574c3f8d14bfa80dd",
   "lastFullValidationAt": "2026-10-24T17:08:22Z",
-  "updatedAt": "2026-10-27T06:33:59Z"
+  "updatedAt": "2026-10-28T07:11:30Z"
 }
