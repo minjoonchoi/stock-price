@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-28",
+  "runId": "2026-10-29",
   "totalTargets": 1621,
-  "processedTargets": 1621,
-  "lastProcessedTicker": "ZYME",
-  "cursorIndex": 1621,
-  "completed": true,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EPRT",
+  "cursorIndex": 500,
+  "completed": false,
   "secTickerHash": "sha256:f30cf4d9b98626b9f0c0e05ee932fc792b8d693f92d98809010e0759934cb1c0",
   "universeHash": "sha256:448f3bbc0e5698de83ca0d6e0ec5d1733ef5e38aa31f286a6872671fb0f296a7",
   "shardCount": 1,
-  "startedAt": "2026-10-28T06:55:20Z",
-  "updatedAt": "2026-10-29T07:03:22Z"
+  "startedAt": "2026-10-29T14:10:56Z",
+  "updatedAt": "2026-10-29T14:27:42Z"
 }

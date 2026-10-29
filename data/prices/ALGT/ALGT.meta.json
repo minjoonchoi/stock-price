@@ -2,14 +2,14 @@
   "ticker": "ALGT",
   "source": "yahoo",
   "firstDate": "2006-12-08",
-  "lastDate": "2026-10-27",
-  "records": 5000,
+  "lastDate": "2026-10-28",
+  "records": 5001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-05-14",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7004c39c0ed05981378574c4f3a44cf15a0675e8109c70583c88e59cf4b61ddd",
-  "priceDataHash": "sha256:4a3d94ff673506360095cb02190009233e9779e274a9990c0f993f1f95b34521",
+  "priceDataHash": "sha256:3af104b8c78d89cb0c130fe3967e6303603307e00ca6075395a0e2eb5a9a3eda",
   "lastFullValidationAt": "2026-10-24T16:41:14Z",
-  "updatedAt": "2026-10-28T06:57:32Z"
+  "updatedAt": "2026-10-29T14:13:08Z"
 }

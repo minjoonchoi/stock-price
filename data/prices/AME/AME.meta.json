@@ -2,14 +2,14 @@
   "ticker": "AME",
   "source": "yahoo",
   "firstDate": "1984-07-19",
-  "lastDate": "2026-10-27",
-  "records": 10551,
+  "lastDate": "2026-10-28",
+  "records": 10552,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2012-07-02",
   "corporateActionHash": "sha256:4b469a73f9f616e689983b06a4fdc91b898f021431e10326c811fffe2893983b",
-  "priceDataHash": "sha256:37b0f786d0554792ea4a3e4a189b07e37d7805af1ccd665131683856c7d412d3",
+  "priceDataHash": "sha256:df6caf67e5969a612a40070c3126e6981180917ca059b5f8657f757284003659",
   "lastFullValidationAt": "2026-10-24T16:42:20Z",
-  "updatedAt": "2026-10-28T06:58:08Z"
+  "updatedAt": "2026-10-29T14:13:46Z"
 }
