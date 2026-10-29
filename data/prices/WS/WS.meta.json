@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 650,
-  "updatedAt": "2026-07-04T17:31:52Z",
-  "source": "yahoo"
+  "ticker": "WS",
+  "source": "yahoo",
+  "firstDate": "2023-11-28",
+  "lastDate": "2026-10-28",
+  "records": 732,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-09-15",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:9588d9362a6875661f53ae100d73589d131b4ea6243848ee1bda148b78ca2818",
+  "priceDataHash": "sha256:a413825c40d68e343ac629975e254eb6cbf2db75d8bee08714ecaa7bb2811f8e",
+  "lastFullValidationAt": "2026-10-29T07:00:34Z",
+  "updatedAt": "2026-10-29T07:00:34Z"
 }
