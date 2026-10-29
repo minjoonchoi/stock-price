@@ -1,12 +1,12 @@
 {
   "api": "calendar/splits",
-  "asOf": "2026-10-28",
-  "canonicalRows": 397,
-  "githubRunId": "40608809124",
-  "lastCollectedAt": "2026-10-28T00:39:53Z",
+  "asOf": "2026-10-29",
+  "canonicalRows": 400,
+  "githubRunId": "40796513966",
+  "lastCollectedAt": "2026-10-29T00:56:36Z",
   "lastError": null,
   "lastStatus": "success",
-  "rowsFetched": 13,
-  "snapshotFile": "data/nasdaq/splits/snapshots/2026-10-28.jsonl",
+  "rowsFetched": 12,
+  "snapshotFile": "data/nasdaq/splits/snapshots/2026-10-29.jsonl",
   "source": "nasdaq"
 }
