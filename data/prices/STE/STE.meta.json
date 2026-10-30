@@ -2,14 +2,14 @@
   "ticker": "STE",
   "source": "yahoo",
   "firstDate": "1992-06-01",
-  "lastDate": "2026-10-27",
-  "records": 8630,
+  "lastDate": "2026-10-29",
+  "records": 8632,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1998-08-25",
   "corporateActionHash": "sha256:123e86ee5afd47052bb8f513d9c2c84910f021fef6a63ec1ab711bce7298e4d4",
-  "priceDataHash": "sha256:5011176b3772818dbddad896cd79b3916c8a42368935e6b0be7a30ca82796dd0",
+  "priceDataHash": "sha256:96c82d117a8604fa5b8b605ad59856b64617115b9f0d4e5b40c4990db03958fd",
   "lastFullValidationAt": "2026-10-28T21:06:16Z",
-  "updatedAt": "2026-10-28T21:06:16Z"
+  "updatedAt": "2026-10-30T20:20:18Z"
 }

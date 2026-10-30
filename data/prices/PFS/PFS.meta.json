@@ -2,14 +2,14 @@
   "ticker": "PFS",
   "source": "yahoo",
   "firstDate": "2003-01-16",
-  "lastDate": "2026-10-27",
-  "records": 5962,
+  "lastDate": "2026-10-29",
+  "records": 5964,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:ae4e50194596ce980ec658f28228c48284ed98a99c8e81edd9ce65af5074f6b4",
-  "priceDataHash": "sha256:61a214bbdc22eb87771129ab199ddf3125c7a081e9ec3e4b5f754fa27e54dbbd",
+  "priceDataHash": "sha256:f5c32608bb7109baee1bf7a42ba32b8b56fe1018b61ec2b7b90a0f86a9047dab",
   "lastFullValidationAt": "2026-10-28T20:51:12Z",
-  "updatedAt": "2026-10-28T20:51:12Z"
+  "updatedAt": "2026-10-30T20:12:34Z"
 }

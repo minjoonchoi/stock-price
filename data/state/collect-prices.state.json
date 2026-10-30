@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-10-30",
   "totalTargets": 1624,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NE",
-  "cursorIndex": 1000,
+  "processedTargets": 1500,
+  "lastProcessedTicker": "VAC",
+  "cursorIndex": 1500,
   "completed": false,
   "secTickerHash": "sha256:f30cf4d9b98626b9f0c0e05ee932fc792b8d693f92d98809010e0759934cb1c0",
   "universeHash": "sha256:6825cafa2f5d396d4656a34ef9ef6805f81cf513d34c381f860373387909c7b9",
   "shardCount": 1,
   "startedAt": "2026-10-30T07:02:24Z",
-  "updatedAt": "2026-10-30T14:20:54Z"
+  "updatedAt": "2026-10-30T20:24:48Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "RAL",
   "source": "yahoo",
   "firstDate": "2025-06-25",
-  "lastDate": "2026-10-27",
-  "records": 338,
+  "lastDate": "2026-10-29",
+  "records": 340,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-08",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c580fac625530b5a8a115fceb48630460c2282378947728dcd32170210a31ba9",
-  "priceDataHash": "sha256:4cc276d60adb3089df42df7dc975dee17500612233e2d15496a8e88f8de5295b",
+  "priceDataHash": "sha256:32f5cba87a5ba6b88edb96eef3a501a36a47cb8c26596c58f96d6ad298fb596d",
   "lastFullValidationAt": "2026-10-28T20:56:06Z",
-  "updatedAt": "2026-10-28T20:56:06Z"
+  "updatedAt": "2026-10-30T20:15:04Z"
 }

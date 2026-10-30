@@ -2,14 +2,14 @@
   "ticker": "PSA",
   "source": "yahoo",
   "firstDate": "1980-11-18",
-  "lastDate": "2026-10-27",
-  "records": 11440,
+  "lastDate": "2026-10-29",
+  "records": 11442,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:87cd90abf2d58b30c5c6721abef9f3a4160f7e536266ffd27feeb0e26ac16523",
-  "priceDataHash": "sha256:1b0c917cd8c418925f87b5d6f13cf6ad9242dc534355e4d8e57ab5acf7cfabae",
+  "priceDataHash": "sha256:3b1594ebf809a6dcb2f3843ede04ad64af076f8f5c49f4dc6f82179e1c7bde31",
   "lastFullValidationAt": "2026-10-28T20:54:30Z",
-  "updatedAt": "2026-10-28T20:54:30Z"
+  "updatedAt": "2026-10-30T20:14:16Z"
 }

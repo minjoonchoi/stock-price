@@ -2,14 +2,14 @@
   "ticker": "THO",
   "source": "yahoo",
   "firstDate": "1984-01-10",
-  "lastDate": "2026-10-27",
-  "records": 10440,
+  "lastDate": "2026-10-29",
+  "records": 10442,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-27",
   "lastSplitDate": "2004-01-27",
   "corporateActionHash": "sha256:934349f7169fb83c416cc3d72173e04a78d007efe579b9cb6f8a02e31d85f7ef",
-  "priceDataHash": "sha256:0a44262d2da1e6473877cc234fc4f47d9522a68be848bfeabae9e8320689b1ff",
+  "priceDataHash": "sha256:507aba9ea8677c39a395ff9d9bce967ecc9d2394d5a7a217c64398df500f9bfc",
   "lastFullValidationAt": "2026-10-28T21:09:24Z",
-  "updatedAt": "2026-10-28T21:09:24Z"
+  "updatedAt": "2026-10-30T20:21:54Z"
 }

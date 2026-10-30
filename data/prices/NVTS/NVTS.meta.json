@@ -2,14 +2,14 @@
   "ticker": "NVTS",
   "source": "yahoo",
   "firstDate": "2021-10-20",
-  "lastDate": "2026-10-27",
-  "records": 1260,
+  "lastDate": "2026-10-29",
+  "records": 1262,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ca5d41bdfc540e52b9ee94bf59a1490c35d4880e24ef49ab318bebfa0c21efee",
+  "priceDataHash": "sha256:6dceaa687847d0f489bfd047998d99bd3d711c63b671b35e79cf64747a406dbf",
   "lastFullValidationAt": "2026-10-28T20:45:44Z",
-  "updatedAt": "2026-10-28T20:45:44Z"
+  "updatedAt": "2026-10-30T20:09:50Z"
 }

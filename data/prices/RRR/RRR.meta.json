@@ -2,14 +2,14 @@
   "ticker": "RRR",
   "source": "yahoo",
   "firstDate": "2016-04-27",
-  "lastDate": "2026-10-27",
-  "records": 2641,
+  "lastDate": "2026-10-29",
+  "records": 2643,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:d2c79e0c7f8a88bd5b419dae9078f0d0ae765e343ff366ce58098320d9338a3e",
-  "priceDataHash": "sha256:4bd7b7178dccce5155bbca9b54aca6e8ec205dd8c46703234eb0c8036201701f",
+  "priceDataHash": "sha256:b0bf7c102c34c5cac2c4e0b3a7c0fd021500d27fe28e53a5cc8283921d1db8de",
   "lastFullValidationAt": "2026-10-28T20:59:22Z",
-  "updatedAt": "2026-10-28T20:59:22Z"
+  "updatedAt": "2026-10-30T20:16:44Z"
 }

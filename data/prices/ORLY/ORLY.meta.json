@@ -2,14 +2,14 @@
   "ticker": "ORLY",
   "source": "yahoo",
   "firstDate": "1993-04-23",
-  "lastDate": "2026-10-27",
-  "records": 8436,
+  "lastDate": "2026-10-29",
+  "records": 8438,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-06-10",
   "lastSplitDate": "2025-06-10",
   "corporateActionHash": "sha256:b687f4400202967db4d6fb9a52c1dbe32758c34a738c11d76486c517b959b9ab",
-  "priceDataHash": "sha256:4e2205d8eb895d43e7e676bc1cb5b298d10adb66875b4f4c9446195782a4d252",
+  "priceDataHash": "sha256:0e36dff848eed04255d7642daa26eea95cbb794b94ddc0819a5f20ed922d0345",
   "lastFullValidationAt": "2026-10-28T20:48:20Z",
-  "updatedAt": "2026-10-28T20:48:20Z"
+  "updatedAt": "2026-10-30T20:11:08Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "OMCL",
   "source": "yahoo",
   "firstDate": "2001-08-09",
-  "lastDate": "2026-10-27",
-  "records": 6341,
+  "lastDate": "2026-10-29",
+  "records": 6343,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a40259b141ecbc3ecee36f1df8bccfb2891d90417ac49ab6f4f4bdad330d70b2",
+  "priceDataHash": "sha256:5b1f41cf20ba819b2b897790c9a6c098c4be4fda51aaf17afbd55872c91f2e56",
   "lastFullValidationAt": "2026-10-28T20:47:32Z",
-  "updatedAt": "2026-10-28T20:47:32Z"
+  "updatedAt": "2026-10-30T20:10:44Z"
 }

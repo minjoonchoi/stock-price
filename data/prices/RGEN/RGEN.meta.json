@@ -2,14 +2,14 @@
   "ticker": "RGEN",
   "source": "yahoo",
   "firstDate": "1986-04-29",
-  "lastDate": "2026-10-27",
-  "records": 10203,
+  "lastDate": "2026-10-29",
+  "records": 10205,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e2a621cf49117c088d68703edf2d9914735c85c64b7d04b4068ca5d19dd057cb",
+  "priceDataHash": "sha256:ddabf04e610c755191ef9a8350773aaeb4c18bbfbb693a3db468e72255f5f538",
   "lastFullValidationAt": "2026-10-28T20:57:28Z",
-  "updatedAt": "2026-10-28T20:57:28Z"
+  "updatedAt": "2026-10-30T20:15:46Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "RUN",
   "source": "yahoo",
   "firstDate": "2015-08-05",
-  "lastDate": "2026-10-27",
-  "records": 2824,
+  "lastDate": "2026-10-29",
+  "records": 2826,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e079559b3a1eca55340ae2aaab5bd3b1ccd012709c635c4f7656348cec660f0d",
+  "priceDataHash": "sha256:d092b3d65f03d7426c370f3c449fb1f154e405fb7ac8ac25c1082015133098a4",
   "lastFullValidationAt": "2026-10-28T20:59:54Z",
-  "updatedAt": "2026-10-28T20:59:54Z"
+  "updatedAt": "2026-10-30T20:17:00Z"
 }
