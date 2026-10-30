@@ -2,14 +2,14 @@
   "ticker": "AUGO",
   "source": "yahoo",
   "firstDate": "2025-07-16",
-  "lastDate": "2026-10-28",
-  "records": 325,
+  "lastDate": "2026-10-29",
+  "records": 326,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-18",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9b272a1d681f7eab0ccc473902379e58ea106272e06af1bd3f9fa1ea462fc68b",
-  "priceDataHash": "sha256:9d054f0210952a87dcc3126d3bf2f8cdefb88d16f663781bb2eb1db6dc54bbc9",
+  "priceDataHash": "sha256:188a136a23b4c5ef78d39d0a2f4dd45a3b4d447ad5e91b09db0a31aa0d711e8d",
   "lastFullValidationAt": "2026-10-27T06:22:21Z",
-  "updatedAt": "2026-10-29T14:15:50Z"
+  "updatedAt": "2026-10-30T07:07:22Z"
 }

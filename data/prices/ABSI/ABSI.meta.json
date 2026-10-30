@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1242,
-  "updatedAt": "2026-07-04T17:01:07Z",
-  "source": "yahoo"
+  "ticker": "ABSI",
+  "source": "yahoo",
+  "firstDate": "2021-07-22",
+  "lastDate": "2026-10-29",
+  "records": 1325,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:29f0aadbfceb96f34d74abad5d87bfb0f525598ea91c7c58e17d43cc5bd0cb05",
+  "lastFullValidationAt": "2026-10-30T07:02:54Z",
+  "updatedAt": "2026-10-30T07:02:54Z"
 }

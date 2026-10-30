@@ -2,14 +2,14 @@
   "ticker": "COP",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-10-28",
-  "records": 11222,
+  "lastDate": "2026-10-29",
+  "records": 11223,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-17",
   "lastSplitDate": "2012-05-01",
   "corporateActionHash": "sha256:5c1f1c12e9cae9b489a84ecb6218d6183a43dcb019045c58adeb474aa4bac703",
-  "priceDataHash": "sha256:c847b3c18857afb620c5cfb515723c9ac53a259910915f51ca667cdadda29f49",
+  "priceDataHash": "sha256:4701c0e0d1dfcb6bbff06b5bf964032ed495fb83d4087f9399a05d546d9894af",
   "lastFullValidationAt": "2026-10-24T16:59:42Z",
-  "updatedAt": "2026-10-29T14:22:52Z"
+  "updatedAt": "2026-10-30T07:14:23Z"
 }

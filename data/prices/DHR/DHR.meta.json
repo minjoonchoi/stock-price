@@ -2,14 +2,14 @@
   "ticker": "DHR",
   "source": "yahoo",
   "firstDate": "1978-12-29",
-  "lastDate": "2026-10-28",
-  "records": 11740,
+  "lastDate": "2026-10-29",
+  "records": 11741,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "2023-10-02",
   "corporateActionHash": "sha256:9b1edc48fd60f4b3677e79a32489c85157af47ed4c5921d02416665a59770783",
-  "priceDataHash": "sha256:f4d42205ff897430ebceb8cc82f8a6554a2364c1099602365a90ef98306f1825",
+  "priceDataHash": "sha256:f9e0a11977f1d555b964bfad9e72b7493ffa4a7c6b2a736d169307a67ee75b4a",
   "lastFullValidationAt": "2026-10-24T17:04:42Z",
-  "updatedAt": "2026-10-29T14:25:22Z"
+  "updatedAt": "2026-10-30T07:16:53Z"
 }
