@@ -2,14 +2,14 @@
   "ticker": "LMT",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-10-28",
-  "records": 16154,
+  "lastDate": "2026-10-29",
+  "records": 16155,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "1999-01-04",
   "corporateActionHash": "sha256:9e6496e4c001574ec6a3df5698539fc8505fb33bebef3f19e325f99ea1182c3b",
-  "priceDataHash": "sha256:284617ce26ca6ed75b8beaccd335d52939faabec1d7de474de123a47fa138af6",
+  "priceDataHash": "sha256:dd55caa12224ed47b277e754d927feec1ffc6d6de8e04af109b03e11d9e0ae48",
   "lastFullValidationAt": "2026-10-28T14:23:48Z",
-  "updatedAt": "2026-10-29T20:27:34Z"
+  "updatedAt": "2026-10-30T14:16:16Z"
 }

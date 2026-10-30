@@ -2,14 +2,14 @@
   "ticker": "EPRT",
   "source": "yahoo",
   "firstDate": "2018-06-21",
-  "lastDate": "2026-10-28",
-  "records": 2100,
+  "lastDate": "2026-10-29",
+  "records": 2101,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:cdb499fcde7147ca2a903fb3560200c2086c4aab2be2225bc1ac1c95459c6c42",
-  "priceDataHash": "sha256:312ae9f0baf8e71fdf3a8af89f705ffd8c61c8d2b2263c411cb490dffaaf66b0",
+  "priceDataHash": "sha256:bc30572eb29f70a45809aa986d7caf1c68c57ad8d27b469fa64921d6fa07995c",
   "lastFullValidationAt": "2026-10-24T17:09:22Z",
-  "updatedAt": "2026-10-29T14:27:42Z"
+  "updatedAt": "2026-10-30T14:04:18Z"
 }

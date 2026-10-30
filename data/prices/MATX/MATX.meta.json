@@ -2,14 +2,14 @@
   "ticker": "MATX",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-10-28",
-  "records": 13417,
+  "lastDate": "2026-10-29",
+  "records": 13418,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-06",
   "lastSplitDate": "2012-07-02",
   "corporateActionHash": "sha256:48bb122bba348ae956f41a73119554e454d76a67de9bc786769f8ff4d8bf10b2",
-  "priceDataHash": "sha256:03722d5731adf58db28074e529918e44b8619085f44f71f0b45cb8f90910c543",
+  "priceDataHash": "sha256:e1c7ded2bd8706cf9cf44cd5319e3dd578c31d5c7b2b316d8106483216371cf9",
   "lastFullValidationAt": "2026-10-28T14:26:18Z",
-  "updatedAt": "2026-10-29T20:28:58Z"
+  "updatedAt": "2026-10-30T14:17:36Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "GS",
   "source": "yahoo",
   "firstDate": "1999-05-04",
-  "lastDate": "2026-10-28",
-  "records": 6904,
+  "lastDate": "2026-10-29",
+  "records": 6905,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:32a24e1661b737f8054a2d66b86e6d20c93f7c23437b3f9eaa3a6386cbc69e03",
-  "priceDataHash": "sha256:711f97939b871e96b5a1a7bbf766953f75d888a3da44363f0841e19943d0a835",
+  "priceDataHash": "sha256:bb11238c56f95d70bef7a7ed79409dbff3cb635c314ab2d5624249b7aafb1d68",
   "lastFullValidationAt": "2026-10-28T14:10:10Z",
-  "updatedAt": "2026-10-29T20:20:34Z"
+  "updatedAt": "2026-10-30T14:09:20Z"
 }

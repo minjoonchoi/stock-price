@@ -2,14 +2,14 @@
   "ticker": "GLXY",
   "source": "yahoo",
   "firstDate": "2025-05-16",
-  "lastDate": "2026-10-28",
-  "records": 365,
+  "lastDate": "2026-10-29",
+  "records": 366,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c899c9d6190026210f2cb578aa86650f068c0ece1a50e0e1abae0c5e9b1fb1d7",
+  "priceDataHash": "sha256:1ef3fb22930b299ed068b6027c1229a957f495941b91309ee36531b317eca2a0",
   "lastFullValidationAt": "2026-10-28T14:08:52Z",
-  "updatedAt": "2026-10-29T20:19:50Z"
+  "updatedAt": "2026-10-30T14:08:38Z"
 }

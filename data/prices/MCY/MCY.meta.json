@@ -2,14 +2,14 @@
   "ticker": "MCY",
   "source": "yahoo",
   "firstDate": "1985-11-20",
-  "lastDate": "2026-10-28",
-  "records": 10095,
+  "lastDate": "2026-10-29",
+  "records": 10096,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "1997-10-10",
   "corporateActionHash": "sha256:326d06f6771e5435880143c2e5b45a87df7e10944861b3d862d30f79882f7556",
-  "priceDataHash": "sha256:a592c346abc72bc95b28a6546e2facf1b0f13659e50b5a7096b23ef3f7600440",
+  "priceDataHash": "sha256:ee28e652ca835b9cccfc64cd482d1d28a5b5d1b3a707206b041dbb8e77787e09",
   "lastFullValidationAt": "2026-10-28T14:27:00Z",
-  "updatedAt": "2026-10-29T20:29:20Z"
+  "updatedAt": "2026-10-30T14:17:58Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "FTV",
   "source": "yahoo",
   "firstDate": "2016-07-05",
-  "lastDate": "2026-10-28",
-  "records": 2595,
+  "lastDate": "2026-10-29",
+  "records": 2596,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2025-06-30",
   "corporateActionHash": "sha256:675dbe9391d6251ae63080bb9a486c9c7b09c2347197524bc6889b29dec6189b",
-  "priceDataHash": "sha256:4d9aeb9fc4e34e81fb79c675c72e7cc2ae091e6c3aeb23dfe44c728912cb536a",
+  "priceDataHash": "sha256:8b61a3fd362087ab793f8c8160c64a19b77bea6dcac7460622c4a77dc566aaf1",
   "lastFullValidationAt": "2026-10-28T14:06:50Z",
-  "updatedAt": "2026-10-29T20:18:48Z"
+  "updatedAt": "2026-10-30T14:07:36Z"
 }

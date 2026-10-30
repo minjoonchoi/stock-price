@@ -2,14 +2,14 @@
   "ticker": "HLT",
   "source": "yahoo",
   "firstDate": "2013-12-12",
-  "lastDate": "2026-10-28",
-  "records": 3238,
+  "lastDate": "2026-10-29",
+  "records": 3239,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2017-01-04",
   "corporateActionHash": "sha256:c46e5643a83f4b5750899c7c9dec2a8b0cfdce913864c8732551880fa073e5d3",
-  "priceDataHash": "sha256:f069811dc85b849f93237b0626131028e73c7de8d6568098a8dab85bdcfdeb8e",
+  "priceDataHash": "sha256:9c448cde0f1999fd3566bbc18695189df2e563b112e68bcc23488d3214471a89",
   "lastFullValidationAt": "2026-10-28T14:12:32Z",
-  "updatedAt": "2026-10-29T20:21:46Z"
+  "updatedAt": "2026-10-30T14:10:32Z"
 }
