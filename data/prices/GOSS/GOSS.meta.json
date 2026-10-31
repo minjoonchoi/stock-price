@@ -2,14 +2,14 @@
   "ticker": "GOSS",
   "source": "yahoo",
   "firstDate": "2019-02-08",
-  "lastDate": "2026-10-29",
-  "records": 1942,
+  "lastDate": "2026-10-30",
+  "records": 1943,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-11",
   "lastSplitDate": "2026-09-11",
   "corporateActionHash": "sha256:a82e3e305cf2496770bc5375596bd549455efb9ec9cba080b2b094a29d292152",
-  "priceDataHash": "sha256:689f6545187f41fae17bbf3f185231ce62b13442a37aeb1b9d3a6e76f14d137c",
+  "priceDataHash": "sha256:523d8a5e78359acdfab4e6432c4b75f3f728c9026efc25c4172c8761fb1177b5",
   "lastFullValidationAt": "2026-10-28T14:09:28Z",
-  "updatedAt": "2026-10-30T14:08:58Z"
+  "updatedAt": "2026-10-31T13:39:44Z"
 }

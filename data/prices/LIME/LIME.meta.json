@@ -2,14 +2,14 @@
   "ticker": "LIME",
   "source": "yahoo",
   "firstDate": "2026-07-01",
-  "lastDate": "2026-10-29",
-  "records": 85,
+  "lastDate": "2026-10-30",
+  "records": 86,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:fcb925bb3696f9ae464f928d4ea567c03f6eb3dd773f715cd53caed45cb9ecdc",
+  "priceDataHash": "sha256:c3d5497ac811b057566cffe6ea319bf91d3712088109edb197a3d7246b790f31",
   "lastFullValidationAt": "2026-10-28T14:23:06Z",
-  "updatedAt": "2026-10-30T14:15:54Z"
+  "updatedAt": "2026-10-31T13:46:42Z"
 }

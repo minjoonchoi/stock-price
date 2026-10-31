@@ -2,14 +2,14 @@
   "ticker": "IPGP",
   "source": "yahoo",
   "firstDate": "2006-12-13",
-  "lastDate": "2026-10-29",
-  "records": 5000,
+  "lastDate": "2026-10-30",
+  "records": 5001,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d1a5a70a8c5d7e0e1d4b92885563e623177e061d9b5986a78a3a3e1db6f0c525",
+  "priceDataHash": "sha256:441df83f175ebd2a6e66453df9c72cbd01e0b425a2dcf9198be9cdaaeeb02974",
   "lastFullValidationAt": "2026-10-28T14:17:40Z",
-  "updatedAt": "2026-10-30T14:13:08Z"
+  "updatedAt": "2026-10-31T13:43:56Z"
 }

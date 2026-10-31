@@ -2,14 +2,14 @@
   "ticker": "FCX",
   "source": "yahoo",
   "firstDate": "1995-07-10",
-  "lastDate": "2026-10-29",
-  "records": 7837,
+  "lastDate": "2026-10-30",
+  "records": 7838,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "2011-02-02",
   "corporateActionHash": "sha256:ba909bd179657105694b88411aa169d18bee8e6a7d36c5e522ad3260e520444c",
-  "priceDataHash": "sha256:aeea78a5df12c350d0d412e6867b03c9af694948491ad675027a37c6411eb838",
+  "priceDataHash": "sha256:f5e9a9f8f2d9ccd8618ba1bb2add3e2a1c47531e21065610fb7c24d4be7db26c",
   "lastFullValidationAt": "2026-10-28T14:03:30Z",
-  "updatedAt": "2026-10-30T14:05:52Z"
+  "updatedAt": "2026-10-31T13:36:38Z"
 }
