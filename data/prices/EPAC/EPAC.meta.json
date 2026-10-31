@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 6524,
-  "updatedAt": "2026-07-04T17:10:22Z",
-  "source": "yahoo"
+  "ticker": "EPAC",
+  "source": "yahoo",
+  "firstDate": "2000-07-24",
+  "lastDate": "2026-10-30",
+  "records": 6608,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-10-06",
+  "lastSplitDate": "2007-11-09",
+  "corporateActionHash": "sha256:6325b76282cd734487bfffd3088532d0d2c1f7f66485dee36a24b0579cad606a",
+  "priceDataHash": "sha256:385113ae645156fc42a8677219621619c5d1a5d5faeba33c9182a8c4b38f4928",
+  "lastFullValidationAt": "2026-10-31T07:10:55Z",
+  "updatedAt": "2026-10-31T07:10:55Z"
 }

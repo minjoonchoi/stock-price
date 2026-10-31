@@ -2,14 +2,14 @@
   "ticker": "AXON",
   "source": "yahoo",
   "firstDate": "2001-06-19",
-  "lastDate": "2026-10-29",
-  "records": 6379,
+  "lastDate": "2026-10-30",
+  "records": 6380,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2004-11-30",
   "lastSplitDate": "2004-11-30",
   "corporateActionHash": "sha256:d6aa2b05385d37654838fcaddf938d1d77dd71f06b27df6f9786961401432c29",
-  "priceDataHash": "sha256:94ddb4cd5e2faa12139590015c7d06476c6165cd06c00ae090956cd6033a1aef",
+  "priceDataHash": "sha256:5955140dc867ca3358f550859b022dc95c93e161f205779a61237f7b854592f7",
   "lastFullValidationAt": "2026-10-24T16:47:00Z",
-  "updatedAt": "2026-10-30T07:07:50Z"
+  "updatedAt": "2026-10-31T06:59:37Z"
 }

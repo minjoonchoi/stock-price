@@ -2,14 +2,14 @@
   "ticker": "BOOT",
   "source": "yahoo",
   "firstDate": "2014-10-30",
-  "lastDate": "2026-10-29",
-  "records": 3017,
+  "lastDate": "2026-10-30",
+  "records": 3018,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d79f3538417c39edc0c317cead7a5973bb7a4470c43642e92b8e0eff08617bfb",
+  "priceDataHash": "sha256:a43c9d13e9404c702ddec580b48dbc544f16db17c5697fd18a24576f1ce5b6f6",
   "lastFullValidationAt": "2026-10-24T16:51:22Z",
-  "updatedAt": "2026-10-30T07:10:08Z"
+  "updatedAt": "2026-10-31T07:01:55Z"
 }

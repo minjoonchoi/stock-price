@@ -2,14 +2,14 @@
   "ticker": "CDP",
   "source": "yahoo",
   "firstDate": "1991-12-31",
-  "lastDate": "2026-10-29",
-  "records": 8688,
+  "lastDate": "2026-10-30",
+  "records": 8689,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9d91218f21c987e4dad96a5f035bbb7eb364928016956d58e5297adccdfb09ef",
-  "priceDataHash": "sha256:668b0f8fe78086040d5530dde4341c88c3f746f88c891375cd9cda9a2a276511",
+  "priceDataHash": "sha256:3c42a93973605014d984275163bb0406e4dfd6bd7c413f828dc646a339a2ef9d",
   "lastFullValidationAt": "2026-10-24T16:55:24Z",
-  "updatedAt": "2026-10-30T07:12:11Z"
+  "updatedAt": "2026-10-31T07:03:57Z"
 }

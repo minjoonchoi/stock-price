@@ -2,14 +2,14 @@
   "ticker": "ALNT",
   "source": "yahoo",
   "firstDate": "1980-10-20",
-  "lastDate": "2026-10-29",
-  "records": 11507,
+  "lastDate": "2026-10-30",
+  "records": 11508,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-19",
   "lastSplitDate": "2021-05-03",
   "corporateActionHash": "sha256:9da3d136b3b17f23b57fc0839bf0507f54d754d8624a863ca455d42b8058e400",
-  "priceDataHash": "sha256:7cc82c2f979b29ac48afe2656603cc91229f5cded45c55e376f934170c8d7486",
+  "priceDataHash": "sha256:b846ba53b0c6223526ab7b9fc1d8367b2711fa6d8f6aac4a1310be6546bedc70",
   "lastFullValidationAt": "2026-10-29T14:13:30Z",
-  "updatedAt": "2026-10-30T07:05:05Z"
+  "updatedAt": "2026-10-31T06:56:47Z"
 }

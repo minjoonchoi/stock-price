@@ -2,14 +2,14 @@
   "ticker": "CFG",
   "source": "yahoo",
   "firstDate": "2014-09-24",
-  "lastDate": "2026-10-29",
-  "records": 3041,
+  "lastDate": "2026-10-30",
+  "records": 3042,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-30",
+  "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:7da669f3eefa57cf5f9ffdf80be639205b5fd8f1369e31f821319772997b16e3",
-  "priceDataHash": "sha256:31f1941b5cfba6afa0c513fbc80c8558734283fc7e5e9106e03a78b373878b8e",
+  "corporateActionHash": "sha256:fa4b40edeff67d0b25716cd2dc4f600dba37183c61ae072a473575ecf0513af8",
+  "priceDataHash": "sha256:cfe59dc6f7947ebb41ddda90861ae92dea86f0ed35cf0e053e419fd48c27b481",
   "lastFullValidationAt": "2026-10-24T16:56:08Z",
-  "updatedAt": "2026-10-30T07:12:32Z"
+  "updatedAt": "2026-10-31T07:04:19Z"
 }

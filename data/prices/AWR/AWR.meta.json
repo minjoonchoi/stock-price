@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 13454,
-  "updatedAt": "2026-07-04T17:03:38Z",
-  "source": "yahoo"
+  "ticker": "AWR",
+  "source": "yahoo",
+  "firstDate": "1973-02-21",
+  "lastDate": "2026-10-30",
+  "records": 13404,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-08-17",
+  "lastSplitDate": "2013-09-04",
+  "corporateActionHash": "sha256:31f75f1c362c359c95f56a280d8217be4c86b1bfa7f1224ccaeef3a870159540",
+  "priceDataHash": "sha256:10a87c17dacaaa8894da2d33413c6328f98a205874d4a5af2c777fd945001c04",
+  "lastFullValidationAt": "2026-10-31T06:59:31Z",
+  "updatedAt": "2026-10-31T06:59:31Z"
 }
