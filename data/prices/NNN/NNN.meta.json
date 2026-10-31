@@ -2,14 +2,14 @@
   "ticker": "NNN",
   "source": "yahoo",
   "firstDate": "1984-10-09",
-  "lastDate": "2026-10-29",
-  "records": 10440,
+  "lastDate": "2026-10-30",
+  "records": 10420,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-31",
+  "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:d387ccc11108d34b5d1e77dc3cd739f368429c200b32dabbacf4a7e932a23bbe",
-  "priceDataHash": "sha256:e0ea4a43ec154854eb5b7c0b76106eb92a791a70674d62805c7b2d499d8e44f2",
-  "lastFullValidationAt": "2026-10-24T12:03:37Z",
-  "updatedAt": "2026-10-30T20:08:58Z"
+  "corporateActionHash": "sha256:986c17e7153ead610bea3a316e74079795f313400371fa316289a1afc2c25897",
+  "priceDataHash": "sha256:2861f7a1f09073b7f9f2abb464f390434e1f8cac0c629f8aba1f46179a63f3c4",
+  "lastFullValidationAt": "2026-10-31T19:24:08Z",
+  "updatedAt": "2026-10-31T19:24:08Z"
 }

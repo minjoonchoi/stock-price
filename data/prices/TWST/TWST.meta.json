@@ -2,14 +2,14 @@
   "ticker": "TWST",
   "source": "yahoo",
   "firstDate": "2018-10-31",
-  "lastDate": "2026-10-29",
-  "records": 2009,
+  "lastDate": "2026-10-30",
+  "records": 2010,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:ecc7623ddaaa6a14b139eaa2e1f871365b412e4620d6d69ace95ad4db6842503",
+  "priceDataHash": "sha256:67edfd1790427a8ec6b51b82daf0b591faf6d96ff9f6fa6cad8756eaff1628d4",
   "lastFullValidationAt": "2026-10-28T21:12:12Z",
-  "updatedAt": "2026-10-30T20:23:20Z"
+  "updatedAt": "2026-10-31T19:39:44Z"
 }

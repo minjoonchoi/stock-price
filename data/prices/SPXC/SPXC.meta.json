@@ -2,14 +2,14 @@
   "ticker": "SPXC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-10-29",
-  "records": 11710,
+  "lastDate": "2026-10-30",
+  "records": 11711,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2015-09-28",
   "lastSplitDate": "2015-09-28",
   "corporateActionHash": "sha256:9ddc7467e971743758df21320d77479c5985e2425a8e0baf820860ecad6daebb",
-  "priceDataHash": "sha256:4890e375fa4d4034cef87e28b9607fd44bcfc0a99ab25f993c652c3254635528",
+  "priceDataHash": "sha256:559b8b1cd79bdabf1232db72fe9f0d791c5a50b9a90ec474cbd806f710b3f9b8",
   "lastFullValidationAt": "2026-10-28T21:05:32Z",
-  "updatedAt": "2026-10-30T20:19:56Z"
+  "updatedAt": "2026-10-31T19:36:08Z"
 }

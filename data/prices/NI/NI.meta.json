@@ -2,14 +2,14 @@
   "ticker": "NI",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-10-29",
-  "records": 13205,
+  "lastDate": "2026-10-30",
+  "records": 13206,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-31",
+  "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "2015-07-02",
-  "corporateActionHash": "sha256:ac6310887f53965662682e6e21f94a8f7d89ad398bb18905cf284dc53f411e7b",
-  "priceDataHash": "sha256:c6aa5043d4cfd5db409a043e8037f9e0ae4a6a33c53118b89c72493e8af9e55c",
+  "corporateActionHash": "sha256:63d5d9f34c7da95f0823bd62335e7c0bb353960ad0a4862e8638faa91911edab",
+  "priceDataHash": "sha256:7d8b2eaa1d978acae71a485e3d27b4f150e6328d94a8eb3ad5ffb717a36f9728",
   "lastFullValidationAt": "2026-10-28T20:44:12Z",
-  "updatedAt": "2026-10-30T20:08:36Z"
+  "updatedAt": "2026-10-31T19:23:28Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "SAIL",
   "source": "yahoo",
   "firstDate": "2025-02-13",
-  "lastDate": "2026-10-29",
-  "records": 430,
+  "lastDate": "2026-10-30",
+  "records": 431,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:40ced48e595d93670151eff420d2b611a9214b84b9436b6890ad7cffc4d454be",
+  "priceDataHash": "sha256:4b5c043b42c85bdac7538ac72f3f655437d0dfd734ad5717ff65332740548595",
   "lastFullValidationAt": "2026-10-28T21:00:50Z",
-  "updatedAt": "2026-10-30T20:17:28Z"
+  "updatedAt": "2026-10-31T19:33:26Z"
 }
