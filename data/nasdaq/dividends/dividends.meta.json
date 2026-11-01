@@ -1,13 +1,13 @@
 {
   "api": "calendar/dividends",
-  "canonicalRows": 2805,
+  "canonicalRows": 2932,
   "datesFetched": 38,
-  "fromDate": "2026-10-22",
-  "githubRunId": "40797363157",
-  "lastCollectedAt": "2026-10-29T01:07:54Z",
+  "fromDate": "2026-10-25",
+  "githubRunId": "41255392711",
+  "lastCollectedAt": "2026-11-01T00:20:26Z",
   "lastError": null,
   "lastStatus": "success",
-  "rowsFetched": 356,
+  "rowsFetched": 413,
   "source": "nasdaq",
-  "toDate": "2026-11-28"
+  "toDate": "2026-12-01"
 }
