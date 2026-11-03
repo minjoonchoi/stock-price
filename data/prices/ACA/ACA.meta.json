@@ -1,15 +1,15 @@
 {
   "ticker": "ACA",
   "source": "yahoo",
-  "firstDate": "2018-11-05",
+  "firstDate": "2026-07-17",
   "lastDate": "2026-10-22",
-  "records": 2001,
+  "records": 69,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:e8da023234df6a7db053456971ff0cbc9e400111de48bda8aeab5e65697527d0",
-  "priceDataHash": "sha256:6e0ee8a384133e143074d1bb8b3a7d29e4725ff564892887059a94e5cd07d756",
-  "lastFullValidationAt": "2026-10-24T16:37:54Z",
-  "updatedAt": "2026-10-24T16:37:54Z"
+  "corporateActionHash": "sha256:9c811c3924a4d21574927451ed8d93984a3d60b79f3e1246b3d7a81ff4468ced",
+  "priceDataHash": "sha256:ee6176b90cb50ab61ecc9aec1d190142f00e7731b66167dccafc11552887ee49",
+  "lastFullValidationAt": "2026-11-03T07:50:03Z",
+  "updatedAt": "2026-11-03T07:50:03Z"
 }

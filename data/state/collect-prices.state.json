@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-10-31",
+  "runId": "2026-11-03",
   "totalTargets": 1628,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "UTI",
-  "cursorIndex": 1500,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EPAM",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:f30cf4d9b98626b9f0c0e05ee932fc792b8d693f92d98809010e0759934cb1c0",
-  "universeHash": "sha256:006cebeede9c1c35f5a26501daa1bd09701691d6159b3d75820bbe98d0fd8f16",
+  "secTickerHash": "sha256:db84c8dfd7ce7dae497f806a9f2a646811b15130bc2920cba469148ede5dff55",
+  "universeHash": "sha256:4455fba055ea58e244dedbcdbfa68c5eeba207a17e357adc3b0c063055fc3aca",
   "shardCount": 1,
-  "startedAt": "2026-10-31T06:54:10Z",
-  "updatedAt": "2026-10-31T19:41:06Z"
+  "startedAt": "2026-11-03T07:48:57Z",
+  "updatedAt": "2026-11-03T08:22:04Z"
 }
