@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-11-03",
-  "totalTargets": 1628,
-  "processedTargets": 1000,
-  "lastProcessedTicker": "NCNO",
-  "cursorIndex": 1000,
+  "runId": "2026-11-04",
+  "totalTargets": 1631,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EPAC",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:7cee1b87ccf4ab89d4d54225fc7e37d9e746b03433180291d536833423b65b9e",
-  "universeHash": "sha256:4455fba055ea58e244dedbcdbfa68c5eeba207a17e357adc3b0c063055fc3aca",
+  "secTickerHash": "sha256:db84c8dfd7ce7dae497f806a9f2a646811b15130bc2920cba469148ede5dff55",
+  "universeHash": "sha256:24a65197685b00027356419b8a0f0cb7726cde8634867eb05dc1ffd72d829aa3",
   "shardCount": 1,
-  "startedAt": "2026-11-03T17:28:09Z",
-  "updatedAt": "2026-11-03T22:40:29Z"
+  "startedAt": "2026-11-04T07:29:47Z",
+  "updatedAt": "2026-11-04T07:46:29Z"
 }

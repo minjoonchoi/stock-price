@@ -2,14 +2,14 @@
   "ticker": "ACCV",
   "source": "yahoo",
   "firstDate": "2026-10-06",
-  "lastDate": "2026-11-02",
-  "records": 20,
+  "lastDate": "2026-11-03",
+  "records": 21,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:78a29c338840411e09c9271651a81f237342ee4b58a0adc810b7263c86601408",
+  "priceDataHash": "sha256:ffdd6c74ace323c99b9434b7a03a41b5e57385cace0dfa23d6f232c571a87ea6",
   "lastFullValidationAt": "2026-10-30T07:03:06Z",
-  "updatedAt": "2026-11-03T07:50:10Z"
+  "updatedAt": "2026-11-04T07:30:25Z"
 }
