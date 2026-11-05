@@ -2,14 +2,14 @@
   "ticker": "ESAB",
   "source": "yahoo",
   "firstDate": "2022-03-29",
-  "lastDate": "2026-11-02",
-  "records": 1154,
+  "lastDate": "2026-11-04",
+  "records": 1156,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-10-02",
+  "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:928144f5c1f59eb182c0f1239c8637b028d8f073423dd1687c4f50c2de5b55d0",
-  "priceDataHash": "sha256:b6638e053dd162abc14d7d2d329947809122b476c4effcf4cca563b5f9bf7330",
-  "lastFullValidationAt": "2026-10-28T14:00:56Z",
-  "updatedAt": "2026-11-03T22:23:33Z"
+  "corporateActionHash": "sha256:b829ebc37f41132b1887d29dc455dbff9ed47fe81c634c2415326a9f97436512",
+  "priceDataHash": "sha256:9d6df693274051315e4cdb949b1e3c2b42dec88b7efee953eb6a7a10cd16863c",
+  "lastFullValidationAt": "2026-11-05T07:58:25Z",
+  "updatedAt": "2026-11-05T07:58:25Z"
 }

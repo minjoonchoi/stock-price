@@ -2,14 +2,14 @@
   "ticker": "HASI",
   "source": "yahoo",
   "firstDate": "2013-04-18",
-  "lastDate": "2026-11-02",
-  "records": 3396,
+  "lastDate": "2026-11-04",
+  "records": 3405,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-10-02",
+  "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:0d5598ade88e33851bcdf6ae7b64804f61f137739c48e93caa179c3bf4a4418f",
-  "priceDataHash": "sha256:3d258c55bd74af9b445d799deb7b0752fe722047fd411932cd7a8c51a2be4de5",
-  "lastFullValidationAt": "2026-10-28T14:11:12Z",
-  "updatedAt": "2026-11-03T22:29:07Z"
+  "corporateActionHash": "sha256:23bd6edff6ff3aa998ce764c00c3c26ab38c33d64b9d0a4bd4c8f6323ca07866",
+  "priceDataHash": "sha256:73b2f53c25400bdb88d164d4b40444a32d3357686fa120cb68d43bbfee329d53",
+  "lastFullValidationAt": "2026-11-05T08:08:46Z",
+  "updatedAt": "2026-11-05T08:08:46Z"
 }

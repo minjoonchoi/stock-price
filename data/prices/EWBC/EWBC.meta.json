@@ -1,15 +1,15 @@
 {
   "ticker": "EWBC",
   "source": "yahoo",
-  "firstDate": "1999-02-03",
-  "lastDate": "2026-11-02",
-  "records": 6951,
+  "firstDate": "1999-02-04",
+  "lastDate": "2026-11-04",
+  "records": 6959,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-02",
   "lastSplitDate": "2004-06-22",
   "corporateActionHash": "sha256:266a1ffe93a70e33c2d04892999ac3f45e6fda7303494598b1e1bbf8729c1c5f",
-  "priceDataHash": "sha256:89f1f1ecba77f85ff91061f93e33746844ed507d856ba90bf73bb523b1c6efc2",
-  "lastFullValidationAt": "2026-10-28T14:01:44Z",
-  "updatedAt": "2026-11-03T22:23:57Z"
+  "priceDataHash": "sha256:9c65172ed719ac36aca76888cddb720a2e20d2898f0da2c772dd2772bd629b09",
+  "lastFullValidationAt": "2026-11-05T07:59:14Z",
+  "updatedAt": "2026-11-05T07:59:14Z"
 }

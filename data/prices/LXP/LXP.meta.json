@@ -1,15 +1,15 @@
 {
   "ticker": "LXP",
   "source": "yahoo",
-  "firstDate": "1993-10-22",
-  "lastDate": "2026-10-30",
-  "records": 8179,
+  "firstDate": "2026-11-03",
+  "lastDate": "2026-11-03",
+  "records": 1,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-06-30",
   "lastSplitDate": "2025-11-11",
-  "corporateActionHash": "sha256:27f37470823d3bc51d2c116cc4f54febedfde254e82a6e989dd4a67313d4555c",
-  "priceDataHash": "sha256:b53732355a6e40793d168dbe686a90020376edb332dfcace11596693530ba35f",
-  "lastFullValidationAt": "2026-10-28T14:25:20Z",
-  "updatedAt": "2026-10-31T13:47:52Z"
+  "corporateActionHash": "sha256:d71b84bae5bf0b70ca95863c457b7fe994b2499d3a39d3fca2c5ce94b55cd7e4",
+  "priceDataHash": "sha256:10f2dc6d668a48cb7670a737522014acb0f3c4d1d6a9b44d5d8ef5ea39b992d8",
+  "lastFullValidationAt": "2026-11-05T08:22:53Z",
+  "updatedAt": "2026-11-05T08:22:53Z"
 }

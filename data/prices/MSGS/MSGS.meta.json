@@ -1,15 +1,15 @@
 {
   "ticker": "MSGS",
   "source": "yahoo",
-  "firstDate": "2015-09-17",
-  "lastDate": "2026-11-02",
-  "records": 2798,
+  "firstDate": "2026-07-17",
+  "lastDate": "2026-11-04",
+  "records": 78,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-27",
   "lastSplitDate": "2026-10-27",
-  "corporateActionHash": "sha256:568f8c024610ae25bd9c10e50ae1eca30559a35f0f8c8499204971845a235c78",
-  "priceDataHash": "sha256:0c6373f87354e4489c61665db035a86f3c1ca91b4c2173c83d699342dc50a3ba",
-  "lastFullValidationAt": "2026-10-28T14:30:46Z",
-  "updatedAt": "2026-11-03T22:39:35Z"
+  "corporateActionHash": "sha256:37a55e4048fb3032703a8b5565a3072f69da98e81e48d186d0da1f9afc97b3d9",
+  "priceDataHash": "sha256:c94213184f24505cd82877ccd9bed6a039655bb49fe3e02eea845472e58f8ede",
+  "lastFullValidationAt": "2026-11-05T08:28:23Z",
+  "updatedAt": "2026-11-05T08:28:23Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "MUSA",
   "source": "yahoo",
   "firstDate": "2013-08-19",
-  "lastDate": "2026-11-02",
-  "records": 3322,
+  "lastDate": "2026-11-04",
+  "records": 3324,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-04",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:c749d73dd689495fc4796dd4e72bfb3273d68b9dc69d669a6b3775b624f12e7a",
-  "priceDataHash": "sha256:8f33912d050c34b3a96ca064f5bfcf118bf584521ffc2d8794eb2be06667f7d2",
-  "lastFullValidationAt": "2026-10-28T14:31:50Z",
-  "updatedAt": "2026-11-03T22:40:07Z"
+  "corporateActionHash": "sha256:b0900979dbc31016c22e9ee9bed65bf1da9472377ab8e29f9b0c3e2dd1000394",
+  "priceDataHash": "sha256:d16f3fa99e9874526e2311114b636493afc93214a519e724e63fa6eb934efc34",
+  "lastFullValidationAt": "2026-11-05T08:29:28Z",
+  "updatedAt": "2026-11-05T08:29:28Z"
 }

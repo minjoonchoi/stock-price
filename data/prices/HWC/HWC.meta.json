@@ -1,15 +1,15 @@
 {
   "ticker": "HWC",
   "source": "yahoo",
-  "firstDate": "1991-06-07",
-  "lastDate": "2026-11-02",
-  "records": 8829,
+  "firstDate": "1991-06-04",
+  "lastDate": "2026-11-04",
+  "records": 8845,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2004-03-19",
   "corporateActionHash": "sha256:e0479292d0b9f34da4b460849fd07356b54a7ed87b7974c3937ed80b9833c1ff",
-  "priceDataHash": "sha256:c0b00feebf187cec37cf842e0345d907d3e47ce1f5149df91825139afeac9c5f",
-  "lastFullValidationAt": "2026-10-28T14:14:36Z",
-  "updatedAt": "2026-11-03T22:30:49Z"
+  "priceDataHash": "sha256:f51e23edaec0cfd0d833d6fb76ac5946b27e7a3b4fda7feed6ce5c1b12827d13",
+  "lastFullValidationAt": "2026-11-05T08:12:10Z",
+  "updatedAt": "2026-11-05T08:12:10Z"
 }
