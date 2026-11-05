@@ -2,14 +2,14 @@
   "ticker": "OKE",
   "source": "yahoo",
   "firstDate": "1980-10-01",
-  "lastDate": "2026-10-30",
-  "records": 11471,
+  "lastDate": "2026-11-04",
+  "records": 11423,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-03",
+  "lastCorporateActionDate": "2026-11-02",
   "lastSplitDate": "2014-02-03",
-  "corporateActionHash": "sha256:b76c39d4e60271c07ed01103d7debb15f08ca4579a825322430cdefaf679100e",
-  "priceDataHash": "sha256:aab8956403de34101394013b4c0b7a91779d9377a55efd049b788ee6af3b98f0",
-  "lastFullValidationAt": "2026-10-28T20:47:04Z",
-  "updatedAt": "2026-10-31T19:26:18Z"
+  "corporateActionHash": "sha256:5b4468305a9163c1338db7dd72599bebcb72742b5c55ea9923610cb216a8f139",
+  "priceDataHash": "sha256:b6076246340750bffd74800841c09b5e398338dfddbb9317aa51a3aba135085d",
+  "lastFullValidationAt": "2026-11-05T17:28:16Z",
+  "updatedAt": "2026-11-05T17:28:16Z"
 }

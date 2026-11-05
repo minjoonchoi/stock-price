@@ -1,15 +1,15 @@
 {
   "ticker": "STT",
   "source": "yahoo",
-  "firstDate": "1980-03-18",
-  "lastDate": "2026-10-30",
-  "records": 11502,
+  "firstDate": "1980-03-17",
+  "lastDate": "2026-11-04",
+  "records": 11464,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-10-01",
+  "lastCorporateActionDate": "2026-07-01",
   "lastSplitDate": "2001-05-31",
-  "corporateActionHash": "sha256:7a30ff3b758fe40c27cd3b34bcc801af742700b5d6c0df41b6dfe17d05fdd906",
-  "priceDataHash": "sha256:cc3a6632f05165cc9e13eeba7212a0fcb4a27da14bb3526777905fb52c0152f0",
-  "lastFullValidationAt": "2026-10-28T21:06:36Z",
-  "updatedAt": "2026-10-31T19:36:44Z"
+  "corporateActionHash": "sha256:708ea517603deff3d2076608a0a1857c1b8e0fe5db277546209b8c58f46ebcac",
+  "priceDataHash": "sha256:2c648c2a5817359dda835e9b99f57fee5642194af9ea71872db2caffebed2b7c",
+  "lastFullValidationAt": "2026-11-05T17:47:55Z",
+  "updatedAt": "2026-11-05T17:47:55Z"
 }

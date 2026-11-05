@@ -1,15 +1,15 @@
 {
   "ticker": "SUPN",
   "source": "yahoo",
-  "firstDate": "2012-05-01",
-  "lastDate": "2026-10-30",
-  "records": 3647,
+  "firstDate": "2014-12-29",
+  "lastDate": "2026-11-04",
+  "records": 2911,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "",
+  "lastCorporateActionDate": "2026-11-03",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d078fa797358771220d35fabc2529cd15561e8cff692124c0b5ccfb2b19b136f",
-  "lastFullValidationAt": "2026-10-28T21:07:02Z",
-  "updatedAt": "2026-10-31T19:37:00Z"
+  "corporateActionHash": "sha256:6a6db37adbbfb22135deaa55cf7fc1ddc5f4b5b4644deff35d3b0eea4ce4bed5",
+  "priceDataHash": "sha256:2919a8ff4c5ff5c87eb2e4f6db9106c4323ec2729874a16b57abe12b18eea3ba",
+  "lastFullValidationAt": "2026-11-05T17:48:21Z",
+  "updatedAt": "2026-11-05T17:48:21Z"
 }

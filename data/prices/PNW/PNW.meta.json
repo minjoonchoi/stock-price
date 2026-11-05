@@ -2,14 +2,14 @@
   "ticker": "PNW",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-10-30",
-  "records": 13412,
+  "lastDate": "2026-11-04",
+  "records": 13430,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-03",
+  "lastCorporateActionDate": "2026-11-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:477c1d700326574c6f10a4c7032b8b32967b1fde2f7462d54d0369b522a7a153",
-  "priceDataHash": "sha256:779f1473d229aa8bb408d5b62f27345a370ae3a0e468bbe6dfadac390b7ba0d9",
-  "lastFullValidationAt": "2026-10-28T20:53:06Z",
-  "updatedAt": "2026-10-31T19:29:22Z"
+  "corporateActionHash": "sha256:70b70cbd8178a46bc888d1177b14500fe2c332e6df1cf9d4ef687959647854c2",
+  "priceDataHash": "sha256:0a5e3e01233d3f5c072ecba19addc97cc8ba354f0c469a3c854378d40f7cbfa8",
+  "lastFullValidationAt": "2026-11-05T17:34:17Z",
+  "updatedAt": "2026-11-05T17:34:17Z"
 }

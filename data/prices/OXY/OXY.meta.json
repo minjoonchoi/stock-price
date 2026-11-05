@@ -1,15 +1,15 @@
 {
   "ticker": "OXY",
   "source": "yahoo",
-  "firstDate": "1981-12-31",
-  "lastDate": "2026-10-30",
-  "records": 11196,
+  "firstDate": "1982-01-04",
+  "lastDate": "2026-11-04",
+  "records": 11183,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-10",
   "lastSplitDate": "2016-02-25",
   "corporateActionHash": "sha256:53c48fc56fc0d56bfc6d9c8a7a89941ebc17b80b2d8ebddbeec43693abf76ed1",
-  "priceDataHash": "sha256:ed910a1ac7c9a1e717a14cd8a2fd4a121b55a9e26946ef840c99d4a41bdfe43e",
-  "lastFullValidationAt": "2026-10-28T20:48:56Z",
-  "updatedAt": "2026-10-31T19:27:14Z"
+  "priceDataHash": "sha256:df43415e7ebd3df1e770c52bbdca6638e87d599faafc7476652b158731a6ae5b",
+  "lastFullValidationAt": "2026-11-05T17:30:07Z",
+  "updatedAt": "2026-11-05T17:30:07Z"
 }

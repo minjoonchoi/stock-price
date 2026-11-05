@@ -2,14 +2,14 @@
   "ticker": "NVAX",
   "source": "yahoo",
   "firstDate": "1995-12-05",
-  "lastDate": "2026-10-30",
-  "records": 7777,
+  "lastDate": "2026-11-04",
+  "records": 7780,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2019-05-10",
   "lastSplitDate": "2019-05-10",
   "corporateActionHash": "sha256:5b3b4c8582a92c6da2553d8e2a90961a88413cacd686fa6876c24f8ed298e2a6",
-  "priceDataHash": "sha256:96db93bcabeb8b3d26488b601f78daf38374d365271085b95885968d91f3141b",
+  "priceDataHash": "sha256:31760b3dee08cffb5dc98f0242a237f0ea596ed0189289abdf3f6871398d4c23",
   "lastFullValidationAt": "2026-10-31T19:25:30Z",
-  "updatedAt": "2026-10-31T19:25:30Z"
+  "updatedAt": "2026-11-05T17:26:39Z"
 }
