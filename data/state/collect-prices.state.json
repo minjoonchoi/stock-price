@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-11-06",
   "totalTargets": 1631,
-  "processedTargets": 500,
-  "lastProcessedTicker": "EPAC",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NBTB",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:2fb4a4b5c03988429dade1382505b16edd3b527181e71468d5aaf34007aa7639",
   "universeHash": "sha256:5f17e260065fa8aad94330c2a1abeab9d7ff0b212b133af7e6dcda3e4e115bc6",
   "shardCount": 1,
   "startedAt": "2026-11-06T16:51:35Z",
-  "updatedAt": "2026-11-06T17:08:25Z"
+  "updatedAt": "2026-11-06T22:31:08Z"
 }

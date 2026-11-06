@@ -2,14 +2,14 @@
   "ticker": "ESE",
   "source": "yahoo",
   "firstDate": "1990-10-01",
-  "lastDate": "2026-11-04",
-  "records": 9059,
+  "lastDate": "2026-11-05",
+  "records": 9060,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-07-02",
   "lastSplitDate": "2005-09-26",
   "corporateActionHash": "sha256:bab27f3732152fa06392b7212476aea3fc84f23f344dbf542a53671e3e33a232",
-  "priceDataHash": "sha256:7577747a277fcdc9dc029e636566e62b6b78f697984ea8d9bb957144cab29f79",
+  "priceDataHash": "sha256:2b6b47f4c1ab72d4afd8c7449fd23f42dd881f32d4410bd4c569702440c1219e",
   "lastFullValidationAt": "2026-11-05T07:58:30Z",
-  "updatedAt": "2026-11-05T07:58:30Z"
+  "updatedAt": "2026-11-06T22:14:42Z"
 }
