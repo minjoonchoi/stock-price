@@ -2,14 +2,14 @@
   "ticker": "CCK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-03",
-  "records": 11694,
+  "lastDate": "2026-11-05",
+  "records": 11696,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-06",
+  "lastCorporateActionDate": "2026-11-05",
   "lastSplitDate": "1992-06-01",
-  "corporateActionHash": "sha256:ac7dab3882257ae656e3852be94d36cc6b9084ed2a24d2eba8d997517aa1f551",
-  "priceDataHash": "sha256:a64785979195060cd93b9a27cb456ffa3df15590969639666e24794b045615e4",
+  "corporateActionHash": "sha256:20287a3ce12f5e2a25b1ba5bfd55c93268b302956028afc9df0c95050d72c625",
+  "priceDataHash": "sha256:2fe6a8898190e198b8070db0da1830048c3b0e86b92067f06e582b21ec551fa4",
   "lastFullValidationAt": "2026-11-03T08:07:44Z",
-  "updatedAt": "2026-11-04T07:39:19Z"
+  "updatedAt": "2026-11-06T17:01:13Z"
 }

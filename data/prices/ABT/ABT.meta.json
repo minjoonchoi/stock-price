@@ -2,14 +2,14 @@
   "ticker": "ABT",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-03",
-  "records": 11728,
+  "lastDate": "2026-11-05",
+  "records": 11730,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "2013-01-02",
   "corporateActionHash": "sha256:c638e7dcf322c2b28bd212d2e81ae26a1fa94b5d8b4f60e4260dc837fa71a974",
-  "priceDataHash": "sha256:e07f5625c199d23751a0e0d3c56ce744053d626422548775d95b0e4b936e655d",
+  "priceDataHash": "sha256:13efdb4d5cbd53194962273783fd2cb87ad2656ea3e2d5464643302282f63abe",
   "lastFullValidationAt": "2026-11-03T07:49:56Z",
-  "updatedAt": "2026-11-04T07:30:17Z"
+  "updatedAt": "2026-11-06T16:52:07Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "BELFB",
   "source": "yahoo",
   "firstDate": "1998-07-10",
-  "lastDate": "2026-11-03",
-  "records": 7111,
+  "lastDate": "2026-11-05",
+  "records": 7113,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "1999-12-02",
   "corporateActionHash": "sha256:93be87797409e35fafae4a28fd732edd4b843fbcb40d3d252d19ccfe7f8dadc1",
-  "priceDataHash": "sha256:ec4fe464dee2650bf6b89572bd4676613af48f53f0be4d1551e1c20a2efc1265",
+  "priceDataHash": "sha256:bc4b9a876de534a5e081b09c69e516edfd66ae0d7298cf468b219d9b687277f6",
   "lastFullValidationAt": "2026-11-03T08:01:40Z",
-  "updatedAt": "2026-11-04T07:36:17Z"
+  "updatedAt": "2026-11-06T16:58:11Z"
 }

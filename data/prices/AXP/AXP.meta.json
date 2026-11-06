@@ -2,14 +2,14 @@
   "ticker": "AXP",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-11-03",
-  "records": 13569,
+  "lastDate": "2026-11-05",
+  "records": 13571,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-09",
   "lastSplitDate": "2005-10-03",
   "corporateActionHash": "sha256:058bf3303c6558820a4bcdc5ba9811dce2454bd8b4122fad8a2e8d25507ac325",
-  "priceDataHash": "sha256:c16c5aa5e54e36aeabaa30dc3093b8ba9e058c6c23d05e037c0a48c53facba07",
+  "priceDataHash": "sha256:38e2f031232d8465b180abd7fb378681fbeafa3e05811bb7e83fd3352490a8bf",
   "lastFullValidationAt": "2026-11-03T07:59:36Z",
-  "updatedAt": "2026-11-04T07:35:15Z"
+  "updatedAt": "2026-11-06T16:57:09Z"
 }

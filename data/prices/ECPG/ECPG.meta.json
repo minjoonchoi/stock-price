@@ -2,14 +2,14 @@
   "ticker": "ECPG",
   "source": "yahoo",
   "firstDate": "1999-07-09",
-  "lastDate": "2026-11-03",
-  "records": 6873,
+  "lastDate": "2026-11-05",
+  "records": 6875,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:06ad9fa1648353196cce18e2ffd217361425eb042b950f6ff0b7def58d4b199e",
+  "priceDataHash": "sha256:17276aab4573a0acdd3d5d387d9425e6b0c25cf5dbb86450f7b85efe16aa456f",
   "lastFullValidationAt": "2026-11-03T08:20:30Z",
-  "updatedAt": "2026-11-04T07:45:43Z"
+  "updatedAt": "2026-11-06T17:07:39Z"
 }

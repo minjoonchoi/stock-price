@@ -2,14 +2,14 @@
   "ticker": "BOBS",
   "source": "yahoo",
   "firstDate": "2026-02-05",
-  "lastDate": "2026-11-03",
-  "records": 188,
+  "lastDate": "2026-11-05",
+  "records": 190,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:b45d83101180cacdb2be53e4e70ad7d28d191b0143b32e58e7be7c540c2c9435",
+  "priceDataHash": "sha256:472af90d88fc101f0c3e1600b67f6669db3b27d273233629fa7513eb0581a909",
   "lastFullValidationAt": "2026-11-03T08:03:55Z",
-  "updatedAt": "2026-11-04T07:37:25Z"
+  "updatedAt": "2026-11-06T16:59:19Z"
 }
