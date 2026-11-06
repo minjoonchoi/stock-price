@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1689,
-  "updatedAt": "2026-07-04T17:30:45Z",
-  "source": "yahoo"
+  "ticker": "VIR",
+  "source": "yahoo",
+  "firstDate": "2019-10-11",
+  "lastDate": "2026-11-05",
+  "records": 1777,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:34eaf3d130b7ee3494ced2d7e5026685dc350feb4baa6119e032f7da0e6aa8a3",
+  "lastFullValidationAt": "2026-11-06T07:58:21Z",
+  "updatedAt": "2026-11-06T07:58:21Z"
 }

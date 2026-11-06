@@ -2,14 +2,14 @@
   "ticker": "ZTS",
   "source": "yahoo",
   "firstDate": "2013-02-01",
-  "lastDate": "2026-10-28",
-  "records": 3456,
+  "lastDate": "2026-11-05",
+  "records": 3462,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-20",
+  "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:b0f43e3d2b2bba177571be933f54efe2e16eed098efc7855736020085b69ee41",
-  "priceDataHash": "sha256:f2c8b9f75465c2ccdff205c78fb5b78aec0a67861ba7ed4507258605b82b80c8",
-  "lastFullValidationAt": "2026-10-29T07:03:14Z",
-  "updatedAt": "2026-10-29T07:03:14Z"
+  "corporateActionHash": "sha256:cf7b26963606846379f9e96f2a9792a78f8d88d2f81d8ef5c1557154826d268e",
+  "priceDataHash": "sha256:15664d5f96feb2bde0801cf604918d31923dbac72efbc2ea8495c85445960e74",
+  "lastFullValidationAt": "2026-11-06T08:05:25Z",
+  "updatedAt": "2026-11-06T08:05:25Z"
 }

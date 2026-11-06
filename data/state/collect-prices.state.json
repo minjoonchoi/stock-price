@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-11-04",
   "totalTargets": 1631,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "USFD",
-  "cursorIndex": 1500,
-  "completed": false,
+  "processedTargets": 1631,
+  "lastProcessedTicker": "ZYME",
+  "cursorIndex": 1631,
+  "completed": true,
   "secTickerHash": "sha256:2fb4a4b5c03988429dade1382505b16edd3b527181e71468d5aaf34007aa7639",
   "universeHash": "sha256:5f17e260065fa8aad94330c2a1abeab9d7ff0b212b133af7e6dcda3e4e115bc6",
   "shardCount": 1,
   "startedAt": "2026-11-04T17:16:59Z",
-  "updatedAt": "2026-11-05T17:55:57Z"
+  "updatedAt": "2026-11-06T08:05:33Z"
 }
