@@ -2,14 +2,14 @@
   "ticker": "AIG",
   "source": "yahoo",
   "firstDate": "1973-01-03",
-  "lastDate": "2026-11-05",
-  "records": 13039,
+  "lastDate": "2026-11-06",
+  "records": 13040,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "2009-07-01",
   "corporateActionHash": "sha256:67317731c1d1bd9ed71fde251f94556e0369cb3d98eb50becbb5e52b1e7d0793",
-  "priceDataHash": "sha256:1c4f181edabec435483c2cca5391f2b80a95bf88def194de6026740ff88088af",
+  "priceDataHash": "sha256:0f6ddf3511104cb2491b7396e1196be81fe3ffa6421bbb8a00251f13833051fe",
   "lastFullValidationAt": "2026-11-03T07:52:34Z",
-  "updatedAt": "2026-11-06T16:53:29Z"
+  "updatedAt": "2026-11-07T19:33:10Z"
 }

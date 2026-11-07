@@ -2,14 +2,14 @@
   "ticker": "DAN",
   "source": "yahoo",
   "firstDate": "2008-01-02",
-  "lastDate": "2026-11-05",
-  "records": 4739,
+  "lastDate": "2026-11-06",
+  "records": 4740,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3b79eb75a11577122fe69dcc7b0d8872a2ca749056cc9940fc3c0ae39535f62c",
-  "priceDataHash": "sha256:f014b1aea75cf07b10d49dc272056bba90e377e0e3d89cded8256aaae72cd03a",
+  "corporateActionHash": "sha256:78882bce2ac2363ba6ee0ee125cbdf461b97ef54e4f07a92db386bbfcb75cc74",
+  "priceDataHash": "sha256:ec1bbc2802b4a4050df124603667734c5bb74c6afb6cbf07226d90c3017f2102",
   "lastFullValidationAt": "2026-11-03T08:16:18Z",
-  "updatedAt": "2026-11-06T17:05:33Z"
+  "updatedAt": "2026-11-07T19:45:10Z"
 }

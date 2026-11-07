@@ -2,14 +2,14 @@
   "ticker": "CCL",
   "source": "yahoo",
   "firstDate": "1987-07-24",
-  "lastDate": "2026-11-05",
-  "records": 9809,
+  "lastDate": "2026-11-06",
+  "records": 9810,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "1998-06-15",
-  "corporateActionHash": "sha256:b147ce7bc48359b9627783295f4692d2da96cfd100c0f2e9f064339349ee1795",
-  "priceDataHash": "sha256:554117fd75547a091f00c74a26654b101f5f72e2d046efd9b2496c603b8c94db",
+  "corporateActionHash": "sha256:32965400a03f9e4370237c134df70fa2811185d70f2524c2241bbdf19ba0f334",
+  "priceDataHash": "sha256:a303eca95ea81738552e7361058bee6182dfbd786b8fdc75a3a969d80597591f",
   "lastFullValidationAt": "2026-11-03T08:07:48Z",
-  "updatedAt": "2026-11-06T17:01:15Z"
+  "updatedAt": "2026-11-07T19:40:54Z"
 }
