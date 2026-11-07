@@ -2,14 +2,14 @@
   "ticker": "WSBC",
   "source": "yahoo",
   "firstDate": "1987-05-08",
-  "lastDate": "2026-11-05",
-  "records": 9718,
+  "lastDate": "2026-11-06",
+  "records": 9719,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1997-08-04",
   "corporateActionHash": "sha256:824532b4016168ae9d34958dea10ac0b4deae88b61e908e30920da79a815703c",
-  "priceDataHash": "sha256:31bb8f1afac6e100b0739877410547e3da964eeea3374d99ff46e35d087ec3c5",
+  "priceDataHash": "sha256:65d963e5826720594ad324b2ca2633e24de71c9509b913ec3e30e36e866fe22f",
   "lastFullValidationAt": "2026-11-06T08:02:49Z",
-  "updatedAt": "2026-11-06T08:02:49Z"
+  "updatedAt": "2026-11-07T14:03:55Z"
 }

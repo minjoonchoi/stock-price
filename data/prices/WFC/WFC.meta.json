@@ -2,14 +2,14 @@
   "ticker": "WFC",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-11-05",
-  "records": 13592,
+  "lastDate": "2026-11-06",
+  "records": 13593,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "2006-08-14",
-  "corporateActionHash": "sha256:844db6596909c3e2ef589eee3f2e9020f4af08dcb883d98dcc6e5ba58f07c87e",
-  "priceDataHash": "sha256:f79f746f4394a4f34b6dbe580b19980a7ae8c7824ae3d51ede81eb14db3512d3",
+  "corporateActionHash": "sha256:d211aafd5bbe340b2644531e4bc8e514bc2aeb204a4c6fe67d683ed46c1a4ff1",
+  "priceDataHash": "sha256:4d226ba3a15b71acabc9a405c98b61fbb2fe3a39a300eb4697920c06799a5cc5",
   "lastFullValidationAt": "2026-11-06T08:01:33Z",
-  "updatedAt": "2026-11-06T08:01:33Z"
+  "updatedAt": "2026-11-07T14:03:17Z"
 }
