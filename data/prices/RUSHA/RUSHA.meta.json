@@ -2,14 +2,14 @@
   "ticker": "RUSHA",
   "source": "yahoo",
   "firstDate": "2003-10-07",
-  "lastDate": "2026-11-04",
-  "records": 5806,
+  "lastDate": "2026-11-06",
+  "records": 5808,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-09",
   "lastSplitDate": "2026-09-01",
   "corporateActionHash": "sha256:43e0b246efc301b4af79d892784922abf95aa457387b80813d788dcf59b26b47",
-  "priceDataHash": "sha256:507ca47cdd33602a92f7df5838f9adc7b407c6479d61c64776022301eba1e7d2",
+  "priceDataHash": "sha256:d09df179e5591a6ed5785f3a671e625a02b2365caf81303ce2e66e95ee88a3dc",
   "lastFullValidationAt": "2026-11-05T17:41:09Z",
-  "updatedAt": "2026-11-05T17:41:09Z"
+  "updatedAt": "2026-11-07T07:08:22Z"
 }

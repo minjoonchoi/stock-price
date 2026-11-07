@@ -2,14 +2,14 @@
   "ticker": "POWI",
   "source": "yahoo",
   "firstDate": "1997-12-12",
-  "lastDate": "2026-11-04",
-  "records": 7267,
+  "lastDate": "2026-11-06",
+  "records": 7269,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2020-08-19",
   "corporateActionHash": "sha256:360231ab032f435b1ce2ab2ae856686a7d8b273c4476a0785a2f11041cf7548c",
-  "priceDataHash": "sha256:896bd9d37f477fcdf234e9c58d3de1b08254aceaedf324639bd33ae7acd9fd9d",
+  "priceDataHash": "sha256:693f6ad1d9eddb58b66b1c8a372f86f382a1105ace8aad9848c7d29f1664dc62",
   "lastFullValidationAt": "2026-11-05T17:34:35Z",
-  "updatedAt": "2026-11-05T17:34:35Z"
+  "updatedAt": "2026-11-07T07:05:00Z"
 }

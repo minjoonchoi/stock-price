@@ -2,14 +2,14 @@
   "ticker": "TTMI",
   "source": "yahoo",
   "firstDate": "2000-09-25",
-  "lastDate": "2026-11-04",
-  "records": 6567,
+  "lastDate": "2026-11-06",
+  "records": 6569,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2209201eeb717faa9bddb968c698952a0a40f8584016ca39f5609ee1f54af224",
+  "priceDataHash": "sha256:fdf3c87d9317c913dff3abeb0885b08d22edfe53bf9155defc4aebe01e153f38",
   "lastFullValidationAt": "2026-11-05T17:53:11Z",
-  "updatedAt": "2026-11-05T17:53:11Z"
+  "updatedAt": "2026-11-07T07:14:34Z"
 }

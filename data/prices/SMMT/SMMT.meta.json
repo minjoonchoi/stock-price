@@ -2,14 +2,14 @@
   "ticker": "SMMT",
   "source": "yahoo",
   "firstDate": "2015-03-05",
-  "lastDate": "2026-11-04",
-  "records": 2936,
+  "lastDate": "2026-11-06",
+  "records": 2938,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:e550baa63fb2fe00410331f594efff6ca3a0ccaca5a8df91a23a96af5249df54",
+  "priceDataHash": "sha256:bf8ded0d9e833720bd971d9dbec98ff6170eda19a357be6ba891579f0e31dbaf",
   "lastFullValidationAt": "2026-11-05T17:45:03Z",
-  "updatedAt": "2026-11-05T17:45:03Z"
+  "updatedAt": "2026-11-07T07:10:24Z"
 }

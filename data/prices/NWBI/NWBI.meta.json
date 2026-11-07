@@ -2,14 +2,14 @@
   "ticker": "NWBI",
   "source": "yahoo",
   "firstDate": "1994-11-07",
-  "lastDate": "2026-11-04",
-  "records": 7955,
+  "lastDate": "2026-11-06",
+  "records": 7957,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-06",
+  "lastCorporateActionDate": "2026-11-05",
   "lastSplitDate": "2009-12-18",
-  "corporateActionHash": "sha256:2d2242b286468e568c236db0e2434a6b6aac0e9f6cd0d652a142073e75c462f1",
-  "priceDataHash": "sha256:46ef56e0ff92b45edc1e400e389c426b67b6b508f152066670097303b2bedb35",
+  "corporateActionHash": "sha256:0f05a16cafd9f51f083ca29d09b7f7f78548a1e760285c1bd1f78bab7f9da258",
+  "priceDataHash": "sha256:46a3befef5467a1a450ddfb6accced337ac35b8bbe0dea3e33eee2f1431d03ed",
   "lastFullValidationAt": "2026-11-05T17:26:59Z",
-  "updatedAt": "2026-11-05T17:26:59Z"
+  "updatedAt": "2026-11-07T07:01:10Z"
 }

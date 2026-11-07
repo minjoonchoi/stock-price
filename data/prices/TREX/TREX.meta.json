@@ -2,14 +2,14 @@
   "ticker": "TREX",
   "source": "yahoo",
   "firstDate": "1999-04-08",
-  "lastDate": "2026-11-04",
-  "records": 6938,
+  "lastDate": "2026-11-06",
+  "records": 6940,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-09-15",
   "lastSplitDate": "2020-09-15",
   "corporateActionHash": "sha256:64a6cdfc5df9dad251b79e64bc5c0ce6a8c0aafaba7cf6d8266ac1aeedaabc6e",
-  "priceDataHash": "sha256:b60ec4a7ea2e469fe4d901a468ea538e53ca179e47a7c0d44e851e31c536cdaa",
+  "priceDataHash": "sha256:83145731c8aadb94c358036334c72b40c932262119b02d364249bd7d196ad5c9",
   "lastFullValidationAt": "2026-11-05T17:52:03Z",
-  "updatedAt": "2026-11-05T17:52:03Z"
+  "updatedAt": "2026-11-07T07:13:58Z"
 }

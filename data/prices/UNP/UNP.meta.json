@@ -2,14 +2,14 @@
   "ticker": "UNP",
   "source": "yahoo",
   "firstDate": "1980-01-02",
-  "lastDate": "2026-11-04",
-  "records": 11752,
+  "lastDate": "2026-11-06",
+  "records": 11754,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2014-06-09",
   "corporateActionHash": "sha256:44963131296c235acfadd65d48187bf0346ac68e4f9718f33ee516be763beb1b",
-  "priceDataHash": "sha256:7572f2925ae552f5fcb039284eff3bf79bfb22ad454a91109df2370fe7c9edfb",
+  "priceDataHash": "sha256:d882fcfb9845ba35ae27cccd319b615ea6e8d65a3a22dbf8e8820901d3c2ddf7",
   "lastFullValidationAt": "2026-11-05T17:55:25Z",
-  "updatedAt": "2026-11-05T17:55:25Z"
+  "updatedAt": "2026-11-07T07:15:42Z"
 }

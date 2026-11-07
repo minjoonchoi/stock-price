@@ -2,14 +2,14 @@
   "ticker": "URBN",
   "source": "yahoo",
   "firstDate": "1993-11-09",
-  "lastDate": "2026-11-04",
-  "records": 8303,
+  "lastDate": "2026-11-06",
+  "records": 8305,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2005-09-26",
   "lastSplitDate": "2005-09-26",
   "corporateActionHash": "sha256:0ce18bf7ca2b031b7962d997bf7a108bf5723e0119a83751de59722814820986",
-  "priceDataHash": "sha256:8fa822a9006e1515d2634b682b0c998aa385ff3e1ce58680313ef435798de760",
+  "priceDataHash": "sha256:385c862208246d1c9296fb3c8c7ab52b07b26dfb48892fd8a27a1b80ec5eaca4",
   "lastFullValidationAt": "2026-11-05T17:55:37Z",
-  "updatedAt": "2026-11-05T17:55:37Z"
+  "updatedAt": "2026-11-07T07:15:48Z"
 }

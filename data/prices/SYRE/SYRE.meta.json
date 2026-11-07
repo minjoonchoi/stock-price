@@ -2,14 +2,14 @@
   "ticker": "SYRE",
   "source": "yahoo",
   "firstDate": "2016-04-07",
-  "lastDate": "2026-11-04",
-  "records": 2661,
+  "lastDate": "2026-11-06",
+  "records": 2663,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2023-09-08",
   "lastSplitDate": "2023-09-08",
   "corporateActionHash": "sha256:197dcb53aa0984653aa444d13fe356f20f9957b093f05a35fd82a2b43e7f4a7b",
-  "priceDataHash": "sha256:8c13a9c75df07dd942d081d5c1435cc5704daa454d6aae27fa718ab9c3f31d6b",
+  "priceDataHash": "sha256:d93399d37eb3dce23f1800a46449627025b4e74ba2ad3d4712e341366361dc89",
   "lastFullValidationAt": "2026-11-05T17:49:09Z",
-  "updatedAt": "2026-11-05T17:49:09Z"
+  "updatedAt": "2026-11-07T07:12:30Z"
 }

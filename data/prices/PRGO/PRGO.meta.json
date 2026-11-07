@@ -2,14 +2,14 @@
   "ticker": "PRGO",
   "source": "yahoo",
   "firstDate": "1991-12-17",
-  "lastDate": "2026-11-04",
-  "records": 8746,
+  "lastDate": "2026-11-06",
+  "records": 8748,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "1993-08-26",
   "corporateActionHash": "sha256:5671b4d07e4469ef86225d43bef0b4df5df9edc6b336412cf74641e9bb44005c",
-  "priceDataHash": "sha256:9156bcdae0ba89bd641074173d0c50231c7233f21cb867ff0cdfab595b971b05",
+  "priceDataHash": "sha256:5b50f61597ac2b534a724fb57a84c2e636118005310fa29e8a749af9a31ae65f",
   "lastFullValidationAt": "2026-11-05T17:35:15Z",
-  "updatedAt": "2026-11-05T17:35:15Z"
+  "updatedAt": "2026-11-07T07:05:20Z"
 }
