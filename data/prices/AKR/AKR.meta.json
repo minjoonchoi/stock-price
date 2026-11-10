@@ -1,15 +1,15 @@
 {
   "ticker": "AKR",
   "source": "yahoo",
-  "firstDate": "1993-05-27",
-  "lastDate": "2026-11-06",
-  "records": 8295,
+  "firstDate": "1993-05-28",
+  "lastDate": "2026-11-09",
+  "records": 8311,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f9fb705faa39061e53226d0b142a386a222bf9f4416cf2475f9cf62951dab993",
-  "priceDataHash": "sha256:d829bab6ad87548de0aaccda39a5d2046df26f7bf294df13e0cb55c27a1d8928",
-  "lastFullValidationAt": "2026-11-03T07:52:58Z",
-  "updatedAt": "2026-11-07T19:33:24Z"
+  "priceDataHash": "sha256:bc061c52d7f2218029859e0bf76080a62b2f7d541cbe180c684643b6a3d7028c",
+  "lastFullValidationAt": "2026-11-10T08:16:37Z",
+  "updatedAt": "2026-11-10T08:16:37Z"
 }

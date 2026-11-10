@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 1168,
-  "updatedAt": "2026-07-04T17:02:57Z",
-  "source": "yahoo"
+  "ticker": "ARHS",
+  "source": "yahoo",
+  "firstDate": "2021-11-04",
+  "lastDate": "2026-11-09",
+  "records": 1258,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-03-18",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:3dd6dec31aa9bc0768018df17fa63ef72aeb08defb1ae749e73179e351476eda",
+  "priceDataHash": "sha256:a5f62fe0b4db8b23001f09142b527a8a1ce50ce7b8d2ee42deca4f40314893b6",
+  "lastFullValidationAt": "2026-11-10T08:20:41Z",
+  "updatedAt": "2026-11-10T08:20:41Z"
 }

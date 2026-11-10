@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 491,
-  "updatedAt": "2026-07-04T17:02:56Z",
-  "source": "yahoo"
+  "ticker": "ARDT",
+  "source": "yahoo",
+  "firstDate": "2024-07-18",
+  "lastDate": "2026-11-09",
+  "records": 581,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "priceDataHash": "sha256:603c3a58f0c1f998af04d38549ee76318d32253b9a122c298fc382ce97a1739c",
+  "lastFullValidationAt": "2026-11-10T08:20:29Z",
+  "updatedAt": "2026-11-10T08:20:29Z"
 }
