@@ -2,14 +2,14 @@
   "ticker": "GSAT",
   "source": "yahoo",
   "firstDate": "2006-11-02",
-  "lastDate": "2026-11-05",
-  "records": 5033,
+  "lastDate": "2026-11-09",
+  "records": 5035,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-02-11",
   "lastSplitDate": "2025-02-11",
   "corporateActionHash": "sha256:6004ee695262bc82a60d66d2a267141d7b8ec2df439901fff9d28bb5074bd43d",
-  "priceDataHash": "sha256:7aab38633015895a8688ff2d7fc88a06a76f518dc3d02200a7b1fc8233357c6a",
+  "priceDataHash": "sha256:d479a197ecde4f6990d0eb0f66fce4709d77d666f8d88312be668b60ea458d12",
   "lastFullValidationAt": "2026-11-05T08:07:47Z",
-  "updatedAt": "2026-11-06T22:19:34Z"
+  "updatedAt": "2026-11-10T22:27:41Z"
 }

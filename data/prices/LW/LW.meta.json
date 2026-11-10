@@ -2,14 +2,14 @@
   "ticker": "LW",
   "source": "yahoo",
   "firstDate": "2016-11-10",
-  "lastDate": "2026-11-05",
-  "records": 2510,
+  "lastDate": "2026-11-09",
+  "records": 2512,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:006280baa2cb5554f52e9ea29f1cf7cef7cd7c9ed771d8f3e8df08739e1ecb00",
-  "priceDataHash": "sha256:681f83448da001453066933e67af9d4721d0118b824a43b9039998cb28432bad",
+  "corporateActionHash": "sha256:fcaab952f20d549cd4f2b651c88541b50b8e08d5c0c354e91c943e4f8cf494c8",
+  "priceDataHash": "sha256:11d92a7713974e983d840230fb15eb9d6a96368260abe23dc6263b977b43360d",
   "lastFullValidationAt": "2026-11-05T08:22:49Z",
-  "updatedAt": "2026-11-06T22:27:18Z"
+  "updatedAt": "2026-11-10T22:35:21Z"
 }

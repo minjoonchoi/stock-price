@@ -2,14 +2,14 @@
   "ticker": "MAS",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-05",
-  "records": 11681,
+  "lastDate": "2026-11-09",
+  "records": 11683,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "2015-07-01",
-  "corporateActionHash": "sha256:8ef6e07fc7febfc86480ebc58ae5468ffa6ab8417fea28be5de3e74053cfa2a9",
-  "priceDataHash": "sha256:c1401f57bbbafe45bce7af2e889f9ca8620fb9a225d3aa6b0c98c94eeb797364",
+  "corporateActionHash": "sha256:bcd97d34fc4721a6a721a7241323398f8724a89bdc2e43dd2b389fbf735c7496",
+  "priceDataHash": "sha256:ee0137470d54d86309f45ff718f1f8e3ba512d899b53c3908a7c8140da8a7a54",
   "lastFullValidationAt": "2026-11-05T08:23:44Z",
-  "updatedAt": "2026-11-06T22:27:52Z"
+  "updatedAt": "2026-11-10T22:35:52Z"
 }

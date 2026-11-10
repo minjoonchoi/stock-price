@@ -2,14 +2,14 @@
   "ticker": "HCC",
   "source": "yahoo",
   "firstDate": "2017-04-13",
-  "lastDate": "2026-11-05",
-  "records": 2404,
+  "lastDate": "2026-11-09",
+  "records": 2406,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-10",
+  "lastCorporateActionDate": "2026-11-09",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:aaa935c5624405710d8941952160f55671d941e752f0f969534ba6adf650346a",
-  "priceDataHash": "sha256:0afb85d361b4879712b1ba7afcc02235834e6824cf961ad5811635dcc5fd08f2",
+  "corporateActionHash": "sha256:fc661ed5d313e6af740ee9c469e89c255ada44524da994cbaefbc4962d9995fa",
+  "priceDataHash": "sha256:7a1374969a867618be05c52bea37a77e6e8b75c15ec0182d8cadec78ddf3f8a9",
   "lastFullValidationAt": "2026-11-05T08:09:05Z",
-  "updatedAt": "2026-11-06T22:20:14Z"
+  "updatedAt": "2026-11-10T22:28:21Z"
 }

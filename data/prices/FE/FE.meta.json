@@ -2,14 +2,14 @@
   "ticker": "FE",
   "source": "yahoo",
   "firstDate": "1997-11-10",
-  "lastDate": "2026-11-05",
-  "records": 7280,
+  "lastDate": "2026-11-09",
+  "records": 7282,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:89f3347bacffb65ddfeea2890280e681ee82962a2058a2f514a90f78312c83dc",
-  "priceDataHash": "sha256:f932743e235ac0d0f324c3c633fe623d7c0018c5f4db424d53de64f6dffb98b9",
+  "corporateActionHash": "sha256:cb369f9c8bc72dc8e0dce10dc1cbe0c793361e76cc13c63ff51580959b8c4a30",
+  "priceDataHash": "sha256:9d28da329f45f84f7e4c8f885bdc84cfee4c6cb2021e3e54ead1227ab1065a27",
   "lastFullValidationAt": "2026-11-05T08:01:12Z",
-  "updatedAt": "2026-11-06T22:16:04Z"
+  "updatedAt": "2026-11-10T22:24:15Z"
 }

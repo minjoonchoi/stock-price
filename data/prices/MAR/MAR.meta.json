@@ -2,14 +2,14 @@
   "ticker": "MAR",
   "source": "yahoo",
   "firstDate": "1998-03-23",
-  "lastDate": "2026-11-05",
-  "records": 7200,
+  "lastDate": "2026-11-09",
+  "records": 7202,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-20",
   "lastSplitDate": "2011-11-22",
   "corporateActionHash": "sha256:26bc248fff446bfbd3259a7d6f9f41462c37866f928b4e298a59ce49c0664430",
-  "priceDataHash": "sha256:a2990b8dc5e62108132f31485be952b80c3109ceb85a3dbece83e008fbc8a9e8",
+  "priceDataHash": "sha256:f171197fb741db96a9c6d78e2fd3da50392b2e4315b4efbcffb4529b55193d28",
   "lastFullValidationAt": "2026-11-05T08:23:36Z",
-  "updatedAt": "2026-11-06T22:27:48Z"
+  "updatedAt": "2026-11-10T22:35:47Z"
 }
