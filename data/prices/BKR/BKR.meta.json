@@ -2,14 +2,14 @@
   "ticker": "BKR",
   "source": "yahoo",
   "firstDate": "1987-04-06",
-  "lastDate": "2026-11-09",
-  "records": 9948,
+  "lastDate": "2026-11-10",
+  "records": 9949,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:670d45b7772fc792d9fefebc499c326cc65b7951576e7b184ef3b14c06029604",
-  "priceDataHash": "sha256:2ea4b8ec1e41c992cab9ee10abecb4109389e527d894eba196fbcfe9571158d0",
+  "corporateActionHash": "sha256:743087b1132f1519bfde3c26becbfbba96b5779aab45ec3cf5b5fc946ea9ca17",
+  "priceDataHash": "sha256:d2641bbd745ec08ec06d2c15d9d0e7540cbc88a43b16fd7d32f784713d6f4103",
   "lastFullValidationAt": "2026-11-10T08:26:39Z",
-  "updatedAt": "2026-11-10T08:26:39Z"
+  "updatedAt": "2026-11-11T17:16:15Z"
 }
