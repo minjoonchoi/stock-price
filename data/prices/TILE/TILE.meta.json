@@ -2,14 +2,14 @@
   "ticker": "TILE",
   "source": "yahoo",
   "firstDate": "1983-04-15",
-  "lastDate": "2026-11-06",
-  "records": 10889,
+  "lastDate": "2026-11-10",
+  "records": 10891,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1998-06-16",
   "corporateActionHash": "sha256:8324ae9bb96a17083553edc992967147437cb3e31508ab3aabb4155d44a68229",
-  "priceDataHash": "sha256:79ab3d57aec1b69351fe08252967a099f153b8cd0e18de2d8fa4383f5a4b8cbd",
+  "priceDataHash": "sha256:dda2f57c65f0de8d6ec3f31f0470db86f30be8d2b00e5fff54c54d002042f915",
   "lastFullValidationAt": "2026-11-05T17:50:51Z",
-  "updatedAt": "2026-11-07T07:13:22Z"
+  "updatedAt": "2026-11-11T08:04:03Z"
 }

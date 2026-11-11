@@ -2,14 +2,14 @@
   "ticker": "PPC",
   "source": "yahoo",
   "firstDate": "1987-12-30",
-  "lastDate": "2026-11-06",
-  "records": 9547,
+  "lastDate": "2026-11-10",
+  "records": 9549,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2025-08-20",
   "lastSplitDate": "1999-08-02",
   "corporateActionHash": "sha256:33b2976bb8e3d73287e9bdc97836f9aab5a5171546a030f885eb8b4fa23dab1c",
-  "priceDataHash": "sha256:4b94032fe0871bb4b30663149d6cc86bbf1ebe970839c61e678615bb718cd998",
+  "priceDataHash": "sha256:6ca07564a73f9faa8d9dd50db35389c1109e5d8a8d3370bca827f35027bae209",
   "lastFullValidationAt": "2026-11-05T17:34:43Z",
-  "updatedAt": "2026-11-07T07:05:04Z"
+  "updatedAt": "2026-11-11T07:55:17Z"
 }

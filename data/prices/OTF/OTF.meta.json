@@ -2,14 +2,14 @@
   "ticker": "OTF",
   "source": "yahoo",
   "firstDate": "2025-06-12",
-  "lastDate": "2026-11-06",
-  "records": 354,
+  "lastDate": "2026-11-10",
+  "records": 356,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:fb3963b2a402bd9f71f5a4721d6f192bd698e7230fb46bf9a35ad700ef7bf00d",
-  "priceDataHash": "sha256:a784ff61e5df9beeab354c8a760d2cb82126e03bc1142fbae6293152bfe989eb",
+  "priceDataHash": "sha256:c4b7470f095ed66761a5404c252645023da6e12be6bbc31af38672042c4eaade",
   "lastFullValidationAt": "2026-11-05T17:29:47Z",
-  "updatedAt": "2026-11-07T07:02:34Z"
+  "updatedAt": "2026-11-11T07:52:39Z"
 }

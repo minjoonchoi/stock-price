@@ -2,14 +2,14 @@
   "ticker": "RH",
   "source": "yahoo",
   "firstDate": "2012-11-02",
-  "lastDate": "2026-11-06",
-  "records": 3524,
+  "lastDate": "2026-11-10",
+  "records": 3526,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a8347bb6a0397d2e40f39e700bf3a715043e31d339eb22b449c3c02974251c81",
+  "priceDataHash": "sha256:37b098df482d57c3c03f26bbca0764cd5479f137eb4fdf18b4d525918b870694",
   "lastFullValidationAt": "2026-11-05T17:38:51Z",
-  "updatedAt": "2026-11-07T07:07:12Z"
+  "updatedAt": "2026-11-11T07:57:31Z"
 }

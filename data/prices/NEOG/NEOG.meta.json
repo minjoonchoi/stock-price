@@ -2,14 +2,14 @@
   "ticker": "NEOG",
   "source": "yahoo",
   "firstDate": "1989-08-23",
-  "lastDate": "2026-11-06",
-  "records": 9371,
+  "lastDate": "2026-11-10",
+  "records": 9373,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2021-06-07",
   "lastSplitDate": "2021-06-07",
   "corporateActionHash": "sha256:cd1510ab2000c1d2d8b0fcfdbdfcca15ec40dd8eec158bb4f2e318c1886f6cc6",
-  "priceDataHash": "sha256:81a988609628aed04b94b119f79548bd743baa0da59a0f4a3e27bcff6879ed1c",
+  "priceDataHash": "sha256:2abb344cad683204cc5a9542a250473a3215fbb50d40ff556ace57ec9e5c6058",
   "lastFullValidationAt": "2026-11-05T17:24:43Z",
-  "updatedAt": "2026-11-07T06:59:34Z"
+  "updatedAt": "2026-11-11T07:48:43Z"
 }

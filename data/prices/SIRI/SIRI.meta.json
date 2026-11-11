@@ -2,14 +2,14 @@
   "ticker": "SIRI",
   "source": "yahoo",
   "firstDate": "1994-09-13",
-  "lastDate": "2026-11-06",
-  "records": 8067,
+  "lastDate": "2026-11-10",
+  "records": 8069,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "2024-09-10",
   "corporateActionHash": "sha256:90f407efe51ab0cd2963e85509c848f2da26a26c1351116c34e2e54263fe2fa9",
-  "priceDataHash": "sha256:8783f26ba99f6af653980ab202caca1a0eb6adeac31b55c265d9f3a814b20290",
+  "priceDataHash": "sha256:d1f93ae3b771ea7b47810bc68256939d18a323d87b3e0b66b0fba11aa5195578",
   "lastFullValidationAt": "2026-11-05T17:43:55Z",
-  "updatedAt": "2026-11-07T07:09:50Z"
+  "updatedAt": "2026-11-11T08:00:21Z"
 }

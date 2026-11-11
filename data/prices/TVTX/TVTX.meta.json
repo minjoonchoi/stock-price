@@ -2,14 +2,14 @@
   "ticker": "TVTX",
   "source": "yahoo",
   "firstDate": "2012-11-08",
-  "lastDate": "2026-11-06",
-  "records": 3520,
+  "lastDate": "2026-11-10",
+  "records": 3522,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c723766f5350359e0a7e4c901b7bd9261acb1ae30bdd18d9231f4c45e35a1691",
+  "priceDataHash": "sha256:b09cb6d610d5299dfa839c3ec79f574f0849b466fcb215f995bd24573b9dd681",
   "lastFullValidationAt": "2026-11-05T17:53:19Z",
-  "updatedAt": "2026-11-07T07:14:38Z"
+  "updatedAt": "2026-11-11T08:05:27Z"
 }

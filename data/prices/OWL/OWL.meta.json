@@ -2,14 +2,14 @@
   "ticker": "OWL",
   "source": "yahoo",
   "firstDate": "2020-12-14",
-  "lastDate": "2026-11-06",
-  "records": 1481,
+  "lastDate": "2026-11-10",
+  "records": 1483,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-13",
+  "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:4be821766c8bc8ae473bdb6fd1d6b90b415eef309bd358a0ac3f2de2beb18b33",
-  "priceDataHash": "sha256:a6706eccbcc0ea2f5bc283a987319b3778ed0f6b903ef11cb4595f69a42e9b3e",
+  "corporateActionHash": "sha256:a335231c527947d8c563881b3f6a9cd92352c73b40daa9a503a1172ff5a16b2c",
+  "priceDataHash": "sha256:e9b53ff4196f692253be773294d87f0a94ca3be583ffe2378e16741d6bdab44e",
   "lastFullValidationAt": "2026-11-05T17:30:03Z",
-  "updatedAt": "2026-11-07T07:02:42Z"
+  "updatedAt": "2026-11-11T07:52:51Z"
 }

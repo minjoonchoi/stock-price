@@ -2,14 +2,14 @@
   "ticker": "SMA",
   "source": "yahoo",
   "firstDate": "2025-04-02",
-  "lastDate": "2026-11-06",
-  "records": 403,
+  "lastDate": "2026-11-10",
+  "records": 405,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1299470a569cb450f9ac8d23dc460daf38467f0d5c6651d39639f229a44b248c",
-  "priceDataHash": "sha256:71673402dcc40bd0061b27876a3e808fbdcc308d6aec315d5ebb905583612103",
+  "priceDataHash": "sha256:f821cf55ba67ec178d24d138efe9aad765f239aa098adb8a4e6b5a34f7ac77bc",
   "lastFullValidationAt": "2026-11-05T17:44:51Z",
-  "updatedAt": "2026-11-07T07:10:18Z"
+  "updatedAt": "2026-11-11T08:00:49Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ORCL",
   "source": "yahoo",
   "firstDate": "1986-03-12",
-  "lastDate": "2026-11-06",
-  "records": 10223,
+  "lastDate": "2026-11-10",
+  "records": 10225,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-09",
   "lastSplitDate": "2000-10-13",
   "corporateActionHash": "sha256:89759d5a1d0cf0317a6829b9bd337f6bdec5c4e60a588f813f3b4c1098c9b83e",
-  "priceDataHash": "sha256:dc5099c6b0d727e74ca0f03276cfece939a654a31eae5b7547827d54347cb942",
+  "priceDataHash": "sha256:b6ce317131be6c8c8d0552373144b7870b80254c40775bd52d13145fdd707988",
   "lastFullValidationAt": "2026-11-05T17:29:20Z",
-  "updatedAt": "2026-11-07T07:02:20Z"
+  "updatedAt": "2026-11-11T07:52:25Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "TMUS",
   "source": "yahoo",
   "firstDate": "2007-04-19",
-  "lastDate": "2026-11-06",
-  "records": 4920,
+  "lastDate": "2026-11-10",
+  "records": 4922,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-28",
   "lastSplitDate": "2013-05-01",
   "corporateActionHash": "sha256:add2f8b1e175f3bb89efb7a7e689c3173b02ce41d43a93776f95352cc98efbac",
-  "priceDataHash": "sha256:561bf15851531f196acfdda881989f1f1b16eb4326b878ba653f7a4d32d2141e",
+  "priceDataHash": "sha256:cc10f7a1a6f7ac7dd5428726c41ee94608568a10b90e87fd52f6cb216ac10207",
   "lastFullValidationAt": "2026-11-05T17:51:23Z",
-  "updatedAt": "2026-11-07T07:13:38Z"
+  "updatedAt": "2026-11-11T08:04:19Z"
 }

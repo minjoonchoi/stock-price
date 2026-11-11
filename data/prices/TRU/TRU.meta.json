@@ -2,14 +2,14 @@
   "ticker": "TRU",
   "source": "yahoo",
   "firstDate": "2015-06-25",
-  "lastDate": "2026-11-06",
-  "records": 2860,
+  "lastDate": "2026-11-10",
+  "records": 2862,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-20",
+  "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:81eee4d33f6ea04d7c49a1db9ac05e5c47d18fbec0a1e1d149c58b70829f1680",
-  "priceDataHash": "sha256:f27ed2648aaa0a9ff6775266bf21d231548e6a4e25c61f9ba362806889277802",
+  "corporateActionHash": "sha256:ae08ed73c360c359c6e0803a38921595b19146c3336fcae2658e4cd11695731c",
+  "priceDataHash": "sha256:d95b373a52742141de3f6d0d95c56f9803f71421f3c0cb068fc9b4e38966775f",
   "lastFullValidationAt": "2026-11-05T17:52:29Z",
-  "updatedAt": "2026-11-07T07:14:12Z"
+  "updatedAt": "2026-11-11T08:04:59Z"
 }

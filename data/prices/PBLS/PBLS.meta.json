@@ -2,14 +2,14 @@
   "ticker": "PBLS",
   "source": "yahoo",
   "firstDate": "2026-06-10",
-  "lastDate": "2026-11-06",
-  "records": 105,
+  "lastDate": "2026-11-10",
+  "records": 107,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:42a8762dc20969a8bb97139692bc2c66ca73dfc3acfbc2c56253afc726aaf415",
+  "priceDataHash": "sha256:a446a8991eb762ed8a124145f09fca5bea614f15307957f64c6aabe6a33ef20b",
   "lastFullValidationAt": "2026-11-05T17:31:15Z",
-  "updatedAt": "2026-11-07T07:03:18Z"
+  "updatedAt": "2026-11-11T07:53:27Z"
 }
