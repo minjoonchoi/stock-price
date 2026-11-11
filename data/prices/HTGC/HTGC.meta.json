@@ -2,14 +2,14 @@
   "ticker": "HTGC",
   "source": "yahoo",
   "firstDate": "2005-06-09",
-  "lastDate": "2026-11-09",
-  "records": 5375,
+  "lastDate": "2026-11-10",
+  "records": 5376,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-11",
+  "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:a6a9f6f6d1fb8ee312ee7b5cc7bb6433fc12fd74b44329617452c6c867e25d49",
-  "priceDataHash": "sha256:9e439745138e488e7083eb546596e20f6c13a2f147e1e4ca5147a4b9cff0793f",
+  "corporateActionHash": "sha256:4e1af6ec6e9f74bb5695001db820170688445abd836c22adc134e362b5e1acca",
+  "priceDataHash": "sha256:31e79ff0658ab3d642ad8a275298b21eb0416a85ef7f2261af25f5c9d54384ea",
   "lastFullValidationAt": "2026-11-05T08:11:30Z",
-  "updatedAt": "2026-11-10T22:29:33Z"
+  "updatedAt": "2026-11-11T23:49:02Z"
 }
