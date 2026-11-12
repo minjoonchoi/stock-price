@@ -2,14 +2,14 @@
   "ticker": "SPGI",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-11-10",
-  "records": 13465,
+  "lastDate": "2026-11-11",
+  "records": 13466,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-26",
   "lastSplitDate": "2026-07-01",
   "corporateActionHash": "sha256:e52b618999d4f51fbb8fa5293f8077f7de2123aa77653953b4a29193b6d3b7f4",
-  "priceDataHash": "sha256:31c8586d23498fad92906cb0f015df03158b706c4f970360f77136afb9df8eaf",
+  "priceDataHash": "sha256:8d7b19001ac7149443f815d46415a86e558197d9ddd301c98cd2b0bbcc70056c",
   "lastFullValidationAt": "2026-11-05T17:46:35Z",
-  "updatedAt": "2026-11-11T08:01:47Z"
+  "updatedAt": "2026-11-12T08:23:20Z"
 }

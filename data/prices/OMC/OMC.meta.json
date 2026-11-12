@@ -2,14 +2,14 @@
   "ticker": "OMC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-10",
-  "records": 11662,
+  "lastDate": "2026-11-11",
+  "records": 11663,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-18",
   "lastSplitDate": "2007-06-26",
   "corporateActionHash": "sha256:59fbfc5300e14b40c6cb0f3e2979aa728128c348ec050f43835edd468ba9cd65",
-  "priceDataHash": "sha256:ae568d2260f1861739f9e91a3425a350c1d77ff91cb69289eb56b4568c9d6900",
+  "priceDataHash": "sha256:453e641cc729e01d9bba3fb33979ebbb546c2317571a4fe805a9f21e3cb0f1cb",
   "lastFullValidationAt": "2026-11-05T17:28:39Z",
-  "updatedAt": "2026-11-11T07:52:05Z"
+  "updatedAt": "2026-11-12T08:14:06Z"
 }

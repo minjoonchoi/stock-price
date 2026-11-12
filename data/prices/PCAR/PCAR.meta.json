@@ -2,14 +2,14 @@
   "ticker": "PCAR",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-10",
-  "records": 11450,
+  "lastDate": "2026-11-11",
+  "records": 11451,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "2023-02-08",
   "corporateActionHash": "sha256:30e5f387bafd65aa9c31c10ea59ec6a56e86abcc2e55f0559375267cf4f6ed14",
-  "priceDataHash": "sha256:3507273be543b2c14d7f0c556e58f2497106d677a7fb7227de255eea6e919123",
+  "priceDataHash": "sha256:bd9d18bc8f9178643714be5675e4681e8abe37603edab204fd1a9b6be718219e",
   "lastFullValidationAt": "2026-11-05T17:31:19Z",
-  "updatedAt": "2026-11-11T07:53:29Z"
+  "updatedAt": "2026-11-12T08:15:28Z"
 }
