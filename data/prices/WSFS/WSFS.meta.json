@@ -2,14 +2,14 @@
   "ticker": "WSFS",
   "source": "yahoo",
   "firstDate": "1986-11-26",
-  "lastDate": "2026-11-06",
-  "records": 9966,
+  "lastDate": "2026-11-11",
+  "records": 9969,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "2015-05-19",
   "corporateActionHash": "sha256:ab7936f6df725105ac1839833c50fc65611ddfe369aeb9d48f5243854779407d",
-  "priceDataHash": "sha256:664f63a1ac1ac85fbd534df2e2eaa7a3d37dcc50a4ce91c7fa291d5142dc6f76",
+  "priceDataHash": "sha256:2961648cfee7dd1cef3087543b3a38c58d165a74abb6c3d754c7d4cda87152c5",
   "lastFullValidationAt": "2026-11-06T08:02:57Z",
-  "updatedAt": "2026-11-07T14:03:59Z"
+  "updatedAt": "2026-11-12T17:43:41Z"
 }

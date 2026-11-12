@@ -2,14 +2,14 @@
   "ticker": "WTRG",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-06",
-  "records": 11670,
+  "lastDate": "2026-11-11",
+  "records": 11673,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-11",
+  "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "2013-09-03",
-  "corporateActionHash": "sha256:736e362bb022fe9feb5fca9e45a0869d5a896b4a04036c66e11b97e85930752a",
-  "priceDataHash": "sha256:12b0ea2dec602b818e199a9944feaeb2d99dd779be8b35bcddef17897a496624",
+  "corporateActionHash": "sha256:ce759d4db5e89ab6bba7c17b4dadf4e6fd7c1d964828441c0bf29354a949ff1a",
+  "priceDataHash": "sha256:d4dc2d1cba438c2dfa7844e1df0e67936d1cf6206e408d66109805151c508d75",
   "lastFullValidationAt": "2026-11-06T08:03:21Z",
-  "updatedAt": "2026-11-07T14:04:11Z"
+  "updatedAt": "2026-11-12T17:43:53Z"
 }
