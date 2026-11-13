@@ -2,14 +2,14 @@
   "ticker": "EQT",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-10",
-  "records": 11691,
+  "lastDate": "2026-11-12",
+  "records": 11693,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-04",
   "lastSplitDate": "2018-11-13",
   "corporateActionHash": "sha256:96bb6d24172e00058e50889c9bc4e9d5f9d5b2d0bea2ad205ef53068d2b79794",
-  "priceDataHash": "sha256:e5591dc903ed7176327754ca178458f8bc9896360fae76d460a7219a8ec071c5",
+  "priceDataHash": "sha256:430e726709400e39329621fafe3eb4b16c26f9a41023d5c6c13aa358a2dd7b97",
   "lastFullValidationAt": "2026-11-11T23:41:56Z",
-  "updatedAt": "2026-11-11T23:41:56Z"
+  "updatedAt": "2026-11-13T17:12:38Z"
 }

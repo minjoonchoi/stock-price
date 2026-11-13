@@ -2,14 +2,14 @@
   "ticker": "GME",
   "source": "yahoo",
   "firstDate": "2002-02-13",
-  "lastDate": "2026-11-10",
-  "records": 6214,
+  "lastDate": "2026-11-12",
+  "records": 6216,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-07-22",
   "lastSplitDate": "2022-07-22",
   "corporateActionHash": "sha256:677ba173c3a096430e863804c060ed83b1472fbbd831b268d735fb505d8e2854",
-  "priceDataHash": "sha256:f1cf2d0c3d594d4e2c2d224c9de8ca79eb933354cf4c789945cf78e244095e05",
+  "priceDataHash": "sha256:3e8974d9df9485519c55a91016a4f1932c3d3af2aa7c213ca34667befd9fe968",
   "lastFullValidationAt": "2026-11-11T23:46:26Z",
-  "updatedAt": "2026-11-11T23:46:26Z"
+  "updatedAt": "2026-11-13T17:21:00Z"
 }

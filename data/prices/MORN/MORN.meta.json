@@ -2,14 +2,14 @@
   "ticker": "MORN",
   "source": "yahoo",
   "firstDate": "2005-05-03",
-  "lastDate": "2026-11-10",
-  "records": 5415,
+  "lastDate": "2026-11-12",
+  "records": 5417,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-10",
+  "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1cd666229edd71a8eeb8194ce9ef1d9d6a68766bfb8166382d09d2999ee63bc9",
-  "priceDataHash": "sha256:098346041936281b9dd3e962daa50b519204d8d7f39bc1b32de814b677de4e5f",
-  "lastFullValidationAt": "2026-11-05T08:27:02Z",
-  "updatedAt": "2026-11-11T23:57:22Z"
+  "corporateActionHash": "sha256:990221985f85822fa310c3722e5e248728eeab0798c7c42bd7d7de845abeddec",
+  "priceDataHash": "sha256:99282a4286a94dc84e3f12ba2615d928b54362d23edc9fc7d6192d576cd6f1d4",
+  "lastFullValidationAt": "2026-11-13T17:41:34Z",
+  "updatedAt": "2026-11-13T17:41:34Z"
 }

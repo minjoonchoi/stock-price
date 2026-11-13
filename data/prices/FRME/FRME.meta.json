@@ -1,15 +1,15 @@
 {
   "ticker": "FRME",
   "source": "yahoo",
-  "firstDate": "1989-06-21",
-  "lastDate": "2026-11-10",
-  "records": 9222,
+  "firstDate": "1989-06-20",
+  "lastDate": "2026-11-12",
+  "records": 9253,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "2003-08-27",
   "corporateActionHash": "sha256:9275b003cd19819e3a2cc00ddc962bf0e07c353978458b6834e35a140c97739b",
-  "priceDataHash": "sha256:2c2112dc1f4f36fa90709068532857236e445e990179b7f4462f3d25a4206d93",
-  "lastFullValidationAt": "2026-11-05T08:03:18Z",
-  "updatedAt": "2026-11-11T23:44:42Z"
+  "priceDataHash": "sha256:02b6af6a0033e45a871e614c61222cc13e287f5d8fadbcde3e888b5b2738eb48",
+  "lastFullValidationAt": "2026-11-13T17:17:46Z",
+  "updatedAt": "2026-11-13T17:17:46Z"
 }

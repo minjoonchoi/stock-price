@@ -1,15 +1,15 @@
 {
   "ticker": "LAMR",
   "source": "yahoo",
-  "firstDate": "1996-08-02",
-  "lastDate": "2026-11-10",
-  "records": 7582,
+  "firstDate": "1996-08-05",
+  "lastDate": "2026-11-12",
+  "records": 7585,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-21",
   "lastSplitDate": "1998-03-02",
   "corporateActionHash": "sha256:d44378aabbc7da0151b7319f671ca453fcfd14f3294820228b04c9c4eb29a12d",
-  "priceDataHash": "sha256:a9f8fadee28edfdb720160cb0c075509c4c1f8bb5d5376931eefd99edca977c1",
-  "lastFullValidationAt": "2026-11-05T08:19:18Z",
-  "updatedAt": "2026-11-11T23:53:04Z"
+  "priceDataHash": "sha256:be368431855af6c1205c3380f7bf0eed7d0781d9359c2e8f2b278e2ad6510790",
+  "lastFullValidationAt": "2026-11-13T17:33:46Z",
+  "updatedAt": "2026-11-13T17:33:46Z"
 }

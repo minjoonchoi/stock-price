@@ -2,14 +2,14 @@
   "ticker": "EXE",
   "source": "yahoo",
   "firstDate": "2021-02-10",
-  "lastDate": "2026-11-10",
-  "records": 1445,
+  "lastDate": "2026-11-12",
+  "records": 1447,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-13",
+  "lastCorporateActionDate": "2026-11-12",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:68bd01424534269d9cf2ef71c39947e056e51d62ba4d823c9b0510faab5f4144",
-  "priceDataHash": "sha256:6d4781c3c08b1ce527e0ed8e5858a2961e4847d18fdcade76941b132d52bd55b",
-  "lastFullValidationAt": "2026-11-05T07:59:25Z",
-  "updatedAt": "2026-11-11T23:42:34Z"
+  "corporateActionHash": "sha256:2dafa9b13ffa1f7b4e803e9f10a8e9fdf89d15df84acaddd419b1cb15bd1b070",
+  "priceDataHash": "sha256:033d218c04eb459bc16bbd691b3b3d1558e8f35ff91b5aa8adec091fd2aa6d1f",
+  "lastFullValidationAt": "2026-11-13T17:13:54Z",
+  "updatedAt": "2026-11-13T17:13:54Z"
 }

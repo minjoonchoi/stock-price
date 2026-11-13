@@ -2,14 +2,14 @@
   "ticker": "MBGL",
   "source": "yahoo",
   "firstDate": "2026-06-26",
-  "lastDate": "2026-11-10",
-  "records": 96,
+  "lastDate": "2026-11-12",
+  "records": 98,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-27",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:edb7f02d2745372dd96c86b34492e75a2b526b2145c7257dd5bcba4f3e63ea66",
-  "priceDataHash": "sha256:f0978c9a07eaf3b767d0cdb4d294773ac3f2ccff47d42524d813f89c33f22450",
+  "priceDataHash": "sha256:cd2c2f86fa0d2d30ef11bfdda32c42d6f42c882e7b8cd3b777f081b542617e5e",
   "lastFullValidationAt": "2026-11-11T23:55:42Z",
-  "updatedAt": "2026-11-11T23:55:42Z"
+  "updatedAt": "2026-11-13T17:38:26Z"
 }
