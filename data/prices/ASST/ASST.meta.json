@@ -2,14 +2,14 @@
   "ticker": "ASST",
   "source": "yahoo",
   "firstDate": "2023-02-03",
-  "lastDate": "2026-11-10",
-  "records": 946,
+  "lastDate": "2026-11-12",
+  "records": 948,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-02-06",
   "lastSplitDate": "2026-02-06",
   "corporateActionHash": "sha256:4dacb9f81ba79cbc4706988fa1fbf0afa649c261f5062778f41746feadba8303",
-  "priceDataHash": "sha256:f2ef5917e2b7bf15f494c37627d6e8ba3c4fdd8db7aa4830e7dbd1b732baf25b",
+  "priceDataHash": "sha256:74f59db537f82e4943ef4bc28008eb7c80cb7dd910949bf96ec1f9b5ca04ce6b",
   "lastFullValidationAt": "2026-11-10T08:21:33Z",
-  "updatedAt": "2026-11-11T17:13:41Z"
+  "updatedAt": "2026-11-13T07:56:55Z"
 }

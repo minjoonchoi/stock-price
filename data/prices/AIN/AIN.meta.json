@@ -2,14 +2,14 @@
   "ticker": "AIN",
   "source": "yahoo",
   "firstDate": "1987-09-30",
-  "lastDate": "2026-11-10",
-  "records": 9728,
+  "lastDate": "2026-11-12",
+  "records": 9730,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "1999-12-08",
   "corporateActionHash": "sha256:a58eac2576c2fc1a02da64a9fff509a857ec77953683b160b40fa6953e4f07ee",
-  "priceDataHash": "sha256:584793a13618f8379898db14a20f0c7d357d978089626ef4a6a4d11255c3de80",
+  "priceDataHash": "sha256:d46343fa817771d3e92fa5c191dc2509a006003d876a6cb53c7caa1eba1bc3b6",
   "lastFullValidationAt": "2026-11-11T17:10:59Z",
-  "updatedAt": "2026-11-11T17:10:59Z"
+  "updatedAt": "2026-11-13T07:54:14Z"
 }

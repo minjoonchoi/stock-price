@@ -2,14 +2,14 @@
   "ticker": "CAKE",
   "source": "yahoo",
   "firstDate": "1992-09-18",
-  "lastDate": "2026-11-10",
-  "records": 8584,
+  "lastDate": "2026-11-12",
+  "records": 8586,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-10",
   "lastSplitDate": "2004-12-09",
   "corporateActionHash": "sha256:6927f6c2bddcf3b69df6496b2cfab66e241e54404dae7c6f4fa0a25359dcc2fd",
-  "priceDataHash": "sha256:a895ce9a02c6f4326f940e719065817979a10ab513f045b417fa17dde633ad59",
+  "priceDataHash": "sha256:c7adf8374d45941ec4e5e075ba9e3809b1b71492710c4ac7676619a9428c25b2",
   "lastFullValidationAt": "2026-11-10T08:30:07Z",
-  "updatedAt": "2026-11-11T17:17:59Z"
+  "updatedAt": "2026-11-13T08:01:17Z"
 }

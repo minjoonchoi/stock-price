@@ -2,14 +2,14 @@
   "ticker": "CF",
   "source": "yahoo",
   "firstDate": "2005-08-11",
-  "lastDate": "2026-11-10",
-  "records": 5346,
+  "lastDate": "2026-11-12",
+  "records": 5348,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-14",
   "lastSplitDate": "2015-06-18",
   "corporateActionHash": "sha256:6ce00a747b43c03e9994f31e1c597516558dda135a47a40302a73e6b52df8734",
-  "priceDataHash": "sha256:2b137e9db9e50500bfc1fe5ee48bd6b68ed8f9f2f7a7c09cf0c681c875c263cd",
+  "priceDataHash": "sha256:2ab32ce681d3ae49abe9e6e8d6814768cf9544fd61aead1dff938d9032157517",
   "lastFullValidationAt": "2026-11-10T08:32:41Z",
-  "updatedAt": "2026-11-11T17:19:15Z"
+  "updatedAt": "2026-11-13T08:02:33Z"
 }

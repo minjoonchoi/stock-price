@@ -2,14 +2,14 @@
   "ticker": "BA",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-11-10",
-  "records": 16175,
+  "lastDate": "2026-11-12",
+  "records": 16177,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-02-13",
   "lastSplitDate": "1997-06-09",
   "corporateActionHash": "sha256:c39615cb7243a0a46bae333270519596eb0c77985e8edfa2dd990db8de617a6b",
-  "priceDataHash": "sha256:bf71d1e3f6a1302d97c23bc156ac59dd3af97c44c0e707e756ba04c86e080e77",
+  "priceDataHash": "sha256:dc1b682416fa3b491ae2526aa56ea0460251e5e2ed0e0b24382f111fb079486b",
   "lastFullValidationAt": "2026-11-10T08:23:51Z",
-  "updatedAt": "2026-11-11T17:14:51Z"
+  "updatedAt": "2026-11-13T07:58:10Z"
 }

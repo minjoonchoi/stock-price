@@ -2,14 +2,14 @@
   "ticker": "CTVA",
   "source": "yahoo",
   "firstDate": "2019-05-24",
-  "lastDate": "2026-11-10",
-  "records": 1877,
+  "lastDate": "2026-11-12",
+  "records": 1879,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2026-10-01",
   "corporateActionHash": "sha256:31c3a8766242acf603f9f1487cc82aa3a88711c91c3caedcbe53a5d20b00b373",
-  "priceDataHash": "sha256:0623563652fca79f27589c06172b559bcd86a53424263300c68448898e33e3a7",
+  "priceDataHash": "sha256:c5fdf2a9196276766ae15bcd29bb951b506f091a7042890cf85b45cc437055d6",
   "lastFullValidationAt": "2026-11-10T08:38:35Z",
-  "updatedAt": "2026-11-11T17:22:13Z"
+  "updatedAt": "2026-11-13T08:05:31Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ARLP",
   "source": "yahoo",
   "firstDate": "1999-08-17",
-  "lastDate": "2026-11-10",
-  "records": 6836,
+  "lastDate": "2026-11-12",
+  "records": 6838,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "2014-06-17",
   "corporateActionHash": "sha256:beadc38a17e0093c0d1fe625038431dacd5f84a961e98cac0db54be11e2d879b",
-  "priceDataHash": "sha256:013e1099e15dda9bd0ef6a086e4b6382c7bc8ad59170e74a2435875f9cbb8d4f",
+  "priceDataHash": "sha256:e835dc6698acc04b71a987db2268123ef6175d98b17e88080324bac805bcec6e",
   "lastFullValidationAt": "2026-11-10T08:20:45Z",
-  "updatedAt": "2026-11-11T17:13:17Z"
+  "updatedAt": "2026-11-13T07:56:31Z"
 }

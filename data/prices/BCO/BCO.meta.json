@@ -2,14 +2,14 @@
   "ticker": "BCO",
   "source": "yahoo",
   "firstDate": "1996-01-03",
-  "lastDate": "2026-11-10",
-  "records": 7763,
+  "lastDate": "2026-11-12",
+  "records": 7765,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-02",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:a3b87f44589386dcf62336c076a0c0e090752892b3c37b455285cbce92567fae",
-  "priceDataHash": "sha256:c1f2da46ea57f5cb29c2190e129bfe746f56f0a4ce8d8a89be2d677969955094",
+  "priceDataHash": "sha256:f0a5250a5c3a82c148cd0649c9f7b2b124cd1d64258d2a69e972b45b09475915",
   "lastFullValidationAt": "2026-11-10T08:24:59Z",
-  "updatedAt": "2026-11-11T17:15:25Z"
+  "updatedAt": "2026-11-13T07:58:43Z"
 }

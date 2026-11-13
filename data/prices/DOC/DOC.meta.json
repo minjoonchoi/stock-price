@@ -2,14 +2,14 @@
   "ticker": "DOC",
   "source": "yahoo",
   "firstDate": "1985-05-23",
-  "lastDate": "2026-11-10",
-  "records": 10281,
+  "lastDate": "2026-11-12",
+  "records": 10283,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-19",
   "lastSplitDate": "2016-11-01",
   "corporateActionHash": "sha256:cdf9453744444ea23660d7e6e68da4ee3217aea9672432e0b62e5ef23d3cc077",
-  "priceDataHash": "sha256:02675ad0f8b0b57f7cda29dae7c1ee9a321ae1951918250fb1a412ae340d0c22",
+  "priceDataHash": "sha256:208de877d5c052b03af1078b20774babdc48b7ada636b4f46bdceaec50a0a57a",
   "lastFullValidationAt": "2026-11-10T08:42:19Z",
-  "updatedAt": "2026-11-11T17:24:05Z"
+  "updatedAt": "2026-11-13T08:07:23Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "APD",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-10",
-  "records": 11692,
+  "lastDate": "2026-11-12",
+  "records": 11694,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2016-10-03",
   "corporateActionHash": "sha256:17ae497dfa79e6fe1f3257dcac60380b77a01f09924657f41be0d8c3597a5281",
-  "priceDataHash": "sha256:4d5cb9c1aa28834df4a031302f03b8eb4a27e1c689c0249af27bc978efd2269a",
+  "priceDataHash": "sha256:3b9aa8c612d86af454702f45ab0b0e5ab81447011b84f67ce2178fbcbf35504d",
   "lastFullValidationAt": "2026-11-10T08:19:37Z",
-  "updatedAt": "2026-11-11T17:12:43Z"
+  "updatedAt": "2026-11-13T07:55:57Z"
 }

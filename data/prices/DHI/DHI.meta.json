@@ -2,14 +2,14 @@
   "ticker": "DHI",
   "source": "yahoo",
   "firstDate": "1992-06-05",
-  "lastDate": "2026-11-10",
-  "records": 8600,
+  "lastDate": "2026-11-12",
+  "records": 8602,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-06",
+  "lastCorporateActionDate": "2026-11-12",
   "lastSplitDate": "2005-03-17",
-  "corporateActionHash": "sha256:25f8b24c8015deab0ae3c86dd4f8536fa9fa973af35762368b8cc539f9b53eca",
-  "priceDataHash": "sha256:7597d8e69253f883cc765d3850ea8a9a2badafa2b375774a45e1da8f71fcace4",
+  "corporateActionHash": "sha256:57d128df4e3ad0f907997a22671963226ffed80eb1986a9dbf2756363ac64226",
+  "priceDataHash": "sha256:166fdb5ff96df1d7a77c0b0fb8aa93e6d1cbc9a316140affabfa3ea765e8b113",
   "lastFullValidationAt": "2026-11-10T08:41:19Z",
-  "updatedAt": "2026-11-11T17:23:35Z"
+  "updatedAt": "2026-11-13T08:06:53Z"
 }

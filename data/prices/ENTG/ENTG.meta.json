@@ -2,14 +2,14 @@
   "ticker": "ENTG",
   "source": "yahoo",
   "firstDate": "2000-07-11",
-  "lastDate": "2026-11-10",
-  "records": 6624,
+  "lastDate": "2026-11-12",
+  "records": 6626,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-28",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:c1f01a4f451ff249c203c6d4c8d562f183ff7d83bcbc3386fe417f5f65e69714",
-  "priceDataHash": "sha256:c25b0b42bddf45f9b127c5b611fcfd1fb83c27902459d36c73740ccbadd53457",
+  "priceDataHash": "sha256:950a63e67a15cb8fac238a02bef1ed253a54327eaec103b9b4585f5091083581",
   "lastFullValidationAt": "2026-11-10T08:45:39Z",
-  "updatedAt": "2026-11-11T17:25:45Z"
+  "updatedAt": "2026-11-13T08:09:03Z"
 }

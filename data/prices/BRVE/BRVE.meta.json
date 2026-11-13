@@ -2,14 +2,14 @@
   "ticker": "BRVE",
   "source": "yahoo",
   "firstDate": "2026-08-06",
-  "lastDate": "2026-11-10",
-  "records": 68,
+  "lastDate": "2026-11-12",
+  "records": 70,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:5976c34c6f78e893541edf7feafaa7e86cee5b192d9a8de71ee0029c15391815",
+  "priceDataHash": "sha256:d56d49fbd144dd9548fe7b2a55cbb1c447a8ae3ac708fa5f16e70e4f4e7fc2b1",
   "lastFullValidationAt": "2026-11-10T08:28:35Z",
-  "updatedAt": "2026-11-11T17:17:13Z"
+  "updatedAt": "2026-11-13T08:00:31Z"
 }
