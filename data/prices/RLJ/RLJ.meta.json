@@ -1,6 +1,15 @@
 {
-  "lastDate": "2026-07-02",
-  "records": 3808,
-  "updatedAt": "2026-07-04T17:25:09Z",
-  "source": "yahoo"
+  "ticker": "RLJ",
+  "source": "yahoo",
+  "firstDate": "2011-05-11",
+  "lastDate": "2026-11-12",
+  "records": 3888,
+  "backfillCompleted": true,
+  "adjustedSeriesValidated": true,
+  "lastCorporateActionDate": "2026-09-30",
+  "lastSplitDate": "",
+  "corporateActionHash": "sha256:a3a4f3c57a99f1b6b2ec7f02178deab8187eae8d4b4d3db373cd9d2d503b597c",
+  "priceDataHash": "sha256:727898f8b461c4eb883c3c4d3bcd3646ddf8b8bae276d9b2b6c36d4108250635",
+  "lastFullValidationAt": "2026-11-13T22:56:55Z",
+  "updatedAt": "2026-11-13T22:56:55Z"
 }

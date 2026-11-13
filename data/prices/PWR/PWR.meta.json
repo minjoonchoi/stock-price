@@ -2,14 +2,14 @@
   "ticker": "PWR",
   "source": "yahoo",
   "firstDate": "1998-02-12",
-  "lastDate": "2026-11-11",
-  "records": 7232,
+  "lastDate": "2026-11-12",
+  "records": 7233,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-01",
+  "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2000-04-10",
-  "corporateActionHash": "sha256:bcddecc259f9e88e56e7c15bcd7ba24c691d6f293afa273249b1ec3a5e3330c1",
-  "priceDataHash": "sha256:80e81cb9beeb99ee315cd57a77587d190928c4c10c9f0c8dd6fc3e3e3968d4e5",
-  "lastFullValidationAt": "2026-11-05T17:36:33Z",
-  "updatedAt": "2026-11-12T08:18:08Z"
+  "corporateActionHash": "sha256:9e18f703574c28d600be809bc52ee963decfe2e2e1c82647acb7f87b0f065f8c",
+  "priceDataHash": "sha256:6c3be89cf9ec39bea0cba56d87718359dcf584169c95022cd96ee447ee47721f",
+  "lastFullValidationAt": "2026-11-13T22:53:51Z",
+  "updatedAt": "2026-11-13T22:53:51Z"
 }

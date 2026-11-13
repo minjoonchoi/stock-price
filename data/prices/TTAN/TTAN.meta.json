@@ -2,14 +2,14 @@
   "ticker": "TTAN",
   "source": "yahoo",
   "firstDate": "2024-12-12",
-  "lastDate": "2026-11-11",
-  "records": 480,
+  "lastDate": "2026-11-12",
+  "records": 481,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:a428d2920db019310906408135839396f45c06bc246f42efbb65680eed18e7ce",
-  "lastFullValidationAt": "2026-11-05T17:52:55Z",
-  "updatedAt": "2026-11-12T08:26:36Z"
+  "priceDataHash": "sha256:43799b07440731ec3f7ce365287de753a87b851266b72cd7744157e2d91cd150",
+  "lastFullValidationAt": "2026-11-13T23:10:17Z",
+  "updatedAt": "2026-11-13T23:10:17Z"
 }

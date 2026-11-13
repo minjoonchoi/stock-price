@@ -2,14 +2,14 @@
   "ticker": "ROP",
   "source": "yahoo",
   "firstDate": "1992-02-13",
-  "lastDate": "2026-11-11",
-  "records": 8735,
+  "lastDate": "2026-11-12",
+  "records": 8724,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-07-08",
+  "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "2005-08-29",
-  "corporateActionHash": "sha256:31e97d989fd2c5225a6afd8ab9bb34bd1deb180e3e2ee80efefa6353e36af2f9",
-  "priceDataHash": "sha256:75002fa6a1718d7beafa8bc78bcd0f34ae52c9d930c50c6bce2a28e58a02cd3f",
-  "lastFullValidationAt": "2026-11-05T17:40:13Z",
-  "updatedAt": "2026-11-12T08:20:02Z"
+  "corporateActionHash": "sha256:765b008dc1c370408f0ee36d4bee2c6ffec4ed07b6f746bcd5916e9ea369aba5",
+  "priceDataHash": "sha256:70092ee1c7b776a730397b356468633b6803091a1d690f22fbaff54435b87044",
+  "lastFullValidationAt": "2026-11-13T22:57:35Z",
+  "updatedAt": "2026-11-13T22:57:35Z"
 }

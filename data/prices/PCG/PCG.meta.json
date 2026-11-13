@@ -1,15 +1,15 @@
 {
   "ticker": "PCG",
   "source": "yahoo",
-  "firstDate": "1972-06-01",
-  "lastDate": "2026-11-11",
-  "records": 13534,
+  "firstDate": "1972-06-05",
+  "lastDate": "2026-11-12",
+  "records": 13566,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "1983-07-18",
   "corporateActionHash": "sha256:2659892b083576619f367452e5ce33996661fa12a23f3fc1e81fcdad1d0743e6",
-  "priceDataHash": "sha256:bd500a94e08c7fd8543decb53941bae7a31ec0adca23fac5d5cf9b65f0deffae",
-  "lastFullValidationAt": "2026-11-05T17:31:24Z",
-  "updatedAt": "2026-11-12T08:15:30Z"
+  "priceDataHash": "sha256:d0f46b1cba4b10ba2522e85689d02d1c9d0a98570035b2432d4142e098ef98f7",
+  "lastFullValidationAt": "2026-11-13T22:48:41Z",
+  "updatedAt": "2026-11-13T22:48:41Z"
 }
