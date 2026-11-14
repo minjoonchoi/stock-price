@@ -2,14 +2,14 @@
   "ticker": "IVZ",
   "source": "yahoo",
   "firstDate": "1995-08-25",
-  "lastDate": "2026-11-12",
-  "records": 7838,
+  "lastDate": "2026-11-13",
+  "records": 7839,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2000-11-08",
-  "corporateActionHash": "sha256:9efe87347c044f0e92fd35887712f1773d6ade635b1e492ebb16e3ca02dcc864",
-  "priceDataHash": "sha256:8391954aaa89a445e132e1e1dcb0382cdacd482beaef8121c23b29722ca4b284",
+  "corporateActionHash": "sha256:b367bfb6bffcf1ff6dd06a4124065f00f1e7a5c503b411054da3d71b5ff47db2",
+  "priceDataHash": "sha256:384a3c54021eec8a62412550fde23a11eaefce1cf3c7c2bb49dbd982f451d770",
   "lastFullValidationAt": "2026-11-13T17:30:38Z",
-  "updatedAt": "2026-11-13T17:30:38Z"
+  "updatedAt": "2026-11-14T16:00:03Z"
 }

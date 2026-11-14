@@ -2,14 +2,14 @@
   "ticker": "LLY",
   "source": "yahoo",
   "firstDate": "1972-06-01",
-  "lastDate": "2026-11-12",
-  "records": 13643,
+  "lastDate": "2026-11-13",
+  "records": 13644,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "1997-10-16",
-  "corporateActionHash": "sha256:847e95a6865e87688cfc321970c04aac20580b99563c981fa882161717658c03",
-  "priceDataHash": "sha256:741d274da98ee60065ef0d6fe0e6f1736292a095f449e923ba47fd972c51d328",
+  "corporateActionHash": "sha256:a4cfd3b7aeec52726b5fb83b81742231887e4a10f8e08e075cc17f2ff59ff63e",
+  "priceDataHash": "sha256:2cbfeebf33ec3bfd969a75c740deeb4df4d9cf444c185497450cadc3a4b8bbf7",
   "lastFullValidationAt": "2026-11-13T17:35:30Z",
-  "updatedAt": "2026-11-13T17:35:30Z"
+  "updatedAt": "2026-11-14T16:02:33Z"
 }

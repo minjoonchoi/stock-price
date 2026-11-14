@@ -2,14 +2,14 @@
   "ticker": "GLW",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-11-12",
-  "records": 11271,
+  "lastDate": "2026-11-13",
+  "records": 11272,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-31",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2000-10-04",
-  "corporateActionHash": "sha256:ec1dcf359e8e0ca816595591d264e1db5b18cfba5cd238f452a481b119e7b308",
-  "priceDataHash": "sha256:b805b4952c98d6a6a0a95a54e6765dc3a0c461e3d98147bbc2eb613996504b86",
+  "corporateActionHash": "sha256:bcdfc535ca7a8c2c1eb079d72daea4281988f0aca1d58ffe2480da502c6ef09c",
+  "priceDataHash": "sha256:c9a4c379eb51e1bcf34dfb9b660e43c56d0f57b79b9e3b9608e8576a3cdf3501",
   "lastFullValidationAt": "2026-11-13T17:20:50Z",
-  "updatedAt": "2026-11-13T17:20:50Z"
+  "updatedAt": "2026-11-14T15:54:59Z"
 }

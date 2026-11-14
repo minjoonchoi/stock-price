@@ -2,14 +2,14 @@
   "ticker": "J",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-12",
-  "records": 11760,
+  "lastDate": "2026-11-13",
+  "records": 11761,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-21",
   "lastSplitDate": "2025-05-16",
   "corporateActionHash": "sha256:bc53af55cc7c39cd0d27b456242116276525c07bc4545018b4d1acf3865b5353",
-  "priceDataHash": "sha256:039402e34ac9c2b635ee3c08313125e1ac89f2e99a4df238ebbe55550e3362a4",
+  "priceDataHash": "sha256:5f6bbcb40e67e8dc212e2a246b4e61b08316580b9f21f49cf8cf9027eb6fd5f9",
   "lastFullValidationAt": "2026-11-13T17:30:42Z",
-  "updatedAt": "2026-11-13T17:30:42Z"
+  "updatedAt": "2026-11-14T16:00:05Z"
 }

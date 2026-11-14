@@ -2,14 +2,14 @@
   "ticker": "HL",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-12",
-  "records": 11753,
+  "lastDate": "2026-11-13",
+  "records": 11754,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-26",
   "lastSplitDate": "1981-03-25",
   "corporateActionHash": "sha256:cff88d34d7971bc9fa6ac4251c7849eb8dacbe91715b3a54862dd25812a68d5f",
-  "priceDataHash": "sha256:0e7e282ace3f420412801eebd119cfe300dbe1a78d72bec0ba2f87704ca2e548",
+  "priceDataHash": "sha256:44fa99f7a82b9640a8ae378b71ed8c94c3ceed34388cd6856679fe5735b861a6",
   "lastFullValidationAt": "2026-11-13T17:24:18Z",
-  "updatedAt": "2026-11-13T17:24:18Z"
+  "updatedAt": "2026-11-14T15:56:49Z"
 }

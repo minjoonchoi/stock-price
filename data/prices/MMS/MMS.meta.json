@@ -2,14 +2,14 @@
   "ticker": "MMS",
   "source": "yahoo",
   "firstDate": "1997-06-13",
-  "lastDate": "2026-11-12",
-  "records": 7392,
+  "lastDate": "2026-11-13",
+  "records": 7393,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2013-07-01",
-  "corporateActionHash": "sha256:ed2e4ee408c6abfdb737db5dc47d179ba919460445e402df9411eafb4ad21d76",
-  "priceDataHash": "sha256:1d1d90a182ae35a9707703181314bb3ccc5f08af4bc8173c319eec99b26b2053",
+  "corporateActionHash": "sha256:199affb5eb064d40ed6d060ad32111625f9a69b8e8e9bcc04db54133305198f3",
+  "priceDataHash": "sha256:0990896923a92c35ecae678a842915ced548d9d8b56faa168d26be90e4ec1cf9",
   "lastFullValidationAt": "2026-11-13T17:41:08Z",
-  "updatedAt": "2026-11-13T17:41:08Z"
+  "updatedAt": "2026-11-14T16:05:31Z"
 }
