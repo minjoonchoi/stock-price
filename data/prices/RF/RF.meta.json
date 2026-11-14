@@ -2,14 +2,14 @@
   "ticker": "RF",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-12",
-  "records": 11359,
+  "lastDate": "2026-11-13",
+  "records": 11360,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2004-07-01",
   "corporateActionHash": "sha256:89544fac6a8ff3849932886b5e5c0f95023c8d09026c083de6d10a24f1fcdbb0",
-  "priceDataHash": "sha256:52871e3642a5047af19a6c3fa77f68165c079e6d4ac6818c44217f31bb87c6db",
+  "priceDataHash": "sha256:aff0775b95cb20ab51975791553d974a1b5c275920681c198d43e56efaeac0e4",
   "lastFullValidationAt": "2026-11-13T22:55:49Z",
-  "updatedAt": "2026-11-13T22:55:49Z"
+  "updatedAt": "2026-11-14T21:31:00Z"
 }

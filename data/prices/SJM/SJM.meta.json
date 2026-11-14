@@ -2,14 +2,14 @@
   "ticker": "SJM",
   "source": "yahoo",
   "firstDate": "1994-10-31",
-  "lastDate": "2026-11-12",
-  "records": 8053,
+  "lastDate": "2026-11-13",
+  "records": 8054,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:5767831f7b2be66fab76c47f3b19c013d4ee4eab7e1e41ddfa25c0b34a8b7820",
-  "priceDataHash": "sha256:382440e1f48d81b58c403b6ef5d84a695624096bf3da82a5dc1493b44baccd2f",
+  "corporateActionHash": "sha256:fc3fe0b3cf05cf737dcfcef31f78f6c027327c7665a73ddba467625293c30f22",
+  "priceDataHash": "sha256:9250208718f0abcfded0c31d4afc52fc7ad03e7222a87f81e0f161b361cd1378",
   "lastFullValidationAt": "2026-11-13T23:01:29Z",
-  "updatedAt": "2026-11-13T23:01:29Z"
+  "updatedAt": "2026-11-14T21:33:56Z"
 }

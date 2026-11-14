@@ -2,14 +2,14 @@
   "ticker": "NOC",
   "source": "yahoo",
   "firstDate": "1981-12-31",
-  "lastDate": "2026-11-12",
-  "records": 11207,
+  "lastDate": "2026-11-13",
+  "records": 11208,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-31",
   "lastSplitDate": "2011-03-31",
   "corporateActionHash": "sha256:195f8345276a3237165f680522126afc9b5e187759fa1bdf18c536c9d6c5fe85",
-  "priceDataHash": "sha256:a8627afd470c357221a65dd0d450b83cbdb48fcbbe16597f4a67a96f15254546",
+  "priceDataHash": "sha256:eb4b4aef1003f35bcfcdb9d16df76f3651d1aca89087dde6db3ca1d6f910a14a",
   "lastFullValidationAt": "2026-11-11T07:49:47Z",
-  "updatedAt": "2026-11-13T22:43:03Z"
+  "updatedAt": "2026-11-14T21:24:14Z"
 }
