@@ -2,14 +2,14 @@
   "ticker": "ABM",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-12",
-  "records": 11526,
+  "lastDate": "2026-11-13",
+  "records": 11527,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2002-05-07",
   "corporateActionHash": "sha256:523f2dbde107b12e1bbe77ce9d1d5dd9145d7a12e122f749365c812b0389deec",
-  "priceDataHash": "sha256:fd46dfaa0b617c34f0f20260c2dbe06ff840ff8c941bc41adb2797f2a3802c17",
+  "priceDataHash": "sha256:6de23e3af003aae197c3c048ef83699e6ad23eb68a378380f7b5062504a70ca7",
   "lastFullValidationAt": "2026-11-10T08:13:27Z",
-  "updatedAt": "2026-11-13T07:52:47Z"
+  "updatedAt": "2026-11-14T07:37:53Z"
 }

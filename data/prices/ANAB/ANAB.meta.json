@@ -2,14 +2,14 @@
   "ticker": "ANAB",
   "source": "yahoo",
   "firstDate": "2017-01-26",
-  "lastDate": "2026-11-12",
-  "records": 2464,
+  "lastDate": "2026-11-13",
+  "records": 2465,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-04-20",
   "lastSplitDate": "2026-04-20",
   "corporateActionHash": "sha256:7270f0691c752cf000b40e4a3732ea372c60ef3fa612f9d0faa94b2c70ad2b7b",
-  "priceDataHash": "sha256:f0f3861ac0125e66987b1eec7c459bfee2701f8f9255d260f792a390e0f61d02",
+  "priceDataHash": "sha256:ca49921c580369a446a30fa262a8f815b5fe745a6ac59f742619ab333e458354",
   "lastFullValidationAt": "2026-11-10T08:19:07Z",
-  "updatedAt": "2026-11-13T07:55:41Z"
+  "updatedAt": "2026-11-14T07:40:53Z"
 }

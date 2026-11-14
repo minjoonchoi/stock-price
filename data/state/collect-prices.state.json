@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-11-13",
-  "totalTargets": 1639,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "UPS",
-  "cursorIndex": 1500,
+  "runId": "2026-11-14",
+  "totalTargets": 1635,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EOG",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:f10f43d2118bcbe166b58bc0b60545a06256065da3e6aca63a69d2f8aee7b5a6",
-  "universeHash": "sha256:e70638a7f59156e00a2774db9491dea5f5017d8f733b3157175436f351ef1897",
+  "secTickerHash": "sha256:d5f9161b6faa93e3613bb84991b39fa913c40a4f08e13b6fe466de6339e08a9d",
+  "universeHash": "sha256:1ed6f30e032a625d51ae9565d17dd2b01951bd49fcc6e3ca893023cf0165d959",
   "shardCount": 1,
-  "startedAt": "2026-11-13T07:52:23Z",
-  "updatedAt": "2026-11-13T23:12:51Z"
+  "startedAt": "2026-11-14T07:37:29Z",
+  "updatedAt": "2026-11-14T07:54:19Z"
 }

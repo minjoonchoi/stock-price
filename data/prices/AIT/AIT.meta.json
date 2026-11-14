@@ -2,14 +2,14 @@
   "ticker": "AIT",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-12",
-  "records": 11609,
+  "lastDate": "2026-11-13",
+  "records": 11610,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2006-06-16",
-  "corporateActionHash": "sha256:30b07fe682a327cbd79d316cdff27271b103be636d65de5b2128d6c0d6d1420e",
-  "priceDataHash": "sha256:09922c65bf7016bdad5d62f8e49655f42393e0de55e3d89c5d8baab3ff2029d0",
+  "corporateActionHash": "sha256:a214f7f8b8a69120547374fd2a41320a00ef2642cba49e1c37a27f23b115ae57",
+  "priceDataHash": "sha256:9a005be3490e4f4bca8a80e97f2d16d2255c83bff0c287876e4ad9305258dbc6",
   "lastFullValidationAt": "2026-11-10T08:16:21Z",
-  "updatedAt": "2026-11-13T07:54:17Z"
+  "updatedAt": "2026-11-14T07:39:27Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ARCB",
   "source": "yahoo",
   "firstDate": "1992-05-13",
-  "lastDate": "2026-11-12",
-  "records": 8657,
+  "lastDate": "2026-11-13",
+  "records": 8658,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-07",
+  "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:8ea9399039731b3b97278bbf2043554efb14abd268ecfe86318412bc4b232787",
-  "priceDataHash": "sha256:488ada54767990d0803b86c48666a036f300d6da59358fb87c78055e318f3e5c",
+  "corporateActionHash": "sha256:aa6dd192624d1091ad65cb27623315cf69defc487d9c57f8754ecac15b1befc4",
+  "priceDataHash": "sha256:3f20bf87f59a3c8b69f63d3bc29212793ee80434f196a67599e05177b5304b03",
   "lastFullValidationAt": "2026-11-10T08:20:21Z",
-  "updatedAt": "2026-11-13T07:56:19Z"
+  "updatedAt": "2026-11-14T07:41:33Z"
 }
