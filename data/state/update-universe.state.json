@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-11-09",
+  "runId": "2026-11-16",
   "minMarketCap": 300000000,
-  "totalTickers": 10419,
-  "processedTickers": 2000,
-  "lastProcessedTicker": "CIMN",
-  "cursorIndex": 2000,
+  "totalTickers": 10404,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAMKF",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:618b0f2eae0d48cdd3b2e4b45f6ee5aebec1ac5869f9560a6bc64529963b7d1e",
+  "secTickerHash": "sha256:d5f9161b6faa93e3613bb84991b39fa913c40a4f08e13b6fe466de6339e08a9d",
   "shardCount": 1,
-  "startedAt": "2026-11-09T07:56:50Z",
-  "updatedAt": "2026-11-09T21:29:51Z"
+  "startedAt": "2026-11-16T07:57:30Z",
+  "updatedAt": "2026-11-16T09:37:30Z"
 }
