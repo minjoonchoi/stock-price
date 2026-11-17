@@ -1,15 +1,15 @@
 {
   "ticker": "CW",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
-  "lastDate": "2026-11-13",
-  "records": 11560,
+  "firstDate": "1980-03-18",
+  "lastDate": "2026-11-16",
+  "records": 11561,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-25",
   "lastSplitDate": "2006-04-24",
   "corporateActionHash": "sha256:62f54d9f1da3cfc87af5c843a4e9c134aeb0674a9aa895f4b539a72d6a6e285b",
-  "priceDataHash": "sha256:1344f463c1211ee000369d51aec55174973ccd102160aa67de07ec54654bcdc1",
-  "lastFullValidationAt": "2026-11-10T08:39:23Z",
-  "updatedAt": "2026-11-14T07:51:07Z"
+  "priceDataHash": "sha256:ddf24c41904945d3f6fb00668f82328da86ca15a21efa57ffd62c914213e4faa",
+  "lastFullValidationAt": "2026-11-17T09:27:00Z",
+  "updatedAt": "2026-11-17T09:27:00Z"
 }

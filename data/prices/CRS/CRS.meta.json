@@ -1,15 +1,15 @@
 {
   "ticker": "CRS",
   "source": "yahoo",
-  "firstDate": "1973-02-22",
-  "lastDate": "2026-11-13",
-  "records": 13298,
+  "firstDate": "1973-02-23",
+  "lastDate": "2026-11-16",
+  "records": 13326,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-20",
   "lastSplitDate": "2007-11-16",
   "corporateActionHash": "sha256:bcba1fd976ee3e38aba5e359062744c2ccc4df90412b4390b90bf08d33a266ec",
-  "priceDataHash": "sha256:2309205d9313c6b2117bc78c6755aa68d0c65ff981be6c4d62fc17c07ca13af6",
-  "lastFullValidationAt": "2026-11-10T08:37:43Z",
-  "updatedAt": "2026-11-14T07:50:17Z"
+  "priceDataHash": "sha256:7c8fecac6b036c245855166b5f178c2c3fe022f8a107613fc1898b2b85bf9181",
+  "lastFullValidationAt": "2026-11-17T09:25:20Z",
+  "updatedAt": "2026-11-17T09:25:20Z"
 }

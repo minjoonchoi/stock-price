@@ -1,15 +1,15 @@
 {
   "ticker": "COHU",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
-  "lastDate": "2026-11-13",
-  "records": 11544,
+  "firstDate": "1980-03-18",
+  "lastDate": "2026-11-16",
+  "records": 11529,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-02-24",
   "lastSplitDate": "1999-09-27",
   "corporateActionHash": "sha256:a728f555dd9b415e2c839e81cbafb74778191722ca391176e5fd49f3bb75f12c",
-  "priceDataHash": "sha256:f3d61bf77caac434360ca54d5df3ffca472e5299fc8279749aab79b223ac9322",
-  "lastFullValidationAt": "2026-11-10T08:35:51Z",
-  "updatedAt": "2026-11-14T07:49:21Z"
+  "priceDataHash": "sha256:5175e9ec10c6b54b24003b8cd1822ced7f38e6287bc6ce71cee5a205d76b6b5c",
+  "lastFullValidationAt": "2026-11-17T09:23:28Z",
+  "updatedAt": "2026-11-17T09:23:28Z"
 }

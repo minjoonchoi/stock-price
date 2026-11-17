@@ -2,14 +2,14 @@
   "ticker": "CI",
   "source": "yahoo",
   "firstDate": "1982-03-31",
-  "lastDate": "2026-11-13",
-  "records": 11192,
+  "lastDate": "2026-11-16",
+  "records": 11190,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-08",
   "lastSplitDate": "2007-06-05",
   "corporateActionHash": "sha256:4fed2ab9b3108757cd8345ae6db3504c2f24211c7221844fc68c773b62327b44",
-  "priceDataHash": "sha256:49fb4a74dc063e6ff1c9447463cc27a1033d698134ac1a834ed06e2270651c77",
-  "lastFullValidationAt": "2026-11-10T08:33:45Z",
-  "updatedAt": "2026-11-14T07:48:15Z"
+  "priceDataHash": "sha256:3e23d47d16afe653d06635fa16e8d040f7cd5d717c46ef04b0211dcacd9fd77f",
+  "lastFullValidationAt": "2026-11-17T09:21:22Z",
+  "updatedAt": "2026-11-17T09:21:22Z"
 }
