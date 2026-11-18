@@ -2,14 +2,14 @@
   "ticker": "GT",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-11-13",
-  "records": 16221,
+  "lastDate": "2026-11-17",
+  "records": 16223,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2020-01-31",
   "lastSplitDate": "1993-05-05",
   "corporateActionHash": "sha256:e88bfd018aac93f09b3e2274482fd7772223e6d68d8bf5f9d43ae3e065240e4d",
-  "priceDataHash": "sha256:fe0d343332d5e671809218e9790c7603f7da2f816921395abd4ca1641a65950b",
+  "priceDataHash": "sha256:b1677a7edd0277492b05a3c55de5db5d7178bf7ab0a876ec86927e4d564002ae",
   "lastFullValidationAt": "2026-11-13T17:22:22Z",
-  "updatedAt": "2026-11-14T15:55:51Z"
+  "updatedAt": "2026-11-18T08:29:41Z"
 }

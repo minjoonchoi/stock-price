@@ -2,14 +2,14 @@
   "ticker": "MC",
   "source": "yahoo",
   "firstDate": "2014-04-16",
-  "lastDate": "2026-11-13",
-  "records": 3162,
+  "lastDate": "2026-11-17",
+  "records": 3164,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-10",
+  "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:1f7fbd00fb045c7b381983874941b66e23f83cfe2971c80177102418acc6edbe",
-  "priceDataHash": "sha256:78394b77b8f58948fc0b88bbc317068154cb33f12efbbf0dfabb395ef05d9c32",
+  "corporateActionHash": "sha256:480dfd56bdbd584ce71e171a83870a55c075425da4a8eeb16b8c73f39102e234",
+  "priceDataHash": "sha256:e9af3752b05629bc370076e9b29aaac13a41e72334abda1b3d079868fb0e573a",
   "lastFullValidationAt": "2026-11-13T17:38:38Z",
-  "updatedAt": "2026-11-14T16:04:15Z"
+  "updatedAt": "2026-11-18T08:37:57Z"
 }

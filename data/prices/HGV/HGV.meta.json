@@ -2,14 +2,14 @@
   "ticker": "HGV",
   "source": "yahoo",
   "firstDate": "2017-01-04",
-  "lastDate": "2026-11-13",
-  "records": 2480,
+  "lastDate": "2026-11-17",
+  "records": 2482,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:c8b1576f4454218ddabcc9d00ff370ecc32f805412263e93833e050ef7f696bd",
+  "priceDataHash": "sha256:bbfdac7d8b05a8d6fa7d889b768e627604e8617a5542036e8988b99936fc55cd",
   "lastFullValidationAt": "2026-11-13T17:23:54Z",
-  "updatedAt": "2026-11-14T15:56:37Z"
+  "updatedAt": "2026-11-18T08:30:27Z"
 }

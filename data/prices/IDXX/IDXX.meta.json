@@ -2,14 +2,14 @@
   "ticker": "IDXX",
   "source": "yahoo",
   "firstDate": "1991-06-21",
-  "lastDate": "2026-11-13",
-  "records": 8914,
+  "lastDate": "2026-11-17",
+  "records": 8916,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2015-06-16",
   "lastSplitDate": "2015-06-16",
   "corporateActionHash": "sha256:ea95870fb5a1ff90c235872bc4f36c1d97777f2c1515a1790f27992421a5e1c4",
-  "priceDataHash": "sha256:ac506f69cbd645025ed92d576f2a8bb2adfbb6dfea9b077b07197509b91b0ff8",
+  "priceDataHash": "sha256:b06c8e14f1a597bf082b53af853dfa7bf5a0466ade97a50280481a13bc5410bc",
   "lastFullValidationAt": "2026-11-13T17:27:42Z",
-  "updatedAt": "2026-11-14T15:58:31Z"
+  "updatedAt": "2026-11-18T08:32:21Z"
 }

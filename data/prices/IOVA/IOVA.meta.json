@@ -2,14 +2,14 @@
   "ticker": "IOVA",
   "source": "yahoo",
   "firstDate": "2010-10-15",
-  "lastDate": "2026-11-13",
-  "records": 4045,
+  "lastDate": "2026-11-17",
+  "records": 4047,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-09-26",
   "lastSplitDate": "2013-09-26",
   "corporateActionHash": "sha256:3f6d0da9678f052129dec919a1ee1380357e460887d64731ac17c8a5233fe12c",
-  "priceDataHash": "sha256:d4965973240ac83b4c2907fca4d279b4601fb48379cb286b8cdb4e8e8e4c7d6c",
+  "priceDataHash": "sha256:f50128d8ab64f260a591e47eae042d849f2f538569b7a234002d4870c31fb518",
   "lastFullValidationAt": "2026-11-13T17:29:30Z",
-  "updatedAt": "2026-11-14T15:59:29Z"
+  "updatedAt": "2026-11-18T08:33:17Z"
 }

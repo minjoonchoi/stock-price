@@ -2,14 +2,14 @@
   "ticker": "HIW",
   "source": "yahoo",
   "firstDate": "1994-06-08",
-  "lastDate": "2026-11-13",
-  "records": 8098,
+  "lastDate": "2026-11-17",
+  "records": 8100,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-17",
+  "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:363a6da4118349581adf1a53869e338cc01309cd343a361ec6099961a93ee9b4",
-  "priceDataHash": "sha256:75a20bdbd0aa82527ffb2c9d2dc76b65ad2cb90e3a3416df57ceed72f223fed8",
+  "corporateActionHash": "sha256:4caa3c910cfd3757482c00730369326f3a3e567748d3e74571c2e05b98d2d811",
+  "priceDataHash": "sha256:2612d0a051a824b1085db22d4f2876f9695cbde92780a0d8f9d5c27ba2fc8521",
   "lastFullValidationAt": "2026-11-13T17:24:14Z",
-  "updatedAt": "2026-11-14T15:56:47Z"
+  "updatedAt": "2026-11-18T08:30:37Z"
 }
