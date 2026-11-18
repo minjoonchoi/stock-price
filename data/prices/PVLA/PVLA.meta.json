@@ -2,14 +2,14 @@
   "ticker": "PVLA",
   "source": "yahoo",
   "firstDate": "2015-01-02",
-  "lastDate": "2026-11-13",
-  "records": 2985,
+  "lastDate": "2026-11-17",
+  "records": 2987,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-04-23",
   "lastSplitDate": "2024-04-23",
   "corporateActionHash": "sha256:7b10518a141c63903d9ce78c812d232120cdbacb86247327c96101b45d1102ad",
-  "priceDataHash": "sha256:6b59bad861bece9103ea68828652777321a85cb5d6fd2c53c90547267d4b64b2",
+  "priceDataHash": "sha256:e3e99cbfdf8677d56a5a1c99fe904f769522b056c9e4e2b2f7fdc4e6f1d19962",
   "lastFullValidationAt": "2026-11-13T22:53:47Z",
-  "updatedAt": "2026-11-14T21:29:58Z"
+  "updatedAt": "2026-11-18T18:10:46Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "OSK",
   "source": "yahoo",
   "firstDate": "1985-10-02",
-  "lastDate": "2026-11-13",
-  "records": 10211,
+  "lastDate": "2026-11-17",
+  "records": 10213,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-13",
+  "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "2005-08-29",
-  "corporateActionHash": "sha256:04445e0c863ca73f0c9ebec90e1d22f6cddc134d288f882c8ec4177e13dfa757",
-  "priceDataHash": "sha256:446bc53f87f22bd0f4650100e1cf7e4fa7c4c916516385fe4e20786f811e1fe0",
+  "corporateActionHash": "sha256:d774faceeaa754dd8f151a467cd7707f317f148a4b7fbe09a4de50a22e2bef33",
+  "priceDataHash": "sha256:0b32283c95ab055cd52a9bf3282253c4fdce4f9b26aa1689e1f556cfb645aa11",
   "lastFullValidationAt": "2026-11-13T22:46:59Z",
-  "updatedAt": "2026-11-14T21:26:30Z"
+  "updatedAt": "2026-11-18T18:07:10Z"
 }

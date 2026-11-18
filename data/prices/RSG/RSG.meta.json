@@ -2,14 +2,14 @@
   "ticker": "RSG",
   "source": "yahoo",
   "firstDate": "1998-07-01",
-  "lastDate": "2026-11-13",
-  "records": 7124,
+  "lastDate": "2026-11-17",
+  "records": 7126,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-02",
   "lastSplitDate": "2007-03-19",
   "corporateActionHash": "sha256:0e8f3f44a0af050429290aa42931ba6e06fdff6fe1e1486e1fff638aa5e9dc59",
-  "priceDataHash": "sha256:6c32833db59960a8c20d5f62161de131b8ccc26e771161d5042a8c894c80bb80",
+  "priceDataHash": "sha256:ca67bc3139a2f8c9ab54ad0055df89e014b3194ecb69bc0bff791aebefb1aab7",
   "lastFullValidationAt": "2026-11-13T22:58:07Z",
-  "updatedAt": "2026-11-14T21:32:10Z"
+  "updatedAt": "2026-11-18T18:13:04Z"
 }

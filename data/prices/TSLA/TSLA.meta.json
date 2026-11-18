@@ -2,14 +2,14 @@
   "ticker": "TSLA",
   "source": "yahoo",
   "firstDate": "2010-06-29",
-  "lastDate": "2026-11-13",
-  "records": 4121,
+  "lastDate": "2026-11-17",
+  "records": 4123,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-08-25",
   "lastSplitDate": "2022-08-25",
   "corporateActionHash": "sha256:7eea8c3c0b08d55ca171228ace15496c88a485928a384be51cc45021728435ae",
-  "priceDataHash": "sha256:745316bb3f157a7948de599124abb3226f3c739be2510f56daa4ef8062ff0752",
+  "priceDataHash": "sha256:d3687bd4d6a632fb91a25ba61a87aed5ff5c66782a7442871b72568e628c8677",
   "lastFullValidationAt": "2026-11-13T23:10:07Z",
-  "updatedAt": "2026-11-14T21:38:22Z"
+  "updatedAt": "2026-11-18T18:19:40Z"
 }
