@@ -2,14 +2,14 @@
   "ticker": "CVX",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-11-16",
-  "records": 16185,
+  "lastDate": "2026-11-18",
+  "records": 16187,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-19",
+  "lastCorporateActionDate": "2026-11-18",
   "lastSplitDate": "2004-09-13",
-  "corporateActionHash": "sha256:795457b6b6bc915f94f7dc7454cb41aa295ef1028f8b90ffaecfa8bfa781219b",
-  "priceDataHash": "sha256:0b94c99e54ecc124a6c16611941f1655a48d10eeed0c5136847c8a0fcd3fd95b",
+  "corporateActionHash": "sha256:71a606af41fe6a04e318a5d552c260e3583b5dc52810e98bc3fa224bc5880d23",
+  "priceDataHash": "sha256:27bbc2db6a7d2a161e0da8c1d985ebd30294a63291e552125dcff96535c62dd4",
   "lastFullValidationAt": "2026-11-17T09:26:56Z",
-  "updatedAt": "2026-11-17T09:26:56Z"
+  "updatedAt": "2026-11-19T08:56:09Z"
 }

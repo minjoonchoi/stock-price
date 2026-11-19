@@ -2,14 +2,14 @@
   "ticker": "BRSL",
   "source": "yahoo",
   "firstDate": "1990-03-26",
-  "lastDate": "2026-11-16",
-  "records": 9219,
+  "lastDate": "2026-11-18",
+  "records": 9221,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-08-18",
   "lastSplitDate": "2003-07-03",
   "corporateActionHash": "sha256:a0d0cfc034fa4750bac435a3562065608dfda39a3e87d9196057573f6b64f5a1",
-  "priceDataHash": "sha256:4b5abd94650e93063e8cf04a96179e41edef3d23b257e1de5732560718988693",
+  "priceDataHash": "sha256:ab3f24ab40d6dc9a4f3df589d151ead9ca779b9ed2dda50dd417b9563f2a9fa1",
   "lastFullValidationAt": "2026-11-17T09:16:13Z",
-  "updatedAt": "2026-11-17T09:16:13Z"
+  "updatedAt": "2026-11-19T08:50:46Z"
 }

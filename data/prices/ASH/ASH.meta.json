@@ -2,14 +2,14 @@
   "ticker": "ASH",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-16",
-  "records": 11678,
+  "lastDate": "2026-11-18",
+  "records": 11680,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2017-05-15",
   "corporateActionHash": "sha256:1de18760d1a12bde72aaa2112d7a5d1416dea688029b589b6ba13864efbcfe91",
-  "priceDataHash": "sha256:eb49f8397f855dd54b7ac8ebdf790f6169bf0b3c8c6a36c0befe3145c5fb03ca",
+  "priceDataHash": "sha256:bca598a21432324972dafe266b1d2f15e9faa5618fc2d6064462cb0e7825024c",
   "lastFullValidationAt": "2026-11-17T09:09:04Z",
-  "updatedAt": "2026-11-17T09:09:04Z"
+  "updatedAt": "2026-11-19T08:47:11Z"
 }

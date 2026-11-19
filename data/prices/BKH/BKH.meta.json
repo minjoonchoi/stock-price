@@ -2,14 +2,14 @@
   "ticker": "BKH",
   "source": "yahoo",
   "firstDate": "2026-11-13",
-  "lastDate": "2026-11-16",
-  "records": 2,
+  "lastDate": "2026-11-18",
+  "records": 4,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-17",
+  "lastCorporateActionDate": "2026-11-17",
   "lastSplitDate": "1998-03-11",
-  "corporateActionHash": "sha256:b41a67039a11fda5d09964a541ac1462a33eaa4c235aad3a8dab31194e76ad74",
-  "priceDataHash": "sha256:ba129d2c85526a63253bdfc6fc8970089a7ce898ddd51b70b8acd64036df8a5e",
+  "corporateActionHash": "sha256:bfd9af4f32d3fee8841a526f57fc2ae41f50b49905c975596e56cd9c3922800b",
+  "priceDataHash": "sha256:07b4944aba066a64c18af8d2ce6f557f8ad356ccf5e082fccc9f428192f60df5",
   "lastFullValidationAt": "2026-11-17T09:14:13Z",
-  "updatedAt": "2026-11-17T09:14:13Z"
+  "updatedAt": "2026-11-19T08:49:46Z"
 }

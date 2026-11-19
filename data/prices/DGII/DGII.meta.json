@@ -2,14 +2,14 @@
   "ticker": "DGII",
   "source": "yahoo",
   "firstDate": "1989-10-06",
-  "lastDate": "2026-11-16",
-  "records": 9346,
+  "lastDate": "2026-11-18",
+  "records": 9348,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1992-04-01",
   "lastSplitDate": "1992-04-01",
   "corporateActionHash": "sha256:4ffbb7e5be92c175292186081c0b5b2c5c52ffdaf846f3d561dcfae55e825178",
-  "priceDataHash": "sha256:bdf284a544f5350b19b095c0b29d726f6106e46f3a50cb530ccbfb4a5e770536",
+  "priceDataHash": "sha256:9d54bffdb84bc9ab618c8ee5a9445612809947c0159242d9e542eaf0bc967ccc",
   "lastFullValidationAt": "2026-11-17T09:28:43Z",
-  "updatedAt": "2026-11-17T09:28:43Z"
+  "updatedAt": "2026-11-19T08:57:02Z"
 }

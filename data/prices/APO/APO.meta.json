@@ -2,14 +2,14 @@
   "ticker": "APO",
   "source": "yahoo",
   "firstDate": "2011-03-30",
-  "lastDate": "2026-11-16",
-  "records": 3928,
+  "lastDate": "2026-11-18",
+  "records": 3930,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-19",
+  "lastCorporateActionDate": "2026-11-18",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:14058051711937009430f1d03492e84d83acd6a84b7a3346a3372b256084d679",
-  "priceDataHash": "sha256:ec1848d61ffe820c5baad11353d52b12af1110a68be6b77f8be6b11ae3bfeb3a",
+  "corporateActionHash": "sha256:6d6a5806a77357e6d9959d26ba9d9e1037a9da02d6100e825c652d5f14d6b7d0",
+  "priceDataHash": "sha256:0064a920ee6b7146b86dd2e5984503407665e8847b2a1ba5b492bf85b530e7b6",
   "lastFullValidationAt": "2026-11-17T09:07:35Z",
-  "updatedAt": "2026-11-17T09:07:35Z"
+  "updatedAt": "2026-11-19T08:46:26Z"
 }

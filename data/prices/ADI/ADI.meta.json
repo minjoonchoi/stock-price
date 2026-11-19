@@ -2,14 +2,14 @@
   "ticker": "ADI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-16",
-  "records": 11579,
+  "lastDate": "2026-11-18",
+  "records": 11581,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "2000-03-16",
   "corporateActionHash": "sha256:2ca8c4eb4288bfcf3e3a3d74839d4ee320e65bcf5c88ab32fe490a71751f7e82",
-  "priceDataHash": "sha256:869014f3eac324f95e69a484b05481a44bd20ea2a8d4bdfe2bee77980b7caf42",
+  "priceDataHash": "sha256:faa611ca49f3a71651f4c23936239221eb07d4039982afdfe97ee1f8111a8290",
   "lastFullValidationAt": "2026-11-17T09:02:17Z",
-  "updatedAt": "2026-11-17T09:02:17Z"
+  "updatedAt": "2026-11-19T08:43:43Z"
 }

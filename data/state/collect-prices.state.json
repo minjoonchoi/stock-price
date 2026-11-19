@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-11-17",
+  "runId": "2026-11-19",
   "totalTargets": 1636,
-  "processedTargets": 1500,
-  "lastProcessedTicker": "USAC",
-  "cursorIndex": 1500,
+  "processedTargets": 500,
+  "lastProcessedTicker": "EOG",
+  "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:d9226ab98ac85733abe90b22b0eb78042bafce9509d0a7a1a2e2d66be392f77d",
+  "secTickerHash": "sha256:ae85c16f14bc615bf88055d5badeaf4617ac45c03e6ee210a9d2581f798ad091",
   "universeHash": "sha256:e9b0a37087b3f9a0db2b95613f52ca900da9b32563c530619516c11ab5672c3d",
   "shardCount": 1,
-  "startedAt": "2026-11-17T18:29:07Z",
-  "updatedAt": "2026-11-18T18:21:16Z"
+  "startedAt": "2026-11-19T08:42:40Z",
+  "updatedAt": "2026-11-19T08:59:23Z"
 }

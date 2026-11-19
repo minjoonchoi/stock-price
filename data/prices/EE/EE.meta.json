@@ -2,14 +2,14 @@
   "ticker": "EE",
   "source": "yahoo",
   "firstDate": "2022-04-13",
-  "lastDate": "2026-11-16",
-  "records": 1153,
+  "lastDate": "2026-11-18",
+  "records": 1155,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-19",
+  "lastCorporateActionDate": "2026-11-18",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:0c19ba1ce7216114c6468aff75eea736b3f30576837c1c6db6901f7195e75381",
-  "priceDataHash": "sha256:b73a3b0346880abb6b19ea98a86f63b7164360bd5e97396fa563b6239081a3d5",
+  "corporateActionHash": "sha256:004945f3cf334d2293d5df91bbe57c3f19849c520888d988f45c506dd756221b",
+  "priceDataHash": "sha256:0d28d8156eb2d12ffc52fe00952383edc1ef9ae2a79a86fb44e1681bcf91f1a9",
   "lastFullValidationAt": "2026-11-17T09:31:59Z",
-  "updatedAt": "2026-11-17T09:31:59Z"
+  "updatedAt": "2026-11-19T08:58:40Z"
 }
