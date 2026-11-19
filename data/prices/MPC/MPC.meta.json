@@ -2,14 +2,14 @@
   "ticker": "MPC",
   "source": "yahoo",
   "firstDate": "2011-06-24",
-  "lastDate": "2026-11-17",
-  "records": 3872,
+  "lastDate": "2026-11-18",
+  "records": 3873,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-19",
+  "lastCorporateActionDate": "2026-11-18",
   "lastSplitDate": "2015-06-11",
-  "corporateActionHash": "sha256:e9c3e09be7fa05793a056fff9badc7ef1a850e05c9498be41ac08dc461be24f9",
-  "priceDataHash": "sha256:38714aea3572ac3c4b0b4f1adecd9e5fcb24868551067550c6189029c114885d",
+  "corporateActionHash": "sha256:9b71fc5412cf892d5889b6b8c9a2da7abd2e43e29ef856a34a1957e2f4d3f8f0",
+  "priceDataHash": "sha256:fbdf512fa54df14100b86accad6ba6f13d45ac44279562c852375d91a8dd0389",
   "lastFullValidationAt": "2026-11-13T17:41:46Z",
-  "updatedAt": "2026-11-18T08:39:33Z"
+  "updatedAt": "2026-11-19T18:24:31Z"
 }
