@@ -2,14 +2,14 @@
   "ticker": "BLLN",
   "source": "yahoo",
   "firstDate": "2025-11-06",
-  "lastDate": "2026-11-18",
-  "records": 260,
+  "lastDate": "2026-11-19",
+  "records": 261,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:47b386ad9d8b50bf303d7a238a58ce4af916627ecac506080a75685fd13b0e06",
+  "priceDataHash": "sha256:4eef39f24550391ac8db158cca88cf6fcdadd598c924c64792186e5948a3b95c",
   "lastFullValidationAt": "2026-11-17T09:14:53Z",
-  "updatedAt": "2026-11-19T08:50:06Z"
+  "updatedAt": "2026-11-20T08:30:38Z"
 }

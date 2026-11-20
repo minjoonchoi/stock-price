@@ -2,14 +2,14 @@
   "ticker": "AMG",
   "source": "yahoo",
   "firstDate": "1997-11-21",
-  "lastDate": "2026-11-18",
-  "records": 7292,
+  "lastDate": "2026-11-19",
+  "records": 7293,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-10",
+  "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "2004-03-30",
-  "corporateActionHash": "sha256:3870060cfdeb6eea7f4fe5b523bf54e51970612af3ef10a67b8649c80d97d015",
-  "priceDataHash": "sha256:e2d82f977faf221abc54a3fc17fc27908c24f80193c60ee97bc3bc9fd1867781",
+  "corporateActionHash": "sha256:352fb497c59d2b9b49488418ebcc73aceff1d4b2f8bdaaa8ee28036f070d7447",
+  "priceDataHash": "sha256:99f5b11c4732bfa19d5e15006f9121764591cbb9048173347fd7335479cffad1",
   "lastFullValidationAt": "2026-11-17T09:05:57Z",
-  "updatedAt": "2026-11-19T08:45:36Z"
+  "updatedAt": "2026-11-20T08:26:06Z"
 }

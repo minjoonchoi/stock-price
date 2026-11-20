@@ -2,14 +2,14 @@
   "ticker": "CGNX",
   "source": "yahoo",
   "firstDate": "1989-07-20",
-  "lastDate": "2026-11-18",
-  "records": 9391,
+  "lastDate": "2026-11-19",
+  "records": 9392,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-20",
+  "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "2017-12-04",
-  "corporateActionHash": "sha256:f58df174b7432c2e263a0e6b666b0e79b0eba4122f47ef5e42fff710a853edfe",
-  "priceDataHash": "sha256:a1f0528ec902d60f78c98b82284f82c693331a2a5c39d207a92f879db54fa231",
+  "corporateActionHash": "sha256:54b34b229a01b6869d3a81f50c55df57fcadb8fe77181b0148c1e7b2ea36a7db",
+  "priceDataHash": "sha256:808056ec7406b14be645d091aca239f34a7e8fe2ebdedcc06b297449caf13483",
   "lastFullValidationAt": "2026-11-17T09:20:33Z",
-  "updatedAt": "2026-11-19T08:52:56Z"
+  "updatedAt": "2026-11-20T08:33:28Z"
 }
