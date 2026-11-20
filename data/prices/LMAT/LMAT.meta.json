@@ -2,14 +2,14 @@
   "ticker": "LMAT",
   "source": "yahoo",
   "firstDate": "2006-10-19",
-  "lastDate": "2026-11-18",
-  "records": 5049,
+  "lastDate": "2026-11-19",
+  "records": 5047,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-20",
+  "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:4350bfb20ded2faa9c28ce29c1afa76d4f2ded82102155acbeb399e42b633dda",
-  "priceDataHash": "sha256:aa35b4f6cf03fe623fe42e49dccfbfe97b25b22867b897a29a1ea560643e9e07",
-  "lastFullValidationAt": "2026-11-13T17:35:42Z",
-  "updatedAt": "2026-11-19T18:21:11Z"
+  "corporateActionHash": "sha256:66dbd2d72da1891aba5d537d1c3a7235ee75cbfb7aa8b883ed86d37f8cba2a70",
+  "priceDataHash": "sha256:1784224cfb199d066b20857abdfc1db0e0ae339a3b6766e5275ea4bd3adab5c1",
+  "lastFullValidationAt": "2026-11-20T18:16:51Z",
+  "updatedAt": "2026-11-20T18:16:51Z"
 }

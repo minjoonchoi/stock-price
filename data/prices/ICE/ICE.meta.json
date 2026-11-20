@@ -2,14 +2,14 @@
   "ticker": "ICE",
   "source": "yahoo",
   "firstDate": "2005-11-16",
-  "lastDate": "2026-11-18",
-  "records": 5284,
+  "lastDate": "2026-11-19",
+  "records": 5285,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-16",
   "lastSplitDate": "2016-11-04",
   "corporateActionHash": "sha256:75c4d74b5587315786d9db4a78b9080056cedfb108999305eb638e31d5f41dbb",
-  "priceDataHash": "sha256:034720748481c7eb821eb5e115315f465e207a041f5f1bd3037625f134d2a32b",
-  "lastFullValidationAt": "2026-11-13T17:27:18Z",
-  "updatedAt": "2026-11-19T18:16:47Z"
+  "priceDataHash": "sha256:9cd57c336fcd95ed1e86c4b99b3b51ac4ae990d08302e89d0808483951dcb2db",
+  "lastFullValidationAt": "2026-11-20T18:08:31Z",
+  "updatedAt": "2026-11-20T18:08:31Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "KKR",
   "source": "yahoo",
-  "firstDate": "2010-07-15",
-  "lastDate": "2026-11-18",
-  "records": 4112,
+  "firstDate": "2010-07-16",
+  "lastDate": "2026-11-19",
+  "records": 4111,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-10",
+  "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:bbf5a45891a2e13c4e61608809d20dcaba5916056a8ca9f6173353bb8b05abfb",
-  "priceDataHash": "sha256:74895592a4456df180de99e629c3d3ce46e1ec4716d06fd91018990567f215e3",
-  "lastFullValidationAt": "2026-11-13T17:32:06Z",
-  "updatedAt": "2026-11-19T18:19:19Z"
+  "corporateActionHash": "sha256:0945e064a0cff68855c006627867ec94a8ecdb994bad01b2da6899d3dbb183b7",
+  "priceDataHash": "sha256:d3dcc6e2f751c22ec2defb93b0eca8b39825a142a3c00ee612c5df473105e4b7",
+  "lastFullValidationAt": "2026-11-20T18:13:19Z",
+  "updatedAt": "2026-11-20T18:13:19Z"
 }

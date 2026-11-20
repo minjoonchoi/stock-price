@@ -1,15 +1,15 @@
 {
   "ticker": "MUR",
   "source": "yahoo",
-  "firstDate": "1980-03-17",
-  "lastDate": "2026-11-18",
-  "records": 11597,
+  "firstDate": "1980-03-18",
+  "lastDate": "2026-11-19",
+  "records": 11602,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "2013-09-03",
   "corporateActionHash": "sha256:48b321fb3e6810d3d221ac2a3a9bdad661e4d55eb7e3838fff1e768c70cceed8",
-  "priceDataHash": "sha256:9f204bf6342c735d785d8682e9ccdf91c176b3590a68d326281ce1b50506e6e8",
-  "lastFullValidationAt": "2026-11-13T17:43:52Z",
-  "updatedAt": "2026-11-19T18:25:39Z"
+  "priceDataHash": "sha256:dc9284fa4b1cc1bd46664c36e415fea177b0d7a2fd0cd1e0ec9089b0fa94f3c2",
+  "lastFullValidationAt": "2026-11-20T18:24:57Z",
+  "updatedAt": "2026-11-20T18:24:57Z"
 }

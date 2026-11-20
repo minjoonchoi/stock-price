@@ -2,14 +2,14 @@
   "ticker": "MSCI",
   "source": "yahoo",
   "firstDate": "2007-11-15",
-  "lastDate": "2026-11-18",
-  "records": 4779,
+  "lastDate": "2026-11-19",
+  "records": 4783,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:f1c84138680c6cc1ff802f716784e4237037a9a2ea6c008dec6b0dd4a3465ed8",
-  "priceDataHash": "sha256:bbe7fb79339f255a8e5e9cf07f60ef1aca583eba768b74ab4e98fc346c848ae5",
-  "lastFullValidationAt": "2026-11-13T17:42:40Z",
-  "updatedAt": "2026-11-19T18:24:59Z"
+  "priceDataHash": "sha256:5d640200565d777f1b2d3b97d942b9bc3182826ed255b36eb6afcfc128eb013c",
+  "lastFullValidationAt": "2026-11-20T18:23:45Z",
+  "updatedAt": "2026-11-20T18:23:45Z"
 }
