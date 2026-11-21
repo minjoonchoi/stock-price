@@ -2,14 +2,14 @@
   "ticker": "CACC",
   "source": "yahoo",
   "firstDate": "1992-06-05",
-  "lastDate": "2026-11-19",
-  "records": 8676,
+  "lastDate": "2026-11-20",
+  "records": 8677,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "1994-12-21",
   "lastSplitDate": "1994-12-21",
   "corporateActionHash": "sha256:0f302f0486a9c8b91296c3af8545b552d3988808aa1d3b7574f1247975889ff0",
-  "priceDataHash": "sha256:cd42527808b9510fbab3caa9f3eb4769bf7c9178b906d25e28013fa504aeee09",
+  "priceDataHash": "sha256:5b9c4f66ed1a1ca77bdeebe57106fe4f489ceca91806c29d0ba72b452c7d575a",
   "lastFullValidationAt": "2026-11-17T09:17:33Z",
-  "updatedAt": "2026-11-20T08:31:58Z"
+  "updatedAt": "2026-11-21T08:24:01Z"
 }

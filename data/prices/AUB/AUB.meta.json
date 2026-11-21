@@ -2,14 +2,14 @@
   "ticker": "AUB",
   "source": "yahoo",
   "firstDate": "1993-10-06",
-  "lastDate": "2026-11-19",
-  "records": 8296,
+  "lastDate": "2026-11-20",
+  "records": 8297,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2006-10-16",
   "corporateActionHash": "sha256:6a2b0cd2909e33158f72842e427433069e50e2c2020e6d25c490a7ff2da48739",
-  "priceDataHash": "sha256:73f1421d1b76c515652ecfe655c53eeb9c9485d50fec461366f48ae43977859b",
+  "priceDataHash": "sha256:300f83d747ab79385f8a485d8c49ea1fb33a9e50d94533c9b165e0c7378380b0",
   "lastFullValidationAt": "2026-11-17T09:09:55Z",
-  "updatedAt": "2026-11-20T08:28:06Z"
+  "updatedAt": "2026-11-21T08:20:11Z"
 }

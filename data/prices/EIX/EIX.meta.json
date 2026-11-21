@@ -2,14 +2,14 @@
   "ticker": "EIX",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-11-19",
-  "records": 13382,
+  "lastDate": "2026-11-20",
+  "records": 13383,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-07",
   "lastSplitDate": "1993-06-22",
   "corporateActionHash": "sha256:12f3a5c7f7404061ed9f34b0a7c3fa01847fdc56e0b5cc546b325cae5b862e58",
-  "priceDataHash": "sha256:04d541918d130d4b85738886f220b52a87506f694423631af477118c75bd4427",
+  "priceDataHash": "sha256:9d420dc465212d66cfe09c4d253be56954baa4515bd2de3b3e92bb93366b947a",
   "lastFullValidationAt": "2026-11-17T09:32:24Z",
-  "updatedAt": "2026-11-20T08:39:24Z"
+  "updatedAt": "2026-11-21T08:31:29Z"
 }
