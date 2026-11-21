@@ -2,14 +2,14 @@
   "ticker": "OCTV",
   "source": "yahoo",
   "firstDate": "2026-05-21",
-  "lastDate": "2026-11-17",
-  "records": 125,
+  "lastDate": "2026-11-20",
+  "records": 128,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d50969dd78358fa2bbaef1c32e40064a683d5dd0bd30f879714de70624687fc2",
-  "lastFullValidationAt": "2026-11-13T22:45:03Z",
-  "updatedAt": "2026-11-18T18:06:12Z"
+  "priceDataHash": "sha256:22b4bf4336436f3750c653612f88024e69a4da931117297508bf1bc9ef317ea8",
+  "lastFullValidationAt": "2026-11-21T22:17:10Z",
+  "updatedAt": "2026-11-21T22:17:10Z"
 }

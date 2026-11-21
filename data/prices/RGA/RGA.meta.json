@@ -2,14 +2,14 @@
   "ticker": "RGA",
   "source": "yahoo",
   "firstDate": "2008-09-12",
-  "lastDate": "2026-11-17",
-  "records": 4571,
+  "lastDate": "2026-11-20",
+  "records": 4576,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-18",
+  "lastCorporateActionDate": "2026-11-17",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:429ab35c1322edcd652499ae577bf39e08b5934ad89dd3c4e0f70848fa39b07b",
-  "priceDataHash": "sha256:91990c61a24b68257dbbe4545dbeb772511461ec233ecfb5cb6cac4da71e0942",
-  "lastFullValidationAt": "2026-11-13T22:55:53Z",
-  "updatedAt": "2026-11-18T18:11:54Z"
+  "corporateActionHash": "sha256:700a90f0af236d21388231af2a160006a3bea5b4d1eef04a24f60f3d1d9f89ec",
+  "priceDataHash": "sha256:064a3c50e2a376e5949b19c9947a88f79940961db87f7d29a9cb38f63c197565",
+  "lastFullValidationAt": "2026-11-21T22:27:58Z",
+  "updatedAt": "2026-11-21T22:27:58Z"
 }

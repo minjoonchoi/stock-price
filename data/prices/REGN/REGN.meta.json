@@ -2,14 +2,14 @@
   "ticker": "REGN",
   "source": "yahoo",
   "firstDate": "1991-04-02",
-  "lastDate": "2026-11-17",
-  "records": 8973,
+  "lastDate": "2026-11-20",
+  "records": 8976,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-18",
+  "lastCorporateActionDate": "2026-11-20",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:f12d26ac3c5a9f47312b7844cf6c971da630c51bc261bd6a3a87de1e0fb98f4e",
-  "priceDataHash": "sha256:f058d83960e61dc933c54a5e9aef21e7a62e4f6a3518295eee3c27e6bacd6c13",
-  "lastFullValidationAt": "2026-11-13T22:55:29Z",
-  "updatedAt": "2026-11-18T18:11:36Z"
+  "corporateActionHash": "sha256:31b674238c6b92b1017926275b1068ae74b3375cd9a9f87a9c91787a412b2ea3",
+  "priceDataHash": "sha256:358eda66001e63fbd74984873c27cb48941d1fd7361d1da5554fc0195e04842a",
+  "lastFullValidationAt": "2026-11-21T22:27:34Z",
+  "updatedAt": "2026-11-21T22:27:34Z"
 }

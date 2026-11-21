@@ -1,15 +1,15 @@
 {
   "ticker": "ROST",
   "source": "yahoo",
-  "firstDate": "1985-08-08",
-  "lastDate": "2026-11-17",
-  "records": 10361,
+  "firstDate": "1985-08-09",
+  "lastDate": "2026-11-20",
+  "records": 10343,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-08",
   "lastSplitDate": "2015-06-12",
   "corporateActionHash": "sha256:31c47f390da6839db271b1dcc6d08d99e9fbfff6eff23b774b15df613333a5cb",
-  "priceDataHash": "sha256:1d6de300b9048bcabaef859af02fb81bed27fbcea402f7e1f3824a3115295add",
-  "lastFullValidationAt": "2026-11-13T22:57:39Z",
-  "updatedAt": "2026-11-18T18:12:50Z"
+  "priceDataHash": "sha256:64c13e87afd775b77fbe3aec4abf4be7fd2b2581475ebc9540615aef8fd0f845",
+  "lastFullValidationAt": "2026-11-21T22:29:40Z",
+  "updatedAt": "2026-11-21T22:29:40Z"
 }

@@ -1,15 +1,15 @@
 {
   "ticker": "NWE",
   "source": "yahoo",
-  "firstDate": "2007-12-28",
+  "firstDate": "2026-11-13",
   "lastDate": "2026-11-16",
-  "records": 4746,
+  "records": 2,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-17",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:3f879795152bdea9380a47889e01a20dded79ac6d0236fdc61e4fab4bcc2939f",
-  "priceDataHash": "sha256:c54a2ece1cd9aaed505cba64346701c9b37223357ff2c31968f30337e346fd6b",
-  "lastFullValidationAt": "2026-11-13T22:44:15Z",
-  "updatedAt": "2026-11-18T18:05:48Z"
+  "corporateActionHash": "sha256:7830e7f547da7d1a5f019ddd82895a29315c3fa9a8df9d10932a4327d4a419c6",
+  "priceDataHash": "sha256:0716b49cfed652495ed8378cfa0015223acd133bddabe8c5555ebf2fd858ed23",
+  "lastFullValidationAt": "2026-11-21T22:16:22Z",
+  "updatedAt": "2026-11-21T22:16:22Z"
 }

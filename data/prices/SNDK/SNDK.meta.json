@@ -2,14 +2,14 @@
   "ticker": "SNDK",
   "source": "yahoo",
   "firstDate": "2025-02-13",
-  "lastDate": "2026-11-17",
-  "records": 443,
+  "lastDate": "2026-11-19",
+  "records": 445,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "",
-  "lastSplitDate": "",
-  "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:b2e6db7ccb562868fef2607804a433c01ffcd1c054e2558f0c977ec34e376af4",
-  "lastFullValidationAt": "2026-11-13T23:02:51Z",
-  "updatedAt": "2026-11-18T18:15:44Z"
+  "lastCorporateActionDate": "2026-11-20",
+  "lastSplitDate": "2026-11-20",
+  "corporateActionHash": "sha256:1052594b1ac4b8d75f3f3ad15963139592f9f78e8a693d4da8629d79484ea1b4",
+  "priceDataHash": "sha256:70483ce71e5e702c7a555451e88975f004bd55ba4b0c9a85a07f95de9ed44df0",
+  "lastFullValidationAt": "2026-11-21T22:34:52Z",
+  "updatedAt": "2026-11-21T22:34:52Z"
 }
