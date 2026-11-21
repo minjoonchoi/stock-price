@@ -2,14 +2,14 @@
   "ticker": "LGN",
   "source": "yahoo",
   "firstDate": "2025-09-12",
-  "lastDate": "2026-11-19",
-  "records": 300,
+  "lastDate": "2026-11-20",
+  "records": 301,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:07f432ebaf9d36a63e6ddee4e287b610f5bc25667cd3fc1e944b99152823925a",
+  "priceDataHash": "sha256:0a229e789e79d820d8d30ca021d353b9a932f1b98eec0c7819cb0c80cd2b2cdf",
   "lastFullValidationAt": "2026-11-20T18:15:51Z",
-  "updatedAt": "2026-11-20T18:15:51Z"
+  "updatedAt": "2026-11-21T17:07:14Z"
 }

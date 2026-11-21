@@ -2,14 +2,14 @@
   "ticker": "MO",
   "source": "yahoo",
   "firstDate": "1962-01-02",
-  "lastDate": "2026-11-19",
-  "records": 16171,
+  "lastDate": "2026-11-20",
+  "records": 16172,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "1997-04-11",
   "corporateActionHash": "sha256:2fd96cdd8376e829220f4319e9cd3589efd21b14cb6723ef7b04e3b1dd38ff4a",
-  "priceDataHash": "sha256:87057d1671cb1b599cd659005203de466714def77f2e6243d906d8fde8ba39a7",
+  "priceDataHash": "sha256:e990fac4e92ee9eb6c26cee0a8a2f7aa3756f724b095f32ed5031833fcac5333",
   "lastFullValidationAt": "2026-11-20T18:22:27Z",
-  "updatedAt": "2026-11-20T18:22:27Z"
+  "updatedAt": "2026-11-21T17:10:47Z"
 }

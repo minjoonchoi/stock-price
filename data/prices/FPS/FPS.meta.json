@@ -2,14 +2,14 @@
   "ticker": "FPS",
   "source": "yahoo",
   "firstDate": "2026-02-05",
-  "lastDate": "2026-11-19",
-  "records": 200,
+  "lastDate": "2026-11-20",
+  "records": 201,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:f9183b2e27a733f7448dea6efb0bba85f8b2f319201bad37f8b86fd2f67da9c6",
+  "priceDataHash": "sha256:edf2daf2acb5c04a59f762023a857d290b6a698f094c80d30e0a0e3c0fce3346",
   "lastFullValidationAt": "2026-11-20T17:58:47Z",
-  "updatedAt": "2026-11-20T17:58:47Z"
+  "updatedAt": "2026-11-21T16:58:24Z"
 }

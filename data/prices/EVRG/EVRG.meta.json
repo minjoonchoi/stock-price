@@ -2,14 +2,14 @@
   "ticker": "EVRG",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-11-19",
-  "records": 13422,
+  "lastDate": "2026-11-20",
+  "records": 13423,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-18",
+  "lastCorporateActionDate": "2026-11-20",
   "lastSplitDate": "1987-05-22",
-  "corporateActionHash": "sha256:a0574436ce6aa2357f8e03995b608412326783414951e74f6d7e3ce275a4da25",
-  "priceDataHash": "sha256:46066ac9df75ad8eb23a1e6b3a86613b40a7b42261d47b59576f122a93f609b4",
+  "corporateActionHash": "sha256:abfecaa742154363d5dfb74850643fa3da97a32564d6f61feb86987bdae91739",
+  "priceDataHash": "sha256:22772380c0f62a84c7cfd75373bda3f530bc13f95b4205537e1847003c9452c1",
   "lastFullValidationAt": "2026-11-20T17:54:43Z",
-  "updatedAt": "2026-11-20T17:54:43Z"
+  "updatedAt": "2026-11-21T16:56:18Z"
 }
