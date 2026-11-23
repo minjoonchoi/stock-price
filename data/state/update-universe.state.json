@@ -1,14 +1,14 @@
 {
   "jobName": "update-universe",
-  "runId": "2026-11-16",
+  "runId": "2026-11-23",
   "minMarketCap": 300000000,
-  "totalTickers": 10404,
-  "processedTickers": 2000,
-  "lastProcessedTicker": "CING",
-  "cursorIndex": 2000,
+  "totalTickers": 10399,
+  "processedTickers": 1000,
+  "lastProcessedTicker": "BAND",
+  "cursorIndex": 1000,
   "completed": false,
-  "secTickerHash": "sha256:d5f9161b6faa93e3613bb84991b39fa913c40a4f08e13b6fe466de6339e08a9d",
+  "secTickerHash": "sha256:fc4fab1c9982e66786e244dbad3cdbae71bb3224a3bf3a9ccd141d0570abc3ad",
   "shardCount": 1,
-  "startedAt": "2026-11-16T07:57:30Z",
-  "updatedAt": "2026-11-16T21:14:52Z"
+  "startedAt": "2026-11-23T08:56:09Z",
+  "updatedAt": "2026-11-23T10:36:09Z"
 }
