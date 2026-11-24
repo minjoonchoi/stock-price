@@ -2,14 +2,14 @@
   "ticker": "VNOM",
   "source": "yahoo",
   "firstDate": "2014-06-18",
-  "lastDate": "2026-11-11",
-  "records": 3115,
+  "lastDate": "2026-11-23",
+  "records": 3119,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-13",
+  "lastCorporateActionDate": "2026-11-12",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:cbba29c2cfbb929c866786051f3251873fa74eecdcdd27b1c4623ec41405f09d",
-  "priceDataHash": "sha256:b2d4ee7c1fa4a540469c96b2180fc511aa2f0fe6352b1dfe66c8d7ffc205cfb6",
-  "lastFullValidationAt": "2026-11-06T07:59:05Z",
-  "updatedAt": "2026-11-12T17:41:45Z"
+  "corporateActionHash": "sha256:e96d66b106e3b0f774c829890c0fd9f07f4e37c346348ff24e0b7bf48602e939",
+  "priceDataHash": "sha256:20f35a53fdd36aa9f955f858ba55e4db692fc12afe69eb81048926a7be30c440",
+  "lastFullValidationAt": "2026-11-24T10:55:51Z",
+  "updatedAt": "2026-11-24T10:55:51Z"
 }

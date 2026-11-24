@@ -2,14 +2,14 @@
   "ticker": "WWD",
   "source": "yahoo",
   "firstDate": "1994-04-04",
-  "lastDate": "2026-11-11",
-  "records": 8113,
+  "lastDate": "2026-11-23",
+  "records": 8151,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-20",
+  "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "2008-02-15",
-  "corporateActionHash": "sha256:06f9cbb9f67f75cfc6f6c8915e76be67519d83e1a24f60a919c5e07fcc450e98",
-  "priceDataHash": "sha256:cc3293d578743fb0cb2b1ef40308775621b6567bfce5c2e8a42fbe8a5e99a3ad",
-  "lastFullValidationAt": "2026-11-06T08:03:37Z",
-  "updatedAt": "2026-11-12T17:44:01Z"
+  "corporateActionHash": "sha256:a4db591f4851044fc0e1e6df5adfd780433befe44b0376f3cfd3ef04fa4aed0c",
+  "priceDataHash": "sha256:3c05ac9debf3da6e1099e4726f8e5c4aeaffc3e2b70e8953bc625f9c407571e5",
+  "lastFullValidationAt": "2026-11-24T11:00:23Z",
+  "updatedAt": "2026-11-24T11:00:23Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "ZION",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-11",
-  "records": 11658,
+  "lastDate": "2026-11-23",
+  "records": 11680,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-13",
+  "lastCorporateActionDate": "2026-11-12",
   "lastSplitDate": "1997-05-15",
-  "corporateActionHash": "sha256:dde92c9a087678082bbdacabaaa3b59ecab9793567b73c6b681f92333cdd0413",
-  "priceDataHash": "sha256:00e2f76f680b8b83bdb2033a25967f0b10f5a3a002d8ae43db4442c10a0eeada",
-  "lastFullValidationAt": "2026-11-06T08:05:13Z",
-  "updatedAt": "2026-11-12T17:44:53Z"
+  "corporateActionHash": "sha256:e2a7a40a9a203dc69b1128b17ff8c4a33852cf9fcc35282185cd8d5788595668",
+  "priceDataHash": "sha256:74b0f521c469c32c1c7cc708374e283bfbd340f7ab17c4116294f05cf8f5e23c",
+  "lastFullValidationAt": "2026-11-24T11:02:07Z",
+  "updatedAt": "2026-11-24T11:02:07Z"
 }

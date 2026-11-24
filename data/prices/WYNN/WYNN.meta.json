@@ -2,14 +2,14 @@
   "ticker": "WYNN",
   "source": "yahoo",
   "firstDate": "2002-10-25",
-  "lastDate": "2026-11-11",
-  "records": 6046,
+  "lastDate": "2026-11-23",
+  "records": 6049,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-14",
+  "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:bec648847706ce720aabcc4c1a23f4285d7f8ea1f9b2a47f441df085057d7acb",
-  "priceDataHash": "sha256:9660add307499b58e39ba067060d3f80969d5e55299e92d5e9a63ef326bdffeb",
-  "lastFullValidationAt": "2026-11-06T08:03:45Z",
-  "updatedAt": "2026-11-12T17:44:05Z"
+  "corporateActionHash": "sha256:cde4835731f1f0c098e88d3298e4cef3c7404cdd0d6bd39285731a9b958ac2cb",
+  "priceDataHash": "sha256:0c9942eb757f78fa1807939cc4ae877260e473bb809f718c25900da65a950cef",
+  "lastFullValidationAt": "2026-11-24T11:00:35Z",
+  "updatedAt": "2026-11-24T11:00:35Z"
 }
