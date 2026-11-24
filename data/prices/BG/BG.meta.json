@@ -2,14 +2,14 @@
   "ticker": "BG",
   "source": "yahoo",
   "firstDate": "2001-08-02",
-  "lastDate": "2026-11-20",
-  "records": 6357,
+  "lastDate": "2026-11-23",
+  "records": 6358,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-18",
+  "lastCorporateActionDate": "2026-11-17",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:f36993da87bc06c30b47c370ec2a82b21e699f2381b829fda1518ce0b3155d17",
-  "priceDataHash": "sha256:b8f2f72518b167094f7b55191cd8ac0573e5ed8be050b25b0c96adb33d9b2153",
-  "lastFullValidationAt": "2026-11-17T09:13:37Z",
-  "updatedAt": "2026-11-21T08:22:03Z"
+  "corporateActionHash": "sha256:0a1200d4d185d3eba7779e553422af9e7a2fd8de5bae883d440a3d57cc3c5b1b",
+  "priceDataHash": "sha256:c39a9b6df359ece667075869e3514978a1caa308a88dbea4569893339629215e",
+  "lastFullValidationAt": "2026-11-24T21:25:45Z",
+  "updatedAt": "2026-11-24T21:25:45Z"
 }

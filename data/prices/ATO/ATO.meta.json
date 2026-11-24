@@ -2,14 +2,14 @@
   "ticker": "ATO",
   "source": "yahoo",
   "firstDate": "1983-12-28",
-  "lastDate": "2026-11-20",
-  "records": 10671,
+  "lastDate": "2026-11-23",
+  "records": 10691,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-23",
   "lastSplitDate": "1994-05-17",
-  "corporateActionHash": "sha256:f1f4926c212d85a8ba45fcf08a38b9ed8c58095f4058169a5d8deb44207f70fc",
-  "priceDataHash": "sha256:95c1634134b7f4ddd813eda05cd3c590201edeaa11c8ac70dd197fb6334f433c",
-  "lastFullValidationAt": "2026-11-17T09:09:40Z",
-  "updatedAt": "2026-11-21T08:20:03Z"
+  "corporateActionHash": "sha256:9d633876f2d10361a24f5190647ad380c1d282ef06b30981775dd1be9e5bc7e9",
+  "priceDataHash": "sha256:daf865e3dfd35bd5587c282ce08baa14c8e6b5b8001922d3c8916775b05d1b28",
+  "lastFullValidationAt": "2026-11-24T21:21:47Z",
+  "updatedAt": "2026-11-24T21:21:47Z"
 }

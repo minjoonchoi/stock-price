@@ -1,15 +1,15 @@
 {
   "ticker": "CTRE",
   "source": "yahoo",
-  "firstDate": "2014-05-29",
-  "lastDate": "2026-11-20",
-  "records": 3140,
+  "firstDate": "2014-05-30",
+  "lastDate": "2026-11-23",
+  "records": 3137,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-30",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:2988b019a5a47587750ef2ba4f747e6b0ae11cc6a6b62b6a183700dfb2ca14b7",
-  "priceDataHash": "sha256:92d64a7419eb87a0050fb05366b73eaad837ebb939d00fbcd01268b95e6dde1c",
-  "lastFullValidationAt": "2026-11-17T09:25:59Z",
-  "updatedAt": "2026-11-21T08:28:17Z"
+  "priceDataHash": "sha256:7bf0d47f35939980e23b56cd3f85e35436150eb12fcf64c815168440c6c047dd",
+  "lastFullValidationAt": "2026-11-24T21:38:08Z",
+  "updatedAt": "2026-11-24T21:38:08Z"
 }
