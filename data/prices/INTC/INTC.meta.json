@@ -2,14 +2,14 @@
   "ticker": "INTC",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-20",
-  "records": 11605,
+  "lastDate": "2026-11-24",
+  "records": 11607,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-08-07",
   "lastSplitDate": "2000-07-31",
   "corporateActionHash": "sha256:1d3edb3d2d43c522777264013e020eb8e53b0d57c252227638f833b8f11f8326",
-  "priceDataHash": "sha256:667b104703a85c18615f7384073c120d81bbd6c892f47312a8fca2a5d2e67eb3",
+  "priceDataHash": "sha256:7dc48aa3929c2d225c80d2699dc4c6235740e520b56be4d29758f986150cca20",
   "lastFullValidationAt": "2026-11-20T18:10:07Z",
-  "updatedAt": "2026-11-21T17:04:18Z"
+  "updatedAt": "2026-11-25T20:45:25Z"
 }

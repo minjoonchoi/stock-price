@@ -2,14 +2,14 @@
   "ticker": "LFUS",
   "source": "yahoo",
   "firstDate": "1992-09-22",
-  "lastDate": "2026-11-20",
-  "records": 8571,
+  "lastDate": "2026-11-24",
+  "records": 8573,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-19",
   "lastSplitDate": "1997-06-11",
   "corporateActionHash": "sha256:b39b5b73953015ace07431349c11530e26d17034c96bfba55f81d43341e25970",
-  "priceDataHash": "sha256:b946d03966f833e67b2075475dd818e3fe7ece3f8e9f46fd7e0e1a9b4ed4fca7",
+  "priceDataHash": "sha256:9cf3880974ad57f138c74478c11c37f09656a08ee58f2423981e88e22375134f",
   "lastFullValidationAt": "2026-11-20T18:15:47Z",
-  "updatedAt": "2026-11-21T17:07:12Z"
+  "updatedAt": "2026-11-25T20:48:17Z"
 }

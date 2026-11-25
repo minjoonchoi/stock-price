@@ -2,14 +2,14 @@
   "ticker": "FCEL",
   "source": "yahoo",
   "firstDate": "1992-06-25",
-  "lastDate": "2026-11-20",
-  "records": 8663,
+  "lastDate": "2026-11-24",
+  "records": 8665,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2024-11-11",
   "lastSplitDate": "2024-11-11",
   "corporateActionHash": "sha256:f101ddb67067575d8ffc1a14e7b4ec3a25fb3ee6715e89fe6536ebb7166ea737",
-  "priceDataHash": "sha256:0225fc98256b2c133c01b3a0d4618b746d92d26c686ca8adf2500cba0e1be5c1",
+  "priceDataHash": "sha256:80441cf43a378584161678ba37babf5c7b09b516bc5c465357f332c6060c7162",
   "lastFullValidationAt": "2026-11-20T17:56:13Z",
-  "updatedAt": "2026-11-21T16:57:04Z"
+  "updatedAt": "2026-11-25T20:38:16Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "GLOB",
   "source": "yahoo",
   "firstDate": "2014-07-18",
-  "lastDate": "2026-11-20",
-  "records": 3106,
+  "lastDate": "2026-11-24",
+  "records": 3108,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:37de4496b5d3b0143142b8da72a2ebdffdfd15a1153e513b26b2198048a01462",
+  "priceDataHash": "sha256:29c6dfb5a1016fbc725acc0e7f8ec9224e008826552e3872cd457357d9ed0784",
   "lastFullValidationAt": "2026-11-20T18:01:47Z",
-  "updatedAt": "2026-11-21T16:59:58Z"
+  "updatedAt": "2026-11-25T20:41:08Z"
 }

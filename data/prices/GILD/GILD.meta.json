@@ -2,14 +2,14 @@
   "ticker": "GILD",
   "source": "yahoo",
   "firstDate": "1992-01-22",
-  "lastDate": "2026-11-20",
-  "records": 8749,
+  "lastDate": "2026-11-24",
+  "records": 8751,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "2013-01-28",
   "corporateActionHash": "sha256:7d3e1cf9f5821748e2de7e6b6bd88d0d323c6715f79e7cfae6a203ebec760711",
-  "priceDataHash": "sha256:ff43af490421d16d06d43181b9f969b39ae8994207fcc3c2bbfa6aa664cd2948",
+  "priceDataHash": "sha256:e17ceaeecf9c4e634757ff747773ea379aafd1bea0c95105d04df48cf85259c3",
   "lastFullValidationAt": "2026-11-20T18:01:35Z",
-  "updatedAt": "2026-11-21T16:59:52Z"
+  "updatedAt": "2026-11-25T20:41:03Z"
 }

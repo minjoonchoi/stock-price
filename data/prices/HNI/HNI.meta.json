@@ -2,14 +2,14 @@
   "ticker": "HNI",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-20",
-  "records": 11749,
+  "lastDate": "2026-11-24",
+  "records": 11751,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-28",
+  "lastCorporateActionDate": "2026-11-23",
   "lastSplitDate": "1998-03-30",
-  "corporateActionHash": "sha256:9e1b3454ec2fe85847cc52d4457cff091699121c88ce5c3e582ec419e4443793",
-  "priceDataHash": "sha256:d03df75d512ca06a15c29c1b3f4f22fc2605222de0e8d2d142cf2c9898dd3c48",
+  "corporateActionHash": "sha256:c7ccb87f0f25ab482d7ddcb39ff692e8cfb868a7d64bb305ecaffa37fee865bd",
+  "priceDataHash": "sha256:461a6a974f360e214c832f13015082ece7febf2859fba5f7e916a39858fb98a1",
   "lastFullValidationAt": "2026-11-20T18:05:55Z",
-  "updatedAt": "2026-11-21T17:02:09Z"
+  "updatedAt": "2026-11-25T20:43:17Z"
 }

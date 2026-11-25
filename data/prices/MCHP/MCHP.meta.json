@@ -2,14 +2,14 @@
   "ticker": "MCHP",
   "source": "yahoo",
   "firstDate": "1993-03-19",
-  "lastDate": "2026-11-20",
-  "records": 8437,
+  "lastDate": "2026-11-24",
+  "records": 8439,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-23",
   "lastSplitDate": "2021-10-13",
-  "corporateActionHash": "sha256:fff9bf35b5c0efd3ca2f4833d44c055bb8ddd9c6069e8c8c0ff4c4639449ed1a",
-  "priceDataHash": "sha256:bd7081f539155839575f23c7d676c00b961c33b95f967ca9f07a4367ef5fe080",
+  "corporateActionHash": "sha256:0437857ce29e4d44fb82bb8f56653058e81093b6d602fbc04f6cc519ab38c195",
+  "priceDataHash": "sha256:b491fd091aa51a7c28f6307fd871231c82d07845360e768ff344635bace2d752",
   "lastFullValidationAt": "2026-11-20T18:19:55Z",
-  "updatedAt": "2026-11-21T17:09:28Z"
+  "updatedAt": "2026-11-25T20:50:29Z"
 }

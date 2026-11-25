@@ -2,14 +2,14 @@
   "ticker": "INTA",
   "source": "yahoo",
   "firstDate": "2021-06-30",
-  "lastDate": "2026-11-20",
-  "records": 1356,
+  "lastDate": "2026-11-24",
+  "records": 1358,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:d12cfb5f74b86b44df8e7ac3a51940f68dc60b4549e04836ca326006039a1140",
+  "priceDataHash": "sha256:143bddb59350772e4ddd374ff6d6df3bed271d4daa2326e89fda20313f0a6319",
   "lastFullValidationAt": "2026-11-20T18:10:03Z",
-  "updatedAt": "2026-11-21T17:04:16Z"
+  "updatedAt": "2026-11-25T20:45:22Z"
 }

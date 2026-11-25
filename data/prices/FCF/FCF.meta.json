@@ -2,14 +2,14 @@
   "ticker": "FCF",
   "source": "yahoo",
   "firstDate": "1992-06-10",
-  "lastDate": "2026-11-20",
-  "records": 8538,
+  "lastDate": "2026-11-24",
+  "records": 8540,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-06",
   "lastSplitDate": "1999-11-19",
   "corporateActionHash": "sha256:09e990ae29c1da97d0589296817e4d329668a189eabca723c6d316ddcd6b9004",
-  "priceDataHash": "sha256:4ffefa23900b831249fce5863f335c011a2c554f8c8c9f5e9f378990f78ab26f",
+  "priceDataHash": "sha256:ea4617330bb9cc4b00ec57fb3aaf24429b80127228305e9d3b5dd2b0010823a6",
   "lastFullValidationAt": "2026-11-20T17:56:17Z",
-  "updatedAt": "2026-11-21T16:57:06Z"
+  "updatedAt": "2026-11-25T20:38:19Z"
 }

@@ -2,13 +2,13 @@
   "jobName": "collect-prices",
   "runId": "2026-11-25",
   "totalTargets": 1637,
-  "processedTargets": 500,
-  "lastProcessedTicker": "ENVA",
-  "cursorIndex": 500,
+  "processedTargets": 1000,
+  "lastProcessedTicker": "NBIX",
+  "cursorIndex": 1000,
   "completed": false,
   "secTickerHash": "sha256:92c9131c756348cd5ec46ef329aeeda110fe33a1deac46999d1287cd78a1428a",
   "universeHash": "sha256:e0500d715ef89b84559201832dab8a6372425d60bc3f4a8af0fb5be3b7688dcc",
   "shardCount": 1,
   "startedAt": "2026-11-25T09:52:07Z",
-  "updatedAt": "2026-11-25T10:08:47Z"
+  "updatedAt": "2026-11-25T20:53:27Z"
 }
