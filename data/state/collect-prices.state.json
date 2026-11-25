@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-11-24",
-  "totalTargets": 1636,
+  "runId": "2026-11-25",
+  "totalTargets": 1637,
   "processedTargets": 500,
   "lastProcessedTicker": "ENVA",
   "cursorIndex": 500,
   "completed": false,
-  "secTickerHash": "sha256:fc4fab1c9982e66786e244dbad3cdbae71bb3224a3bf3a9ccd141d0570abc3ad",
-  "universeHash": "sha256:dbc53edcf5f800862d3e03f1e8cfc13459a514e2b9980695f1c3a4abb6ec5a04",
+  "secTickerHash": "sha256:92c9131c756348cd5ec46ef329aeeda110fe33a1deac46999d1287cd78a1428a",
+  "universeHash": "sha256:e0500d715ef89b84559201832dab8a6372425d60bc3f4a8af0fb5be3b7688dcc",
   "shardCount": 1,
-  "startedAt": "2026-11-24T21:12:23Z",
-  "updatedAt": "2026-11-24T21:45:28Z"
+  "startedAt": "2026-11-25T09:52:07Z",
+  "updatedAt": "2026-11-25T10:08:47Z"
 }
