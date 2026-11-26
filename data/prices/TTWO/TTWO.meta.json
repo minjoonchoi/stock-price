@@ -2,14 +2,14 @@
   "ticker": "TTWO",
   "source": "yahoo",
   "firstDate": "1997-04-15",
-  "lastDate": "2026-11-20",
-  "records": 7449,
+  "lastDate": "2026-11-25",
+  "records": 7452,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2008-09-25",
   "lastSplitDate": "2005-04-12",
   "corporateActionHash": "sha256:8e2056ddf1ca2d56272345c462d0765dec4e5c988e8e462a55a7cdc2ea88c558",
-  "priceDataHash": "sha256:3bf55f7977c169ceb4ea540717754b3dca4d9f3cb353dc6616118cedf4c5ba92",
+  "priceDataHash": "sha256:d13f704a3a46d27abb683898d76797d48ee6345b84a472c05f21747b06a4c578",
   "lastFullValidationAt": "2026-11-21T22:42:34Z",
-  "updatedAt": "2026-11-21T22:42:34Z"
+  "updatedAt": "2026-11-26T09:46:41Z"
 }

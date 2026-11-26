@@ -2,14 +2,14 @@
   "ticker": "SCHW",
   "source": "yahoo",
   "firstDate": "1987-09-22",
-  "lastDate": "2026-11-20",
-  "records": 9801,
+  "lastDate": "2026-11-25",
+  "records": 9804,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-13",
   "lastSplitDate": "2000-05-31",
   "corporateActionHash": "sha256:ae4272b63aab09e58f792c04f3f818faee58faf0ed8d9796ad6e2536c6a539ce",
-  "priceDataHash": "sha256:ed9e09f2abe8a3b43779beda541b005548b10822f33e8257ead1a8cd91d229bb",
+  "priceDataHash": "sha256:f6865108033971a0f873551862a659bcf2131b53d0928075f8c63d5067bc037a",
   "lastFullValidationAt": "2026-11-21T22:31:54Z",
-  "updatedAt": "2026-11-21T22:31:54Z"
+  "updatedAt": "2026-11-26T09:40:41Z"
 }

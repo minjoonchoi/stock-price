@@ -2,14 +2,14 @@
   "ticker": "PATK",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-20",
-  "records": 11565,
+  "lastDate": "2026-11-25",
+  "records": 11568,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-23",
   "lastSplitDate": "2024-12-16",
-  "corporateActionHash": "sha256:d1b305c5977c8d1efab89e6931f087dfb4649462328446fe2a3307da83047082",
-  "priceDataHash": "sha256:198bf8a858fb19bf6701d4c7cfc03f47b5fe4e030480105d74feac243cc85142",
+  "corporateActionHash": "sha256:b7f835ced8ed1d783b072ac96e65e97bad2a3f0253179e24fc3e5af53ff7c443",
+  "priceDataHash": "sha256:0e2254101eedbe0e7983832d889df59a8e41b2dfe9d3872822a7c347d922aba2",
   "lastFullValidationAt": "2026-11-21T22:20:12Z",
-  "updatedAt": "2026-11-21T22:20:12Z"
+  "updatedAt": "2026-11-26T09:34:29Z"
 }

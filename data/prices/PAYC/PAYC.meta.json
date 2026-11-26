@@ -2,14 +2,14 @@
   "ticker": "PAYC",
   "source": "yahoo",
   "firstDate": "2014-04-15",
-  "lastDate": "2026-11-20",
-  "records": 3171,
+  "lastDate": "2026-11-25",
+  "records": 3174,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-24",
+  "lastCorporateActionDate": "2026-11-23",
   "lastSplitDate": "",
-  "corporateActionHash": "sha256:86f81c8c3b913bc58164798a1837ca1329401d1680f5c9182a6b8a6cd82dcf61",
-  "priceDataHash": "sha256:33d35bf1c0fbe50a94f5a8d5445ff7e0183ca58a4cd0e64492b14fa0e3328f9d",
+  "corporateActionHash": "sha256:d1a2a7ebc63ac4bd7a494d1cc725c0bf16d12cb7834483ec31747c05ad45ed13",
+  "priceDataHash": "sha256:5f9974574d53957c4825c120db71f25c76d8ecd34bd72270d413dc5648f95054",
   "lastFullValidationAt": "2026-11-21T22:20:20Z",
-  "updatedAt": "2026-11-21T22:20:20Z"
+  "updatedAt": "2026-11-26T09:34:33Z"
 }

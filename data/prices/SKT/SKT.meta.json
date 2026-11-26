@@ -2,14 +2,14 @@
   "ticker": "SKT",
   "source": "yahoo",
   "firstDate": "1993-05-28",
-  "lastDate": "2026-11-20",
-  "records": 8381,
+  "lastDate": "2026-11-25",
+  "records": 8384,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-30",
   "lastSplitDate": "2011-01-25",
   "corporateActionHash": "sha256:3d79422ae7223849c678e0e472a0bceb3c1a4e81af8a77e5482c687dd175ab61",
-  "priceDataHash": "sha256:702b7e4b03debe18ce978c2c8a8d847db0f2270047b95e90c0d95fd5e44e5973",
+  "priceDataHash": "sha256:ed8ce0790cff11fc171c626b22a57cee12de243ff1e6e92ca4c215da11681d70",
   "lastFullValidationAt": "2026-11-21T22:33:34Z",
-  "updatedAt": "2026-11-21T22:33:34Z"
+  "updatedAt": "2026-11-26T09:41:43Z"
 }

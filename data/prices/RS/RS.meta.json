@@ -2,14 +2,14 @@
   "ticker": "RS",
   "source": "yahoo",
   "firstDate": "1994-09-16",
-  "lastDate": "2026-11-20",
-  "records": 8025,
+  "lastDate": "2026-11-25",
+  "records": 8028,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-20",
   "lastSplitDate": "2006-07-20",
   "corporateActionHash": "sha256:bcd77bc9cde9521196c6f70c6641846832f1fe6ad3bbf0d3557e1064a2eac386",
-  "priceDataHash": "sha256:80b37707da8db02b94c6a0af73766b567f74ae4972655cd7735ca838bfd393d6",
+  "priceDataHash": "sha256:05f0e451261a5cc0db5968ef0bfce4f6c3d2b42437760b942b36bc4a435ab613",
   "lastFullValidationAt": "2026-11-21T22:30:04Z",
-  "updatedAt": "2026-11-21T22:30:04Z"
+  "updatedAt": "2026-11-26T09:39:43Z"
 }

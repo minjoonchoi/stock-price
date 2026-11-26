@@ -2,14 +2,14 @@
   "ticker": "PENG",
   "source": "yahoo",
   "firstDate": "2017-05-24",
-  "lastDate": "2026-11-20",
-  "records": 2388,
+  "lastDate": "2026-11-25",
+  "records": 2391,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2022-02-02",
   "lastSplitDate": "2022-02-02",
   "corporateActionHash": "sha256:380e4d68f7039a98b6789edadcf1217dd2897e81234e087a811b3a2da6d9b4be",
-  "priceDataHash": "sha256:46da152d416eeb16c5538ae4b9226cd0eef1386f7035336713bb33f39e2878aa",
+  "priceDataHash": "sha256:562fd2942a33d41ce34aedc6bc56752f009ef4beefa156b56f17b44a7adfcf35",
   "lastFullValidationAt": "2026-11-21T22:21:28Z",
-  "updatedAt": "2026-11-21T22:21:28Z"
+  "updatedAt": "2026-11-26T09:35:07Z"
 }

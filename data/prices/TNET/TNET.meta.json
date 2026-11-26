@@ -2,14 +2,14 @@
   "ticker": "TNET",
   "source": "yahoo",
   "firstDate": "2014-03-27",
-  "lastDate": "2026-11-20",
-  "records": 3184,
+  "lastDate": "2026-11-25",
+  "records": 3187,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:1bf84c965719dace0702b0bc80ed4c9b40695f31433992d82eaa2aced1df23b7",
-  "priceDataHash": "sha256:865fcf5306d70335053e4ae0f8cac17c7bfe256f3bc70fa92e1f90f09d4d5b8c",
+  "priceDataHash": "sha256:fca42ddbf8b0e3e2942038785f9cb91d9eaaeb4002fef694a74b58a584148c5d",
   "lastFullValidationAt": "2026-11-21T22:40:44Z",
-  "updatedAt": "2026-11-21T22:40:44Z"
+  "updatedAt": "2026-11-26T09:45:37Z"
 }

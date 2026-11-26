@@ -2,14 +2,14 @@
   "ticker": "SVC",
   "source": "yahoo",
   "firstDate": "1995-08-17",
-  "lastDate": "2026-11-20",
-  "records": 7840,
+  "lastDate": "2026-11-25",
+  "records": 7843,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-19",
   "lastSplitDate": "2026-07-07",
   "corporateActionHash": "sha256:595873ccd5996d7054d281077065158d42b0bb7c37d35c2f823cef52add95731",
-  "priceDataHash": "sha256:ff317e98adaa8c95b14f3b8ea48596e65c6ebcaa2e5a6cde0957f52dc76711d7",
+  "priceDataHash": "sha256:873c99609a6756ed36c5541a3f6f382dd6a7621c0260ae3e3e7ae6e34ea179fb",
   "lastFullValidationAt": "2026-11-21T22:37:46Z",
-  "updatedAt": "2026-11-21T22:37:46Z"
+  "updatedAt": "2026-11-26T09:44:05Z"
 }

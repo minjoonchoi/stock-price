@@ -2,14 +2,14 @@
   "ticker": "TNGX",
   "source": "yahoo",
   "firstDate": "2020-09-03",
-  "lastDate": "2026-11-20",
-  "records": 1562,
+  "lastDate": "2026-11-25",
+  "records": 1565,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:2df6fa4b7d5d2dc6926d243492dc2c85be54bb4540f19bf482555f849b0d131b",
+  "priceDataHash": "sha256:2d7842cc31cd1f5f54a525f20db9c6fc1ea42ae5c81e0894073a023b52b9dc54",
   "lastFullValidationAt": "2026-11-21T22:40:48Z",
-  "updatedAt": "2026-11-21T22:40:48Z"
+  "updatedAt": "2026-11-26T09:45:39Z"
 }
