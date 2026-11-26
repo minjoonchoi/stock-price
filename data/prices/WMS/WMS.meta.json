@@ -2,14 +2,14 @@
   "ticker": "WMS",
   "source": "yahoo",
   "firstDate": "2014-07-25",
-  "lastDate": "2026-11-23",
-  "records": 3102,
+  "lastDate": "2026-11-25",
+  "records": 3104,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-01",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:5b96abfe21ba2c8cec55703336148c97b382735b30ca49fb2e622c286d5ee62a",
-  "priceDataHash": "sha256:96b298960447dbc47137f678ad07f4aa035af000f27095d8514e711c3d08fa5e",
+  "priceDataHash": "sha256:e6c08182c467e5f6f98805b9fd8e4dc764ad433913e32632a1a891b0c7ef8141",
   "lastFullValidationAt": "2026-11-24T10:59:11Z",
-  "updatedAt": "2026-11-24T10:59:11Z"
+  "updatedAt": "2026-11-26T20:15:22Z"
 }

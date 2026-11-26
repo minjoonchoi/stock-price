@@ -2,14 +2,14 @@
   "ticker": "VCEL",
   "source": "yahoo",
   "firstDate": "1997-02-04",
-  "lastDate": "2026-11-23",
-  "records": 7498,
+  "lastDate": "2026-11-25",
+  "records": 7500,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2013-10-16",
   "lastSplitDate": "2013-10-16",
   "corporateActionHash": "sha256:4488bba7b0370288615998956422ddb5883d62e4c0954e83e261d55719a8f4bb",
-  "priceDataHash": "sha256:50bde2e629836fa968cf68016f2e18ec18b16e9fddcecd498b4a85bcc31a47f2",
+  "priceDataHash": "sha256:cda7aaf1ff28424fd53797df4feeee97c2f4f50ff5c5948aca5551bdfa06b250",
   "lastFullValidationAt": "2026-11-24T10:54:11Z",
-  "updatedAt": "2026-11-24T10:54:11Z"
+  "updatedAt": "2026-11-26T20:12:52Z"
 }

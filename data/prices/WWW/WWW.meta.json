@@ -2,14 +2,14 @@
   "ticker": "WWW",
   "source": "yahoo",
   "firstDate": "1980-03-17",
-  "lastDate": "2026-11-23",
-  "records": 11464,
+  "lastDate": "2026-11-25",
+  "records": 11466,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-01",
   "lastSplitDate": "2013-11-04",
   "corporateActionHash": "sha256:f30c15b3a71b89222bd38f206fc6a02c25d0f79ed417d736d078d1323635db65",
-  "priceDataHash": "sha256:a95516a7fd8329c3569a69a37e0dd510c2b7bf0a7861362938b4725c5b151e56",
+  "priceDataHash": "sha256:b8cc930d31c7112a752b5e893b8db81181d53f416449e863f4058409516f8d23",
   "lastFullValidationAt": "2026-11-24T11:00:27Z",
-  "updatedAt": "2026-11-24T11:00:27Z"
+  "updatedAt": "2026-11-26T20:16:00Z"
 }

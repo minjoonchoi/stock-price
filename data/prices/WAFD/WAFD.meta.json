@@ -2,14 +2,14 @@
   "ticker": "WAFD",
   "source": "yahoo",
   "firstDate": "1982-11-09",
-  "lastDate": "2026-11-23",
-  "records": 10948,
+  "lastDate": "2026-11-25",
+  "records": 10950,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-20",
   "lastSplitDate": "2005-02-02",
   "corporateActionHash": "sha256:bc2290a0c53dbb16df3c67e1830a4879307eda19fcee869693e6e127dfe1431c",
-  "priceDataHash": "sha256:0dcc3e3264606b3170f0cdd4cceba94d64dffaa3dd8084baa79168d4f1be061d",
+  "priceDataHash": "sha256:13b4dd69e620cabf5eba74672b1365d957cbf499eb5a56a446e8698f0b347798",
   "lastFullValidationAt": "2026-11-24T10:57:27Z",
-  "updatedAt": "2026-11-24T10:57:27Z"
+  "updatedAt": "2026-11-26T20:14:30Z"
 }

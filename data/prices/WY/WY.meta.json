@@ -2,14 +2,14 @@
   "ticker": "WY",
   "source": "yahoo",
   "firstDate": "1973-05-03",
-  "lastDate": "2026-11-23",
-  "records": 13338,
+  "lastDate": "2026-11-25",
+  "records": 13340,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-04",
   "lastSplitDate": "1988-06-03",
   "corporateActionHash": "sha256:567da99ad518113cebfe0e3cacf02decb823c6f289c3694010c3867a4692c726",
-  "priceDataHash": "sha256:1fde88175e7fe14b444fd3b38bc2af86b3b894fa0c46b15abe7027a8fa20d591",
+  "priceDataHash": "sha256:e0081ce0cff195b3ae270e46d743519a87840127e4197cd4ba4d84b1ffbbaab8",
   "lastFullValidationAt": "2026-11-24T11:00:31Z",
-  "updatedAt": "2026-11-24T11:00:31Z"
+  "updatedAt": "2026-11-26T20:16:02Z"
 }

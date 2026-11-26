@@ -2,14 +2,14 @@
   "ticker": "VSEC",
   "source": "yahoo",
   "firstDate": "1982-10-22",
-  "lastDate": "2026-11-23",
-  "records": 10623,
+  "lastDate": "2026-11-25",
+  "records": 10625,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-10-15",
   "lastSplitDate": "2016-08-04",
   "corporateActionHash": "sha256:66c84d080b6b037ba0e68092003faec5c388f2f1d9d532b752bab07d40c6ff2b",
-  "priceDataHash": "sha256:26aa2f4fd3f339319b1507366ac311cccab8739fb881ba48a073fb7a637ff971",
+  "priceDataHash": "sha256:2aab2d0f9148a51313f0fc631b7a329a7db70f84130531999a278d658fa2898a",
   "lastFullValidationAt": "2026-11-24T10:56:35Z",
-  "updatedAt": "2026-11-24T10:56:35Z"
+  "updatedAt": "2026-11-26T20:14:04Z"
 }

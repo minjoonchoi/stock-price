@@ -2,14 +2,14 @@
   "ticker": "YUM",
   "source": "yahoo",
   "firstDate": "1997-09-17",
-  "lastDate": "2026-11-23",
-  "records": 7333,
+  "lastDate": "2026-11-25",
+  "records": 7335,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-09",
   "lastSplitDate": "2016-11-01",
   "corporateActionHash": "sha256:ab278785aaacdc00609bffe2b8f2c73e5855750ea548c2d0dc92add8361bc5fb",
-  "priceDataHash": "sha256:918a0388796a7be94d447ba49fa0660b3c4ef545d5ca11231a2990045ec7bef3",
+  "priceDataHash": "sha256:acff03dcb945775b8b126f25dcb6b4dd2b275b6cd4238626d3cc59e97c2d81d6",
   "lastFullValidationAt": "2026-11-24T11:01:31Z",
-  "updatedAt": "2026-11-24T11:01:31Z"
+  "updatedAt": "2026-11-26T20:16:32Z"
 }

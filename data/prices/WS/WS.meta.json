@@ -2,14 +2,14 @@
   "ticker": "WS",
   "source": "yahoo",
   "firstDate": "2023-11-28",
-  "lastDate": "2026-11-23",
-  "records": 750,
+  "lastDate": "2026-11-25",
+  "records": 752,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-09-15",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:9588d9362a6875661f53ae100d73589d131b4ea6243848ee1bda148b78ca2818",
-  "priceDataHash": "sha256:e9ef2c55f1f7a549d323155c9c25c2b6015d12206ddeab5823322806a186c5d2",
+  "priceDataHash": "sha256:07d328fbc736ddaceba8a1837604dafa1052ce728cc5d9bcead6cc288902ca2d",
   "lastFullValidationAt": "2026-11-24T10:59:31Z",
-  "updatedAt": "2026-11-24T10:59:31Z"
+  "updatedAt": "2026-11-26T20:15:32Z"
 }

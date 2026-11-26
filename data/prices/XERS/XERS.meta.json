@@ -2,14 +2,14 @@
   "ticker": "XERS",
   "source": "yahoo",
   "firstDate": "2018-06-21",
-  "lastDate": "2026-11-23",
-  "records": 2118,
+  "lastDate": "2026-11-25",
+  "records": 2120,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:cee20ea3b9547e0666e24278676927ac43a7a6de48abba2e058af820ad9f6c68",
+  "priceDataHash": "sha256:15e61821765416cf0596238ef82518c7519213075f75b4da7290663318f67cec",
   "lastFullValidationAt": "2026-11-24T11:00:47Z",
-  "updatedAt": "2026-11-24T11:00:47Z"
+  "updatedAt": "2026-11-26T20:16:10Z"
 }
