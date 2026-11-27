@@ -1,14 +1,14 @@
 {
   "jobName": "collect-prices",
-  "runId": "2026-11-25",
+  "runId": "2026-11-27",
   "totalTargets": 1637,
-  "processedTargets": 1637,
-  "lastProcessedTicker": "ZYME",
-  "cursorIndex": 1637,
-  "completed": true,
+  "processedTargets": 500,
+  "lastProcessedTicker": "ENVA",
+  "cursorIndex": 500,
+  "completed": false,
   "secTickerHash": "sha256:92c9131c756348cd5ec46ef329aeeda110fe33a1deac46999d1287cd78a1428a",
   "universeHash": "sha256:e0500d715ef89b84559201832dab8a6372425d60bc3f4a8af0fb5be3b7688dcc",
   "shardCount": 1,
-  "startedAt": "2026-11-25T09:52:07Z",
-  "updatedAt": "2026-11-26T20:17:00Z"
+  "startedAt": "2026-11-27T09:43:38Z",
+  "updatedAt": "2026-11-27T10:00:22Z"
 }

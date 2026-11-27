@@ -2,14 +2,14 @@
   "ticker": "AWI",
   "source": "yahoo",
   "firstDate": "2006-10-18",
-  "lastDate": "2026-11-24",
-  "records": 5050,
+  "lastDate": "2026-11-25",
+  "records": 5051,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-05",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:7a1957571951f90e159f9e0c3a18dfdb77f3349a12185a4c944d8506189e3dcd",
-  "priceDataHash": "sha256:8f55dd519706342ee9877fce5c5ee4c4004251b06ee502e6e1328a87cced9c5d",
+  "priceDataHash": "sha256:ae88d2ca6c05b3f34dfe8eb156c2d908a09c2c96c7545409a01dbe1b8d2eac7b",
   "lastFullValidationAt": "2026-11-24T21:22:47Z",
-  "updatedAt": "2026-11-25T09:57:25Z"
+  "updatedAt": "2026-11-27T09:48:58Z"
 }

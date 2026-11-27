@@ -2,14 +2,14 @@
   "ticker": "CART",
   "source": "yahoo",
   "firstDate": "2023-09-19",
-  "lastDate": "2026-11-24",
-  "records": 800,
+  "lastDate": "2026-11-25",
+  "records": 801,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:633c83483792a9f66f1af9338aed6e3c10119fd18f0cf3fc978f8e61baa1ce00",
+  "priceDataHash": "sha256:5be6acb014ae9337b61b5c9cdc42efe683857fe05ff985af8048c009f130d9ec",
   "lastFullValidationAt": "2026-11-24T21:30:22Z",
-  "updatedAt": "2026-11-25T10:01:13Z"
+  "updatedAt": "2026-11-27T09:52:48Z"
 }

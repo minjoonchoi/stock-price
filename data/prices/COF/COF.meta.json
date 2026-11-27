@@ -2,14 +2,14 @@
   "ticker": "COF",
   "source": "yahoo",
   "firstDate": "1994-11-16",
-  "lastDate": "2026-11-24",
-  "records": 8042,
+  "lastDate": "2026-11-25",
+  "records": 8043,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-16",
   "lastSplitDate": "1999-06-02",
   "corporateActionHash": "sha256:70e426daeb968ebebe18f6873109f30922f545bdd322f0d3e55ebbbc88d826f8",
-  "priceDataHash": "sha256:c2fc481f5e752805711267ebbbfd171c13e1962c1889e2dfcff1e479342aab0c",
+  "priceDataHash": "sha256:dd418ae2bba200c5173f5360c98b61b1fd563ff3209857a6448a6d04d3bcd8d3",
   "lastFullValidationAt": "2026-11-24T21:35:24Z",
-  "updatedAt": "2026-11-25T10:03:45Z"
+  "updatedAt": "2026-11-27T09:55:20Z"
 }
