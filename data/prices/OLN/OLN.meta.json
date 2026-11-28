@@ -2,14 +2,14 @@
   "ticker": "OLN",
   "source": "yahoo",
   "firstDate": "1973-02-21",
-  "lastDate": "2026-11-25",
-  "records": 13460,
+  "lastDate": "2026-11-27",
+  "records": 13461,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
-  "lastCorporateActionDate": "2026-08-27",
+  "lastCorporateActionDate": "2026-11-27",
   "lastSplitDate": "1999-02-09",
-  "corporateActionHash": "sha256:568cf13990fa5bcfd84e897a93cdfad56061730682631492d5a145bfd444ff76",
-  "priceDataHash": "sha256:80e3c91a9a5df59957077cfd32c56384f75d1af54d05417dda0e79123fe69b24",
+  "corporateActionHash": "sha256:770864afaafcd294a838125b7547ef94bdf3fc9d1d0915674e5278c0670e4c82",
+  "priceDataHash": "sha256:b195d25fa1101b5acce5b3625cef65c0d8eafb4c070cfae85cd116c82a3b0c33",
   "lastFullValidationAt": "2026-11-21T22:17:58Z",
-  "updatedAt": "2026-11-26T09:33:19Z"
+  "updatedAt": "2026-11-28T09:01:18Z"
 }

@@ -2,14 +2,14 @@
   "ticker": "PLUS",
   "source": "yahoo",
   "firstDate": "1996-11-15",
-  "lastDate": "2026-11-25",
-  "records": 7554,
+  "lastDate": "2026-11-27",
+  "records": 7555,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2026-11-24",
   "lastSplitDate": "2021-12-14",
   "corporateActionHash": "sha256:90a6cf80a7df22f67ed830f1636e261a8f2917e563cfb8de69cf9f51a5761651",
-  "priceDataHash": "sha256:22435aa1e70e0635ee937b002d467c01eb1197bcbb3e489da3f3bd3e4fbe4bdd",
+  "priceDataHash": "sha256:f3b0b9c5c556c5132ca15d7624beffdf0eeb360948b951dad7e9009305996d17",
   "lastFullValidationAt": "2026-11-26T09:36:07Z",
-  "updatedAt": "2026-11-26T09:36:07Z"
+  "updatedAt": "2026-11-28T09:04:02Z"
 }

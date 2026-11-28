@@ -2,14 +2,14 @@
   "ticker": "SPCX",
   "source": "yahoo",
   "firstDate": "2026-06-12",
-  "lastDate": "2026-11-25",
-  "records": 116,
+  "lastDate": "2026-11-27",
+  "records": 117,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:dba00e5aa88f620aa997121cb06c75ea60cbb2dd11c5a704f6efe2033d9ffaca",
+  "priceDataHash": "sha256:61cb14d1a556342d97d3131558f46fca591790734b4a7f6121821a0b511a831c",
   "lastFullValidationAt": "2026-11-21T22:35:50Z",
-  "updatedAt": "2026-11-26T09:43:01Z"
+  "updatedAt": "2026-11-28T09:10:30Z"
 }

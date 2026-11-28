@@ -2,14 +2,14 @@
   "ticker": "TRAX",
   "source": "yahoo",
   "firstDate": "2026-04-06",
-  "lastDate": "2026-11-25",
-  "records": 164,
+  "lastDate": "2026-11-27",
+  "records": 165,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:5aa8ea9ca560f0e55ebc7487f8ebe1050e585acf74f60441a46aa8f201ebf5c6",
+  "priceDataHash": "sha256:4dfc405eef20e5fb6fe6d1ebb6f368ecdc4d6d879b763e1188b9a579d09c27bb",
   "lastFullValidationAt": "2026-11-26T09:45:56Z",
-  "updatedAt": "2026-11-26T09:45:56Z"
+  "updatedAt": "2026-11-28T09:13:18Z"
 }

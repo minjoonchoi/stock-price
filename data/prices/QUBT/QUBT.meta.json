@@ -2,14 +2,14 @@
   "ticker": "QUBT",
   "source": "yahoo",
   "firstDate": "2007-02-01",
-  "lastDate": "2026-11-25",
-  "records": 4987,
+  "lastDate": "2026-11-27",
+  "records": 4988,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "2018-07-03",
   "lastSplitDate": "2018-07-03",
   "corporateActionHash": "sha256:2baccedcc6907e5a5f44652060acc0bfaf348a0b27f00fea9d8bbcc2c342937a",
-  "priceDataHash": "sha256:d1ee52f2e027b85cf9b713238dcd828c15496f2dd8b93d7a24476d31dccdfd24",
+  "priceDataHash": "sha256:2c3f33ede000f4908605beb19863ee824650d4be7583038fd9baa5462849c493",
   "lastFullValidationAt": "2026-11-21T22:26:30Z",
-  "updatedAt": "2026-11-26T09:37:47Z"
+  "updatedAt": "2026-11-28T09:05:38Z"
 }

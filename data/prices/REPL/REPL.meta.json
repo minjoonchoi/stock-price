@@ -2,14 +2,14 @@
   "ticker": "REPL",
   "source": "yahoo",
   "firstDate": "2018-07-20",
-  "lastDate": "2026-11-25",
-  "records": 2100,
+  "lastDate": "2026-11-27",
+  "records": 2101,
   "backfillCompleted": true,
   "adjustedSeriesValidated": true,
   "lastCorporateActionDate": "",
   "lastSplitDate": "",
   "corporateActionHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "priceDataHash": "sha256:1e9948f43a6361dfdedb609da117010884d3124e738426a92f43087ac51a5679",
+  "priceDataHash": "sha256:86dd6bd11f14441cd59ebdf6fa0edf03d7b2cb3a611089ab8ef9dd240e88d276",
   "lastFullValidationAt": "2026-11-26T09:38:25Z",
-  "updatedAt": "2026-11-26T09:38:25Z"
+  "updatedAt": "2026-11-28T09:06:14Z"
 }
